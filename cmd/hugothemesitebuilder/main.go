@@ -8,20 +8,19 @@ import (
 	"path/filepath"
 	"time"
 
-	"github.com/gohugoio/hugoThemesSiteBuilder/pkg/client"
 	"github.com/gohugoio/hugoThemesSiteBuilder/pkg/buildcmd"
+	"github.com/gohugoio/hugoThemesSiteBuilder/pkg/client"
 	"github.com/gohugoio/hugoThemesSiteBuilder/pkg/rootcmd"
 	"github.com/peterbourgon/ff/v3"
 	"github.com/peterbourgon/ff/v3/ffcli"
 )
 
-// This will be set by Goreleaser.
 var version = "v0.5"
 
 func main() {
 	var (
 		rootCommand, rootConfig = rootcmd.New()
-		buildCommand              = buildcmd.New(rootConfig)
+		buildCommand            = buildcmd.New(rootConfig)
 
 		versionCommand = &ffcli.Command{
 			Name:       "version",

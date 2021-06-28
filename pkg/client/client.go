@@ -80,6 +80,9 @@ func (c *Client) RunHugo(arg ...string) error {
 	return c.runHugo(io.Discard, arg...)
 }
 
+// CreateThemesConfig reads themes.txt and creates a config.json
+// suitable for Hugo. Note that we're only using that config to
+// get the full module listing.
 func (c *Client) CreateThemesConfig() error {
 	f, err := os.Open(filepath.Join(c.outDir, "themes.txt"))
 	if err != nil {
@@ -108,10 +111,13 @@ func (c *Client) CreateThemesConfig() error {
 	}
 
 	config["module"] = map[string]interface{}{
+		"hugoVersion": map[string]interface{}{
+			"min": "0.84.2", // The noMounts config option was added in this version.
+		},
 		"imports": imports,
 	}
 
-	b, err := json.Marshal(config)
+	b, err := json.MarshalIndent(config, "", "  ")
 	if err != nil {
 		return err
 	}
@@ -177,18 +183,19 @@ func (c *Client) GetGitHubRepos(mods ModulesMap) (map[string]GitHubRepo, error) 
 			return nil, err
 		}
 
-		b, err := json.Marshal(m2)
-		if err != nil {
-			return nil, err
+		if len(m2) > 0 {
+			b, err := json.Marshal(m2)
+			if err != nil {
+				return nil, err
+			}
+
+			for k, v := range m2 {
+				m[k] = v
+			}
+
+			CheckErr(os.MkdirAll(filepath.Dir(nextCacheFilename), 0777))
+			CheckErr(ioutil.WriteFile(nextCacheFilename, b, 0666))
 		}
-
-		for k, v := range m2 {
-			m[k] = v
-
-		}
-
-		CheckErr(os.MkdirAll(filepath.Dir(nextCacheFilename), 0777))
-		CheckErr(ioutil.WriteFile(nextCacheFilename, b, 0666))
 	}
 
 	return m, nil
