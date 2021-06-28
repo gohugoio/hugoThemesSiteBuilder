@@ -1,4 +1,4 @@
-module github.com/gohugoio/hugoThemeSiteBuilder/cmd/hugothemesitebuilder/build
+module github.com/gohugoio/hugoThemesSiteBuilder/cmd/hugothemesitebuilder/build
 
 go 1.16
 

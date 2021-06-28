@@ -10,14 +10,12 @@ import (
 	"net/http"
 	"os"
 	"os/exec"
-	"path"
 	"path/filepath"
-	"regexp"
 	"runtime"
+	"sort"
+	"strconv"
 	"strings"
 	"time"
-
-	"gopkg.in/yaml.v3"
 
 	"github.com/gohugoio/hugo/modules"
 )
@@ -122,168 +120,101 @@ func (c *Client) CreateThemesConfig() error {
 
 }
 
+func (c *Client) JoinOutPath(elem ...string) string {
+	return filepath.Join(append([]string{c.outDir}, elem...)...)
+}
+
 func (c *Client) TimeTrack(start time.Time, name string) {
 	elapsed := time.Since(start)
 	fmt.Fprintf(c.logWriter, "%s in %v ms\n", name, int(1000*elapsed.Seconds()))
 }
 
-func (c *Client) WriteThemesContent(mm ModulesMap) error {
-	githubrepos, err := c.GetGitHubRepos(mm)
-	if err != nil {
-		return err
-	}
-	maxStars := 0
-	for _, ghRepo := range githubrepos {
-		if ghRepo.Stars > maxStars {
-			maxStars = ghRepo.Stars
+const cacheFileSuffix = "githubrepos.json"
+
+// GetGitHubRepos will first look in the chache folder for GitHub repo
+// information for mods. If not found, it will ask GitHub and then store
+// it in the cache.
+//
+// If you start with an empty cache, you will need to set a GITHUB_TOKEN environment variable.
+func (c *Client) GetGitHubRepos(mods ModulesMap) (map[string]GitHubRepo, error) {
+	cacheFiles := c.getGithubReposCacheFilesSorted()
+	m := make(map[string]GitHubRepo)
+	for _, cacheFile := range cacheFiles {
+		cacheFilename := filepath.Join(c.outDir, cacheDir, cacheFile)
+		b, err := ioutil.ReadFile(cacheFilename)
+		if err != nil {
+			return nil, err
+		}
+
+		m2 := make(map[string]GitHubRepo)
+		if err = json.Unmarshal(b, &m2); err != nil {
+			return nil, err
+		}
+
+		for k, v := range m2 {
+			m[k] = v
+
 		}
 	}
 
-	contentDir := filepath.Join(c.outDir, "site", "content")
-	checkErr(os.RemoveAll(contentDir))
-	checkErr(os.MkdirAll(contentDir, 0777))
-
-	for k, m := range mm {
-
-		themeName := strings.ToLower(path.Base(k))
-
-		themeDir := filepath.Join(contentDir, "themes", themeName)
-		checkErr(os.MkdirAll(themeDir, 0777))
-
-		copyIfExists := func(sourcePath, targetPath string) {
-			fs, err := os.Open(filepath.Join(m.Dir, sourcePath))
-			if err != nil {
-				return
-			}
-			defer fs.Close()
-			targetFilename := filepath.Join(themeDir, targetPath)
-			checkErr(os.MkdirAll(filepath.Dir(targetFilename), 0777))
-			ft, err := os.Create(targetFilename)
-			checkErr(err)
-			defer ft.Close()
-
-			_, err = io.Copy(ft, fs)
-			checkErr(err)
+	missing := ModulesMap{}
+	for k, v := range mods {
+		if _, found := m[k]; !found {
+			missing[k] = v
 		}
-
-		fixReadMeContent := func(s string) string {
-			// Tell Hugo not to process shortcode samples
-			s = regexp.MustCompile(`(?s){\{%([^\/].*?)%\}\}`).ReplaceAllString(s, `{{%/*$1*/%}}`)
-			s = regexp.MustCompile(`(?s){\{<([^\/].*?)>\}\}`).ReplaceAllString(s, `{{</*$1*/>}}`)
-
-			return s
-		}
-
-		getReadMeContent := func() string {
-			files, err := os.ReadDir(m.Dir)
-			checkErr(err)
-			for _, fi := range files {
-				if fi.IsDir() {
-					continue
-				}
-				if strings.EqualFold(fi.Name(), "readme.md") {
-					b, err := ioutil.ReadFile(filepath.Join(m.Dir, fi.Name()))
-					checkErr(err)
-					return fixReadMeContent(string(b))
-				}
-			}
-			return ""
-		}
-
-		title := strings.Title(themeName)
-		readMeContent := getReadMeContent()
-		ghRepo := githubrepos[m.Path]
-
-		// 30 days.
-		d30 := 30 * 24 * time.Hour
-		const boost = 50
-
-		// Higher is better.
-		weight := maxStars + 500
-		weight -= ghRepo.Stars
-		// Boost themes updated recently.
-		if !m.Time.IsZero() {
-			// Add some weight to recently updated themes.
-			age := time.Since(m.Time)
-			if age < (3 * d30) {
-				weight -= (boost * 2)
-			} else if age < (6 * d30) {
-				weight -= boost
-			}
-		}
-
-		// Boost themes with a Hugo version indicator set that covers.
-		// the current Hugo version.
-		if m.HugoVersion.IsValid() {
-			weight -= boost
-		}
-
-		// TODO(bep) we don't build any demo site anymore, but
-		// we could and should probably build a simple site and
-		// count warnings and error and use that to
-		// either pull it down the list with weight or skip it.
-
-		c.Logf("Processing theme %q with weight %d", themeName, weight)
-
-		// TODO1 tags, normalized.
-
-		frontmatter := map[string]interface{}{
-			"title":       title,
-			"slug":        themeName,
-			"aliases":     []string{"/" + themeName},
-			"weight":      weight,
-			"lastMod":     m.Time,
-			"hugoVersion": m.HugoVersion,
-			"meta":        m.Meta,
-			"githubInfo":  ghRepo,
-		}
-
-		b, err := yaml.Marshal(frontmatter)
-		checkErr(err)
-
-		content := fmt.Sprintf(`---
-%s
----
-%s
-`, string(b), readMeContent)
-
-		if err := ioutil.WriteFile(filepath.Join(themeDir, "index.md"), []byte(content), 0666); err != nil {
-			return err
-		}
-
-		copyIfExists("images/tn.png", "tn-featured.png")
-		copyIfExists("images/screenshot.png", "screenshot.png")
-
-		return nil
-
 	}
 
-	return nil
+	if len(missing) > 0 {
+		cacheNum := 0
+		if len(cacheFiles) > 0 {
+			last := cacheFiles[len(cacheFiles)-1]
+			cacheNum, _ = strconv.Atoi(last[:strings.Index(last, ".")])
+			cacheNum++
+		}
+		nextCacheFilename := filepath.Join(c.outDir, cacheDir, fmt.Sprintf("%0*d.%s", 4, cacheNum, cacheFileSuffix))
+		m2, err := c.fetchGitHubRepos(mods)
+		if err != nil {
+			return nil, err
+		}
+
+		b, err := json.Marshal(m2)
+		if err != nil {
+			return nil, err
+		}
+
+		for k, v := range m2 {
+			m[k] = v
+
+		}
+
+		CheckErr(os.MkdirAll(filepath.Dir(nextCacheFilename), 0777))
+		CheckErr(ioutil.WriteFile(nextCacheFilename, b, 0666))
+	}
+
+	return m, nil
+
 }
 
-func (c *Client) GetGitHubRepos(mods ModulesMap) (map[string]GitHubRepo, error) {
-	const cacheFile = "githubrepos.json"
-	cacheFilename := filepath.Join(c.outDir, cacheDir, cacheFile)
-	b, err := ioutil.ReadFile(cacheFilename)
-	if err == nil {
-		m := make(map[string]GitHubRepo)
-		err := json.Unmarshal(b, &m)
-		return m, err
+func (c *Client) getGithubReposCacheFilesSorted() []string {
+
+	fis, err := os.ReadDir(filepath.Join(c.outDir, cacheDir))
+	CheckErr(err)
+
+	var entries []string
+
+	for _, fi := range fis {
+		if fi.IsDir() {
+			continue
+		}
+
+		if strings.HasSuffix(fi.Name(), cacheFileSuffix) {
+			entries = append(entries, fi.Name())
+		}
 	}
 
-	m, err := c.fetchGitHubRepos(mods)
-	if err != nil {
-		return nil, err
-	}
+	sort.Strings(entries)
 
-	b, err = json.Marshal(m)
-	if err != nil {
-		return nil, err
-	}
-
-	checkErr(os.MkdirAll(filepath.Dir(cacheFilename), 0777))
-
-	return m, ioutil.WriteFile(cacheFilename, b, 0666)
+	return entries
 
 }
 
@@ -305,7 +236,7 @@ func (c *Client) fetchGitHubRepo(m Module) (GitHubRepo, error) {
 
 	err = doGitHubRequest(req, &repo)
 	if err != nil {
-		return repo, fmt.Errorf("failed to get GitHub repo for %q: %s", apiURL, err)
+		return repo, fmt.Errorf("failed to get GitHub repo for %q: %s. Set GITHUB_TOKEN if you get rate limiting errors.", apiURL, err)
 	}
 	return repo, nil
 }
@@ -384,7 +315,7 @@ func addGitHubToken(req *http.Request) {
 	}
 }
 
-func checkErr(err error) {
+func CheckErr(err error) {
 	if err != nil {
 		panic(err)
 	}
