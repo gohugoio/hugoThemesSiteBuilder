@@ -116,10 +116,8 @@ require (
 	github.com/gcushen/hugo-academic v4.8.0+incompatible // indirect
 	github.com/geschke/hugo-tikva v0.3.1 // indirect
 	github.com/gesquive/slate v1.1.1 // indirect
-	github.com/gethugothemes/dot-hugo-documentation-theme v2.0.0+incompatible // indirect
 	github.com/gizak/nofancy v0.0.0-20180325214227-ae4670287c71 // indirect
 	github.com/gkmngrgn/hugo-alageek-theme v0.0.0-20210613074050-8f5594e06c17 // indirect
-	github.com/gohugoio/hugoThemesSite v0.0.0-20210519162828-756792be83fa // indirect
 	github.com/gonnux/hugo-apps-theme v2.0.0+incompatible // indirect
 	github.com/goodroot/hugo-classic v0.0.0-20201213030118-3ef6687317c1 // indirect
 	github.com/google/docsy v0.0.0-20210623123919-c36be07b2dcb // indirect
@@ -134,7 +132,6 @@ require (
 	github.com/htdvisser/hugo-base16-theme v0.0.0-20210424145429-507fbbfb08f6 // indirect
 	github.com/htr3n/hyde-hyde v2.0.2+incompatible // indirect
 	github.com/humrochagf/colordrop v1.6.0 // indirect
-	github.com/huyb1991/hugo-lamp v1.2.1 // indirect
 	github.com/iCyris/hugo-theme-yuki v1.1.0 // indirect
 	github.com/ianrodrigues/hugo-tailwind-journal v0.0.0-20191119231934-32cd3a6e65e1 // indirect
 	github.com/ijsucceed/onepress v0.0.0-20190207144746-ce9dcea408ed // indirect
@@ -213,7 +210,6 @@ require (
 	github.com/plopcas/papaya v0.0.0-20200127235252-eaa132580761 // indirect
 	github.com/pravin/hugo-theme-prav v0.0.0-20201123123001-1974fa8384c0 // indirect
 	github.com/progrhyme/hugo-theme-bootie-docs v1.5.1 // indirect
-	github.com/puresyntax71/hugo-theme-chunky-poster v0.0.7 // indirect
 	github.com/qqhann/hugo-primer v1.1.1 // indirect
 	github.com/radity/raditian-free-hugo-theme v0.0.0-20200716150603-a25af74cbf97 // indirect
 	github.com/reuixiy/hugo-theme-meme v4.5.0+incompatible // indirect
@@ -236,7 +232,6 @@ require (
 	github.com/spech66/bootstrap-bp-hugo-startpage v0.0.0-20210327060212-83fa218d3848 // indirect
 	github.com/spech66/bootstrap-bp-hugo-theme v0.0.0-20210327061313-2afb2b1b7e13 // indirect
 	github.com/spech66/materialize-bp-hugo-theme v0.0.0-20210327063709-b656bd3278bd // indirect
-	github.com/spf13/hyde v1.1.0 // indirect
 	github.com/spookey/slick v0.3.2 // indirect
 	github.com/st-wong/hugo-spectre-pixel-theme v0.0.0-20191012073037-219ea80b9785 // indirect
 	github.com/sudorook/capsule v0.5.4 // indirect
