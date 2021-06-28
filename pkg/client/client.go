@@ -37,6 +37,8 @@ type Client struct {
 }
 
 func (c *Client) GetHugoModulesMap(config string) (ModulesMap, error) {
+	c.Logf("Get Hugo Modules, config %q", config)
+	defer c.TimeTrack(time.Now(), "Got Hugo Modules")
 	b := &bytes.Buffer{}
 	if err := c.runHugo(b, "--config", config, "config", "mounts", "-v"); err != nil {
 		return nil, err
@@ -48,7 +50,8 @@ func (c *Client) GetHugoModulesMap(config string) (ModulesMap, error) {
 	for dec.More() {
 		var m Module
 		if derr := dec.Decode(&m); derr != nil {
-			return nil, derr
+			b, _ := io.ReadAll(dec.Buffered())
+			return nil, fmt.Errorf("failed to decode config: %s (buf: %q)", derr, b)
 		}
 
 		if m.Owner == modPath {
@@ -141,6 +144,8 @@ const cacheFileSuffix = "githubrepos.json"
 //
 // If you start with an empty cache, you will need to set a GITHUB_TOKEN environment variable.
 func (c *Client) GetGitHubRepos(mods ModulesMap) (map[string]GitHubRepo, error) {
+	c.Logf("Get GitHub repos")
+	defer c.TimeTrack(time.Now(), "Got GitHub repos")
 	cacheFiles := c.getGithubReposCacheFilesSorted()
 	m := make(map[string]GitHubRepo)
 	for _, cacheFile := range cacheFiles {
@@ -263,6 +268,8 @@ func (c *Client) fetchGitHubRepos(mods ModulesMap) (map[string]GitHubRepo, error
 func (c *Client) runHugo(w io.Writer, arg ...string) error {
 	env := os.Environ()
 	setEnvVars(&env, "PWD", c.outDir) // Use the output dir as the Hugo root.
+
+	arg = append(arg, "--quiet")
 
 	cmd := exec.Command("hugo", arg...)
 	cmd.Env = env

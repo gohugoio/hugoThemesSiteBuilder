@@ -1,18 +1,14 @@
 [build]
-publish = "cmd/hugothemesitebuilder/build/site/public"
-command = "build.sh"
+base = "cmd/hugothemesitebuilder/build/site"
+publish = "public"
+command = "./build.sh"
+ignore = "/bin/false"
 
 [context.production.environment]
 HUGO_VERSION = "0.84.2"
 
-[context.deploy-preview]
-command = "build.sh"
-
 [context.deploy-preview.environment]
 HUGO_VERSION = "0.84.2"
-
-[context.branch-deploy]
-command = "build.sh"
 
 [context.branch-deploy.environment]
 HUGO_VERSION = "0.84.2"

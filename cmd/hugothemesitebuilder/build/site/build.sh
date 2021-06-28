@@ -19,14 +19,12 @@ popd() {
     command popd "$@" >/dev/null
 }
 
-pushd cmd/hugothemesitebuilder
+pushd "../.."
 try go run main.go build
-pushd build/site
+popd
 if [ -z  "$CONTEXT" ] || [ "$CONTEXT" == "production" ]
 then
     try hugo --gc --minify
 else
     try hugo --gc --minify -b $DEPLOY_PRIME_URL
 fi
-popd
-popd
