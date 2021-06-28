@@ -10,6 +10,7 @@ import (
 	"path"
 	"path/filepath"
 	"regexp"
+	"sort"
 	"strings"
 	"time"
 
@@ -190,6 +191,7 @@ func (c *buildClient) writeThemesContent(mm client.ModulesMap) error {
 			"hugoVersion": m.HugoVersion,
 			"meta":        m.Meta,
 			"githubInfo":  ghRepo,
+			"tags":        normalizeTags(m.Meta["tags"]),
 		}
 
 		b, err := yaml.Marshal(frontmatter)
@@ -211,4 +213,443 @@ func (c *buildClient) writeThemesContent(mm client.ModulesMap) error {
 	}
 
 	return nil
+}
+
+func normalizeTags(in interface{}) []string {
+	if in == nil {
+		return nil
+	}
+
+	tagsin := in.([]interface{})
+	var tagsout []string
+
+	for _, tag := range tagsin {
+		normalized := normalizeTag(tag.(string))
+		if normalized != "" {
+			tagsout = append(tagsout, normalized)
+		}
+	}
+
+	return uniqueStringsSorted(tagsout)
+}
+
+var goodTags = map[string]bool{
+	"api":          true,
+	"blog":         true,
+	"bootstrap":    true,
+	"company":      true,
+	"dark":         true,
+	"ecommerce":    true,
+	"gallery":      true,
+	"green":        true,
+	"light":        true,
+	"multilingual": true,
+	"newsletter":   true,
+	"portfolio":    true,
+	"white":        true,
+	"agency":       true,
+	"personal":     true,
+	"archives":     true,
+	"book":         true,
+	"church":       true,
+	"education":    true,
+	"magazine":     true,
+	"responsive":   true,
+	"pink":         true,
+}
+
+func normalizeTag(s string) string {
+	s = strings.ToLower(s)
+
+	if goodTags[s] {
+		return s
+	}
+
+	ca := func(candidates ...string) bool {
+		for _, candidate := range candidates {
+			if strings.Contains(s, candidate) {
+				return true
+			}
+		}
+		return false
+	}
+
+	if ca("docs", "document") {
+		return "docs"
+	}
+
+	if ca("blog") {
+		return "blog"
+	}
+
+	if ca("contact") {
+		return "contact"
+	}
+
+	if ca("bootstrap") {
+		return "bootstrap"
+	}
+
+	return ""
+
+}
+
+/*
+All tags currently in use:
+
+ API
+Academic
+Academicons
+AlexFinn
+Blog
+Bootstrap
+Bootstrap v4
+CSS Grid
+Clean
+Company
+Contact Form
+Creative Tim
+Custom Themes
+Dark
+DevFest
+Disqus
+Docs
+Documentation
+Ecommerce
+Elate
+Fancybox
+Font Awesome
+Fontawesome
+Gallery
+Google Analytics
+Google News
+Google analytics
+Green
+HTML5
+Highlight.js
+Hugo
+Invision
+Jquery
+Lato
+Light
+Material Design
+Minimal
+Minimalist
+Mobile
+Modern
+Multilingual
+Netlify
+Newsletter
+Octopress
+Open Graph
+Pacman
+Personal
+Pink
+Portfolio
+Presentation
+Product
+Projects
+Responsive
+Roboto
+Roboto Slab
+Simple
+Single Product
+Skel
+Slide
+Sortable Tables
+Stackbit
+Starter
+Staticman
+Syntax Highlighting
+Syntax highlighting
+Table Of Contents
+Tachyons
+Tags
+Technical
+Themefisher
+Twitter Cards
+Typography
+White
+academic
+accessibility
+accessible
+accordion
+agency
+agency-template
+allegiant
+amp
+archives
+articles
+avatar
+bang
+beautiful
+black white
+blank
+blog
+blog, responsive, personal, bootstrap, disqus, google analytics, syntax highligting, font awesome, landing page, flexbox
+blogdown
+bluma
+book
+bookmarking
+bootstrap
+bootstrap4
+bulma
+business
+card
+cards
+carousel
+case study
+catalogue
+changelog
+church
+clean
+clients
+cms
+collections
+color configuration
+colors
+colour schemes
+commento
+comming-soon
+company
+conference
+configurable
+contact
+contact form
+contact-form
+content management
+cooking
+copyright
+core
+creative
+css grid
+css only
+custom themes
+custom-design
+custom-themes
+customizable
+cv
+dark
+dark mode
+data files
+debug
+developer
+development
+devicon
+disqus
+doc
+docs
+document
+documentation
+donggeun
+ecommerce
+edidor
+editor
+education
+elegant
+experience
+fancybox 3
+faq
+fast
+feather
+flat-ui
+flex
+flexbox
+flip
+font awesome
+font-awesome
+fontawesome
+foundation
+freelancer
+freenlancer
+fresh
+gallery
+gethugothemes
+ghost
+google adsense
+google analytics
+google fonts
+google tag manager
+google-analytics
+gradients
+graphcomment
+graphical
+grav
+grid
+hero
+high contrast
+highlight
+highlight.js
+highlighting
+home
+html5
+html5up
+hugo
+hugo templates
+hugo themes
+hugo-templates
+hugo-theme
+hyde
+i18n
+icon
+illustrations
+images
+informal
+isso
+jekyll
+jekyll-now
+jssocials
+kube
+l10n
+lander
+landing
+landing page
+landing-page
+landingpage
+launch page
+learn
+light
+light mode
+linkblog
+lodi
+lubang
+lulab
+magazine
+marketing
+masonry layout
+material design
+material-design
+micro
+microblog
+mimimalist
+minimal
+minimalist
+minimalistic
+mobile
+modern
+modern design
+monochromatic
+monospace
+monotone
+motto
+multi page
+multilingual
+multipage
+neat
+netlify
+night-mode
+no-javascript
+nojs
+normalize
+offline
+one page
+one-page
+onepage
+opensource
+page
+pages
+pagination
+paper
+parallax
+personal
+personal-website
+photoblog
+photography
+pixel
+plain
+podcast
+portfolio
+post
+postimage
+posts
+premium
+presentation
+privacy
+product
+product catalogue
+products
+professional
+profile
+programmer
+projects
+purecss
+pygments
+readable
+reading
+recipes
+responsive
+resume
+retro
+revealjs
+rss
+rstats
+search
+seo
+sepia
+services
+share this
+shopping
+shortcuts
+showcase
+simple
+simple page
+single page
+single product
+single-page
+singlepage
+skills
+slide
+slider
+social
+social links
+solarized
+somratpro
+spa
+spectre css framework
+speed-dial
+starter
+staticman
+syntax highlighting
+syntax sighlighting
+syntax-highlighting
+tachyons
+tags
+tailwindcss
+technical
+terminal
+theme
+themefisher
+themes
+timeline
+two-column
+typography
+uicardio
+university
+unix
+ux
+w3css
+website
+white
+widgets
+wiki-like
+wordpress
+zerostatic
+*/
+
+func uniqueStringsSorted(s []string) []string {
+	if len(s) == 0 {
+		return nil
+	}
+	ss := sort.StringSlice(s)
+	ss.Sort()
+	i := 0
+	for j := 1; j < len(s); j++ {
+		if !ss.Less(i, j) {
+			continue
+		}
+		i++
+		s[i] = s[j]
+	}
+
+	return s[:i+1]
 }
