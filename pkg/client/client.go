@@ -16,8 +16,6 @@ import (
 	"strconv"
 	"strings"
 	"time"
-
-	"github.com/gohugoio/hugo/modules"
 )
 
 const (
@@ -288,8 +286,15 @@ type Module struct {
 	Version     string                 `json:"version"`
 	Time        time.Time              `json:"time"`
 	Dir         string                 `json:"dir"`
-	HugoVersion modules.HugoVersion    `json:"hugoVersion"`
+	HugoVersion HugoVersion            `json:"hugoVersion"`
 	Meta        map[string]interface{} `json:"meta"`
+}
+
+// HugoVersion holds Hugo binary version requirements for a module.
+type HugoVersion struct {
+	Min      string
+	Max      string
+	Extended bool
 }
 
 type ModulesMap map[string]Module

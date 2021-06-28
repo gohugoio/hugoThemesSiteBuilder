@@ -166,9 +166,11 @@ func (c *buildClient) writeThemesContent(mm client.ModulesMap) error {
 
 		// Boost themes with a Hugo version indicator set that covers.
 		// the current Hugo version.
-		if m.HugoVersion.IsValid() {
+		// TODO(bep) I removed Hugo as a dependency,
+		// compared this against HUGO_VERSION somehow.
+		/*if m.HugoVersion.IsValid() {
 			weight -= boost
-		}
+		}*/
 
 		// TODO(bep) we don't build any demo site anymore, but
 		// we could and should probably build a simple site and
