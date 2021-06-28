@@ -2,6 +2,4 @@ module github.com/gohugoio/hugoThemeSiteBuilder/cmd/hugothemesitebuilder/build/s
 
 go 1.16
 
-require github.com/gohugoio/hugoThemesSite v0.0.0-20210519162828-756792be83fa // indirect
-
-replace github.com/gohugoio/hugoThemesSite => /Users/bep/dev/go/gohugoio/hugoThemesSite
+require github.com/gohugoio/hugoThemesSite v0.0.0-20210628104547-7a5b595fb9f9
