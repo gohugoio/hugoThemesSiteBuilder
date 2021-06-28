@@ -22,9 +22,11 @@ popd() {
 pushd "../.."
 try go run main.go build
 popd
-if [ -z  "$CONTEXT" ] || [ "$CONTEXT" == "production" ]
+if [ -z  ${NETLIFY} ] || [ "$CONTEXT" == "production" ]
 then
+    echo "Build for production"
     try hugo --gc --minify
 else
+    echo "Build for ${DEPLOY_PRIME_URL}"
     try hugo --gc --minify -b $DEPLOY_PRIME_URL
 fi
