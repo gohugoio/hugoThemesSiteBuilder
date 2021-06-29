@@ -123,6 +123,7 @@ func (c *buildClient) writeThemesContent(mm client.ModulesMap) error {
 			// Tell Hugo not to process shortcode samples
 			s = regexp.MustCompile(`(?s){\{%([^\/].*?)%\}\}`).ReplaceAllString(s, `{{%/*$1*/%}}`)
 			s = regexp.MustCompile(`(?s){\{<([^\/].*?)>\}\}`).ReplaceAllString(s, `{{</*$1*/>}}`)
+			// s = regexp.MustCompile(`(?s)github\.com\/(.*?)\/blob\/master\/images/raw\.githubusercontent\.com`).ReplaceAllString(s, `/$1/master/images/`)
 
 			return s
 		}
@@ -179,8 +180,6 @@ func (c *buildClient) writeThemesContent(mm client.ModulesMap) error {
 		// either pull it down the list with weight or skip it.
 
 		//c.Logf("Processing theme %q with weight %d", themeName, weight)
-
-		// TODO1 tags, normalized.
 
 		frontmatter := map[string]interface{}{
 			"title":       title,
