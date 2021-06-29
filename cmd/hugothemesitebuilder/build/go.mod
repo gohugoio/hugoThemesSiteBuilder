@@ -232,6 +232,7 @@ require (
 	github.com/spech66/bootstrap-bp-hugo-startpage v0.0.0-20210327060212-83fa218d3848 // indirect
 	github.com/spech66/bootstrap-bp-hugo-theme v0.0.0-20210327061313-2afb2b1b7e13 // indirect
 	github.com/spech66/materialize-bp-hugo-theme v0.0.0-20210327063709-b656bd3278bd // indirect
+	github.com/spf13/hyde v1.1.0 // indirect
 	github.com/spookey/slick v0.3.2 // indirect
 	github.com/st-wong/hugo-spectre-pixel-theme v0.0.0-20191012073037-219ea80b9785 // indirect
 	github.com/sudorook/capsule v0.5.4 // indirect
@@ -294,4 +295,3 @@ require (
 	gitlab.com/kskarthik/monopriv v0.0.0-20200526110241-17ac34952952 // indirect
 	gitlab.com/kskarthik/resto-hugo v0.0.0-20200526110347-8d2d566dfec7 // indirect
 )
-

@@ -1152,6 +1152,11 @@
       {
         "ignoreImports": true,
         "noMounts": true,
+        "path": "github.com/spf13/hyde"
+      },
+      {
+        "ignoreImports": true,
+        "noMounts": true,
         "path": "github.com/spookey/slick"
       },
       {

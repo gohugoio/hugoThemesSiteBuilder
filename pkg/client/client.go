@@ -85,7 +85,9 @@ func (c *Client) RunHugo(arg ...string) error {
 // suitable for Hugo. Note that we're only using that config to
 // get the full module listing.
 func (c *Client) CreateThemesConfig() error {
-	f, err := os.Open(filepath.Join(c.outDir, "themes.txt"))
+	// This looks a little funky, but we want the themes.txt to be
+	// easily visible for users to add to in the root of the project.
+	f, err := os.Open(filepath.Join(c.outDir, "../../..", "themes.txt"))
 	if err != nil {
 		return err
 	}
