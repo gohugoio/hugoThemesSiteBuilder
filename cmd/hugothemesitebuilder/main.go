@@ -75,6 +75,10 @@ func main() {
 
 	client.Logf("Writing output files to %q", rootConfig.Out)
 
+	if os.Getenv("NETLIFY") == "true" {
+		client.Logf("Running on Netlify")
+	}
+
 	rootConfig.Client = client
 
 	if err := os.MkdirAll(rootConfig.Out, 0777); err != nil && !os.IsExist(err) {
