@@ -1,20 +1,17 @@
 # hugoThemeSiteBuilder
 
+WORK IN PROGRESS. Do not follow the guide below just yet.
+
 [![Netlify Status](https://api.netlify.com/api/v1/badges/faa207e4-92c4-4fd4-8f5d-b8305205fb84/deploy-status)](https://app.netlify.com/sites/inspiring-noether-f6fa3f/deploys)
-
-Work in progress.
-
-
-* Preview https://inspiring-noether-f6fa3f.netlify.app/
-* Add new themes in cmd/hugothemesitebuilder/build/themes.txt
-* The new script fetches star info etc. from GitHub and uses that as part of the weight (combined with date)
-* The script currently does not build any demo site, but we may consider a build as part of the "theme evaluation" (as in: block themes with lots of errors, or maybe pull them down with weight).
-* Similar I have added some notes about checking if `hugo_version` is set and valid.
-
-
 
 # Adding a theme to the list
 
+* Create your theme using <code>hugo new theme <em>THEMENAME</em></code>;
+* Add a `config.toml` with supported Hugo version(s)  and `theme.toml` file to the root of the theme and add some metadata about the theme (see below);
+* Add a descriptive `README.md` to the root of the theme;
+* Add `/images/screenshot.png` and `/images/tn.png` ([see below](#media));
+* Add your theme path (e.g. `github.com/gohugoio/gohugoioTheme`) to ... in lexicographically order.
+* Create a Pull Request and verify that the preview looks good.
 
 ## Theme Configuration
 
