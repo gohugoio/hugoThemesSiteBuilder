@@ -1,6 +1,6 @@
 # hugoThemeSiteBuilder
 
-WORK IN PROGRESS. Do not follow the guide below just yet.
+WORK IN PROGRESS. Do not follow the guide below just yet. https://inspiring-noether-f6fa3f.netlify.app/
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/faa207e4-92c4-4fd4-8f5d-b8305205fb84/deploy-status)](https://app.netlify.com/sites/inspiring-noether-f6fa3f/deploys)
 
@@ -10,7 +10,7 @@ WORK IN PROGRESS. Do not follow the guide below just yet.
 * Add a `config.toml` with supported Hugo version(s)  and `theme.toml` file to the root of the theme and add some metadata about the theme (see below);
 * Add a descriptive `README.md` to the root of the theme;
 * Add `/images/screenshot.png` and `/images/tn.png` ([see below](#media));
-* Add your theme path (e.g. `github.com/gohugoio/gohugoioTheme`) to ... in lexicographically order.
+* Add your theme path (e.g. `github.com/gohugoio/gohugoioTheme`) to [themes.txt](https://github.com/gohugoio/hugoThemesSiteBuilder/edit/main/themes.txt) in lexicographically order.
 * Create a Pull Request and verify that the preview looks good.
 
 ## Theme Configuration
