@@ -183,7 +183,7 @@ func (c *Client) GetGitHubRepos(mods ModulesMap) (map[string]GitHubRepo, error) 
 			cacheNum++
 		}
 		nextCacheFilename := filepath.Join(c.outDir, cacheDir, fmt.Sprintf("%0*d.%s", 4, cacheNum, cacheFileSuffix))
-		m2, err := c.fetchGitHubRepos(mods)
+		m2, err := c.fetchGitHubRepos(missing)
 		if err != nil {
 			return nil, err
 		}
