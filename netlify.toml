@@ -5,12 +5,12 @@ command = "./build.sh"
 ignore = "/bin/false"
 
 [context.production.environment]
-HUGO_VERSION = "0.84.2"
+HUGO_VERSION = "0.84.3"
 
 [context.deploy-preview.environment]
-HUGO_VERSION = "0.84.2"
+HUGO_VERSION = "0.84.3"
 
 [context.branch-deploy.environment]
-HUGO_VERSION = "0.84.2"
+HUGO_VERSION = "0.84.3"
 
 
