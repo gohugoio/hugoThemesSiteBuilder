@@ -260,11 +260,11 @@ func (c *buildClient) writeThemesContent(mm client.ModulesMap, noClean bool) err
 	}
 
 	if warnCount > 0 {
-		fmt.Println("\nOne or more warnings were applied to the themes. See below.")
+		fmt.Printf("\n%d warnings were applied to the themes. See below.\n", warnCount)
 	}
 
 	if blockedCount > 0 {
-		fmt.Println("\nOne or more themes were blocked (draft=true). See below.")
+		fmt.Printf("\n%d themes were blocked (draft=true). See below.", blockedCount)
 	}
 
 	fmt.Println()
