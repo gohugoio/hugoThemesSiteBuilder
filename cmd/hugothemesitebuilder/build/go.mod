@@ -45,6 +45,7 @@ require (
 	github.com/aerohub/hugrid v0.0.0-20180802081651-6fd4b20fe021 // indirect
 	github.com/alanorth/hugo-theme-bootstrap4-blog v1.6.0 // indirect
 	github.com/alex-shpak/hugo-book v0.0.0-20210621191136-e939f403149e // indirect
+	github.com/alexandrevicenzi/soho v1.1.0 // indirect
 	github.com/allnightgrocery/hugo-theme-blueberry-detox v0.0.0-20170129010546-afb1e630023b // indirect
 	github.com/antonpolishko/hugo-stellar-theme v0.0.0-20180919075539-9821d3e02be0 // indirect
 	github.com/appernetic/hugo-nederburg-theme v0.0.0-20190712152204-d99760bac630 // indirect

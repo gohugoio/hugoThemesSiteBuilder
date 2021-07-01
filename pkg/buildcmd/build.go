@@ -23,6 +23,10 @@ import (
 
 // Config for the get subcommand.
 type Config struct {
+	// Do not delete the old /content folder
+	// This is useful when doing theme edits. Hugo gets confused
+	// when the entire content vanishes.
+	noClean    bool
 	rootConfig *rootcmd.Config
 }
 
@@ -33,6 +37,7 @@ func New(rootConfig *rootcmd.Config) *ffcli.Command {
 	}
 
 	fs := flag.NewFlagSet(rootcmd.CommandName+" build", flag.ExitOnError)
+	fs.BoolVar(&cfg.noClean, "noClean", false, "do not clean out /content before building")
 
 	rootConfig.RegisterFlags(fs)
 
@@ -66,7 +71,7 @@ func (c *Config) Exec(ctx context.Context, args []string) error {
 		return err
 	}
 
-	if err := client.writeThemesContent(mmap); err != nil {
+	if err := client.writeThemesContent(mmap, c.noClean); err != nil {
 		return err
 	}
 
@@ -80,7 +85,7 @@ type buildClient struct {
 	mmap client.ModulesMap
 }
 
-func (c *buildClient) writeThemesContent(mm client.ModulesMap) error {
+func (c *buildClient) writeThemesContent(mm client.ModulesMap, noClean bool) error {
 	githubrepos, err := c.GetGitHubRepos(mm)
 	if err != nil {
 		return err
@@ -93,8 +98,17 @@ func (c *buildClient) writeThemesContent(mm client.ModulesMap) error {
 	}
 
 	contentDir := c.JoinOutPath("site", "content")
-	client.CheckErr(os.RemoveAll(contentDir))
+	if !noClean {
+		client.CheckErr(os.RemoveAll(contentDir))
+	}
 	client.CheckErr(os.MkdirAll(contentDir, 0777))
+
+	type themeWarning struct {
+		theme string
+		warn  warning
+	}
+
+	var themeWarningsAll []themeWarning
 
 	for k, m := range mm {
 
@@ -144,7 +158,14 @@ func (c *buildClient) writeThemesContent(mm client.ModulesMap) error {
 			return ""
 		}
 
-		title := strings.Title(themeName)
+		var themeWarnings []string
+
+		var title string
+		if mn, ok := m.Meta["name"]; ok {
+			title = mn.(string)
+		} else {
+			title = strings.Title(themeName)
+		}
 		readMeContent := getReadMeContent()
 		ghRepo := githubrepos[m.Path]
 
@@ -181,16 +202,33 @@ func (c *buildClient) writeThemesContent(mm client.ModulesMap) error {
 
 		//c.Logf("Processing theme %q with weight %d", themeName, weight)
 
+		draft := false
+
+		lastMod := m.Time
+
+		if warn, found := themeWarningsCheckLastmod(lastMod); found {
+			themeWarnings = append(themeWarnings, warn.message)
+			if warn.level == errorLevelBlock {
+				draft = true
+			}
+			themeWarningsAll = append(themeWarningsAll, themeWarning{theme: k, warn: warn})
+		}
+
+		sort.Strings(themeWarnings)
+
 		frontmatter := map[string]interface{}{
-			"title":       title,
-			"slug":        themeName,
-			"aliases":     []string{"/" + themeName},
-			"weight":      weight,
-			"lastMod":     m.Time,
-			"hugoVersion": m.HugoVersion,
-			"meta":        m.Meta,
-			"githubInfo":  ghRepo,
-			"tags":        normalizeTags(m.Meta["tags"]),
+			"draft":         draft,
+			"title":         title,
+			"slug":          themeName,
+			"aliases":       []string{"/" + themeName},
+			"weight":        weight,
+			"lastMod":       lastMod,
+			"hugoVersion":   m.HugoVersion,
+			"modulePath":    k,
+			"meta":          m.Meta,
+			"githubInfo":    ghRepo,
+			"themeWarnings": themeWarnings,
+			"tags":          normalizeTags(m.Meta["tags"]),
 		}
 
 		b, err := yaml.Marshal(frontmatter)
@@ -211,8 +249,72 @@ func (c *buildClient) writeThemesContent(mm client.ModulesMap) error {
 
 	}
 
+	var warnCount, blockedCount int
+
+	for _, w := range themeWarningsAll {
+		if w.warn.level == errorLevelWarn {
+			warnCount++
+		} else {
+			blockedCount++
+		}
+	}
+
+	if warnCount > 0 {
+		fmt.Println("\nOne or more warnings were applied to the themes. See below.")
+	}
+
+	if blockedCount > 0 {
+		fmt.Println("\nOne or more themes were blocked (draft=true). See below.")
+	}
+
+	fmt.Println()
+
+	for _, w := range themeWarningsAll {
+		levelString := "warning"
+		if w.warn.level == errorLevelBlock {
+			levelString = "block"
+		}
+		fmt.Printf("%s: %s: %s\n", levelString, w.theme, w.warn.message)
+	}
+
 	return nil
 }
+
+func themeWarningsCheckLastmod(lastMod time.Time) (warn warning, found bool) {
+	if !lastMod.IsZero() {
+		age := time.Since(lastMod)
+		ageYears := age.Hours() / 24 / 365
+		if ageYears > 2 {
+			warn = themeWarningOld
+			found = true
+		}
+	}
+	return
+}
+
+type errorLevel int
+
+const (
+	errorLevelWarn errorLevel = iota + 1
+	errorLevelBlock
+)
+
+type warning struct {
+	message string
+	level   errorLevel
+}
+
+func (w warning) IsZero() bool {
+	return w.message == ""
+}
+
+var (
+	// Not updated for the last 2 years.
+	themeWarningOld = warning{
+		level:   errorLevelWarn,
+		message: "This theme has not been updated for more than 2 years.",
+	}
+)
 
 func normalizeTags(in interface{}) []string {
 	if in == nil {

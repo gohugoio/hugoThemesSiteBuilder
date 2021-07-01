@@ -217,6 +217,11 @@
       {
         "ignoreImports": true,
         "noMounts": true,
+        "path": "github.com/alexandrevicenzi/soho"
+      },
+      {
+        "ignoreImports": true,
+        "noMounts": true,
         "path": "github.com/allnightgrocery/hugo-theme-blueberry-detox"
       },
       {
