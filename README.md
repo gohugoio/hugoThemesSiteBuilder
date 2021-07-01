@@ -1,8 +1,8 @@
-# hugoThemeSiteBuilder
+# Hugo themes
 
-WORK IN PROGRESS. Do not follow the guide below just yet. https://inspiring-noether-f6fa3f.netlify.app/
+A collection of themes created by the Hugo community. Builds to [themes.gohugo.io](https://themes.gohugo.io/).
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/faa207e4-92c4-4fd4-8f5d-b8305205fb84/deploy-status)](https://app.netlify.com/sites/inspiring-noether-f6fa3f/deploys)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/58968044-3238-424c-b9b6-e0d00733890c/deploy-status)](https://app.netlify.com/sites/hugothemes/deploys)
 
 # Adding a theme to the list
 
