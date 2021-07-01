@@ -76,7 +76,7 @@ func main() {
 	client.Logf("Writing output files to %q", rootConfig.Out)
 
 	if os.Getenv("NETLIFY") == "true" && os.Getenv("PULL_REQUEST") != "" && os.Getenv("DEPLOY_PRIME_URL") != "" {
-		client.Logf("Running on Netlify")
+		client.Logf("Running on Netlify (and not Cloudflare :-))")
 	}
 
 	rootConfig.Client = client
