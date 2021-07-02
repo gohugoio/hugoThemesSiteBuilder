@@ -137,7 +137,7 @@ github.com/jacobsun/hugo-theme-cole
 github.com/jaden/twentyfourteen
 github.com/jbub/ghostwriter
 github.com/jeblister/bulma
-github.com/jeblister/kube
+# TODO(bep) homepage redirects to ad pages. Remove it for now. Need proper fix. github.com/jeblister/kube
 github.com/jeremybise/twentynineteen-hugo
 github.com/jesselau76/hugo-w3-simple
 github.com/jimfrenette/hugo-starter
