@@ -1,0 +1,34 @@
+name: update-themes
+on:
+   schedule:
+   - cron: '0 0 */3 * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+    - uses: actions/setup-go@v2
+      with:
+        go-version: '^1.16.5'
+    - uses: actions/cache@v2
+      with:
+        path: |
+          ~/.cache/go-build
+          ~/go/pkg/mod
+          ~/.cache/hugo_cache
+        key: ${{ runner.os }}-go-${{ hashFiles('**/go.sum') }}
+        restore-keys: |
+          ${{ runner.os }}-go-
+    - name: Update submodules
+      shell: bash
+      working-directory: ./cmd/hugothemesitebuilder/build
+      env:
+        HUGO_CACHEDIR:  ~/.cache/hugo_cache
+      run: |
+       git config --global user.email "digitalcraftsman@users.noreply.github.com"
+       git config --global user.name "digitalcraftsman"
+       go install github.com/gohugoio/hugo@v0.85.0
+       hugo mod get -u
+       git add .
+       git commit -am "[Bot] Update themes"
+       git push --force-with-lease
