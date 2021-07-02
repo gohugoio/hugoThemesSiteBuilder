@@ -12,7 +12,7 @@ A collection of themes created by the Hugo community. Builds to [themes.gohugo.i
 * Add a `config.toml` with supported Hugo version(s)  and `theme.toml` file to the root of the theme and add some metadata about the theme (see below);
 * Add a descriptive `README.md` to the root of the theme;
 * Add `/images/screenshot.png` and `/images/tn.png` ([see below](#media));
-* Add your theme path (e.g. `github.com/gohugoio/gohugoioTheme`) to [themes.txt](https://github.com/gohugoio/hugoThemesSiteBuilder/edit/main/themes.txt) in lexicographically order.
+* Add your theme path (e.g. `github.com/gohugoio/gohugoioTheme`) to [themes.txt](https://github.com/gohugoio/hugoThemesSiteBuilder/edit/main/themes.txt) in lexicographical order.
 * Create a Pull Request and verify that the preview looks good.
 
 ## Theme Configuration
@@ -105,6 +105,5 @@ To ease accessibility for international users of your theme please provide at le
 
 **Question:** My theme flagged as 'old' when it's been updated recently.
 
-**Answer:** We use Hugo Modules to manage the themes -- which is backed by Go Modules. If you have one or more tagged releases (e.g. `v1.0.0`), we will choose the last version within the current major version. To get rid of that warning you need to tag a new release and wait for us to rebuild the theme site. Note that for theme that doesn't version their themes, it picks the latest commit.
-
+**Answer:** We use Hugo Modules to manage the themes -- which is backed by Go Modules. If you have one or more tagged releases (e.g. `v1.0.0`), we will choose the last version within the current major version. To get rid of that warning you need to tag a new release and wait for us to rebuild the theme site. Note that for unversioned themes, the latest commit gets picked.
 
