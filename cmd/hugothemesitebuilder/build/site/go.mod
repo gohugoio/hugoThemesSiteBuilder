@@ -4,5 +4,5 @@ go 1.16
 
 require (
 	github.com/gohugoio/gohugoioTheme v0.0.0-20210615213855-748891116443 // indirect
-	github.com/gohugoio/hugoThemesSite v0.0.0-20210701113908-b06c60c1f4d1
+	github.com/gohugoio/hugoThemesSite v0.0.0-20210701142758-d45f330006b5
 )
