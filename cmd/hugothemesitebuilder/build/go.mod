@@ -110,8 +110,8 @@ require (
 	github.com/fncnt/vncnt-hugo v0.0.0-20210520103312-4c1d20a49cbc // indirect
 	github.com/forestryio/hugo-theme-novela v0.0.0-20210222084032-5d015eef4c56 // indirect
 	github.com/frjo/hugo-theme-zen v1.7.0 // indirect
-	github.com/funkydan2/alpha-church v0.0.0-20210622230054-6a40f079c595 // indirect
-	github.com/funkydan2/hugo-kiera v1.0.0 // indirect
+	github.com/funkydan2/alpha-church v0.0.0-20210701223824-c2d4e23a1bff // indirect
+	github.com/funkydan2/hugo-kiera v1.1.0 // indirect
 	github.com/g1eny0ung/hugo-theme-dream v1.6.0 // indirect
 	github.com/garvincasimir/hugo-h5bp-simple v0.0.0-20190817231606-e834d00b96bb // indirect
 	github.com/gcushen/hugo-academic v4.8.0+incompatible // indirect

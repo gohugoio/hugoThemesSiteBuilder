@@ -220,8 +220,12 @@ github.com/frjo/hugo-theme-zen v1.7.0 h1:hGn8go5REqcbnhdqzbVcvxtsAIerOurWMolSjAi
 github.com/frjo/hugo-theme-zen v1.7.0/go.mod h1:rnj+r21QUs67tvO9VRsMEggl1cB637lMtSTIZBQk/iA=
 github.com/funkydan2/alpha-church v0.0.0-20210622230054-6a40f079c595 h1:UTAgmgkj+KRmsGqsfr7n3fjImr7rIdvWiuUC10+hyPU=
 github.com/funkydan2/alpha-church v0.0.0-20210622230054-6a40f079c595/go.mod h1:OwMMBZA76bnNA4UMfOwV8WJ9UEQ+c+VkI+ubK3y5d5c=
+github.com/funkydan2/alpha-church v0.0.0-20210701223824-c2d4e23a1bff h1:pQiVAeqsRyzQ7XOKuWeSFpfiwniNO/AvVybMgcshlAQ=
+github.com/funkydan2/alpha-church v0.0.0-20210701223824-c2d4e23a1bff/go.mod h1:OwMMBZA76bnNA4UMfOwV8WJ9UEQ+c+VkI+ubK3y5d5c=
 github.com/funkydan2/hugo-kiera v1.0.0 h1:UF8n2Vzoat/z0HgHikBlKVBJQ4e9znYX8qsdVOKIDZE=
 github.com/funkydan2/hugo-kiera v1.0.0/go.mod h1:sgNHSLEYr7THHQ3fyv8k/QcTGypozLEP1xY9NH7nH/o=
+github.com/funkydan2/hugo-kiera v1.1.0 h1:59YvXD+wlVQHmENtsXIUE7vPZnirBLxUOqz6wS21AkY=
+github.com/funkydan2/hugo-kiera v1.1.0/go.mod h1:BbmZeo7pwZ40j9PB9MSEteiGYFAUFoMZZvEU44AycqQ=
 github.com/g1eny0ung/hugo-theme-dream v1.6.0 h1:qnQ3LAMTkrFq4Cs+pdR4H76HQyzEDZ/XpiC3Pmg4nFw=
 github.com/g1eny0ung/hugo-theme-dream v1.6.0/go.mod h1:oCFyt6Zimu9HUwvDboQElWNSyC+f2+GTCKhd6GQFqHo=
 github.com/garvincasimir/hugo-h5bp-simple v0.0.0-20190817231606-e834d00b96bb h1:FeXwH/Z69TEpk2FifjdVpefm5JP7vjuYRSBVDjm0hw8=
