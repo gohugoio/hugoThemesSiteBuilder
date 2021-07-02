@@ -2,6 +2,8 @@
 
 A collection of themes created by the Hugo community. Builds to [themes.gohugo.io](https://themes.gohugo.io/).
 
+**Having questions?** Have a look at the [FAQ](#faq) first.
+
 [![Netlify Status](https://api.netlify.com/api/v1/badges/58968044-3238-424c-b9b6-e0d00733890c/deploy-status)](https://app.netlify.com/sites/hugothemes/deploys)
 
 # Adding a theme to the list
@@ -101,7 +103,8 @@ To ease accessibility for international users of your theme please provide at le
 
 ## FAQ
 
-**Question:** My theme flagged as 'old' when it's been updated recently
+**Question:** My theme flagged as 'old' when it's been updated recently.
+
 **Answer:** We use Hugo Modules to manage the themes -- which is backed by Go Modules. If you have one or more tagged releases (e.g. `v1.0.0`), we will choose the last version within the current major version. To get rid of that warning you need to tag a new release and wait for us to rebuild the theme site. Note that for theme that doesn't version their themes, it picks the latest commit.
 
 
