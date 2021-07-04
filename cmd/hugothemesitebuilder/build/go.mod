@@ -201,7 +201,7 @@ require (
 	github.com/onweru/hugo-swift-theme v2.0.0+incompatible // indirect
 	github.com/onweru/newsroom v0.0.0-20210531145733-7c332200b78b // indirect
 	github.com/orf/bare-hugo-theme v0.0.0-20210429204408-c7790f7f0890 // indirect
-	github.com/pacollins/hugo-future-imperfect-slim v1.0.0 // indirect
+	github.com/pacollins/hugo-future-imperfect-slim v0.0.0-20210704021429-57b6d9c59390 // indirect
 	github.com/panr/hugo-theme-hello-friend v0.0.0-20210512215033-3e62106bc919 // indirect
 	github.com/panr/hugo-theme-terminal v0.0.0-20210512213322-ca1cc0c3915e // indirect
 	github.com/parsiya/Hugo-Octopress v0.0.0-20210416205536-0d4b348454a4 // indirect

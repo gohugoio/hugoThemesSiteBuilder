@@ -419,6 +419,8 @@ github.com/onweru/newsroom v0.0.0-20210531145733-7c332200b78b h1:xMhmOuG5T5otLWq
 github.com/onweru/newsroom v0.0.0-20210531145733-7c332200b78b/go.mod h1:CnPS3gSJseLHZMhLLbxe+qDzR54HQ7s5RaLujOkejuM=
 github.com/orf/bare-hugo-theme v0.0.0-20210429204408-c7790f7f0890 h1:ZZBwkh9Bol8joUnigCWJE5BlijWYb+z83g6BjeFSqqc=
 github.com/orf/bare-hugo-theme v0.0.0-20210429204408-c7790f7f0890/go.mod h1:aZ/HHOCsSM0xPSY5Wd6Yh360C6Axu6rHECcPikVzkU4=
+github.com/pacollins/hugo-future-imperfect-slim v0.0.0-20210704021429-57b6d9c59390 h1:U2nJZUt0D9526iPotLBO15Ik3U8sosRszY5Pb5zKZUU=
+github.com/pacollins/hugo-future-imperfect-slim v0.0.0-20210704021429-57b6d9c59390/go.mod h1:H8kFIjeSzW00Pr/usZOsFF1iMMtiPBXVRXViazWfl8o=
 github.com/pacollins/hugo-future-imperfect-slim v1.0.0 h1:T8X9S6YrsxXWomrWldAfNlqGri6hPWXCVhfRG5Xux6s=
 github.com/pacollins/hugo-future-imperfect-slim v1.0.0/go.mod h1:H8kFIjeSzW00Pr/usZOsFF1iMMtiPBXVRXViazWfl8o=
 github.com/panr/hugo-theme-hello-friend v0.0.0-20210512215033-3e62106bc919 h1:g+UCH7iOViLoJA5AfG5zAjizMpl+dzFDC8fIfS4uopE=
