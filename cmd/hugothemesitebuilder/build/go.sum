@@ -64,6 +64,8 @@ github.com/VVelox/hugo-dusky-neon-potato v0.0.0-20190818211451-ecd0bc91b57b h1:z
 github.com/VVelox/hugo-dusky-neon-potato v0.0.0-20190818211451-ecd0bc91b57b/go.mod h1:UQzG9REvwG1M5UW/Xa9SIhifhYA6oA6T+9MAj3TIGRI=
 github.com/Vimux/Binario v0.0.0-20210616131933-c971411a642c h1:5EXRyAH0ONnKW3aIBvodRT0mG6guREdMSVDWPo+5hfQ=
 github.com/Vimux/Binario v0.0.0-20210616131933-c971411a642c/go.mod h1:N0zYrDolgZfBpcsLvyv4DEgEmE5QwAB7wHCJ4AP6tdY=
+github.com/Vimux/Binario v0.0.0-20210704161632-04d51be8c498 h1:E6UyurkVJqlL9wfHoTaLztVbP0LYtmQf/o2mPicX9Zg=
+github.com/Vimux/Binario v0.0.0-20210704161632-04d51be8c498/go.mod h1:N0zYrDolgZfBpcsLvyv4DEgEmE5QwAB7wHCJ4AP6tdY=
 github.com/Vimux/mainroad v0.0.0-20210616131810-0bb81035679d h1:TCtpa89ZYw2BVP7XKm6gCT4Ks+0x/lN/n7emTQDcV4Q=
 github.com/Vimux/mainroad v0.0.0-20210616131810-0bb81035679d/go.mod h1:13Sfg07PTbKTuzennbP0eC0Od7pbpfaxVcTQZWKRZeU=
 github.com/Xzya/hugo-material-blog v0.100.2 h1:DZ5eKIFpp/LkJn++rWwmQiWX44G9EJ2yTXsp5ySdaLA=
@@ -244,6 +246,8 @@ github.com/gonnux/hugo-apps-theme v2.0.0+incompatible h1:Ro6pLjp4UKIHC5MtLBZ3odV
 github.com/gonnux/hugo-apps-theme v2.0.0+incompatible/go.mod h1:ztTNS3MjepZPt9kJvRWF4L+Ri9cA4z18Kr1rzPqKw+w=
 github.com/goodroot/hugo-classic v0.0.0-20201213030118-3ef6687317c1 h1:4Kg1JFux3MEiJPb74ECMDEdssX9FzVWpZtYYwZkkR9I=
 github.com/goodroot/hugo-classic v0.0.0-20201213030118-3ef6687317c1/go.mod h1:2E3jMCk0w68ydJcq1SzzJYcoqRFt/W1f4fqWxeeH1CY=
+github.com/goodroot/hugo-classic v0.0.0-20210704050659-0052c56414c1 h1:CrWKVD0Xoy4Drhey0qi82jw0fWzEbghN+WIAFybrVV0=
+github.com/goodroot/hugo-classic v0.0.0-20210704050659-0052c56414c1/go.mod h1:2E3jMCk0w68ydJcq1SzzJYcoqRFt/W1f4fqWxeeH1CY=
 github.com/google/docsy v0.0.0-20210623123919-c36be07b2dcb h1:3JzZ9RIdu8tT0RdkyQR5MgebNz+1UhVxkeIGbVVKe+Y=
 github.com/google/docsy v0.0.0-20210623123919-c36be07b2dcb/go.mod h1:alhAPKceHP14eqO+nJEhYehHeNcPKV8QnduoauTBZhs=
 github.com/google/docsy v0.0.0-20210701145900-003b798c1252 h1:5S1Ovlu2rEdrhNPliNNmWSG7/M1mPHPhN/ms8XEPS60=
@@ -522,6 +526,8 @@ github.com/themefisher/Influencer-hugo v0.0.0-20201229092339-7af41655ce12 h1:ulx
 github.com/themefisher/Influencer-hugo v0.0.0-20201229092339-7af41655ce12/go.mod h1:71dDd9BSMXCwbBLWEUC9JXC9Y+hgIgmHqnKpHuPIyxE=
 github.com/themefisher/airspace-hugo v0.0.0-20210615042534-78cf2fe495db h1:fZK7V+QB+bAs7slHALT6U80K2ATqdrSedfuV6lKoKtI=
 github.com/themefisher/airspace-hugo v0.0.0-20210615042534-78cf2fe495db/go.mod h1:C2qpVeCY3+cUl6RJFFFNDGbNGfQyEanvAy5nvnVnPIE=
+github.com/themefisher/airspace-hugo v0.0.0-20210704044618-9a4b529f043f h1:z/jNHHRwHZhTu2236ySIE3feCraNTEbHf9bUJ3RbywQ=
+github.com/themefisher/airspace-hugo v0.0.0-20210704044618-9a4b529f043f/go.mod h1:C2qpVeCY3+cUl6RJFFFNDGbNGfQyEanvAy5nvnVnPIE=
 github.com/themefisher/educenter-hugo v1.0.0 h1:nISDANyTSDzY/QEr8woN8YDtJKfrrDARdlr1DtmuVtY=
 github.com/themefisher/educenter-hugo v1.0.0/go.mod h1:Sf1s05LzHjgQQUX2QTuyl7DaUkDTRDD0mF92xgaMpR8=
 github.com/themefisher/infinity-hugo v0.0.0-20201229073846-5042c29668d8 h1:PfiEPwA7y4KG2A4F7Divqn58wRVIRz04cFMSYmz2n9E=
@@ -588,6 +594,8 @@ github.com/yihui/hugo-xmin v0.0.0-20201016020520-4100270f6fe5 h1:Lfn6z15yfxX1bvD
 github.com/yihui/hugo-xmin v0.0.0-20201016020520-4100270f6fe5/go.mod h1:RiCR4psTF4iydlh4bR9BijKIHmivp7IeBaokx0CvzRA=
 github.com/yursan9/manis-hugo-theme v0.0.0-20210325015538-69f3a30bc664 h1:d0u/ujgy0VHXQ5pAHLKKmWrwTZf1Y3GLjFWLwKT7qSM=
 github.com/yursan9/manis-hugo-theme v0.0.0-20210325015538-69f3a30bc664/go.mod h1:tRnEMyqlbKgYsm7KWlT63+7I0cJVpEV6p9bMt4sQ160=
+github.com/yursan9/manis-hugo-theme v0.0.0-20210703102844-1d72c7889ba1 h1:1hcbt2g11DI2XaJ8k0x3w238A+cRZcjYUzw+dNjfWK8=
+github.com/yursan9/manis-hugo-theme v0.0.0-20210703102844-1d72c7889ba1/go.mod h1:tRnEMyqlbKgYsm7KWlT63+7I0cJVpEV6p9bMt4sQ160=
 github.com/zhaohuabing/hugo-theme-cleanwhite v0.0.0-20210623132818-9f289d348d93 h1:LWCW2niNw8cCUag49aTQzYCzvkzdNwKN9ArkJySDXSU=
 github.com/zhaohuabing/hugo-theme-cleanwhite v0.0.0-20210623132818-9f289d348d93/go.mod h1:7w+SNXU8/rQ2S3nYfeS3kk9dmtPmb64kGc87N/IQo+Q=
 github.com/zhaohuabing/hugo-theme-cleanwhite v0.0.0-20210701072631-5d87f607f3c6 h1:PcHMeA6/3iAVpaVoDVmFOyuEeEUx/XFJU34/f1B771w=
