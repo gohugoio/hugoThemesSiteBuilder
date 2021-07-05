@@ -108,7 +108,7 @@ func (c *buildClient) writeThemesContent(mm client.ModulesMap, noClean bool) err
 		warn  warning
 	}
 
-	var themeWarningsAll []themeWarning
+	themeWarningsAll := make(map[themeWarning]bool)
 
 	for k, m := range mm {
 
@@ -158,8 +158,6 @@ func (c *buildClient) writeThemesContent(mm client.ModulesMap, noClean bool) err
 			return ""
 		}
 
-		var themeWarnings []string
-
 		var title string
 		if mn, ok := m.Meta["name"]; ok {
 			title = mn.(string)
@@ -176,6 +174,7 @@ func (c *buildClient) writeThemesContent(mm client.ModulesMap, noClean bool) err
 		// Higher is better.
 		weight := maxStars + 500
 		weight -= ghRepo.Stars
+
 		// Boost themes updated recently.
 		if !m.Time.IsZero() {
 			// Add some weight to recently updated themes.
@@ -200,20 +199,38 @@ func (c *buildClient) writeThemesContent(mm client.ModulesMap, noClean bool) err
 		// count warnings and error and use that to
 		// either pull it down the list with weight or skip it.
 
-		//c.Logf("Processing theme %q with weight %d", themeName, weight)
+		// Add warnings for old themes, bad URLs etc.
 
 		draft := false
 
 		lastMod := m.Time
 
-		if warn, found := themeWarningsCheckLastmod(lastMod); found {
-			themeWarnings = append(themeWarnings, warn.message)
+		if warn, found := checkLastMod(lastMod); found {
 			if warn.level == errorLevelBlock {
 				draft = true
 			}
-			themeWarningsAll = append(themeWarningsAll, themeWarning{theme: k, warn: warn})
+			themeWarningsAll[themeWarning{theme: k, warn: warn}] = true
 		}
 
+		for _, metaSiteKey := range []string{"demosite", "homepage"} {
+			// TODO(bep) author sites + redirects?
+			if s, found := m.Meta[metaSiteKey]; found {
+				if c.IsBadURL(s.(string)) {
+					themeWarningsAll[themeWarning{theme: k, warn: themeWarningBadURL}] = true
+
+					// Remove it from the map.
+					delete(m.Meta, metaSiteKey)
+				}
+			}
+		}
+
+		var themeWarnings []string
+		for v, _ := range themeWarningsAll {
+			if v.theme != k {
+				continue
+			}
+			themeWarnings = append(themeWarnings, v.warn.message)
+		}
 		sort.Strings(themeWarnings)
 
 		frontmatter := map[string]interface{}{
@@ -251,7 +268,7 @@ func (c *buildClient) writeThemesContent(mm client.ModulesMap, noClean bool) err
 
 	var warnCount, blockedCount int
 
-	for _, w := range themeWarningsAll {
+	for w, _ := range themeWarningsAll {
 		if w.warn.level == errorLevelWarn {
 			warnCount++
 		} else {
@@ -269,7 +286,7 @@ func (c *buildClient) writeThemesContent(mm client.ModulesMap, noClean bool) err
 
 	fmt.Println()
 
-	for _, w := range themeWarningsAll {
+	for w, _ := range themeWarningsAll {
 		levelString := "warning"
 		if w.warn.level == errorLevelBlock {
 			levelString = "block"
@@ -280,7 +297,7 @@ func (c *buildClient) writeThemesContent(mm client.ModulesMap, noClean bool) err
 	return nil
 }
 
-func themeWarningsCheckLastmod(lastMod time.Time) (warn warning, found bool) {
+func checkLastMod(lastMod time.Time) (warn warning, found bool) {
 	if !lastMod.IsZero() {
 		age := time.Since(lastMod)
 		ageYears := age.Hours() / 24 / 365
@@ -313,6 +330,11 @@ var (
 	themeWarningOld = warning{
 		level:   errorLevelWarn,
 		message: "This theme has not been updated for more than 2 years.",
+	}
+
+	themeWarningBadURL = warning{
+		level:   errorLevelWarn,
+		message: "This theme links to one or more blocked or non-existing sites.",
 	}
 )
 

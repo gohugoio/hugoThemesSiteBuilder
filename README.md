@@ -64,6 +64,8 @@ Your theme should also have a configuration file (e.g. `config.toml`) configurin
 
 Note that you can ommit any of the fields `extended`, `min` or `max`.
 
+Theme maintainers, please do **not** delete Git references or tags from your theme repositories. Otherwise, Hugo Modules will not be able to fetch a specific version of a module, resulting in errors.
+
 ## LICENSE
 
 Themes in this repository are accepted only if they come with an Open Source license, that allows for the theme to be freely used, modified, and shared. 

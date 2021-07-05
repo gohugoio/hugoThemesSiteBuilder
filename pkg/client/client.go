@@ -8,6 +8,7 @@ import (
 	"io"
 	"io/ioutil"
 	"net/http"
+	"net/url"
 	"os"
 	"os/exec"
 	"path/filepath"
@@ -15,6 +16,7 @@ import (
 	"sort"
 	"strconv"
 	"strings"
+	"sync"
 	"time"
 )
 
@@ -34,6 +36,48 @@ func New(logWriter io.Writer, outDir string) (*Client, error) {
 type Client struct {
 	logWriter io.Writer
 	outDir    string
+
+	badHostsInit sync.Once
+	badHosts     map[string]bool
+}
+
+func (c *Client) IsBadURL(s string) bool {
+
+	u, err := url.Parse(s)
+	if err != nil {
+		return true
+	}
+
+	c.badHostsInit.Do(func() {
+		c.badHosts = make(map[string]bool)
+		f, err := os.Open(filepath.Join(c.outDir, "badhosts.txt"))
+		if err != nil {
+			panic(fmt.Sprintf("failed to open badhosts.txt: %s", err))
+		}
+		defer f.Close()
+		scanner := bufio.NewScanner(f)
+		counter := 0
+		for scanner.Scan() {
+			line := strings.TrimSpace(scanner.Text())
+			if line == "" || strings.HasPrefix(line, "#") {
+				continue
+			}
+			parts := strings.Fields(line)
+			if len(parts) != 2 {
+				continue
+			}
+			c.badHosts[strings.ToLower(parts[1])] = true
+			counter++
+
+		}
+
+		c.Logf("Loaded %d bad hosts", counter)
+	})
+
+	host := strings.ToLower(u.Host)
+
+	return c.badHosts[host] || c.badHosts[strings.TrimPrefix(host, "www.")]
+
 }
 
 func (c *Client) GetHugoModulesMap(config string) (ModulesMap, error) {
