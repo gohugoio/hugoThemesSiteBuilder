@@ -48,7 +48,7 @@ require (
 	github.com/VVelox/hugo-dusky-neon-potato v0.0.0-20190818211451-ecd0bc91b57b // indirect
 	github.com/Vimux/Binario v0.0.0-20210704161632-04d51be8c498 // indirect
 	github.com/Vimux/mainroad v0.0.0-20210616131810-0bb81035679d // indirect
-	github.com/WingLim/hugo-tania v1.4.0 // indirect
+	github.com/WingLim/hugo-tania v1.6.0 // indirect
 	github.com/Xzya/hugo-material-blog v0.100.2 // indirect
 	github.com/Y4er/hugo-theme-easybook v0.0.0-20200124093729-48555b802349 // indirect
 	github.com/aanupam23/hugo-sugoi v0.6.0 // indirect
@@ -112,13 +112,6 @@ require (
 	github.com/de-souza/hugo-flex v0.0.0-20210311110027-e757432018f7 // indirect
 	github.com/devcows/hugo-universal-theme v0.0.0-20210408074747-23c6efbbe23c // indirect
 	github.com/dewittn/hugo-html5up-alpha v0.0.0-20200529171052-b921f3bccb74 // indirect
-	github.com/digitalcraftsman/hugo-artists-theme v0.0.0-20200608165841-9fdd77d640b8 // indirect
-	github.com/digitalcraftsman/hugo-cactus-theme v0.0.0-20200728144106-4ca7a5ef12df // indirect
-	github.com/digitalcraftsman/hugo-creative-theme v0.0.0-20161126154245-cea31c1813c1 // indirect
-	github.com/digitalcraftsman/hugo-freelancer-theme v0.0.0-20161024213617-caca7d32e642 // indirect
-	github.com/digitalcraftsman/hugo-hikari-theme v0.0.0-20200608170512-d50c1231f93c // indirect
-	github.com/digitalcraftsman/hugo-minimalist-theme v0.0.0-20200608170215-3a2f85c76f8e // indirect
-	github.com/digitalcraftsman/hugo-type-theme v0.0.0-20200608164643-353be45187f4 // indirect
 	github.com/dillonzq/LoveIt v0.2.10 // indirect
 	github.com/diwao/hestia-pure v0.0.0-20180322071727-320c944ffcf9 // indirect
 	github.com/djuelg/Shapez-Theme v0.0.0-20200822131204-bfc2adf16fd4 // indirect
@@ -158,7 +151,7 @@ require (
 	github.com/gundamew/hugo-bingo v1.8.2 // indirect
 	github.com/gurusabarish/hugo-profile v0.0.0-20210626030216-2c58f2e15fde // indirect
 	github.com/gyorb/hugo-dusk v1.0.1 // indirect
-	github.com/h-enk/doks v0.3.2 // indirect
+	github.com/h-enk/doks v0.3.3 // indirect
 	github.com/hadisinaee/avicenna v0.0.0-20210627053040-5a3ec519172c // indirect
 	github.com/halogenica/beautifulhugo v0.0.0-20210106080152-99ca240e9977 // indirect
 	github.com/hauke96/hugo-theme-hamburg v0.6.3 // indirect
@@ -238,7 +231,7 @@ require (
 	github.com/mikeblum/hugo-now v0.1.0 // indirect
 	github.com/mismith0227/hugo_theme_pickles v0.0.0-20210516030432-3e9a3c8fed75 // indirect
 	github.com/mmrath/hugo-bootstrap v0.0.0-20190615045721-5e7bfb2518b7 // indirect
-	github.com/monkeyWzr/hugo-theme-cactus v0.0.0-20210705100202-dbd0c3fb1764 // indirect
+	github.com/monkeyWzr/hugo-theme-cactus v0.0.0-20210705103954-7619bb9bdc01 // indirect
 	github.com/mrmierzejewski/hugo-theme-console v0.0.0-20210309125204-610949ee57d5 // indirect
 	github.com/nanxiaobei/hugo-paper v0.0.0-20210422205738-320629ba2cf8 // indirect
 	github.com/nanxstats/hugo-tanka v0.0.0-20201228213327-482bb57f4f3d // indirect
@@ -320,12 +313,12 @@ require (
 	github.com/thegeeklab/hugo-geekdoc v0.14.1 // indirect
 	github.com/themefisher/Academia-hugo v1.0.0 // indirect
 	github.com/themefisher/Hargo-hugo-ecommerce-theme v0.0.0-20210130042127-2cd2f680b2c8 // indirect
-	github.com/themefisher/Influencer-hugo v0.0.0-20201229092339-7af41655ce12 // indirect
+	github.com/themefisher/Influencer-hugo v0.0.0-20210705112728-c5176ffe4453 // indirect
 	github.com/themefisher/airspace-hugo v0.0.0-20210704044618-9a4b529f043f // indirect
 	github.com/themefisher/bigspring-hugo-startup-theme v0.0.0-20210615044640-13ce5f3e996f // indirect
 	github.com/themefisher/educenter-hugo v1.0.0 // indirect
-	github.com/themefisher/infinity-hugo v0.0.0-20201229073846-5042c29668d8 // indirect
-	github.com/themefisher/kross-hugo-portfolio-template v0.0.0-20210407034828-2ff313d8b182 // indirect
+	github.com/themefisher/infinity-hugo v0.0.0-20210705101555-c118b1c8d148 // indirect
+	github.com/themefisher/kross-hugo-portfolio-template v0.0.0-20210705062836-eb9dda5b5f7d // indirect
 	github.com/themefisher/liva-hugo v0.0.0-20201229093657-cddfd11827c2 // indirect
 	github.com/themefisher/meghna-hugo v1.0.0 // indirect
 	github.com/themefisher/navigator-hugo v0.0.0-20210123031504-f85105c924c6 // indirect
