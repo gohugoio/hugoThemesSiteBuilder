@@ -74,6 +74,8 @@ github.com/Y4er/hugo-theme-easybook v0.0.0-20200124093729-48555b802349 h1:4MSMlS
 github.com/Y4er/hugo-theme-easybook v0.0.0-20200124093729-48555b802349/go.mod h1:2Mfe18LH2qYQ0Y3ddLoD0evTrI9QeHUK5nDBM5zQiJM=
 github.com/achary/engimo v2.3.0+incompatible h1:WFndvWwrqY89eUYjsF4fJgheW2G5n9gmuG8OXa3LGeA=
 github.com/achary/engimo v2.3.0+incompatible/go.mod h1:r+jpzcnWmRDOxnUrgTn1YfOIhCcSIb6E+Jxtn8NXJkg=
+github.com/adityatelange/hugo-PaperMod v0.0.0-20210704175340-09accb9566ff h1:thMRu3UZXDaRNhA8OGfMAWEGVMZt57/jOU7GNiDcCp8=
+github.com/adityatelange/hugo-PaperMod v0.0.0-20210704175340-09accb9566ff/go.mod h1:HCHxNMKYdGafUYjVV3ICiAqznZK2yH0iI53jqcDFDdQ=
 github.com/aerohub/hugo-faq-theme v0.0.0-20161016225807-e6ed082c15bc h1:U7NZzqVuAs73vHEkpDxvypyk5v/jKxtT2neVUXxN5aY=
 github.com/aerohub/hugo-faq-theme v0.0.0-20161016225807-e6ed082c15bc/go.mod h1:EedoO5hm5mrYswWcGuitAoikrhYrNkyx70d28VeVRAI=
 github.com/aerohub/hugo-identity-theme v0.0.0-20171209130528-ca4e10de2297 h1:gYjk3ZXeWSNT94ZoigTzc8hKkxdFodKmxQ4ztER6JN4=
@@ -352,6 +354,8 @@ github.com/leonhe/hugo_eiio v0.0.0-20210622015630-80b338d8f5a4 h1:zIAlQVBj5kjkm0
 github.com/leonhe/hugo_eiio v0.0.0-20210622015630-80b338d8f5a4/go.mod h1:cbw/o+8gan7Gxl46m1QJhQ980/EpnFC5JtO3DOeTxoI=
 github.com/leonhe/hugo_eiio v0.0.0-20210628082829-a94a76ac8567 h1:2zJrJ6O5yRKpMUt9nsFEDEdOwnVZoowsK8eYksMx8Zc=
 github.com/leonhe/hugo_eiio v0.0.0-20210628082829-a94a76ac8567/go.mod h1:cbw/o+8gan7Gxl46m1QJhQ980/EpnFC5JtO3DOeTxoI=
+github.com/leonstafford/accessible-minimalism-hugo-theme v0.0.0-20210704153306-65dd53e76aa5 h1:kp8zaHYfAcP+pVKaP90oacbhwKAZ7+fqCPFhVVirOx8=
+github.com/leonstafford/accessible-minimalism-hugo-theme v0.0.0-20210704153306-65dd53e76aa5/go.mod h1:92zVXUMT2d126oGoT+DXqfGQGGBgGftF4InAGa9nhZc=
 github.com/lgaida/mediumish-gohugo-theme v0.0.0-20201004112733-d29d397053e7 h1:zCni0cIaKfq2LBfqdo/Ao+3elx1sriE3aMF9B0kPgQo=
 github.com/lgaida/mediumish-gohugo-theme v0.0.0-20201004112733-d29d397053e7/go.mod h1:AEOc9YAQqiKhSTl+b4euG7JAWDUlgHqkOT3nU5BkPuw=
 github.com/lingxz/er v0.0.0-20190825175148-ebdb18610b68 h1:sdY7bWdwcHbTG1zvtcNMXkMMmnC8kAzM3HwjbBDQgX0=
