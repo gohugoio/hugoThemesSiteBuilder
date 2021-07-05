@@ -187,6 +187,11 @@
       {
         "ignoreImports": true,
         "noMounts": true,
+        "path": "github.com/adityatelange/hugo-PaperMod"
+      },
+      {
+        "ignoreImports": true,
+        "noMounts": true,
         "path": "github.com/aerohub/hugo-faq-theme"
       },
       {
@@ -702,11 +707,6 @@
       {
         "ignoreImports": true,
         "noMounts": true,
-        "path": "github.com/jeblister/kube"
-      },
-      {
-        "ignoreImports": true,
-        "noMounts": true,
         "path": "github.com/jeremybise/twentynineteen-hugo"
       },
       {
@@ -833,6 +833,11 @@
         "ignoreImports": true,
         "noMounts": true,
         "path": "github.com/leonhe/hugo_eiio"
+      },
+      {
+        "ignoreImports": true,
+        "noMounts": true,
+        "path": "github.com/leonstafford/accessible-minimalism-hugo-theme"
       },
       {
         "ignoreImports": true,

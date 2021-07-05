@@ -39,6 +39,7 @@ require (
 	github.com/Xzya/hugo-material-blog v0.100.2 // indirect
 	github.com/Y4er/hugo-theme-easybook v0.0.0-20200124093729-48555b802349 // indirect
 	github.com/achary/engimo v2.3.0+incompatible // indirect
+	github.com/adityatelange/hugo-PaperMod v0.0.0-20210704175340-09accb9566ff // indirect
 	github.com/aerohub/hugo-faq-theme v0.0.0-20161016225807-e6ed082c15bc // indirect
 	github.com/aerohub/hugo-identity-theme v0.0.0-20171209130528-ca4e10de2297 // indirect
 	github.com/aerohub/hugo-orbit-theme v0.0.0-20170515130410-f89b1ee9a336 // indirect
@@ -169,6 +170,7 @@ require (
 	github.com/kritoke/darksimplicity v0.3.3 // indirect
 	github.com/lasseborly/anybodyhome v0.0.0-20180409213336-13667609bc57 // indirect
 	github.com/leonhe/hugo_eiio v0.0.0-20210628082829-a94a76ac8567 // indirect
+	github.com/leonstafford/accessible-minimalism-hugo-theme v0.0.0-20210704153306-65dd53e76aa5 // indirect
 	github.com/lgaida/mediumish-gohugo-theme v0.0.0-20201004112733-d29d397053e7 // indirect
 	github.com/lingxz/er v0.0.0-20190825175148-ebdb18610b68 // indirect
 	github.com/liuzc/LeaveIt v0.0.0-20181104111157-2884e266babb // indirect
