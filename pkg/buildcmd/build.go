@@ -16,6 +16,7 @@ import (
 
 	"github.com/gohugoio/hugoThemesSiteBuilder/pkg/client"
 	"github.com/peterbourgon/ff/v3/ffcli"
+	"github.com/rogpeppe/go-internal/semver"
 	"gopkg.in/yaml.v3"
 
 	"github.com/gohugoio/hugoThemesSiteBuilder/pkg/rootcmd"
@@ -158,41 +159,12 @@ func (c *buildClient) writeThemesContent(mm client.ModulesMap, noClean bool) err
 			return ""
 		}
 
-		var title string
-		if mn, ok := m.Meta["name"]; ok {
-			title = mn.(string)
-		} else {
-			title = strings.Title(themeName)
+		thm := &theme{
+			m:             m,
+			name:          themeName,
+			readMeContent: getReadMeContent(),
+			ghRepo:        githubrepos[m.Path],
 		}
-		readMeContent := getReadMeContent()
-		ghRepo := githubrepos[m.Path]
-
-		// 30 days.
-		d30 := 30 * 24 * time.Hour
-		const boost = 50
-
-		// Higher is better.
-		weight := maxStars + 500
-		weight -= ghRepo.Stars
-
-		// Boost themes updated recently.
-		if !m.Time.IsZero() {
-			// Add some weight to recently updated themes.
-			age := time.Since(m.Time)
-			if age < (3 * d30) {
-				weight -= (boost * 2)
-			} else if age < (6 * d30) {
-				weight -= boost
-			}
-		}
-
-		// Boost themes with a Hugo version indicator set that covers.
-		// the current Hugo version.
-		// TODO(bep) I removed Hugo as a dependency,
-		// compared this against HUGO_VERSION somehow.
-		/*if m.HugoVersion.IsValid() {
-			weight -= boost
-		}*/
 
 		// TODO(bep) we don't build any demo site anymore, but
 		// we could and should probably build a simple site and
@@ -201,13 +173,9 @@ func (c *buildClient) writeThemesContent(mm client.ModulesMap, noClean bool) err
 
 		// Add warnings for old themes, bad URLs etc.
 
-		draft := false
-
-		lastMod := m.Time
-
-		if warn, found := checkLastMod(lastMod); found {
+		if warn, found := thm.checkLastMod(); found {
 			if warn.level == errorLevelBlock {
-				draft = true
+				thm.draft = true
 			}
 			themeWarningsAll[themeWarning{theme: k, warn: warn}] = true
 		}
@@ -224,29 +192,15 @@ func (c *buildClient) writeThemesContent(mm client.ModulesMap, noClean bool) err
 			}
 		}
 
-		var themeWarnings []string
 		for v, _ := range themeWarningsAll {
 			if v.theme != k {
 				continue
 			}
-			themeWarnings = append(themeWarnings, v.warn.message)
+			thm.themeWarnings = append(thm.themeWarnings, v.warn.message)
 		}
-		sort.Strings(themeWarnings)
+		sort.Strings(thm.themeWarnings)
 
-		frontmatter := map[string]interface{}{
-			"draft":         draft,
-			"title":         title,
-			"slug":          themeName,
-			"aliases":       []string{"/" + themeName},
-			"weight":        weight,
-			"lastMod":       lastMod,
-			"hugoVersion":   m.HugoVersion,
-			"modulePath":    k,
-			"meta":          m.Meta,
-			"githubInfo":    ghRepo,
-			"themeWarnings": themeWarnings,
-			"tags":          normalizeTags(m.Meta["tags"]),
-		}
+		frontmatter := thm.toFrontMatter()
 
 		b, err := yaml.Marshal(frontmatter)
 		client.CheckErr(err)
@@ -255,7 +209,7 @@ func (c *buildClient) writeThemesContent(mm client.ModulesMap, noClean bool) err
 %s
 ---
 %s
-`, string(b), readMeContent)
+`, string(b), thm.readMeContent)
 
 		if err := ioutil.WriteFile(filepath.Join(themeDir, "index.md"), []byte(content), 0666); err != nil {
 			return err
@@ -297,7 +251,98 @@ func (c *buildClient) writeThemesContent(mm client.ModulesMap, noClean bool) err
 	return nil
 }
 
-func checkLastMod(lastMod time.Time) (warn warning, found bool) {
+type theme struct {
+	m    client.Module
+	name string
+
+	// Set when hosted on GitHub.
+	ghRepo client.GitHubRepo
+
+	readMeContent string
+
+	themeWarnings []string
+
+	// Calculated
+	weight int
+	draft  bool
+}
+
+func (t *theme) isVersioned() bool {
+	return semver.IsValid(t.m.Version)
+}
+
+func (t *theme) calculateWeight(maxStars int) {
+	// 30 days.
+	d30 := 30 * 24 * time.Hour
+
+	// Higher is better.
+	t.weight = maxStars + 500
+	t.weight -= t.ghRepo.Stars
+
+	boostRecent := func(age, threshold time.Duration, boost int) {
+		if age < threshold {
+			t.weight -= boost
+		}
+	}
+
+	// Boost themes versioned recently.
+	if !t.m.Time.IsZero() && t.isVersioned() {
+		// Add some weight to recently versioned themes.
+		boostRecent(time.Since(t.m.Time), (3 * d30), 20)
+	}
+
+	// Boost themes created the last month.
+	// Note that we currently only have that information for themes
+	// hosted on GitHub.
+	if !t.ghRepo.IsZero() {
+		boostRecent(time.Since(t.ghRepo.CreatedAt), (1 * d30), 50)
+	}
+
+	// Boost themes with a Hugo version indicator set that covers.
+	// the current Hugo version.
+	// TODO(bep) I removed Hugo as a dependency,
+	// compared this against HUGO_VERSION somehow.
+	/*if m.HugoVersion.IsValid() {
+		weight -= boost
+	}*/
+
+}
+
+func (t *theme) toFrontMatter() map[string]interface{} {
+	var title string
+	if mn, ok := t.m.Meta["name"]; ok {
+		title = mn.(string)
+	} else {
+		title = strings.Title(t.name)
+	}
+
+	var htmlURL string
+	if !t.ghRepo.IsZero() {
+		htmlURL = t.ghRepo.HTMLURL
+	} else {
+		// Gitlab etc., assume the path is the base of the URL.
+		htmlURL = fmt.Sprintf("https://%s", t.m.Path)
+	}
+
+	return map[string]interface{}{
+		"draft":         t.draft,
+		"title":         title,
+		"slug":          t.name,
+		"aliases":       []string{"/" + t.name},
+		"weight":        t.weight,
+		"lastMod":       t.m.Time,
+		"hugoVersion":   t.m.HugoVersion,
+		"modulePath":    t.m.Path,
+		"htmlURL":       htmlURL,
+		"meta":          t.m.Meta,
+		"githubInfo":    t.ghRepo,
+		"themeWarnings": t.themeWarnings,
+		"tags":          normalizeTags(t.m.Meta["tags"]),
+	}
+}
+
+func (t *theme) checkLastMod() (warn warning, found bool) {
+	lastMod := t.m.Time
 	if !lastMod.IsZero() {
 		age := time.Since(lastMod)
 		ageYears := age.Hours() / 24 / 365

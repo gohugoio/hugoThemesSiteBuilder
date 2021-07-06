@@ -82,6 +82,11 @@
       {
         "ignoreImports": true,
         "noMounts": true,
+        "path": "github.com/HEIGE-PCloud/DoIt"
+      },
+      {
+        "ignoreImports": true,
+        "noMounts": true,
         "path": "github.com/IvanChou/hugo-theme-vec"
       },
       {
@@ -318,6 +323,11 @@
         "ignoreImports": true,
         "noMounts": true,
         "path": "github.com/apvarun/showcase-hugo-theme"
+      },
+      {
+        "ignoreImports": true,
+        "noMounts": true,
+        "path": "github.com/apvarun/showfolio-hugo-theme"
       },
       {
         "ignoreImports": true,
@@ -1672,7 +1682,17 @@
       {
         "ignoreImports": true,
         "noMounts": true,
+        "path": "github.com/tylerjlawson/port-hugo"
+      },
+      {
+        "ignoreImports": true,
+        "noMounts": true,
         "path": "github.com/tylerjlawson/simple-resume"
+      },
+      {
+        "ignoreImports": true,
+        "noMounts": true,
+        "path": "github.com/tylerjlawson/simple-snipcart-shop"
       },
       {
         "ignoreImports": true,
@@ -1877,6 +1897,11 @@
       {
         "ignoreImports": true,
         "noMounts": true,
+        "path": "gitlab.com/avron/gruvhugo"
+      },
+      {
+        "ignoreImports": true,
+        "noMounts": true,
         "path": "gitlab.com/kskarthik/monopriv"
       },
       {
@@ -1898,6 +1923,11 @@
         "ignoreImports": true,
         "noMounts": true,
         "path": "gitlab.com/rmaguiar/hugo-theme-color-your-world"
+      },
+      {
+        "ignoreImports": true,
+        "noMounts": true,
+        "path": "gitlab.com/tmuguet/hugo-split-gallery"
       },
       {
         "ignoreImports": true,

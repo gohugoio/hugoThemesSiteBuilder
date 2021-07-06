@@ -252,8 +252,9 @@ func (c *Client) GetGitHubRepos(mods ModulesMap) (map[string]GitHubRepo, error) 
 }
 
 func (c *Client) getGithubReposCacheFilesSorted() []string {
-
-	fis, err := os.ReadDir(filepath.Join(c.outDir, cacheDir))
+	cacheDir := filepath.Join(c.outDir, cacheDir)
+	CheckErr(os.MkdirAll(cacheDir, 0777))
+	fis, err := os.ReadDir(cacheDir)
 	CheckErr(err)
 
 	var entries []string
@@ -326,11 +327,17 @@ func (c *Client) runHugo(w io.Writer, arg ...string) error {
 }
 
 type GitHubRepo struct {
-	ID          int    `json:"id"`
-	Name        string `json:"name"`
-	Description string `json:"description"`
-	HTMLURL     string `json:"html_url"`
-	Stars       int    `json:"stargazers_count"`
+	ID          int       `json:"id"`
+	CreatedAt   time.Time `json:"created_at"`
+	UpdatedAt   time.Time `json:"updated_at"`
+	Name        string    `json:"name"`
+	Description string    `json:"description"`
+	HTMLURL     string    `json:"html_url"`
+	Stars       int       `json:"stargazers_count"`
+}
+
+func (g GitHubRepo) IsZero() bool {
+	return g.HTMLURL == ""
 }
 
 type Module struct {
