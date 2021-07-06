@@ -166,6 +166,8 @@ func (c *buildClient) writeThemesContent(mm client.ModulesMap, noClean bool) err
 			ghRepo:        githubrepos[m.Path],
 		}
 
+		thm.calculateWeight(maxStars)
+
 		// TODO(bep) we don't build any demo site anymore, but
 		// we could and should probably build a simple site and
 		// count warnings and error and use that to
