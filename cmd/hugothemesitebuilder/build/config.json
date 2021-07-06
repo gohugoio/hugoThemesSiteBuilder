@@ -1627,11 +1627,6 @@
       {
         "ignoreImports": true,
         "noMounts": true,
-        "path": "github.com/themefisher/parsa-hugo-personal-blog-theme"
-      },
-      {
-        "ignoreImports": true,
-        "noMounts": true,
         "path": "github.com/themefisher/persian-hugo"
       },
       {
