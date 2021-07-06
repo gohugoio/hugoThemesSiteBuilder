@@ -81,8 +81,8 @@ If a submission is found to violate the LICENSE of an original theme, it will be
 Screenshots are used as theme previews in the list, they should feature a theme's layout (without any browser chrome or device mockups) and have the following dimensions:
 
 * Both the Thumbnail and Screenshot must be in 3:2 aspect ratio.
-* Screenshot (`screenshot.png`) should have a dimension of atleast 1500×1000 in pixels.
-* Thumbnail (`tn.png`) should have a dimension of atleast 900×600 in pixels.
+* Screenshot (`screenshot.png`) should have a dimension of at least 1500×1000 in pixels.
+* Thumbnail (`tn.png`) should have a dimension of at least 900×600 in pixels.
 * Media must be located in:
     * <code><em>[ThemeDir]</em>/images/screenshot.png</code>
     * <code><em>[ThemeDir]</em>/images/tn.png</code>
