@@ -12,12 +12,15 @@ import (
 	"regexp"
 	"sort"
 	"strings"
+	"sync"
 	"time"
+
+	"github.com/bep/workers"
+	"gopkg.in/yaml.v2"
 
 	"github.com/gohugoio/hugoThemesSiteBuilder/pkg/client"
 	"github.com/peterbourgon/ff/v3/ffcli"
 	"github.com/rogpeppe/go-internal/semver"
-	"gopkg.in/yaml.v3"
 
 	"github.com/gohugoio/hugoThemesSiteBuilder/pkg/rootcmd"
 )
@@ -54,7 +57,13 @@ func New(rootConfig *rootcmd.Config) *ffcli.Command {
 // Exec function for this command.
 func (c *Config) Exec(ctx context.Context, args []string) error {
 	const configAll = "config.json"
-	client := &buildClient{Client: c.rootConfig.Client}
+	contentDir := c.rootConfig.Client.JoinOutPath("site", "content")
+	if !c.noClean {
+		client.CheckErr(os.RemoveAll(contentDir))
+	}
+	client.CheckErr(os.MkdirAll(contentDir, 0777))
+
+	client := &buildClient{Client: c.rootConfig.Client, contentDir: contentDir, w: workers.New(4)}
 
 	if err := client.CreateThemesConfig(); err != nil {
 		return err
@@ -72,7 +81,7 @@ func (c *Config) Exec(ctx context.Context, args []string) error {
 		return err
 	}
 
-	if err := client.writeThemesContent(mmap, c.noClean); err != nil {
+	if err := client.writeThemesContent(mmap); err != nil {
 		return err
 	}
 
@@ -83,172 +92,155 @@ func (c *Config) Exec(ctx context.Context, args []string) error {
 type buildClient struct {
 	*client.Client
 
+	w *workers.Workers
+
 	mmap client.ModulesMap
+
+	contentDir string
+
+	// Loaded from GitHub
+	ghReposInit sync.Once
+	ghRepos     map[string]client.GitHubRepo
+	maxStars    int
 }
 
-func (c *buildClient) writeThemesContent(mm client.ModulesMap, noClean bool) error {
-	githubrepos, err := c.GetGitHubRepos(mm)
-	if err != nil {
-		return err
-	}
-	maxStars := 0
-	for _, ghRepo := range githubrepos {
-		if ghRepo.Stars > maxStars {
-			maxStars = ghRepo.Stars
+func (c *buildClient) getGitHubRepo(path string) client.GitHubRepo {
+	c.ghReposInit.Do(func() {
+		ghRepos, err := c.GetGitHubRepos(c.mmap)
+		client.CheckErr(err)
+		maxStars := 0
+		for _, ghRepo := range ghRepos {
+			if ghRepo.Stars > maxStars {
+				maxStars = ghRepo.Stars
+			}
 		}
-	}
+		c.maxStars = maxStars
+		c.ghRepos = ghRepos
+	})
 
-	contentDir := c.JoinOutPath("site", "content")
-	if !noClean {
-		client.CheckErr(os.RemoveAll(contentDir))
-	}
-	client.CheckErr(os.MkdirAll(contentDir, 0777))
+	return c.ghRepos[path]
 
-	type themeWarning struct {
-		theme string
-		warn  warning
-	}
+}
 
-	themeWarningsAll := make(map[themeWarning]bool)
+func (c *buildClient) writeThemesContent(mm client.ModulesMap) error {
+	r, _ := c.w.Start(context.Background())
 
 	for k, m := range mm {
+		k := k
+		m := m
+		r.Run(func() error {
+			return c.writeThemeContent(k, m)
+		})
+	}
 
-		themeName := strings.ToLower(path.Base(k))
+	err := r.Wait()
 
-		themeDir := filepath.Join(contentDir, "themes", themeName)
-		client.CheckErr(os.MkdirAll(themeDir, 0777))
+	c.Logf("Processed %d themes.", len(mm))
 
-		copyIfExists := func(sourcePath, targetPath string) {
-			fs, err := os.Open(filepath.Join(m.Dir, sourcePath))
-			if err != nil {
-				return
-			}
-			defer fs.Close()
-			targetFilename := filepath.Join(themeDir, targetPath)
-			client.CheckErr(os.MkdirAll(filepath.Dir(targetFilename), 0777))
-			ft, err := os.Create(targetFilename)
-			client.CheckErr(err)
-			defer ft.Close()
+	return err
+}
 
-			_, err = io.Copy(ft, fs)
-			client.CheckErr(err)
+func (c *buildClient) writeThemeContent(k string, m client.Module) error {
+	themeName := strings.ToLower(path.Base(k))
+
+	themeDir := filepath.Join(c.contentDir, "themes", themeName)
+	client.CheckErr(os.MkdirAll(themeDir, 0777))
+
+	copyIfExists := func(sourcePath, targetPath string) {
+		fs, err := os.Open(filepath.Join(m.Dir, sourcePath))
+		if err != nil {
+			return
 		}
+		defer fs.Close()
+		targetFilename := filepath.Join(themeDir, targetPath)
+		client.CheckErr(os.MkdirAll(filepath.Dir(targetFilename), 0777))
+		ft, err := os.Create(targetFilename)
+		client.CheckErr(err)
+		defer ft.Close()
 
-		fixReadMeContent := func(s string) string {
-			// Tell Hugo not to process shortcode samples
-			s = regexp.MustCompile(`(?s){\{%([^\/].*?)%\}\}`).ReplaceAllString(s, `{{%/*$1*/%}}`)
-			s = regexp.MustCompile(`(?s){\{<([^\/].*?)>\}\}`).ReplaceAllString(s, `{{</*$1*/>}}`)
-			// s = regexp.MustCompile(`(?s)github\.com\/(.*?)\/blob\/master\/images/raw\.githubusercontent\.com`).ReplaceAllString(s, `/$1/master/images/`)
+		_, err = io.Copy(ft, fs)
+		client.CheckErr(err)
+	}
 
-			return s
-		}
+	fixReadMeContent := func(s string) string {
+		// Tell Hugo not to process shortcode samples
+		s = regexp.MustCompile(`(?s){\{%([^\/].*?)%\}\}`).ReplaceAllString(s, `{{%/*$1*/%}}`)
+		s = regexp.MustCompile(`(?s){\{<([^\/].*?)>\}\}`).ReplaceAllString(s, `{{</*$1*/>}}`)
+		// s = regexp.MustCompile(`(?s)github\.com\/(.*?)\/blob\/master\/images/raw\.githubusercontent\.com`).ReplaceAllString(s, `/$1/master/images/`)
 
-		getReadMeContent := func() string {
-			files, err := os.ReadDir(m.Dir)
-			client.CheckErr(err)
-			for _, fi := range files {
-				if fi.IsDir() {
-					continue
-				}
-				if strings.EqualFold(fi.Name(), "readme.md") {
-					b, err := ioutil.ReadFile(filepath.Join(m.Dir, fi.Name()))
-					client.CheckErr(err)
-					return fixReadMeContent(string(b))
-				}
-			}
-			return ""
-		}
+		return s
+	}
 
-		thm := &theme{
-			m:             m,
-			name:          themeName,
-			readMeContent: getReadMeContent(),
-			ghRepo:        githubrepos[m.Path],
-		}
-
-		thm.calculateWeight(maxStars)
-
-		// TODO(bep) we don't build any demo site anymore, but
-		// we could and should probably build a simple site and
-		// count warnings and error and use that to
-		// either pull it down the list with weight or skip it.
-
-		// Add warnings for old themes, bad URLs etc.
-
-		if warn, found := thm.checkLastMod(); found {
-			if warn.level == errorLevelBlock {
-				thm.draft = true
-			}
-			themeWarningsAll[themeWarning{theme: k, warn: warn}] = true
-		}
-
-		for _, metaSiteKey := range []string{"demosite", "homepage"} {
-			// TODO(bep) author sites + redirects?
-			if s, found := m.Meta[metaSiteKey]; found {
-				if c.IsBadURL(s.(string)) {
-					themeWarningsAll[themeWarning{theme: k, warn: themeWarningBadURL}] = true
-
-					// Remove it from the map.
-					delete(m.Meta, metaSiteKey)
-				}
-			}
-		}
-
-		for v, _ := range themeWarningsAll {
-			if v.theme != k {
+	getReadMeContent := func() string {
+		files, err := os.ReadDir(m.Dir)
+		client.CheckErr(err)
+		for _, fi := range files {
+			if fi.IsDir() {
 				continue
 			}
-			thm.themeWarnings = append(thm.themeWarnings, v.warn.message)
+			if strings.EqualFold(fi.Name(), "readme.md") {
+				b, err := ioutil.ReadFile(filepath.Join(m.Dir, fi.Name()))
+				client.CheckErr(err)
+				return fixReadMeContent(string(b))
+			}
 		}
-		sort.Strings(thm.themeWarnings)
+		return ""
+	}
 
-		frontmatter := thm.toFrontMatter()
+	thm := &theme{
+		m:             m,
+		name:          themeName,
+		readMeContent: getReadMeContent(),
+		ghRepo:        c.getGitHubRepo(m.Path),
+	}
 
-		b, err := yaml.Marshal(frontmatter)
-		client.CheckErr(err)
+	thm.calculateWeight(c.maxStars)
 
-		content := fmt.Sprintf(`---
+	// TODO(bep) we don't build any demo site anymore, but
+	// we could and should probably build a simple site and
+	// count warnings and error and use that to
+	// either pull it down the list with weight or skip it.
+
+	// Add warnings for old themes, bad URLs etc.
+
+	if warn, found := thm.checkLastMod(); found {
+		if warn.level == errorLevelBlock {
+			thm.draft = true
+		}
+		thm.warn(warn.message)
+	}
+
+	for _, metaSiteKey := range []string{"demosite", "homepage"} {
+		// TODO(bep) author sites + redirects?
+		if s, found := m.Meta[metaSiteKey]; found {
+			if c.IsBadURL(s.(string)) {
+				thm.warn(themeWarningBadURL.message)
+
+				// Remove it from the map.
+				delete(m.Meta, metaSiteKey)
+			}
+		}
+	}
+
+	sort.Strings(thm.themeWarnings)
+
+	frontmatter := thm.toFrontMatter()
+
+	b, err := yaml.Marshal(frontmatter)
+	client.CheckErr(err)
+
+	content := fmt.Sprintf(`---
 %s
 ---
 %s
 `, string(b), thm.readMeContent)
 
-		if err := ioutil.WriteFile(filepath.Join(themeDir, "index.md"), []byte(content), 0666); err != nil {
-			return err
-		}
-
-		copyIfExists("images/tn.png", "tn-featured.png")
-		copyIfExists("images/screenshot.png", "screenshot.png")
-
+	if err := ioutil.WriteFile(filepath.Join(themeDir, "index.md"), []byte(content), 0666); err != nil {
+		return err
 	}
 
-	var warnCount, blockedCount int
-
-	for w, _ := range themeWarningsAll {
-		if w.warn.level == errorLevelWarn {
-			warnCount++
-		} else {
-			blockedCount++
-		}
-	}
-
-	if warnCount > 0 {
-		fmt.Printf("\n%d warnings were applied to the themes. See below.\n", warnCount)
-	}
-
-	if blockedCount > 0 {
-		fmt.Printf("\n%d themes were blocked (draft=true). See below.", blockedCount)
-	}
-
-	fmt.Println()
-
-	for w, _ := range themeWarningsAll {
-		levelString := "warning"
-		if w.warn.level == errorLevelBlock {
-			levelString = "block"
-		}
-		fmt.Printf("%s: %s: %s\n", levelString, w.theme, w.warn.message)
-	}
+	copyIfExists("images/tn.png", "tn-featured.png")
+	copyIfExists("images/screenshot.png", "screenshot.png")
 
 	return nil
 }
@@ -271,6 +263,10 @@ type theme struct {
 
 func (t *theme) isVersioned() bool {
 	return semver.IsValid(t.m.Version)
+}
+
+func (t *theme) warn(s string) {
+	t.themeWarnings = append(t.themeWarnings, s)
 }
 
 func (t *theme) calculateWeight(maxStars int) {
