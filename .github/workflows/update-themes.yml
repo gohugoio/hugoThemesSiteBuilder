@@ -5,6 +5,8 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
+    env:
+      HUGO_CACHEDIR: /tmp/hugo_cache
     steps:
     - uses: actions/checkout@v2
     - uses: actions/setup-go@v2
@@ -15,15 +17,13 @@ jobs:
         path: |
           ~/.cache/go-build
           ~/go/pkg/mod
-          ~/.cache/hugo_cache
+          ${{ env.HUGO_CACHEDIR }}
         key: ${{ runner.os }}-go-${{ hashFiles('**/go.sum') }}
         restore-keys: |
           ${{ runner.os }}-go-
     - name: Update submodules
       shell: bash
       working-directory: ./cmd/hugothemesitebuilder/build
-      env:
-        HUGO_CACHEDIR:  ~/.cache/hugo_cache
       run: |
        git config --global user.email "digitalcraftsman@users.noreply.github.com"
        git config --global user.name "digitalcraftsman"
