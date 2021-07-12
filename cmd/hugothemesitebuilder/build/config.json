@@ -47,11 +47,6 @@
       {
         "ignoreImports": true,
         "noMounts": true,
-        "path": "github.com/Chen-Zhe/photo-grid"
-      },
-      {
-        "ignoreImports": true,
-        "noMounts": true,
         "path": "github.com/EmielH/hallo-hugo"
       },
       {
@@ -103,21 +98,6 @@
         "ignoreImports": true,
         "noMounts": true,
         "path": "github.com/J-Siu/hugo-theme-sk3"
-      },
-      {
-        "ignoreImports": true,
-        "noMounts": true,
-        "path": "github.com/JugglerX/hugo-hero-theme"
-      },
-      {
-        "ignoreImports": true,
-        "noMounts": true,
-        "path": "github.com/JugglerX/hugo-serif-theme"
-      },
-      {
-        "ignoreImports": true,
-        "noMounts": true,
-        "path": "github.com/JugglerX/hugo-whisper-theme"
       },
       {
         "ignoreImports": true,
@@ -888,11 +868,6 @@
         "ignoreImports": true,
         "noMounts": true,
         "path": "github.com/jeblister/bulma"
-      },
-      {
-        "ignoreImports": true,
-        "noMounts": true,
-        "path": "github.com/jeblister/kube"
       },
       {
         "ignoreImports": true,
@@ -1727,22 +1702,12 @@
       {
         "ignoreImports": true,
         "noMounts": true,
-        "path": "github.com/varkai/hugo-theme-zozo"
-      },
-      {
-        "ignoreImports": true,
-        "noMounts": true,
         "path": "github.com/vickylaixy/hugo-theme-introduction"
       },
       {
         "ignoreImports": true,
         "noMounts": true,
         "path": "github.com/vimux/blank"
-      },
-      {
-        "ignoreImports": true,
-        "noMounts": true,
-        "path": "github.com/vividvilla/ezhil"
       },
       {
         "ignoreImports": true,
@@ -1832,7 +1797,22 @@
       {
         "ignoreImports": true,
         "noMounts": true,
+        "path": "github.com/zerostaticthemes/hugo-hero-theme"
+      },
+      {
+        "ignoreImports": true,
+        "noMounts": true,
         "path": "github.com/zerostaticthemes/hugo-serif-theme"
+      },
+      {
+        "ignoreImports": true,
+        "noMounts": true,
+        "path": "github.com/zerostaticthemes/hugo-whisper-theme"
+      },
+      {
+        "ignoreImports": true,
+        "noMounts": true,
+        "path": "github.com/zerostaticthemes/hugo-winston-theme"
       },
       {
         "ignoreImports": true,

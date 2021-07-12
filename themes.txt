@@ -6,7 +6,7 @@ github.com/AlexFinn/simple-a
 github.com/AmazingRise/hugo-theme-diary
 github.com/AngeloStavrow/indigo
 github.com/CaiJimmy/hugo-theme-stack
-github.com/Chen-Zhe/photo-grid
+# Missing tn.png: github.com/Chen-Zhe/photo-grid
 github.com/EmielH/hallo-hugo
 github.com/EmielH/stip-hugo
 github.com/EmielH/tale-hugo
@@ -172,7 +172,7 @@ github.com/janraasch/hugo-product-launch
 github.com/janraasch/hugo-scroll
 github.com/jbub/ghostwriter
 github.com/jeblister/bulma
-github.com/jeblister/kube
+#theme.toml: Invalid float value: "0.84.1": github.com/jeblister/kube
 github.com/jeremybise/twentynineteen-hugo
 github.com/jesselau76/hugo-w3-simple
 github.com/jimfrenette/hugo-starter
@@ -339,10 +339,10 @@ github.com/uicardiodev/hugo-uilite
 github.com/urjaacharya/redgood
 github.com/vaga/hugo-theme-m10c
 github.com/vantagedesign/ace-documentation
-github.com/varkai/hugo-theme-zozo
+# Missing tn.png: github.com/varkai/hugo-theme-zozo
 github.com/vickylaixy/hugo-theme-introduction
 github.com/vimux/blank
-github.com/vividvilla/ezhil
+# Missing tn.png: github.com/vividvilla/ezhil
 github.com/vjeantet/hugo-theme-docport
 github.com/wangchucheng/hugo-eureka
 github.com/wayjam/hugo-theme-mixedpaper

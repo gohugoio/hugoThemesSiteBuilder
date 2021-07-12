@@ -2,6 +2,7 @@ package buildcmd
 
 import (
 	"context"
+	"errors"
 	"flag"
 	"fmt"
 	"io"
@@ -94,6 +95,9 @@ type buildClient struct {
 
 	w *workers.Workers
 
+	mu        sync.Mutex
+	buildErrs []error
+
 	mmap client.ModulesMap
 
 	contentDir string
@@ -102,6 +106,15 @@ type buildClient struct {
 	ghReposInit sync.Once
 	ghRepos     map[string]client.GitHubRepo
 	maxStars    int
+}
+
+func (c *buildClient) err(err error) {
+	if err == nil {
+		return
+	}
+	c.mu.Lock()
+	defer c.mu.Unlock()
+	c.buildErrs = append(c.buildErrs, err)
 }
 
 func (c *buildClient) getGitHubRepo(path string) client.GitHubRepo {
@@ -129,7 +142,8 @@ func (c *buildClient) writeThemesContent(mm client.ModulesMap) error {
 		k := k
 		m := m
 		r.Run(func() error {
-			return c.writeThemeContent(k, m)
+			c.err(c.writeThemeContent(k, m))
+			return nil
 		})
 	}
 
@@ -137,7 +151,20 @@ func (c *buildClient) writeThemesContent(mm client.ModulesMap) error {
 
 	c.Logf("Processed %d themes.", len(mm))
 
-	return err
+	if err != nil {
+
+	}
+
+	if len(c.buildErrs) > 0 {
+		for _, err := range c.buildErrs {
+			fmt.Println("error:", err)
+		}
+
+		return errors.New("build failed")
+
+	}
+
+	return nil
 }
 
 func (c *buildClient) writeThemeContent(k string, m client.Module) error {
@@ -146,10 +173,10 @@ func (c *buildClient) writeThemeContent(k string, m client.Module) error {
 	themeDir := filepath.Join(c.contentDir, "themes", themeName)
 	client.CheckErr(os.MkdirAll(themeDir, 0777))
 
-	copyIfExists := func(sourcePath, targetPath string) {
+	copyIfExists := func(sourcePath, targetPath string) error {
 		fs, err := os.Open(filepath.Join(m.Dir, sourcePath))
 		if err != nil {
-			return
+			return err
 		}
 		defer fs.Close()
 		targetFilename := filepath.Join(themeDir, targetPath)
@@ -160,6 +187,8 @@ func (c *buildClient) writeThemeContent(k string, m client.Module) error {
 
 		_, err = io.Copy(ft, fs)
 		client.CheckErr(err)
+
+		return nil
 	}
 
 	fixReadMeContent := func(s string) string {
@@ -239,8 +268,19 @@ func (c *buildClient) writeThemeContent(k string, m client.Module) error {
 		return err
 	}
 
-	copyIfExists("images/tn.png", "tn-featured.png")
-	copyIfExists("images/screenshot.png", "screenshot.png")
+	copyImage := func(source, target string) error {
+		if err := copyIfExists(source, target); err != nil {
+			return fmt.Errorf("image %q not found in %q", source, k)
+		}
+		return nil
+	}
+
+	if err := copyImage("images/tn.png", "tn-featured.png"); err != nil {
+		return err
+	}
+	if err := copyImage("images/screenshot.png", "screenshot.png"); err != nil {
+		return err
+	}
 
 	return nil
 }
