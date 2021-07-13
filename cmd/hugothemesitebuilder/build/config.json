@@ -1112,6 +1112,11 @@
       {
         "ignoreImports": true,
         "noMounts": true,
+        "path": "github.com/michimani/simplog"
+      },
+      {
+        "ignoreImports": true,
+        "noMounts": true,
         "path": "github.com/miguelsimoni/hugo-initio"
       },
       {

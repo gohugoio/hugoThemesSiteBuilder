@@ -77,12 +77,13 @@ func (c *Config) Exec(ctx context.Context, args []string) error {
 		}
 	}
 
-	mmap, err := client.GetHugoModulesMap(configAll)
+	var err error
+	client.mmap, err = client.GetHugoModulesMap(configAll)
 	if err != nil {
 		return err
 	}
 
-	if err := client.writeThemesContent(mmap); err != nil {
+	if err := client.writeThemesContent(); err != nil {
 		return err
 	}
 
@@ -135,10 +136,10 @@ func (c *buildClient) getGitHubRepo(path string) client.GitHubRepo {
 
 }
 
-func (c *buildClient) writeThemesContent(mm client.ModulesMap) error {
+func (c *buildClient) writeThemesContent() error {
 	r, _ := c.w.Start(context.Background())
 
-	for k, m := range mm {
+	for k, m := range c.mmap {
 		k := k
 		m := m
 		r.Run(func() error {
@@ -149,7 +150,7 @@ func (c *buildClient) writeThemesContent(mm client.ModulesMap) error {
 
 	err := r.Wait()
 
-	c.Logf("Processed %d themes.", len(mm))
+	c.Logf("Processed %d themes.", len(c.mmap))
 
 	if err != nil {
 

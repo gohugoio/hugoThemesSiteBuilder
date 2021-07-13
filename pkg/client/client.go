@@ -233,7 +233,7 @@ func (c *Client) GetGitHubRepos(mods ModulesMap) (map[string]GitHubRepo, error) 
 		}
 
 		if len(m2) > 0 {
-			b, err := json.Marshal(m2)
+			b, err := json.MarshalIndent(m2, "", "  ")
 			if err != nil {
 				return nil, err
 			}

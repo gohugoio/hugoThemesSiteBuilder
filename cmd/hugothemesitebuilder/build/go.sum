@@ -448,6 +448,8 @@ github.com/mdashx/basicwebtheme v0.3.0/go.mod h1:vzJRREfnYl2/fsV/GAJG/CYUrZElNM4
 github.com/meibenny/elephants v0.0.0-20190820025002-8838e7504aed h1:jxoBHt9WFLD6srnVE0sXex70+yjUKnjbJJWasrEXVBo=
 github.com/meibenny/elephants v0.0.0-20190820025002-8838e7504aed/go.mod h1:6rsFlY6RN5/l65zf7mkXr79czBkpR+MO8X0FER3FJYk=
 github.com/mermaid-js/mermaid v8.8.5-0.20210510161447-417428aceada+incompatible/go.mod h1:pGJSm9DYANtp59DADJgNzFh1uIpkn5xaH3ZBdv1VNTI=
+github.com/michimani/simplog v0.0.0-20210710104115-666c80932466 h1:Gux/fsiYWJmfhyB2FqgJy0M2p5BROwgsAEFjKz6MpOw=
+github.com/michimani/simplog v0.0.0-20210710104115-666c80932466/go.mod h1:OYyHKMrmwd5vJiBDtonXmATXJG1rydhPvB0vmaclVPc=
 github.com/miguelsimoni/hugo-initio v0.0.0-20210601162906-a1fab1f21a8d h1:Q+j+Bo5Yi5zCq5oigVpC8nrXRNoeURd7wwE+NiQel5M=
 github.com/miguelsimoni/hugo-initio v0.0.0-20210601162906-a1fab1f21a8d/go.mod h1:KBCk/6VF3tsQ8qGIJqNNxyZkTyDluE/WzvhAPoet/FY=
 github.com/mikeblum/hugo-now v0.1.0 h1:zSbICSdI8TkG0LWO/FqE8JdYQAVxvIviCuxY1ZFSXeI=
