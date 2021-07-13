@@ -118,6 +118,8 @@ github.com/appernetic/hugo-nederburg-theme v0.0.0-20190712152204-d99760bac630 h1
 github.com/appernetic/hugo-nederburg-theme v0.0.0-20190712152204-d99760bac630/go.mod h1:DpdzzbOU/CzD5kH9kfD/lAWOdYbNH14vZ9uiOUY+6lA=
 github.com/apvarun/showcase-hugo-theme v1.2.0 h1:uM0WbEm+6RsjNOsOMvhEhIoN8WRJs/IgVKsSTLtHfps=
 github.com/apvarun/showcase-hugo-theme v1.2.0/go.mod h1:7Ox1J/nd+xUq2SEvEFpWulH+D8E5UoG7uq5+130XoQ4=
+github.com/apvarun/showcase-hugo-theme v1.2.1 h1:LxcNc+LlEajRr5WZisfHDNHCj27DAOy2x6Cy12cf02Q=
+github.com/apvarun/showcase-hugo-theme v1.2.1/go.mod h1:7Ox1J/nd+xUq2SEvEFpWulH+D8E5UoG7uq5+130XoQ4=
 github.com/apvarun/showfolio-hugo-theme v1.0.0 h1:60D0sX1gQuPJnGlrxgEmiA3bQYo6D85a+UalO979OKo=
 github.com/apvarun/showfolio-hugo-theme v1.0.0/go.mod h1:7q85q5vgDpPPUUJaDklTd/NNyIT2RaI6ktLSGikt1cE=
 github.com/asurbernardo/amperage v0.0.0-20201210113041-18bba9e6f415 h1:8xg41J/Nl9xGMmhOiMgbUVL72E03T+jxbuQESm9QlBM=
@@ -493,6 +495,8 @@ github.com/onweru/newsroom v0.0.0-20210531145733-7c332200b78b h1:xMhmOuG5T5otLWq
 github.com/onweru/newsroom v0.0.0-20210531145733-7c332200b78b/go.mod h1:CnPS3gSJseLHZMhLLbxe+qDzR54HQ7s5RaLujOkejuM=
 github.com/opera7133/Blonde v0.0.0-20210624111019-6b29451dea52 h1:ThWUHbfA7cKd5ogXWCVexIGQ23OktHRgQWNJf4/om88=
 github.com/opera7133/Blonde v0.0.0-20210624111019-6b29451dea52/go.mod h1:b3YtD5mSb0xLTVGYHJCCBPyc1g3VLyrov7tWXeZsI14=
+github.com/opera7133/Blonde v0.0.0-20210712111114-d1f62adc2bb2 h1:j4YlkN/d6lwS5y6/pacEhXYTIHHOtnqq9xzC+cksnRI=
+github.com/opera7133/Blonde v0.0.0-20210712111114-d1f62adc2bb2/go.mod h1:b3YtD5mSb0xLTVGYHJCCBPyc1g3VLyrov7tWXeZsI14=
 github.com/orf/bare-hugo-theme v0.0.0-20210429204408-c7790f7f0890 h1:ZZBwkh9Bol8joUnigCWJE5BlijWYb+z83g6BjeFSqqc=
 github.com/orf/bare-hugo-theme v0.0.0-20210429204408-c7790f7f0890/go.mod h1:aZ/HHOCsSM0xPSY5Wd6Yh360C6Axu6rHECcPikVzkU4=
 github.com/pacollins/hugo-future-imperfect-slim v0.0.0-20210704021429-57b6d9c59390 h1:U2nJZUt0D9526iPotLBO15Ik3U8sosRszY5Pb5zKZUU=
@@ -626,6 +630,8 @@ github.com/themefisher/Hargo-hugo-ecommerce-theme v0.0.0-20210130042127-2cd2f680
 github.com/themefisher/Hargo-hugo-ecommerce-theme v0.0.0-20210130042127-2cd2f680b2c8/go.mod h1:cUAr6gJaGPmZjdAuRnEoE5QIlIFkoWaWRI2CqGY+Z5o=
 github.com/themefisher/Influencer-hugo v0.0.0-20210705112728-c5176ffe4453 h1:KBUuLKIxTem/pqb8CKgF7pjHMGp6+Q5+jV9CYrMyIGk=
 github.com/themefisher/Influencer-hugo v0.0.0-20210705112728-c5176ffe4453/go.mod h1:71dDd9BSMXCwbBLWEUC9JXC9Y+hgIgmHqnKpHuPIyxE=
+github.com/themefisher/academia-hugo v1.0.0 h1:ljEd+6eJhrPL5SIG3JBq6UNWFL10uHS54RCLi6mO7qI=
+github.com/themefisher/academia-hugo v1.0.0/go.mod h1:2hMUtxx2l7NebHqK4gv4OJ34rEag5/W/WrcdZ8YwgMg=
 github.com/themefisher/airspace-hugo v0.0.0-20210704044618-9a4b529f043f h1:z/jNHHRwHZhTu2236ySIE3feCraNTEbHf9bUJ3RbywQ=
 github.com/themefisher/airspace-hugo v0.0.0-20210704044618-9a4b529f043f/go.mod h1:C2qpVeCY3+cUl6RJFFFNDGbNGfQyEanvAy5nvnVnPIE=
 github.com/themefisher/bigspring-hugo-startup-theme v0.0.0-20210710052022-e083698f850d h1:CqACWeyPBKbxfCE+QreUCIGNJ+Tbmh0Tj4PGykIgSZU=
