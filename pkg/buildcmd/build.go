@@ -444,36 +444,50 @@ func normalizeTags(in interface{}) []string {
 	return uniqueStringsSorted(tagsout)
 }
 
-var goodTags = map[string]bool{
+var goodTags = map[string]interface{}{
 	"api":          true,
 	"blog":         true,
 	"bootstrap":    true,
 	"company":      true,
+	"business":     "company",
 	"dark":         true,
+	"dark mode":    true,
+	"hero":         true,
+	"light mode":   true,
 	"ecommerce":    true,
 	"gallery":      true,
 	"green":        true,
 	"light":        true,
 	"multilingual": true,
+	"mobile":       "responsive",
 	"newsletter":   true,
 	"portfolio":    true,
-	"white":        true,
+	"white":        "light",
 	"agency":       true,
 	"personal":     true,
-	"archives":     true,
+	"archives":     "archive",
+	"archive":      true,
 	"book":         true,
 	"church":       true,
 	"education":    true,
 	"magazine":     true,
+	"podcast":      true,
 	"responsive":   true,
 	"pink":         true,
+	"two-column":   true,
 }
 
 func normalizeTag(s string) string {
 	s = strings.ToLower(s)
 
-	if goodTags[s] {
-		return s
+	if v, found := goodTags[s]; found {
+		switch vv := v.(type) {
+		case string:
+			return vv
+		default:
+			return s
+		}
+
 	}
 
 	ca := func(candidates ...string) bool {
@@ -483,10 +497,6 @@ func normalizeTag(s string) string {
 			}
 		}
 		return false
-	}
-
-	if ca("docs", "document") {
-		return "docs"
 	}
 
 	if ca("blog") {
@@ -501,351 +511,29 @@ func normalizeTag(s string) string {
 		return "bootstrap"
 	}
 
+	if ca("docs", "document") {
+		return "docs"
+	}
+
+	if ca("landing") {
+		return "landing"
+	}
+
+	if ca("one") {
+		return "landing"
+	}
+
+	if ca("minimal") {
+		return "minimal"
+	}
+
+	if ca("prodcuct") {
+		return "ecommerce"
+	}
+
 	return ""
 
 }
-
-/*
-All tags currently in use:
-
- API
-Academic
-Academicons
-AlexFinn
-Blog
-Bootstrap
-Bootstrap v4
-CSS Grid
-Clean
-Company
-Contact Form
-Creative Tim
-Custom Themes
-Dark
-DevFest
-Disqus
-Docs
-Documentation
-Ecommerce
-Elate
-Fancybox
-Font Awesome
-Fontawesome
-Gallery
-Google Analytics
-Google News
-Google analytics
-Green
-HTML5
-Highlight.js
-Hugo
-Invision
-Jquery
-Lato
-Light
-Material Design
-Minimal
-Minimalist
-Mobile
-Modern
-Multilingual
-Netlify
-Newsletter
-Octopress
-Open Graph
-Pacman
-Personal
-Pink
-Portfolio
-Presentation
-Product
-Projects
-Responsive
-Roboto
-Roboto Slab
-Simple
-Single Product
-Skel
-Slide
-Sortable Tables
-Stackbit
-Starter
-Staticman
-Syntax Highlighting
-Syntax highlighting
-Table Of Contents
-Tachyons
-Tags
-Technical
-Themefisher
-Twitter Cards
-Typography
-White
-academic
-accessibility
-accessible
-accordion
-agency
-agency-template
-allegiant
-amp
-archives
-articles
-avatar
-bang
-beautiful
-black white
-blank
-blog
-blog, responsive, personal, bootstrap, disqus, google analytics, syntax highligting, font awesome, landing page, flexbox
-blogdown
-bluma
-book
-bookmarking
-bootstrap
-bootstrap4
-bulma
-business
-card
-cards
-carousel
-case study
-catalogue
-changelog
-church
-clean
-clients
-cms
-collections
-color configuration
-colors
-colour schemes
-commento
-comming-soon
-company
-conference
-configurable
-contact
-contact form
-contact-form
-content management
-cooking
-copyright
-core
-creative
-css grid
-css only
-custom themes
-custom-design
-custom-themes
-customizable
-cv
-dark
-dark mode
-data files
-debug
-developer
-development
-devicon
-disqus
-doc
-docs
-document
-documentation
-donggeun
-ecommerce
-edidor
-editor
-education
-elegant
-experience
-fancybox 3
-faq
-fast
-feather
-flat-ui
-flex
-flexbox
-flip
-font awesome
-font-awesome
-fontawesome
-foundation
-freelancer
-freenlancer
-fresh
-gallery
-gethugothemes
-ghost
-google adsense
-google analytics
-google fonts
-google tag manager
-google-analytics
-gradients
-graphcomment
-graphical
-grav
-grid
-hero
-high contrast
-highlight
-highlight.js
-highlighting
-home
-html5
-html5up
-hugo
-hugo templates
-hugo themes
-hugo-templates
-hugo-theme
-hyde
-i18n
-icon
-illustrations
-images
-informal
-isso
-jekyll
-jekyll-now
-jssocials
-kube
-l10n
-lander
-landing
-landing page
-landing-page
-landingpage
-launch page
-learn
-light
-light mode
-linkblog
-lodi
-lubang
-lulab
-magazine
-marketing
-masonry layout
-material design
-material-design
-micro
-microblog
-mimimalist
-minimal
-minimalist
-minimalistic
-mobile
-modern
-modern design
-monochromatic
-monospace
-monotone
-motto
-multi page
-multilingual
-multipage
-neat
-netlify
-night-mode
-no-javascript
-nojs
-normalize
-offline
-one page
-one-page
-onepage
-opensource
-page
-pages
-pagination
-paper
-parallax
-personal
-personal-website
-photoblog
-photography
-pixel
-plain
-podcast
-portfolio
-post
-postimage
-posts
-premium
-presentation
-privacy
-product
-product catalogue
-products
-professional
-profile
-programmer
-projects
-purecss
-pygments
-readable
-reading
-recipes
-responsive
-resume
-retro
-revealjs
-rss
-rstats
-search
-seo
-sepia
-services
-share this
-shopping
-shortcuts
-showcase
-simple
-simple page
-single page
-single product
-single-page
-singlepage
-skills
-slide
-slider
-social
-social links
-solarized
-somratpro
-spa
-spectre css framework
-speed-dial
-starter
-staticman
-syntax highlighting
-syntax sighlighting
-syntax-highlighting
-tachyons
-tags
-tailwindcss
-technical
-terminal
-theme
-themefisher
-themes
-timeline
-two-column
-typography
-uicardio
-university
-unix
-ux
-w3css
-website
-white
-widgets
-wiki-like
-wordpress
-zerostatic
-*/
 
 func uniqueStringsSorted(s []string) []string {
 	if len(s) == 0 {
