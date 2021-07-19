@@ -27,7 +27,7 @@ require (
 	github.com/LukasJoswiak/etch v0.0.0-20210419011140-b2941c2fcf93 // indirect
 	github.com/MarcusVirg/forty v0.0.0-20190430033326-dccea57bd2ed // indirect
 	github.com/MeiK2333/github-style v0.0.0-20210317060925-607fbab50bb6 // indirect
-	github.com/Mitrichius/hugo-theme-anubis v0.0.0-20210714064405-11c874e3b040 // indirect
+	github.com/Mitrichius/hugo-theme-anubis v0.0.0-20210717115528-fb75ebbd830d // indirect
 	github.com/MunifTanjim/minimo v2.9.0+incompatible // indirect
 	github.com/NormandErwan/Blogpaper v1.0.4 // indirect
 	github.com/PippoRJ/hugo-refresh v0.0.0-20210504211222-9ea78af16a40 // indirect
@@ -43,8 +43,8 @@ require (
 	github.com/ThemeTony/hugo-theme-tony v0.0.0-20200901112622-c8f3bbc97656 // indirect
 	github.com/Track3/hermit v1.2.2 // indirect
 	github.com/VVelox/hugo-dusky-neon-potato v0.0.0-20190818211451-ecd0bc91b57b // indirect
-	github.com/Vimux/Binario v0.0.0-20210704161632-04d51be8c498 // indirect
-	github.com/Vimux/mainroad v0.0.0-20210707165157-230db75e6d23 // indirect
+	github.com/Vimux/Binario v0.0.0-20210718134753-12e9ea7955a3 // indirect
+	github.com/Vimux/mainroad v0.0.0-20210718135000-043befbc585e // indirect
 	github.com/WingLim/hugo-tania v1.6.0 // indirect
 	github.com/Xzya/hugo-material-blog v0.100.2 // indirect
 	github.com/Y4er/hugo-theme-easybook v0.0.0-20200124093729-48555b802349 // indirect
@@ -144,7 +144,7 @@ require (
 	github.com/gkmngrgn/hugo-alageek-theme v0.0.0-20210613074050-8f5594e06c17 // indirect
 	github.com/gonnux/hugo-apps-theme v2.0.0+incompatible // indirect
 	github.com/goodroot/hugo-classic v0.0.0-20210704050659-0052c56414c1 // indirect
-	github.com/google/docsy v0.0.0-20210714122402-07ac7489c58e // indirect
+	github.com/google/docsy v0.0.0-20210716144024-ceb88ad96945 // indirect
 	github.com/guangmean/Niello v0.0.0-20191029090447-5b18ef951464 // indirect
 	github.com/gundamew/hugo-bingo v1.8.2 // indirect
 	github.com/gurusabarish/hugo-profile v0.0.0-20210713060340-fb8a76031930 // indirect
@@ -154,12 +154,12 @@ require (
 	github.com/halogenica/beautifulhugo v0.0.0-20210106080152-99ca240e9977 // indirect
 	github.com/hauke96/hugo-theme-hamburg v0.6.3 // indirect
 	github.com/hdcdstr8fwd/foundation-theme v0.0.0-20190427172834-b159c5ca30a4 // indirect
-	github.com/heyeshuang/hugo-theme-tokiwa v0.0.0-20210531130949-715a8849f94f // indirect
+	github.com/heyeshuang/hugo-theme-tokiwa v0.0.0-20210716020520-9691c0c72e70 // indirect
 	github.com/hivickylai/hugo-theme-sam v4.0.2+incompatible // indirect
 	github.com/hossainemruz/toha v3.1.0+incompatible // indirect
 	github.com/htdvisser/hugo-base16-theme v0.0.0-20210424145429-507fbbfb08f6 // indirect
 	github.com/htr3n/hyde-hyde v2.0.2+incompatible // indirect
-	github.com/humrochagf/colordrop v1.6.0 // indirect
+	github.com/humrochagf/colordrop v1.7.0 // indirect
 	github.com/huyb1991/hugo-lamp v1.2.1 // indirect
 	github.com/iCyris/hugo-theme-yuki v1.1.0 // indirect
 	github.com/ianrodrigues/hugo-tailwind-journal v0.0.0-20191119231934-32cd3a6e65e1 // indirect
@@ -224,7 +224,7 @@ require (
 	github.com/mcrwfrd/hugo-frances-theme v0.0.0-20190917015302-bed6647b837f // indirect
 	github.com/mdashx/basicwebtheme v0.3.0 // indirect
 	github.com/meibenny/elephants v0.0.0-20190820025002-8838e7504aed // indirect
-	github.com/michimani/simplog v0.0.0-20210710104115-666c80932466 // indirect
+	github.com/michimani/simplog v0.0.0-20210716171532-9d3c0beeb2b9 // indirect
 	github.com/miguelsimoni/hugo-initio v0.0.0-20210601162906-a1fab1f21a8d // indirect
 	github.com/mikeblum/hugo-now v0.1.0 // indirect
 	github.com/mismith0227/hugo_theme_pickles v0.0.0-20210516030432-3e9a3c8fed75 // indirect
@@ -250,7 +250,7 @@ require (
 	github.com/opera7133/Blonde v0.0.0-20210713110940-3209ee3187f1 // indirect
 	github.com/orf/bare-hugo-theme v0.0.0-20210429204408-c7790f7f0890 // indirect
 	github.com/pacollins/hugo-future-imperfect-slim v0.0.0-20210704021429-57b6d9c59390 // indirect
-	github.com/panr/hugo-theme-hello-friend v0.0.0-20210512215033-3e62106bc919 // indirect
+	github.com/panr/hugo-theme-hello-friend v0.0.0-20210717211217-84bd33a03821 // indirect
 	github.com/panr/hugo-theme-terminal v0.0.0-20210512213322-ca1cc0c3915e // indirect
 	github.com/parsiya/Hugo-Octopress v0.0.0-20210416205536-0d4b348454a4 // indirect
 	github.com/pavel-pi/kiss-em v2.0.0+incompatible // indirect
@@ -351,7 +351,7 @@ require (
 	github.com/wd/hugo-fabric v0.0.0-20191202002427-c416adb14920 // indirect
 	github.com/wileybaba/hugo-theme-robotico v0.0.0-20190128025338-a1e633362eee // indirect
 	github.com/wlh320/hugo-theme-hulga v0.0.0-20201127105201-539caeec7c7d // indirect
-	github.com/wowchemy/starter-academic v0.0.0-20210711010729-bb4bcdcc8544 // indirect
+	github.com/wowchemy/starter-academic v0.0.0-20210718010403-3135c254ed17 // indirect
 	github.com/xaprb/story v0.0.0-20190603135830-326ee1c51902 // indirect
 	github.com/xaviablaza/hugo-lodi-theme v0.0.0-20190215050835-89984401ebf2 // indirect
 	github.com/xianmin/hugo-theme-jane v0.0.0-20210108235432-cfbd7dccfbb4 // indirect
@@ -377,12 +377,12 @@ require (
 	github.com/zzossig/hugo-theme-zzo v0.0.0-20210523142617-01f9e43e59b0 // indirect
 	github.com/zzzmisa/hugo-theme-doors v0.0.0-20210415141417-7a46cd1d8222 // indirect
 	gitlab.com/VincentTam/huginn v0.0.0-20190817135446-c6cfb0ab831c // indirect
-	gitlab.com/avron/gruvhugo v0.0.0-20210711163414-7a5d8108f8e3 // indirect
+	gitlab.com/avron/gruvhugo v0.0.0-20210718113614-971d6c81bd9d // indirect
 	gitlab.com/kskarthik/monopriv v0.0.0-20200526110241-17ac34952952 // indirect
 	gitlab.com/kskarthik/resto-hugo v0.0.0-20200526110347-8d2d566dfec7 // indirect
 	gitlab.com/maxlefou/hugo.386 v0.0.0-20210608181421-9171c8d11377 // indirect
 	gitlab.com/mertbakir/resume-a4 v0.0.0-20210428233036-af3768b91fa0 // indirect
-	gitlab.com/rmaguiar/hugo-theme-color-your-world v0.0.0-20210610020033-e00287cf947b // indirect
+	gitlab.com/rmaguiar/hugo-theme-color-your-world v0.0.0-20210718020345-293d81d2247c // indirect
 	gitlab.com/tmuguet/hugo-split-gallery v1.1.1 // indirect
 	gitlab.com/toryanderson/hugo-icarus v0.0.0-20200701121335-f3e99478c35b // indirect
 )
