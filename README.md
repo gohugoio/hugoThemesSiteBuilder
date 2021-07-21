@@ -18,8 +18,9 @@ A collection of themes created by the Hugo community. Builds to [themes.gohugo.i
 Note that if the PR preview does not come up as expected (missing thumbnail image etc.), the way you currently can trigger a new preview build after you have fixed your theme is to amend your commit on your PR branch and do a force push:
 
 ```bash
- git commit --amend --no-edit
- git push -f
+git commit --amend --no-edit
+git push -f
+```
  
 
 ## Theme Configuration
