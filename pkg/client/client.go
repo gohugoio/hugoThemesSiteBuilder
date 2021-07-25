@@ -283,7 +283,7 @@ func (c *Client) fetchGitHubRepo(m Module) (GitHubRepo, error) {
 	if !strings.HasPrefix(m.Path, githubdotcom) {
 		return repo, nil
 	}
-	repoPath := strings.TrimPrefix(m.Path, githubdotcom)
+	repoPath := strings.TrimPrefix(m.PathRepo(), githubdotcom)
 	apiURL := "https://api.github.com/repos" + repoPath
 
 	req, err := http.NewRequest("GET", apiURL, nil)
@@ -300,11 +300,16 @@ func (c *Client) fetchGitHubRepo(m Module) (GitHubRepo, error) {
 
 func (c *Client) fetchGitHubRepos(mods ModulesMap) (map[string]GitHubRepo, error) {
 	repos := make(map[string]GitHubRepo)
-
+	errCount := 0
 	for _, m := range mods {
 		repo, err := c.fetchGitHubRepo(m)
 		if err != nil {
-			return nil, err
+			if errCount > 5 {
+				return repos, err
+			}
+			errCount++
+			c.Logf("warning: %s", err)
+			continue
 		}
 		repos[m.Path] = repo
 	}
@@ -348,6 +353,23 @@ type Module struct {
 	Dir         string                 `json:"dir"`
 	HugoVersion HugoVersion            `json:"hugoVersion"`
 	Meta        map[string]interface{} `json:"meta"`
+}
+
+// PathRepo returns the root path to the repository.
+func (m Module) PathRepo() string {
+	slashCount := 0
+	idx := strings.IndexFunc(m.Path, func(r rune) bool {
+		if r == '/' {
+			slashCount++
+		}
+		return slashCount > 2
+	})
+
+	if slashCount < 3 {
+		return m.Path
+	}
+
+	return m.Path[:idx]
 }
 
 // HugoVersion holds Hugo binary version requirements for a module.

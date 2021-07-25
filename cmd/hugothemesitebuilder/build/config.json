@@ -87,6 +87,11 @@
       {
         "ignoreImports": true,
         "noMounts": true,
+        "path": "github.com/KatamariJr/split-landing"
+      },
+      {
+        "ignoreImports": true,
+        "noMounts": true,
         "path": "github.com/J-Siu/hugo-theme-sk1"
       },
       {
@@ -232,6 +237,11 @@
       {
         "ignoreImports": true,
         "noMounts": true,
+        "path": "github.com/Yukuro/hugo-theme-shell"
+      },
+      {
+        "ignoreImports": true,
+        "noMounts": true,
         "path": "github.com/aanupam23/hugo-sugoi"
       },
       {
@@ -308,6 +318,11 @@
         "ignoreImports": true,
         "noMounts": true,
         "path": "github.com/apvarun/showfolio-hugo-theme"
+      },
+      {
+        "ignoreImports": true,
+        "noMounts": true,
+        "path": "github.com/apvarun/blist-hugo-theme"
       },
       {
         "ignoreImports": true,
@@ -677,6 +692,11 @@
       {
         "ignoreImports": true,
         "noMounts": true,
+        "path": "github.com/gethugothemes/bookworm"
+      },
+      {
+        "ignoreImports": true,
+        "noMounts": true,
         "path": "github.com/gethugothemes/dot-hugo-documentation-theme"
       },
       {
@@ -937,6 +957,11 @@
       {
         "ignoreImports": true,
         "noMounts": true,
+        "path": "github.com/kaiiiz/hugo-theme-monochrome"
+      },
+      {
+        "ignoreImports": true,
+        "noMounts": true,
         "path": "github.com/kakawait/hugo-tranquilpeak-theme"
       },
       {
@@ -963,6 +988,11 @@
         "ignoreImports": true,
         "noMounts": true,
         "path": "github.com/keichi/vienna"
+      },
+      {
+        "ignoreImports": true,
+        "noMounts": true,
+        "path": "github.com/khusika/FeelIt"
       },
       {
         "ignoreImports": true,
@@ -1128,6 +1158,11 @@
         "ignoreImports": true,
         "noMounts": true,
         "path": "github.com/mismith0227/hugo_theme_pickles"
+      },
+      {
+        "ignoreImports": true,
+        "noMounts": true,
+        "path": "github.com/mivinci/hugo-theme-minima"
       },
       {
         "ignoreImports": true,
@@ -1348,6 +1383,11 @@
         "ignoreImports": true,
         "noMounts": true,
         "path": "github.com/ribice/kiss"
+      },
+      {
+        "ignoreImports": true,
+        "noMounts": true,
+        "path": "github.com/rijoth/rsimple"
       },
       {
         "ignoreImports": true,
@@ -1752,6 +1792,11 @@
       {
         "ignoreImports": true,
         "noMounts": true,
+        "path": "github.com/wtoll/venture"
+      },
+      {
+        "ignoreImports": true,
+        "noMounts": true,
         "path": "github.com/xaprb/story"
       },
       {
@@ -1768,6 +1813,11 @@
         "ignoreImports": true,
         "noMounts": true,
         "path": "github.com/xiaoheiAh/hugo-theme-pure"
+      },
+      {
+        "ignoreImports": true,
+        "noMounts": true,
+        "path": "github.com/xslingcn/vno-hugo"
       },
       {
         "ignoreImports": true,
@@ -1878,6 +1928,11 @@
         "ignoreImports": true,
         "noMounts": true,
         "path": "gitlab.com/avron/gruvhugo"
+      },
+      {
+        "ignoreImports": true,
+        "noMounts": true,
+        "path": "gitlab.com/ian-s-mcb/smigle-hugo-theme"
       },
       {
         "ignoreImports": true,
