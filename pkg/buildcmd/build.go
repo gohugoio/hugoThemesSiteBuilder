@@ -330,11 +330,11 @@ func (t *theme) calculateWeight(maxStars int) {
 		boostRecent(time.Since(t.m.Time), (3 * d30), 20)
 	}
 
-	// Pull themes created the last 3 months to the top.
+	// Pull themes created the last month to the top.
 	// Note that we currently only have that information for themes
 	// hosted on GitHub.
 	if !t.ghRepo.IsZero() {
-		boostRecent(time.Since(t.ghRepo.CreatedAt), (3 * d30), 50000)
+		boostRecent(time.Since(t.ghRepo.CreatedAt), (1 * d30), 50000)
 	}
 
 	// Boost themes with a Hugo version indicator set that covers.
