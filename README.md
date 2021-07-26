@@ -15,6 +15,14 @@ A collection of themes created by the Hugo community. Builds to [themes.gohugo.i
 * Add your theme path (e.g. `github.com/gohugoio/gohugoioTheme`) to [themes.txt](https://github.com/gohugoio/hugoThemesSiteBuilder/edit/main/themes.txt) in lexicographical order.
 * Create a Pull Request and verify that the preview looks good.
 
+Note that if the PR preview does not come up as expected (missing thumbnail image etc.), the way you currently can trigger a new preview build after you have fixed your theme is to amend your commit on your PR branch and do a force push:
+
+```bash
+git commit --amend --no-edit
+git push -f
+```
+ 
+
 ## Theme Configuration
 
 You should have a file named `theme.toml` in the root of your theme. This file contains metadata about the theme and its creator or creators. **Only `theme.toml` is accepted, not `theme.yaml` or not `theme.json`**.
