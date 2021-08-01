@@ -108,10 +108,10 @@ require (
 	github.com/darshanbaral/kitab v0.0.0-20200606045956-6efafba28674 // indirect
 	github.com/darshanbaral/mero v0.0.0-20190620040941-051299e15c0b // indirect
 	github.com/darshanbaral/sada v0.0.0-20210510233612-2f5aac944c75 // indirect
-	github.com/dataCobra/hugo-vitae v0.0.0-20210726145114-ae486635aa62 // indirect
+	github.com/dataCobra/hugo-vitae v0.0.0-20210731174835-286298913643 // indirect
 	github.com/davidhampgonsalves/hugo-black-and-light-theme v0.0.0-20200613131832-799d357fc0ce // indirect
 	github.com/de-souza/hugo-flex v0.0.0-20210311110027-e757432018f7 // indirect
-	github.com/devcows/hugo-universal-theme v0.0.0-20210726071703-584227818287 // indirect
+	github.com/devcows/hugo-universal-theme v0.0.0-20210731231758-26b26a7eb18a // indirect
 	github.com/dewittn/hugo-html5up-alpha v0.0.0-20200529171052-b921f3bccb74 // indirect
 	github.com/dillonzq/LoveIt v0.2.10 // indirect
 	github.com/diwao/hestia-pure v0.0.0-20180322071727-320c944ffcf9 // indirect
@@ -151,7 +151,7 @@ require (
 	github.com/google/docsy v0.0.0-20210730123530-86c70cfa354d // indirect
 	github.com/guangmean/Niello v0.0.0-20191029090447-5b18ef951464 // indirect
 	github.com/gundamew/hugo-bingo v1.8.2 // indirect
-	github.com/gurusabarish/hugo-profile v0.0.0-20210729142929-1798378ead10 // indirect
+	github.com/gurusabarish/hugo-profile v0.0.0-20210731072244-2afd1c83050d // indirect
 	github.com/gyorb/hugo-dusk v1.0.1 // indirect
 	github.com/h-enk/doks v0.3.3 // indirect
 	github.com/hadisinaee/avicenna v0.0.0-20210724202912-e7641233dd9a // indirect
@@ -288,7 +288,7 @@ require (
 	github.com/saey55/hugo-elate-theme v0.0.0-20190113203640-d4390ac60a50 // indirect
 	github.com/salcan/BeyondNothing v0.0.0-20190908210852-2931c2abf096 // indirect
 	github.com/salsysd/hugo-assembly v0.0.0-20181002012130-b536220bd067 // indirect
-	github.com/samrobbins85/hugo-developer-portfolio v0.0.0-20210609101044-cf3b53a6ebbc // indirect
+	github.com/samrobbins85/hugo-developer-portfolio v0.0.0-20210731095134-df4829417311 // indirect
 	github.com/schmanat/hugo-highlights-theme v0.0.0-20200409134000-79eb66a32c74 // indirect
 	github.com/schollz/onetwothree v0.0.0-20190916161743-a09e6530494c // indirect
 	github.com/seanlane/gochowdown v0.0.0-20210308122914-d207f64f7a9d // indirect
@@ -315,11 +315,12 @@ require (
 	github.com/tblyler/light-hugo v0.0.0-20201014192444-65d2bef4320a // indirect
 	github.com/tcgriffith/hugo-owaraiclub v0.0.0-20191105071036-a25aabbb1d0f // indirect
 	github.com/the2ne/hugo-frais v0.0.0-20200104180115-f6f23a885a7a // indirect
-	github.com/thegeeklab/hugo-geekblog v0.11.1 // indirect
-	github.com/thegeeklab/hugo-geekdoc v0.16.3 // indirect
+	github.com/thegeeklab/hugo-geekblog v0.11.2 // indirect
+	github.com/thegeeklab/hugo-geekdoc v0.16.4 // indirect
 	github.com/themefisher/Academia-hugo v1.0.0 // indirect
 	github.com/themefisher/Hargo-hugo-ecommerce-theme v0.0.0-20210130042127-2cd2f680b2c8 // indirect
 	github.com/themefisher/Influencer-hugo v0.0.0-20210705112728-c5176ffe4453 // indirect
+	github.com/themefisher/academia-hugo v1.0.0 // indirect
 	github.com/themefisher/airspace-hugo v1.0.0 // indirect
 	github.com/themefisher/bigspring-hugo-startup-theme v0.0.0-20210710052022-e083698f850d // indirect
 	github.com/themefisher/educenter-hugo v1.0.0 // indirect
@@ -386,8 +387,8 @@ require (
 	github.com/zzossig/hugo-theme-zzo v0.0.0-20210523142617-01f9e43e59b0 // indirect
 	github.com/zzzmisa/hugo-theme-doors v0.0.0-20210415141417-7a46cd1d8222 // indirect
 	gitlab.com/VincentTam/huginn v0.0.0-20190817135446-c6cfb0ab831c // indirect
-	gitlab.com/avron/gruvhugo v0.0.0-20210721163726-74c9b79b2a8d // indirect
-	gitlab.com/ian-s-mcb/smigle-hugo-theme v0.0.0-20210730224026-26778d898fe9 // indirect
+	gitlab.com/avron/gruvhugo v0.0.0-20210731194546-19e753d3411f // indirect
+	gitlab.com/ian-s-mcb/smigle-hugo-theme v0.0.0-20210801000453-e24b4e506ac0 // indirect
 	gitlab.com/kskarthik/monopriv v0.0.0-20200526110241-17ac34952952 // indirect
 	gitlab.com/kskarthik/resto-hugo v0.0.0-20200526110347-8d2d566dfec7 // indirect
 	gitlab.com/maxlefou/hugo.386 v0.0.0-20210608181421-9171c8d11377 // indirect
