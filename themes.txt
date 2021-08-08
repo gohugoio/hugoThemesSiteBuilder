@@ -15,10 +15,10 @@ github.com/Fastbyte01/KeepIt
 github.com/GDGToulouse/devfest-theme-hugo
 github.com/HEIGE-PCloud/DoIt
 github.com/IvanChou/hugo-theme-vec
-github.com/KatamariJr/split-landing
 github.com/J-Siu/hugo-theme-sk1
 github.com/J-Siu/hugo-theme-sk2
 github.com/J-Siu/hugo-theme-sk3
+github.com/KatamariJr/split-landing
 github.com/Lednerb/bilberry-hugo-theme
 github.com/LordMathis/hugo-theme-nix
 github.com/LukasJoswiak/etch
@@ -60,9 +60,9 @@ github.com/allnightgrocery/hugo-theme-blueberry-detox
 github.com/amzrk2/hugo-theme-fuji
 github.com/antonpolishko/hugo-stellar-theme
 github.com/appernetic/hugo-nederburg-theme
+github.com/apvarun/blist-hugo-theme
 github.com/apvarun/showcase-hugo-theme
 github.com/apvarun/showfolio-hugo-theme
-github.com/apvarun/blist-hugo-theme
 github.com/asurbernardo/amperage
 github.com/athul/archie
 github.com/austingebauer/devise
@@ -296,6 +296,7 @@ github.com/shaform/hugo-theme-den
 github.com/shankar/hugo-grapes
 github.com/shenoybr/hugo-goa
 github.com/siegerts/hugo-theme-basic
+github.com/slashformotion/hugo-tufte
 github.com/softwareyoga/ronu-hugo-theme
 github.com/spaghettiwews/hugonews
 github.com/spech66/bootstrap-bp-hugo-startpage
@@ -397,4 +398,3 @@ gitlab.com/mertbakir/resume-a4
 gitlab.com/rmaguiar/hugo-theme-color-your-world
 gitlab.com/tmuguet/hugo-split-gallery
 gitlab.com/toryanderson/hugo-icarus
-github.com/slashformotion/hugo-tufte
