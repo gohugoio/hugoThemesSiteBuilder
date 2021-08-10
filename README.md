@@ -2,16 +2,21 @@
 
 A collection of themes created by the Hugo community. Builds to [themes.gohugo.io](https://themes.gohugo.io/).
 
-**Having questions?** Have a look at the [FAQ](#faq) first.
+**Have questions?** Have a look at the [FAQ](#faq) first.
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/58968044-3238-424c-b9b6-e0d00733890c/deploy-status)](https://app.netlify.com/sites/hugothemes/deploys)
 
 # Adding a theme to the list
 
-* Create your theme using <code>hugo new theme <em>THEMENAME</em></code>;
+Create your theme using <code>hugo new theme <em>THEME_NAME</em></code>. In your theme repository:
+
 * Add a `config.toml` with supported Hugo version(s)  and `theme.toml` file to the root of the theme and add some metadata about the theme (see below);
 * Add a descriptive `README.md` to the root of the theme;
-* Add `/images/screenshot.png` and `/images/tn.png` ([see below](#media));
+* Add `/images/screenshot.png` and `/images/tn.png` ([see below](#media)).
+
+Once your theme repository is on GitHub, you can add it here.
+
+* Clone this repository: <code>git clone https://github.com/gohugoio/hugoThemesSiteBuilder.git</code>;
 * Add your theme path (e.g. `github.com/gohugoio/gohugoioTheme`) to [themes.txt](https://github.com/gohugoio/hugoThemesSiteBuilder/edit/main/themes.txt) in lexicographical order.
 * Create a Pull Request and verify that the preview looks good.
 
@@ -22,7 +27,6 @@ git commit --amend --no-edit
 git push -f
 ```
  
-
 ## Theme Configuration
 
 You should have a file named `theme.toml` in the root of your theme. This file contains metadata about the theme and its creator or creators. **Only `theme.toml` is accepted, not `theme.yaml` or not `theme.json`**.
@@ -70,7 +74,7 @@ Your theme should also have a configuration file (e.g. `config.toml`) configurin
     max = "0.84.2"
 ```
 
-Note that you can ommit any of the fields `extended`, `min` or `max`.
+Note that you can omit any of the fields `extended`, `min`, or `max`.
 
 Theme maintainers, please do **not** delete Git references or tags from your theme repositories. Otherwise, Hugo Modules will not be able to fetch a specific version of a module, resulting in errors.
 
@@ -86,7 +90,7 @@ If a submission is found to violate the LICENSE of an original theme, it will be
 
 ## Media
 
-Screenshots are used as theme previews in the list, they should feature a theme's layout (without any browser chrome or device mockups) and have the following dimensions:
+Screenshots are used as theme previews in the list. They should feature a theme's layout (without any browser chrome or device mockups) and have the following dimensions:
 
 * Both the Thumbnail and Screenshot must be in 3:2 aspect ratio.
 * Screenshot (`screenshot.png`) should have a dimension of at least 1500×1000 in pixels.
@@ -100,10 +104,7 @@ Additional media may be provided in that same directory.
 
 ## README.md
 
-Your theme's README file
-(which should be written in Markdown and called `README.md`)
-serves a double purpose.
-This is because its content will appear in two places&mdash;i.e., it will appear:
+Your theme's README file (which should be written in Markdown and called `README.md`) serves a double purpose. This is because its content will appear in two places&mdash;i.e., it will appear:
 
 1. On your theme's details page at [themes.gohugo.io](https://themes.gohugo.io/); and
 1. At GitHub (as usual), on your theme's regular main page.
