@@ -25,6 +25,7 @@ github.com/Lednerb/bilberry-hugo-theme
 github.com/LordMathis/hugo-theme-nix
 github.com/LukasJoswiak/etch
 github.com/MarcusVirg/forty
+github.com/McShelby/hugo-theme-relearn
 github.com/MeiK2333/github-style
 github.com/Mitrichius/hugo-theme-anubis
 github.com/MunifTanjim/minimo
@@ -122,6 +123,7 @@ github.com/dzello/reveal-hugo
 github.com/edavidaja/docter
 github.com/eddiewebb/hugo-resume
 github.com/eliasson/liquorice
+github.com/elkan1788/hugo-theme-next
 github.com/epistemehealth/health-science-journal
 github.com/ertuil/erblog
 github.com/escalate/hugo-split-theme
@@ -140,6 +142,7 @@ github.com/garvincasimir/hugo-h5bp-simple
 github.com/gcushen/hugo-academic
 github.com/geschke/hugo-tikva
 github.com/gesquive/slate
+github.com/gethugothemes/andromeda-light
 github.com/gethugothemes/bookworm
 github.com/gethugothemes/dot-hugo-documentation-theme
 github.com/gethugothemes/omega-hugo-theme
@@ -191,6 +194,7 @@ github.com/joeroe/risotto
 github.com/jonathanjanssens/hugo-casper3
 github.com/josephhutch/aether
 github.com/joway/hugo-theme-yinyang
+github.com/jpanther/congo
 github.com/jpescador/hugo-future-imperfect
 github.com/jrutheiser/hugo-lithium-theme
 github.com/jsnjack/hugo-changelog-theme
@@ -259,6 +263,7 @@ github.com/onweru/compose
 github.com/onweru/hugo-swift-theme
 github.com/onweru/newsroom
 github.com/opera7133/Blonde
+github.com/opera7133/tella
 github.com/orf/bare-hugo-theme
 github.com/pacollins/hugo-future-imperfect-slim
 github.com/panr/hugo-theme-hello-friend
@@ -359,7 +364,8 @@ github.com/urjaacharya/redgood
 github.com/vaga/hugo-theme-m10c
 github.com/vantagedesign/ace-documentation
 # Missing tn.png: github.com/varkai/hugo-theme-zozo
-github.com/vickylaixy/hugo-theme-introduction
+github.com/victoriadrake/hugo-theme-introduction
+github.com/victoriadrake/neofeed-theme/v2
 github.com/vimux/blank
 # Missing tn.png: github.com/vividvilla/ezhil
 github.com/vjeantet/hugo-theme-docport
@@ -406,4 +412,4 @@ gitlab.com/mertbakir/resume-a4
 gitlab.com/rmaguiar/hugo-theme-color-your-world
 gitlab.com/tmuguet/hugo-split-gallery
 gitlab.com/toryanderson/hugo-icarus
-github.com/elkan1788/hugo-theme-next
+github.com/jmau111/hugo-theme-ava
