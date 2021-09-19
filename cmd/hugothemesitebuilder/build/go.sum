@@ -20,6 +20,8 @@ github.com/AmazingRise/hugo-theme-diary v0.0.0-20210706025042-6484ed379fc1 h1:e9
 github.com/AmazingRise/hugo-theme-diary v0.0.0-20210706025042-6484ed379fc1/go.mod h1:jFlSWwFHa+nHPenO/b8j3bsMtN/bnsqlWOBK7OxB/Y4=
 github.com/AmazingRise/hugo-theme-diary v0.0.0-20210814052645-7580d1ce3866 h1:jGKTs9FKZReg3GLk7A3/i+LlUkSk+43BjRSvRg3VaUM=
 github.com/AmazingRise/hugo-theme-diary v0.0.0-20210814052645-7580d1ce3866/go.mod h1:jFlSWwFHa+nHPenO/b8j3bsMtN/bnsqlWOBK7OxB/Y4=
+github.com/AmazingRise/hugo-theme-diary v0.0.0-20210918014320-76c84d1934f4 h1:1lRMyBRi3xIaREKkMtGqqS7NJeL25B6BpWsv9JZXpbg=
+github.com/AmazingRise/hugo-theme-diary v0.0.0-20210918014320-76c84d1934f4/go.mod h1:jFlSWwFHa+nHPenO/b8j3bsMtN/bnsqlWOBK7OxB/Y4=
 github.com/AngeloStavrow/indigo v1.4.0 h1:dUfFdfUTAQBY8xgSxMggVDTUw/pBqkwj3NwaSrA+SB8=
 github.com/AngeloStavrow/indigo v1.4.0/go.mod h1:/lLJUSIgrGv0Lquk5rapiDz/bzd8q8TISNCX/jfOHJk=
 github.com/CaiJimmy/hugo-theme-stack v2.6.0+incompatible h1:HOf88geWucQwmTmNCFgHNidVTXjv9jLz3UA72gyFQTE=
@@ -182,6 +184,8 @@ github.com/adityatelange/hugo-PaperMod v0.0.0-20210905125817-8021be2ddb53 h1:Gia
 github.com/adityatelange/hugo-PaperMod v0.0.0-20210905125817-8021be2ddb53/go.mod h1:HCHxNMKYdGafUYjVV3ICiAqznZK2yH0iI53jqcDFDdQ=
 github.com/adityatelange/hugo-PaperMod v0.0.0-20210911053901-4e9b04784bac h1:TUEsRyFkvOcfhVdcdJOJDdSHz66gn5OOWqaeBSPzBOw=
 github.com/adityatelange/hugo-PaperMod v0.0.0-20210911053901-4e9b04784bac/go.mod h1:HCHxNMKYdGafUYjVV3ICiAqznZK2yH0iI53jqcDFDdQ=
+github.com/adityatelange/hugo-PaperMod v0.0.0-20210917131123-8c2f997ab398 h1:6s2H9fKY18JBiEsUnr8JO3VupAr1uBhMa2I0CeyMPWE=
+github.com/adityatelange/hugo-PaperMod v0.0.0-20210917131123-8c2f997ab398/go.mod h1:HCHxNMKYdGafUYjVV3ICiAqznZK2yH0iI53jqcDFDdQ=
 github.com/aerohub/hugo-faq-theme v0.0.0-20161016225807-e6ed082c15bc h1:U7NZzqVuAs73vHEkpDxvypyk5v/jKxtT2neVUXxN5aY=
 github.com/aerohub/hugo-faq-theme v0.0.0-20161016225807-e6ed082c15bc/go.mod h1:EedoO5hm5mrYswWcGuitAoikrhYrNkyx70d28VeVRAI=
 github.com/aerohub/hugo-identity-theme v0.0.0-20171209130528-ca4e10de2297 h1:gYjk3ZXeWSNT94ZoigTzc8hKkxdFodKmxQ4ztER6JN4=
@@ -324,6 +328,8 @@ github.com/dataCobra/hugo-vitae v0.0.0-20210731174835-286298913643 h1:LBwbC+KFQe
 github.com/dataCobra/hugo-vitae v0.0.0-20210731174835-286298913643/go.mod h1:VYbjakcPdD3+BBj8DrVY+nu+23weJVpu+5sXRahBCqw=
 github.com/dataCobra/hugo-vitae v0.0.0-20210812074812-ce1dfd1d3dc1 h1:i6HbdRvqBj1aviuGBf0Qmx12BwqeFfcHZ4HSF65xCJk=
 github.com/dataCobra/hugo-vitae v0.0.0-20210812074812-ce1dfd1d3dc1/go.mod h1:VYbjakcPdD3+BBj8DrVY+nu+23weJVpu+5sXRahBCqw=
+github.com/dataCobra/hugo-vitae v0.0.0-20210916063915-da071e7d6fef h1:1QvlilmLLHypnJ0PPjU8JBfTrgpCeSYAF5BxRKkDims=
+github.com/dataCobra/hugo-vitae v0.0.0-20210916063915-da071e7d6fef/go.mod h1:VYbjakcPdD3+BBj8DrVY+nu+23weJVpu+5sXRahBCqw=
 github.com/davidhampgonsalves/hugo-black-and-light-theme v0.0.0-20200613131832-799d357fc0ce h1:HimoxbqxdnXF3Y4khlnEcQcBVgVvTzxOJpNWm7BKh1I=
 github.com/davidhampgonsalves/hugo-black-and-light-theme v0.0.0-20200613131832-799d357fc0ce/go.mod h1:0a/oQRj3jcQZPQpCBmBuCGl0AwuexHeX8mKKWw4zb1A=
 github.com/de-souza/hugo-flex v0.0.0-20210311110027-e757432018f7 h1:V4hsblkTKudrsK2o62dOQv2V23kn2CTG5POamD8YsTw=
@@ -420,6 +426,8 @@ github.com/gesquive/slate v1.1.1 h1:g9Bg4Mu7NDkdsoPPlTiDBg99gXlySyoH0tHyEf4vvrI=
 github.com/gesquive/slate v1.1.1/go.mod h1:yYFEnRMwAYAotLCa//qCLrbOpPG1bq0uag2XSSP+BAQ=
 github.com/gethugothemes/andromeda-light v0.0.0-20210909112014-11f2c559ac41 h1:GI1STi2cbPRWS8oyuWpn0oeDZWa3iZMRLPgwNdCxIuo=
 github.com/gethugothemes/andromeda-light v0.0.0-20210909112014-11f2c559ac41/go.mod h1:sGLfgDyAopGOzhJMwprQMHu1GFmrS+9wY/HlwQdBzBU=
+github.com/gethugothemes/andromeda-light v0.0.0-20210917154122-7e7f317ae471 h1:h5gcmwAHVZ4lZCqmcyn/ZbRAKtz1YxniUlOlRaMlHXw=
+github.com/gethugothemes/andromeda-light v0.0.0-20210917154122-7e7f317ae471/go.mod h1:sGLfgDyAopGOzhJMwprQMHu1GFmrS+9wY/HlwQdBzBU=
 github.com/gethugothemes/bookworm v1.1.0 h1:u/zdvfjy5zExdc8baWiDsHpPZbQtDiLWWJsZRh8SnIA=
 github.com/gethugothemes/bookworm v1.1.0/go.mod h1:3r2a43ldkhpNMU4lPlT8/7aS3/odRPCQoARXQgRbBqc=
 github.com/gethugothemes/dot-hugo-documentation-theme v2.0.0+incompatible h1:gH0Dv0n3Le+KtEsRcBfDJazs7C/oOTZ4n+KfkpYR6E0=
@@ -1048,6 +1056,8 @@ github.com/themefisher/bigspring-hugo-startup-theme v0.0.0-20210908065936-f37ea9
 github.com/themefisher/bigspring-hugo-startup-theme v0.0.0-20210908065936-f37ea9a7077c/go.mod h1:PxPALiR2BylBN8Pzoq1D5QRm7nROsFGpkK1LbKUQVgA=
 github.com/themefisher/bigspring-hugo-startup-theme v0.0.0-20210914190659-8a28fbdfcfe8 h1:auit13i9gSIK4oCTJt36kXW6PfDUF9tLkBde6c1QdNU=
 github.com/themefisher/bigspring-hugo-startup-theme v0.0.0-20210914190659-8a28fbdfcfe8/go.mod h1:PxPALiR2BylBN8Pzoq1D5QRm7nROsFGpkK1LbKUQVgA=
+github.com/themefisher/bigspring-hugo-startup-theme v0.0.0-20210918170853-d79e8ecde204 h1:GQGVJ929SC1J/EZdj2oRlPHNzJVxvJ+839/yICO6+Kw=
+github.com/themefisher/bigspring-hugo-startup-theme v0.0.0-20210918170853-d79e8ecde204/go.mod h1:PxPALiR2BylBN8Pzoq1D5QRm7nROsFGpkK1LbKUQVgA=
 github.com/themefisher/educenter-hugo v1.0.0 h1:nISDANyTSDzY/QEr8woN8YDtJKfrrDARdlr1DtmuVtY=
 github.com/themefisher/educenter-hugo v1.0.0/go.mod h1:Sf1s05LzHjgQQUX2QTuyl7DaUkDTRDD0mF92xgaMpR8=
 github.com/themefisher/infinity-hugo v0.0.0-20210705101555-c118b1c8d148 h1:2QLXz+XtFSQDJglDMUqDOEI1DJaMEUYUjfy8WSZCwmo=
