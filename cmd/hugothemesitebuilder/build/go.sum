@@ -94,6 +94,8 @@ github.com/McShelby/hugo-theme-relearn v0.0.0-20211002072209-82a3ee5a90e8 h1:opu
 github.com/McShelby/hugo-theme-relearn v0.0.0-20211002072209-82a3ee5a90e8/go.mod h1:DJlNSftm/1+M1YSoUQp61lRfOWc8QBBuLdVk7YiV23s=
 github.com/McShelby/hugo-theme-relearn v0.0.0-20211006183623-f04e13942ef3 h1:apMs5Ho+KeZ0veXw7AR65s7ArfcawuNHaL1gZqubnvU=
 github.com/McShelby/hugo-theme-relearn v0.0.0-20211006183623-f04e13942ef3/go.mod h1:DJlNSftm/1+M1YSoUQp61lRfOWc8QBBuLdVk7YiV23s=
+github.com/McShelby/hugo-theme-relearn v0.0.0-20211008173345-5bbeb9445cb4 h1:k4lt7wJHoB/vHL1YOwpMP3sKzDNWvAaGVRMJjur5euY=
+github.com/McShelby/hugo-theme-relearn v0.0.0-20211008173345-5bbeb9445cb4/go.mod h1:DJlNSftm/1+M1YSoUQp61lRfOWc8QBBuLdVk7YiV23s=
 github.com/MeiK2333/github-style v0.0.0-20210726020434-9cf5ac3945dc h1:2UQGc3ZVV4tNgT4DQeeeBD4HHLEaXpe8YTQuHmStrZY=
 github.com/MeiK2333/github-style v0.0.0-20210726020434-9cf5ac3945dc/go.mod h1:MDvfpZqhD/YSKR6X4f5hVUv588HxL1MVjsCTSM7ETxs=
 github.com/MeiK2333/github-style v0.0.0-20210906034119-8b12b1115cd1 h1:IWwprMQv4m5MtNDl275yhVXEGH9RXDIXVnSVS0HFYWY=
@@ -520,6 +522,8 @@ github.com/google/docsy v0.0.0-20210922162838-170cdd9cd317 h1:5EBkWPT2NLejyl9sp1
 github.com/google/docsy v0.0.0-20210922162838-170cdd9cd317/go.mod h1:alhAPKceHP14eqO+nJEhYehHeNcPKV8QnduoauTBZhs=
 github.com/google/docsy v0.0.0-20211004144433-e4bb26bafcc4 h1:jC8bZZFwS+yn1uaGm7XuF5Dew6ZzxEiqKdwqfVI+8Tc=
 github.com/google/docsy v0.0.0-20211004144433-e4bb26bafcc4/go.mod h1:alhAPKceHP14eqO+nJEhYehHeNcPKV8QnduoauTBZhs=
+github.com/google/docsy v0.0.0-20211008183316-8f506392e186 h1:enDRk1pCe54YrPYK46ytEnP9YA3nqra5B0OLc+2KSp0=
+github.com/google/docsy v0.0.0-20211008183316-8f506392e186/go.mod h1:alhAPKceHP14eqO+nJEhYehHeNcPKV8QnduoauTBZhs=
 github.com/guangmean/Niello v0.0.0-20191029090447-5b18ef951464 h1:MQwV8QrzZp1sSjVIwgULxDFhMgPJt9ZmxqdDpQGuoMM=
 github.com/guangmean/Niello v0.0.0-20191029090447-5b18ef951464/go.mod h1:tWL/X0kRXdp678SELP/Xok8SwM8W6arlXTlfFfMVdqs=
 github.com/gundamew/hugo-bingo v1.8.2 h1:XEhmUp3D8/yh8vwxHNCq1iwpiABZ6Mza4wxScIe/YSs=
@@ -919,6 +923,8 @@ github.com/opera7133/Blonde v0.0.0-20211003030946-81acc2e12938 h1:KIhXtRfVSL0BXe
 github.com/opera7133/Blonde v0.0.0-20211003030946-81acc2e12938/go.mod h1:b3YtD5mSb0xLTVGYHJCCBPyc1g3VLyrov7tWXeZsI14=
 github.com/opera7133/Blonde v0.0.0-20211006105319-4c40b74456cb h1:zR14ElvR3iZnn3AfBmKNdwlTONqVABLgIVhoRgv1FGY=
 github.com/opera7133/Blonde v0.0.0-20211006105319-4c40b74456cb/go.mod h1:b3YtD5mSb0xLTVGYHJCCBPyc1g3VLyrov7tWXeZsI14=
+github.com/opera7133/Blonde v0.0.0-20211009135411-34683fa56be0 h1:dJ3xb7RlPg1FeEeo8jide4NCcMsjv6y2Dh77ZnQLUC0=
+github.com/opera7133/Blonde v0.0.0-20211009135411-34683fa56be0/go.mod h1:b3YtD5mSb0xLTVGYHJCCBPyc1g3VLyrov7tWXeZsI14=
 github.com/opera7133/tella v0.0.0-20210910111014-c53f5d8afd9c h1:R4q0TOm12qiLBIF1k4cH9mgTaE/WJw/Cf0jkOXfSOcA=
 github.com/opera7133/tella v0.0.0-20210910111014-c53f5d8afd9c/go.mod h1:j7ZoKp/XI0LAPBbwxcigWRmicJlc9ufkdUssH9JR524=
 github.com/opera7133/tella v0.0.0-20210922122056-6de8d2faec10 h1:Yt1lDAalFYAAedh+Bm1emPdSFsz/c7Xof4CRjughlh8=
@@ -1373,6 +1379,8 @@ github.com/zhaohuabing/hugo-theme-cleanwhite v0.0.0-20210929123216-74061e447ee0 
 github.com/zhaohuabing/hugo-theme-cleanwhite v0.0.0-20210929123216-74061e447ee0/go.mod h1:7w+SNXU8/rQ2S3nYfeS3kk9dmtPmb64kGc87N/IQo+Q=
 github.com/zhaohuabing/hugo-theme-cleanwhite v0.0.0-20211003142127-23e0daa5973b h1:6WLSiXYyoHHcFyjXstYQ6ey3zHY/mDuPoSKI+g2jS7M=
 github.com/zhaohuabing/hugo-theme-cleanwhite v0.0.0-20211003142127-23e0daa5973b/go.mod h1:7w+SNXU8/rQ2S3nYfeS3kk9dmtPmb64kGc87N/IQo+Q=
+github.com/zhaohuabing/hugo-theme-cleanwhite v0.0.0-20211007045011-014110d7de5f h1:Hzk9We7Gknghkewv3m6MB6xGoxaG46Gr4/LhTG4eERI=
+github.com/zhaohuabing/hugo-theme-cleanwhite v0.0.0-20211007045011-014110d7de5f/go.mod h1:7w+SNXU8/rQ2S3nYfeS3kk9dmtPmb64kGc87N/IQo+Q=
 github.com/zhe/hugo-theme-slim v0.0.0-20190920014445-f666effe196a h1:bXNuJQNpXUz0Vgi1OjTCwbkvAXjQ3S1gYEfl+W6PidM=
 github.com/zhe/hugo-theme-slim v0.0.0-20190920014445-f666effe196a/go.mod h1:srqDDUYym3e6mlFIk2sRIQw8Vtz3+9n5DSNm5LlbTFU=
 github.com/zwbetz-gh/cayman-hugo-theme v0.0.0-20210525185112-00e0828a4781 h1:X8vdN83u/DtvDkHjBrwIWq/SvGOVKpFHzvF5EnYL69M=
