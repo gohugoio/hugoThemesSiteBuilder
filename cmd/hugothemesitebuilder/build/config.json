@@ -22,6 +22,11 @@
       {
         "ignoreImports": true,
         "noMounts": true,
+        "path": "github.com/526avijitgupta/gokarna"
+      },
+      {
+        "ignoreImports": true,
+        "noMounts": true,
         "path": "github.com/7ma7X/HugoTeX"
       },
       {
@@ -87,7 +92,7 @@
       {
         "ignoreImports": true,
         "noMounts": true,
-        "path": "github.com/KatamariJr/split-landing"
+        "path": "github.com/Jack-alope/sourgough-starter"
       },
       {
         "ignoreImports": true,
@@ -103,6 +108,11 @@
         "ignoreImports": true,
         "noMounts": true,
         "path": "github.com/J-Siu/hugo-theme-sk3"
+      },
+      {
+        "ignoreImports": true,
+        "noMounts": true,
+        "path": "github.com/KatamariJr/split-landing"
       },
       {
         "ignoreImports": true,
@@ -123,6 +133,11 @@
         "ignoreImports": true,
         "noMounts": true,
         "path": "github.com/MarcusVirg/forty"
+      },
+      {
+        "ignoreImports": true,
+        "noMounts": true,
+        "path": "github.com/McShelby/hugo-theme-relearn"
       },
       {
         "ignoreImports": true,
@@ -168,6 +183,11 @@
         "ignoreImports": true,
         "noMounts": true,
         "path": "github.com/SAGGameDeveloper/hugo-minimalist-spa"
+      },
+      {
+        "ignoreImports": true,
+        "noMounts": true,
+        "path": "github.com/Softorage/HugoTheme-VibrantShadows"
       },
       {
         "ignoreImports": true,
@@ -312,17 +332,17 @@
       {
         "ignoreImports": true,
         "noMounts": true,
+        "path": "github.com/apvarun/blist-hugo-theme"
+      },
+      {
+        "ignoreImports": true,
+        "noMounts": true,
         "path": "github.com/apvarun/showcase-hugo-theme"
       },
       {
         "ignoreImports": true,
         "noMounts": true,
         "path": "github.com/apvarun/showfolio-hugo-theme"
-      },
-      {
-        "ignoreImports": true,
-        "noMounts": true,
-        "path": "github.com/apvarun/blist-hugo-theme"
       },
       {
         "ignoreImports": true,
@@ -527,6 +547,11 @@
       {
         "ignoreImports": true,
         "noMounts": true,
+        "path": "github.com/darshanbaral/prastoot"
+      },
+      {
+        "ignoreImports": true,
+        "noMounts": true,
         "path": "github.com/darshanbaral/sada"
       },
       {
@@ -692,6 +717,11 @@
       {
         "ignoreImports": true,
         "noMounts": true,
+        "path": "github.com/gethugothemes/andromeda-light"
+      },
+      {
+        "ignoreImports": true,
+        "noMounts": true,
         "path": "github.com/gethugothemes/bookworm"
       },
       {
@@ -703,6 +733,11 @@
         "ignoreImports": true,
         "noMounts": true,
         "path": "github.com/gethugothemes/omega-hugo-theme"
+      },
+      {
+        "ignoreImports": true,
+        "noMounts": true,
+        "path": "github.com/gethugothemes/techfeed-hugo"
       },
       {
         "ignoreImports": true,
@@ -917,6 +952,11 @@
       {
         "ignoreImports": true,
         "noMounts": true,
+        "path": "github.com/joeroe/risotto"
+      },
+      {
+        "ignoreImports": true,
+        "noMounts": true,
         "path": "github.com/jonathanjanssens/hugo-casper3"
       },
       {
@@ -928,6 +968,11 @@
         "ignoreImports": true,
         "noMounts": true,
         "path": "github.com/joway/hugo-theme-yinyang"
+      },
+      {
+        "ignoreImports": true,
+        "noMounts": true,
+        "path": "github.com/jpanther/congo"
       },
       {
         "ignoreImports": true,
@@ -1127,6 +1172,11 @@
       {
         "ignoreImports": true,
         "noMounts": true,
+        "path": "github.com/mbrt-yeah/uwe-uwe-hugo"
+      },
+      {
+        "ignoreImports": true,
+        "noMounts": true,
         "path": "github.com/mcrwfrd/hugo-frances-theme"
       },
       {
@@ -1263,6 +1313,11 @@
         "ignoreImports": true,
         "noMounts": true,
         "path": "github.com/opera7133/Blonde"
+      },
+      {
+        "ignoreImports": true,
+        "noMounts": true,
+        "path": "github.com/opera7133/tella"
       },
       {
         "ignoreImports": true,
@@ -1457,6 +1512,11 @@
       {
         "ignoreImports": true,
         "noMounts": true,
+        "path": "github.com/setsevireon/photophobia"
+      },
+      {
+        "ignoreImports": true,
+        "noMounts": true,
         "path": "github.com/shaform/hugo-theme-den"
       },
       {
@@ -1473,6 +1533,11 @@
         "ignoreImports": true,
         "noMounts": true,
         "path": "github.com/siegerts/hugo-theme-basic"
+      },
+      {
+        "ignoreImports": true,
+        "noMounts": true,
+        "path": "github.com/slashformotion/hugo-tufte"
       },
       {
         "ignoreImports": true,
@@ -1687,6 +1752,11 @@
       {
         "ignoreImports": true,
         "noMounts": true,
+        "path": "github.com/tohn/linkshrubbery"
+      },
+      {
+        "ignoreImports": true,
+        "noMounts": true,
         "path": "github.com/tosi29/inkblotty"
       },
       {
@@ -1747,7 +1817,12 @@
       {
         "ignoreImports": true,
         "noMounts": true,
-        "path": "github.com/vickylaixy/hugo-theme-introduction"
+        "path": "github.com/victoriadrake/hugo-theme-introduction"
+      },
+      {
+        "ignoreImports": true,
+        "noMounts": true,
+        "path": "github.com/victoriadrake/neofeed-theme/v2"
       },
       {
         "ignoreImports": true,
@@ -1763,6 +1838,11 @@
         "ignoreImports": true,
         "noMounts": true,
         "path": "github.com/wangchucheng/hugo-eureka"
+      },
+      {
+        "ignoreImports": true,
+        "noMounts": true,
+        "path": "github.com/wayjam/hugo-theme-fluency"
       },
       {
         "ignoreImports": true,
@@ -1968,6 +2048,11 @@
         "ignoreImports": true,
         "noMounts": true,
         "path": "gitlab.com/toryanderson/hugo-icarus"
+      },
+      {
+        "ignoreImports": true,
+        "noMounts": true,
+        "path": "github.com/jmau111/hugo-theme-ava"
       }
     ]
   }
