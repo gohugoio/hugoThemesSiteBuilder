@@ -54,6 +54,8 @@ github.com/ExchangeRate-API/strange-case v0.0.0-20210304125749-3ea1d7d50bd0 h1:6
 github.com/ExchangeRate-API/strange-case v0.0.0-20210304125749-3ea1d7d50bd0/go.mod h1:lcvBdFpMbUOo1c77qNikl5ZuOYH+4HAzTkus1fvIvgc=
 github.com/Fastbyte01/KeepIt v0.0.0-20210510203117-94304cd7fbfd h1:BRFdie2NEpEihmPQYaA6osYXCIoGC7IuT0WSkZXCguE=
 github.com/Fastbyte01/KeepIt v0.0.0-20210510203117-94304cd7fbfd/go.mod h1:M6ThhOtiUROtefKk1Oqi5Yd35F3JXQKjY42i0/s+n88=
+github.com/Fastbyte01/KeepIt v0.0.0-20211114192023-761d5276f944 h1:XtvYBKrpB85bE//oYfkmMeukz2Y032tfiCaJJbsuuvk=
+github.com/Fastbyte01/KeepIt v0.0.0-20211114192023-761d5276f944/go.mod h1:M6ThhOtiUROtefKk1Oqi5Yd35F3JXQKjY42i0/s+n88=
 github.com/GDGToulouse/devfest-theme-hugo v0.0.0-20210623082303-e7c62815e13b h1:0+rUPwkVYkCo372x3o/mQ+x2py7NASzJqN49Cq+LvfA=
 github.com/GDGToulouse/devfest-theme-hugo v0.0.0-20210623082303-e7c62815e13b/go.mod h1:JZPo2mrjM2VlfzPefMfkL6X+kWYiPdRN9eIsbIGUmRw=
 github.com/GDGToulouse/devfest-theme-hugo v0.0.0-20210915113126-33db41da96c6 h1:Tij8JVfK6qjWtSDXhtR6wQMgMpMuhdh0CD/WJR1bdmg=
@@ -130,6 +132,8 @@ github.com/McShelby/hugo-theme-relearn v0.0.0-20211104182807-da99510f6e66 h1:OCG
 github.com/McShelby/hugo-theme-relearn v0.0.0-20211104182807-da99510f6e66/go.mod h1:DJlNSftm/1+M1YSoUQp61lRfOWc8QBBuLdVk7YiV23s=
 github.com/McShelby/hugo-theme-relearn v0.0.0-20211109203858-a3c8eec28c12 h1:bkYBlOpmeMKHqsLHljVooMMYXV2QnfGVLLr6FKOEepA=
 github.com/McShelby/hugo-theme-relearn v0.0.0-20211109203858-a3c8eec28c12/go.mod h1:DJlNSftm/1+M1YSoUQp61lRfOWc8QBBuLdVk7YiV23s=
+github.com/McShelby/hugo-theme-relearn v0.0.0-20211115231631-092046ae5269 h1:OKoq1PhfX5dtQ2blfscAWZoTSJpJ2xvUiOl3ygo3UEo=
+github.com/McShelby/hugo-theme-relearn v0.0.0-20211115231631-092046ae5269/go.mod h1:DJlNSftm/1+M1YSoUQp61lRfOWc8QBBuLdVk7YiV23s=
 github.com/MeiK2333/github-style v0.0.0-20210726020434-9cf5ac3945dc h1:2UQGc3ZVV4tNgT4DQeeeBD4HHLEaXpe8YTQuHmStrZY=
 github.com/MeiK2333/github-style v0.0.0-20210726020434-9cf5ac3945dc/go.mod h1:MDvfpZqhD/YSKR6X4f5hVUv588HxL1MVjsCTSM7ETxs=
 github.com/MeiK2333/github-style v0.0.0-20210906034119-8b12b1115cd1 h1:IWwprMQv4m5MtNDl275yhVXEGH9RXDIXVnSVS0HFYWY=
@@ -218,6 +222,8 @@ github.com/Vimux/mainroad v0.0.0-20210911153353-dd3aedf60f1a h1:62kafXv98S4YBxWx
 github.com/Vimux/mainroad v0.0.0-20210911153353-dd3aedf60f1a/go.mod h1:13Sfg07PTbKTuzennbP0eC0Od7pbpfaxVcTQZWKRZeU=
 github.com/Vimux/mainroad v0.0.0-20210915170116-fbd4163bd076 h1:gqY+pGxxM4XZ9VbdZzm//GC9IqxHnFU6JiBo6bD1WfM=
 github.com/Vimux/mainroad v0.0.0-20210915170116-fbd4163bd076/go.mod h1:13Sfg07PTbKTuzennbP0eC0Od7pbpfaxVcTQZWKRZeU=
+github.com/Vimux/mainroad v0.0.0-20211115151737-a22487a7d05a h1:1TZo0iUo8Gg28+g7US8l2HsC9kDI/o+3SYgtJfp1Pak=
+github.com/Vimux/mainroad v0.0.0-20211115151737-a22487a7d05a/go.mod h1:13Sfg07PTbKTuzennbP0eC0Od7pbpfaxVcTQZWKRZeU=
 github.com/WingLim/hugo-tania v1.6.0 h1:l0tfpVuMxAoNFt062BVFl5ocAU3cYVSsPTV6NAW+rMQ=
 github.com/WingLim/hugo-tania v1.6.0/go.mod h1:dlKyBD3QGdzGk50VequqA+PStaePmTPc1qlgZrDZB94=
 github.com/WingLim/hugo-tania v1.8.0 h1:WW4Up4HAYCr2dg1px3rv4rtnSQ8RRJiB7+sIEBg4CLA=
@@ -548,6 +554,8 @@ github.com/gethugothemes/andromeda-light v0.0.0-20210920092334-94e3922f1d41 h1:q
 github.com/gethugothemes/andromeda-light v0.0.0-20210920092334-94e3922f1d41/go.mod h1:sGLfgDyAopGOzhJMwprQMHu1GFmrS+9wY/HlwQdBzBU=
 github.com/gethugothemes/andromeda-light v0.0.0-20211108041758-234b409e6534 h1:GzrkNQfzNYRtTwCm/QUolSB0LXseNHE+8h2ANRxPee8=
 github.com/gethugothemes/andromeda-light v0.0.0-20211108041758-234b409e6534/go.mod h1:sGLfgDyAopGOzhJMwprQMHu1GFmrS+9wY/HlwQdBzBU=
+github.com/gethugothemes/andromeda-light v0.0.0-20211115103353-d365e18473a0 h1:e5qXaYwhgzgU3co+WVTC/p1vQ6U5WZKK+Tk6Gy7GMv8=
+github.com/gethugothemes/andromeda-light v0.0.0-20211115103353-d365e18473a0/go.mod h1:sGLfgDyAopGOzhJMwprQMHu1GFmrS+9wY/HlwQdBzBU=
 github.com/gethugothemes/bookworm v1.1.0 h1:u/zdvfjy5zExdc8baWiDsHpPZbQtDiLWWJsZRh8SnIA=
 github.com/gethugothemes/bookworm v1.1.0/go.mod h1:3r2a43ldkhpNMU4lPlT8/7aS3/odRPCQoARXQgRbBqc=
 github.com/gethugothemes/dot-hugo-documentation-theme v2.0.0+incompatible h1:gH0Dv0n3Le+KtEsRcBfDJazs7C/oOTZ4n+KfkpYR6E0=
@@ -620,6 +628,8 @@ github.com/google/docsy v0.0.0-20211104133248-1b167606bd62 h1:flJPKZxIBDVQuG6RuR
 github.com/google/docsy v0.0.0-20211104133248-1b167606bd62/go.mod h1:alhAPKceHP14eqO+nJEhYehHeNcPKV8QnduoauTBZhs=
 github.com/google/docsy v0.0.0-20211111164327-6c98aa67055e h1:AXqnLfVF8Md8te6BJL5J52EHLCvD8ijRh7Sx2hUPGWk=
 github.com/google/docsy v0.0.0-20211111164327-6c98aa67055e/go.mod h1:alhAPKceHP14eqO+nJEhYehHeNcPKV8QnduoauTBZhs=
+github.com/google/docsy v0.0.0-20211114150738-abd8f6a80165 h1:U01vdRgXi4JheAJuvde5tg4iuvOe6Y9aaTrF3Zwqw5o=
+github.com/google/docsy v0.0.0-20211114150738-abd8f6a80165/go.mod h1:alhAPKceHP14eqO+nJEhYehHeNcPKV8QnduoauTBZhs=
 github.com/guangmean/Niello v0.0.0-20191029090447-5b18ef951464 h1:MQwV8QrzZp1sSjVIwgULxDFhMgPJt9ZmxqdDpQGuoMM=
 github.com/guangmean/Niello v0.0.0-20191029090447-5b18ef951464/go.mod h1:tWL/X0kRXdp678SELP/Xok8SwM8W6arlXTlfFfMVdqs=
 github.com/gundamew/hugo-bingo v1.8.2 h1:XEhmUp3D8/yh8vwxHNCq1iwpiABZ6Mza4wxScIe/YSs=
@@ -826,6 +836,8 @@ github.com/kc0bfv/autophugo v0.0.0-20210710185446-d756028c9fdd h1:/RlJru7yD3JUE8
 github.com/kc0bfv/autophugo v0.0.0-20210710185446-d756028c9fdd/go.mod h1:cGqUURdbJzJ6TY9SQU2+iJQFs0Nza1iI1unQ2LutyOM=
 github.com/kc0bfv/autophugo v0.0.0-20211112033905-381e40e379d0 h1:lbWAafLSC62/VAKX43PMgoI5Hm2wR7446Gm92ZN6OW4=
 github.com/kc0bfv/autophugo v0.0.0-20211112033905-381e40e379d0/go.mod h1:cGqUURdbJzJ6TY9SQU2+iJQFs0Nza1iI1unQ2LutyOM=
+github.com/kc0bfv/autophugo v0.0.0-20211114222415-15afa43dc14c h1:h04Uhr2qu9KdROG45EwvHxWb+tSsxvoinppDWljhsCk=
+github.com/kc0bfv/autophugo v0.0.0-20211114222415-15afa43dc14c/go.mod h1:cGqUURdbJzJ6TY9SQU2+iJQFs0Nza1iI1unQ2LutyOM=
 github.com/kc0bfv/ticky_tacky_dark v0.0.0-20200802223536-8c9e97bf8c81 h1:+G/DjZ8LRwHNFdru0feznI9TDpqezr6zLAEbZ0ls0Nc=
 github.com/kc0bfv/ticky_tacky_dark v0.0.0-20200802223536-8c9e97bf8c81/go.mod h1:v6eXJ3EMW7cho+QXRwk4QWp5SwUvX90KoO2oFdvvjS8=
 github.com/kc0bfv/ticky_tacky_dark v0.0.0-20211112180311-21838797bc0e h1:x5zfZwGKbKlLawyU6e1eFRdEGzH0sEd8UXvncx+S8qQ=
