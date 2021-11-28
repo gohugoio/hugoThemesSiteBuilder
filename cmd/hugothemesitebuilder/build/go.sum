@@ -140,12 +140,16 @@ github.com/McShelby/hugo-theme-relearn v0.0.0-20211120102604-d4362ba997ce h1:vmH
 github.com/McShelby/hugo-theme-relearn v0.0.0-20211120102604-d4362ba997ce/go.mod h1:DJlNSftm/1+M1YSoUQp61lRfOWc8QBBuLdVk7YiV23s=
 github.com/McShelby/hugo-theme-relearn v0.0.0-20211124110440-4053dc8565ac h1:a5r9eT6QOFJc1Jcmc10R79rVcHivlf60w/yI0EjNvOU=
 github.com/McShelby/hugo-theme-relearn v0.0.0-20211124110440-4053dc8565ac/go.mod h1:DJlNSftm/1+M1YSoUQp61lRfOWc8QBBuLdVk7YiV23s=
+github.com/McShelby/hugo-theme-relearn v0.0.0-20211126095728-3fbf06aabd08 h1:K2DkSQkFeh372AAAnD9+M9nXhh14jKLPQMMDkxpHAnc=
+github.com/McShelby/hugo-theme-relearn v0.0.0-20211126095728-3fbf06aabd08/go.mod h1:DJlNSftm/1+M1YSoUQp61lRfOWc8QBBuLdVk7YiV23s=
 github.com/MeiK2333/github-style v0.0.0-20210726020434-9cf5ac3945dc h1:2UQGc3ZVV4tNgT4DQeeeBD4HHLEaXpe8YTQuHmStrZY=
 github.com/MeiK2333/github-style v0.0.0-20210726020434-9cf5ac3945dc/go.mod h1:MDvfpZqhD/YSKR6X4f5hVUv588HxL1MVjsCTSM7ETxs=
 github.com/MeiK2333/github-style v0.0.0-20210906034119-8b12b1115cd1 h1:IWwprMQv4m5MtNDl275yhVXEGH9RXDIXVnSVS0HFYWY=
 github.com/MeiK2333/github-style v0.0.0-20210906034119-8b12b1115cd1/go.mod h1:MDvfpZqhD/YSKR6X4f5hVUv588HxL1MVjsCTSM7ETxs=
 github.com/MeiK2333/github-style v0.0.0-20211124024437-4351c2ac42b0 h1:NFYGXWr+Nt9XvuwPpWMU1rD5odPbrKmT+OqyVTojX80=
 github.com/MeiK2333/github-style v0.0.0-20211124024437-4351c2ac42b0/go.mod h1:MDvfpZqhD/YSKR6X4f5hVUv588HxL1MVjsCTSM7ETxs=
+github.com/MeiK2333/github-style v0.0.0-20211126135807-66a79971fdee h1:eNRev5aAwczuotM3PZapwULK6HvWs7Cv8g4WdzFcasI=
+github.com/MeiK2333/github-style v0.0.0-20211126135807-66a79971fdee/go.mod h1:MDvfpZqhD/YSKR6X4f5hVUv588HxL1MVjsCTSM7ETxs=
 github.com/Mitrichius/hugo-theme-anubis v0.0.0-20210719062415-5dab60e04a37 h1:0vrI6wVEacYvavNyzq8V+v09h6HywpT+ln59XNjP7n0=
 github.com/Mitrichius/hugo-theme-anubis v0.0.0-20210719062415-5dab60e04a37/go.mod h1:f08e2byMxnSPny7f2kFGmYYH3W6DAkkYve0zYyFuNmc=
 github.com/Mitrichius/hugo-theme-anubis v0.0.0-20210824182204-9ca723f576b3 h1:VgaAWmeTi7cJmrrI/Lo0A7OJTKrXfcKWItf47i0fUsk=
@@ -1012,6 +1016,8 @@ github.com/mivinci/hugo-theme-minima v0.0.0-20211112083039-741fc482b747 h1:eRBi5
 github.com/mivinci/hugo-theme-minima v0.0.0-20211112083039-741fc482b747/go.mod h1:g0kL/HOarFdsbthSpjZv+4xPw90lb/2coIIqXfxcEEQ=
 github.com/mivinci/hugo-theme-minima v0.0.0-20211124150855-8078f06b0063 h1:V/+7SgfIBfeauq+Pr2Ztdsn/smISGR0KD8qADTQBoKA=
 github.com/mivinci/hugo-theme-minima v0.0.0-20211124150855-8078f06b0063/go.mod h1:g0kL/HOarFdsbthSpjZv+4xPw90lb/2coIIqXfxcEEQ=
+github.com/mivinci/hugo-theme-minima v0.0.0-20211127155638-cbfde610e72a h1:HTaPc2vTrLhb1bw9Ymec70rf6dXQl6wdrwrALge4kmI=
+github.com/mivinci/hugo-theme-minima v0.0.0-20211127155638-cbfde610e72a/go.mod h1:g0kL/HOarFdsbthSpjZv+4xPw90lb/2coIIqXfxcEEQ=
 github.com/mmrath/hugo-bootstrap v0.0.0-20190615045721-5e7bfb2518b7 h1:X9XGtxVOw9Cf6bjdVizJYg34iYPmEVqsfYiLROMKjpM=
 github.com/mmrath/hugo-bootstrap v0.0.0-20190615045721-5e7bfb2518b7/go.mod h1:n91jRqom+nLdy3lDrOdZW7+LyjKnPdSCgBjgFcSPibw=
 github.com/monkeyWzr/hugo-theme-cactus v0.0.0-20210723075256-7958b191f7bc h1:L/5YbNDvjZVJBytDeWiTyZ6aoa9aYOKKoNpVxJ366hs=
@@ -1127,6 +1133,8 @@ github.com/opera7133/Blonde v0.0.0-20211105111058-3692de717089 h1:nQuGZAs8slYEWu
 github.com/opera7133/Blonde v0.0.0-20211105111058-3692de717089/go.mod h1:b3YtD5mSb0xLTVGYHJCCBPyc1g3VLyrov7tWXeZsI14=
 github.com/opera7133/Blonde v0.0.0-20211110081659-d8c4b19b8299 h1:w43Nu1+WhacBfwBm1jJrKsJmV16h6AmDVhdUTMG3keU=
 github.com/opera7133/Blonde v0.0.0-20211110081659-d8c4b19b8299/go.mod h1:b3YtD5mSb0xLTVGYHJCCBPyc1g3VLyrov7tWXeZsI14=
+github.com/opera7133/Blonde v0.0.0-20211125110904-d48a759ee67f h1:IX92i7CnaoSNjCLsTSASergb8ADJfRZKRG4CJrTipLU=
+github.com/opera7133/Blonde v0.0.0-20211125110904-d48a759ee67f/go.mod h1:b3YtD5mSb0xLTVGYHJCCBPyc1g3VLyrov7tWXeZsI14=
 github.com/opera7133/tella v0.0.0-20210910111014-c53f5d8afd9c h1:R4q0TOm12qiLBIF1k4cH9mgTaE/WJw/Cf0jkOXfSOcA=
 github.com/opera7133/tella v0.0.0-20210910111014-c53f5d8afd9c/go.mod h1:j7ZoKp/XI0LAPBbwxcigWRmicJlc9ufkdUssH9JR524=
 github.com/opera7133/tella v0.0.0-20210922122056-6de8d2faec10 h1:Yt1lDAalFYAAedh+Bm1emPdSFsz/c7Xof4CRjughlh8=
@@ -1155,6 +1163,8 @@ github.com/opera7133/tella v0.0.0-20211110081710-2b7fcc7d8dfe h1:to8rvtpUECXYxwO
 github.com/opera7133/tella v0.0.0-20211110081710-2b7fcc7d8dfe/go.mod h1:j7ZoKp/XI0LAPBbwxcigWRmicJlc9ufkdUssH9JR524=
 github.com/opera7133/tella v0.0.0-20211120092620-76b62272af15 h1:1DMMnqW0xfWGCwwY1qGVMxdv91wB3MUX1hbWzv4sLkM=
 github.com/opera7133/tella v0.0.0-20211120092620-76b62272af15/go.mod h1:j7ZoKp/XI0LAPBbwxcigWRmicJlc9ufkdUssH9JR524=
+github.com/opera7133/tella v0.0.0-20211125110905-a2edf0b5e920 h1:kkQRmc0bWccIVM+9CWJBK03K/7jwXazcQkFuIaa/Cuc=
+github.com/opera7133/tella v0.0.0-20211125110905-a2edf0b5e920/go.mod h1:j7ZoKp/XI0LAPBbwxcigWRmicJlc9ufkdUssH9JR524=
 github.com/orf/bare-hugo-theme v0.0.0-20210429204408-c7790f7f0890 h1:ZZBwkh9Bol8joUnigCWJE5BlijWYb+z83g6BjeFSqqc=
 github.com/orf/bare-hugo-theme v0.0.0-20210429204408-c7790f7f0890/go.mod h1:aZ/HHOCsSM0xPSY5Wd6Yh360C6Axu6rHECcPikVzkU4=
 github.com/pacollins/hugo-future-imperfect-slim v0.0.0-20210704021429-57b6d9c59390 h1:U2nJZUt0D9526iPotLBO15Ik3U8sosRszY5Pb5zKZUU=
