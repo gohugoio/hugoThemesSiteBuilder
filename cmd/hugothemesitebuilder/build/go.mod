@@ -158,7 +158,7 @@ require (
 	github.com/google/docsy v0.0.0-20211221192421-57d823b4450d // indirect
 	github.com/guangmean/Niello v0.0.0-20191029090447-5b18ef951464 // indirect
 	github.com/gundamew/hugo-bingo v1.8.2 // indirect
-	github.com/gurusabarish/hugo-profile v0.0.0-20211213124443-f279e1531814 // indirect
+	github.com/gurusabarish/hugo-profile v0.0.0-20211231170122-0d554f32d3cf // indirect
 	github.com/gyorb/hugo-dusk v1.0.1 // indirect
 	github.com/h-enk/doks v0.3.5 // indirect
 	github.com/hadisinaee/avicenna v0.0.0-20210802003840-1412ad1b941f // indirect
@@ -391,7 +391,7 @@ require (
 	github.com/xslingcn/vno-hugo v1.1.0 // indirect
 	github.com/yanlinlin82/simple-style v0.0.0-20200728235317-d316e60cd7ad // indirect
 	github.com/yihui/hugo-xmag v0.0.0-20211118035353-337a3a72f8f6 // indirect
-	github.com/yihui/hugo-xmin v0.0.0-20211201054251-6d4b5dcfbfeb // indirect
+	github.com/yihui/hugo-xmin v0.0.0-20211231031033-a8ae2c5743f1 // indirect
 	github.com/yoshiharuyamashita/blackburn v0.0.0-20211014173406-94143e0e42a5 // indirect
 	github.com/your-identity/hugo-theme-dimension v0.0.0-20210521214308-2474081b7846 // indirect
 	github.com/yursan9/manis-hugo-theme v0.0.0-20211226140536-80fe33f0bbdc // indirect

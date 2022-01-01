@@ -776,6 +776,8 @@ github.com/gurusabarish/hugo-profile v0.0.0-20211118190202-a39edbe3531e h1:IKy28
 github.com/gurusabarish/hugo-profile v0.0.0-20211118190202-a39edbe3531e/go.mod h1:drpVx8hmKaH1c5qiGjGFQ6FU+I1C6ygS/U7AB5nMH44=
 github.com/gurusabarish/hugo-profile v0.0.0-20211213124443-f279e1531814 h1:aEUNwFVRg5fmjGCcb7he431bxJPLVmeeiD09zy9v2BI=
 github.com/gurusabarish/hugo-profile v0.0.0-20211213124443-f279e1531814/go.mod h1:drpVx8hmKaH1c5qiGjGFQ6FU+I1C6ygS/U7AB5nMH44=
+github.com/gurusabarish/hugo-profile v0.0.0-20211231170122-0d554f32d3cf h1:8m2Frm0R8ORJC1Vmmo7Ojl9gus9XGnEnJ2ZAyeXBJok=
+github.com/gurusabarish/hugo-profile v0.0.0-20211231170122-0d554f32d3cf/go.mod h1:drpVx8hmKaH1c5qiGjGFQ6FU+I1C6ygS/U7AB5nMH44=
 github.com/gyorb/hugo-dusk v1.0.1 h1:c0xGXY0UzGWEdpD9khaWWroNjzsgjlyQNGTBdPfsUDw=
 github.com/gyorb/hugo-dusk v1.0.1/go.mod h1:EDbPT5mNiOeB83yEcqUa3bFKSfVSHNJgg3XvynKGwm0=
 github.com/h-enk/doks v0.3.3 h1:6kqVj+fsj9LwVS0jC10UJWRfZnf1cNg2cVZQMPhLlp0=
@@ -1837,6 +1839,8 @@ github.com/yihui/hugo-xmin v0.0.0-20211116154832-0b3e81d063d2 h1:CkBodvRFsfaR0Yd
 github.com/yihui/hugo-xmin v0.0.0-20211116154832-0b3e81d063d2/go.mod h1:RiCR4psTF4iydlh4bR9BijKIHmivp7IeBaokx0CvzRA=
 github.com/yihui/hugo-xmin v0.0.0-20211201054251-6d4b5dcfbfeb h1:X9XWwOcCmJz1+gUPxfSIiQf9ey9eOKdiYFubAlsHFIc=
 github.com/yihui/hugo-xmin v0.0.0-20211201054251-6d4b5dcfbfeb/go.mod h1:RiCR4psTF4iydlh4bR9BijKIHmivp7IeBaokx0CvzRA=
+github.com/yihui/hugo-xmin v0.0.0-20211231031033-a8ae2c5743f1 h1:4rnutGlGV6VFZpVvBMlLZ1Xv6VQUKFwEWtEViODUYv4=
+github.com/yihui/hugo-xmin v0.0.0-20211231031033-a8ae2c5743f1/go.mod h1:RiCR4psTF4iydlh4bR9BijKIHmivp7IeBaokx0CvzRA=
 github.com/yoshiharuyamashita/blackburn v0.0.0-20210227085106-97af8d9eed43 h1:ivLQHi1+WORP0NRP3K1zXO294cbcsdmtjC679+M+rv4=
 github.com/yoshiharuyamashita/blackburn v0.0.0-20210227085106-97af8d9eed43/go.mod h1:6pbezvonWoLff+OHRlnl5srs2LpACJnkJjpRHYEutDs=
 github.com/yoshiharuyamashita/blackburn v0.0.0-20210807142805-ce39f25195b7 h1:8n2MWNpidOvZpFkgCGk1FuR3bPXslyXmJWyXB1xVrEU=
