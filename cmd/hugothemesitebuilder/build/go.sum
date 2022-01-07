@@ -166,6 +166,8 @@ github.com/MeiK2333/github-style v0.0.0-20211130072756-ceb4dc19cbb8 h1:BL8dD7VT2
 github.com/MeiK2333/github-style v0.0.0-20211130072756-ceb4dc19cbb8/go.mod h1:MDvfpZqhD/YSKR6X4f5hVUv588HxL1MVjsCTSM7ETxs=
 github.com/MeiK2333/github-style v0.0.0-20211207080831-68922f4e4ced h1:8cZArd91d4kn/kMdXFf9q9Qv95axYY6NglUxvRorJJI=
 github.com/MeiK2333/github-style v0.0.0-20211207080831-68922f4e4ced/go.mod h1:MDvfpZqhD/YSKR6X4f5hVUv588HxL1MVjsCTSM7ETxs=
+github.com/MeiK2333/github-style v0.0.0-20220104030928-b8e6a9c7d088 h1:2WCIV5B+lnR0MEC2SBI5+hsjagzwENfVIge2ZDHsQug=
+github.com/MeiK2333/github-style v0.0.0-20220104030928-b8e6a9c7d088/go.mod h1:MDvfpZqhD/YSKR6X4f5hVUv588HxL1MVjsCTSM7ETxs=
 github.com/Mitrichius/hugo-theme-anubis v0.0.0-20210719062415-5dab60e04a37 h1:0vrI6wVEacYvavNyzq8V+v09h6HywpT+ln59XNjP7n0=
 github.com/Mitrichius/hugo-theme-anubis v0.0.0-20210719062415-5dab60e04a37/go.mod h1:f08e2byMxnSPny7f2kFGmYYH3W6DAkkYve0zYyFuNmc=
 github.com/Mitrichius/hugo-theme-anubis v0.0.0-20210824182204-9ca723f576b3 h1:VgaAWmeTi7cJmrrI/Lo0A7OJTKrXfcKWItf47i0fUsk=
@@ -892,6 +894,8 @@ github.com/janraasch/hugo-scroll v0.0.0-20211207162538-3791fec0d1ad/go.mod h1:/b
 github.com/jaywcjlove/hotkeys v3.8.7+incompatible/go.mod h1:B8sgoHCreUIgvVuJaI5mfsyw/gFV+c+OlJfNbLpdtzQ=
 github.com/jbub/ghostwriter v0.5.0 h1:GNdbstRj3uFcj4P1vH2kmxVWZVj5CpU2g3bCkfkvWjc=
 github.com/jbub/ghostwriter v0.5.0/go.mod h1:MApLh2JiSAfJZG7k0jzVZ4rI0e2ptLcGhNlSPxA0roI=
+github.com/jbub/ghostwriter v0.6.0 h1:41c8trBjQrPhgp9qAaMQlbm/NU9xXO44xF2iZShF88A=
+github.com/jbub/ghostwriter v0.6.0/go.mod h1:MApLh2JiSAfJZG7k0jzVZ4rI0e2ptLcGhNlSPxA0roI=
 github.com/jeblister/bulma v0.0.0-20190415194547-8b76e4da46e9 h1:EwfXUH5p/voKZCqEzISxDcxcotpV5kQnt/UycFvswX0=
 github.com/jeblister/bulma v0.0.0-20190415194547-8b76e4da46e9/go.mod h1:RT11HUiXIEdVOl5vuam5LrUs2EEuTRsjEZaGwiq9VBg=
 github.com/jeremybise/twentynineteen-hugo v0.0.0-20191008161335-7c0a63e24114 h1:fmxJKmppvcH4vGXfzolO6zgVkVnGotoJd2vV5t+EB1I=
@@ -1425,6 +1429,8 @@ github.com/razonyang/hugo-theme-bootstrap v0.61.0 h1:wnbhKfSWFmjyFAd7vzMQo9saunm
 github.com/razonyang/hugo-theme-bootstrap v0.61.0/go.mod h1:uf/BlKpHfDFmaGi1eeoGEHQ1LA6ns4bSsupvOwVXmXI=
 github.com/razonyang/hugo-theme-bootstrap v0.62.0 h1:afI+o5677K3EdFvhqSpTNPPK/+JNGRoeknJur9++UOE=
 github.com/razonyang/hugo-theme-bootstrap v0.62.0/go.mod h1:uf/BlKpHfDFmaGi1eeoGEHQ1LA6ns4bSsupvOwVXmXI=
+github.com/razonyang/hugo-theme-bootstrap v0.62.1 h1:gQ4fZZEgPcT85PEzQkaOjCM6teoLEIPbWz3+IaOhdJQ=
+github.com/razonyang/hugo-theme-bootstrap v0.62.1/go.mod h1:uf/BlKpHfDFmaGi1eeoGEHQ1LA6ns4bSsupvOwVXmXI=
 github.com/reuixiy/hugo-theme-meme v4.5.0+incompatible h1:H6kvEt99bZaQe9MD+M7n9B36/j8Tkr06gvzaQ7kDgys=
 github.com/reuixiy/hugo-theme-meme v4.5.0+incompatible/go.mod h1:t+xPvEmNNin6n1dGhQagjz1hCUIAgxGobMvbQfICAW4=
 github.com/rhazdon/hugo-theme-hello-friend-ng v0.0.0-20210628085422-bc5c57112c34 h1:WenlruI7wpPBoXvXBIMxwG4wopJ7dXkmCtJe5Rs08ao=
@@ -1726,6 +1732,8 @@ github.com/themefisher/timer-hugo v0.0.0-20210906105941-26f515d9dfcf h1:JhVhvrKk
 github.com/themefisher/timer-hugo v0.0.0-20210906105941-26f515d9dfcf/go.mod h1:GrSBv4CBARhDHi4zaXfXR2HA+iXDPJ0G3wvDDtiZ6v0=
 github.com/themefisher/timer-hugo v0.0.0-20210908070348-74b5e5c488ce h1:pY2U1ka7Z9lUPE3nkv2y8+ZET7cdgonVEkcOIajl2Po=
 github.com/themefisher/timer-hugo v0.0.0-20210908070348-74b5e5c488ce/go.mod h1:GrSBv4CBARhDHi4zaXfXR2HA+iXDPJ0G3wvDDtiZ6v0=
+github.com/themefisher/timer-hugo v0.0.0-20220105033145-1ef82f5ec621 h1:1VzVaXl187/RkONXJXKDa56LBALNVN6FRkpm0E+NRlc=
+github.com/themefisher/timer-hugo v0.0.0-20220105033145-1ef82f5ec621/go.mod h1:GrSBv4CBARhDHi4zaXfXR2HA+iXDPJ0G3wvDDtiZ6v0=
 github.com/themefisher/twenty-twenty-hugo v0.0.0-20210704111557-81a14db5672e h1:GshpEMWHSx3rRFt2FMe9nSkt5DLe4zPU8YM0dSn/J04=
 github.com/themefisher/twenty-twenty-hugo v0.0.0-20210704111557-81a14db5672e/go.mod h1:7a678ZDuA7y0P3Rc/QtvbdWjRsNFiJ72RWd9pOQT8NI=
 github.com/themefisher/twenty-twenty-hugo v0.0.0-20210908063045-f4821e1069ef h1:QuAQ8SmGCLItL06ORBE1N9YHOk+YXQhleJ2903yz9Ic=
