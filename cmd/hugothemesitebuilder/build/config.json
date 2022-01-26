@@ -97,6 +97,11 @@
       {
         "ignoreImports": true,
         "noMounts": true,
+        "path": "github.com/jgazeau/shadocs"
+      },
+      {
+        "ignoreImports": true,
+        "noMounts": true,
         "path": "github.com/J-Siu/hugo-theme-sk1"
       },
       {
@@ -377,7 +382,7 @@
       {
         "ignoreImports": true,
         "noMounts": true,
-        "path": "github.com/bep/docuapi"
+        "path": "github.com/bep/docuapi/v2"
       },
       {
         "ignoreImports": true,
@@ -397,7 +402,7 @@
       {
         "ignoreImports": true,
         "noMounts": true,
-        "path": "github.com/budparr/gohugo-theme-ananke"
+        "path": "github.com/theNewDynamic/gohugo-theme-ananke"
       },
       {
         "ignoreImports": true,
@@ -452,6 +457,11 @@
       {
         "ignoreImports": true,
         "noMounts": true,
+        "path": "github.com/chollinger93/ink-free"
+      },
+      {
+        "ignoreImports": true,
+        "noMounts": true,
         "path": "github.com/cntrump/hugo-notepadium"
       },
       {
@@ -487,12 +497,12 @@
       {
         "ignoreImports": true,
         "noMounts": true,
-        "path": "github.com/curttimson/hugo-theme-dopetrope"
+        "path": "github.com/curtiscde/hugo-theme-dopetrope"
       },
       {
         "ignoreImports": true,
         "noMounts": true,
-        "path": "github.com/curttimson/hugo-theme-massively"
+        "path": "github.com/curtiscde/hugo-theme-massively"
       },
       {
         "ignoreImports": true,
@@ -623,6 +633,11 @@
         "ignoreImports": true,
         "noMounts": true,
         "path": "github.com/eliasson/liquorice"
+      },
+      {
+        "ignoreImports": true,
+        "noMounts": true,
+        "path": "github.com/elkan1788/hugo-theme-next"
       },
       {
         "ignoreImports": true,
@@ -1058,6 +1073,11 @@
         "ignoreImports": true,
         "noMounts": true,
         "path": "github.com/knadh/hugo-ink"
+      },
+      {
+        "ignoreImports": true,
+        "noMounts": true,
+        "path": "github.com/knokmki612/hugo-fill-and-stroke"
       },
       {
         "ignoreImports": true,
@@ -1897,11 +1917,6 @@
       {
         "ignoreImports": true,
         "noMounts": true,
-        "path": "github.com/xslingcn/vno-hugo"
-      },
-      {
-        "ignoreImports": true,
-        "noMounts": true,
         "path": "github.com/yanlinlin82/simple-style"
       },
       {
@@ -1923,6 +1938,11 @@
         "ignoreImports": true,
         "noMounts": true,
         "path": "github.com/your-identity/hugo-theme-dimension"
+      },
+      {
+        "ignoreImports": true,
+        "noMounts": true,
+        "path": "github.com/yue1124/hero"
       },
       {
         "ignoreImports": true,
