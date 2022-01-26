@@ -7,5 +7,5 @@ require (
 	github.com/frankban/quicktest v1.13.0 // indirect
 	github.com/peterbourgon/ff/v3 v3.0.0
 	github.com/rogpeppe/go-internal v1.8.0
-	gopkg.in/yaml.v2 v2.2.4
+	gopkg.in/yaml.v2 v2.4.0
 )
