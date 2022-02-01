@@ -91,7 +91,7 @@ require (
 	github.com/cfrome77/hugo-theme-sky v0.0.0-20220117033109-ff94be67da92 // indirect
 	github.com/chipsenkbeil/grid-side v0.0.0-20170626191754-f5251bfd15a7 // indirect
 	github.com/chipzoller/hugo-clarity v0.0.0-20220130131408-8b5d548051d8 // indirect
-	github.com/chollinger93/ink-free v1.1.0 // indirect
+	github.com/chollinger93/ink-free v1.2.0 // indirect
 	github.com/cntrump/hugo-notepadium v2.6.2+incompatible // indirect
 	github.com/coderzh/hugo-pacman-theme v0.0.0-20211218130934-daba606c4f13 // indirect
 	github.com/colorchestra/smol v0.0.0-20210810214745-4129f82cd766 // indirect
@@ -159,7 +159,7 @@ require (
 	github.com/google/docsy v0.0.0-20220118162949-b6af3699c65d // indirect
 	github.com/guangmean/Niello v0.0.0-20191029090447-5b18ef951464 // indirect
 	github.com/gundamew/hugo-bingo v1.8.2 // indirect
-	github.com/gurusabarish/hugo-profile v0.0.0-20220125180554-aeec9ef74fe7 // indirect
+	github.com/gurusabarish/hugo-profile v0.0.0-20220131131926-00c24c1e15e6 // indirect
 	github.com/gyorb/hugo-dusk v1.0.1 // indirect
 	github.com/h-enk/doks v0.3.5 // indirect
 	github.com/hadisinaee/avicenna v0.0.0-20210802003840-1412ad1b941f // indirect
@@ -205,7 +205,7 @@ require (
 	github.com/jsnjack/hugo-changelog-theme v0.0.0-20210104225528-d58a8286e0e7 // indirect
 	github.com/jsnjack/kraiklyn v0.0.0-20210802120627-a2f56a7af778 // indirect
 	github.com/jweslley/hugo-conference v0.0.0-20190116105037-737593308e69 // indirect
-	github.com/kaiiiz/hugo-theme-monochrome v0.8.0 // indirect
+	github.com/kaiiiz/hugo-theme-monochrome v0.9.0 // indirect
 	github.com/kakawait/hugo-tranquilpeak-theme v0.0.0-20211006054635-295d0fb3dd3d // indirect
 	github.com/kaushalmodi/hugo-bare-min-theme v0.2.2 // indirect
 	github.com/kc0bfv/autophugo v0.0.0-20211219220444-20e8995ade62 // indirect
@@ -231,7 +231,7 @@ require (
 	github.com/lubang/hugo-hello-programmer-theme v2.1.0+incompatible // indirect
 	github.com/lucperkins/hugo-fresh v0.0.0-20210216090757-17f51372b615 // indirect
 	github.com/luizdepra/hugo-coder v0.0.0-20220130212557-720271a5bf72 // indirect
-	github.com/lxndrblz/anatole v1.5.0 // indirect
+	github.com/lxndrblz/anatole v1.6.0 // indirect
 	github.com/marcanuy/simpleit-hugo-theme v0.0.0-20210616134837-49277e5c3be0 // indirect
 	github.com/marketempower/axiom v0.8.0 // indirect
 	github.com/matcornic/hugo-theme-learn v0.0.0-20211028190410-e817f53d690d // indirect
@@ -265,11 +265,11 @@ require (
 	github.com/ojroques/hugo-researcher v0.0.0-20210701124037-dae5f676aa1e // indirect
 	github.com/okkur/syna v0.17.4 // indirect
 	github.com/olOwOlo/hugo-theme-even v4.1.0+incompatible // indirect
-	github.com/onweru/compose v0.0.0-20211221075835-58ca403bf22e // indirect
+	github.com/onweru/compose v0.0.0-20220131233710-b98f100c3316 // indirect
 	github.com/onweru/hugo-swift-theme v2.0.0+incompatible // indirect
 	github.com/onweru/newsroom v0.0.0-20220114000312-a46aedf8f0c5 // indirect
-	github.com/opera7133/Blonde v0.0.0-20220127112617-9d325b39064a // indirect
-	github.com/opera7133/tella v0.0.0-20220127112647-4ff3d771f2f3 // indirect
+	github.com/opera7133/Blonde v0.0.0-20220131113323-35e30c6d6091 // indirect
+	github.com/opera7133/tella v0.0.0-20220131113306-e555a8b00e58 // indirect
 	github.com/orf/bare-hugo-theme v0.0.0-20220129172300-0092e64e8816 // indirect
 	github.com/pacollins/hugo-future-imperfect-slim v0.0.0-20211105151804-67dfc625a77b // indirect
 	github.com/panr/hugo-theme-hello-friend v0.0.0-20220124163031-f7d48e5db47a // indirect
@@ -334,7 +334,7 @@ require (
 	github.com/the2ne/hugo-frais v0.0.0-20200104180115-f6f23a885a7a // indirect
 	github.com/theNewDynamic/gohugo-theme-ananke v0.0.0-20220119163232-523c7716613d // indirect
 	github.com/thegeeklab/hugo-geekblog v0.15.2 // indirect
-	github.com/thegeeklab/hugo-geekdoc v0.25.0 // indirect
+	github.com/thegeeklab/hugo-geekdoc v0.25.1 // indirect
 	github.com/themefisher/Academia-hugo v1.0.0 // indirect
 	github.com/themefisher/Hargo-hugo-ecommerce-theme v0.0.0-20211031042413-d6ba683450bb // indirect
 	github.com/themefisher/Influencer-hugo v0.0.0-20210908093101-bf3fcad7b128 // indirect
