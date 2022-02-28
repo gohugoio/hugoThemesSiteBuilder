@@ -817,6 +817,11 @@
       {
         "ignoreImports": true,
         "noMounts": true,
+        "path": "github.com/half-duplex/hugo-arcana"
+      },
+      {
+        "ignoreImports": true,
+        "noMounts": true,
         "path": "github.com/halogenica/beautifulhugo"
       },
       {
@@ -1662,101 +1667,6 @@
       {
         "ignoreImports": true,
         "noMounts": true,
-        "path": "github.com/themefisher/Academia-hugo"
-      },
-      {
-        "ignoreImports": true,
-        "noMounts": true,
-        "path": "github.com/themefisher/Hargo-hugo-ecommerce-theme"
-      },
-      {
-        "ignoreImports": true,
-        "noMounts": true,
-        "path": "github.com/themefisher/Influencer-hugo"
-      },
-      {
-        "ignoreImports": true,
-        "noMounts": true,
-        "path": "github.com/themefisher/academia-hugo"
-      },
-      {
-        "ignoreImports": true,
-        "noMounts": true,
-        "path": "github.com/themefisher/airspace-hugo"
-      },
-      {
-        "ignoreImports": true,
-        "noMounts": true,
-        "path": "github.com/themefisher/bigspring-hugo-startup-theme"
-      },
-      {
-        "ignoreImports": true,
-        "noMounts": true,
-        "path": "github.com/themefisher/educenter-hugo"
-      },
-      {
-        "ignoreImports": true,
-        "noMounts": true,
-        "path": "github.com/themefisher/infinity-hugo"
-      },
-      {
-        "ignoreImports": true,
-        "noMounts": true,
-        "path": "github.com/themefisher/kross-hugo-portfolio-template"
-      },
-      {
-        "ignoreImports": true,
-        "noMounts": true,
-        "path": "github.com/themefisher/liva-hugo"
-      },
-      {
-        "ignoreImports": true,
-        "noMounts": true,
-        "path": "github.com/themefisher/meghna-hugo"
-      },
-      {
-        "ignoreImports": true,
-        "noMounts": true,
-        "path": "github.com/themefisher/navigator-hugo"
-      },
-      {
-        "ignoreImports": true,
-        "noMounts": true,
-        "path": "github.com/themefisher/northendlab-hugo"
-      },
-      {
-        "ignoreImports": true,
-        "noMounts": true,
-        "path": "github.com/themefisher/parsa-hugo"
-      },
-      {
-        "ignoreImports": true,
-        "noMounts": true,
-        "path": "github.com/themefisher/persian-hugo"
-      },
-      {
-        "ignoreImports": true,
-        "noMounts": true,
-        "path": "github.com/themefisher/restaurant-hugo"
-      },
-      {
-        "ignoreImports": true,
-        "noMounts": true,
-        "path": "github.com/themefisher/timer-hugo"
-      },
-      {
-        "ignoreImports": true,
-        "noMounts": true,
-        "path": "github.com/themefisher/twenty-twenty-hugo"
-      },
-      {
-        "ignoreImports": true,
-        "noMounts": true,
-        "path": "github.com/themefisher/vex-hugo"
-      },
-      {
-        "ignoreImports": true,
-        "noMounts": true,
         "path": "github.com/thingsym/hugo-theme-techdoc"
       },
       {
@@ -1913,6 +1823,11 @@
         "ignoreImports": true,
         "noMounts": true,
         "path": "github.com/xiaoheiAh/hugo-theme-pure"
+      },
+      {
+        "ignoreImports": true,
+        "noMounts": true,
+        "path": "github.com/xslingcn/vno-hugo"
       },
       {
         "ignoreImports": true,

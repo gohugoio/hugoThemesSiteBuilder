@@ -446,6 +446,8 @@ github.com/h-enk/doks v0.4.0 h1:0TxGBPaPcr4qf1XjkJSvNw709YGFM6cZ6Sz7EAfDtGM=
 github.com/h-enk/doks v0.4.0/go.mod h1:rGZyg2gJspvHYEy6mWsl3JTVVkwcSEl6G3y88GRyfk4=
 github.com/hadisinaee/avicenna v0.0.0-20210802003840-1412ad1b941f h1:z2zpixZ1a+bos7Kp/mXJAP8TGvk8C3C2ooBGPDpJKnc=
 github.com/hadisinaee/avicenna v0.0.0-20210802003840-1412ad1b941f/go.mod h1:kg9hquFvYCh9THu+KTrZJEt214IgjNSewmOL2ocYwFM=
+github.com/half-duplex/hugo-arcana v0.0.0-20220220190702-0d3ba7a2b828 h1:kNu5S8CcxdOMj9u8m0dn+vN8vUlixuS7rHpNyXTISY8=
+github.com/half-duplex/hugo-arcana v0.0.0-20220220190702-0d3ba7a2b828/go.mod h1:Za8XD0Ysz7TWBA2kih2Q7BE4e/FJ1O/hZUHglcXzXvQ=
 github.com/halogenica/beautifulhugo v0.0.0-20210106080152-99ca240e9977 h1:pPJoUP0hd1tTt6wgA2pY3ssiXRWPLzhYF6Bz7hcv0yY=
 github.com/halogenica/beautifulhugo v0.0.0-20210106080152-99ca240e9977/go.mod h1:ufPkGvDjUx8ELYtHwaxCSuQeDMIrW7wtDzw/Hqoy4CY=
 github.com/hauke96/hugo-theme-hamburg v0.7.3 h1:pdZwJbNo2/b1KBI0Z30gBsfAiHbafISYqXXnZ4tnPz8=
@@ -1131,6 +1133,8 @@ github.com/xianmin/hugo-theme-jane v0.0.0-20220209073506-38acbcce15db h1:crb/45W
 github.com/xianmin/hugo-theme-jane v0.0.0-20220209073506-38acbcce15db/go.mod h1:Zf3ISQW08nRA/b6a6KsbkZEnTJHxMZaaYeODgyKb6cU=
 github.com/xiaoheiAh/hugo-theme-pure v0.0.0-20210607025111-902bd9b73dae h1:gwDrzsco7MVGQeYgpPp12ZF6LZEJWZ+X8KvcgTWONPM=
 github.com/xiaoheiAh/hugo-theme-pure v0.0.0-20210607025111-902bd9b73dae/go.mod h1:2AY18A9Eagjuyry8ebPpSiMy1V5yH+8B6ltef/xp5f0=
+github.com/xslingcn/vno-hugo v1.1.2 h1:3LvbhEhAr/bbVWI3Gz5ecO0Ql7Re8in7J1soZZcIzjk=
+github.com/xslingcn/vno-hugo v1.1.2/go.mod h1:EPZfnz7yVjkSeNH3mAA3E/FVo0xvX6uJVYJ6f8TttAI=
 github.com/yanlinlin82/simple-style v0.0.0-20200728235317-d316e60cd7ad h1:K7wJjm+TuaOOG3KXKqPl5HHmXsBIajGhrGjRRvNDEz0=
 github.com/yanlinlin82/simple-style v0.0.0-20200728235317-d316e60cd7ad/go.mod h1:G4q625joKxm0VaiEAJSPvX8ZSHg6TgPOjRKg3/D3IH4=
 github.com/yihui/hugo-xmag v0.0.0-20211118035353-337a3a72f8f6 h1:snmaimB3JN5c8JSrU74YaRQGmaAnTr7ce8mASprWRsQ=
