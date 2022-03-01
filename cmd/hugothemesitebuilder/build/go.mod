@@ -29,7 +29,7 @@ require (
 	github.com/LordMathis/hugo-theme-nix v0.0.0-20220120091656-084eef29e66f // indirect
 	github.com/LukasJoswiak/etch v0.0.0-20220223014544-22bac358d6f7 // indirect
 	github.com/MarcusVirg/forty v0.0.0-20190430033326-dccea57bd2ed // indirect
-	github.com/McShelby/hugo-theme-relearn v0.0.0-20220227093924-d2b1a6fdf76f // indirect
+	github.com/McShelby/hugo-theme-relearn v0.0.0-20220228194100-85090aa221e0 // indirect
 	github.com/MeiK2333/github-style v0.0.0-20220127073508-cde2c76a1b9e // indirect
 	github.com/Mitrichius/hugo-theme-anubis v0.0.0-20220226143052-6c20822bc16b // indirect
 	github.com/MunifTanjim/minimo v2.9.0+incompatible // indirect
@@ -231,7 +231,7 @@ require (
 	github.com/liuzc/LeaveIt v0.0.0-20181104111157-2884e266babb // indirect
 	github.com/lubang/hugo-hello-programmer-theme v2.1.0+incompatible // indirect
 	github.com/lucperkins/hugo-fresh v0.0.0-20210216090757-17f51372b615 // indirect
-	github.com/luizdepra/hugo-coder v0.0.0-20220225151129-680c7ab860e7 // indirect
+	github.com/luizdepra/hugo-coder v0.0.0-20220228184912-86ea4eda5475 // indirect
 	github.com/lxndrblz/anatole v1.7.0 // indirect
 	github.com/marcanuy/simpleit-hugo-theme v0.0.0-20210616134837-49277e5c3be0 // indirect
 	github.com/marketempower/axiom v0.8.0 // indirect
@@ -333,7 +333,7 @@ require (
 	github.com/tblyler/light-hugo v0.0.0-20201014192444-65d2bef4320a // indirect
 	github.com/tcgriffith/hugo-owaraiclub v0.0.0-20191105071036-a25aabbb1d0f // indirect
 	github.com/the2ne/hugo-frais v0.0.0-20200104180115-f6f23a885a7a // indirect
-	github.com/theNewDynamic/gohugo-theme-ananke v0.0.0-20220211202539-8fdfd205f9b4 // indirect
+	github.com/theNewDynamic/gohugo-theme-ananke v0.0.0-20220228160000-0e73c5b18cf6 // indirect
 	github.com/thegeeklab/hugo-geekblog v0.16.1 // indirect
 	github.com/thegeeklab/hugo-geekdoc v0.27.3 // indirect
 	github.com/themefisher/Academia-hugo v1.0.0 // indirect
