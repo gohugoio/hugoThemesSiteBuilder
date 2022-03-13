@@ -177,6 +177,8 @@ github.com/adityatelange/hugo-PaperMod v0.0.0-20220205131037-06f97458a77e h1:P2E
 github.com/adityatelange/hugo-PaperMod v0.0.0-20220205131037-06f97458a77e/go.mod h1:HCHxNMKYdGafUYjVV3ICiAqznZK2yH0iI53jqcDFDdQ=
 github.com/adityatelange/hugo-PaperMod v0.0.0-20220215143121-43c810c3e20b h1:Nvugtfla//gBAQ8PIZ8Pt+Rsjm67GsUiegjzJ3mc6jo=
 github.com/adityatelange/hugo-PaperMod v0.0.0-20220215143121-43c810c3e20b/go.mod h1:HCHxNMKYdGafUYjVV3ICiAqznZK2yH0iI53jqcDFDdQ=
+github.com/adityatelange/hugo-PaperMod v0.0.0-20220312140329-80928d9f2327 h1:6v7VbRZPbvjfGL5NY5HeaK9+6jDeRiLhm9AQ/6C9fDg=
+github.com/adityatelange/hugo-PaperMod v0.0.0-20220312140329-80928d9f2327/go.mod h1:HCHxNMKYdGafUYjVV3ICiAqznZK2yH0iI53jqcDFDdQ=
 github.com/aerohub/hugo-faq-theme v0.0.0-20161016225807-e6ed082c15bc h1:U7NZzqVuAs73vHEkpDxvypyk5v/jKxtT2neVUXxN5aY=
 github.com/aerohub/hugo-faq-theme v0.0.0-20161016225807-e6ed082c15bc/go.mod h1:EedoO5hm5mrYswWcGuitAoikrhYrNkyx70d28VeVRAI=
 github.com/aerohub/hugo-identity-theme v0.0.0-20171209130528-ca4e10de2297 h1:gYjk3ZXeWSNT94ZoigTzc8hKkxdFodKmxQ4ztER6JN4=
@@ -669,6 +671,8 @@ github.com/lxndrblz/anatole v1.6.0 h1:txlQUrCEn7wjAoDbkjtbNlqE8D/k0Im+rk3XCQCH9K
 github.com/lxndrblz/anatole v1.6.0/go.mod h1:hy61SRyUDKaWw2P+cERt9UPde5guWyVKgtjdzRF5bfI=
 github.com/lxndrblz/anatole v1.7.0 h1:PEe+lluJd0NZjvGqiv85rLxN/rlzbtggdbKDdEvxUDA=
 github.com/lxndrblz/anatole v1.7.0/go.mod h1:hy61SRyUDKaWw2P+cERt9UPde5guWyVKgtjdzRF5bfI=
+github.com/lxndrblz/anatole v1.8.0 h1:+Op4L+dHxJvBlfpwiqNXgxm/0jb27wOeddLmvqXrRtw=
+github.com/lxndrblz/anatole v1.8.0/go.mod h1:hy61SRyUDKaWw2P+cERt9UPde5guWyVKgtjdzRF5bfI=
 github.com/marcanuy/simpleit-hugo-theme v0.0.0-20210616134837-49277e5c3be0 h1:n7FsJhxX9nABeTlayuJsnJc2gbTYZhaLPz/q9k4Qov8=
 github.com/marcanuy/simpleit-hugo-theme v0.0.0-20210616134837-49277e5c3be0/go.mod h1:SLTfFGw+auwFbzlkDnvp/yeO2fZrfWmDvgByfHn0/vk=
 github.com/marketempower/axiom v0.8.0 h1:zi9Fz4N0hu8EqKEALSkCUc9NnilnqmvZlyyWVfdcn5g=
@@ -784,6 +788,8 @@ github.com/opera7133/Blonde v0.0.0-20220225112921-f5115e87d1c1 h1:3DuUJ9OjZ6AsVk
 github.com/opera7133/Blonde v0.0.0-20220225112921-f5115e87d1c1/go.mod h1:b3YtD5mSb0xLTVGYHJCCBPyc1g3VLyrov7tWXeZsI14=
 github.com/opera7133/Blonde v0.0.0-20220307112737-75a550271bd4 h1:rUOa6r+8ObDugHCpDnpeVlmBmwllAfkbK95lnGAjqx4=
 github.com/opera7133/Blonde v0.0.0-20220307112737-75a550271bd4/go.mod h1:b3YtD5mSb0xLTVGYHJCCBPyc1g3VLyrov7tWXeZsI14=
+github.com/opera7133/Blonde v0.0.0-20220311115358-61697f8bba3c h1:+cbJnimkmEwEIDel87QOVFtKyiI4AzAPfY31CQXmrAI=
+github.com/opera7133/Blonde v0.0.0-20220311115358-61697f8bba3c/go.mod h1:b3YtD5mSb0xLTVGYHJCCBPyc1g3VLyrov7tWXeZsI14=
 github.com/opera7133/tella v0.0.0-20220120143238-3c759b463834 h1:OzQMZVuiJB3OEaxFl1WaM/ZbiJxJHUE0G29ZdWYLRHY=
 github.com/opera7133/tella v0.0.0-20220120143238-3c759b463834/go.mod h1:j7ZoKp/XI0LAPBbwxcigWRmicJlc9ufkdUssH9JR524=
 github.com/opera7133/tella v0.0.0-20220127112647-4ff3d771f2f3 h1:D9n96KRsRPhizAqOuRNvW8QiJvChiQ6hdi3Bi6liyBc=
@@ -808,6 +814,8 @@ github.com/orf/bare-hugo-theme v0.0.0-20210429204408-c7790f7f0890 h1:ZZBwkh9Bol8
 github.com/orf/bare-hugo-theme v0.0.0-20210429204408-c7790f7f0890/go.mod h1:aZ/HHOCsSM0xPSY5Wd6Yh360C6Axu6rHECcPikVzkU4=
 github.com/orf/bare-hugo-theme v0.0.0-20220129172300-0092e64e8816 h1:KpuWSi/bM8/f2qG6FS1Gcv2DmSZi0tOd80NtNuGusVo=
 github.com/orf/bare-hugo-theme v0.0.0-20220129172300-0092e64e8816/go.mod h1:aZ/HHOCsSM0xPSY5Wd6Yh360C6Axu6rHECcPikVzkU4=
+github.com/orf/bare-hugo-theme v0.0.0-20220311124240-9e3b0f2dbb5b h1:8SidO3YJ8TdneTZ+fMd+TuzwFRDkp+jrQxForwA8TQE=
+github.com/orf/bare-hugo-theme v0.0.0-20220311124240-9e3b0f2dbb5b/go.mod h1:aZ/HHOCsSM0xPSY5Wd6Yh360C6Axu6rHECcPikVzkU4=
 github.com/pacollins/hugo-future-imperfect-slim v0.0.0-20211105151804-67dfc625a77b h1:4uNFyDbk98tar46u1dghRnp6AF5Qyf/Qb3PzGDd485w=
 github.com/pacollins/hugo-future-imperfect-slim v0.0.0-20211105151804-67dfc625a77b/go.mod h1:H8kFIjeSzW00Pr/usZOsFF1iMMtiPBXVRXViazWfl8o=
 github.com/panr/hugo-theme-hello-friend v0.0.0-20220124163031-f7d48e5db47a h1:4aLYZiVVEI8vwZnZDdP7D+VSMHWk+ewVaOIkTtzS4Vc=
