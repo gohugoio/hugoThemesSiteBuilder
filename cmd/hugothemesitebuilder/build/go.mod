@@ -56,7 +56,7 @@ require (
 	github.com/Yukuro/hugo-theme-shell v0.1.5 // indirect
 	github.com/aanupam23/hugo-sugoi v0.6.0 // indirect
 	github.com/achary/engimo v2.3.0+incompatible // indirect
-	github.com/adityatelange/hugo-PaperMod v0.0.0-20220215143121-43c810c3e20b // indirect
+	github.com/adityatelange/hugo-PaperMod v0.0.0-20220312140329-80928d9f2327 // indirect
 	github.com/aerohub/hugo-faq-theme v0.0.0-20161016225807-e6ed082c15bc // indirect
 	github.com/aerohub/hugo-identity-theme v0.0.0-20171209130528-ca4e10de2297 // indirect
 	github.com/aerohub/hugo-orbit-theme v0.0.0-20170515130410-f89b1ee9a336 // indirect
@@ -231,7 +231,7 @@ require (
 	github.com/lubang/hugo-hello-programmer-theme v2.1.0+incompatible // indirect
 	github.com/lucperkins/hugo-fresh v0.0.0-20220303155657-8a3fe0559acf // indirect
 	github.com/luizdepra/hugo-coder v0.0.0-20220309183624-40eeed825628 // indirect
-	github.com/lxndrblz/anatole v1.7.0 // indirect
+	github.com/lxndrblz/anatole v1.8.0 // indirect
 	github.com/marcanuy/simpleit-hugo-theme v0.0.0-20210616134837-49277e5c3be0 // indirect
 	github.com/marketempower/axiom v0.8.0 // indirect
 	github.com/matcornic/hugo-theme-learn v0.0.0-20211028190410-e817f53d690d // indirect
@@ -268,9 +268,9 @@ require (
 	github.com/onweru/compose v0.0.0-20220201011928-fa302c191e1e // indirect
 	github.com/onweru/hugo-swift-theme v2.0.0+incompatible // indirect
 	github.com/onweru/newsroom v0.0.0-20220114000312-a46aedf8f0c5 // indirect
-	github.com/opera7133/Blonde v0.0.0-20220307112737-75a550271bd4 // indirect
+	github.com/opera7133/Blonde v0.0.0-20220311115358-61697f8bba3c // indirect
 	github.com/opera7133/tella v0.0.0-20220307112724-7fe333e271d4 // indirect
-	github.com/orf/bare-hugo-theme v0.0.0-20220129172300-0092e64e8816 // indirect
+	github.com/orf/bare-hugo-theme v0.0.0-20220311124240-9e3b0f2dbb5b // indirect
 	github.com/pacollins/hugo-future-imperfect-slim v0.0.0-20211105151804-67dfc625a77b // indirect
 	github.com/panr/hugo-theme-hello-friend v0.0.0-20220124163031-f7d48e5db47a // indirect
 	github.com/panr/hugo-theme-terminal v0.0.0-20220207104835-9d458d193fee // indirect
