@@ -171,6 +171,8 @@ github.com/Vimux/Binario v0.0.0-20220315143008-ee84631bbb99 h1:WcYiEulRQJq3LyXUh
 github.com/Vimux/Binario v0.0.0-20220315143008-ee84631bbb99/go.mod h1:N0zYrDolgZfBpcsLvyv4DEgEmE5QwAB7wHCJ4AP6tdY=
 github.com/Vimux/Binario v0.0.0-20220320121117-8bd2f6f17ff5 h1:svvc17OONlOhzfkYmqds7z4H7bCLP9zRLjTMh2HroFI=
 github.com/Vimux/Binario v0.0.0-20220320121117-8bd2f6f17ff5/go.mod h1:N0zYrDolgZfBpcsLvyv4DEgEmE5QwAB7wHCJ4AP6tdY=
+github.com/Vimux/Binario v0.0.0-20220331164917-2e5cfdbdb976 h1:PmODQTZWN6+agXwI1t1ucTMOi4NZSk1kWCAw8Fcz3Rc=
+github.com/Vimux/Binario v0.0.0-20220331164917-2e5cfdbdb976/go.mod h1:N0zYrDolgZfBpcsLvyv4DEgEmE5QwAB7wHCJ4AP6tdY=
 github.com/Vimux/mainroad v0.0.0-20220124190225-e360e80404b7 h1:hZDHm8Te4Y738TgM0mC0O3Kt/NblVOMT1eSzfE0BnBU=
 github.com/Vimux/mainroad v0.0.0-20220124190225-e360e80404b7/go.mod h1:13Sfg07PTbKTuzennbP0eC0Od7pbpfaxVcTQZWKRZeU=
 github.com/Vimux/mainroad v0.0.0-20220125143854-33f85c796ecf h1:qb4AzNWWnrNUtWB1GqcwkroqTiZ3hW6XxVumnJhigJg=
@@ -185,6 +187,8 @@ github.com/Vimux/mainroad v0.0.0-20220319180503-d2b7c0d12431 h1:CsvIEzP5Ri9VmvQR
 github.com/Vimux/mainroad v0.0.0-20220319180503-d2b7c0d12431/go.mod h1:13Sfg07PTbKTuzennbP0eC0Od7pbpfaxVcTQZWKRZeU=
 github.com/Vimux/mainroad v0.0.0-20220324133708-e69d3171cd27 h1:SSvfuOBWjzVIqYEAvQBCLMLYi5L2Tag/P4CJ/dEiflU=
 github.com/Vimux/mainroad v0.0.0-20220324133708-e69d3171cd27/go.mod h1:13Sfg07PTbKTuzennbP0eC0Od7pbpfaxVcTQZWKRZeU=
+github.com/Vimux/mainroad v0.0.0-20220331163844-5bca50d57f66 h1:F2aA25hKfefyXlPNphJVON3goUv+EMtOVAJtvdniJdI=
+github.com/Vimux/mainroad v0.0.0-20220331163844-5bca50d57f66/go.mod h1:13Sfg07PTbKTuzennbP0eC0Od7pbpfaxVcTQZWKRZeU=
 github.com/WingLim/hugo-tania v1.9.3 h1:dmxbWDmQMWw/xUdhV1CYtyxYXSbJpeYgJwojDCxnilY=
 github.com/WingLim/hugo-tania v1.9.3/go.mod h1:dlKyBD3QGdzGk50VequqA+PStaePmTPc1qlgZrDZB94=
 github.com/Xzya/hugo-material-blog v0.100.2 h1:DZ5eKIFpp/LkJn++rWwmQiWX44G9EJ2yTXsp5ySdaLA=
@@ -211,6 +215,8 @@ github.com/adityatelange/hugo-PaperMod v0.0.0-20220318073137-375155061d42 h1:7GS
 github.com/adityatelange/hugo-PaperMod v0.0.0-20220318073137-375155061d42/go.mod h1:HCHxNMKYdGafUYjVV3ICiAqznZK2yH0iI53jqcDFDdQ=
 github.com/adityatelange/hugo-PaperMod v0.0.0-20220327165228-363756ffeeeb h1:RFXfQgjE46fWBbEzeY/BV5kaeJJhZvZk+VA59jhqtQc=
 github.com/adityatelange/hugo-PaperMod v0.0.0-20220327165228-363756ffeeeb/go.mod h1:HCHxNMKYdGafUYjVV3ICiAqznZK2yH0iI53jqcDFDdQ=
+github.com/adityatelange/hugo-PaperMod v0.0.0-20220331180356-09921bb542e9 h1:lXiOmDh0vq6YyFKOdPpNAUrbTKIv+cv5AJF0KWwBHrc=
+github.com/adityatelange/hugo-PaperMod v0.0.0-20220331180356-09921bb542e9/go.mod h1:HCHxNMKYdGafUYjVV3ICiAqznZK2yH0iI53jqcDFDdQ=
 github.com/aerohub/hugo-faq-theme v0.0.0-20161016225807-e6ed082c15bc h1:U7NZzqVuAs73vHEkpDxvypyk5v/jKxtT2neVUXxN5aY=
 github.com/aerohub/hugo-faq-theme v0.0.0-20161016225807-e6ed082c15bc/go.mod h1:EedoO5hm5mrYswWcGuitAoikrhYrNkyx70d28VeVRAI=
 github.com/aerohub/hugo-identity-theme v0.0.0-20171209130528-ca4e10de2297 h1:gYjk3ZXeWSNT94ZoigTzc8hKkxdFodKmxQ4ztER6JN4=
@@ -598,6 +604,8 @@ github.com/jbub/ghostwriter v0.6.0 h1:41c8trBjQrPhgp9qAaMQlbm/NU9xXO44xF2iZShF88
 github.com/jbub/ghostwriter v0.6.0/go.mod h1:MApLh2JiSAfJZG7k0jzVZ4rI0e2ptLcGhNlSPxA0roI=
 github.com/jeblister/bulma v0.0.0-20190415194547-8b76e4da46e9 h1:EwfXUH5p/voKZCqEzISxDcxcotpV5kQnt/UycFvswX0=
 github.com/jeblister/bulma v0.0.0-20190415194547-8b76e4da46e9/go.mod h1:RT11HUiXIEdVOl5vuam5LrUs2EEuTRsjEZaGwiq9VBg=
+github.com/jeblister/bulma v0.0.0-20220331084658-8d25840df6ac h1:r4klW8uEx+WKtQ5KrIKC2aD/8DXrQCOEswPnr5iNYuY=
+github.com/jeblister/bulma v0.0.0-20220331084658-8d25840df6ac/go.mod h1:RT11HUiXIEdVOl5vuam5LrUs2EEuTRsjEZaGwiq9VBg=
 github.com/jeremybise/twentynineteen-hugo v0.0.0-20191008161335-7c0a63e24114 h1:fmxJKmppvcH4vGXfzolO6zgVkVnGotoJd2vV5t+EB1I=
 github.com/jeremybise/twentynineteen-hugo v0.0.0-20191008161335-7c0a63e24114/go.mod h1:tddgLuC4ezT+j8Ja38x9Rm7szNOny1i8qCQLs+i/A5A=
 github.com/jesselau76/hugo-w3-simple v0.0.0-20191201025610-f766ec17256d h1:b5UlBleHWBPZ2tyGi3Pm4UiOcU57xujEsTgdayT555w=
@@ -805,6 +813,8 @@ github.com/nanxiaobei/hugo-paper v0.0.0-20220107101023-7163749d25a9 h1:KZZdVVJog
 github.com/nanxiaobei/hugo-paper v0.0.0-20220107101023-7163749d25a9/go.mod h1:CeRgawh+WFgm29TC2yGTPy9CAWkQaUABYejSFQDmL28=
 github.com/nanxiaobei/hugo-paper v0.0.0-20220213160931-ddd21645f1dc h1:R6YPWXmDx0Dj3A/ciEtURiwueA+dNN8uFsHr7brfaCw=
 github.com/nanxiaobei/hugo-paper v0.0.0-20220213160931-ddd21645f1dc/go.mod h1:CeRgawh+WFgm29TC2yGTPy9CAWkQaUABYejSFQDmL28=
+github.com/nanxiaobei/hugo-paper v0.0.0-20220331221933-a76c3ae09cb3 h1:WjdWLwr3pvIv0ZiQZvE/ttNNsdzD9nw9A5XQDmTp5uo=
+github.com/nanxiaobei/hugo-paper v0.0.0-20220331221933-a76c3ae09cb3/go.mod h1:CeRgawh+WFgm29TC2yGTPy9CAWkQaUABYejSFQDmL28=
 github.com/nanxstats/hugo-tanka v0.0.0-20210707221939-9bec4eba33e5 h1:ArKJMwXbgVVeIhpHxuDES/IoftMzOlk4mMB0tYHmUsY=
 github.com/nanxstats/hugo-tanka v0.0.0-20210707221939-9bec4eba33e5/go.mod h1:MpW+xmCZzgJK5cTtN7/k+nKAKSU7IR8Y3Y7Vt7rdm0c=
 github.com/naro143/hugo-coder-portfolio v0.0.0-20200903083500-255d92337c07 h1:sJcQpPI0wm1zKeX38i/A1RmpPGIN9c4YPMuOTek1woY=
@@ -950,6 +960,8 @@ github.com/qqhann/hugo-primer v1.1.1 h1:LEPRZru5CLVAku69jEKUa7jyqBDuVGUFqMLsfE+I
 github.com/qqhann/hugo-primer v1.1.1/go.mod h1:0jXctKMzOIvLI4NUX+kHeq3oVh4l6TWmzuWVjVk7UKw=
 github.com/queensferryme/hugo-theme-texify v0.0.0-20210703080632-f987c492fa08 h1:MrlNxut7pIfd1oiSIaxpe2hSHZm2dEfvOsyWLh46YXY=
 github.com/queensferryme/hugo-theme-texify v0.0.0-20210703080632-f987c492fa08/go.mod h1:n2KensxBMkG6nwIEjVzStjj+6NoroEb9r0TYMR/FMZo=
+github.com/queensferryme/hugo-theme-texify v0.0.0-20220331125123-a8c1854cee3d h1:p8bH7u3o19In0SqBoNL9LnXNJlnfJPKgWKt88T6BO+k=
+github.com/queensferryme/hugo-theme-texify v0.0.0-20220331125123-a8c1854cee3d/go.mod h1:n2KensxBMkG6nwIEjVzStjj+6NoroEb9r0TYMR/FMZo=
 github.com/radity/raditian-free-hugo-theme v0.0.0-20200716150603-a25af74cbf97 h1:qa6ap7FRKOu8FJpaxzWjKJDaOJEh5UWIkmJarGGnMak=
 github.com/radity/raditian-free-hugo-theme v0.0.0-20200716150603-a25af74cbf97/go.mod h1:t5mRQK6QRON/UpS75dOnK9vaJ54KDMhFR9UAEhDAl3s=
 github.com/rafed/ramium v0.0.0-20200626131451-998f9689a559 h1:Mgcr6XzbajIHOPWM/wuCEadm2Xyv5aaFe6KEXPLliu4=
