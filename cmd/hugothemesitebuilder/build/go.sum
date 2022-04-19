@@ -10,6 +10,8 @@ github.com/526avijitgupta/gokarna v0.0.0-20220206124534-adb3be0080f4 h1:ojN8AutG
 github.com/526avijitgupta/gokarna v0.0.0-20220206124534-adb3be0080f4/go.mod h1:v34Pn8p/EFQ1WnVF43/Vis+6u+vdB795sYEGshBHFSs=
 github.com/526avijitgupta/gokarna v0.0.0-20220227133240-96a3631f9d5c h1:5qYXlEtuOjnQaLkKUad95gTnUA+WITJ5p1vKkUyuT5U=
 github.com/526avijitgupta/gokarna v0.0.0-20220227133240-96a3631f9d5c/go.mod h1:v34Pn8p/EFQ1WnVF43/Vis+6u+vdB795sYEGshBHFSs=
+github.com/526avijitgupta/gokarna v0.0.0-20220417160351-0fe9d215b3a2 h1:dcOHd8TU8b2gtkM5LFCLvpfcgLACV9AsJLX1CKWdivY=
+github.com/526avijitgupta/gokarna v0.0.0-20220417160351-0fe9d215b3a2/go.mod h1:v34Pn8p/EFQ1WnVF43/Vis+6u+vdB795sYEGshBHFSs=
 github.com/7ma7X/HugoTeX v0.0.0-20210820063836-8f69b7abef4f h1:JVmH/fJGhp3EV4waAAcC15wd44sxQIbtrDBJ9W4QDnE=
 github.com/7ma7X/HugoTeX v0.0.0-20210820063836-8f69b7abef4f/go.mod h1:OTLKv02XnopNEckzZ8Ttg/NjueJWWLrzJzeVHGm/6lo=
 github.com/7ma7X/HugoTeX v0.0.0-20220213111535-a447eb948a7b h1:mXmuSqs5AFRbrZbhNpA3OsCBtPVlI4il8Y79SZEr5E4=
@@ -816,6 +818,8 @@ github.com/lxndrblz/anatole v1.8.0 h1:+Op4L+dHxJvBlfpwiqNXgxm/0jb27wOeddLmvqXrRt
 github.com/lxndrblz/anatole v1.8.0/go.mod h1:hy61SRyUDKaWw2P+cERt9UPde5guWyVKgtjdzRF5bfI=
 github.com/lxndrblz/anatole v1.9.0 h1:o9CpWvTimlSHyqJHqRxOvivWWwRUt7NXh74cSO6ghfg=
 github.com/lxndrblz/anatole v1.9.0/go.mod h1:hy61SRyUDKaWw2P+cERt9UPde5guWyVKgtjdzRF5bfI=
+github.com/lxndrblz/anatole v1.10.0 h1:V66r5TcZF5JK1BHN6inJCxLJOiUoT0HBXc0ZxtYBN/s=
+github.com/lxndrblz/anatole v1.10.0/go.mod h1:hy61SRyUDKaWw2P+cERt9UPde5guWyVKgtjdzRF5bfI=
 github.com/marcanuy/simpleit-hugo-theme v0.0.0-20210616134837-49277e5c3be0 h1:n7FsJhxX9nABeTlayuJsnJc2gbTYZhaLPz/q9k4Qov8=
 github.com/marcanuy/simpleit-hugo-theme v0.0.0-20210616134837-49277e5c3be0/go.mod h1:SLTfFGw+auwFbzlkDnvp/yeO2fZrfWmDvgByfHn0/vk=
 github.com/marketempower/axiom v0.8.0 h1:zi9Fz4N0hu8EqKEALSkCUc9NnilnqmvZlyyWVfdcn5g=
@@ -1061,6 +1065,8 @@ github.com/razonyang/hugo-theme-bootstrap v0.75.1 h1:UhCjcj0GADyAoCRyBEMSQVupnpm
 github.com/razonyang/hugo-theme-bootstrap v0.75.1/go.mod h1:o+IIPL/5wreiTojnN4MsQqKuxbv3fWAQnMhG9geltQo=
 github.com/razonyang/hugo-theme-bootstrap v0.76.0 h1:x9fvzNRhgOZ+oqY7RSXBLyhfijCMZg6TcL8I0laXkv8=
 github.com/razonyang/hugo-theme-bootstrap v0.76.0/go.mod h1:o+IIPL/5wreiTojnN4MsQqKuxbv3fWAQnMhG9geltQo=
+github.com/razonyang/hugo-theme-bootstrap v0.76.1 h1:PF1ke6+hNvVIYGyaN9xB1KME07Od9EgISTzAzSxMzSs=
+github.com/razonyang/hugo-theme-bootstrap v0.76.1/go.mod h1:o+IIPL/5wreiTojnN4MsQqKuxbv3fWAQnMhG9geltQo=
 github.com/reuixiy/hugo-theme-meme v4.5.0+incompatible h1:H6kvEt99bZaQe9MD+M7n9B36/j8Tkr06gvzaQ7kDgys=
 github.com/reuixiy/hugo-theme-meme v4.5.0+incompatible/go.mod h1:t+xPvEmNNin6n1dGhQagjz1hCUIAgxGobMvbQfICAW4=
 github.com/rhazdon/hugo-theme-hello-friend-ng v0.0.0-20211015211725-848b6879b3a2 h1:eIY0out4Uxrupsbx9nw2FwFxxXui+XEIdATxbTOJ+As=
