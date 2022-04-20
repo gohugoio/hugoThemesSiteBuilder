@@ -123,6 +123,7 @@ require (
 	github.com/djuelg/Shapez-Theme v0.0.0-20200822131204-bfc2adf16fd4 // indirect
 	github.com/dldx/hpstr-hugo-theme v0.0.0-20180623041957-3658a0b0c9c2 // indirect
 	github.com/dplesca/purehugo v0.0.0-20190924072610-5b577adff2e1 // indirect
+	github.com/dsrkafuu/hugo-theme-fuji v2.8.2+incompatible // indirect
 	github.com/dzello/reveal-hugo v0.0.0-20220224002855-eae99411d91a // indirect
 	github.com/edavidaja/docter v0.2.0 // indirect
 	github.com/eddiewebb/hugo-resume v0.0.0-20210909002550-d3d300cadfee // indirect
@@ -272,6 +273,7 @@ require (
 	github.com/opera7133/Blonde v0.0.0-20220330105542-581f6487e9dd // indirect
 	github.com/opera7133/tella v0.0.0-20220330105521-f45317e4c3f9 // indirect
 	github.com/orf/bare-hugo-theme v0.0.0-20220311124240-9e3b0f2dbb5b // indirect
+	github.com/pacollins/calligraphy v0.0.0-20220416135413-40f6cba99ccb // indirect
 	github.com/pacollins/hugo-future-imperfect-slim v0.0.0-20211105151804-67dfc625a77b // indirect
 	github.com/panr/hugo-theme-hello-friend v0.0.0-20220330164754-3ffa8121a004 // indirect
 	github.com/panr/hugo-theme-terminal v0.0.0-20220329213650-e0213b0d4eaa // indirect
