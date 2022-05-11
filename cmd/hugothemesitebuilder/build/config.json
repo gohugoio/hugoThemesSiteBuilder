@@ -322,11 +322,6 @@
       {
         "ignoreImports": true,
         "noMounts": true,
-        "path": "github.com/amzrk2/hugo-theme-fuji"
-      },
-      {
-        "ignoreImports": true,
-        "noMounts": true,
         "path": "github.com/antonpolishko/hugo-stellar-theme"
       },
       {
@@ -617,6 +612,11 @@
       {
         "ignoreImports": true,
         "noMounts": true,
+        "path": "github.com/dsrkafuu/hugo-theme-fuji"
+      },
+      {
+        "ignoreImports": true,
+        "noMounts": true,
         "path": "github.com/dzello/reveal-hugo"
       },
       {
@@ -848,11 +848,6 @@
         "ignoreImports": true,
         "noMounts": true,
         "path": "github.com/hossainemruz/toha"
-      },
-      {
-        "ignoreImports": true,
-        "noMounts": true,
-        "path": "github.com/htdvisser/hugo-base16-theme"
       },
       {
         "ignoreImports": true,
@@ -1348,6 +1343,11 @@
         "ignoreImports": true,
         "noMounts": true,
         "path": "github.com/orf/bare-hugo-theme"
+      },
+      {
+        "ignoreImports": true,
+        "noMounts": true,
+        "path": "github.com/pacollins/calligraphy"
       },
       {
         "ignoreImports": true,
