@@ -877,6 +877,8 @@ github.com/kaushalmodi/hugo-bare-min-theme v0.4.0 h1:rYCS00aZEmLSXYPkSdd9jbsYOCq
 github.com/kaushalmodi/hugo-bare-min-theme v0.4.0/go.mod h1:F3dhvekisR/Hg6lj/Ha+MBriwKcXGNmef+hzGGE+82E=
 github.com/kaushalmodi/hugo-bare-min-theme v0.5.0 h1:N85P1c/e/xAm4vboMoIh74kD+zHzh/nY+9/ucHoS4zM=
 github.com/kaushalmodi/hugo-bare-min-theme v0.5.0/go.mod h1:F3dhvekisR/Hg6lj/Ha+MBriwKcXGNmef+hzGGE+82E=
+github.com/kaushalmodi/hugo-bare-min-theme v0.6.0 h1:A0fF5Es5wg5gygWRuslZCgk+Vsi9HhzeP6k0LzGFFFM=
+github.com/kaushalmodi/hugo-bare-min-theme v0.6.0/go.mod h1:F3dhvekisR/Hg6lj/Ha+MBriwKcXGNmef+hzGGE+82E=
 github.com/kaushalmodi/hugo-debugprint v0.1.0/go.mod h1:vusrDLlGE+4Uc1b4PgM0dI8lJCEqC1o7NjFr8WIfkaQ=
 github.com/kaushalmodi/hugo-search-fuse-js v0.2.0/go.mod h1:96kq3KKM93E06XVL//h4MaYFhZIYzJTj5/E+Kqeg7TA=
 github.com/kaushalmodi/hugo-search-fuse-js v0.4.1/go.mod h1:Wr6gbPat+KW6wReh/hDBykKIWn296FsEkuhojJvHHxw=
@@ -1729,6 +1731,8 @@ github.com/zwbetz-gh/cayman-hugo-theme v0.0.0-20210525185112-00e0828a4781 h1:X8v
 github.com/zwbetz-gh/cayman-hugo-theme v0.0.0-20210525185112-00e0828a4781/go.mod h1:7MCyGUMQuyrpF98oCINqNlQsvxRNqJ4OJ0JD9ojWCCg=
 github.com/zwbetz-gh/cupper-hugo-theme v0.0.0-20211213121839-efbc6acf902b h1:OcaOGGTj8H4TEXqFCkDo5sDGC7t6Om0O9hTl9M/YZwE=
 github.com/zwbetz-gh/cupper-hugo-theme v0.0.0-20211213121839-efbc6acf902b/go.mod h1:gbFBe9uTDt+0qaDRIuovRHXX+fhV3RuItr55ukQ1Psk=
+github.com/zwbetz-gh/cupper-hugo-theme v0.0.0-20220531023330-d5ffe2f36953 h1:hCDvnbtehr2UFooq87a1P8bS+p4P0v0BWpozovYUnYc=
+github.com/zwbetz-gh/cupper-hugo-theme v0.0.0-20220531023330-d5ffe2f36953/go.mod h1:gbFBe9uTDt+0qaDRIuovRHXX+fhV3RuItr55ukQ1Psk=
 github.com/zwbetz-gh/minimal-bootstrap-hugo-theme v0.0.0-20220113144008-309bc164db2b h1:ipKUe+Rg4AuRhaPkl7xvvF3HUlJFiUb2amWiuuyQD+4=
 github.com/zwbetz-gh/minimal-bootstrap-hugo-theme v0.0.0-20220113144008-309bc164db2b/go.mod h1:lmBRCcpf+Mx5Mb0u+XsNzby9twyyhAzw05VcGQsp3Bw=
 github.com/zwbetz-gh/minimal-bootstrap-hugo-theme v0.0.0-20220501034927-7326b9ffde27 h1:SavQiWjquVbgZXdqayv/fjePoIWM6I8K0Ui+t1hODec=
