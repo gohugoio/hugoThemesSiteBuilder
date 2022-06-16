@@ -24,6 +24,8 @@ github.com/7ma7X/HugoTeX v0.0.0-20220219041600-665599b302a6 h1:Aa4Q8bqYqz01Nma02
 github.com/7ma7X/HugoTeX v0.0.0-20220219041600-665599b302a6/go.mod h1:OTLKv02XnopNEckzZ8Ttg/NjueJWWLrzJzeVHGm/6lo=
 github.com/7ma7X/HugoTeX v0.0.0-20220223025547-a9524e9f197b h1:FOdz1coAfmrYLEXTNKYVEcKYVlI8te6jJyER6Hx5UyQ=
 github.com/7ma7X/HugoTeX v0.0.0-20220223025547-a9524e9f197b/go.mod h1:OTLKv02XnopNEckzZ8Ttg/NjueJWWLrzJzeVHGm/6lo=
+github.com/7ma7X/HugoTeX v0.0.0-20220614121753-9094304e08c4 h1:skXqNMwjdYlZ0rHBn4PKv+KoS2TBzhSmBkSmbO1eWfs=
+github.com/7ma7X/HugoTeX v0.0.0-20220614121753-9094304e08c4/go.mod h1:OTLKv02XnopNEckzZ8Ttg/NjueJWWLrzJzeVHGm/6lo=
 github.com/AlexFinn/simple-a v0.0.0-20191202062540-bb2f8c9172a0 h1:sy/Ez5f6eA2b96BStFblKC0eikTq23couIRerUgDQRM=
 github.com/AlexFinn/simple-a v0.0.0-20191202062540-bb2f8c9172a0/go.mod h1:74bhTTZ9816y3dy/DF5nSwf4lFKXhiMUWC1PARCFUHM=
 github.com/AmazingRise/hugo-theme-diary v0.0.0-20211204143008-a5d67c7a3fce h1:g+TxHyfTF46owlJBsMqukay7YNBwCEsJ6unqQzqBIyw=
@@ -1133,6 +1135,8 @@ github.com/onweru/compose v0.0.0-20220404121451-13b85c7c54e5 h1:EAIQxc03d8/w/7f3
 github.com/onweru/compose v0.0.0-20220404121451-13b85c7c54e5/go.mod h1:tf1kQIBUcwJ/3mRFU5eiMrMvsDScVTK2IEFsZE3hZOc=
 github.com/onweru/compose v0.0.0-20220410084245-65b76042967a h1:bsd3UpOPjyik/cPVvj5t8kVQCpXbDBPF9pkxkJqHINU=
 github.com/onweru/compose v0.0.0-20220410084245-65b76042967a/go.mod h1:tf1kQIBUcwJ/3mRFU5eiMrMvsDScVTK2IEFsZE3hZOc=
+github.com/onweru/compose v0.0.0-20220613192136-823b5de743db h1:nYOIKq9elvPvKHIMJmr5yFMMouDvniv5aavHH9Beghg=
+github.com/onweru/compose v0.0.0-20220613192136-823b5de743db/go.mod h1:tf1kQIBUcwJ/3mRFU5eiMrMvsDScVTK2IEFsZE3hZOc=
 github.com/onweru/hugo-swift-theme v2.0.0+incompatible h1:UGc/TiOzqcSnNyfkkKoU8vQ9wGQTBmLjkblGcPhnzjM=
 github.com/onweru/hugo-swift-theme v2.0.0+incompatible/go.mod h1:Flki1A7Xnz36putWgud7Dmfqn4wIwoiAQO1pnNb4IOs=
 github.com/onweru/newsroom v0.0.0-20220114000312-a46aedf8f0c5 h1:ooAGhkoF7KRpD/CJ5/dbPl8yp08u5HABu7uC7dDOSFw=
@@ -1749,6 +1753,8 @@ github.com/yihui/hugo-xmag v0.0.0-20220219035711-d1499ad03083 h1:5goKBb50D6DkLUi
 github.com/yihui/hugo-xmag v0.0.0-20220219035711-d1499ad03083/go.mod h1:TQDGE6T4eGTbJsYjzumMJTi7qeze+H1kEppyZCgS11Y=
 github.com/yihui/hugo-xmin v0.0.0-20220119192825-50fc665d2a11 h1:Izhhz3C7gWE60t/gyuZgnXeYwBoMTe7EEvqQNkojzxc=
 github.com/yihui/hugo-xmin v0.0.0-20220119192825-50fc665d2a11/go.mod h1:RiCR4psTF4iydlh4bR9BijKIHmivp7IeBaokx0CvzRA=
+github.com/yihui/hugo-xmin v0.0.0-20220615040612-17b5095d5ab7 h1:032puzvF3YDEPR4HyV3BTFYMLcpgbSJ2Emz/R6k+5IE=
+github.com/yihui/hugo-xmin v0.0.0-20220615040612-17b5095d5ab7/go.mod h1:RiCR4psTF4iydlh4bR9BijKIHmivp7IeBaokx0CvzRA=
 github.com/yoshiharuyamashita/blackburn v0.0.0-20211014173406-94143e0e42a5 h1:zU2eVRMKse3rhDty33bnjoxZXj2PlLFgx4mhqEVxKRs=
 github.com/yoshiharuyamashita/blackburn v0.0.0-20211014173406-94143e0e42a5/go.mod h1:6pbezvonWoLff+OHRlnl5srs2LpACJnkJjpRHYEutDs=
 github.com/yoshiharuyamashita/blackburn v0.0.0-20220530060627-99cf136a06f3 h1:gSmCG72LVoo5cQg744Y7jhYeam4LZSZi735Yc2zfkGY=
@@ -1859,6 +1865,8 @@ gitlab.com/rmaguiar/hugo-theme-color-your-world v0.0.0-20220604045209-4cb78fa1eb
 gitlab.com/rmaguiar/hugo-theme-color-your-world v0.0.0-20220604045209-4cb78fa1eb00/go.mod h1:QRQ6cegjyNGQ0lRklSaG8CfpT98LjzQ4scoth803nIw=
 gitlab.com/rmaguiar/hugo-theme-color-your-world v0.0.0-20220607050538-cc3dcd7fa565 h1:vv2dL8K2eBLtIia2N0bV6gUMIoZWBtZN8wTu8iwknLw=
 gitlab.com/rmaguiar/hugo-theme-color-your-world v0.0.0-20220607050538-cc3dcd7fa565/go.mod h1:QRQ6cegjyNGQ0lRklSaG8CfpT98LjzQ4scoth803nIw=
+gitlab.com/rmaguiar/hugo-theme-color-your-world v0.0.0-20220613155237-456a7d02ef1e h1:5w/s0maSHSoUwC57pL+qS4MQ6kwffG4t/GH7imb2ytk=
+gitlab.com/rmaguiar/hugo-theme-color-your-world v0.0.0-20220613155237-456a7d02ef1e/go.mod h1:QRQ6cegjyNGQ0lRklSaG8CfpT98LjzQ4scoth803nIw=
 gitlab.com/tmuguet/hugo-split-gallery v1.2.0 h1:wua30bELn+db55wk4mm84mmBrD/zGs4ltH0b/AbRsj4=
 gitlab.com/tmuguet/hugo-split-gallery v1.2.0/go.mod h1:h16n/v1BLcL6E1lQeQDYZenuWXfm5zFkRJsPSCtji+Q=
 gitlab.com/tmuguet/hugo-split-gallery v1.3.0 h1:dl2bMQ515e7T5+FRNJC6idwQiqWep75ey60chZ+QWZk=

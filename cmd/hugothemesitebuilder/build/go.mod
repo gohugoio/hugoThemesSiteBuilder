@@ -7,7 +7,7 @@ require (
 	github.com/2-REC/hugo-myportfolio-theme v0.0.0-20200725083546-d0708c5286eb // indirect
 	github.com/4ever9/less v0.0.0-20201228090934-105d2c8c6b53 // indirect
 	github.com/526avijitgupta/gokarna v0.0.0-20220530085332-5dde166fe791 // indirect
-	github.com/7ma7X/HugoTeX v0.0.0-20220223025547-a9524e9f197b // indirect
+	github.com/7ma7X/HugoTeX v0.0.0-20220614121753-9094304e08c4 // indirect
 	github.com/AlexFinn/simple-a v0.0.0-20191202062540-bb2f8c9172a0 // indirect
 	github.com/AmazingRise/hugo-theme-diary v0.0.0-20220514162917-d8121f097d8f // indirect
 	github.com/AngeloStavrow/indigo v1.4.0 // indirect
@@ -267,7 +267,7 @@ require (
 	github.com/ojroques/hugo-researcher v0.0.0-20220414111956-957cc01c28f2 // indirect
 	github.com/okkur/syna v0.17.4 // indirect
 	github.com/olOwOlo/hugo-theme-even v4.1.0+incompatible // indirect
-	github.com/onweru/compose v0.0.0-20220410084245-65b76042967a // indirect
+	github.com/onweru/compose v0.0.0-20220613192136-823b5de743db // indirect
 	github.com/onweru/hugo-swift-theme v2.0.0+incompatible // indirect
 	github.com/onweru/newsroom v0.0.0-20220114000312-a46aedf8f0c5 // indirect
 	github.com/opera7133/Blonde v0.0.0-20220503072958-4abdcfd60616 // indirect
@@ -392,7 +392,7 @@ require (
 	github.com/xslingcn/vno-hugo v1.1.2 // indirect
 	github.com/yanlinlin82/simple-style v0.0.0-20220414155221-f448e5d675fa // indirect
 	github.com/yihui/hugo-xmag v0.0.0-20220219035711-d1499ad03083 // indirect
-	github.com/yihui/hugo-xmin v0.0.0-20220119192825-50fc665d2a11 // indirect
+	github.com/yihui/hugo-xmin v0.0.0-20220615040612-17b5095d5ab7 // indirect
 	github.com/yoshiharuyamashita/blackburn v0.0.0-20220530060627-99cf136a06f3 // indirect
 	github.com/your-identity/hugo-theme-dimension v0.0.0-20210521214308-2474081b7846 // indirect
 	github.com/yue1124/hero v0.0.0-20211205133758-af2b1f878227 // indirect
@@ -418,7 +418,7 @@ require (
 	gitlab.com/kskarthik/resto-hugo v0.0.0-20200526110347-8d2d566dfec7 // indirect
 	gitlab.com/maxlefou/hugo.386 v0.0.0-20210830074304-59d3e7102dce // indirect
 	gitlab.com/mertbakir/resume-a4 v0.0.0-20220410112716-a4948115181e // indirect
-	gitlab.com/rmaguiar/hugo-theme-color-your-world v0.0.0-20220607050538-cc3dcd7fa565 // indirect
+	gitlab.com/rmaguiar/hugo-theme-color-your-world v0.0.0-20220613155237-456a7d02ef1e // indirect
 	gitlab.com/tmuguet/hugo-split-gallery v1.4.0 // indirect
 	gitlab.com/toryanderson/hugo-icarus v0.0.0-20200701121335-f3e99478c35b // indirect
 )
