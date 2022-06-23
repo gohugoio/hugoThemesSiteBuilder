@@ -1,3 +1,5 @@
+**Note Note Note:** We're a little backlogged in the Pull Request department and a little short of staff, so we would appreciate if you would hold off on your theme submission until this settles.
+
 # Hugo themes
 
 A collection of themes created by the Hugo community. Builds to [themes.gohugo.io](https://themes.gohugo.io/).
@@ -10,8 +12,8 @@ A collection of themes created by the Hugo community. Builds to [themes.gohugo.i
 
 Create your theme using <code>hugo new theme <em>THEME_NAME</em></code>. In your theme repository:
 
-* Add a `config.toml` with supported Hugo version(s)  and `theme.toml` file to the root of the theme and add some metadata about the theme (see below);
-* Add a descriptive `README.md` to the root of the theme;
+* Add a `config.toml` with supported Hugo version(s)  and `theme.toml` file to the root of the theme and add some metadata about the theme ([see below](#theme-configuration));
+* Add a descriptive `README.md` to the root of the theme ([see below](#readmemd));
 * Add `/images/screenshot.png` and `/images/tn.png` ([see below](#media)).
 
 Once your theme repository is on GitHub, you can add it here.
