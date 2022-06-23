@@ -169,7 +169,8 @@ func (c *buildClient) writeThemesContent() error {
 }
 
 func (c *buildClient) writeThemeContent(k string, m client.Module) error {
-	themeName := strings.ToLower(path.Base(k))
+        re := regexp.MustCompile(`\/v\d+$`)
+        themeName := strings.ToLower(path.Base(re.ReplaceAllString(k, "")))
 
 	themeDir := filepath.Join(c.contentDir, "themes", themeName)
 	client.CheckErr(os.MkdirAll(themeDir, 0777))
