@@ -5,6 +5,16 @@ title = "Hugo Themes"
 googleAnalytics = "UA-7131036-4"
 disableKinds = ["taxonomyTerm"]
 
+[security]
+enableInlineShortcodes = false
+[security.exec]
+allow = ['^dart-sass-embedded$', '^go$', '^npx$', '^postcss$']
+osEnv = ['(?i)^(PATH|PATHEXT|APPDATA|TMP|TEMP|TERM)$']
+[security.funcs]
+getenv = ['^HUGO_', 'REPOSITORY_URL']
+[security.http]
+# Disallow all HTTP for now.
+
 [module]
 [module.hugoVersion]
 min = "0.56.0"
