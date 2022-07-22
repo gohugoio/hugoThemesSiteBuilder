@@ -169,7 +169,7 @@ require (
 	github.com/halogenica/beautifulhugo v0.0.0-20220627021531-1f0e3aa4ef97 // indirect
 	github.com/hauke96/hugo-theme-hamburg v0.7.4 // indirect
 	github.com/hdcdstr8fwd/foundation-theme v0.0.0-20190427172834-b159c5ca30a4 // indirect
-	github.com/heyeshuang/hugo-theme-tokiwa v0.0.0-20220314135554-b6e2a37b5f56 // indirect
+	github.com/heyeshuang/hugo-theme-tokiwa v0.0.0-20220720141404-6649ea3d8270 // indirect
 	github.com/hivickylai/hugo-theme-sam v4.0.2+incompatible // indirect
 	github.com/hossainemruz/toha v3.6.0+incompatible // indirect
 	github.com/htr3n/hyde-hyde v2.0.2+incompatible // indirect
@@ -195,7 +195,7 @@ require (
 	github.com/jgazeau/shadocs v0.0.0-20220718151359-691d450d48be // indirect
 	github.com/jimfrenette/hugo-starter v0.0.0-20210805024343-ed81461deb5c // indirect
 	github.com/jmablog/hugo-clinic-notes v0.0.0-20210111134623-7f5a64696c35 // indirect
-	github.com/jmau111/hugo-theme-ava v0.0.0-20220424085503-e1945171d984 // indirect
+	github.com/jmau111/hugo-theme-ava v0.0.0-20220721203806-e567834f64bb // indirect
 	github.com/jnjosh/internet-weblog v0.0.0-20191202203724-32ef8e0ba6b6 // indirect
 	github.com/joeroe/risotto v0.0.0-20220420080513-3cacc821f4c6 // indirect
 	github.com/jonathanjanssens/hugo-casper3 v0.0.0-20210226145524-7e1ea26fe7be // indirect
@@ -211,7 +211,7 @@ require (
 	github.com/kaiiiz/hugo-theme-monochrome v1.0.1 // indirect
 	github.com/kakawait/hugo-tranquilpeak-theme v0.0.0-20220713124949-a22275ed9692 // indirect
 	github.com/kaushalmodi/hugo-bare-min-theme v0.6.0 // indirect
-	github.com/kaushikgopal/henry-hugo v0.0.0-20220708055520-1159e12777e1 // indirect
+	github.com/kaushikgopal/henry-hugo v0.0.0-20220719051723-bea2df8a1d7b // indirect
 	github.com/kc0bfv/autophugo v0.0.0-20220523031035-444fca378bb1 // indirect
 	github.com/kc0bfv/ticky_tacky_dark v0.0.0-20211112180311-21838797bc0e // indirect
 	github.com/kdevo/osprey-delight/v5 v5.0.2 // indirect
@@ -247,7 +247,7 @@ require (
 	github.com/mbrt-yeah/uwe-uwe-hugo v0.0.0-20210813181856-3773b3918cee // indirect
 	github.com/mcrwfrd/hugo-frances-theme v0.0.0-20190917015302-bed6647b837f // indirect
 	github.com/mdashx/basicwebtheme v0.3.0 // indirect
-	github.com/meibenny/elephants v0.0.0-20190820025002-8838e7504aed // indirect
+	github.com/meibenny/elephants v0.1.1 // indirect
 	github.com/michimani/simplog v0.0.0-20220210143349-c6940745f5b0 // indirect
 	github.com/miguelsimoni/hugo-initio v0.0.0-20210726153923-9f82e51e6ab0 // indirect
 	github.com/mikeblum/hugo-now v0.2.0 // indirect
@@ -256,7 +256,7 @@ require (
 	github.com/mmrath/hugo-bootstrap v0.0.0-20190615045721-5e7bfb2518b7 // indirect
 	github.com/monkeyWzr/hugo-theme-cactus v0.0.0-20210831141748-a27a14348040 // indirect
 	github.com/mrmierzejewski/hugo-theme-console v0.0.0-20220330115610-7e98cbce03d4 // indirect
-	github.com/nanxiaobei/hugo-paper v0.0.0-20220718195326-c262edf469ae // indirect
+	github.com/nanxiaobei/hugo-paper v0.0.0-20220721191738-adbe5fcda65c // indirect
 	github.com/nanxstats/hugo-tanka v0.0.0-20210707221939-9bec4eba33e5 // indirect
 	github.com/naro143/hugo-coder-portfolio v0.0.0-20200903083500-255d92337c07 // indirect
 	github.com/natarajmb/charaka-hugo-theme v0.0.0-20201215113736-021bc743417b // indirect
@@ -277,8 +277,8 @@ require (
 	github.com/orf/bare-hugo-theme v0.0.0-20220311124240-9e3b0f2dbb5b // indirect
 	github.com/pacollins/calligraphy v0.0.0-20220703233739-2207fab30d71 // indirect
 	github.com/pacollins/hugo-future-imperfect-slim v0.0.0-20211105151804-67dfc625a77b // indirect
-	github.com/panr/hugo-theme-hello-friend v0.0.0-20220704070536-26cacd17c9d4 // indirect
-	github.com/panr/hugo-theme-terminal v0.0.0-20220708134413-b868b1d08bfb // indirect
+	github.com/panr/hugo-theme-hello-friend v0.0.0-20220720060101-e2f8ab126756 // indirect
+	github.com/panr/hugo-theme-terminal v0.0.0-20220720060051-161096273113 // indirect
 	github.com/parsiya/Hugo-Octopress v0.0.0-20220115102427-c4f772965b32 // indirect
 	github.com/paulmartins/hugo-digital-garden-theme v0.0.0-20220510154224-b30c3e8a2c47 // indirect
 	github.com/pavel-pi/kiss-em v2.0.0+incompatible // indirect
