@@ -239,6 +239,8 @@ github.com/chipzoller/hugo-clarity v0.0.0-20220727204512-19a69960289e h1:4zuuwfW
 github.com/chipzoller/hugo-clarity v0.0.0-20220727204512-19a69960289e/go.mod h1:v1JkaKdcLRibyUCalLP2CNeFo6FGzfd4ipEr4dK0+Zg=
 github.com/chipzoller/hugo-clarity v0.0.0-20220728220445-583191668980 h1:4mY/ObHgQq83GTL40AsLcNpFbdwmytl1pNwiyvbL1jI=
 github.com/chipzoller/hugo-clarity v0.0.0-20220728220445-583191668980/go.mod h1:v1JkaKdcLRibyUCalLP2CNeFo6FGzfd4ipEr4dK0+Zg=
+github.com/chipzoller/hugo-clarity v0.0.0-20220731232328-4bec19151acd h1:+MQzp/YWZQpRhUOgh4E7ruBarvNV+wkIPiCyYKFvUOc=
+github.com/chipzoller/hugo-clarity v0.0.0-20220731232328-4bec19151acd/go.mod h1:v1JkaKdcLRibyUCalLP2CNeFo6FGzfd4ipEr4dK0+Zg=
 github.com/chollinger93/ink-free v1.2.1 h1:e9alH1Y5nfyPpyOWVybV+wKWp5061QNAozjxrulMWLY=
 github.com/chollinger93/ink-free v1.2.1/go.mod h1:diBe+tAKd0iKdV9QCk8+GRlS7VqfGU9mxgvCk8JFB7A=
 github.com/cntrump/hugo-notepadium v2.6.2+incompatible h1:Rc1LyIRQdAhgeUx/8HDpIAWt8sPJQzHNgIGEAX7RCtI=
@@ -493,6 +495,8 @@ github.com/jgazeau/shadocs v0.0.0-20220718151359-691d450d48be h1:44Xe/x+m51wbSl5
 github.com/jgazeau/shadocs v0.0.0-20220718151359-691d450d48be/go.mod h1:lh2LpFEzd7eZ51bssSV8bKZh6pJCtWJhjs7aDBQ5sws=
 github.com/jgazeau/shadocs v0.0.0-20220725170138-564919d21d5d h1:eZD1Bf23LWR21RwUMTecn9Ce9ptG/kPpjU623gD86Bs=
 github.com/jgazeau/shadocs v0.0.0-20220725170138-564919d21d5d/go.mod h1:lh2LpFEzd7eZ51bssSV8bKZh6pJCtWJhjs7aDBQ5sws=
+github.com/jgazeau/shadocs v0.0.0-20220731155621-75a9d13aa5cc h1:3w/+cC2VjT6/b4mKFnrND64ko0tzaqDlVfxH6W3rupE=
+github.com/jgazeau/shadocs v0.0.0-20220731155621-75a9d13aa5cc/go.mod h1:lh2LpFEzd7eZ51bssSV8bKZh6pJCtWJhjs7aDBQ5sws=
 github.com/jimfrenette/hugo-starter v0.0.0-20210805024343-ed81461deb5c h1:f/eReCP+1UTv2hfZBcDBn53opChkNqAMFxhxjUilBIo=
 github.com/jimfrenette/hugo-starter v0.0.0-20210805024343-ed81461deb5c/go.mod h1:D1zakjaP6nB32NDhNZQPWIue7Zc/E4oMMIDsCxwclk0=
 github.com/jmablog/hugo-clinic-notes v0.0.0-20210111134623-7f5a64696c35 h1:YsYPlj5FWkr3Ncg+gDe7umeQoEvpdvBNlLOD7erXXX4=
