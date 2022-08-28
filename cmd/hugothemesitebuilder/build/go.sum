@@ -32,6 +32,8 @@ github.com/AmazingRise/hugo-theme-diary v0.0.0-20220726151045-9f527cd28ce7 h1:l9
 github.com/AmazingRise/hugo-theme-diary v0.0.0-20220726151045-9f527cd28ce7/go.mod h1:jFlSWwFHa+nHPenO/b8j3bsMtN/bnsqlWOBK7OxB/Y4=
 github.com/AmazingRise/hugo-theme-diary v0.0.0-20220730123816-5017b8bb9533 h1:Gk86EhXjv9VkIh0moETaKLxijZFyrIhpqqq8Jvqv8/U=
 github.com/AmazingRise/hugo-theme-diary v0.0.0-20220730123816-5017b8bb9533/go.mod h1:jFlSWwFHa+nHPenO/b8j3bsMtN/bnsqlWOBK7OxB/Y4=
+github.com/AmazingRise/hugo-theme-diary v0.0.0-20220826044300-1adda175206f h1:9q2xnYSBXtluSv3Ifo4dShmELpI5dIS1+oaXe4+hpi0=
+github.com/AmazingRise/hugo-theme-diary v0.0.0-20220826044300-1adda175206f/go.mod h1:jFlSWwFHa+nHPenO/b8j3bsMtN/bnsqlWOBK7OxB/Y4=
 github.com/AngeloStavrow/indigo v1.4.0 h1:dUfFdfUTAQBY8xgSxMggVDTUw/pBqkwj3NwaSrA+SB8=
 github.com/AngeloStavrow/indigo v1.4.0/go.mod h1:/lLJUSIgrGv0Lquk5rapiDz/bzd8q8TISNCX/jfOHJk=
 github.com/CaiJimmy/hugo-theme-stack v3.6.0+incompatible h1:w1/yw9B3BdzfzIJOGXd6Z1EyY/jkdLwODAhEBy91DLI=
@@ -395,6 +397,8 @@ github.com/fiatjaf/classless-hugo v0.0.0-20190708182146-0b99da439e48 h1:n3gKrS+t
 github.com/fiatjaf/classless-hugo v0.0.0-20190708182146-0b99da439e48/go.mod h1:RH0ZdRU/gLnqVFCSHKi5YkMshg/NGWZw+j2fhTpmHqw=
 github.com/fncnt/vncnt-hugo v0.0.0-20220208173804-2b60f4e55277 h1:mmEyFmlITq6/kETu/ZdadxkiFvxu30nwd2AUkLA4Bcg=
 github.com/fncnt/vncnt-hugo v0.0.0-20220208173804-2b60f4e55277/go.mod h1:PYs5N1byEaUhNPcUrI2IJJsUVTiEt6ATg+AjLt0EIS4=
+github.com/fncnt/vncnt-hugo v0.0.0-20220826080729-32afe0e679e6 h1:KtwYXQTKeM4wpytiefZztEC26JOOnvU8l1EAvXkYe+E=
+github.com/fncnt/vncnt-hugo v0.0.0-20220826080729-32afe0e679e6/go.mod h1:PYs5N1byEaUhNPcUrI2IJJsUVTiEt6ATg+AjLt0EIS4=
 github.com/forestryio/hugo-theme-novela v0.0.0-20210222084032-5d015eef4c56 h1:dtzY0hPgHxCMX6w0+I+kE+XZwD2XnZcvPJsZmwijYqk=
 github.com/forestryio/hugo-theme-novela v0.0.0-20210222084032-5d015eef4c56/go.mod h1:3Ys8HSILJdxqFw6mOtBAEaDmI/MyhGJhNyvlpMt0oTY=
 github.com/fourtyone11/origin-hugo-theme v0.0.0-20200611125917-021c45772a9a h1:daIvGhP17NslqPe8bsPOhxcuY4nikToifsltAqhSU68=
@@ -693,6 +697,8 @@ github.com/lucperkins/hugo-fresh v0.0.0-20220303155657-8a3fe0559acf h1:F0OwHv+an
 github.com/lucperkins/hugo-fresh v0.0.0-20220303155657-8a3fe0559acf/go.mod h1:d/Bbpm+tb9iaSSenov0CyQrUUck1FnkSdY1EH1STm7s=
 github.com/lucperkins/hugo-fresh v0.0.0-20220813102431-30a1a075ea3c h1:jRGqxdUmkMsknmmA0+CW0WLDYp7k6YKhiJbvJzo2phY=
 github.com/lucperkins/hugo-fresh v0.0.0-20220813102431-30a1a075ea3c/go.mod h1:d/Bbpm+tb9iaSSenov0CyQrUUck1FnkSdY1EH1STm7s=
+github.com/lucperkins/hugo-fresh v0.0.0-20220826122622-8dac36d95aed h1:RXc859RLkHwNxYP6McmQy+88XzOHWzvoRwYlLcNfZ2s=
+github.com/lucperkins/hugo-fresh v0.0.0-20220826122622-8dac36d95aed/go.mod h1:d/Bbpm+tb9iaSSenov0CyQrUUck1FnkSdY1EH1STm7s=
 github.com/luizdepra/hugo-coder v0.0.0-20220620165139-9e95a0e790a1 h1:u2XqQyVwK4zV80K402RaBUxgcsnDqvL6/5ZJM2eSe44=
 github.com/luizdepra/hugo-coder v0.0.0-20220620165139-9e95a0e790a1/go.mod h1:9EQBf2rU+NPjlohGuKcEgdqSeOc3tIQoOty4xPpuUQ4=
 github.com/luizdepra/hugo-coder v0.0.0-20220622145056-abc1133c7e07 h1:wxjyDzJBDxj2ArVIHyVjGqUKBlcumRMJbjY0UT0HneU=
@@ -1075,6 +1081,8 @@ github.com/xianmin/hugo-theme-jane v0.0.0-20220612153806-58d2cfc20cbe h1:TVca0rb
 github.com/xianmin/hugo-theme-jane v0.0.0-20220612153806-58d2cfc20cbe/go.mod h1:Zf3ISQW08nRA/b6a6KsbkZEnTJHxMZaaYeODgyKb6cU=
 github.com/xianmin/hugo-theme-jane v0.0.0-20220724073434-41271dbd4141 h1:wUWiNt7e/NLyutoYDyYilxRENZojieBKSJD1Q+bHYP4=
 github.com/xianmin/hugo-theme-jane v0.0.0-20220724073434-41271dbd4141/go.mod h1:Zf3ISQW08nRA/b6a6KsbkZEnTJHxMZaaYeODgyKb6cU=
+github.com/xianmin/hugo-theme-jane v0.0.0-20220825015240-600eba872e95 h1:pbkF6LYBiMLCtOHX2xwb0a0Hr+yxkX39QBCi0CwTqUk=
+github.com/xianmin/hugo-theme-jane v0.0.0-20220825015240-600eba872e95/go.mod h1:Zf3ISQW08nRA/b6a6KsbkZEnTJHxMZaaYeODgyKb6cU=
 github.com/xiaoheiAh/hugo-theme-pure v0.0.0-20210607025111-902bd9b73dae h1:gwDrzsco7MVGQeYgpPp12ZF6LZEJWZ+X8KvcgTWONPM=
 github.com/xiaoheiAh/hugo-theme-pure v0.0.0-20210607025111-902bd9b73dae/go.mod h1:2AY18A9Eagjuyry8ebPpSiMy1V5yH+8B6ltef/xp5f0=
 github.com/xslingcn/vno-hugo v1.1.2 h1:3LvbhEhAr/bbVWI3Gz5ecO0Ql7Re8in7J1soZZcIzjk=
