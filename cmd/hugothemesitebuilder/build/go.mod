@@ -339,7 +339,7 @@ require (
 	github.com/tcgriffith/hugo-owaraiclub v0.0.0-20191105071036-a25aabbb1d0f // indirect
 	github.com/the2ne/hugo-frais v0.0.0-20200104180115-f6f23a885a7a // indirect
 	github.com/theNewDynamic/gohugo-theme-ananke v0.0.0-20220610193657-470ea40982f5 // indirect
-	github.com/thegeeklab/hugo-geekblog v0.20.3 // indirect
+	github.com/thegeeklab/hugo-geekblog v0.21.0 // indirect
 	github.com/thegeeklab/hugo-geekdoc v0.35.0 // indirect
 	github.com/thingsym/hugo-theme-techdoc v0.9.9 // indirect
 	github.com/thomasheller/crab v1.0.0 // indirect
