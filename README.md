@@ -1,3 +1,5 @@
+**Note Note Note:** We're a little backlogged in the Pull Request department and a little short of staff, so we would appreciate if you would hold off on your theme submission until this settles.
+
 # Hugo themes
 
 A collection of themes created by the Hugo community. Builds to [themes.gohugo.io](https://themes.gohugo.io/).
