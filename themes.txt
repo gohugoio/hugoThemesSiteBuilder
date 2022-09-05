@@ -103,7 +103,6 @@ github.com/funkydan2/hugo-kiera
 github.com/g1eny0ung/hugo-theme-dream
 github.com/gangjun06/SimpleIntro
 github.com/garvincasimir/hugo-h5bp-simple
-github.com/gcushen/hugo-academic
 github.com/GDGToulouse/devfest-theme-hugo
 github.com/geschke/hugo-tikva
 github.com/gesquive/slate
@@ -352,14 +351,14 @@ github.com/vimux/blank
 github.com/Vimux/mainroad
 github.com/vjeantet/hugo-theme-docport
 github.com/VVelox/hugo-dusky-neon-potato
-github.com/wangchucheng/hugo-eureka
 github.com/wayjam/hugo-theme-fluency
 github.com/wayjam/hugo-theme-mixedpaper
 github.com/wd/hugo-fabric
 github.com/wileybaba/hugo-theme-robotico
 github.com/WingLim/hugo-tania
 github.com/wlh320/hugo-theme-hulga
-github.com/wowchemy/starter-academic
+github.com/wowchemy/starter-hugo-academic
+github.com/wowchemy/wowchemy-hugo-themes/modules/wowchemy/v5
 github.com/wtoll/venture
 github.com/xaprb/story
 github.com/xaviablaza/hugo-lodi-theme
@@ -400,3 +399,4 @@ gitlab.com/rmaguiar/hugo-theme-color-your-world
 gitlab.com/tmuguet/hugo-split-gallery
 gitlab.com/toryanderson/hugo-icarus
 gitlab.com/VincentTam/huginn
+wangchucheng.com/hugo-eureka

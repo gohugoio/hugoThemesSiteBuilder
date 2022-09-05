@@ -67,6 +67,11 @@
       {
         "ignoreImports": true,
         "noMounts": true,
+        "path": "github.com/airinghost/hugo-theme-icarus-lite"
+      },
+      {
+        "ignoreImports": true,
+        "noMounts": true,
         "path": "github.com/alanorth/hugo-theme-bootstrap4-blog"
       },
       {
@@ -527,7 +532,7 @@
       {
         "ignoreImports": true,
         "noMounts": true,
-        "path": "github.com/gcushen/hugo-academic"
+        "path": "github.com/wowchemy/wowchemy-hugo-themes/modules/wowchemy/v5"
       },
       {
         "ignoreImports": true,
@@ -543,31 +548,6 @@
         "ignoreImports": true,
         "noMounts": true,
         "path": "github.com/gesquive/slate"
-      },
-      {
-        "ignoreImports": true,
-        "noMounts": true,
-        "path": "github.com/gethugothemes/andromeda-light"
-      },
-      {
-        "ignoreImports": true,
-        "noMounts": true,
-        "path": "github.com/gethugothemes/bookworm"
-      },
-      {
-        "ignoreImports": true,
-        "noMounts": true,
-        "path": "github.com/gethugothemes/dot-hugo-documentation-theme"
-      },
-      {
-        "ignoreImports": true,
-        "noMounts": true,
-        "path": "github.com/gethugothemes/omega-hugo-theme"
-      },
-      {
-        "ignoreImports": true,
-        "noMounts": true,
-        "path": "github.com/gethugothemes/techfeed-hugo"
       },
       {
         "ignoreImports": true,
@@ -1262,6 +1242,11 @@
       {
         "ignoreImports": true,
         "noMounts": true,
+        "path": "github.com/opera7133/vnovel"
+      },
+      {
+        "ignoreImports": true,
+        "noMounts": true,
         "path": "github.com/orf/bare-hugo-theme"
       },
       {
@@ -1467,7 +1452,17 @@
       {
         "ignoreImports": true,
         "noMounts": true,
+        "path": "github.com/sbruder/spectral"
+      },
+      {
+        "ignoreImports": true,
+        "noMounts": true,
         "path": "github.com/schmanat/hugo-highlights-theme"
+      },
+      {
+        "ignoreImports": true,
+        "noMounts": true,
+        "path": "github.com/schnerring/hugo-theme-gruvbox"
       },
       {
         "ignoreImports": true,
@@ -1508,6 +1503,11 @@
         "ignoreImports": true,
         "noMounts": true,
         "path": "github.com/siegerts/hugo-theme-basic"
+      },
+      {
+        "ignoreImports": true,
+        "noMounts": true,
+        "path": "github.com/sieis/re-cover"
       },
       {
         "ignoreImports": true,
@@ -1777,7 +1777,7 @@
       {
         "ignoreImports": true,
         "noMounts": true,
-        "path": "github.com/wangchucheng/hugo-eureka"
+        "path": "wangchucheng.com/hugo-eureka"
       },
       {
         "ignoreImports": true,
@@ -1812,7 +1812,7 @@
       {
         "ignoreImports": true,
         "noMounts": true,
-        "path": "github.com/wowchemy/starter-academic"
+        "path": "github.com/wowchemy/starter-hugo-academic"
       },
       {
         "ignoreImports": true,
