@@ -169,8 +169,8 @@ func (c *buildClient) writeThemesContent() error {
 }
 
 func (c *buildClient) writeThemeContent(k string, m client.Module) error {
-        re := regexp.MustCompile(`\/v\d+$`)
-        themeName := strings.ToLower(path.Base(re.ReplaceAllString(k, "")))
+	re := regexp.MustCompile(`\/v\d+$`)
+	themeName := strings.ToLower(path.Base(re.ReplaceAllString(k, "")))
 
 	themeDir := filepath.Join(c.contentDir, "themes", themeName)
 	client.CheckErr(os.MkdirAll(themeDir, 0777))
@@ -311,9 +311,10 @@ func (t *theme) warn(s string) {
 	t.themeWarnings = append(t.themeWarnings, s)
 }
 
+// 30 days.
+var d30 = 30 * 24 * time.Hour
+
 func (t *theme) calculateWeight(maxStars int) {
-	// 30 days.
-	d30 := 30 * 24 * time.Hour
 
 	// Higher is better.
 	t.weight = maxStars + 500
@@ -368,8 +369,18 @@ func (t *theme) toFrontMatter() map[string]interface{} {
 		htmlURL = fmt.Sprintf("https://%s", t.m.Path)
 	}
 
+	var expiryDate time.Time
+	if !t.m.Time.IsZero() {
+		// 2 years since last version.
+		expiryDate = t.m.Time.Add(24 * d30)
+	} else {
+		// In practice, this will never expire.
+		expiryDate = time.Now().Add(22 * d30)
+	}
+
 	return map[string]interface{}{
 		"draft":         t.draft,
+		"expiryDate":    expiryDate,
 		"title":         title,
 		"slug":          t.name,
 		"aliases":       []string{"/" + t.name},

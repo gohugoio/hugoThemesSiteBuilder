@@ -7,6 +7,12 @@ A collection of themes created by the Hugo community. Builds to [themes.gohugo.i
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/58968044-3238-424c-b9b6-e0d00733890c/deploy-status)](https://app.netlify.com/sites/hugothemes/deploys)
 
+
+# Themes are removed if not up to date
+
+The current policy is to expire a theme if not updated (version date) for the last years. Even if your theme is feature complete, it's appreciated that you check on from time to time and verify that it works with never Hugo versions.
+
+
 # Adding a theme to the list
 
 Create your theme using <code>hugo new theme <em>THEME_NAME</em></code>. In your theme repository:
