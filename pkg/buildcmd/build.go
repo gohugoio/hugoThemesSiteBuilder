@@ -311,12 +311,14 @@ func (t *theme) warn(s string) {
 	t.themeWarnings = append(t.themeWarnings, s)
 }
 
-// 30 days.
-var d30 = 30 * 24 * time.Hour
+var (
+	// 30 days.
+	d30 = 30 * 24 * time.Hour
+	// 7 days.
+	d7 = 7 * 24 * time.Hour
+)
 
 func (t *theme) calculateWeight(maxStars int) {
-
-	// Higher is better.
 	t.weight = maxStars + 500
 	t.weight -= t.ghRepo.Stars
 
@@ -329,14 +331,16 @@ func (t *theme) calculateWeight(maxStars int) {
 	// Boost themes versioned recently.
 	if !t.m.Time.IsZero() && t.isVersioned() {
 		// Add some weight to recently versioned themes.
-		boostRecent(time.Since(t.m.Time), (3 * d30), 20)
+		boostRecent(time.Since(t.m.Time), (1 * d30), 20)
 	}
 
-	// Pull themes created the last month to the top.
-	// Note that we currently only have that information for themes
-	// hosted on GitHub.
 	if !t.ghRepo.IsZero() {
-		boostRecent(time.Since(t.ghRepo.CreatedAt), (1 * d30), 50000)
+		// Boost themes created recently.
+		boostRecent(time.Since(t.ghRepo.CreatedAt), (1 * d30), 50)
+		// Pull themes created within the last week the top.
+		// Note that we currently only have that information for themes
+		// hosted on GitHub.
+		boostRecent(time.Since(t.ghRepo.CreatedAt), (1 * d7), 50000)
 	}
 
 	// Boost themes with a Hugo version indicator set that covers.
@@ -371,8 +375,8 @@ func (t *theme) toFrontMatter() map[string]interface{} {
 
 	var expiryDate time.Time
 	if !t.m.Time.IsZero() {
-		// 2 years since last version.
-		expiryDate = t.m.Time.Add(24 * d30)
+		// 18 months since last version.
+		expiryDate = t.m.Time.Add(18 * d30)
 	} else {
 		// In practice, this will never expire.
 		expiryDate = time.Now().Add(22 * d30)
