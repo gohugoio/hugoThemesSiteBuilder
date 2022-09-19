@@ -27,7 +27,7 @@ jobs:
       run: |
        git config --global user.email "digitalcraftsman@users.noreply.github.com"
        git config --global user.name "digitalcraftsman"
-       go install github.com/gohugoio/hugo@v0.85.0
+       go install github.com/gohugoio/hugo@v0.103.1
        hugo mod get -u
        git add .
        git commit -am "[Bot] Update themes"
