@@ -177,6 +177,8 @@ github.com/balaramadurai/hugo-travelify-theme v0.0.0-20210303090448-5a6df71c4d94
 github.com/balaramadurai/hugo-travelify-theme v0.0.0-20210303090448-5a6df71c4d94/go.mod h1:+VvFoV1qzI0Aly8CmxpSwLiGH9RVEexM0bBDBUT521k=
 github.com/bep/docuapi/v2 v2.2.0 h1:rd5R3XZMjp45lXpfjPM9+C0Prt2pJzgiHXvdA2U48Mw=
 github.com/bep/docuapi/v2 v2.2.0/go.mod h1:61SkJTCwqcIBqpMsUokAjyljnSiRHV74idrhPF2f+os=
+github.com/bep/gallerydeluxe v0.1.0 h1:sw5Mv/0mrFEo9u1ZJGuttkpVcMSXIAn7ubAT57NBYqo=
+github.com/bep/gallerydeluxe v0.1.0/go.mod h1:sUfRcjREo6DwxPo0sMp0TAxNZiGreOY6DY2dWGpSeR8=
 github.com/bjacquemet/personal-web v0.0.0-20210930154027-95178cb6bf55 h1:X95Y1Q86jMCh8A7yUoc40Cp06TqF/QGpNLuXVbh6Mc8=
 github.com/bjacquemet/personal-web v0.0.0-20210930154027-95178cb6bf55/go.mod h1:DsXz9EZYMBXvuTEFFKLfRy8cjjBxgsPfwK516DyAx8E=
 github.com/blankoworld/hugo_theme_adam_eve v0.0.0-20200722201457-6d39f5f2e2ed h1:o0+p/85ZhA3844FA57Kk228raZfglpkFXrRFqE37Oys=

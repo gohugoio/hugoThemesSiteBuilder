@@ -7,11 +7,6 @@
       {
         "ignoreImports": true,
         "noMounts": true,
-        "path": "github.com/httpsecure/kembang"
-      },
-      {
-        "ignoreImports": true,
-        "noMounts": true,
         "path": "github.com/10mohi6/hugo-theme-simple-blog"
       },
       {
@@ -193,6 +188,11 @@
         "ignoreImports": true,
         "noMounts": true,
         "path": "github.com/bep/docuapi/v2"
+      },
+      {
+        "ignoreImports": true,
+        "noMounts": true,
+        "path": "github.com/bep/gallerydeluxe"
       },
       {
         "ignoreImports": true,
@@ -743,6 +743,11 @@
         "ignoreImports": true,
         "noMounts": true,
         "path": "github.com/htr3n/hyde-hyde"
+      },
+      {
+        "ignoreImports": true,
+        "noMounts": true,
+        "path": "github.com/httpsecure/kembang"
       },
       {
         "ignoreImports": true,
