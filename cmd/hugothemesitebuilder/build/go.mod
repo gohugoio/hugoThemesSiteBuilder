@@ -16,6 +16,7 @@ require (
 	github.com/Binary-Eater/hugo-theme-ghci v0.0.0-20220130042807-df347b1d8a3e // indirect
 	github.com/Bonzdev/alexa-portfolio v0.0.0-20211126085019-886d97a260c2 // indirect
 	github.com/CaiJimmy/hugo-theme-stack v2.6.0+incompatible // indirect
+	github.com/CaiJimmy/hugo-theme-stack/v3 v3.13.0 // indirect
 	github.com/EmielH/hallo-hugo v2.7.0+incompatible // indirect
 	github.com/EmielH/stip-hugo v1.0.0 // indirect
 	github.com/EmielH/tale-hugo v2.2.0+incompatible // indirect
@@ -190,6 +191,7 @@ require (
 	github.com/hootan09/simple-cv v0.0.0-20220526085510-32a2ca6f372b // indirect
 	github.com/hossainemruz/toha v3.6.0+incompatible // indirect
 	github.com/htr3n/hyde-hyde v2.0.2+incompatible // indirect
+	github.com/httpsecure/kembang v0.0.0-20220916164203-7878ca98506b // indirect
 	github.com/hugcis/hugo-astatine-theme v0.0.0-20220906060837-e1fdd25db676 // indirect
 	github.com/hugo-fixit/FixIt v0.2.15 // indirect
 	github.com/hugo-next/hugo-theme-next v4.2.0+incompatible // indirect
@@ -293,6 +295,7 @@ require (
 	github.com/nirocfz/arabica v0.0.0-20220406035148-c63700f10450 // indirect
 	github.com/nodejh/hugo-theme-cactus-plus v0.0.0-20220804084250-7f6f39505248 // indirect
 	github.com/ntk148v/hugo-cuisine-book v0.0.0-20220817115040-6290ec4f0191 // indirect
+	github.com/nunocoracao/blowfish v0.0.0-20220915094936-10f0e14d1efd // indirect
 	github.com/nurlansu/hugo-sustain v0.0.0-20210213172029-615e0611b5c0 // indirect
 	github.com/ojroques/hugo-researcher v0.0.0-20220414111956-957cc01c28f2 // indirect
 	github.com/okkur/syna v0.17.4 // indirect
