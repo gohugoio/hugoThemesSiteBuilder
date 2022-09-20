@@ -192,6 +192,11 @@
       {
         "ignoreImports": true,
         "noMounts": true,
+        "path": "github.com/bep/gallerydeluxe"
+      },
+      {
+        "ignoreImports": true,
+        "noMounts": true,
         "path": "github.com/Binary-Eater/hugo-theme-ghci"
       },
       {
@@ -227,7 +232,7 @@
       {
         "ignoreImports": true,
         "noMounts": true,
-        "path": "github.com/CaiJimmy/hugo-theme-stack"
+        "path": "github.com/CaiJimmy/hugo-theme-stack/v3"
       },
       {
         "ignoreImports": true,
@@ -738,6 +743,11 @@
         "ignoreImports": true,
         "noMounts": true,
         "path": "github.com/htr3n/hyde-hyde"
+      },
+      {
+        "ignoreImports": true,
+        "noMounts": true,
+        "path": "github.com/httpsecure/kembang"
       },
       {
         "ignoreImports": true,
@@ -1343,6 +1353,11 @@
         "ignoreImports": true,
         "noMounts": true,
         "path": "github.com/ntk148v/hugo-cuisine-book"
+      },
+      {
+        "ignoreImports": true,
+        "noMounts": true,
+        "path": "github.com/nunocoracao/blowfish"
       },
       {
         "ignoreImports": true,

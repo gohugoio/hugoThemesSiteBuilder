@@ -9,7 +9,7 @@ A collection of themes created by the Hugo community. Builds to [themes.gohugo.i
 
 
 # Themes are removed if not up to date
-
+png
 The current policy is to expire a theme if not updated (version date) for the last years. Even if your theme is feature complete, it's appreciated that you check on from time to time and verify that it works with never Hugo versions.
 
 
@@ -19,7 +19,7 @@ Create your theme using <code>hugo new theme <em>THEME_NAME</em></code>. In your
 
 * Add a `config.toml` with supported Hugo version(s)  and `theme.toml` file to the root of the theme and add some metadata about the theme ([see below](#theme-configuration));
 * Add a descriptive `README.md` to the root of the theme ([see below](#readmemd));
-* Add `/images/screenshot.png` and `/images/tn.png` ([see below](#media)).
+* Add `/images/screenshot.{png,jpg}` and `/images/tn.{png,jpg}` ([see below](#media)).
 
 Once your theme repository is on GitHub, you can add it here.
 
@@ -100,11 +100,11 @@ If a submission is found to violate the LICENSE of an original theme, it will be
 Screenshots are used as theme previews in the list. They should feature a theme's layout (without any browser chrome or device mockups) and have the following dimensions:
 
 * Both the Thumbnail and Screenshot must be in 3:2 aspect ratio.
-* Screenshot (`screenshot.png`) should have a dimension of at least 1500×1000 in pixels.
-* Thumbnail (`tn.png`) should have a dimension of at least 900×600 in pixels.
+* Screenshot (`screenshot.png` or (`screenshot.jpg`) should have a dimension of at least 1500×1000 in pixels.
+* Thumbnail (`tn.png` or `tn.jpg`) should have a dimension of at least 900×600 in pixels.
 * Media must be located in:
-    * <code><em>[ThemeDir]</em>/images/screenshot.png</code>
-    * <code><em>[ThemeDir]</em>/images/tn.png</code>
+    * <code><em>[ThemeDir]</em>/images/screenshot.{png,jpg}</code>
+    * <code><em>[ThemeDir]</em>/images/tn.{png,jpg}</code>
 
 
 Additional media may be provided in that same directory.

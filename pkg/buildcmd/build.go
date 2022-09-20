@@ -271,16 +271,24 @@ func (c *buildClient) writeThemeContent(k string, m client.Module) error {
 	}
 
 	copyImage := func(source, target string) error {
-		if err := copyIfExists(source, target); err != nil {
-			return fmt.Errorf("image %q not found in %q", source, k)
+		var foundOne bool
+		for _, ext := range []string{".png", ".jpg"} {
+			if err := copyIfExists(source+ext, target+ext); err == nil {
+				foundOne = true
+				break
+			}
 		}
+		if !foundOne {
+			return fmt.Errorf("no image found for %q", source)
+		}
+
 		return nil
 	}
 
-	if err := copyImage("images/tn.png", "tn-featured.png"); err != nil {
+	if err := copyImage("images/tn", "tn-featured"); err != nil {
 		return err
 	}
-	if err := copyImage("images/screenshot.png", "screenshot.png"); err != nil {
+	if err := copyImage("images/screenshot", "screenshot"); err != nil {
 		return err
 	}
 
