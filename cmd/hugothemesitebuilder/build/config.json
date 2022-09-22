@@ -752,6 +752,11 @@
       {
         "ignoreImports": true,
         "noMounts": true,
+        "path": "github.com/httpsecure/kembang"
+      },
+      {
+        "ignoreImports": true,
+        "noMounts": true,
         "path": "github.com/hugcis/hugo-astatine-theme"
       },
       {
@@ -978,11 +983,6 @@
         "ignoreImports": true,
         "noMounts": true,
         "path": "github.com/jweslley/hugo-conference"
-      },
-      {
-        "ignoreImports": true,
-        "noMounts": true,
-        "path": "github.com/jyygithub/hugo-theme-onelou"
       },
       {
         "ignoreImports": true,
@@ -1363,11 +1363,6 @@
         "ignoreImports": true,
         "noMounts": true,
         "path": "github.com/nurlansu/hugo-sustain"
-      },
-      {
-        "ignoreImports": true,
-        "noMounts": true,
-        "path": "github.com/ojroques/hugo-researcher"
       },
       {
         "ignoreImports": true,
