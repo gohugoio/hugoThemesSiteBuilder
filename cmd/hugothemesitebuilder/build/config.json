@@ -1927,6 +1927,11 @@
       {
         "ignoreImports": true,
         "noMounts": true,
+        "path": "github.com/unicef/inventory-hugo-theme"
+      },
+      {
+        "ignoreImports": true,
+        "noMounts": true,
         "path": "github.com/uPagge/uBlogger"
       },
       {
