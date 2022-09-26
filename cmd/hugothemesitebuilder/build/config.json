@@ -937,6 +937,11 @@
       {
         "ignoreImports": true,
         "noMounts": true,
+        "path": "github.com/joseph-mccarthy/hugo-bootstrap-freelancer-template"
+      },
+      {
+        "ignoreImports": true,
+        "noMounts": true,
         "path": "github.com/josephhutch/aether"
       },
       {
@@ -983,6 +988,11 @@
         "ignoreImports": true,
         "noMounts": true,
         "path": "github.com/jweslley/hugo-conference"
+      },
+      {
+        "ignoreImports": true,
+        "noMounts": true,
+        "path": "github.com/jyygithub/hugo-theme-onelou"
       },
       {
         "ignoreImports": true,
@@ -1153,6 +1163,11 @@
         "ignoreImports": true,
         "noMounts": true,
         "path": "github.com/lxndrblz/anatole"
+      },
+      {
+        "ignoreImports": true,
+        "noMounts": true,
+        "path": "github.com/M1cR0xf7/kaslaanka"
       },
       {
         "ignoreImports": true,

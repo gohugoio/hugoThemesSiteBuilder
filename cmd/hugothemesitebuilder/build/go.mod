@@ -35,6 +35,7 @@ require (
 	github.com/Lednerb/bilberry-hugo-theme/v3 v3.13.0 // indirect
 	github.com/LordMathis/hugo-theme-nix v0.0.0-20220120091656-084eef29e66f // indirect
 	github.com/LukasJoswiak/etch v0.0.0-20220327235953-1969ea26457a // indirect
+	github.com/M1cR0xf7/kaslaanka v0.0.0-20220926121204-97b93cec567d // indirect
 	github.com/MarcusVirg/forty v0.0.0-20190430033326-dccea57bd2ed // indirect
 	github.com/Masellum/hugo-theme-nostyleplease v0.0.0-20220827133946-44f8ee0b7d88 // indirect
 	github.com/McShelby/hugo-theme-relearn v0.0.0-20220913212013-45875d5e7392 // indirect
@@ -223,6 +224,7 @@ require (
 	github.com/jnjosh/internet-weblog v0.0.0-20191202203724-32ef8e0ba6b6 // indirect
 	github.com/joeroe/risotto v0.0.0-20220908093158-82b63460c301 // indirect
 	github.com/jonathanjanssens/hugo-casper3 v1.0.1 // indirect
+	github.com/joseph-mccarthy/hugo-bootstrap-freelancer-template v1.0.2 // indirect
 	github.com/josephhutch/aether v0.0.0-20220304034235-d1c9ab6527b0 // indirect
 	github.com/jota-ele-ene/just-me v0.0.0-20220125105505-fa798cd53fea // indirect
 	github.com/joway/hugo-theme-yinyang v0.0.0-20220428055119-1c3bec670a42 // indirect

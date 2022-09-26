@@ -64,6 +64,8 @@ github.com/LordMathis/hugo-theme-nix v0.0.0-20220120091656-084eef29e66f h1:gIT+x
 github.com/LordMathis/hugo-theme-nix v0.0.0-20220120091656-084eef29e66f/go.mod h1:gNBtSKD6958hUOyfSq/DPk6sancXDm9u/ftQGr03Nf8=
 github.com/LukasJoswiak/etch v0.0.0-20220327235953-1969ea26457a h1:MRphI0rxbDkWL7zmWoDJ5O7YAg6IzbbXMNdkMszmveE=
 github.com/LukasJoswiak/etch v0.0.0-20220327235953-1969ea26457a/go.mod h1:tdCjHyDbi/JUH+PwT7EuRAoTu1tIrDvTQgZ5UJLNe7Q=
+github.com/M1cR0xf7/kaslaanka v0.0.0-20220926121204-97b93cec567d h1:LQtj21Ce8mDMNtzYqfKaKFfdNXDlURT85uct/vdBrjM=
+github.com/M1cR0xf7/kaslaanka v0.0.0-20220926121204-97b93cec567d/go.mod h1:qSvc0m3XgEHO8vjsPWHZvFoQeY3qJceQ2gEvU8hhB7I=
 github.com/MarcusVirg/forty v0.0.0-20190430033326-dccea57bd2ed h1:LjHYgmJraTUExON/Cg7aFSnI2kWo3zYPOMAzO2cd96Q=
 github.com/MarcusVirg/forty v0.0.0-20190430033326-dccea57bd2ed/go.mod h1:afK3GTGd/UIXHIDgpmy8MgyNo0V6yNSBozZMUyqVhj4=
 github.com/Masellum/hugo-theme-nostyleplease v0.0.0-20220827133946-44f8ee0b7d88 h1:LLRVQkx5us53Czyis3nbXhd0RU6fxJRMZKHXnMD92RU=
@@ -514,6 +516,8 @@ github.com/joeroe/risotto v0.0.0-20220908093158-82b63460c301 h1:twL2sJVZz3EnTssk
 github.com/joeroe/risotto v0.0.0-20220908093158-82b63460c301/go.mod h1:50XvgDGSY2RDbp86FP3nWCnUrJgVQAm9uWsWPstFd54=
 github.com/jonathanjanssens/hugo-casper3 v1.0.1 h1:aTavB32ZE8BFumT0uViYRTalJJgXAsD9u2HFU/ahAaw=
 github.com/jonathanjanssens/hugo-casper3 v1.0.1/go.mod h1:yE0PdETecMIsBr4tO/G3oIZ4nCDI5+csw8Ctk7low0E=
+github.com/joseph-mccarthy/hugo-bootstrap-freelancer-template v1.0.2 h1:rNSF4MntC5Nju5SXz9pn301n6RMB6yOv0mVabZfnY0k=
+github.com/joseph-mccarthy/hugo-bootstrap-freelancer-template v1.0.2/go.mod h1:3QKsmvNLpcYPTERRbCO0yKCSAMnYxx5FeDZM1H67iqg=
 github.com/josephhutch/aether v0.0.0-20220304034235-d1c9ab6527b0 h1:1aCe/rAdw3Eh5zhujkIYgSW/4gADUwaAGj81TadeVeY=
 github.com/josephhutch/aether v0.0.0-20220304034235-d1c9ab6527b0/go.mod h1:sz0eYEdI0hmzslfeR77rtj5T+8zC7/NhT/B9gYzWshg=
 github.com/jota-ele-ene/just-me v0.0.0-20220125105505-fa798cd53fea h1:fU0ASOO7wyyac5x6wI1ldNdrIhPGMW6BulMLydOqUBQ=
