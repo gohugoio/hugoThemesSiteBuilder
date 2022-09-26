@@ -26,6 +26,7 @@ Once your theme repository is on GitHub, you can add it here.
 * Clone this repository: <code>git clone https://github.com/gohugoio/hugoThemesSiteBuilder.git</code>;
 * Add your theme path (e.g. `github.com/gohugoio/gohugoioTheme`) to [themes.txt](https://github.com/gohugoio/hugoThemesSiteBuilder/edit/main/themes.txt) in lexicographical order.
 * Create a Pull Request and verify that the preview looks good.
+* **Note:** write a descriptive commit message title, e.g. `Add theme my-blog-theme`.
 
 Note that if the PR preview does not come up as expected (missing thumbnail image etc.), the way you currently can trigger a new preview build after you have fixed your theme is to amend your commit on your PR branch and do a force push:
 
