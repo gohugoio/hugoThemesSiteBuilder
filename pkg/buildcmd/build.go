@@ -279,7 +279,7 @@ func (c *buildClient) writeThemeContent(k string, m client.Module) error {
 			}
 		}
 		if !foundOne {
-			return fmt.Errorf("no image found for %q", source)
+			return fmt.Errorf("%s: no image found for %q", themeName, source)
 		}
 
 		return nil
