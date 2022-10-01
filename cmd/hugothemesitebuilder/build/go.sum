@@ -223,6 +223,8 @@ github.com/bul-ikana/hugo-cards v0.0.0-20211031232746-55e303495347 h1:UHhqtMNM8N
 github.com/bul-ikana/hugo-cards v0.0.0-20211031232746-55e303495347/go.mod h1:gYUyH7o8Bwl0eQvsROyZQySpSkdzKEzV8sLcZXSaPuY=
 github.com/calintat/minimal v0.0.0-20210103220336-987f270dfee3 h1:JHnBhRE6pzNJPIpctf9iUqfUzWTNOEzUTlMorRet4Nc=
 github.com/calintat/minimal v0.0.0-20210103220336-987f270dfee3/go.mod h1:DcAXbWg74unipQb+Kgvv+jns9U2l9v+DM0DPCLjlE7E=
+github.com/canhtran/maverick v0.0.0-20220930040927-b55c2d566b35 h1:UNukdevPQF5edqd9x6bveboXWrSG47PMzabRKCSSI2w=
+github.com/canhtran/maverick v0.0.0-20220930040927-b55c2d566b35/go.mod h1:YuK6DnnmF0p8Cf5oZ4IWxZ463PtAfOlUy90d1tfCAKU=
 github.com/canstand/compost v0.5.3 h1:fdwBR2s8Ktn/Q+MT6CwRafKqKcnTfFzb7dQjLW0PmGM=
 github.com/canstand/compost v0.5.3/go.mod h1:rWAHCcWwZh44BuvsaV24HCJmX9/PbNU1BOIO8V2N5RM=
 github.com/canstand/compost v0.5.4 h1:kh8IQF+vYl9ywllltl30eo2/ruqJAhesvMv+3Xq/Ljs=

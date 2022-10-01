@@ -247,6 +247,11 @@
       {
         "ignoreImports": true,
         "noMounts": true,
+        "path": "github.com/canhtran/maverick"
+      },
+      {
+        "ignoreImports": true,
+        "noMounts": true,
         "path": "github.com/capnfabs/paperesque"
       },
       {

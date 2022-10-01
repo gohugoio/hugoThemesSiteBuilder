@@ -99,6 +99,7 @@ require (
 	github.com/brycematheson/allegiant v0.0.0-20161024030126-4db3e8fe3a01 // indirect
 	github.com/bul-ikana/hugo-cards v0.0.0-20211031232746-55e303495347 // indirect
 	github.com/calintat/minimal v0.0.0-20210103220336-987f270dfee3 // indirect
+	github.com/canhtran/maverick v0.0.0-20220930040927-b55c2d566b35 // indirect
 	github.com/canstand/compost v0.5.4 // indirect
 	github.com/capnfabs/paperesque v0.0.0-20220619223221-35157d042508 // indirect
 	github.com/caressofsteel/hugo-story v0.0.0-20220914175256-6722dc851b2f // indirect
