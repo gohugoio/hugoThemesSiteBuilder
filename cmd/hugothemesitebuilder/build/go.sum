@@ -12,6 +12,8 @@ github.com/526avijitgupta/gokarna v0.0.0-20220830135955-d79ff6cc8388 h1:DWXvTLM4
 github.com/526avijitgupta/gokarna v0.0.0-20220830135955-d79ff6cc8388/go.mod h1:v34Pn8p/EFQ1WnVF43/Vis+6u+vdB795sYEGshBHFSs=
 github.com/526avijitgupta/gokarna v0.0.0-20221005033931-c22143c3c958 h1:wnjGWp7Nlm+GNlXyMq1eK0+4xA/3DwDln/1UFc9TLOU=
 github.com/526avijitgupta/gokarna v0.0.0-20221005033931-c22143c3c958/go.mod h1:v34Pn8p/EFQ1WnVF43/Vis+6u+vdB795sYEGshBHFSs=
+github.com/526avijitgupta/gokarna v0.0.0-20221010051104-751f4dc9c985 h1:D0wJyMwdU9WDRhKakTlkPSls+EtHDDWiCr+jCZpnzrU=
+github.com/526avijitgupta/gokarna v0.0.0-20221010051104-751f4dc9c985/go.mod h1:v34Pn8p/EFQ1WnVF43/Vis+6u+vdB795sYEGshBHFSs=
 github.com/7ma7X/HugoTeX v0.0.0-20220614121753-9094304e08c4 h1:skXqNMwjdYlZ0rHBn4PKv+KoS2TBzhSmBkSmbO1eWfs=
 github.com/7ma7X/HugoTeX v0.0.0-20220614121753-9094304e08c4/go.mod h1:OTLKv02XnopNEckzZ8Ttg/NjueJWWLrzJzeVHGm/6lo=
 github.com/7ma7X/HugoTeX v0.0.0-20220930000332-2174285f03fb h1:Dz6OE60u/PExKp5kW77k28QwP/DaCTKvDjum1cPu1Ig=
@@ -245,6 +247,8 @@ github.com/boratanrikulu/eternity v0.0.0-20220923214707-eab412139c3e h1:bcfH7kOI
 github.com/boratanrikulu/eternity v0.0.0-20220923214707-eab412139c3e/go.mod h1:oTxriBGTETn/Saurq+nI5noIRiNG4/kpBMiroG2qgoM=
 github.com/boratanrikulu/eternity v0.0.0-20221002202905-040da8526154 h1:BurskppQymnMQmPyIXnK/ZSbDi1xx10o3WkzPIOSVno=
 github.com/boratanrikulu/eternity v0.0.0-20221002202905-040da8526154/go.mod h1:oTxriBGTETn/Saurq+nI5noIRiNG4/kpBMiroG2qgoM=
+github.com/boratanrikulu/eternity v0.0.0-20221012092652-864ab9d68213 h1:VLRkMwvZCfAwPpmVixey9rPbO84IuSicHKv/eEVtfMk=
+github.com/boratanrikulu/eternity v0.0.0-20221012092652-864ab9d68213/go.mod h1:oTxriBGTETn/Saurq+nI5noIRiNG4/kpBMiroG2qgoM=
 github.com/brycematheson/allegiant v0.0.0-20161024030126-4db3e8fe3a01 h1:HV/QUp8P/7mVJLFMAkhQ6CoNr5/SalGxU0p9hJEc/LA=
 github.com/brycematheson/allegiant v0.0.0-20161024030126-4db3e8fe3a01/go.mod h1:n4s7O9CIJgRlnvJFHr2L5asHj3ITIEUjdfVBGZAInBk=
 github.com/bul-ikana/hugo-cards v0.0.0-20211031232746-55e303495347 h1:UHhqtMNM8NBvnjrDvZ+rcGkbylFMLmSg9Vidl3i2DJo=
@@ -693,6 +697,8 @@ github.com/luizdepra/hugo-coder v0.0.0-20220902184613-476429d42ac1 h1:FQBpsVurGO
 github.com/luizdepra/hugo-coder v0.0.0-20220902184613-476429d42ac1/go.mod h1:9EQBf2rU+NPjlohGuKcEgdqSeOc3tIQoOty4xPpuUQ4=
 github.com/luizdepra/hugo-coder v0.0.0-20220906130814-5e56c8c11505 h1:9dom4utU9UCbqyDQtnx/WRD2GjxQkS7j1mecf/dGjDk=
 github.com/luizdepra/hugo-coder v0.0.0-20220906130814-5e56c8c11505/go.mod h1:9EQBf2rU+NPjlohGuKcEgdqSeOc3tIQoOty4xPpuUQ4=
+github.com/luizdepra/hugo-coder v0.0.0-20221011124307-a98c473a2669 h1:iMp23f3IGq/G389DzTnAXNKVAl825AIVIqfKvs+U87Y=
+github.com/luizdepra/hugo-coder v0.0.0-20221011124307-a98c473a2669/go.mod h1:9EQBf2rU+NPjlohGuKcEgdqSeOc3tIQoOty4xPpuUQ4=
 github.com/lxndrblz/anatole v1.11.0 h1:lb6y2OtJY+kDYXkfN/DzQPFM0ZNafM+smXXEmV3EZzo=
 github.com/lxndrblz/anatole v1.11.0/go.mod h1:hy61SRyUDKaWw2P+cERt9UPde5guWyVKgtjdzRF5bfI=
 github.com/marcanuy/simpleit-hugo-theme v0.0.0-20210616134837-49277e5c3be0 h1:n7FsJhxX9nABeTlayuJsnJc2gbTYZhaLPz/q9k4Qov8=
@@ -763,6 +769,8 @@ github.com/nodejh/hugo-theme-cactus-plus v0.0.0-20220804084250-7f6f39505248 h1:I
 github.com/nodejh/hugo-theme-cactus-plus v0.0.0-20220804084250-7f6f39505248/go.mod h1:/f0ZXsMvHAdPQedcJ2ZUDg/rDWAnGAclQ8ukFRSTNHs=
 github.com/ntk148v/hugo-cuisine-book v0.0.0-20220817115040-6290ec4f0191 h1:H8JNsjXXk70udGB3DoMJ8qRyyGhNkQHgWZgx3h6n+vQ=
 github.com/ntk148v/hugo-cuisine-book v0.0.0-20220817115040-6290ec4f0191/go.mod h1:GosNhNSwCn6UFew4B/qyvG377LBJVtWiTnurjrLES78=
+github.com/ntk148v/hugo-cuisine-book v0.0.0-20221012044144-35d61b1811f7 h1:6VoFCs7mLjA6VpNIhkfSCVv8GJz+v9x1So6U2A1mamw=
+github.com/ntk148v/hugo-cuisine-book v0.0.0-20221012044144-35d61b1811f7/go.mod h1:GosNhNSwCn6UFew4B/qyvG377LBJVtWiTnurjrLES78=
 github.com/nunocoracao/blowfish v0.0.0-20220915094936-10f0e14d1efd h1:zSYH0lpVx8dmPnbUH/VnmDr7nDEjIhUw0PaGX1zr7lY=
 github.com/nunocoracao/blowfish v0.0.0-20220915094936-10f0e14d1efd/go.mod h1:vKwVEX60Gjn/9B4C16WkS8iD5S06d42NlQk4rllZasg=
 github.com/nunocoracao/blowfish v1.1.1 h1:iXl+kiXmZAhJvWrNwaqIR+MiEJgPHPKIB+DU+N08ve0=
@@ -775,6 +783,8 @@ github.com/nunocoracao/blowfish v1.4.5 h1:tGApTXUw5a1Xh7a20smKljx9K/W9tZkUMAtopa
 github.com/nunocoracao/blowfish v1.4.5/go.mod h1:a+x71NKypnAynVrKYncF4jMagrvWjOdacVpA9RJh2UA=
 github.com/nunocoracao/blowfish v1.6.0 h1:t/0oeSzqLmo84y8kqx6zTBedl9nDj5jCZHFz0phuGwY=
 github.com/nunocoracao/blowfish v1.6.0/go.mod h1:a+x71NKypnAynVrKYncF4jMagrvWjOdacVpA9RJh2UA=
+github.com/nunocoracao/blowfish v1.7.1 h1:y3FZ0df8ZUtu6bgijb4eTjO0i+yvRKfhUFHPZsQT+RE=
+github.com/nunocoracao/blowfish v1.7.1/go.mod h1:a+x71NKypnAynVrKYncF4jMagrvWjOdacVpA9RJh2UA=
 github.com/nurlansu/hugo-sustain v0.0.0-20210213172029-615e0611b5c0 h1:h8crfqhvN076DyEjLr1+qJB68Ih4hP61tWAv6/CgrkQ=
 github.com/nurlansu/hugo-sustain v0.0.0-20210213172029-615e0611b5c0/go.mod h1:yqDFFHObanzDHusELnFREQdetJWE864Q88KGrr2wH8s=
 github.com/ojroques/hugo-researcher v0.0.0-20220414111956-957cc01c28f2 h1:lhdxFVi6Uwp8XTlYTrtUOkRlBJAWgeVZFYjhu3XP1G8=
@@ -1141,6 +1151,8 @@ github.com/zhaohuabing/hugo-theme-cleanwhite v0.0.0-20220820084105-ac188d67d1e8 
 github.com/zhaohuabing/hugo-theme-cleanwhite v0.0.0-20220820084105-ac188d67d1e8/go.mod h1:7w+SNXU8/rQ2S3nYfeS3kk9dmtPmb64kGc87N/IQo+Q=
 github.com/zhaohuabing/hugo-theme-cleanwhite v0.0.0-20220923053712-594edcb3d093 h1:wtZ5c0DBk3pFbBtYsPBQVEzw+X7QfJsvnew9fIkgxjM=
 github.com/zhaohuabing/hugo-theme-cleanwhite v0.0.0-20220923053712-594edcb3d093/go.mod h1:7w+SNXU8/rQ2S3nYfeS3kk9dmtPmb64kGc87N/IQo+Q=
+github.com/zhaohuabing/hugo-theme-cleanwhite v0.0.0-20221010112451-706f0b60f700 h1:gPxQvotp58wyOxXM0Fa1iEfqPEXed66xoMFCMiLY2gw=
+github.com/zhaohuabing/hugo-theme-cleanwhite v0.0.0-20221010112451-706f0b60f700/go.mod h1:7w+SNXU8/rQ2S3nYfeS3kk9dmtPmb64kGc87N/IQo+Q=
 github.com/zhe/hugo-theme-slim v0.0.0-20190920014445-f666effe196a h1:bXNuJQNpXUz0Vgi1OjTCwbkvAXjQ3S1gYEfl+W6PidM=
 github.com/zhe/hugo-theme-slim v0.0.0-20190920014445-f666effe196a/go.mod h1:srqDDUYym3e6mlFIk2sRIQw8Vtz3+9n5DSNm5LlbTFU=
 github.com/zwbetz-gh/cayman-hugo-theme v0.0.0-20210525185112-00e0828a4781 h1:X8vdN83u/DtvDkHjBrwIWq/SvGOVKpFHzvF5EnYL69M=
