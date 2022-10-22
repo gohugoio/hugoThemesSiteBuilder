@@ -20,6 +20,8 @@ github.com/7ma7X/HugoTeX v0.0.0-20220930000332-2174285f03fb h1:Dz6OE60u/PExKp5kW
 github.com/7ma7X/HugoTeX v0.0.0-20220930000332-2174285f03fb/go.mod h1:OTLKv02XnopNEckzZ8Ttg/NjueJWWLrzJzeVHGm/6lo=
 github.com/7ma7X/HugoTeX v0.0.0-20221002095132-217cd785dd75 h1:miJng922YmO7Z0ajpOhJV1y2eLzFqHiiWsJ+MsFjI4U=
 github.com/7ma7X/HugoTeX v0.0.0-20221002095132-217cd785dd75/go.mod h1:OTLKv02XnopNEckzZ8Ttg/NjueJWWLrzJzeVHGm/6lo=
+github.com/7ma7X/HugoTeX v0.0.0-20221021034226-c9fd31ef69c5 h1:+8G5ZKpIH1MX9YDmqicBYWy5RJ5XCd3srAjufb/r/nE=
+github.com/7ma7X/HugoTeX v0.0.0-20221021034226-c9fd31ef69c5/go.mod h1:OTLKv02XnopNEckzZ8Ttg/NjueJWWLrzJzeVHGm/6lo=
 github.com/AlexFinn/simple-a v0.0.0-20191202062540-bb2f8c9172a0 h1:sy/Ez5f6eA2b96BStFblKC0eikTq23couIRerUgDQRM=
 github.com/AlexFinn/simple-a v0.0.0-20191202062540-bb2f8c9172a0/go.mod h1:74bhTTZ9816y3dy/DF5nSwf4lFKXhiMUWC1PARCFUHM=
 github.com/AmazingRise/hugo-theme-diary v0.0.0-20220826044300-1adda175206f h1:9q2xnYSBXtluSv3Ifo4dShmELpI5dIS1+oaXe4+hpi0=
@@ -90,6 +92,8 @@ github.com/M1cR0xf7/kaslaanka v0.0.0-20221002122717-25fe3cb2faa6 h1:1mWUJHSQphcc
 github.com/M1cR0xf7/kaslaanka v0.0.0-20221002122717-25fe3cb2faa6/go.mod h1:qSvc0m3XgEHO8vjsPWHZvFoQeY3qJceQ2gEvU8hhB7I=
 github.com/M1cR0xf7/kaslaanka v0.0.0-20221007135837-af8952e39290 h1:gLI8ZuCHsHh4Y3OzDAYdbtgNKirVoNZ/+hz6sD60bFE=
 github.com/M1cR0xf7/kaslaanka v0.0.0-20221007135837-af8952e39290/go.mod h1:qSvc0m3XgEHO8vjsPWHZvFoQeY3qJceQ2gEvU8hhB7I=
+github.com/M1cR0xf7/kaslaanka v0.0.0-20221021130232-d1686052ccb5 h1:3EFYvDgGyUCf27laRmUEIHW8T/KatMFfn9+fBID6l3g=
+github.com/M1cR0xf7/kaslaanka v0.0.0-20221021130232-d1686052ccb5/go.mod h1:qSvc0m3XgEHO8vjsPWHZvFoQeY3qJceQ2gEvU8hhB7I=
 github.com/MarcusVirg/forty v0.0.0-20190430033326-dccea57bd2ed h1:LjHYgmJraTUExON/Cg7aFSnI2kWo3zYPOMAzO2cd96Q=
 github.com/MarcusVirg/forty v0.0.0-20190430033326-dccea57bd2ed/go.mod h1:afK3GTGd/UIXHIDgpmy8MgyNo0V6yNSBozZMUyqVhj4=
 github.com/Masellum/hugo-theme-nostyleplease v0.0.0-20220827133946-44f8ee0b7d88 h1:LLRVQkx5us53Czyis3nbXhd0RU6fxJRMZKHXnMD92RU=
@@ -255,6 +259,8 @@ github.com/boratanrikulu/eternity v0.0.0-20221015231913-d787ee684559 h1:RxLHn8dI
 github.com/boratanrikulu/eternity v0.0.0-20221015231913-d787ee684559/go.mod h1:oTxriBGTETn/Saurq+nI5noIRiNG4/kpBMiroG2qgoM=
 github.com/boratanrikulu/eternity v0.0.0-20221016223758-066fee0f7d51 h1:YuJWS+4vkOCdcUpIJ6M5Z80WAnhvTvwS5a53Ll3Alpg=
 github.com/boratanrikulu/eternity v0.0.0-20221016223758-066fee0f7d51/go.mod h1:oTxriBGTETn/Saurq+nI5noIRiNG4/kpBMiroG2qgoM=
+github.com/boratanrikulu/eternity v0.0.0-20221021200336-6b8cc0b83bc9 h1:agEl6izL3919OlgVUb3xaAIQXGQCDwm7b6FaJQ4BdCM=
+github.com/boratanrikulu/eternity v0.0.0-20221021200336-6b8cc0b83bc9/go.mod h1:oTxriBGTETn/Saurq+nI5noIRiNG4/kpBMiroG2qgoM=
 github.com/brycematheson/allegiant v0.0.0-20161024030126-4db3e8fe3a01 h1:HV/QUp8P/7mVJLFMAkhQ6CoNr5/SalGxU0p9hJEc/LA=
 github.com/brycematheson/allegiant v0.0.0-20161024030126-4db3e8fe3a01/go.mod h1:n4s7O9CIJgRlnvJFHr2L5asHj3ITIEUjdfVBGZAInBk=
 github.com/bul-ikana/hugo-cards v0.0.0-20211031232746-55e303495347 h1:UHhqtMNM8NBvnjrDvZ+rcGkbylFMLmSg9Vidl3i2DJo=
@@ -518,6 +524,8 @@ github.com/hugcis/hugo-astatine-theme v0.0.0-20220920133342-e1c699cbbd58 h1:7fM0
 github.com/hugcis/hugo-astatine-theme v0.0.0-20220920133342-e1c699cbbd58/go.mod h1:gbOEGGwov71SFNmbUwE4TN2aHFzT3GdZK1Zo5zO9hA8=
 github.com/hugcis/hugo-astatine-theme v0.0.0-20220922085219-9cf496a26569 h1:gn/AyurdHuIBc0Ob0U/GjjAvQ/xyXrrf5OIB1epPwlw=
 github.com/hugcis/hugo-astatine-theme v0.0.0-20220922085219-9cf496a26569/go.mod h1:gbOEGGwov71SFNmbUwE4TN2aHFzT3GdZK1Zo5zO9hA8=
+github.com/hugcis/hugo-astatine-theme v0.0.0-20221019191435-2e39e8767058 h1:420AtSWCSH4LUmk0+18JekEoQ8Ni9su3fKDJjp6uXK8=
+github.com/hugcis/hugo-astatine-theme v0.0.0-20221019191435-2e39e8767058/go.mod h1:gbOEGGwov71SFNmbUwE4TN2aHFzT3GdZK1Zo5zO9hA8=
 github.com/hugo-fixit/FixIt v0.2.15 h1:vGIIKNP1oneTVXuSezEYzWr9FiT4q0xZ9ode9PRCAyk=
 github.com/hugo-fixit/FixIt v0.2.15/go.mod h1:cXZf1VZbhXtRjW3dbgAApt9cjorjrDLT6Eh7JmvfJhI=
 github.com/hugo-fixit/FixIt v0.2.16 h1:f6uCrlFwtPtkhfB8L7AbRPdMMpr/MVXvEy70qTGNzSo=
@@ -705,6 +713,8 @@ github.com/loveminimal/hugo-theme-virgo v0.0.0-20220913072004-91c3aaefadcf h1:V/
 github.com/loveminimal/hugo-theme-virgo v0.0.0-20220913072004-91c3aaefadcf/go.mod h1:rYaAxThYe50neshv8H6CXi4K1uCVIGwtBPdK2ZlnF88=
 github.com/loveminimal/hugo-theme-virgo v0.0.0-20220929081350-db859e984b0f h1:dLcpZ0tnSZA11dGb12mMuVgEoKShdEoTjnKQyPumzwI=
 github.com/loveminimal/hugo-theme-virgo v0.0.0-20220929081350-db859e984b0f/go.mod h1:rYaAxThYe50neshv8H6CXi4K1uCVIGwtBPdK2ZlnF88=
+github.com/loveminimal/hugo-theme-virgo v0.0.0-20221021070636-7099e362b14a h1:vN6MqvBx7KURIFHy+DloEi4UGcDmR5psnXKnrMbBAXw=
+github.com/loveminimal/hugo-theme-virgo v0.0.0-20221021070636-7099e362b14a/go.mod h1:rYaAxThYe50neshv8H6CXi4K1uCVIGwtBPdK2ZlnF88=
 github.com/lubang/hugo-hello-programmer-theme v2.1.0+incompatible h1:cjrUz89VoSYXXyOj+xiyJrkfiY0yc3K6p2sBX5BGKHs=
 github.com/lubang/hugo-hello-programmer-theme v2.1.0+incompatible/go.mod h1:B5YCYcL791YB88XiLoaNYIUB5MZiAqSObDekgp1iwk0=
 github.com/lucperkins/hugo-fresh v0.0.0-20220826122622-8dac36d95aed h1:RXc859RLkHwNxYP6McmQy+88XzOHWzvoRwYlLcNfZ2s=
@@ -727,6 +737,8 @@ github.com/markdumay/hugo-theme-hinode v0.4.3 h1:z9bKO3ZrH32YWvFeeFzFfWVXUQ2DPWw
 github.com/markdumay/hugo-theme-hinode v0.4.3/go.mod h1:GS7ODxya3k6knpGA9hjvu1BHdZt2E9M2Fpwks6kf67c=
 github.com/markdumay/hugo-theme-hinode v0.4.4 h1:7fogl5It61uLTgBbygncmuQ95zFFZm35bIu6G8UsjSQ=
 github.com/markdumay/hugo-theme-hinode v0.4.4/go.mod h1:GS7ODxya3k6knpGA9hjvu1BHdZt2E9M2Fpwks6kf67c=
+github.com/markdumay/hugo-theme-hinode v0.4.6 h1:XYuxR18ofC4K1UZ8W0dGxbQUszjB6jmYgOoArq0cG9U=
+github.com/markdumay/hugo-theme-hinode v0.4.6/go.mod h1:GS7ODxya3k6knpGA9hjvu1BHdZt2E9M2Fpwks6kf67c=
 github.com/marketempower/axiom v0.8.0 h1:zi9Fz4N0hu8EqKEALSkCUc9NnilnqmvZlyyWVfdcn5g=
 github.com/marketempower/axiom v0.8.0/go.mod h1:yBi32+wVWUXnGDYjQ4tqXwcGAuSP8lOhOm1jgxN7SCA=
 github.com/matcornic/hugo-theme-learn v0.0.0-20211028190410-e817f53d690d h1:p7ktiW/GnHccjB9oO5YGY7us5v/oHmkyF0C7EDZFM3s=
