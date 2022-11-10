@@ -10,7 +10,7 @@ A collection of themes created by the Hugo community. Builds to [themes.gohugo.i
 
 # Themes are removed if not up to date
 png
-The current policy is to expire a theme if not updated (version date) for the last years. Even if your theme is feature complete, it's appreciated that you check on from time to time and verify that it works with never Hugo versions.
+The current policy is to expire a theme if not updated (version date) for the last years. Even if your theme is feature complete, it's appreciated that you check on from time to time and verify that it works with newer Hugo versions.
 
 
 # Adding a theme to the list
