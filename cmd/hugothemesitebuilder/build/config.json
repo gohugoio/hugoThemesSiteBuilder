@@ -757,7 +757,7 @@
       {
         "ignoreImports": true,
         "noMounts": true,
-        "path": "github.com/httpsecure/kembang"
+        "path": "github.com/httpsecure/hugo-theme-red-rose"
       },
       {
         "ignoreImports": true,
@@ -1373,6 +1373,11 @@
         "ignoreImports": true,
         "noMounts": true,
         "path": "github.com/ntk148v/hugo-cuisine-book"
+      },
+      {
+        "ignoreImports": true,
+        "noMounts": true,
+        "path": "github.com/ntk148v/hugo-toigian"
       },
       {
         "ignoreImports": true,
@@ -2112,11 +2117,6 @@
       {
         "ignoreImports": true,
         "noMounts": true,
-        "path": "github.com/yilkalargaw/termishTheme"
-      },
-      {
-        "ignoreImports": true,
-        "noMounts": true,
         "path": "github.com/yoshiharuyamashita/blackburn"
       },
       {
@@ -2288,6 +2288,11 @@
         "ignoreImports": true,
         "noMounts": true,
         "path": "wangchucheng.com/hugo-eureka"
+      },
+      {
+        "ignoreImports": true,
+        "noMounts": true,
+        "path": "github.com/nusserstudios/tailbliss"
       }
     ]
   }
