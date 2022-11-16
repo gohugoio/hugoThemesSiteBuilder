@@ -308,6 +308,8 @@ github.com/canhtran/maverick v0.0.0-20221004044846-9beb6df85813 h1:38zQJaji8h4ku
 github.com/canhtran/maverick v0.0.0-20221004044846-9beb6df85813/go.mod h1:YuK6DnnmF0p8Cf5oZ4IWxZ463PtAfOlUy90d1tfCAKU=
 github.com/canhtran/maverick v0.0.0-20221104164857-b8d91b7d3791 h1:vJaW9w9F9RQ6IbuRYMEWxvMw59cmM6L57pEx0F3O1T0=
 github.com/canhtran/maverick v0.0.0-20221104164857-b8d91b7d3791/go.mod h1:YuK6DnnmF0p8Cf5oZ4IWxZ463PtAfOlUy90d1tfCAKU=
+github.com/canhtran/maverick v0.0.0-20221115162609-c04e0de69f16 h1:aTEvm4anyhzCzFys28xaAGZCC/rngFt3T7vR2BNgyts=
+github.com/canhtran/maverick v0.0.0-20221115162609-c04e0de69f16/go.mod h1:YuK6DnnmF0p8Cf5oZ4IWxZ463PtAfOlUy90d1tfCAKU=
 github.com/canstand/compost v0.5.3 h1:fdwBR2s8Ktn/Q+MT6CwRafKqKcnTfFzb7dQjLW0PmGM=
 github.com/canstand/compost v0.5.3/go.mod h1:rWAHCcWwZh44BuvsaV24HCJmX9/PbNU1BOIO8V2N5RM=
 github.com/canstand/compost v0.5.4 h1:kh8IQF+vYl9ywllltl30eo2/ruqJAhesvMv+3Xq/Ljs=
@@ -432,6 +434,8 @@ github.com/dzello/reveal-hugo v0.0.0-20220710134748-1c7822db0cf2 h1:8HLH/Bt9+oK+
 github.com/dzello/reveal-hugo v0.0.0-20220710134748-1c7822db0cf2/go.mod h1:0S5eDEdHBx8tSj8veo9lUnuJRXa8WqmpANd0Lz7CLc8=
 github.com/dzello/reveal-hugo v0.0.0-20221108090702-d5b1a17dd0f5 h1:HKX0RC/xYNuh8ezHrTYCxmJegucy88thtbL+Rc6K81o=
 github.com/dzello/reveal-hugo v0.0.0-20221108090702-d5b1a17dd0f5/go.mod h1:0S5eDEdHBx8tSj8veo9lUnuJRXa8WqmpANd0Lz7CLc8=
+github.com/dzello/reveal-hugo v0.0.0-20221115142005-be7961c06dd6 h1:voG3HCPI7trfKXzB8UTTvJ7A7EaFRIajDqQKUdTIcRM=
+github.com/dzello/reveal-hugo v0.0.0-20221115142005-be7961c06dd6/go.mod h1:0S5eDEdHBx8tSj8veo9lUnuJRXa8WqmpANd0Lz7CLc8=
 github.com/edavidaja/docter v0.2.0 h1:5sDokCJdSqvfqPIqyK+w1VISDqMu6FL78rBwp0DFsXo=
 github.com/edavidaja/docter v0.2.0/go.mod h1:g9m+41OnpMEuOmNmY4y1JfRyvB0F6a7jq++0JB1yFvA=
 github.com/eddiewebb/hugo-resume v0.0.0-20220517180440-82e71a95784f h1:NRYnDfUdrgVqnZXFtCHSurGuwRxzFS6fuYx8I/35A5k=
@@ -492,6 +496,8 @@ github.com/gevhaz/hugo-theme-notrack v0.0.0-20220727201926-3c91a56b8596 h1:R5rYs
 github.com/gevhaz/hugo-theme-notrack v0.0.0-20220727201926-3c91a56b8596/go.mod h1:x4ZvHK9D+ljqLbHYdSpdB4wiR2euhk4hSS43XUU7eAQ=
 github.com/gevhaz/hugo-theme-notrack v0.0.0-20221113233828-b111ec309304 h1:Od4n05aQFoKWic1ZZlqldoc58IeEEa2+sUbztsbHLjQ=
 github.com/gevhaz/hugo-theme-notrack v0.0.0-20221113233828-b111ec309304/go.mod h1:x4ZvHK9D+ljqLbHYdSpdB4wiR2euhk4hSS43XUU7eAQ=
+github.com/gevhaz/hugo-theme-notrack v0.0.0-20221115230557-1d092a699040 h1:3VH3Ao5wAIxvB3a00P1d6oB7LKX3B/aUTgLxpFLw760=
+github.com/gevhaz/hugo-theme-notrack v0.0.0-20221115230557-1d092a699040/go.mod h1:x4ZvHK9D+ljqLbHYdSpdB4wiR2euhk4hSS43XUU7eAQ=
 github.com/gizak/nofancy v0.0.0-20180325214227-ae4670287c71 h1:WP/ROT3hNMB3G7NNAMnUvoTesPlWjPBQ9yHUywcmix4=
 github.com/gizak/nofancy v0.0.0-20180325214227-ae4670287c71/go.mod h1:W5C0CeDBPoyL42QTduxHpNo68uiHXXdg7AFsNBp/pg8=
 github.com/gkmngrgn/hugo-alageek-theme v0.0.0-20220717235142-1279a4909d1d h1:dA0buooKsNJ+htvTm9leuUDFVp8BTmMseJvtqToggkM=
