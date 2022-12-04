@@ -9,15 +9,14 @@ A collection of themes created by the Hugo community. Builds to [themes.gohugo.i
 
 
 # Themes are removed if not up to date
-png
-The current policy is to expire a theme if not updated (version date) for the last years. Even if your theme is feature complete, it's appreciated that you check on from time to time and verify that it works with newer Hugo versions.
 
+The current policy is to expire a theme if it has not been updated (version date) for the past several years. Even if your theme is feature complete, it's appreciated that you check on it from time to time and verify that it works with newer Hugo versions.
 
 # Adding a theme to the list
 
 Create your theme using <code>hugo new theme <em>THEME_NAME</em></code>. In your theme repository:
 
-* Add a `config.toml` with supported Hugo version(s)  and `theme.toml` file to the root of the theme and add some metadata about the theme ([see below](#theme-configuration));
+* Add a `config.toml` with supported Hugo version(s), add a `theme.toml` file to the root of the theme, and add some metadata about the theme ([see below](#theme-configuration));
 * Add a descriptive `README.md` to the root of the theme ([see below](#readmemd));
 * Add `/images/screenshot.{png,jpg}` and `/images/tn.{png,jpg}` ([see below](#media)).
 
@@ -28,7 +27,7 @@ Once your theme repository is on GitHub, you can add it here.
 * Create a Pull Request and verify that the preview looks good.
 * **Note:** write a descriptive commit message title, e.g. `Add theme my-blog-theme`.
 
-Note that if the PR preview does not come up as expected (missing thumbnail image etc.), the way you currently can trigger a new preview build after you have fixed your theme is to amend your commit on your PR branch and do a force push:
+Note that if the PR preview does not come up as expected after fixing your theme (missing thumbnail image etc.), you can trigger a new preview build by amending the commit on your PR branch and doing a force push:
 
 ```bash
 git commit --amend --no-edit
@@ -88,9 +87,9 @@ Theme maintainers, please do **not** delete Git references or tags from your the
 
 ## LICENSE
 
-Themes in this repository are accepted only if they come with an Open Source license, that allows for the theme to be freely used, modified, and shared. 
+Themes in this repository are accepted only if they come with an Open Source license that allows for the theme to be freely used, modified, and shared. 
 
-To have a look at popular licenses please visit the [Open Source Initiative](https://opensource.org/licenses) website.
+To have a look at popular licenses, please visit the [Open Source Initiative](https://opensource.org/licenses) website.
 
 **Note:** When porting an existing theme from another platform to Hugo, or if you are forking another Hugo theme in order to add new features and you wish to submit the derivative work for inclusion at the Hugo Themes Showcase, you really need to make sure that the requirements of the original theme's license are met. 
 
@@ -117,14 +116,14 @@ Your theme's README file (which should be written in Markdown and called `README
 1. On your theme's details page at [themes.gohugo.io](https://themes.gohugo.io/); and
 1. At GitHub (as usual), on your theme's regular main page.
 
-To ease accessibility for international users of your theme please provide at least an English translation of the README.
+To ease accessibility for international users of your theme, please provide at least an English translation of the README.
 
-**Note:** If you add screenshots to the README please make use of absolute file paths instead of relative ones like `/images/screenshot.png`. Relative paths work great on GitHub but they don't correspond to the directory structure of [themes.gohugo.io](https://themes.gohugo.io/). Therefore, browsers will not be able to display screenshots on the theme site under the given (relative) path.
+**Note:** If you add screenshots to the README, please make use of absolute file paths instead of relative ones like `/images/screenshot.png`. Relative paths work great on GitHub, but they don't correspond to the directory structure of [themes.gohugo.io](https://themes.gohugo.io/). Therefore, browsers will not be able to display screenshots on the theme site under the given (relative) path.
 
 
 ## FAQ
 
-**Question:** My theme flagged as 'old' when it's been updated recently.
+**Question:** My theme is flagged as 'old' when it's been updated recently.
 
 **Answer:** We use Hugo Modules to manage the themes -- which is backed by Go Modules. If you have one or more tagged releases (e.g. `v1.0.0`), we will choose the last version within the current major version. To get rid of that warning you need to tag a new release and wait for us to rebuild the theme site. Note that for unversioned themes, the latest commit gets picked.
 
