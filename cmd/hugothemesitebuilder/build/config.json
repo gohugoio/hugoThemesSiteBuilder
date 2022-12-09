@@ -292,6 +292,11 @@
       {
         "ignoreImports": true,
         "noMounts": true,
+        "path": "github.com/charlola/hugo-theme-charlolamode"
+      },
+      {
+        "ignoreImports": true,
+        "noMounts": true,
         "path": "github.com/chipsenkbeil/grid-side"
       },
       {
@@ -727,12 +732,12 @@
       {
         "ignoreImports": true,
         "noMounts": true,
-        "path": "github.com/hiAndrewQuinn/hugo-plain-theme"
+        "path": "github.com/hivickylai/hugo-theme-sam"
       },
       {
         "ignoreImports": true,
         "noMounts": true,
-        "path": "github.com/hivickylai/hugo-theme-sam"
+        "path": "github.com/homecat805/hugo-theme-walden"
       },
       {
         "ignoreImports": true,
@@ -1683,6 +1688,11 @@
         "ignoreImports": true,
         "noMounts": true,
         "path": "github.com/seanlane/gochowdown"
+      },
+      {
+        "ignoreImports": true,
+        "noMounts": true,
+        "path": "github.com/sefeng211/techlab-hugo-theme"
       },
       {
         "ignoreImports": true,
