@@ -34,6 +34,8 @@ git commit --amend --no-edit
 git push -f
 ```
  
+**Note:** The site is rebuilt once a day with the themes from this repository.  Any edits/updates you make to an existing theme will be shown on the site within 24 hours.
+
 ## Theme Configuration
 
 You should have a file named `theme.toml` in the root of your theme. This file contains metadata about the theme and its creator or creators. **Only `theme.toml` is accepted, not `theme.yaml` or not `theme.json`**.
