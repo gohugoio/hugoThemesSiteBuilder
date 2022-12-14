@@ -1087,11 +1087,6 @@
       {
         "ignoreImports": true,
         "noMounts": true,
-        "path": "github.com/kongdivin/hugo-theme-okayish-blog"
-      },
-      {
-        "ignoreImports": true,
-        "noMounts": true,
         "path": "github.com/kritoke/darksimplicity"
       },
       {
