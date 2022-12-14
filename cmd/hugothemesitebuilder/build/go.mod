@@ -252,7 +252,6 @@ require (
 	github.com/knadh/hugo-ink v1.0.0 // indirect
 	github.com/knokmki612/hugo-fill-and-stroke v3.2.0+incompatible // indirect
 	github.com/koirand/pulp v0.0.0-20220808161557-8b0c59531fb0 // indirect
-	github.com/kongdivin/hugo-theme-okayish-blog v1.1.0 // indirect
 	github.com/kritoke/darksimplicity v0.3.3 // indirect
 	github.com/lasseborly/anybodyhome v0.0.0-20180409213336-13667609bc57 // indirect
 	github.com/leafee98/hugo-theme-flat v0.0.0-20221114141552-b591e1e2c041 // indirect
