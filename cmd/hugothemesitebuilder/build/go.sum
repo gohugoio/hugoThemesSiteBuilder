@@ -225,6 +225,8 @@ github.com/chaitanya4vedi/navada v0.0.0-20211223142020-aa7018bddcfc h1:YVb9h6X8W
 github.com/chaitanya4vedi/navada v0.0.0-20211223142020-aa7018bddcfc/go.mod h1:Qcogxj/K/y6J5BnujYeUxDzxo0MB8pDXjmI2QFoaizY=
 github.com/charlola/hugo-theme-charlolamode v0.0.0-20221205104506-138aace65fe3 h1:JEpsbtAOvxIutuWaturlgPafg0ELuzoSco2QEm8POXc=
 github.com/charlola/hugo-theme-charlolamode v0.0.0-20221205104506-138aace65fe3/go.mod h1:jgP6vflrEchApmDYWiBZVYGJ3kBh4CzRJ+Max6QZ3Wc=
+github.com/charlola/hugo-theme-charlolamode v0.0.0-20221215125630-d3fd3c8e3c02 h1:KAq0LY+FZaDHQ2wqpzxuHYNnLWhR6FVkxgFhXb8kIc0=
+github.com/charlola/hugo-theme-charlolamode v0.0.0-20221215125630-d3fd3c8e3c02/go.mod h1:jgP6vflrEchApmDYWiBZVYGJ3kBh4CzRJ+Max6QZ3Wc=
 github.com/chipsenkbeil/grid-side v0.0.0-20170626191754-f5251bfd15a7 h1:kw7pMVSM87tVo4EYleeV7IPeE3qBebA2QGNzayx3Ick=
 github.com/chipsenkbeil/grid-side v0.0.0-20170626191754-f5251bfd15a7/go.mod h1:qsd+T3fobEVPD8r1YA6jDiHqpsWpkvimYJuJ9llwH8M=
 github.com/chipzoller/hugo-clarity v0.0.0-20221029154452-0dcfb1a9742c h1:RdfM7q3YWnTh4Bf4V/VHCLyLteepauj72lRG9FdWVAk=
@@ -412,6 +414,8 @@ github.com/httpsecure/kembang v0.0.0-20221119020712-be8b221bf0a6 h1:l6i7EHeJ3Nco
 github.com/httpsecure/kembang v0.0.0-20221119020712-be8b221bf0a6/go.mod h1:cC8noVG+imqPMlrYXYUAUmc5OV4wpMobo59k5W0utX8=
 github.com/hugcis/hugo-astatine-theme v0.0.0-20221129185830-55db70610b3e h1:gKZZOLXxfrI+93taNFNU/48gEnyY1943oaBXhv3OmhM=
 github.com/hugcis/hugo-astatine-theme v0.0.0-20221129185830-55db70610b3e/go.mod h1:gbOEGGwov71SFNmbUwE4TN2aHFzT3GdZK1Zo5zO9hA8=
+github.com/hugcis/hugo-astatine-theme v0.0.0-20221215145215-c5b921522869 h1:5tftW+jNJpOUYnfQNub1PzcKvMeLIWRLeT2kCsmmMJE=
+github.com/hugcis/hugo-astatine-theme v0.0.0-20221215145215-c5b921522869/go.mod h1:gbOEGGwov71SFNmbUwE4TN2aHFzT3GdZK1Zo5zO9hA8=
 github.com/hugo-fixit/FixIt v0.2.16 h1:f6uCrlFwtPtkhfB8L7AbRPdMMpr/MVXvEy70qTGNzSo=
 github.com/hugo-fixit/FixIt v0.2.16/go.mod h1:3XIRedrqakO7/a4ZnhE46haMRF8HgsT0N0B5j5D2iRU=
 github.com/hugo-mods/icons v0.0.0-20211204094455-ce8763589b4a/go.mod h1:sPodUyqumOYz75PKIwmqOYZXLIcLAujn7V9+1Hk4VW8=

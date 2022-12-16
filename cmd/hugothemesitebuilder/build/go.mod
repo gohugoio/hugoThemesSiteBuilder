@@ -108,7 +108,7 @@ require (
 	github.com/cdeck3r/OneDly-Theme v1.0.7 // indirect
 	github.com/cfrome77/hugo-theme-sky v0.0.0-20220117033109-ff94be67da92 // indirect
 	github.com/chaitanya4vedi/navada v0.0.0-20211223142020-aa7018bddcfc // indirect
-	github.com/charlola/hugo-theme-charlolamode v0.0.0-20221205104506-138aace65fe3 // indirect
+	github.com/charlola/hugo-theme-charlolamode v0.0.0-20221215125630-d3fd3c8e3c02 // indirect
 	github.com/chipsenkbeil/grid-side v0.0.0-20170626191754-f5251bfd15a7 // indirect
 	github.com/chipzoller/hugo-clarity v0.0.0-20221029154452-0dcfb1a9742c // indirect
 	github.com/chollinger93/ink-free v1.3.0 // indirect
@@ -195,7 +195,7 @@ require (
 	github.com/htr3n/hyde-hyde v2.0.2+incompatible // indirect
 	github.com/httpsecure/hugo-theme-red-rose v0.0.0-20221016191510-ffd45c906689 // indirect
 	github.com/httpsecure/kembang v0.0.0-20221119020712-be8b221bf0a6 // indirect
-	github.com/hugcis/hugo-astatine-theme v0.0.0-20221129185830-55db70610b3e // indirect
+	github.com/hugcis/hugo-astatine-theme v0.0.0-20221215145215-c5b921522869 // indirect
 	github.com/hugo-fixit/FixIt v0.2.16 // indirect
 	github.com/hugo-next/hugo-theme-next v4.4.0+incompatible // indirect
 	github.com/humrochagf/colordrop v1.12.0 // indirect
