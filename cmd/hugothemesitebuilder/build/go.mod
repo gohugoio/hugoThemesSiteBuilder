@@ -34,10 +34,10 @@ require (
 	github.com/Lednerb/bilberry-hugo-theme/v3 v3.15.0 // indirect
 	github.com/LordMathis/hugo-theme-nix v0.0.0-20220120091656-084eef29e66f // indirect
 	github.com/LukasJoswiak/etch v0.0.0-20221013042144-3286754ceb4e // indirect
-	github.com/M1cR0xf7/kaslaanka v0.0.0-20221201154124-46e58a9a689c // indirect
+	github.com/M1cR0xf7/kaslaanka v0.0.0-20221216145759-15601634334b // indirect
 	github.com/MarcusVirg/forty v0.0.0-20190430033326-dccea57bd2ed // indirect
 	github.com/Masellum/hugo-theme-nostyleplease v0.0.0-20220827133946-44f8ee0b7d88 // indirect
-	github.com/McShelby/hugo-theme-relearn v0.0.0-20221214215548-62960a411396 // indirect
+	github.com/McShelby/hugo-theme-relearn v0.0.0-20221216203407-b06050e42021 // indirect
 	github.com/MeiK2333/github-style v0.0.0-20221030070900-eee158a65892 // indirect
 	github.com/Mitrichius/hugo-theme-anubis v0.0.0-20220725170731-d4ba47cd2196 // indirect
 	github.com/MunifTanjim/minimo v2.10.1+incompatible // indirect
@@ -264,7 +264,7 @@ require (
 	github.com/loveminimal/hugo-theme-virgo v0.0.0-20221201082821-588dee57339e // indirect
 	github.com/lubang/hugo-hello-programmer-theme v2.1.0+incompatible // indirect
 	github.com/lucperkins/hugo-fresh v0.0.0-20220922022354-244bcfcbdfc1 // indirect
-	github.com/luizdepra/hugo-coder v0.0.0-20221212231810-7fa76b460a7e // indirect
+	github.com/luizdepra/hugo-coder v0.0.0-20221216144924-57d7d5eb05d9 // indirect
 	github.com/lxndrblz/anatole v1.12.0 // indirect
 	github.com/marcanuy/simpleit-hugo-theme v0.0.0-20210616134837-49277e5c3be0 // indirect
 	github.com/markdumay/hugo-theme-hinode v0.7.8 // indirect
@@ -312,7 +312,7 @@ require (
 	github.com/opera7133/vnovel v0.0.0-20220630114037-d75c3ee00ce5 // indirect
 	github.com/orf/bare-hugo-theme v0.0.0-20221116223309-ecdcdf361ee1 // indirect
 	github.com/pacollins/calligraphy v0.0.0-20220703233739-2207fab30d71 // indirect
-	github.com/panr/hugo-theme-hello-friend v0.0.0-20221031072203-384687454417 // indirect
+	github.com/panr/hugo-theme-hello-friend v0.0.0-20221216213756-95a746521aa4 // indirect
 	github.com/panr/hugo-theme-terminal v0.0.0-20221209145414-1d7e65f42e01 // indirect
 	github.com/parsiya/Hugo-Octopress v0.0.0-20221111221803-b4ee5919d2d7 // indirect
 	github.com/paulmartins/hugo-digital-garden-theme v0.0.0-20221206090949-d17ca5567c0c // indirect

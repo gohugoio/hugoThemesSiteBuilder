@@ -66,6 +66,8 @@ github.com/LukasJoswiak/etch v0.0.0-20221013042144-3286754ceb4e h1:jqtIPgKKdLwiw
 github.com/LukasJoswiak/etch v0.0.0-20221013042144-3286754ceb4e/go.mod h1:tdCjHyDbi/JUH+PwT7EuRAoTu1tIrDvTQgZ5UJLNe7Q=
 github.com/M1cR0xf7/kaslaanka v0.0.0-20221201154124-46e58a9a689c h1:n1Drn7ZxWl5/8qcQprcvOwDSol/t76YIiZunsrC1UwA=
 github.com/M1cR0xf7/kaslaanka v0.0.0-20221201154124-46e58a9a689c/go.mod h1:qSvc0m3XgEHO8vjsPWHZvFoQeY3qJceQ2gEvU8hhB7I=
+github.com/M1cR0xf7/kaslaanka v0.0.0-20221216145759-15601634334b h1:hm/6p0eFlSceWgIVZui6lm+KjiwH61CJv4lZgy1g8vs=
+github.com/M1cR0xf7/kaslaanka v0.0.0-20221216145759-15601634334b/go.mod h1:qSvc0m3XgEHO8vjsPWHZvFoQeY3qJceQ2gEvU8hhB7I=
 github.com/MarcusVirg/forty v0.0.0-20190430033326-dccea57bd2ed h1:LjHYgmJraTUExON/Cg7aFSnI2kWo3zYPOMAzO2cd96Q=
 github.com/MarcusVirg/forty v0.0.0-20190430033326-dccea57bd2ed/go.mod h1:afK3GTGd/UIXHIDgpmy8MgyNo0V6yNSBozZMUyqVhj4=
 github.com/Masellum/hugo-theme-nostyleplease v0.0.0-20220827133946-44f8ee0b7d88 h1:LLRVQkx5us53Czyis3nbXhd0RU6fxJRMZKHXnMD92RU=
@@ -74,6 +76,8 @@ github.com/McShelby/hugo-theme-relearn v0.0.0-20221202194453-41582f63f0d2 h1:bKP
 github.com/McShelby/hugo-theme-relearn v0.0.0-20221202194453-41582f63f0d2/go.mod h1:DJlNSftm/1+M1YSoUQp61lRfOWc8QBBuLdVk7YiV23s=
 github.com/McShelby/hugo-theme-relearn v0.0.0-20221214215548-62960a411396 h1:VV09kmav9wZCxbbJUZdB2Z+ONaokQdc+EOhtdd5Fehs=
 github.com/McShelby/hugo-theme-relearn v0.0.0-20221214215548-62960a411396/go.mod h1:mKQQdxZNIlLvAj8X3tMq+RzntIJSr9z7XdzuMomt0IM=
+github.com/McShelby/hugo-theme-relearn v0.0.0-20221216203407-b06050e42021 h1:BBegbcR0iGMDZLYtf4lKeq6qTzBEq02U/H84yQFnzV0=
+github.com/McShelby/hugo-theme-relearn v0.0.0-20221216203407-b06050e42021/go.mod h1:mKQQdxZNIlLvAj8X3tMq+RzntIJSr9z7XdzuMomt0IM=
 github.com/MeiK2333/github-style v0.0.0-20221030070900-eee158a65892 h1:KPnOKKnc9Ix8Hnqu0qtCAkrFp/NtpAY96wYx1ZSq3Y0=
 github.com/MeiK2333/github-style v0.0.0-20221030070900-eee158a65892/go.mod h1:MDvfpZqhD/YSKR6X4f5hVUv588HxL1MVjsCTSM7ETxs=
 github.com/Mitrichius/hugo-theme-anubis v0.0.0-20220725170731-d4ba47cd2196 h1:TzahMQaJXpezO9D2iQHnifGWPUn+41IWgYNBg/wNtQE=
@@ -567,6 +571,8 @@ github.com/luizdepra/hugo-coder v0.0.0-20221130122428-266beec0d168 h1:NjJrd6q1E6
 github.com/luizdepra/hugo-coder v0.0.0-20221130122428-266beec0d168/go.mod h1:9EQBf2rU+NPjlohGuKcEgdqSeOc3tIQoOty4xPpuUQ4=
 github.com/luizdepra/hugo-coder v0.0.0-20221212231810-7fa76b460a7e h1:O8dJ2w/r6F8aFOrOMMlh+SJkrkGUCDqFNWkg5U/5a6Y=
 github.com/luizdepra/hugo-coder v0.0.0-20221212231810-7fa76b460a7e/go.mod h1:9EQBf2rU+NPjlohGuKcEgdqSeOc3tIQoOty4xPpuUQ4=
+github.com/luizdepra/hugo-coder v0.0.0-20221216144924-57d7d5eb05d9 h1:dk8JyiAiLTXDYtlTlDSxe/DV6C79MZCobP6CV5fCEcw=
+github.com/luizdepra/hugo-coder v0.0.0-20221216144924-57d7d5eb05d9/go.mod h1:9EQBf2rU+NPjlohGuKcEgdqSeOc3tIQoOty4xPpuUQ4=
 github.com/lxndrblz/anatole v1.12.0 h1:+3cmraXdZTcUwzW4wVB/hLeQOyZOIUZOXtxnY7vcCf8=
 github.com/lxndrblz/anatole v1.12.0/go.mod h1:hy61SRyUDKaWw2P+cERt9UPde5guWyVKgtjdzRF5bfI=
 github.com/marcanuy/simpleit-hugo-theme v0.0.0-20210616134837-49277e5c3be0 h1:n7FsJhxX9nABeTlayuJsnJc2gbTYZhaLPz/q9k4Qov8=
@@ -674,6 +680,8 @@ github.com/pacollins/calligraphy v0.0.0-20220703233739-2207fab30d71 h1:3tvSwILSs
 github.com/pacollins/calligraphy v0.0.0-20220703233739-2207fab30d71/go.mod h1:TGukM9TjSu05OXPkuzM22wP9IvFqnh6MQZE10j5B2Hk=
 github.com/panr/hugo-theme-hello-friend v0.0.0-20221031072203-384687454417 h1:B307DX2DNTF9Ujy+rEfSAbkgG5xDtzW2/iIta2ZkZzY=
 github.com/panr/hugo-theme-hello-friend v0.0.0-20221031072203-384687454417/go.mod h1:JIa0X0X//YWawD537HytHDdYUhl4TtOMRx+HCMJXEc4=
+github.com/panr/hugo-theme-hello-friend v0.0.0-20221216213756-95a746521aa4 h1:rqEHbG6X/lMkbdIGRE5hkKf9BsMvzgUI7GuKyCQM2DQ=
+github.com/panr/hugo-theme-hello-friend v0.0.0-20221216213756-95a746521aa4/go.mod h1:JIa0X0X//YWawD537HytHDdYUhl4TtOMRx+HCMJXEc4=
 github.com/panr/hugo-theme-terminal v0.0.0-20221121074827-007d7f3df65d h1:/jm7YhKBSXTmPHPHWUjB8XP5SAmECva/dY6WFvPrEoc=
 github.com/panr/hugo-theme-terminal v0.0.0-20221121074827-007d7f3df65d/go.mod h1:rl66QefAPr/ZSyEFGqukIUV6S1TVjWSxAVpx/GHeJOs=
 github.com/panr/hugo-theme-terminal v0.0.0-20221209145414-1d7e65f42e01 h1:JDzkdGAOGuVjuxVXMchp/BC1c9EMob6TLFi9+OXCqpc=
