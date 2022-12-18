@@ -189,7 +189,7 @@ require (
 	github.com/heksagonnet/piko v0.0.0-20221207230337-0ff4e2c05cdd // indirect
 	github.com/heyeshuang/hugo-theme-tokiwa v0.0.0-20221105132709-3c7c9372cb65 // indirect
 	github.com/hivickylai/hugo-theme-sam v4.0.2+incompatible // indirect
-	github.com/homecat805/hugo-theme-walden v0.0.0-20221205052417-c63e2209652e // indirect
+	github.com/homecat805/hugo-theme-walden v0.0.0-20221217120034-ba641dde4856 // indirect
 	github.com/hootan09/simple-cv v0.0.0-20220526085510-32a2ca6f372b // indirect
 	github.com/hossainemruz/toha v3.7.0+incompatible // indirect
 	github.com/htr3n/hyde-hyde v2.0.2+incompatible // indirect
