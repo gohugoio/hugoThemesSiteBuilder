@@ -197,6 +197,8 @@ github.com/boratanrikulu/eternity v0.0.0-20221130004623-1b26201a285d h1:UTGaLCIJ
 github.com/boratanrikulu/eternity v0.0.0-20221130004623-1b26201a285d/go.mod h1:oTxriBGTETn/Saurq+nI5noIRiNG4/kpBMiroG2qgoM=
 github.com/boratanrikulu/eternity v0.0.0-20221206191637-bd989fc70850 h1:bvQhKI0QuwX0XhDwW3VH8Gsu0bxjMvbsu0cQ3jtdd5o=
 github.com/boratanrikulu/eternity v0.0.0-20221206191637-bd989fc70850/go.mod h1:oTxriBGTETn/Saurq+nI5noIRiNG4/kpBMiroG2qgoM=
+github.com/boratanrikulu/eternity v0.0.0-20221218132850-6d6d95fb1218 h1:FDPhzZ2KzsrMkZTdQ46m98CS2i7sMzDxtw2iNTESSxI=
+github.com/boratanrikulu/eternity v0.0.0-20221218132850-6d6d95fb1218/go.mod h1:oTxriBGTETn/Saurq+nI5noIRiNG4/kpBMiroG2qgoM=
 github.com/brycematheson/allegiant v0.0.0-20161024030126-4db3e8fe3a01 h1:HV/QUp8P/7mVJLFMAkhQ6CoNr5/SalGxU0p9hJEc/LA=
 github.com/brycematheson/allegiant v0.0.0-20161024030126-4db3e8fe3a01/go.mod h1:n4s7O9CIJgRlnvJFHr2L5asHj3ITIEUjdfVBGZAInBk=
 github.com/bul-ikana/hugo-cards v0.0.0-20211031232746-55e303495347 h1:UHhqtMNM8NBvnjrDvZ+rcGkbylFMLmSg9Vidl3i2DJo=
@@ -916,6 +918,8 @@ github.com/wowchemy/starter-hugo-academic v0.0.0-20221127215757-a8e14c1488e0 h1:
 github.com/wowchemy/starter-hugo-academic v0.0.0-20221127215757-a8e14c1488e0/go.mod h1:flNr8gC0J4XDkGrPOqi7aRZaAh10p/lnBc1o134yYKU=
 github.com/wowchemy/starter-hugo-academic v0.0.0-20221211014525-24e5eed4ecf2 h1:thOwejAhYuoZhjjdJp111edbmPk0tSbW+dDbu1gH/U0=
 github.com/wowchemy/starter-hugo-academic v0.0.0-20221211014525-24e5eed4ecf2/go.mod h1:flNr8gC0J4XDkGrPOqi7aRZaAh10p/lnBc1o134yYKU=
+github.com/wowchemy/starter-hugo-academic v0.0.0-20221218013307-b1db97bc2e25 h1:aNKoCTk/8h7E2DUBsESfGUQOk+yjxgHFETzyUrPnmMI=
+github.com/wowchemy/starter-hugo-academic v0.0.0-20221218013307-b1db97bc2e25/go.mod h1:flNr8gC0J4XDkGrPOqi7aRZaAh10p/lnBc1o134yYKU=
 github.com/wowchemy/wowchemy-hugo-themes/modules/wowchemy-core v0.1.0/go.mod h1:kJwI9H8dicHQCnP8G9EvUDI+oNg/yXcGsjGjwjXuM8I=
 github.com/wowchemy/wowchemy-hugo-themes/modules/wowchemy-plugin-netlify v1.0.0/go.mod h1:s40UgLsWfVyCLQ2F4F3dBcNfZOXcPGld7KxsKhZdzvM=
 github.com/wowchemy/wowchemy-hugo-themes/modules/wowchemy-plugin-netlify-cms v1.0.0/go.mod h1:X1mETJo6Lkv9tEgfU0UYFRiRInf0RbgW+s1RKXB4GMA=
