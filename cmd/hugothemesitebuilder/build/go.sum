@@ -60,6 +60,8 @@ github.com/Lednerb/bilberry-hugo-theme/v3 v3.14.0 h1:4kahS1hSN/txeL2J9MzsEqidz52
 github.com/Lednerb/bilberry-hugo-theme/v3 v3.14.0/go.mod h1:ERTLq/0yIBb0jN0Dh+w5G4wCp9TrB0JY86+Zh+26Dkg=
 github.com/Lednerb/bilberry-hugo-theme/v3 v3.15.0 h1:HPFP1qgRwm43uKBKURT1EFJYCAtgLtd446g6/yVYlNw=
 github.com/Lednerb/bilberry-hugo-theme/v3 v3.15.0/go.mod h1:ERTLq/0yIBb0jN0Dh+w5G4wCp9TrB0JY86+Zh+26Dkg=
+github.com/Lednerb/bilberry-hugo-theme/v3 v3.16.0 h1:WKP0yqhqqo2zxe1G1KCwTPDqkU0PWNb4BIOUovdaOnE=
+github.com/Lednerb/bilberry-hugo-theme/v3 v3.16.0/go.mod h1:ERTLq/0yIBb0jN0Dh+w5G4wCp9TrB0JY86+Zh+26Dkg=
 github.com/LordMathis/hugo-theme-nix v0.0.0-20220120091656-084eef29e66f h1:gIT+xJbMF4DXPCOicc3x1yc4LeJHLnbzUzHLp+FPC8k=
 github.com/LordMathis/hugo-theme-nix v0.0.0-20220120091656-084eef29e66f/go.mod h1:gNBtSKD6958hUOyfSq/DPk6sancXDm9u/ftQGr03Nf8=
 github.com/LukasJoswiak/etch v0.0.0-20221013042144-3286754ceb4e h1:jqtIPgKKdLwiwNtmvZqlSJGjwa1lZphDap7p0H+Y0ic=
@@ -68,6 +70,8 @@ github.com/M1cR0xf7/kaslaanka v0.0.0-20221201154124-46e58a9a689c h1:n1Drn7ZxWl5/
 github.com/M1cR0xf7/kaslaanka v0.0.0-20221201154124-46e58a9a689c/go.mod h1:qSvc0m3XgEHO8vjsPWHZvFoQeY3qJceQ2gEvU8hhB7I=
 github.com/M1cR0xf7/kaslaanka v0.0.0-20221216145759-15601634334b h1:hm/6p0eFlSceWgIVZui6lm+KjiwH61CJv4lZgy1g8vs=
 github.com/M1cR0xf7/kaslaanka v0.0.0-20221216145759-15601634334b/go.mod h1:qSvc0m3XgEHO8vjsPWHZvFoQeY3qJceQ2gEvU8hhB7I=
+github.com/M1cR0xf7/kaslaanka v0.0.0-20221218173242-2b7b4834ab94 h1:rsy1kX0mMwjz/NgSvWcuUYCpWBNc/W6+gHwIzksyjNk=
+github.com/M1cR0xf7/kaslaanka v0.0.0-20221218173242-2b7b4834ab94/go.mod h1:qSvc0m3XgEHO8vjsPWHZvFoQeY3qJceQ2gEvU8hhB7I=
 github.com/MarcusVirg/forty v0.0.0-20190430033326-dccea57bd2ed h1:LjHYgmJraTUExON/Cg7aFSnI2kWo3zYPOMAzO2cd96Q=
 github.com/MarcusVirg/forty v0.0.0-20190430033326-dccea57bd2ed/go.mod h1:afK3GTGd/UIXHIDgpmy8MgyNo0V6yNSBozZMUyqVhj4=
 github.com/Masellum/hugo-theme-nostyleplease v0.0.0-20220827133946-44f8ee0b7d88 h1:LLRVQkx5us53Czyis3nbXhd0RU6fxJRMZKHXnMD92RU=
@@ -692,6 +696,8 @@ github.com/panr/hugo-theme-terminal v0.0.0-20221209145414-1d7e65f42e01 h1:JDzkdG
 github.com/panr/hugo-theme-terminal v0.0.0-20221209145414-1d7e65f42e01/go.mod h1:rl66QefAPr/ZSyEFGqukIUV6S1TVjWSxAVpx/GHeJOs=
 github.com/parsiya/Hugo-Octopress v0.0.0-20221111221803-b4ee5919d2d7 h1:r3miqA3uyjjsIjcS+3vmWSpLHx8gRP7OzF3vXmjowBc=
 github.com/parsiya/Hugo-Octopress v0.0.0-20221111221803-b4ee5919d2d7/go.mod h1:D0LXeujvveqza350hX2GgkJlf2s4ddLTC7Bg6r+5TzI=
+github.com/parsiya/Hugo-Octopress v0.0.0-20221218202713-bdbfaa5ecbe4 h1:kAILw58dcRSIiCmutIeKMd7SWUQprlgZgsskRbjHiws=
+github.com/parsiya/Hugo-Octopress v0.0.0-20221218202713-bdbfaa5ecbe4/go.mod h1:D0LXeujvveqza350hX2GgkJlf2s4ddLTC7Bg6r+5TzI=
 github.com/paulmartins/hugo-digital-garden-theme v0.0.0-20220907210618-2a1370c27a11 h1:Ms+3DAQ1gqFjmyU74EfplQefkWHfYe0j7JBJDOyzY7M=
 github.com/paulmartins/hugo-digital-garden-theme v0.0.0-20220907210618-2a1370c27a11/go.mod h1:rnay3VnA0z7WHFjIPEYhfqqet/qhyaohVtnwQ4e7djY=
 github.com/paulmartins/hugo-digital-garden-theme v0.0.0-20221206090949-d17ca5567c0c h1:IooFuGlrYXwKeSdMbG8mDKHTIqeZmoBIjSvfN6UAua4=
