@@ -2,7 +2,7 @@
 baseurl = "https://themes.gohugo.io/"
 languageCode = "en-us"
 title = "Hugo Themes"
-googleAnalytics = "UA-7131036-4"
+googleAnalytics = "G-MBZGKNMDWC"
 disableKinds = ["taxonomyTerm"]
 
 [security]
