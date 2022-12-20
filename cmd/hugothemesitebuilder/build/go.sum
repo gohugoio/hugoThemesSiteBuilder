@@ -203,6 +203,8 @@ github.com/boratanrikulu/eternity v0.0.0-20221206191637-bd989fc70850 h1:bvQhKI0Q
 github.com/boratanrikulu/eternity v0.0.0-20221206191637-bd989fc70850/go.mod h1:oTxriBGTETn/Saurq+nI5noIRiNG4/kpBMiroG2qgoM=
 github.com/boratanrikulu/eternity v0.0.0-20221218132850-6d6d95fb1218 h1:FDPhzZ2KzsrMkZTdQ46m98CS2i7sMzDxtw2iNTESSxI=
 github.com/boratanrikulu/eternity v0.0.0-20221218132850-6d6d95fb1218/go.mod h1:oTxriBGTETn/Saurq+nI5noIRiNG4/kpBMiroG2qgoM=
+github.com/boratanrikulu/eternity v0.0.0-20221219144740-0a7ce2775286 h1:shdH4BLoDLucWVQfmWWhOiIzIoApOs2yCH3zXL+Y/Ac=
+github.com/boratanrikulu/eternity v0.0.0-20221219144740-0a7ce2775286/go.mod h1:oTxriBGTETn/Saurq+nI5noIRiNG4/kpBMiroG2qgoM=
 github.com/brycematheson/allegiant v0.0.0-20161024030126-4db3e8fe3a01 h1:HV/QUp8P/7mVJLFMAkhQ6CoNr5/SalGxU0p9hJEc/LA=
 github.com/brycematheson/allegiant v0.0.0-20161024030126-4db3e8fe3a01/go.mod h1:n4s7O9CIJgRlnvJFHr2L5asHj3ITIEUjdfVBGZAInBk=
 github.com/bul-ikana/hugo-cards v0.0.0-20211031232746-55e303495347 h1:UHhqtMNM8NBvnjrDvZ+rcGkbylFMLmSg9Vidl3i2DJo=
@@ -241,6 +243,8 @@ github.com/chipsenkbeil/grid-side v0.0.0-20170626191754-f5251bfd15a7 h1:kw7pMVSM
 github.com/chipsenkbeil/grid-side v0.0.0-20170626191754-f5251bfd15a7/go.mod h1:qsd+T3fobEVPD8r1YA6jDiHqpsWpkvimYJuJ9llwH8M=
 github.com/chipzoller/hugo-clarity v0.0.0-20221029154452-0dcfb1a9742c h1:RdfM7q3YWnTh4Bf4V/VHCLyLteepauj72lRG9FdWVAk=
 github.com/chipzoller/hugo-clarity v0.0.0-20221029154452-0dcfb1a9742c/go.mod h1:v1JkaKdcLRibyUCalLP2CNeFo6FGzfd4ipEr4dK0+Zg=
+github.com/chipzoller/hugo-clarity v0.0.0-20221219095307-1d7940986aaf h1:E5hGg6CfaiXwBA3IDGE0blqI3kbQJ3r5c5u705aVVdM=
+github.com/chipzoller/hugo-clarity v0.0.0-20221219095307-1d7940986aaf/go.mod h1:v1JkaKdcLRibyUCalLP2CNeFo6FGzfd4ipEr4dK0+Zg=
 github.com/chollinger93/ink-free v1.3.0 h1:uzLs2YLZjT0ryC307aEVacKepQp6bPCt11+fpuz0RkA=
 github.com/chollinger93/ink-free v1.3.0/go.mod h1:diBe+tAKd0iKdV9QCk8+GRlS7VqfGU9mxgvCk8JFB7A=
 github.com/chringel21/chringel-hugo-theme v1.3.1 h1:G3L72hGaMhf5531QBXoXmOJP5fL5grZ2pxlTmDHNxKg=
@@ -414,6 +418,8 @@ github.com/homecat805/hugo-theme-walden v0.0.0-20221205052417-c63e2209652e h1:HX
 github.com/homecat805/hugo-theme-walden v0.0.0-20221205052417-c63e2209652e/go.mod h1:lsV8/eE0HXBNB6P/dx0fdSjkzCpmp/gNP87xTdvF8zg=
 github.com/homecat805/hugo-theme-walden v0.0.0-20221217120034-ba641dde4856 h1:rdG76/6ypiCtYVoHe9Qp/PRJpG5zUthpljYj3OPutjQ=
 github.com/homecat805/hugo-theme-walden v0.0.0-20221217120034-ba641dde4856/go.mod h1:lsV8/eE0HXBNB6P/dx0fdSjkzCpmp/gNP87xTdvF8zg=
+github.com/homecat805/hugo-theme-walden v0.0.0-20221219081005-d81771fd2935 h1:wLbvHRdoiVXIx4k2o9AN7zgAMjsQ9i4qzNG24FHIhGs=
+github.com/homecat805/hugo-theme-walden v0.0.0-20221219081005-d81771fd2935/go.mod h1:lsV8/eE0HXBNB6P/dx0fdSjkzCpmp/gNP87xTdvF8zg=
 github.com/hootan09/simple-cv v0.0.0-20220526085510-32a2ca6f372b h1:kNoknmQeUgLxGscE/ld5OCfTTHb6V9RGUiDGZzinkEw=
 github.com/hootan09/simple-cv v0.0.0-20220526085510-32a2ca6f372b/go.mod h1:S0p2zxIK4BBgzVpJ+Y2Wa8VGXBa5SrMxdHhK7meijZg=
 github.com/hossainemruz/toha v3.7.0+incompatible h1:RX8n8PoC3kc9TrAsbVHuKYkg9AiOrpNBCrWEDRbw2nc=
@@ -698,6 +704,8 @@ github.com/parsiya/Hugo-Octopress v0.0.0-20221111221803-b4ee5919d2d7 h1:r3miqA3u
 github.com/parsiya/Hugo-Octopress v0.0.0-20221111221803-b4ee5919d2d7/go.mod h1:D0LXeujvveqza350hX2GgkJlf2s4ddLTC7Bg6r+5TzI=
 github.com/parsiya/Hugo-Octopress v0.0.0-20221218202713-bdbfaa5ecbe4 h1:kAILw58dcRSIiCmutIeKMd7SWUQprlgZgsskRbjHiws=
 github.com/parsiya/Hugo-Octopress v0.0.0-20221218202713-bdbfaa5ecbe4/go.mod h1:D0LXeujvveqza350hX2GgkJlf2s4ddLTC7Bg6r+5TzI=
+github.com/parsiya/Hugo-Octopress v0.0.0-20221219053230-1caca7a0f0be h1:/YeQ/hVw2R6tW6aartaSZaXFAY5OI4uVPwpNJK/pWM8=
+github.com/parsiya/Hugo-Octopress v0.0.0-20221219053230-1caca7a0f0be/go.mod h1:D0LXeujvveqza350hX2GgkJlf2s4ddLTC7Bg6r+5TzI=
 github.com/paulmartins/hugo-digital-garden-theme v0.0.0-20220907210618-2a1370c27a11 h1:Ms+3DAQ1gqFjmyU74EfplQefkWHfYe0j7JBJDOyzY7M=
 github.com/paulmartins/hugo-digital-garden-theme v0.0.0-20220907210618-2a1370c27a11/go.mod h1:rnay3VnA0z7WHFjIPEYhfqqet/qhyaohVtnwQ4e7djY=
 github.com/paulmartins/hugo-digital-garden-theme v0.0.0-20221206090949-d17ca5567c0c h1:IooFuGlrYXwKeSdMbG8mDKHTIqeZmoBIjSvfN6UAua4=
@@ -831,6 +839,8 @@ github.com/splch/hugo-simplecss v0.0.0-20220426050908-aa5090af89a9 h1:M6frFQ8HIf
 github.com/splch/hugo-simplecss v0.0.0-20220426050908-aa5090af89a9/go.mod h1:DOeFDj1vqZ3uHPORWAN0e3dtR5WHnjfSEFGFzGWZ9rQ=
 github.com/spookey/slick v0.4.0 h1:EHKO2Jfr5jd2PcSt6VbfLOpmXr01FEJBvMvH9luut3k=
 github.com/spookey/slick v0.4.0/go.mod h1:FjK95yi7ngLzxrAwXyKALJf4hRgJ9fNlk0anzM6gAKE=
+github.com/spookey/slick v0.4.1 h1:1tqR1LCDhEA1tEwvZ+qg98z6qJd8OfbSAdkNLDb55no=
+github.com/spookey/slick v0.4.1/go.mod h1:FjK95yi7ngLzxrAwXyKALJf4hRgJ9fNlk0anzM6gAKE=
 github.com/st-wong/hugo-spectre-pixel-theme v0.0.0-20191012073037-219ea80b9785 h1:ab4KBf8ZxB8YQSHxIQALML9jcy7vt8SKkNUFMSrQLNg=
 github.com/st-wong/hugo-spectre-pixel-theme v0.0.0-20191012073037-219ea80b9785/go.mod h1:vGgz+OGcEUuPL78XN2uu9AKvmlgt/ES0UbD8aI9+PG0=
 github.com/sudorook/capsule v0.6.1 h1:GvYUbMOzJxOnKuURECXpnO/uKiMgLnkEgqwbntXcG/g=
