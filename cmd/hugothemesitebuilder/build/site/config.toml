@@ -11,7 +11,7 @@ enableInlineShortcodes = false
 allow = ['^dart-sass-embedded$', '^go$', '^npx$', '^postcss$']
 osEnv = ['(?i)^(PATH|PATHEXT|APPDATA|TMP|TEMP|TERM)$']
 [security.funcs]
-getenv = ['^HUGO_', 'REPOSITORY_URL']
+getenv = ['^HUGO_', 'REPOSITORY_URL', 'BRANCH']
 [security.http]
 # Disallow all HTTP for now.
 
