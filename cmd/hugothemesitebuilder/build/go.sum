@@ -141,6 +141,8 @@ github.com/achary/engimo v2.10.1+incompatible h1:aJ4BH3/Vu1iyMlJGnYX2p383dHMoKF6
 github.com/achary/engimo v2.10.1+incompatible/go.mod h1:r+jpzcnWmRDOxnUrgTn1YfOIhCcSIb6E+Jxtn8NXJkg=
 github.com/adityatelange/hugo-PaperMod v0.0.0-20221112073733-4bd96d62719b h1:qVMvCj2yHk9oXrUSKmgtF1H4OiKE9unXClYnhMLOUHA=
 github.com/adityatelange/hugo-PaperMod v0.0.0-20221112073733-4bd96d62719b/go.mod h1:HCHxNMKYdGafUYjVV3ICiAqznZK2yH0iI53jqcDFDdQ=
+github.com/adityatelange/hugo-PaperMod v0.0.0-20221220154351-5ca2d2953799 h1:1FxOAUqNO3We6XScIaGlSJB4kUrHMwHRYgdNa5iXAH8=
+github.com/adityatelange/hugo-PaperMod v0.0.0-20221220154351-5ca2d2953799/go.mod h1:HCHxNMKYdGafUYjVV3ICiAqznZK2yH0iI53jqcDFDdQ=
 github.com/aerohub/hugo-faq-theme v0.0.0-20161016225807-e6ed082c15bc h1:U7NZzqVuAs73vHEkpDxvypyk5v/jKxtT2neVUXxN5aY=
 github.com/aerohub/hugo-faq-theme v0.0.0-20161016225807-e6ed082c15bc/go.mod h1:EedoO5hm5mrYswWcGuitAoikrhYrNkyx70d28VeVRAI=
 github.com/aerohub/hugo-identity-theme v0.0.0-20171209130528-ca4e10de2297 h1:gYjk3ZXeWSNT94ZoigTzc8hKkxdFodKmxQ4ztER6JN4=
@@ -221,6 +223,8 @@ github.com/capnfabs/paperesque v0.0.0-20221127170819-f86f304fc056 h1:KMyD1bnfR+X
 github.com/capnfabs/paperesque v0.0.0-20221127170819-f86f304fc056/go.mod h1:esZ0bM9RpwRG2I71ZuSv7NuS2OsYf5t7iMLbxYKAmCE=
 github.com/capnfabs/paperesque v0.0.0-20221204204228-d2af06f91a3d h1:RNd0gokV5gsdpQMu8S7eYem2hZzTbph6AxhBNR780Ko=
 github.com/capnfabs/paperesque v0.0.0-20221204204228-d2af06f91a3d/go.mod h1:esZ0bM9RpwRG2I71ZuSv7NuS2OsYf5t7iMLbxYKAmCE=
+github.com/capnfabs/paperesque v0.0.0-20221220094621-05363451bc7d h1:z8DI+5gwA0s5LZx4qZrOcmfaWt1ecnFC6HQjqQjt+vo=
+github.com/capnfabs/paperesque v0.0.0-20221220094621-05363451bc7d/go.mod h1:esZ0bM9RpwRG2I71ZuSv7NuS2OsYf5t7iMLbxYKAmCE=
 github.com/caressofsteel/hugo-story v0.0.0-20221003165358-d21ca45c4715 h1:kyXcuTvILWK3WunxNTgNd/6y9TCQEXy3oATb6txQ4eY=
 github.com/caressofsteel/hugo-story v0.0.0-20221003165358-d21ca45c4715/go.mod h1:hC6+sKf4FuYZ8t9krDb//men0iVi+0bZnYFteVpVYKk=
 github.com/carsonip/hugo-theme-minos v0.0.0-20210404151835-ebac3b34438e h1:J4D8BLE7MXDhymBGf9fm0YbAjk27ysKrHEq8QYqjDHw=
@@ -928,6 +932,8 @@ github.com/willfaught/paige v0.15.0 h1:G6lhbPtyyTuXsQ0dMmsNFwkDfVKlGId9Lup+afBz1
 github.com/willfaught/paige v0.15.0/go.mod h1:0Nt8ifl7UVYQIBaMtpZmg+BrQHHzFNqKcrBoA2Oo4/E=
 github.com/willfaught/paige v0.21.0 h1:PPsT8qQVifh7X8ka3GEips6BLVGIRS4QwxRaFb8Nwjs=
 github.com/willfaught/paige v0.21.0/go.mod h1:0Nt8ifl7UVYQIBaMtpZmg+BrQHHzFNqKcrBoA2Oo4/E=
+github.com/willfaught/paige v0.23.3 h1:6jbBmuA4CLQIsAnPL9HltzX8C8+moWQWIQyud2ZL54I=
+github.com/willfaught/paige v0.23.3/go.mod h1:0Nt8ifl7UVYQIBaMtpZmg+BrQHHzFNqKcrBoA2Oo4/E=
 github.com/wlh320/hugo-theme-hulga v0.0.0-20221106071311-0487d9d1a45c h1:bq5mOJZ30Fo3+7wNK06EAICIbBBe/NXEJHNJQXewkaQ=
 github.com/wlh320/hugo-theme-hulga v0.0.0-20221106071311-0487d9d1a45c/go.mod h1:erdTksWjSdnpLpgqvRzmDjpt/VI0OsX4FKnqCcINyR0=
 github.com/wowchemy/starter-hugo-academic v0.0.0-20221127215757-a8e14c1488e0 h1:4c+QrlG/JHpzYA0jKdwK+BAscj5zdNZP9nJCkDPaVL4=
