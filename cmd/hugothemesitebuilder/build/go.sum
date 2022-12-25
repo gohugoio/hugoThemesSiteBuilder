@@ -149,6 +149,8 @@ github.com/adityatelange/hugo-PaperMod v0.0.0-20221112073733-4bd96d62719b h1:qVM
 github.com/adityatelange/hugo-PaperMod v0.0.0-20221112073733-4bd96d62719b/go.mod h1:HCHxNMKYdGafUYjVV3ICiAqznZK2yH0iI53jqcDFDdQ=
 github.com/adityatelange/hugo-PaperMod v0.0.0-20221220154351-5ca2d2953799 h1:1FxOAUqNO3We6XScIaGlSJB4kUrHMwHRYgdNa5iXAH8=
 github.com/adityatelange/hugo-PaperMod v0.0.0-20221220154351-5ca2d2953799/go.mod h1:HCHxNMKYdGafUYjVV3ICiAqznZK2yH0iI53jqcDFDdQ=
+github.com/adityatelange/hugo-PaperMod v0.0.0-20221224152110-d3d90be8a4ea h1:Oh7CmQcvzhhNV4vJy9pXHP4SJoEPg0FVOIP73VwJR5Q=
+github.com/adityatelange/hugo-PaperMod v0.0.0-20221224152110-d3d90be8a4ea/go.mod h1:HCHxNMKYdGafUYjVV3ICiAqznZK2yH0iI53jqcDFDdQ=
 github.com/aerohub/hugo-faq-theme v0.0.0-20161016225807-e6ed082c15bc h1:U7NZzqVuAs73vHEkpDxvypyk5v/jKxtT2neVUXxN5aY=
 github.com/aerohub/hugo-faq-theme v0.0.0-20161016225807-e6ed082c15bc/go.mod h1:EedoO5hm5mrYswWcGuitAoikrhYrNkyx70d28VeVRAI=
 github.com/aerohub/hugo-identity-theme v0.0.0-20171209130528-ca4e10de2297 h1:gYjk3ZXeWSNT94ZoigTzc8hKkxdFodKmxQ4ztER6JN4=
@@ -438,6 +440,8 @@ github.com/homecat805/hugo-theme-walden v0.0.0-20221219081005-d81771fd2935 h1:wL
 github.com/homecat805/hugo-theme-walden v0.0.0-20221219081005-d81771fd2935/go.mod h1:lsV8/eE0HXBNB6P/dx0fdSjkzCpmp/gNP87xTdvF8zg=
 github.com/homecat805/hugo-theme-walden v0.0.0-20221223102654-6b24fd6a0c77 h1:KVnnigsCXO5CpWVOQE16GUsbXh5iif0kdZyhXAgaRgI=
 github.com/homecat805/hugo-theme-walden v0.0.0-20221223102654-6b24fd6a0c77/go.mod h1:lsV8/eE0HXBNB6P/dx0fdSjkzCpmp/gNP87xTdvF8zg=
+github.com/homecat805/hugo-theme-walden v0.0.0-20221224061339-d4634bd9e326 h1:zKrJITVb1AF7DhOoePmuSqnYYA8AL8x6kX2hRehOp6k=
+github.com/homecat805/hugo-theme-walden v0.0.0-20221224061339-d4634bd9e326/go.mod h1:lsV8/eE0HXBNB6P/dx0fdSjkzCpmp/gNP87xTdvF8zg=
 github.com/hootan09/simple-cv v0.0.0-20220526085510-32a2ca6f372b h1:kNoknmQeUgLxGscE/ld5OCfTTHb6V9RGUiDGZzinkEw=
 github.com/hootan09/simple-cv v0.0.0-20220526085510-32a2ca6f372b/go.mod h1:S0p2zxIK4BBgzVpJ+Y2Wa8VGXBa5SrMxdHhK7meijZg=
 github.com/hossainemruz/toha v3.7.0+incompatible h1:RX8n8PoC3kc9TrAsbVHuKYkg9AiOrpNBCrWEDRbw2nc=
@@ -659,6 +663,8 @@ github.com/mrmierzejewski/hugo-theme-console v0.0.0-20220330115610-7e98cbce03d4 
 github.com/mrmierzejewski/hugo-theme-console v0.0.0-20220330115610-7e98cbce03d4/go.mod h1:N65e0/XqC5/oKjv5TpwNFi88vAgMDUZfnGU4sf7KRkQ=
 github.com/nanxiaobei/hugo-paper v0.0.0-20221116141033-3ecf91dda966 h1:MZY5gsJ986rpXv7ikFxFalfTzyECWm9mvo1rTPHS1ME=
 github.com/nanxiaobei/hugo-paper v0.0.0-20221116141033-3ecf91dda966/go.mod h1:CeRgawh+WFgm29TC2yGTPy9CAWkQaUABYejSFQDmL28=
+github.com/nanxiaobei/hugo-paper v0.0.0-20221224220644-40b26fcd68b3 h1:qaHBiDdQ+c/n2EGm/cB7jGHWdoNNM7QBK/YUGIK9jPQ=
+github.com/nanxiaobei/hugo-paper v0.0.0-20221224220644-40b26fcd68b3/go.mod h1:CeRgawh+WFgm29TC2yGTPy9CAWkQaUABYejSFQDmL28=
 github.com/nanxstats/hugo-tanka v0.0.0-20210707221939-9bec4eba33e5 h1:ArKJMwXbgVVeIhpHxuDES/IoftMzOlk4mMB0tYHmUsY=
 github.com/nanxstats/hugo-tanka v0.0.0-20210707221939-9bec4eba33e5/go.mod h1:MpW+xmCZzgJK5cTtN7/k+nKAKSU7IR8Y3Y7Vt7rdm0c=
 github.com/naro143/hugo-coder-portfolio v0.0.0-20200903083500-255d92337c07 h1:sJcQpPI0wm1zKeX38i/A1RmpPGIN9c4YPMuOTek1woY=
@@ -669,6 +675,8 @@ github.com/nathancday/min_night v0.0.4 h1:KMLwD9pzQLa3rw4Yf7qHkuiG9rzSK65o9ZBt4D
 github.com/nathancday/min_night v0.0.4/go.mod h1:NEujhXm/vGaMMQqlG+mOc7vikL1PUPotPOC/fWpzMRw=
 github.com/negrel/hugo-theme-pico v0.0.0-20220816143425-0f479f09c8c2 h1:ceK6l9d+5rp+p8llZ2XT4iKDS0y5M27lT7DNwDt5IwY=
 github.com/negrel/hugo-theme-pico v0.0.0-20220816143425-0f479f09c8c2/go.mod h1:F+ajoXGGIAThW+0Xu17oY7QrBfv6TnHr9DyYLD4fhxI=
+github.com/negrel/hugo-theme-pico v0.0.0-20221224210644-3ac834c577d3 h1:uWfCjJ4WpeSrQZxSt+1J+HKdmwKuU1YPS4Im1hQmFBo=
+github.com/negrel/hugo-theme-pico v0.0.0-20221224210644-3ac834c577d3/go.mod h1:F+ajoXGGIAThW+0Xu17oY7QrBfv6TnHr9DyYLD4fhxI=
 github.com/nightswinger/hugo-theme-coyote v1.0.1 h1:w3InS07vviIDwrbAfu9LubfbT57fLs2CqS22uI/d4Ek=
 github.com/nightswinger/hugo-theme-coyote v1.0.1/go.mod h1:s/6YLrlqVrsSb5cli1GQjQ/bYfwyNlIg8vcuXT37acw=
 github.com/niklasbuschmann/contrast-hugo v0.0.0-20210313140659-9b3ec3d0243d h1:/C/SBnlNSDmtO/NomZamb1QSfMAouNG9/oqtUx45TvQ=
