@@ -90,6 +90,8 @@ github.com/McShelby/hugo-theme-relearn v0.0.0-20221221234908-838f13db0fe0 h1:qhK
 github.com/McShelby/hugo-theme-relearn v0.0.0-20221221234908-838f13db0fe0/go.mod h1:mKQQdxZNIlLvAj8X3tMq+RzntIJSr9z7XdzuMomt0IM=
 github.com/McShelby/hugo-theme-relearn v0.0.0-20221223112755-24d8d65633e8 h1:pteo8+u8EjdlVAHm53oPcOu3N+BSKJmVQH6rIv3Y85Y=
 github.com/McShelby/hugo-theme-relearn v0.0.0-20221223112755-24d8d65633e8/go.mod h1:mKQQdxZNIlLvAj8X3tMq+RzntIJSr9z7XdzuMomt0IM=
+github.com/McShelby/hugo-theme-relearn v0.0.0-20221226010817-2b9bbeb51da3 h1:FDvhyAeWMqujNqDmN4clck424zvXd4ZefZ4FcD9o/QY=
+github.com/McShelby/hugo-theme-relearn v0.0.0-20221226010817-2b9bbeb51da3/go.mod h1:mKQQdxZNIlLvAj8X3tMq+RzntIJSr9z7XdzuMomt0IM=
 github.com/MeiK2333/github-style v0.0.0-20221030070900-eee158a65892 h1:KPnOKKnc9Ix8Hnqu0qtCAkrFp/NtpAY96wYx1ZSq3Y0=
 github.com/MeiK2333/github-style v0.0.0-20221030070900-eee158a65892/go.mod h1:MDvfpZqhD/YSKR6X4f5hVUv588HxL1MVjsCTSM7ETxs=
 github.com/Mitrichius/hugo-theme-anubis v0.0.0-20220725170731-d4ba47cd2196 h1:TzahMQaJXpezO9D2iQHnifGWPUn+41IWgYNBg/wNtQE=
@@ -259,6 +261,8 @@ github.com/charlola/hugo-theme-charlolamode v0.0.0-20221215125630-d3fd3c8e3c02 h
 github.com/charlola/hugo-theme-charlolamode v0.0.0-20221215125630-d3fd3c8e3c02/go.mod h1:jgP6vflrEchApmDYWiBZVYGJ3kBh4CzRJ+Max6QZ3Wc=
 github.com/charlola/hugo-theme-charlolamode v0.0.0-20221225210643-bdb4d17db224 h1:6YSJgwL30YZ+SE0UNMouxbukPR3FH38j/rTdw70GORM=
 github.com/charlola/hugo-theme-charlolamode v0.0.0-20221225210643-bdb4d17db224/go.mod h1:jgP6vflrEchApmDYWiBZVYGJ3kBh4CzRJ+Max6QZ3Wc=
+github.com/charlola/hugo-theme-charlolamode v0.0.0-20221226191554-23721b1df7c4 h1:i2HrvOsEOnmO6eM6hrHDg/pxLH1UZur+0prK+YKQ4vQ=
+github.com/charlola/hugo-theme-charlolamode v0.0.0-20221226191554-23721b1df7c4/go.mod h1:jgP6vflrEchApmDYWiBZVYGJ3kBh4CzRJ+Max6QZ3Wc=
 github.com/chipsenkbeil/grid-side v0.0.0-20170626191754-f5251bfd15a7 h1:kw7pMVSM87tVo4EYleeV7IPeE3qBebA2QGNzayx3Ick=
 github.com/chipsenkbeil/grid-side v0.0.0-20170626191754-f5251bfd15a7/go.mod h1:qsd+T3fobEVPD8r1YA6jDiHqpsWpkvimYJuJ9llwH8M=
 github.com/chipzoller/hugo-clarity v0.0.0-20221029154452-0dcfb1a9742c h1:RdfM7q3YWnTh4Bf4V/VHCLyLteepauj72lRG9FdWVAk=
@@ -615,6 +619,8 @@ github.com/luizdepra/hugo-coder v0.0.0-20221212231810-7fa76b460a7e h1:O8dJ2w/r6F
 github.com/luizdepra/hugo-coder v0.0.0-20221212231810-7fa76b460a7e/go.mod h1:9EQBf2rU+NPjlohGuKcEgdqSeOc3tIQoOty4xPpuUQ4=
 github.com/luizdepra/hugo-coder v0.0.0-20221216144924-57d7d5eb05d9 h1:dk8JyiAiLTXDYtlTlDSxe/DV6C79MZCobP6CV5fCEcw=
 github.com/luizdepra/hugo-coder v0.0.0-20221216144924-57d7d5eb05d9/go.mod h1:9EQBf2rU+NPjlohGuKcEgdqSeOc3tIQoOty4xPpuUQ4=
+github.com/luizdepra/hugo-coder v0.0.0-20221226211350-20bc7e672217 h1:OYL5tbfvkW2Pdf/nTQlXEGRPDA41/R+AcfPBlt/DHiA=
+github.com/luizdepra/hugo-coder v0.0.0-20221226211350-20bc7e672217/go.mod h1:9EQBf2rU+NPjlohGuKcEgdqSeOc3tIQoOty4xPpuUQ4=
 github.com/lxndrblz/anatole v1.12.0 h1:+3cmraXdZTcUwzW4wVB/hLeQOyZOIUZOXtxnY7vcCf8=
 github.com/lxndrblz/anatole v1.12.0/go.mod h1:hy61SRyUDKaWw2P+cERt9UPde5guWyVKgtjdzRF5bfI=
 github.com/marcanuy/simpleit-hugo-theme v0.0.0-20210616134837-49277e5c3be0 h1:n7FsJhxX9nABeTlayuJsnJc2gbTYZhaLPz/q9k4Qov8=
@@ -673,6 +679,8 @@ github.com/nanxiaobei/hugo-paper v0.0.0-20221116141033-3ecf91dda966 h1:MZY5gsJ98
 github.com/nanxiaobei/hugo-paper v0.0.0-20221116141033-3ecf91dda966/go.mod h1:CeRgawh+WFgm29TC2yGTPy9CAWkQaUABYejSFQDmL28=
 github.com/nanxiaobei/hugo-paper v0.0.0-20221224220644-40b26fcd68b3 h1:qaHBiDdQ+c/n2EGm/cB7jGHWdoNNM7QBK/YUGIK9jPQ=
 github.com/nanxiaobei/hugo-paper v0.0.0-20221224220644-40b26fcd68b3/go.mod h1:CeRgawh+WFgm29TC2yGTPy9CAWkQaUABYejSFQDmL28=
+github.com/nanxiaobei/hugo-paper v0.0.0-20221226191925-44128f7320b6 h1:wrTDNeLxx+RpMG0WaOOBETQ+upjYLlAorqWY2jP6C0I=
+github.com/nanxiaobei/hugo-paper v0.0.0-20221226191925-44128f7320b6/go.mod h1:CeRgawh+WFgm29TC2yGTPy9CAWkQaUABYejSFQDmL28=
 github.com/nanxstats/hugo-tanka v0.0.0-20210707221939-9bec4eba33e5 h1:ArKJMwXbgVVeIhpHxuDES/IoftMzOlk4mMB0tYHmUsY=
 github.com/nanxstats/hugo-tanka v0.0.0-20210707221939-9bec4eba33e5/go.mod h1:MpW+xmCZzgJK5cTtN7/k+nKAKSU7IR8Y3Y7Vt7rdm0c=
 github.com/naro143/hugo-coder-portfolio v0.0.0-20200903083500-255d92337c07 h1:sJcQpPI0wm1zKeX38i/A1RmpPGIN9c4YPMuOTek1woY=
