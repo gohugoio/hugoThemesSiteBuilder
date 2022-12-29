@@ -349,6 +349,8 @@ github.com/dsrkafuu/hugo-theme-fuji v2.8.2+incompatible h1:rU3UqNSrFegnNXT+IKXIz
 github.com/dsrkafuu/hugo-theme-fuji v2.8.2+incompatible/go.mod h1:rFv9DkbPD9roOuHodFNCAv4c9oXWAhYGtkLUXVle9Bw=
 github.com/dzello/reveal-hugo v0.0.0-20221115142005-be7961c06dd6 h1:voG3HCPI7trfKXzB8UTTvJ7A7EaFRIajDqQKUdTIcRM=
 github.com/dzello/reveal-hugo v0.0.0-20221115142005-be7961c06dd6/go.mod h1:0S5eDEdHBx8tSj8veo9lUnuJRXa8WqmpANd0Lz7CLc8=
+github.com/dzello/reveal-hugo v0.0.0-20221228063604-4c190e12065e h1:LQvRSfgRghe5G1hfIAgWA4HTSOWe7WysTp/j1PiNdwg=
+github.com/dzello/reveal-hugo v0.0.0-20221228063604-4c190e12065e/go.mod h1:0S5eDEdHBx8tSj8veo9lUnuJRXa8WqmpANd0Lz7CLc8=
 github.com/edavidaja/docter v0.2.0 h1:5sDokCJdSqvfqPIqyK+w1VISDqMu6FL78rBwp0DFsXo=
 github.com/edavidaja/docter v0.2.0/go.mod h1:g9m+41OnpMEuOmNmY4y1JfRyvB0F6a7jq++0JB1yFvA=
 github.com/eddiewebb/hugo-resume v0.0.0-20221007104759-64ebd2c38cbc h1:0BevSWM1qZTgANzkPLOdVBUf1A8Jp/aRuR4yhOuurKY=
@@ -379,6 +381,8 @@ github.com/frjo/hugo-theme-zen/v2 v2.3.3 h1:dw/s7yjc84bsprzPr6VtcZIPqBKl2SI77+1Z
 github.com/frjo/hugo-theme-zen/v2 v2.3.3/go.mod h1:bjXp0K3ADEHreZ6+vt/FdtEdPBNdS6IDtJm5NkXrNxU=
 github.com/frjo/hugo-theme-zen/v2 v2.4.0 h1:Mx1E/l46AAllJRkP4z5D1IKSFB/Gl1i32/lz6yPua5g=
 github.com/frjo/hugo-theme-zen/v2 v2.4.0/go.mod h1:bjXp0K3ADEHreZ6+vt/FdtEdPBNdS6IDtJm5NkXrNxU=
+github.com/frjo/hugo-theme-zen/v2 v2.4.1 h1:eXV8gbeGNSycu0NRcQjGb/pc8dTrhBpcVxY5gPR3FGs=
+github.com/frjo/hugo-theme-zen/v2 v2.4.1/go.mod h1:bjXp0K3ADEHreZ6+vt/FdtEdPBNdS6IDtJm5NkXrNxU=
 github.com/funkydan2/alpha-church v0.0.0-20221116214058-12327a8f5c6f h1:ViDkLBrGyzTRv7ZCYkTae3Zl1kme7/8EfLd+b3rLWxk=
 github.com/funkydan2/alpha-church v0.0.0-20221116214058-12327a8f5c6f/go.mod h1:OwMMBZA76bnNA4UMfOwV8WJ9UEQ+c+VkI+ubK3y5d5c=
 github.com/funkydan2/alpha-church v0.0.0-20221214233526-9dc063db788c h1:+DYWmweJc9ITeSD1ckwGjhtXN8qKO+EMGZRBHzEdpww=
@@ -468,6 +472,8 @@ github.com/httpsecure/hugo-theme-red-rose v0.0.0-20221016191510-ffd45c906689 h1:
 github.com/httpsecure/hugo-theme-red-rose v0.0.0-20221016191510-ffd45c906689/go.mod h1:0+LEsf9O9ttEf8O7J67VRR7uzSUwTCEo+xw9VbemY0o=
 github.com/httpsecure/kembang v0.0.0-20221119020712-be8b221bf0a6 h1:l6i7EHeJ3NcoqqjZW/k0CXcYus/QC2JMcnpF4700V7E=
 github.com/httpsecure/kembang v0.0.0-20221119020712-be8b221bf0a6/go.mod h1:cC8noVG+imqPMlrYXYUAUmc5OV4wpMobo59k5W0utX8=
+github.com/httpsecure/kembang v0.0.0-20221228045215-90531f24ebeb h1:qad5NidUrlVYhNtcRbGsK28k6UveUdgPbAv2Ad5OhHw=
+github.com/httpsecure/kembang v0.0.0-20221228045215-90531f24ebeb/go.mod h1:cC8noVG+imqPMlrYXYUAUmc5OV4wpMobo59k5W0utX8=
 github.com/hugcis/hugo-astatine-theme v0.0.0-20221129185830-55db70610b3e h1:gKZZOLXxfrI+93taNFNU/48gEnyY1943oaBXhv3OmhM=
 github.com/hugcis/hugo-astatine-theme v0.0.0-20221129185830-55db70610b3e/go.mod h1:gbOEGGwov71SFNmbUwE4TN2aHFzT3GdZK1Zo5zO9hA8=
 github.com/hugcis/hugo-astatine-theme v0.0.0-20221215145215-c5b921522869 h1:5tftW+jNJpOUYnfQNub1PzcKvMeLIWRLeT2kCsmmMJE=
@@ -1002,6 +1008,8 @@ github.com/willfaught/paige v0.23.3 h1:6jbBmuA4CLQIsAnPL9HltzX8C8+moWQWIQyud2ZL5
 github.com/willfaught/paige v0.23.3/go.mod h1:0Nt8ifl7UVYQIBaMtpZmg+BrQHHzFNqKcrBoA2Oo4/E=
 github.com/willfaught/paige v0.25.0 h1:cwz/wBTS64tklgPgsgXEGwH8QvYA4M2LuM0IIn3yDv4=
 github.com/willfaught/paige v0.25.0/go.mod h1:0Nt8ifl7UVYQIBaMtpZmg+BrQHHzFNqKcrBoA2Oo4/E=
+github.com/willfaught/paige v0.26.3 h1:LxFzOJhk8QUqr54IVZCwkFxes24IiC0wH/egyEPjSEI=
+github.com/willfaught/paige v0.26.3/go.mod h1:0Nt8ifl7UVYQIBaMtpZmg+BrQHHzFNqKcrBoA2Oo4/E=
 github.com/wlh320/hugo-theme-hulga v0.0.0-20221106071311-0487d9d1a45c h1:bq5mOJZ30Fo3+7wNK06EAICIbBBe/NXEJHNJQXewkaQ=
 github.com/wlh320/hugo-theme-hulga v0.0.0-20221106071311-0487d9d1a45c/go.mod h1:erdTksWjSdnpLpgqvRzmDjpt/VI0OsX4FKnqCcINyR0=
 github.com/wowchemy/starter-hugo-academic v0.0.0-20221127215757-a8e14c1488e0 h1:4c+QrlG/JHpzYA0jKdwK+BAscj5zdNZP9nJCkDPaVL4=

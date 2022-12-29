@@ -147,7 +147,7 @@ require (
 	github.com/dldx/hpstr-hugo-theme v0.0.0-20180623041957-3658a0b0c9c2 // indirect
 	github.com/dplesca/purehugo v0.0.0-20190924072610-5b577adff2e1 // indirect
 	github.com/dsrkafuu/hugo-theme-fuji v2.8.2+incompatible // indirect
-	github.com/dzello/reveal-hugo v0.0.0-20221115142005-be7961c06dd6 // indirect
+	github.com/dzello/reveal-hugo v0.0.0-20221228063604-4c190e12065e // indirect
 	github.com/edavidaja/docter v0.2.0 // indirect
 	github.com/eddiewebb/hugo-resume v0.0.0-20221007104759-64ebd2c38cbc // indirect
 	github.com/eliasson/liquorice v0.0.0-20200622115411-8eac8aa98593 // indirect
@@ -161,7 +161,7 @@ require (
 	github.com/fncnt/vncnt-hugo v0.0.0-20221128104813-c539081039f2 // indirect
 	github.com/forestryio/hugo-theme-novela v0.0.0-20210222084032-5d015eef4c56 // indirect
 	github.com/fourtyone11/origin-hugo-theme v0.0.0-20200611125917-021c45772a9a // indirect
-	github.com/frjo/hugo-theme-zen/v2 v2.4.0 // indirect
+	github.com/frjo/hugo-theme-zen/v2 v2.4.1 // indirect
 	github.com/funkydan2/alpha-church v0.0.0-20221214233526-9dc063db788c // indirect
 	github.com/funkydan2/hugo-kiera v1.1.0 // indirect
 	github.com/g1eny0ung/hugo-theme-dream v1.6.0 // indirect
@@ -194,7 +194,7 @@ require (
 	github.com/hossainemruz/toha v3.7.0+incompatible // indirect
 	github.com/htr3n/hyde-hyde v2.0.2+incompatible // indirect
 	github.com/httpsecure/hugo-theme-red-rose v0.0.0-20221016191510-ffd45c906689 // indirect
-	github.com/httpsecure/kembang v0.0.0-20221119020712-be8b221bf0a6 // indirect
+	github.com/httpsecure/kembang v0.0.0-20221228045215-90531f24ebeb // indirect
 	github.com/hugcis/hugo-astatine-theme v0.0.0-20221215145215-c5b921522869 // indirect
 	github.com/hugo-fixit/FixIt v0.2.16 // indirect
 	github.com/hugo-next/hugo-theme-next v4.4.0+incompatible // indirect
@@ -414,7 +414,7 @@ require (
 	github.com/wayjam/hugo-theme-mixedpaper v0.0.0-20200816131211-367945f7d7c0 // indirect
 	github.com/wd/hugo-fabric v0.0.0-20191202002427-c416adb14920 // indirect
 	github.com/wileybaba/hugo-theme-robotico v0.0.0-20190128025338-a1e633362eee // indirect
-	github.com/willfaught/paige v0.25.0 // indirect
+	github.com/willfaught/paige v0.26.3 // indirect
 	github.com/wlh320/hugo-theme-hulga v0.0.0-20221106071311-0487d9d1a45c // indirect
 	github.com/wowchemy/starter-hugo-academic v0.0.0-20221227233226-34caaeee76ce // indirect
 	github.com/wowchemy/wowchemy-hugo-themes/modules/wowchemy/v5 v5.7.1-0.20221227233304-549d2cd12615 // indirect
