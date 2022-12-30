@@ -37,7 +37,7 @@ require (
 	github.com/M1cR0xf7/kaslaanka v0.0.0-20221225163327-a7f6190bfd31 // indirect
 	github.com/MarcusVirg/forty v0.0.0-20190430033326-dccea57bd2ed // indirect
 	github.com/Masellum/hugo-theme-nostyleplease v0.0.0-20220827133946-44f8ee0b7d88 // indirect
-	github.com/McShelby/hugo-theme-relearn v0.0.0-20221226010817-2b9bbeb51da3 // indirect
+	github.com/McShelby/hugo-theme-relearn v0.0.0-20221230001326-0bed2a7096e6 // indirect
 	github.com/MeiK2333/github-style v0.0.0-20221030070900-eee158a65892 // indirect
 	github.com/Mitrichius/hugo-theme-anubis v0.0.0-20220725170731-d4ba47cd2196 // indirect
 	github.com/MunifTanjim/minimo v2.10.1+incompatible // indirect
@@ -85,7 +85,7 @@ require (
 	github.com/apvarun/showcase-hugo-theme v1.3.0 // indirect
 	github.com/apvarun/showfolio-hugo-theme v1.0.0 // indirect
 	github.com/asurbernardo/amperage v0.0.0-20201210113041-18bba9e6f415 // indirect
-	github.com/athul/archie v0.0.0-20221204184931-e1a339216574 // indirect
+	github.com/athul/archie v0.0.0-20221229115253-3fa25abce441 // indirect
 	github.com/austingebauer/devise v0.0.0-20221112045932-caab8f4379fb // indirect
 	github.com/azmelanar/hugo-theme-pixyll v0.0.0-20220519144716-1d1f783287d9 // indirect
 	github.com/bake/solar-theme-hugo v0.0.0-20210403202535-97632b71c241 // indirect
@@ -100,7 +100,7 @@ require (
 	github.com/calintat/minimal v0.0.0-20210103220336-987f270dfee3 // indirect
 	github.com/canhtran/maverick v0.0.0-20221212141352-39ad4fd300e3 // indirect
 	github.com/canstand/compost v0.5.5 // indirect
-	github.com/capnfabs/paperesque v0.0.0-20221220094621-05363451bc7d // indirect
+	github.com/capnfabs/paperesque v0.0.0-20221229161001-67df751e631e // indirect
 	github.com/caressofsteel/hugo-story v0.0.0-20221003165358-d21ca45c4715 // indirect
 	github.com/carsonip/hugo-theme-minos v0.0.0-20210404151835-ebac3b34438e // indirect
 	github.com/cathelijne/hugo-theme-huguette v0.0.0-20220521125612-bad9bac2c1cb // indirect
@@ -304,7 +304,7 @@ require (
 	github.com/nusserstudios/tailbliss v0.0.0-20221214003503-4df07b798159 // indirect
 	github.com/okkur/syna v0.17.4 // indirect
 	github.com/olOwOlo/hugo-theme-even v4.1.0+incompatible // indirect
-	github.com/onweru/compose v0.0.0-20220613192136-823b5de743db // indirect
+	github.com/onweru/compose v0.0.0-20221229203842-0a15e2b24d3e // indirect
 	github.com/onweru/hugo-swift-theme v2.0.0+incompatible // indirect
 	github.com/onweru/newsroom v0.0.0-20220114000312-a46aedf8f0c5 // indirect
 	github.com/opera7133/Blonde v0.0.0-20220918075631-4908a16a5ec6 // indirect

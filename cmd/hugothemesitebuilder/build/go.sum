@@ -92,6 +92,8 @@ github.com/McShelby/hugo-theme-relearn v0.0.0-20221223112755-24d8d65633e8 h1:pte
 github.com/McShelby/hugo-theme-relearn v0.0.0-20221223112755-24d8d65633e8/go.mod h1:mKQQdxZNIlLvAj8X3tMq+RzntIJSr9z7XdzuMomt0IM=
 github.com/McShelby/hugo-theme-relearn v0.0.0-20221226010817-2b9bbeb51da3 h1:FDvhyAeWMqujNqDmN4clck424zvXd4ZefZ4FcD9o/QY=
 github.com/McShelby/hugo-theme-relearn v0.0.0-20221226010817-2b9bbeb51da3/go.mod h1:mKQQdxZNIlLvAj8X3tMq+RzntIJSr9z7XdzuMomt0IM=
+github.com/McShelby/hugo-theme-relearn v0.0.0-20221230001326-0bed2a7096e6 h1:7PTU2Xv90O3dEgTfUUbbinYnRutQ5RpwnlnkgZmsM5M=
+github.com/McShelby/hugo-theme-relearn v0.0.0-20221230001326-0bed2a7096e6/go.mod h1:mKQQdxZNIlLvAj8X3tMq+RzntIJSr9z7XdzuMomt0IM=
 github.com/MeiK2333/github-style v0.0.0-20221030070900-eee158a65892 h1:KPnOKKnc9Ix8Hnqu0qtCAkrFp/NtpAY96wYx1ZSq3Y0=
 github.com/MeiK2333/github-style v0.0.0-20221030070900-eee158a65892/go.mod h1:MDvfpZqhD/YSKR6X4f5hVUv588HxL1MVjsCTSM7ETxs=
 github.com/Mitrichius/hugo-theme-anubis v0.0.0-20220725170731-d4ba47cd2196 h1:TzahMQaJXpezO9D2iQHnifGWPUn+41IWgYNBg/wNtQE=
@@ -201,6 +203,8 @@ github.com/athul/archie v0.0.0-20221127115933-5d283cd3a9d6 h1:rQDb8bbNNM4eLaTkpL
 github.com/athul/archie v0.0.0-20221127115933-5d283cd3a9d6/go.mod h1:toV1NH0HG3QeUEXX3aXgyCLuSh9JjAdCSge+cKN7LFs=
 github.com/athul/archie v0.0.0-20221204184931-e1a339216574 h1:jNk06FlKpLkRaSoSaoCEFt+xCNxor1rApT0VjyiucD0=
 github.com/athul/archie v0.0.0-20221204184931-e1a339216574/go.mod h1:toV1NH0HG3QeUEXX3aXgyCLuSh9JjAdCSge+cKN7LFs=
+github.com/athul/archie v0.0.0-20221229115253-3fa25abce441 h1:N8HGdGtrhS4H1SY46TxOox9Q1ayZFCWsrGFJTGn6PUY=
+github.com/athul/archie v0.0.0-20221229115253-3fa25abce441/go.mod h1:toV1NH0HG3QeUEXX3aXgyCLuSh9JjAdCSge+cKN7LFs=
 github.com/austingebauer/devise v0.0.0-20221112045932-caab8f4379fb h1:miLe49WmzQuo7CNA5ToHgFbqqJKiyOBvpUFOE1d1apA=
 github.com/austingebauer/devise v0.0.0-20221112045932-caab8f4379fb/go.mod h1:iwUVpBALcG7hoLMK5JUORXGMd+266LxCQ3al16B3hKQ=
 github.com/azmelanar/hugo-theme-pixyll v0.0.0-20220519144716-1d1f783287d9 h1:F81r0n6SgTr88vrFuru7+Jm/BIk2bGRsw5u1/EO/8xU=
@@ -243,6 +247,8 @@ github.com/capnfabs/paperesque v0.0.0-20221204204228-d2af06f91a3d h1:RNd0gokV5gs
 github.com/capnfabs/paperesque v0.0.0-20221204204228-d2af06f91a3d/go.mod h1:esZ0bM9RpwRG2I71ZuSv7NuS2OsYf5t7iMLbxYKAmCE=
 github.com/capnfabs/paperesque v0.0.0-20221220094621-05363451bc7d h1:z8DI+5gwA0s5LZx4qZrOcmfaWt1ecnFC6HQjqQjt+vo=
 github.com/capnfabs/paperesque v0.0.0-20221220094621-05363451bc7d/go.mod h1:esZ0bM9RpwRG2I71ZuSv7NuS2OsYf5t7iMLbxYKAmCE=
+github.com/capnfabs/paperesque v0.0.0-20221229161001-67df751e631e h1:p0LTfOKsNNujf9Vr5VEcAtNH58CjCLKaypyhoCOm98c=
+github.com/capnfabs/paperesque v0.0.0-20221229161001-67df751e631e/go.mod h1:esZ0bM9RpwRG2I71ZuSv7NuS2OsYf5t7iMLbxYKAmCE=
 github.com/caressofsteel/hugo-story v0.0.0-20221003165358-d21ca45c4715 h1:kyXcuTvILWK3WunxNTgNd/6y9TCQEXy3oATb6txQ4eY=
 github.com/caressofsteel/hugo-story v0.0.0-20221003165358-d21ca45c4715/go.mod h1:hC6+sKf4FuYZ8t9krDb//men0iVi+0bZnYFteVpVYKk=
 github.com/carsonip/hugo-theme-minos v0.0.0-20210404151835-ebac3b34438e h1:J4D8BLE7MXDhymBGf9fm0YbAjk27ysKrHEq8QYqjDHw=
@@ -742,6 +748,8 @@ github.com/olOwOlo/hugo-theme-even v4.1.0+incompatible/go.mod h1:fi8rrW+HLHpDEjP
 github.com/olivernn/lunr.js v2.3.9+incompatible/go.mod h1:yEkQ1DUSMtNsn8n2CqvQXZd0ErWPEG8g9QRmblR+KS8=
 github.com/onweru/compose v0.0.0-20220613192136-823b5de743db h1:nYOIKq9elvPvKHIMJmr5yFMMouDvniv5aavHH9Beghg=
 github.com/onweru/compose v0.0.0-20220613192136-823b5de743db/go.mod h1:tf1kQIBUcwJ/3mRFU5eiMrMvsDScVTK2IEFsZE3hZOc=
+github.com/onweru/compose v0.0.0-20221229203842-0a15e2b24d3e h1:Cz0/FfYKp1xtmveBx8ODgSPhjcG9f8AKejGjonotYn8=
+github.com/onweru/compose v0.0.0-20221229203842-0a15e2b24d3e/go.mod h1:tf1kQIBUcwJ/3mRFU5eiMrMvsDScVTK2IEFsZE3hZOc=
 github.com/onweru/hugo-swift-theme v2.0.0+incompatible h1:UGc/TiOzqcSnNyfkkKoU8vQ9wGQTBmLjkblGcPhnzjM=
 github.com/onweru/hugo-swift-theme v2.0.0+incompatible/go.mod h1:Flki1A7Xnz36putWgud7Dmfqn4wIwoiAQO1pnNb4IOs=
 github.com/onweru/newsroom v0.0.0-20220114000312-a46aedf8f0c5 h1:ooAGhkoF7KRpD/CJ5/dbPl8yp08u5HABu7uC7dDOSFw=
