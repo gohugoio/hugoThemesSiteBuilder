@@ -750,6 +750,8 @@ github.com/onweru/compose v0.0.0-20220613192136-823b5de743db h1:nYOIKq9elvPvKHIM
 github.com/onweru/compose v0.0.0-20220613192136-823b5de743db/go.mod h1:tf1kQIBUcwJ/3mRFU5eiMrMvsDScVTK2IEFsZE3hZOc=
 github.com/onweru/compose v0.0.0-20221229203842-0a15e2b24d3e h1:Cz0/FfYKp1xtmveBx8ODgSPhjcG9f8AKejGjonotYn8=
 github.com/onweru/compose v0.0.0-20221229203842-0a15e2b24d3e/go.mod h1:tf1kQIBUcwJ/3mRFU5eiMrMvsDScVTK2IEFsZE3hZOc=
+github.com/onweru/compose v0.0.0-20221230112641-fc880bd38897 h1:3PfuohvyChhjW8jh0iAyoIBh85lhg1JmSE5l0Pj95Z8=
+github.com/onweru/compose v0.0.0-20221230112641-fc880bd38897/go.mod h1:tf1kQIBUcwJ/3mRFU5eiMrMvsDScVTK2IEFsZE3hZOc=
 github.com/onweru/hugo-swift-theme v2.0.0+incompatible h1:UGc/TiOzqcSnNyfkkKoU8vQ9wGQTBmLjkblGcPhnzjM=
 github.com/onweru/hugo-swift-theme v2.0.0+incompatible/go.mod h1:Flki1A7Xnz36putWgud7Dmfqn4wIwoiAQO1pnNb4IOs=
 github.com/onweru/newsroom v0.0.0-20220114000312-a46aedf8f0c5 h1:ooAGhkoF7KRpD/CJ5/dbPl8yp08u5HABu7uC7dDOSFw=
@@ -854,6 +856,8 @@ github.com/samrobbins85/hugo-developer-portfolio v0.0.0-20220327150320-5f46da78b
 github.com/samrobbins85/hugo-developer-portfolio v0.0.0-20220327150320-5f46da78b531/go.mod h1:k8pYFLOf99+RFAdeKwBJGfgN2jyoX2bBv8j2MUaiqdo=
 github.com/samrobbins85/hugo-developer-portfolio v0.0.0-20221210160004-0f8921bf54bf h1:zK4FOrzct4H4rig6JwopsZBzzQA7uVCUmCVvJDRobbw=
 github.com/samrobbins85/hugo-developer-portfolio v0.0.0-20221210160004-0f8921bf54bf/go.mod h1:k8pYFLOf99+RFAdeKwBJGfgN2jyoX2bBv8j2MUaiqdo=
+github.com/samrobbins85/hugo-developer-portfolio v0.0.0-20221230201635-d7e23c1c723e h1:GHaZLtgwC8Zd5XxqbHwMEvWBRHSWkvZFLPhG5JHqjao=
+github.com/samrobbins85/hugo-developer-portfolio v0.0.0-20221230201635-d7e23c1c723e/go.mod h1:k8pYFLOf99+RFAdeKwBJGfgN2jyoX2bBv8j2MUaiqdo=
 github.com/sbruder/spectral v0.0.0-20221103161541-f7780b703f71 h1:77LKONu9jjoeXK0Fi0KD+99vr8BPB85od2/ga3AeDB4=
 github.com/sbruder/spectral v0.0.0-20221103161541-f7780b703f71/go.mod h1:CHnkp+QVfAbCTODPDirPd9CsuN9TMF7eqYXKiw+KaMM=
 github.com/schmanat/hugo-highlights-theme v0.0.0-20200409134000-79eb66a32c74 h1:FlcauPDVTB/VB7c0cK2K7D682gHaMwlftvVGrhDcvEM=

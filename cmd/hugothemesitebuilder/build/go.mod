@@ -304,7 +304,7 @@ require (
 	github.com/nusserstudios/tailbliss v0.0.0-20221214003503-4df07b798159 // indirect
 	github.com/okkur/syna v0.17.4 // indirect
 	github.com/olOwOlo/hugo-theme-even v4.1.0+incompatible // indirect
-	github.com/onweru/compose v0.0.0-20221229203842-0a15e2b24d3e // indirect
+	github.com/onweru/compose v0.0.0-20221230112641-fc880bd38897 // indirect
 	github.com/onweru/hugo-swift-theme v2.0.0+incompatible // indirect
 	github.com/onweru/newsroom v0.0.0-20220114000312-a46aedf8f0c5 // indirect
 	github.com/opera7133/Blonde v0.0.0-20220918075631-4908a16a5ec6 // indirect
@@ -349,7 +349,7 @@ require (
 	github.com/saey55/hugo-elate-theme v0.0.0-20190113203640-d4390ac60a50 // indirect
 	github.com/salcan/BeyondNothing v0.0.0-20190908210852-2931c2abf096 // indirect
 	github.com/salsysd/hugo-assembly v0.0.0-20181002012130-b536220bd067 // indirect
-	github.com/samrobbins85/hugo-developer-portfolio v0.0.0-20221210160004-0f8921bf54bf // indirect
+	github.com/samrobbins85/hugo-developer-portfolio v0.0.0-20221230201635-d7e23c1c723e // indirect
 	github.com/sbruder/spectral v0.0.0-20221103161541-f7780b703f71 // indirect
 	github.com/schmanat/hugo-highlights-theme v0.0.0-20200409134000-79eb66a32c74 // indirect
 	github.com/schnerring/hugo-theme-gruvbox v0.0.0-20220819214337-dbf1af452041 // indirect
