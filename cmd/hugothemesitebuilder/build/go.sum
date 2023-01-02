@@ -10,6 +10,8 @@ github.com/4s3ti/terminalcv v1.0.3 h1:5G5XrxruE4kGOHGrgERYoBJ+p/y7fSzII11K1bWAkn
 github.com/4s3ti/terminalcv v1.0.3/go.mod h1:5zOiYtEyPm8h/Sw5irNVDxpQ/kW1zs/4TmPfqi562Js=
 github.com/526avijitgupta/gokarna v0.0.0-20221127041400-f63bccb8715b h1:rW5cwsRamUw/lc06sLPRzrd5kCwqNrwE8tq8Lb0aum8=
 github.com/526avijitgupta/gokarna v0.0.0-20221127041400-f63bccb8715b/go.mod h1:v34Pn8p/EFQ1WnVF43/Vis+6u+vdB795sYEGshBHFSs=
+github.com/526avijitgupta/gokarna v0.0.0-20230101131001-42e0feba8b1d h1:wRKQGrShDfB+qs7mgYaLyGajEGVY59W1yyxyyRHfiUU=
+github.com/526avijitgupta/gokarna v0.0.0-20230101131001-42e0feba8b1d/go.mod h1:v34Pn8p/EFQ1WnVF43/Vis+6u+vdB795sYEGshBHFSs=
 github.com/7ma7X/HugoTeX v0.0.0-20221106021144-93d5cc0ad74d h1:L3f2yBjsg5buHlhOC8VK1YP121YsZJB4y0v5sdAnJVM=
 github.com/7ma7X/HugoTeX v0.0.0-20221106021144-93d5cc0ad74d/go.mod h1:OTLKv02XnopNEckzZ8Ttg/NjueJWWLrzJzeVHGm/6lo=
 github.com/AlexFinn/simple-a v0.0.0-20191202062540-bb2f8c9172a0 h1:sy/Ez5f6eA2b96BStFblKC0eikTq23couIRerUgDQRM=
@@ -80,6 +82,8 @@ github.com/MarcusVirg/forty v0.0.0-20190430033326-dccea57bd2ed h1:LjHYgmJraTUExO
 github.com/MarcusVirg/forty v0.0.0-20190430033326-dccea57bd2ed/go.mod h1:afK3GTGd/UIXHIDgpmy8MgyNo0V6yNSBozZMUyqVhj4=
 github.com/Masellum/hugo-theme-nostyleplease v0.0.0-20220827133946-44f8ee0b7d88 h1:LLRVQkx5us53Czyis3nbXhd0RU6fxJRMZKHXnMD92RU=
 github.com/Masellum/hugo-theme-nostyleplease v0.0.0-20220827133946-44f8ee0b7d88/go.mod h1:zMlcobA4v4gavXle2KCHE1/WfupsHXUY3a8s9GeLfpk=
+github.com/Masellum/hugo-theme-nostyleplease v0.0.0-20230101105235-f3a490ba670a h1:NJUCRWvHr9dAlJz+vThkPOZ74YfZ2rwpL9wVCcukfLM=
+github.com/Masellum/hugo-theme-nostyleplease v0.0.0-20230101105235-f3a490ba670a/go.mod h1:zMlcobA4v4gavXle2KCHE1/WfupsHXUY3a8s9GeLfpk=
 github.com/McShelby/hugo-theme-relearn v0.0.0-20221202194453-41582f63f0d2 h1:bKPsUQQ+EcdxVb7eHaYmB/tuRK+RWF9Xi2s3+7WM43M=
 github.com/McShelby/hugo-theme-relearn v0.0.0-20221202194453-41582f63f0d2/go.mod h1:DJlNSftm/1+M1YSoUQp61lRfOWc8QBBuLdVk7YiV23s=
 github.com/McShelby/hugo-theme-relearn v0.0.0-20221214215548-62960a411396 h1:VV09kmav9wZCxbbJUZdB2Z+ONaokQdc+EOhtdd5Fehs=
@@ -273,6 +277,8 @@ github.com/charlola/hugo-theme-charlolamode v0.0.0-20221226191554-23721b1df7c4 h
 github.com/charlola/hugo-theme-charlolamode v0.0.0-20221226191554-23721b1df7c4/go.mod h1:jgP6vflrEchApmDYWiBZVYGJ3kBh4CzRJ+Max6QZ3Wc=
 github.com/charlola/hugo-theme-charlolamode v0.0.0-20221227143642-a13f860fefbd h1:HEVr0dIl2gZL37p0cjzOsdd0pCEh7IC3Xixc1TbdjMg=
 github.com/charlola/hugo-theme-charlolamode v0.0.0-20221227143642-a13f860fefbd/go.mod h1:jgP6vflrEchApmDYWiBZVYGJ3kBh4CzRJ+Max6QZ3Wc=
+github.com/charlola/hugo-theme-charlolamode v0.0.0-20230101170743-0a9a0ade671a h1:S3R9OtrjyCZC9lWFvjJ9X9ovp52+9TvHYeAeh/4GmWs=
+github.com/charlola/hugo-theme-charlolamode v0.0.0-20230101170743-0a9a0ade671a/go.mod h1:jgP6vflrEchApmDYWiBZVYGJ3kBh4CzRJ+Max6QZ3Wc=
 github.com/chipsenkbeil/grid-side v0.0.0-20170626191754-f5251bfd15a7 h1:kw7pMVSM87tVo4EYleeV7IPeE3qBebA2QGNzayx3Ick=
 github.com/chipsenkbeil/grid-side v0.0.0-20170626191754-f5251bfd15a7/go.mod h1:qsd+T3fobEVPD8r1YA6jDiHqpsWpkvimYJuJ9llwH8M=
 github.com/chipzoller/hugo-clarity v0.0.0-20221029154452-0dcfb1a9742c h1:RdfM7q3YWnTh4Bf4V/VHCLyLteepauj72lRG9FdWVAk=
@@ -357,6 +363,8 @@ github.com/dzello/reveal-hugo v0.0.0-20221115142005-be7961c06dd6 h1:voG3HCPI7trf
 github.com/dzello/reveal-hugo v0.0.0-20221115142005-be7961c06dd6/go.mod h1:0S5eDEdHBx8tSj8veo9lUnuJRXa8WqmpANd0Lz7CLc8=
 github.com/dzello/reveal-hugo v0.0.0-20221228063604-4c190e12065e h1:LQvRSfgRghe5G1hfIAgWA4HTSOWe7WysTp/j1PiNdwg=
 github.com/dzello/reveal-hugo v0.0.0-20221228063604-4c190e12065e/go.mod h1:0S5eDEdHBx8tSj8veo9lUnuJRXa8WqmpANd0Lz7CLc8=
+github.com/dzello/reveal-hugo v0.0.0-20230101154302-277121b17eb6 h1:zhhkLVlCJLsIjJsNo6DK8YanclP+dZVsxGHPc6D73lg=
+github.com/dzello/reveal-hugo v0.0.0-20230101154302-277121b17eb6/go.mod h1:0S5eDEdHBx8tSj8veo9lUnuJRXa8WqmpANd0Lz7CLc8=
 github.com/edavidaja/docter v0.2.0 h1:5sDokCJdSqvfqPIqyK+w1VISDqMu6FL78rBwp0DFsXo=
 github.com/edavidaja/docter v0.2.0/go.mod h1:g9m+41OnpMEuOmNmY4y1JfRyvB0F6a7jq++0JB1yFvA=
 github.com/eddiewebb/hugo-resume v0.0.0-20221007104759-64ebd2c38cbc h1:0BevSWM1qZTgANzkPLOdVBUf1A8Jp/aRuR4yhOuurKY=
@@ -741,6 +749,8 @@ github.com/nusserstudios/tailbliss v0.0.0-20221129134328-c191fd4fa60b h1:ZAtoMMC
 github.com/nusserstudios/tailbliss v0.0.0-20221129134328-c191fd4fa60b/go.mod h1:M3j6IqtQdtuI00xn0zi+RGcva3zJtzrMbk15nJaZJCU=
 github.com/nusserstudios/tailbliss v0.0.0-20221214003503-4df07b798159 h1:YNDwXVjRQKNxLaS7TJtsPG4aDPWMnUAYEtJyxTuq5Io=
 github.com/nusserstudios/tailbliss v0.0.0-20221214003503-4df07b798159/go.mod h1:M3j6IqtQdtuI00xn0zi+RGcva3zJtzrMbk15nJaZJCU=
+github.com/nusserstudios/tailbliss v0.0.0-20230101221327-cc9980607c86 h1:heDg4iNvJwpmMcuEk+eZ/ZbpgmBk6XNbWl2IEiPvY8I=
+github.com/nusserstudios/tailbliss v0.0.0-20230101221327-cc9980607c86/go.mod h1:M3j6IqtQdtuI00xn0zi+RGcva3zJtzrMbk15nJaZJCU=
 github.com/okkur/syna v0.17.4 h1:yjaij6V6gNftNDMTVxAwPBRb0B1LiZgxW3x6pqd/Nys=
 github.com/okkur/syna v0.17.4/go.mod h1:cNe2KzYuuFyTGHhK7y3OzaSjWE1YIbp91jgMetkAGbI=
 github.com/olOwOlo/hugo-theme-even v4.1.0+incompatible h1:vac90+azWrNgGvanS7mN2ztvJl9P5IHFvPSS+EAbYRA=
@@ -925,6 +935,8 @@ github.com/spookey/slick v0.4.0 h1:EHKO2Jfr5jd2PcSt6VbfLOpmXr01FEJBvMvH9luut3k=
 github.com/spookey/slick v0.4.0/go.mod h1:FjK95yi7ngLzxrAwXyKALJf4hRgJ9fNlk0anzM6gAKE=
 github.com/spookey/slick v0.4.1 h1:1tqR1LCDhEA1tEwvZ+qg98z6qJd8OfbSAdkNLDb55no=
 github.com/spookey/slick v0.4.1/go.mod h1:FjK95yi7ngLzxrAwXyKALJf4hRgJ9fNlk0anzM6gAKE=
+github.com/spookey/slick v0.4.2 h1:jW6Sho+C+1qxcoHmluSN+ExvJrRtNgEqcPStxh4cy4c=
+github.com/spookey/slick v0.4.2/go.mod h1:FjK95yi7ngLzxrAwXyKALJf4hRgJ9fNlk0anzM6gAKE=
 github.com/st-wong/hugo-spectre-pixel-theme v0.0.0-20191012073037-219ea80b9785 h1:ab4KBf8ZxB8YQSHxIQALML9jcy7vt8SKkNUFMSrQLNg=
 github.com/st-wong/hugo-spectre-pixel-theme v0.0.0-20191012073037-219ea80b9785/go.mod h1:vGgz+OGcEUuPL78XN2uu9AKvmlgt/ES0UbD8aI9+PG0=
 github.com/sudorook/capsule v0.6.1 h1:GvYUbMOzJxOnKuURECXpnO/uKiMgLnkEgqwbntXcG/g=
@@ -1022,6 +1034,8 @@ github.com/willfaught/paige v0.25.0 h1:cwz/wBTS64tklgPgsgXEGwH8QvYA4M2LuM0IIn3yD
 github.com/willfaught/paige v0.25.0/go.mod h1:0Nt8ifl7UVYQIBaMtpZmg+BrQHHzFNqKcrBoA2Oo4/E=
 github.com/willfaught/paige v0.26.3 h1:LxFzOJhk8QUqr54IVZCwkFxes24IiC0wH/egyEPjSEI=
 github.com/willfaught/paige v0.26.3/go.mod h1:0Nt8ifl7UVYQIBaMtpZmg+BrQHHzFNqKcrBoA2Oo4/E=
+github.com/willfaught/paige v0.27.1 h1:88MKAQie1ahd8nQIiwzQEnsl42MzzTOYrr0HVNA1wrQ=
+github.com/willfaught/paige v0.27.1/go.mod h1:0Nt8ifl7UVYQIBaMtpZmg+BrQHHzFNqKcrBoA2Oo4/E=
 github.com/wlh320/hugo-theme-hulga v0.0.0-20221106071311-0487d9d1a45c h1:bq5mOJZ30Fo3+7wNK06EAICIbBBe/NXEJHNJQXewkaQ=
 github.com/wlh320/hugo-theme-hulga v0.0.0-20221106071311-0487d9d1a45c/go.mod h1:erdTksWjSdnpLpgqvRzmDjpt/VI0OsX4FKnqCcINyR0=
 github.com/wowchemy/starter-hugo-academic v0.0.0-20221127215757-a8e14c1488e0 h1:4c+QrlG/JHpzYA0jKdwK+BAscj5zdNZP9nJCkDPaVL4=
@@ -1034,6 +1048,8 @@ github.com/wowchemy/starter-hugo-academic v0.0.0-20221225013737-f86abbe6574d h1:
 github.com/wowchemy/starter-hugo-academic v0.0.0-20221225013737-f86abbe6574d/go.mod h1:flNr8gC0J4XDkGrPOqi7aRZaAh10p/lnBc1o134yYKU=
 github.com/wowchemy/starter-hugo-academic v0.0.0-20221227233226-34caaeee76ce h1:31ve2/FRI8/lx/K1YYKeQd2RTyCw1/uYMtIFMdysdR8=
 github.com/wowchemy/starter-hugo-academic v0.0.0-20221227233226-34caaeee76ce/go.mod h1:flNr8gC0J4XDkGrPOqi7aRZaAh10p/lnBc1o134yYKU=
+github.com/wowchemy/starter-hugo-academic v0.0.0-20230101014820-100f5ac9281d h1:X5MjXBEe2wyJzrZ9HoIvlDEiQcHaRq6iAUdPRb/blvs=
+github.com/wowchemy/starter-hugo-academic v0.0.0-20230101014820-100f5ac9281d/go.mod h1:flNr8gC0J4XDkGrPOqi7aRZaAh10p/lnBc1o134yYKU=
 github.com/wowchemy/wowchemy-hugo-themes/modules/wowchemy-core v0.1.0/go.mod h1:kJwI9H8dicHQCnP8G9EvUDI+oNg/yXcGsjGjwjXuM8I=
 github.com/wowchemy/wowchemy-hugo-themes/modules/wowchemy-plugin-netlify v1.0.0/go.mod h1:s40UgLsWfVyCLQ2F4F3dBcNfZOXcPGld7KxsKhZdzvM=
 github.com/wowchemy/wowchemy-hugo-themes/modules/wowchemy-plugin-netlify-cms v1.0.0/go.mod h1:X1mETJo6Lkv9tEgfU0UYFRiRInf0RbgW+s1RKXB4GMA=
