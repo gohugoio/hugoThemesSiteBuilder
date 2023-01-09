@@ -199,6 +199,8 @@ github.com/apvarun/blist-hugo-theme v2.0.0+incompatible h1:tJx3khmNaapB/uIN+FjHu
 github.com/apvarun/blist-hugo-theme v2.0.0+incompatible/go.mod h1:s2zy+OAtID3Ug5HangdNWpHxxErMb4Jlx6X4Xbp9mag=
 github.com/apvarun/blist-hugo-theme v2.0.1+incompatible h1:c+qdDNj8rpSj5spXXupXDJP2EkKoXUClHr56WJY2zDg=
 github.com/apvarun/blist-hugo-theme v2.0.1+incompatible/go.mod h1:s2zy+OAtID3Ug5HangdNWpHxxErMb4Jlx6X4Xbp9mag=
+github.com/apvarun/digital-garden-hugo-theme v1.1.0 h1:9PmTuCnlzCW3kCxofbf7Nxu7It2z8im3O+d4/e1bwHg=
+github.com/apvarun/digital-garden-hugo-theme v1.1.0/go.mod h1:6gGagKjIWckWAw/dbMwXQpL/Sew5KrwhuSLqhjEfdVc=
 github.com/apvarun/showcase-hugo-theme v1.3.0 h1:fIL2JUZ6uMErxN8BwbXOsHZfmC6iLrKCB4HbEzy1TTU=
 github.com/apvarun/showcase-hugo-theme v1.3.0/go.mod h1:7Ox1J/nd+xUq2SEvEFpWulH+D8E5UoG7uq5+130XoQ4=
 github.com/apvarun/showfolio-hugo-theme v1.0.0 h1:60D0sX1gQuPJnGlrxgEmiA3bQYo6D85a+UalO979OKo=
@@ -661,6 +663,8 @@ github.com/luizdepra/hugo-coder v0.0.0-20221226211350-20bc7e672217 h1:OYL5tbfvkW
 github.com/luizdepra/hugo-coder v0.0.0-20221226211350-20bc7e672217/go.mod h1:9EQBf2rU+NPjlohGuKcEgdqSeOc3tIQoOty4xPpuUQ4=
 github.com/luizdepra/hugo-coder v0.0.0-20230102170945-0bdf2500ae54 h1:yJr1+owl1YuLR+T8RXbfqtt2xVDGqNhKddqG0m10N0w=
 github.com/luizdepra/hugo-coder v0.0.0-20230102170945-0bdf2500ae54/go.mod h1:9EQBf2rU+NPjlohGuKcEgdqSeOc3tIQoOty4xPpuUQ4=
+github.com/lukeorth/poison v0.0.0-20230106173213-a545c2b77df9 h1:+Oi4Csreb9kLYreCMJs20hboKqTKl7XxrS/8OA7JFtE=
+github.com/lukeorth/poison v0.0.0-20230106173213-a545c2b77df9/go.mod h1:fYVpevZiA79ef8Q1DkUgg/MF53oy4mKFSFTnK+EeiO0=
 github.com/lxndrblz/anatole v1.12.0 h1:+3cmraXdZTcUwzW4wVB/hLeQOyZOIUZOXtxnY7vcCf8=
 github.com/lxndrblz/anatole v1.12.0/go.mod h1:hy61SRyUDKaWw2P+cERt9UPde5guWyVKgtjdzRF5bfI=
 github.com/marcanuy/simpleit-hugo-theme v0.0.0-20210616134837-49277e5c3be0 h1:n7FsJhxX9nABeTlayuJsnJc2gbTYZhaLPz/q9k4Qov8=

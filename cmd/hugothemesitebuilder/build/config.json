@@ -147,6 +147,11 @@
       {
         "ignoreImports": true,
         "noMounts": true,
+        "path": "github.com/apvarun/digital-garden-hugo-theme"
+      },
+      {
+        "ignoreImports": true,
+        "noMounts": true,
         "path": "github.com/apvarun/showcase-hugo-theme"
       },
       {
@@ -1163,6 +1168,11 @@
         "ignoreImports": true,
         "noMounts": true,
         "path": "github.com/LukasJoswiak/etch"
+      },
+      {
+        "ignoreImports": true,
+        "noMounts": true,
+        "path": "github.com/lukeorth/poison"
       },
       {
         "ignoreImports": true,

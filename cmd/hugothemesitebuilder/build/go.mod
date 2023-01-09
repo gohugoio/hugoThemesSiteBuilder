@@ -82,6 +82,7 @@ require (
 	github.com/antonpolishko/hugo-stellar-theme v0.0.0-20220822025042-69d72b3d010b // indirect
 	github.com/appernetic/hugo-nederburg-theme v0.0.0-20190712152204-d99760bac630 // indirect
 	github.com/apvarun/blist-hugo-theme v2.0.1+incompatible // indirect
+	github.com/apvarun/digital-garden-hugo-theme v1.1.0 // indirect
 	github.com/apvarun/showcase-hugo-theme v1.3.0 // indirect
 	github.com/apvarun/showfolio-hugo-theme v1.0.0 // indirect
 	github.com/asurbernardo/amperage v0.0.0-20201210113041-18bba9e6f415 // indirect
@@ -265,6 +266,7 @@ require (
 	github.com/lubang/hugo-hello-programmer-theme v2.1.0+incompatible // indirect
 	github.com/lucperkins/hugo-fresh v0.0.0-20220922022354-244bcfcbdfc1 // indirect
 	github.com/luizdepra/hugo-coder v0.0.0-20230102170945-0bdf2500ae54 // indirect
+	github.com/lukeorth/poison v0.0.0-20230106173213-a545c2b77df9 // indirect
 	github.com/lxndrblz/anatole v1.12.0 // indirect
 	github.com/marcanuy/simpleit-hugo-theme v0.0.0-20210616134837-49277e5c3be0 // indirect
 	github.com/markdumay/hugo-theme-hinode v0.7.8 // indirect
