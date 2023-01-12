@@ -163,7 +163,7 @@ require (
 	github.com/forestryio/hugo-theme-novela v0.0.0-20210222084032-5d015eef4c56 // indirect
 	github.com/fourtyone11/origin-hugo-theme v0.0.0-20200611125917-021c45772a9a // indirect
 	github.com/frjo/hugo-theme-zen/v2 v2.4.1 // indirect
-	github.com/funkydan2/alpha-church v0.0.0-20221214233526-9dc063db788c // indirect
+	github.com/funkydan2/alpha-church v0.0.0-20230111073348-d2cc31e59d46 // indirect
 	github.com/funkydan2/hugo-kiera v1.1.0 // indirect
 	github.com/g1eny0ung/hugo-theme-dream v1.6.0 // indirect
 	github.com/garvincasimir/hugo-h5bp-simple v0.0.0-20190817231606-e834d00b96bb // indirect
@@ -269,7 +269,7 @@ require (
 	github.com/lukeorth/poison v0.0.0-20230106173213-a545c2b77df9 // indirect
 	github.com/lxndrblz/anatole v1.12.0 // indirect
 	github.com/marcanuy/simpleit-hugo-theme v0.0.0-20210616134837-49277e5c3be0 // indirect
-	github.com/markdumay/hugo-theme-hinode v0.7.8 // indirect
+	github.com/markdumay/hugo-theme-hinode v0.7.9 // indirect
 	github.com/marketempower/axiom v0.8.0 // indirect
 	github.com/matcornic/hugo-theme-learn v0.0.0-20211028190410-e817f53d690d // indirect
 	github.com/matsuyoshi30/harbor v1.0.0 // indirect
@@ -308,7 +308,7 @@ require (
 	github.com/olOwOlo/hugo-theme-even v4.1.0+incompatible // indirect
 	github.com/onweru/compose v0.0.0-20221230112641-fc880bd38897 // indirect
 	github.com/onweru/hugo-swift-theme v2.0.0+incompatible // indirect
-	github.com/onweru/newsroom v0.0.0-20230110092915-f6f8409aaa24 // indirect
+	github.com/onweru/newsroom v0.0.0-20230111195145-36d2b8bd39ec // indirect
 	github.com/opera7133/Blonde v0.0.0-20220918075631-4908a16a5ec6 // indirect
 	github.com/opera7133/tella v0.0.0-20221106123552-66642d51f6e9 // indirect
 	github.com/opera7133/vnovel v0.0.0-20220630114037-d75c3ee00ce5 // indirect

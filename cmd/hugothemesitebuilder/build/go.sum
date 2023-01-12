@@ -429,6 +429,8 @@ github.com/funkydan2/alpha-church v0.0.0-20221116214058-12327a8f5c6f h1:ViDkLBrG
 github.com/funkydan2/alpha-church v0.0.0-20221116214058-12327a8f5c6f/go.mod h1:OwMMBZA76bnNA4UMfOwV8WJ9UEQ+c+VkI+ubK3y5d5c=
 github.com/funkydan2/alpha-church v0.0.0-20221214233526-9dc063db788c h1:+DYWmweJc9ITeSD1ckwGjhtXN8qKO+EMGZRBHzEdpww=
 github.com/funkydan2/alpha-church v0.0.0-20221214233526-9dc063db788c/go.mod h1:OwMMBZA76bnNA4UMfOwV8WJ9UEQ+c+VkI+ubK3y5d5c=
+github.com/funkydan2/alpha-church v0.0.0-20230111073348-d2cc31e59d46 h1:zYuJ+qHJ7lSUc7K4KCqcmxFEhKQcQdAUjb8QaYFbd/w=
+github.com/funkydan2/alpha-church v0.0.0-20230111073348-d2cc31e59d46/go.mod h1:OwMMBZA76bnNA4UMfOwV8WJ9UEQ+c+VkI+ubK3y5d5c=
 github.com/funkydan2/hugo-kiera v1.1.0 h1:59YvXD+wlVQHmENtsXIUE7vPZnirBLxUOqz6wS21AkY=
 github.com/funkydan2/hugo-kiera v1.1.0/go.mod h1:BbmZeo7pwZ40j9PB9MSEteiGYFAUFoMZZvEU44AycqQ=
 github.com/g1eny0ung/hugo-theme-dream v1.6.0 h1:qnQ3LAMTkrFq4Cs+pdR4H76HQyzEDZ/XpiC3Pmg4nFw=
@@ -723,6 +725,8 @@ github.com/markdumay/hugo-theme-hinode v0.6.0 h1:3lnowWS+UW7FZDrsz7H+n9bUB4ihjw7
 github.com/markdumay/hugo-theme-hinode v0.6.0/go.mod h1:GS7ODxya3k6knpGA9hjvu1BHdZt2E9M2Fpwks6kf67c=
 github.com/markdumay/hugo-theme-hinode v0.7.8 h1:kbAep77sTSeLUXdL6FsHXQmChH29OzjZVLKTvc/RAzQ=
 github.com/markdumay/hugo-theme-hinode v0.7.8/go.mod h1:GS7ODxya3k6knpGA9hjvu1BHdZt2E9M2Fpwks6kf67c=
+github.com/markdumay/hugo-theme-hinode v0.7.9 h1:MGjswgooY/ARsoBqNJXnTNJdW0WbZo5E75+sGdw2Fi8=
+github.com/markdumay/hugo-theme-hinode v0.7.9/go.mod h1:GS7ODxya3k6knpGA9hjvu1BHdZt2E9M2Fpwks6kf67c=
 github.com/marketempower/axiom v0.8.0 h1:zi9Fz4N0hu8EqKEALSkCUc9NnilnqmvZlyyWVfdcn5g=
 github.com/marketempower/axiom v0.8.0/go.mod h1:yBi32+wVWUXnGDYjQ4tqXwcGAuSP8lOhOm1jgxN7SCA=
 github.com/matcornic/hugo-theme-learn v0.0.0-20211028190410-e817f53d690d h1:p7ktiW/GnHccjB9oO5YGY7us5v/oHmkyF0C7EDZFM3s=
@@ -844,6 +848,8 @@ github.com/onweru/newsroom v0.0.0-20230105173253-b21b6599668a h1:IdXADnyz+uPpv73
 github.com/onweru/newsroom v0.0.0-20230105173253-b21b6599668a/go.mod h1:CnPS3gSJseLHZMhLLbxe+qDzR54HQ7s5RaLujOkejuM=
 github.com/onweru/newsroom v0.0.0-20230110092915-f6f8409aaa24 h1:xaEcVHrhXmkQ8faoXM4noDxOUJOfpURNGx4PGUqMHTM=
 github.com/onweru/newsroom v0.0.0-20230110092915-f6f8409aaa24/go.mod h1:CnPS3gSJseLHZMhLLbxe+qDzR54HQ7s5RaLujOkejuM=
+github.com/onweru/newsroom v0.0.0-20230111195145-36d2b8bd39ec h1:RxeC/8kd6lEFeeeqRLSPpR9NWY1qSrOAAAj7mPNNnfs=
+github.com/onweru/newsroom v0.0.0-20230111195145-36d2b8bd39ec/go.mod h1:CnPS3gSJseLHZMhLLbxe+qDzR54HQ7s5RaLujOkejuM=
 github.com/opera7133/Blonde v0.0.0-20220918075631-4908a16a5ec6 h1:suz+wCwQSfEcY2OG/tmF4RvZdCS+yVi3HhIamssUiZ8=
 github.com/opera7133/Blonde v0.0.0-20220918075631-4908a16a5ec6/go.mod h1:b3YtD5mSb0xLTVGYHJCCBPyc1g3VLyrov7tWXeZsI14=
 github.com/opera7133/tella v0.0.0-20221106123552-66642d51f6e9 h1:FEzjhee6jabpFYu+/b2AR8CiJJfzQgONfhPdE2O97D4=
