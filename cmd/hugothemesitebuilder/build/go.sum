@@ -516,6 +516,8 @@ github.com/homecat805/hugo-theme-walden v0.0.0-20221227045049-ce1e43d14233 h1:hx
 github.com/homecat805/hugo-theme-walden v0.0.0-20221227045049-ce1e43d14233/go.mod h1:lsV8/eE0HXBNB6P/dx0fdSjkzCpmp/gNP87xTdvF8zg=
 github.com/homecat805/hugo-theme-walden v0.0.0-20230105115148-c2129cc980ea h1:0QN8ZhcYWGwxvTij0Jc2u3imo3EwQnF4SFnY+JDBvTU=
 github.com/homecat805/hugo-theme-walden v0.0.0-20230105115148-c2129cc980ea/go.mod h1:lsV8/eE0HXBNB6P/dx0fdSjkzCpmp/gNP87xTdvF8zg=
+github.com/homecat805/hugo-theme-walden v0.0.0-20230112120408-3dbf349000fb h1:ZEuivuyGn4EFP9sE5+mCMoteGpzPaUMtpb32VaOIi34=
+github.com/homecat805/hugo-theme-walden v0.0.0-20230112120408-3dbf349000fb/go.mod h1:lsV8/eE0HXBNB6P/dx0fdSjkzCpmp/gNP87xTdvF8zg=
 github.com/hootan09/simple-cv v0.0.0-20220526085510-32a2ca6f372b h1:kNoknmQeUgLxGscE/ld5OCfTTHb6V9RGUiDGZzinkEw=
 github.com/hootan09/simple-cv v0.0.0-20220526085510-32a2ca6f372b/go.mod h1:S0p2zxIK4BBgzVpJ+Y2Wa8VGXBa5SrMxdHhK7meijZg=
 github.com/hossainemruz/toha v3.7.0+incompatible h1:RX8n8PoC3kc9TrAsbVHuKYkg9AiOrpNBCrWEDRbw2nc=
@@ -717,6 +719,8 @@ github.com/luizdepra/hugo-coder v0.0.0-20230110215216-6407a2039bca h1:BxMkG5BG9p
 github.com/luizdepra/hugo-coder v0.0.0-20230110215216-6407a2039bca/go.mod h1:9EQBf2rU+NPjlohGuKcEgdqSeOc3tIQoOty4xPpuUQ4=
 github.com/lukeorth/poison v0.0.0-20230106173213-a545c2b77df9 h1:+Oi4Csreb9kLYreCMJs20hboKqTKl7XxrS/8OA7JFtE=
 github.com/lukeorth/poison v0.0.0-20230106173213-a545c2b77df9/go.mod h1:fYVpevZiA79ef8Q1DkUgg/MF53oy4mKFSFTnK+EeiO0=
+github.com/lukeorth/poison v0.0.0-20230112180736-d620c286f11f h1:CKqBBX+GfDkONL04BO8Cg8EZNfDxUeAekEy/iuO89zk=
+github.com/lukeorth/poison v0.0.0-20230112180736-d620c286f11f/go.mod h1:fYVpevZiA79ef8Q1DkUgg/MF53oy4mKFSFTnK+EeiO0=
 github.com/lxndrblz/anatole v1.12.0 h1:+3cmraXdZTcUwzW4wVB/hLeQOyZOIUZOXtxnY7vcCf8=
 github.com/lxndrblz/anatole v1.12.0/go.mod h1:hy61SRyUDKaWw2P+cERt9UPde5guWyVKgtjdzRF5bfI=
 github.com/marcanuy/simpleit-hugo-theme v0.0.0-20210616134837-49277e5c3be0 h1:n7FsJhxX9nABeTlayuJsnJc2gbTYZhaLPz/q9k4Qov8=
@@ -785,6 +789,8 @@ github.com/nanxiaobei/hugo-paper v0.0.0-20230102193004-31d48aafa278 h1:/a+MzK1XA
 github.com/nanxiaobei/hugo-paper v0.0.0-20230102193004-31d48aafa278/go.mod h1:CeRgawh+WFgm29TC2yGTPy9CAWkQaUABYejSFQDmL28=
 github.com/nanxiaobei/hugo-paper v0.0.0-20230108175137-bcab41188835 h1:k28DUzA681JPfSncvu014fXF39SYpqILPcxXtFK+8b4=
 github.com/nanxiaobei/hugo-paper v0.0.0-20230108175137-bcab41188835/go.mod h1:CeRgawh+WFgm29TC2yGTPy9CAWkQaUABYejSFQDmL28=
+github.com/nanxiaobei/hugo-paper v0.0.0-20230112071756-5fd58d8cdfab h1:wNgAYqfQYiL91mJtEXRp9NvJXTPQ2pxhgJdilO3NWCA=
+github.com/nanxiaobei/hugo-paper v0.0.0-20230112071756-5fd58d8cdfab/go.mod h1:CeRgawh+WFgm29TC2yGTPy9CAWkQaUABYejSFQDmL28=
 github.com/nanxstats/hugo-tanka v0.0.0-20210707221939-9bec4eba33e5 h1:ArKJMwXbgVVeIhpHxuDES/IoftMzOlk4mMB0tYHmUsY=
 github.com/nanxstats/hugo-tanka v0.0.0-20210707221939-9bec4eba33e5/go.mod h1:MpW+xmCZzgJK5cTtN7/k+nKAKSU7IR8Y3Y7Vt7rdm0c=
 github.com/naro143/hugo-coder-portfolio v0.0.0-20200903083500-255d92337c07 h1:sJcQpPI0wm1zKeX38i/A1RmpPGIN9c4YPMuOTek1woY=

@@ -190,7 +190,7 @@ require (
 	github.com/heksagonnet/piko v0.0.0-20221207230337-0ff4e2c05cdd // indirect
 	github.com/heyeshuang/hugo-theme-tokiwa v0.0.0-20230108092940-2dc03edbe4cc // indirect
 	github.com/hivickylai/hugo-theme-sam v4.0.2+incompatible // indirect
-	github.com/homecat805/hugo-theme-walden v0.0.0-20230105115148-c2129cc980ea // indirect
+	github.com/homecat805/hugo-theme-walden v0.0.0-20230112120408-3dbf349000fb // indirect
 	github.com/hootan09/simple-cv v0.0.0-20220526085510-32a2ca6f372b // indirect
 	github.com/hossainemruz/toha v3.7.0+incompatible // indirect
 	github.com/htr3n/hyde-hyde v2.0.2+incompatible // indirect
@@ -266,7 +266,7 @@ require (
 	github.com/lubang/hugo-hello-programmer-theme v2.1.0+incompatible // indirect
 	github.com/lucperkins/hugo-fresh v0.0.0-20220922022354-244bcfcbdfc1 // indirect
 	github.com/luizdepra/hugo-coder v0.0.0-20230110215216-6407a2039bca // indirect
-	github.com/lukeorth/poison v0.0.0-20230106173213-a545c2b77df9 // indirect
+	github.com/lukeorth/poison v0.0.0-20230112180736-d620c286f11f // indirect
 	github.com/lxndrblz/anatole v1.12.0 // indirect
 	github.com/marcanuy/simpleit-hugo-theme v0.0.0-20210616134837-49277e5c3be0 // indirect
 	github.com/markdumay/hugo-theme-hinode v0.7.9 // indirect
@@ -289,7 +289,7 @@ require (
 	github.com/mmrath/hugo-bootstrap v0.0.0-20190615045721-5e7bfb2518b7 // indirect
 	github.com/monkeyWzr/hugo-theme-cactus v0.0.0-20210831141748-a27a14348040 // indirect
 	github.com/mrmierzejewski/hugo-theme-console v0.0.0-20220330115610-7e98cbce03d4 // indirect
-	github.com/nanxiaobei/hugo-paper v0.0.0-20230108175137-bcab41188835 // indirect
+	github.com/nanxiaobei/hugo-paper v0.0.0-20230112071756-5fd58d8cdfab // indirect
 	github.com/nanxstats/hugo-tanka v0.0.0-20210707221939-9bec4eba33e5 // indirect
 	github.com/naro143/hugo-coder-portfolio v0.0.0-20200903083500-255d92337c07 // indirect
 	github.com/natarajmb/charaka-hugo-theme v0.0.0-20201215113736-021bc743417b // indirect
