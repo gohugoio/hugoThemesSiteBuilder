@@ -92,7 +92,7 @@ require (
 	github.com/bake/solar-theme-hugo v0.0.0-20210403202535-97632b71c241 // indirect
 	github.com/balaramadurai/hugo-travelify-theme v0.0.0-20220920044651-e35187ce23ad // indirect
 	github.com/bep/docuapi/v2 v2.2.0 // indirect
-	github.com/bep/gallerydeluxe v0.9.0 // indirect
+	github.com/bep/gallerydeluxe v0.9.1 // indirect
 	github.com/bjacquemet/personal-web v0.0.0-20210930154027-95178cb6bf55 // indirect
 	github.com/blankoworld/hugo_theme_adam_eve v0.0.0-20221104230834-48436eef467b // indirect
 	github.com/boratanrikulu/eternity v0.0.0-20230114220717-d3a58f216a34 // indirect
@@ -179,7 +179,7 @@ require (
 	github.com/guangmean/Niello v1.1.1 // indirect
 	github.com/guangzhengli/hugo-theme-ladder v1.0.1 // indirect
 	github.com/gundamew/hugo-bingo v1.8.2 // indirect
-	github.com/gurusabarish/hugo-profile v0.0.0-20230109183733-9c1b16ec3d1d // indirect
+	github.com/gurusabarish/hugo-profile v0.0.0-20230116145227-07c0b9652f65 // indirect
 	github.com/gyorb/hugo-dusk v1.0.1 // indirect
 	github.com/h-enk/doks v0.5.0 // indirect
 	github.com/hadisinaee/avicenna v0.0.0-20210802003840-1412ad1b941f // indirect
@@ -222,7 +222,7 @@ require (
 	github.com/jgazeau/shadocs v0.0.0-20230110191858-149bd9c6b889 // indirect
 	github.com/jimfrenette/hugo-starter v0.0.0-20210805024343-ed81461deb5c // indirect
 	github.com/jmablog/hugo-clinic-notes v0.0.0-20210111134623-7f5a64696c35 // indirect
-	github.com/jmau111/hugo-theme-ava v0.0.0-20230107153242-4e24db639606 // indirect
+	github.com/jmau111/hugo-theme-ava v0.0.0-20230116180948-0b624aa47065 // indirect
 	github.com/jnjosh/internet-weblog v0.0.0-20221109022950-bcf4127174a4 // indirect
 	github.com/joeroe/risotto v0.1.0 // indirect
 	github.com/jonathanjanssens/hugo-casper3 v1.0.1 // indirect
@@ -266,7 +266,7 @@ require (
 	github.com/lubang/hugo-hello-programmer-theme v2.1.0+incompatible // indirect
 	github.com/lucperkins/hugo-fresh v0.0.0-20220922022354-244bcfcbdfc1 // indirect
 	github.com/luizdepra/hugo-coder v0.0.0-20230110215216-6407a2039bca // indirect
-	github.com/lukeorth/poison v0.0.0-20230112180736-d620c286f11f // indirect
+	github.com/lukeorth/poison v0.0.0-20230116221846-1db553f75ac0 // indirect
 	github.com/lxndrblz/anatole v1.12.0 // indirect
 	github.com/marcanuy/simpleit-hugo-theme v0.0.0-20210616134837-49277e5c3be0 // indirect
 	github.com/markdumay/hugo-theme-hinode v0.7.9 // indirect
@@ -303,7 +303,7 @@ require (
 	github.com/ntk148v/hugo-toigian v0.0.1 // indirect
 	github.com/nunocoracao/blowfish v1.9.0 // indirect
 	github.com/nurlansu/hugo-sustain v0.0.0-20210213172029-615e0611b5c0 // indirect
-	github.com/nusserstudios/tailbliss v0.0.0-20230107195843-e6591bf3acaa // indirect
+	github.com/nusserstudios/tailbliss v0.0.0-20230116202604-5aebf79503ba // indirect
 	github.com/okkur/syna v0.17.4 // indirect
 	github.com/olOwOlo/hugo-theme-even v4.1.0+incompatible // indirect
 	github.com/onweru/compose v0.0.0-20221230112641-fc880bd38897 // indirect
