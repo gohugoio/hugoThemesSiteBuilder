@@ -46,6 +46,8 @@ github.com/GDGToulouse/devfest-theme-hugo v0.0.0-20220415065715-84f2f2191d40 h1:
 github.com/GDGToulouse/devfest-theme-hugo v0.0.0-20220415065715-84f2f2191d40/go.mod h1:JZPo2mrjM2VlfzPefMfkL6X+kWYiPdRN9eIsbIGUmRw=
 github.com/HEIGE-PCloud/DoIt v0.2.13 h1:UZsuBqEct/ishQ/rPbW03hnfXAQlj6O4teXsdrUd300=
 github.com/HEIGE-PCloud/DoIt v0.2.13/go.mod h1:SyEBjqY19ONqToU6wtTjPO84tNuPsMTQ+E/iX20addA=
+github.com/HEIGE-PCloud/DoIt v0.3.0 h1:vuJrHhY45vNy1tf5EKfqdLr+7TMsKoX8sPHtCBuAZJA=
+github.com/HEIGE-PCloud/DoIt v0.3.0/go.mod h1:SyEBjqY19ONqToU6wtTjPO84tNuPsMTQ+E/iX20addA=
 github.com/Ice-Hazymoon/hugo-theme-luna v0.7.1 h1:WjsANtWD47EE/7gvoO4dkta/b5hwg7ZpvZXWk+Rpim0=
 github.com/Ice-Hazymoon/hugo-theme-luna v0.7.1/go.mod h1:JDep/OnN6ZjdEhTMabAKYENhrFweYi1/GJd8ZyqeDk8=
 github.com/IvanChou/hugo-theme-vec v0.0.0-20190110125257-deb6897f1d8e h1:gbK9pQE92fdFgkCzqGYoT4i4foFhrV+C3FsSLKEYORg=
@@ -321,6 +323,8 @@ github.com/chipzoller/hugo-clarity v0.0.0-20221029154452-0dcfb1a9742c h1:RdfM7q3
 github.com/chipzoller/hugo-clarity v0.0.0-20221029154452-0dcfb1a9742c/go.mod h1:v1JkaKdcLRibyUCalLP2CNeFo6FGzfd4ipEr4dK0+Zg=
 github.com/chipzoller/hugo-clarity v0.0.0-20221219095307-1d7940986aaf h1:E5hGg6CfaiXwBA3IDGE0blqI3kbQJ3r5c5u705aVVdM=
 github.com/chipzoller/hugo-clarity v0.0.0-20221219095307-1d7940986aaf/go.mod h1:v1JkaKdcLRibyUCalLP2CNeFo6FGzfd4ipEr4dK0+Zg=
+github.com/chipzoller/hugo-clarity v0.0.0-20230119084302-be528c55cd41 h1:U+Fdz6DZ+zzC4Mh0/nDBPGMy3bXMWtLiLqesJmZS5KA=
+github.com/chipzoller/hugo-clarity v0.0.0-20230119084302-be528c55cd41/go.mod h1:v1JkaKdcLRibyUCalLP2CNeFo6FGzfd4ipEr4dK0+Zg=
 github.com/chollinger93/ink-free v1.3.0 h1:uzLs2YLZjT0ryC307aEVacKepQp6bPCt11+fpuz0RkA=
 github.com/chollinger93/ink-free v1.3.0/go.mod h1:diBe+tAKd0iKdV9QCk8+GRlS7VqfGU9mxgvCk8JFB7A=
 github.com/chringel21/chringel-hugo-theme v1.3.1 h1:G3L72hGaMhf5531QBXoXmOJP5fL5grZ2pxlTmDHNxKg=
@@ -381,6 +385,8 @@ github.com/de-souza/hugo-flex v0.0.0-20221027085508-eb5e35185457 h1:fUvLApjLKJab
 github.com/de-souza/hugo-flex v0.0.0-20221027085508-eb5e35185457/go.mod h1:XAyp0wkF5CZ3IX2uFMPZOyAuVI3GY7kKDUiJGk4UD6w=
 github.com/de-souza/hugo-flex v0.0.0-20230118183816-872f60408f40 h1:Srlzuu/Gw0rrAocrno0TiTC9x0LY1Pn6y7jMLCcoWCs=
 github.com/de-souza/hugo-flex v0.0.0-20230118183816-872f60408f40/go.mod h1:XAyp0wkF5CZ3IX2uFMPZOyAuVI3GY7kKDUiJGk4UD6w=
+github.com/de-souza/hugo-flex v0.0.0-20230119201801-373e91921343 h1:wl6khxAFOkGRqwrYiVVn45XiRsRkbTG5j2bCS9Id4PQ=
+github.com/de-souza/hugo-flex v0.0.0-20230119201801-373e91921343/go.mod h1:XAyp0wkF5CZ3IX2uFMPZOyAuVI3GY7kKDUiJGk4UD6w=
 github.com/devcows/hugo-universal-theme v0.0.0-20220930131748-1af54bd80798 h1:iJcygyQSy4FSi0qB+JoIEsEGCkosE2xdSrh9JZn4npI=
 github.com/devcows/hugo-universal-theme v0.0.0-20220930131748-1af54bd80798/go.mod h1:MqYH15Evmut/wgYkFi7ArsX+k44HfRrH675FbVLBkq0=
 github.com/devcows/hugo-universal-theme v0.0.0-20230107121035-4e9eace61e0a h1:sfI8IsJ1aY3TISVXsXku4om7jMq/S7VjT3mRPWyF3uo=
@@ -892,6 +898,8 @@ github.com/onweru/compose v0.0.0-20221229203842-0a15e2b24d3e h1:Cz0/FfYKp1xtmveB
 github.com/onweru/compose v0.0.0-20221229203842-0a15e2b24d3e/go.mod h1:tf1kQIBUcwJ/3mRFU5eiMrMvsDScVTK2IEFsZE3hZOc=
 github.com/onweru/compose v0.0.0-20221230112641-fc880bd38897 h1:3PfuohvyChhjW8jh0iAyoIBh85lhg1JmSE5l0Pj95Z8=
 github.com/onweru/compose v0.0.0-20221230112641-fc880bd38897/go.mod h1:tf1kQIBUcwJ/3mRFU5eiMrMvsDScVTK2IEFsZE3hZOc=
+github.com/onweru/compose v0.0.0-20230119130952-ea7976b75ac4 h1:jVYGseVT1xc9VhN0Ql7Lk+gBli+wu+FuXIj4q2To3B4=
+github.com/onweru/compose v0.0.0-20230119130952-ea7976b75ac4/go.mod h1:tf1kQIBUcwJ/3mRFU5eiMrMvsDScVTK2IEFsZE3hZOc=
 github.com/onweru/hugo-swift-theme v2.0.0+incompatible h1:UGc/TiOzqcSnNyfkkKoU8vQ9wGQTBmLjkblGcPhnzjM=
 github.com/onweru/hugo-swift-theme v2.0.0+incompatible/go.mod h1:Flki1A7Xnz36putWgud7Dmfqn4wIwoiAQO1pnNb4IOs=
 github.com/onweru/newsroom v0.0.0-20220114000312-a46aedf8f0c5 h1:ooAGhkoF7KRpD/CJ5/dbPl8yp08u5HABu7uC7dDOSFw=
@@ -950,6 +958,8 @@ github.com/peaceiris/hugo-theme-iris v0.43.6 h1:aAoqop7chRAIdiG5xxgOnX28OMzb58mf
 github.com/peaceiris/hugo-theme-iris v0.43.6/go.mod h1:X7lxyIdGLEw0K2Rf9PelgL/uqT+Qs5NbSdICWG3PJ9g=
 github.com/peaceiris/hugo-theme-iris v0.43.7 h1:GqbOwdl9CDjOzi3Abirhskm56kZFH7My1CYVdcOgL7s=
 github.com/peaceiris/hugo-theme-iris v0.43.7/go.mod h1:X7lxyIdGLEw0K2Rf9PelgL/uqT+Qs5NbSdICWG3PJ9g=
+github.com/peaceiris/hugo-theme-iris v0.44.0 h1:y4EwACL/pUkSnoSK82Id/FRKR/gmY0zhjunp31qphZM=
+github.com/peaceiris/hugo-theme-iris v0.44.0/go.mod h1:X7lxyIdGLEw0K2Rf9PelgL/uqT+Qs5NbSdICWG3PJ9g=
 github.com/pfadfinder-konstanz/hugo-dpsg v0.0.0-20220728113412-7c03e472758f h1:/woe6vx8A6bs4Zymi/eDnf8hsEYJyOpBuozZNHbRrbI=
 github.com/pfadfinder-konstanz/hugo-dpsg v0.0.0-20220728113412-7c03e472758f/go.mod h1:2XEzYZMoA15ktGbwbDZj+6C4YwkJoFZblFB7DnCK9H4=
 github.com/ph-ph/chalk v0.0.0-20220515225815-7fa5c9bfc682 h1:aU1XtytjcsxmhsyoH0dHKqX6IUd/DoAhnwIBU2KakA0=
@@ -1238,6 +1248,8 @@ github.com/xioyito/NewBee v1.1.0 h1:thNgqRRsgh9RGMLKvklsNnaeHwc0JQo2Fd7zmFr8od0=
 github.com/xioyito/NewBee v1.1.0/go.mod h1:Ydk7h/x2eGWjS0lglUV3erR9+lNi2/CJITH1s7e3cGw=
 github.com/xioyito/NewBee v1.1.1 h1:tvU9ttSNq+77DNeecmpSUQRHH7X+MYV6+XkY7kVAKEc=
 github.com/xioyito/NewBee v1.1.1/go.mod h1:Ydk7h/x2eGWjS0lglUV3erR9+lNi2/CJITH1s7e3cGw=
+github.com/xioyito/NewBee v1.2.0 h1:hiXNUBTyUfBoYfIw9lcLdi8UM9qfq9KX1Wy0jvzAYik=
+github.com/xioyito/NewBee v1.2.0/go.mod h1:Ydk7h/x2eGWjS0lglUV3erR9+lNi2/CJITH1s7e3cGw=
 github.com/xslingcn/vno-hugo v1.1.3 h1:78W5iiXLdjQIVQ3uVkUB2VmYqP5xwjQyfpFmsraYZpg=
 github.com/xslingcn/vno-hugo v1.1.3/go.mod h1:EPZfnz7yVjkSeNH3mAA3E/FVo0xvX6uJVYJ6f8TttAI=
 github.com/yanlinlin82/simple-style v0.0.0-20220414155221-f448e5d675fa h1:zpQdM3NmwwhHZl/YkOHGP7JL2zJHwF27BL9LWZx6nl8=
