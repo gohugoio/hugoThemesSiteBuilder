@@ -6,6 +6,7 @@ github.com/gohugoio/gohugoioTheme v0.0.0-20220905093719-cb8b64046950/go.mod h1:k
 github.com/gohugoio/gohugoioTheme v0.0.0-20220912070954-88dcaf003b4d/go.mod h1:kpw3SS48xZvLQGEXKu8u5XHgXkPvL8DX3oGa07+z8Bs=
 github.com/gohugoio/gohugoioTheme v0.0.0-20220914071648-0ef1c51685bf/go.mod h1:kpw3SS48xZvLQGEXKu8u5XHgXkPvL8DX3oGa07+z8Bs=
 github.com/gohugoio/gohugoioTheme v0.0.0-20221220160735-8ffa1ef883b6/go.mod h1:GOYeAPQJ/ok8z7oz1cjfcSlsFpXrmx6VkzQ5RpnyhZM=
+github.com/gohugoio/gohugoioTheme v0.0.0-20230109120406-12694c4a9456/go.mod h1:GOYeAPQJ/ok8z7oz1cjfcSlsFpXrmx6VkzQ5RpnyhZM=
 github.com/gohugoio/hugoThemesSite v0.0.0-20210519162828-756792be83fa h1:s8I3nhH+5bXJEnTGCwYxVT2JfhgxME8SAb7iSIzlN5I=
 github.com/gohugoio/hugoThemesSite v0.0.0-20210519162828-756792be83fa/go.mod h1:Gx6nWFkR+m0eRiTbtiFb1luhSp6IJ22akCXOvYdcbN4=
 github.com/gohugoio/hugoThemesSite v0.0.0-20210628104547-7a5b595fb9f9/go.mod h1:Gx6nWFkR+m0eRiTbtiFb1luhSp6IJ22akCXOvYdcbN4=
@@ -35,3 +36,5 @@ github.com/gohugoio/hugoThemesSite v0.0.0-20221220160951-98666fb93170 h1:SnrbqYL
 github.com/gohugoio/hugoThemesSite v0.0.0-20221220160951-98666fb93170/go.mod h1:KnQgjnYUIyda5nnQcU+vr2SZcfoIAf/DxH6SBpjOxzI=
 github.com/gohugoio/hugoThemesSite v0.0.0-20230109120608-e200ebd0f585 h1:Wd8n1rR1Tq+Gf4Ko5klrA/h4oGoENcaF00qyhOcfy/Y=
 github.com/gohugoio/hugoThemesSite v0.0.0-20230109120608-e200ebd0f585/go.mod h1:pT++8OKVQYgBKXTPu/N7Fq6fNCw7WE64MdXo0PQowDQ=
+github.com/gohugoio/hugoThemesSite v0.0.0-20230120185221-c1c0c38354bf h1:3gkET58X9oA6s3s+4ow87N6zI/MrsfX759lUmkbROp4=
+github.com/gohugoio/hugoThemesSite v0.0.0-20230120185221-c1c0c38354bf/go.mod h1:7/NX/bWx3VZoP221IlKeafvYiBLCH/+c7F60SFot4bw=
