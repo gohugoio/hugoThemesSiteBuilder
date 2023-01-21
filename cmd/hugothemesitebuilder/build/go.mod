@@ -72,7 +72,7 @@ require (
 	github.com/aerohub/hugo-orbit-theme v0.0.0-20170515130410-f89b1ee9a336 // indirect
 	github.com/aerohub/hugrid v0.0.0-20180802081651-6fd4b20fe021 // indirect
 	github.com/airinghost/hugo-theme-icarus-lite v1.1.3 // indirect
-	github.com/akatiggerx04/graysx-hugo v0.0.0-20220906224308-d4fb96a39664 // indirect
+	github.com/akatiggerx04/graysx-hugo v0.0.0-20230120090901-fe35dd8b38c7 // indirect
 	github.com/alanorth/hugo-theme-bootstrap4-blog v1.6.0 // indirect
 	github.com/alex-shpak/hugo-book v0.0.0-20221111100854-d5b75f4fb3aa // indirect
 	github.com/alexandrevicenzi/soho v1.1.0 // indirect
@@ -241,7 +241,7 @@ require (
 	github.com/kaiiiz/hugo-theme-monochrome v1.0.1 // indirect
 	github.com/kakawait/hugo-tranquilpeak-theme v0.0.0-20220821070134-3b5676afca7e // indirect
 	github.com/kaushalmodi/hugo-bare-min-theme v0.6.0 // indirect
-	github.com/kaushikgopal/henry-hugo v0.0.0-20230117070446-6f761f6bce48 // indirect
+	github.com/kaushikgopal/henry-hugo v0.0.0-20230120212851-d1a255844326 // indirect
 	github.com/kc0bfv/autophugo v0.0.0-20221029211619-6bb38297e756 // indirect
 	github.com/kc0bfv/ticky_tacky_dark v0.0.0-20221111221805-f626fbd274d1 // indirect
 	github.com/kdevo/osprey-delight/v5 v5.0.2 // indirect
@@ -266,7 +266,7 @@ require (
 	github.com/lubang/hugo-hello-programmer-theme v2.1.0+incompatible // indirect
 	github.com/lucperkins/hugo-fresh v0.0.0-20230118074927-0c2ca44b94ef // indirect
 	github.com/luizdepra/hugo-coder v0.0.0-20230110215216-6407a2039bca // indirect
-	github.com/lukeorth/poison v0.0.0-20230117210310-b3929285e053 // indirect
+	github.com/lukeorth/poison v0.0.0-20230120161015-1c125a90316d // indirect
 	github.com/lxndrblz/anatole v1.12.0 // indirect
 	github.com/marcanuy/simpleit-hugo-theme v0.0.0-20210616134837-49277e5c3be0 // indirect
 	github.com/markdumay/hugo-theme-hinode v0.7.9 // indirect
@@ -303,7 +303,7 @@ require (
 	github.com/ntk148v/hugo-toigian v0.0.1 // indirect
 	github.com/nunocoracao/blowfish v1.9.0 // indirect
 	github.com/nurlansu/hugo-sustain v0.0.0-20210213172029-615e0611b5c0 // indirect
-	github.com/nusserstudios/tailbliss v0.0.0-20230116202604-5aebf79503ba // indirect
+	github.com/nusserstudios/tailbliss v0.0.0-20230120154319-afaa79a0d1c9 // indirect
 	github.com/okkur/syna v0.17.4 // indirect
 	github.com/olOwOlo/hugo-theme-even v4.1.0+incompatible // indirect
 	github.com/onweru/compose v0.0.0-20230119130952-ea7976b75ac4 // indirect
@@ -316,12 +316,12 @@ require (
 	github.com/pacollins/calligraphy v0.0.0-20220703233739-2207fab30d71 // indirect
 	github.com/panr/hugo-theme-hello-friend v0.0.0-20230107225212-aa69b5504cbe // indirect
 	github.com/panr/hugo-theme-terminal v0.0.0-20230102221952-20fc1079fa31 // indirect
-	github.com/parsiya/Hugo-Octopress v0.0.0-20221219053230-1caca7a0f0be // indirect
+	github.com/parsiya/Hugo-Octopress v0.0.0-20230120221413-06215b5fadb0 // indirect
 	github.com/paulmartins/hugo-digital-garden-theme v0.0.0-20221206090949-d17ca5567c0c // indirect
 	github.com/pavel-pi/kiss-em v2.0.0+incompatible // indirect
 	github.com/pdevty/material-design v0.0.0-20160828002125-587b3af7db83 // indirect
 	github.com/pdevty/polymer v0.0.0-20150630134133-d8be0028b80d // indirect
-	github.com/peaceiris/hugo-theme-iris v0.44.0 // indirect
+	github.com/peaceiris/hugo-theme-iris v0.44.3 // indirect
 	github.com/pfadfinder-konstanz/hugo-dpsg v0.0.0-20220728113412-7c03e472758f // indirect
 	github.com/ph-ph/chalk v0.0.0-20220515225815-7fa5c9bfc682 // indirect
 	github.com/pjbakker/flexible-seo-hugo v0.0.0-20210413080041-d65d15e84bd4 // indirect
