@@ -139,7 +139,7 @@ require (
 	github.com/darshanbaral/sada v0.0.0-20210510233612-2f5aac944c75 // indirect
 	github.com/dataCobra/hugo-vitae v0.0.0-20221210182124-6d4251d23a28 // indirect
 	github.com/davidhampgonsalves/hugo-black-and-light-theme v0.0.0-20221107102623-e75ab9e72a65 // indirect
-	github.com/de-souza/hugo-flex v0.0.0-20230119201801-373e91921343 // indirect
+	github.com/de-souza/hugo-flex v0.0.0-20230121025327-cec9ce9df2a3 // indirect
 	github.com/devcows/hugo-universal-theme v0.0.0-20230107121035-4e9eace61e0a // indirect
 	github.com/dewittn/hugo-html5up-alpha v0.0.0-20200529171052-b921f3bccb74 // indirect
 	github.com/dillonzq/LoveIt v0.2.11 // indirect
@@ -179,7 +179,7 @@ require (
 	github.com/guangmean/Niello v1.1.1 // indirect
 	github.com/guangzhengli/hugo-theme-ladder v1.0.1 // indirect
 	github.com/gundamew/hugo-bingo v1.8.2 // indirect
-	github.com/gurusabarish/hugo-profile v0.0.0-20230116145227-07c0b9652f65 // indirect
+	github.com/gurusabarish/hugo-profile v0.0.0-20230121194244-bd4225c25c80 // indirect
 	github.com/gyorb/hugo-dusk v1.0.1 // indirect
 	github.com/h-enk/doks v0.5.0 // indirect
 	github.com/hadisinaee/avicenna v0.0.0-20210802003840-1412ad1b941f // indirect
@@ -190,7 +190,7 @@ require (
 	github.com/heksagonnet/piko v0.0.0-20221207230337-0ff4e2c05cdd // indirect
 	github.com/heyeshuang/hugo-theme-tokiwa v0.0.0-20230108092940-2dc03edbe4cc // indirect
 	github.com/hivickylai/hugo-theme-sam v4.0.2+incompatible // indirect
-	github.com/homecat805/hugo-theme-walden v0.0.0-20230114041538-8117120c6e02 // indirect
+	github.com/homecat805/hugo-theme-walden v0.0.0-20230121092604-d8d49018b640 // indirect
 	github.com/hootan09/simple-cv v0.0.0-20220526085510-32a2ca6f372b // indirect
 	github.com/hossainemruz/toha v3.7.0+incompatible // indirect
 	github.com/htr3n/hyde-hyde v2.0.2+incompatible // indirect

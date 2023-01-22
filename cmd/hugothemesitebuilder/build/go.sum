@@ -389,6 +389,8 @@ github.com/de-souza/hugo-flex v0.0.0-20230118183816-872f60408f40 h1:Srlzuu/Gw0rr
 github.com/de-souza/hugo-flex v0.0.0-20230118183816-872f60408f40/go.mod h1:XAyp0wkF5CZ3IX2uFMPZOyAuVI3GY7kKDUiJGk4UD6w=
 github.com/de-souza/hugo-flex v0.0.0-20230119201801-373e91921343 h1:wl6khxAFOkGRqwrYiVVn45XiRsRkbTG5j2bCS9Id4PQ=
 github.com/de-souza/hugo-flex v0.0.0-20230119201801-373e91921343/go.mod h1:XAyp0wkF5CZ3IX2uFMPZOyAuVI3GY7kKDUiJGk4UD6w=
+github.com/de-souza/hugo-flex v0.0.0-20230121025327-cec9ce9df2a3 h1:HM1WNQTrvjnc1rWJiBEfzHWRemHyEQeL0eo3+O74cRw=
+github.com/de-souza/hugo-flex v0.0.0-20230121025327-cec9ce9df2a3/go.mod h1:XAyp0wkF5CZ3IX2uFMPZOyAuVI3GY7kKDUiJGk4UD6w=
 github.com/devcows/hugo-universal-theme v0.0.0-20220930131748-1af54bd80798 h1:iJcygyQSy4FSi0qB+JoIEsEGCkosE2xdSrh9JZn4npI=
 github.com/devcows/hugo-universal-theme v0.0.0-20220930131748-1af54bd80798/go.mod h1:MqYH15Evmut/wgYkFi7ArsX+k44HfRrH675FbVLBkq0=
 github.com/devcows/hugo-universal-theme v0.0.0-20230107121035-4e9eace61e0a h1:sfI8IsJ1aY3TISVXsXku4om7jMq/S7VjT3mRPWyF3uo=
@@ -506,6 +508,8 @@ github.com/gurusabarish/hugo-profile v0.0.0-20230109183733-9c1b16ec3d1d h1:gBYhN
 github.com/gurusabarish/hugo-profile v0.0.0-20230109183733-9c1b16ec3d1d/go.mod h1:drpVx8hmKaH1c5qiGjGFQ6FU+I1C6ygS/U7AB5nMH44=
 github.com/gurusabarish/hugo-profile v0.0.0-20230116145227-07c0b9652f65 h1:XMtQ3wxpwzSz2KIbQGzPQKVKI+PjTeDjA+PIe38XVW0=
 github.com/gurusabarish/hugo-profile v0.0.0-20230116145227-07c0b9652f65/go.mod h1:drpVx8hmKaH1c5qiGjGFQ6FU+I1C6ygS/U7AB5nMH44=
+github.com/gurusabarish/hugo-profile v0.0.0-20230121194244-bd4225c25c80 h1:T0FSQi5tfpVpobMgVHgoW4IIJyEh4rGJmx/uR03zoCQ=
+github.com/gurusabarish/hugo-profile v0.0.0-20230121194244-bd4225c25c80/go.mod h1:drpVx8hmKaH1c5qiGjGFQ6FU+I1C6ygS/U7AB5nMH44=
 github.com/gyorb/hugo-dusk v1.0.1 h1:c0xGXY0UzGWEdpD9khaWWroNjzsgjlyQNGTBdPfsUDw=
 github.com/gyorb/hugo-dusk v1.0.1/go.mod h1:EDbPT5mNiOeB83yEcqUa3bFKSfVSHNJgg3XvynKGwm0=
 github.com/h-enk/doks v0.5.0 h1:/pb2YhKODThnIty7ObwybJ/SNu3nyl8DqDSCbLybwd4=
@@ -552,6 +556,8 @@ github.com/homecat805/hugo-theme-walden v0.0.0-20230113084533-17d7b1bf8828 h1:RB
 github.com/homecat805/hugo-theme-walden v0.0.0-20230113084533-17d7b1bf8828/go.mod h1:lsV8/eE0HXBNB6P/dx0fdSjkzCpmp/gNP87xTdvF8zg=
 github.com/homecat805/hugo-theme-walden v0.0.0-20230114041538-8117120c6e02 h1:SboZQqUaoPrPS5XxtYtSazyzeqtJu5utDqPA9IfaE6M=
 github.com/homecat805/hugo-theme-walden v0.0.0-20230114041538-8117120c6e02/go.mod h1:lsV8/eE0HXBNB6P/dx0fdSjkzCpmp/gNP87xTdvF8zg=
+github.com/homecat805/hugo-theme-walden v0.0.0-20230121092604-d8d49018b640 h1:13RutC7Z4lXNR2ZCCZmGOcQBovGMIJA+vD1tCKLZQVU=
+github.com/homecat805/hugo-theme-walden v0.0.0-20230121092604-d8d49018b640/go.mod h1:lsV8/eE0HXBNB6P/dx0fdSjkzCpmp/gNP87xTdvF8zg=
 github.com/hootan09/simple-cv v0.0.0-20220526085510-32a2ca6f372b h1:kNoknmQeUgLxGscE/ld5OCfTTHb6V9RGUiDGZzinkEw=
 github.com/hootan09/simple-cv v0.0.0-20220526085510-32a2ca6f372b/go.mod h1:S0p2zxIK4BBgzVpJ+Y2Wa8VGXBa5SrMxdHhK7meijZg=
 github.com/hossainemruz/toha v3.7.0+incompatible h1:RX8n8PoC3kc9TrAsbVHuKYkg9AiOrpNBCrWEDRbw2nc=
