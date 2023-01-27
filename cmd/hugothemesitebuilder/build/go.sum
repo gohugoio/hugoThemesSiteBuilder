@@ -411,6 +411,8 @@ github.com/de-souza/hugo-flex v0.0.0-20230123130004-3f83cd76bef8 h1:DMWOA6ZFkLJr
 github.com/de-souza/hugo-flex v0.0.0-20230123130004-3f83cd76bef8/go.mod h1:XAyp0wkF5CZ3IX2uFMPZOyAuVI3GY7kKDUiJGk4UD6w=
 github.com/de-souza/hugo-flex v0.0.0-20230125141724-5b2c0fa8276e h1:1fY+vNV/qhe1U9vYPGh6PQSK02EnDTjjPk/bUfHezhE=
 github.com/de-souza/hugo-flex v0.0.0-20230125141724-5b2c0fa8276e/go.mod h1:XAyp0wkF5CZ3IX2uFMPZOyAuVI3GY7kKDUiJGk4UD6w=
+github.com/de-souza/hugo-flex v0.0.0-20230126234847-5411a12efac2 h1:XIrT/YkgQE8uEzvJvpgibzT5PKuIbCkWjVPwxo7hPic=
+github.com/de-souza/hugo-flex v0.0.0-20230126234847-5411a12efac2/go.mod h1:XAyp0wkF5CZ3IX2uFMPZOyAuVI3GY7kKDUiJGk4UD6w=
 github.com/devcows/hugo-universal-theme v0.0.0-20220930131748-1af54bd80798 h1:iJcygyQSy4FSi0qB+JoIEsEGCkosE2xdSrh9JZn4npI=
 github.com/devcows/hugo-universal-theme v0.0.0-20220930131748-1af54bd80798/go.mod h1:MqYH15Evmut/wgYkFi7ArsX+k44HfRrH675FbVLBkq0=
 github.com/devcows/hugo-universal-theme v0.0.0-20230107121035-4e9eace61e0a h1:sfI8IsJ1aY3TISVXsXku4om7jMq/S7VjT3mRPWyF3uo=
@@ -742,6 +744,8 @@ github.com/kaushikgopal/henry-hugo v0.0.0-20230120212851-d1a255844326 h1:j1isVK3
 github.com/kaushikgopal/henry-hugo v0.0.0-20230120212851-d1a255844326/go.mod h1:dcwDTF/at6oz9I6T9Dj7EZxPYOnYHmNqmCQjD39r7Jo=
 github.com/kaushikgopal/henry-hugo v0.0.0-20230122062556-af0ea207b142 h1:mxm8tj79AhiCsvvI9IzHZutQXzcuBe0MNo25WVAcH6Q=
 github.com/kaushikgopal/henry-hugo v0.0.0-20230122062556-af0ea207b142/go.mod h1:dcwDTF/at6oz9I6T9Dj7EZxPYOnYHmNqmCQjD39r7Jo=
+github.com/kaushikgopal/henry-hugo v0.0.0-20230126224227-d1f341a1f5c4 h1:FKs3tUIpfFY9neU6wg/ho+izSdkAMMz6YRteVsIYc2Q=
+github.com/kaushikgopal/henry-hugo v0.0.0-20230126224227-d1f341a1f5c4/go.mod h1:dcwDTF/at6oz9I6T9Dj7EZxPYOnYHmNqmCQjD39r7Jo=
 github.com/kc0bfv/autophugo v0.0.0-20221029211619-6bb38297e756 h1:FVz2Gt+3dqlbWE7/MNkyp00RyYgmSWRAkj9vHj9abVI=
 github.com/kc0bfv/autophugo v0.0.0-20221029211619-6bb38297e756/go.mod h1:cGqUURdbJzJ6TY9SQU2+iJQFs0Nza1iI1unQ2LutyOM=
 github.com/kc0bfv/ticky_tacky_dark v0.0.0-20221111221805-f626fbd274d1 h1:ylW07F+nVhp2UAVhWscOUDeRivANrAenx2h4vj+R81o=
@@ -1330,6 +1334,8 @@ github.com/yihui/hugo-xmag v0.0.0-20221109150552-d771674f97b1 h1:wXfst+Y0TwPG6Lm
 github.com/yihui/hugo-xmag v0.0.0-20221109150552-d771674f97b1/go.mod h1:TQDGE6T4eGTbJsYjzumMJTi7qeze+H1kEppyZCgS11Y=
 github.com/yihui/hugo-xmin v0.0.0-20220808144020-9c7c5bf984c7 h1:OzGdMeubta2dEq2uxGPoGkmWEN4jwy4AcDxWf4Ifdws=
 github.com/yihui/hugo-xmin v0.0.0-20220808144020-9c7c5bf984c7/go.mod h1:RiCR4psTF4iydlh4bR9BijKIHmivp7IeBaokx0CvzRA=
+github.com/yihui/hugo-xmin v0.0.0-20230126040735-67f2ed048d04 h1:EWmXsv8yKsDVegw+/dFbLq5D3Oz7chj2WH4HKNdvIEk=
+github.com/yihui/hugo-xmin v0.0.0-20230126040735-67f2ed048d04/go.mod h1:RiCR4psTF4iydlh4bR9BijKIHmivp7IeBaokx0CvzRA=
 github.com/yoshiharuyamashita/blackburn v0.0.0-20220530060627-99cf136a06f3 h1:gSmCG72LVoo5cQg744Y7jhYeam4LZSZi735Yc2zfkGY=
 github.com/yoshiharuyamashita/blackburn v0.0.0-20220530060627-99cf136a06f3/go.mod h1:6pbezvonWoLff+OHRlnl5srs2LpACJnkJjpRHYEutDs=
 github.com/your-identity/hugo-theme-dimension v0.0.0-20210521214308-2474081b7846 h1:PfdnsTf3GcxUeBp9ntCYbZJ2I1XjJdkB+VPs/6DTXQo=
@@ -1382,6 +1388,8 @@ github.com/zzzmisa/hugo-theme-doors v0.0.0-20220205060644-8786095f6df7 h1:Ggejld
 github.com/zzzmisa/hugo-theme-doors v0.0.0-20220205060644-8786095f6df7/go.mod h1:ukolI7OwC09Rz2acx+9z3vGvLF7Gr8UhdZoFxK61rS0=
 gitlab.com/Kaligule/classless-blog v0.0.0-20220129222406-1d1b4feb76be h1:3pBth4j6G+d+oph8eVU57xY4aJNMlo3rSFCuQi3YOX8=
 gitlab.com/Kaligule/classless-blog v0.0.0-20220129222406-1d1b4feb76be/go.mod h1:XHOpHojcx2CRU2KXJESV+pvDGmFb4vWtWZ0r3uIMur8=
+gitlab.com/Kaligule/classless-blog v0.0.0-20230126200208-f3c2f0a0f380 h1:hHZJpJ8hOvHWxHOD/ZE5istnqf2BxzzR4Xwge7b3MfA=
+gitlab.com/Kaligule/classless-blog v0.0.0-20230126200208-f3c2f0a0f380/go.mod h1:XHOpHojcx2CRU2KXJESV+pvDGmFb4vWtWZ0r3uIMur8=
 gitlab.com/VincentTam/huginn v0.0.0-20190817135446-c6cfb0ab831c h1:Sq3kpm0oHA6pr02PjeAtUxYmDNRsabCs5+WwadUyhkI=
 gitlab.com/VincentTam/huginn v0.0.0-20190817135446-c6cfb0ab831c/go.mod h1:IQnRkOvZPfOU2M5mwbrErNMv59hEefoFsGfLhOgKEao=
 gitlab.com/avron/gruvhugo v0.0.0-20220224131010-c7ac9df23c5b h1:9oj517DeOtuthbYZQZiUGO9b4289d01/sqtVjZQV0nk=
