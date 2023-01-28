@@ -92,6 +92,8 @@ github.com/M1cR0xf7/kaslaanka v0.0.0-20230124182133-28277397d30b h1:HP7dsYUgDdAB
 github.com/M1cR0xf7/kaslaanka v0.0.0-20230124182133-28277397d30b/go.mod h1:qSvc0m3XgEHO8vjsPWHZvFoQeY3qJceQ2gEvU8hhB7I=
 github.com/M1cR0xf7/kaslaanka v0.0.0-20230125152943-4aae560fd397 h1:pm93+LP6CJiZKxdgFH3an2zxBnVqjCaCF9xWH8FPwmY=
 github.com/M1cR0xf7/kaslaanka v0.0.0-20230125152943-4aae560fd397/go.mod h1:qSvc0m3XgEHO8vjsPWHZvFoQeY3qJceQ2gEvU8hhB7I=
+github.com/M1cR0xf7/kaslaanka v0.0.0-20230127150554-4e3d04261d02 h1:zDL/ZoEzBDKL6HbLvVeqdOsTC+FhY1mYB5JbklVPEJg=
+github.com/M1cR0xf7/kaslaanka v0.0.0-20230127150554-4e3d04261d02/go.mod h1:qSvc0m3XgEHO8vjsPWHZvFoQeY3qJceQ2gEvU8hhB7I=
 github.com/MarcusVirg/forty v0.0.0-20190430033326-dccea57bd2ed h1:LjHYgmJraTUExON/Cg7aFSnI2kWo3zYPOMAzO2cd96Q=
 github.com/MarcusVirg/forty v0.0.0-20190430033326-dccea57bd2ed/go.mod h1:afK3GTGd/UIXHIDgpmy8MgyNo0V6yNSBozZMUyqVhj4=
 github.com/Masellum/hugo-theme-nostyleplease v0.0.0-20220827133946-44f8ee0b7d88 h1:LLRVQkx5us53Czyis3nbXhd0RU6fxJRMZKHXnMD92RU=
@@ -899,6 +901,8 @@ github.com/nanxiaobei/hugo-paper v0.0.0-20230108175137-bcab41188835 h1:k28DUzA68
 github.com/nanxiaobei/hugo-paper v0.0.0-20230108175137-bcab41188835/go.mod h1:CeRgawh+WFgm29TC2yGTPy9CAWkQaUABYejSFQDmL28=
 github.com/nanxiaobei/hugo-paper v0.0.0-20230112071756-5fd58d8cdfab h1:wNgAYqfQYiL91mJtEXRp9NvJXTPQ2pxhgJdilO3NWCA=
 github.com/nanxiaobei/hugo-paper v0.0.0-20230112071756-5fd58d8cdfab/go.mod h1:CeRgawh+WFgm29TC2yGTPy9CAWkQaUABYejSFQDmL28=
+github.com/nanxiaobei/hugo-paper v0.0.0-20230127092512-59b71a04e085 h1:+0mmQdVeyg5ctmXMWurCfngdtr83NcND8u4SJKta1L4=
+github.com/nanxiaobei/hugo-paper v0.0.0-20230127092512-59b71a04e085/go.mod h1:CeRgawh+WFgm29TC2yGTPy9CAWkQaUABYejSFQDmL28=
 github.com/nanxstats/hugo-tanka v0.0.0-20210707221939-9bec4eba33e5 h1:ArKJMwXbgVVeIhpHxuDES/IoftMzOlk4mMB0tYHmUsY=
 github.com/nanxstats/hugo-tanka v0.0.0-20210707221939-9bec4eba33e5/go.mod h1:MpW+xmCZzgJK5cTtN7/k+nKAKSU7IR8Y3Y7Vt7rdm0c=
 github.com/naro143/hugo-coder-portfolio v0.0.0-20200903083500-255d92337c07 h1:sJcQpPI0wm1zKeX38i/A1RmpPGIN9c4YPMuOTek1woY=
@@ -1276,6 +1280,8 @@ github.com/willfaught/paige v0.29.0 h1:GFoXnGZ0nAvJsrMpvYSKtnTkNJBTtk5qNn+6ZsGFN
 github.com/willfaught/paige v0.29.0/go.mod h1:0Nt8ifl7UVYQIBaMtpZmg+BrQHHzFNqKcrBoA2Oo4/E=
 github.com/willfaught/paige v0.30.0 h1:iUw7GvVEIjQnd2TT6V8DLxFHrMHQTiV3b1ncKEox3rs=
 github.com/willfaught/paige v0.30.0/go.mod h1:0Nt8ifl7UVYQIBaMtpZmg+BrQHHzFNqKcrBoA2Oo4/E=
+github.com/willfaught/paige v0.31.0 h1:kGwMF85sRtq0X9ezv3LVy+XPzPSnetRa3AyAGolJ8bY=
+github.com/willfaught/paige v0.31.0/go.mod h1:0Nt8ifl7UVYQIBaMtpZmg+BrQHHzFNqKcrBoA2Oo4/E=
 github.com/wlh320/hugo-theme-hulga v0.0.0-20221106071311-0487d9d1a45c h1:bq5mOJZ30Fo3+7wNK06EAICIbBBe/NXEJHNJQXewkaQ=
 github.com/wlh320/hugo-theme-hulga v0.0.0-20221106071311-0487d9d1a45c/go.mod h1:erdTksWjSdnpLpgqvRzmDjpt/VI0OsX4FKnqCcINyR0=
 github.com/wowchemy/starter-hugo-academic v0.0.0-20221127215757-a8e14c1488e0 h1:4c+QrlG/JHpzYA0jKdwK+BAscj5zdNZP9nJCkDPaVL4=
@@ -1390,6 +1396,8 @@ gitlab.com/Kaligule/classless-blog v0.0.0-20220129222406-1d1b4feb76be h1:3pBth4j
 gitlab.com/Kaligule/classless-blog v0.0.0-20220129222406-1d1b4feb76be/go.mod h1:XHOpHojcx2CRU2KXJESV+pvDGmFb4vWtWZ0r3uIMur8=
 gitlab.com/Kaligule/classless-blog v0.0.0-20230126200208-f3c2f0a0f380 h1:hHZJpJ8hOvHWxHOD/ZE5istnqf2BxzzR4Xwge7b3MfA=
 gitlab.com/Kaligule/classless-blog v0.0.0-20230126200208-f3c2f0a0f380/go.mod h1:XHOpHojcx2CRU2KXJESV+pvDGmFb4vWtWZ0r3uIMur8=
+gitlab.com/Kaligule/classless-blog v0.0.0-20230127063328-1fd2cc243840 h1:nQs4otHyd2Klah8EEOJAMMUBLU4kTcWy9I+mhCcQg6I=
+gitlab.com/Kaligule/classless-blog v0.0.0-20230127063328-1fd2cc243840/go.mod h1:XHOpHojcx2CRU2KXJESV+pvDGmFb4vWtWZ0r3uIMur8=
 gitlab.com/VincentTam/huginn v0.0.0-20190817135446-c6cfb0ab831c h1:Sq3kpm0oHA6pr02PjeAtUxYmDNRsabCs5+WwadUyhkI=
 gitlab.com/VincentTam/huginn v0.0.0-20190817135446-c6cfb0ab831c/go.mod h1:IQnRkOvZPfOU2M5mwbrErNMv59hEefoFsGfLhOgKEao=
 gitlab.com/avron/gruvhugo v0.0.0-20220224131010-c7ac9df23c5b h1:9oj517DeOtuthbYZQZiUGO9b4289d01/sqtVjZQV0nk=
