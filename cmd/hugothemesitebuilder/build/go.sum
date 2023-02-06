@@ -156,6 +156,8 @@ github.com/McShelby/hugo-theme-relearn v0.0.0-20230203230752-8f4d9f4930e6 h1:cR4
 github.com/McShelby/hugo-theme-relearn v0.0.0-20230203230752-8f4d9f4930e6/go.mod h1:mKQQdxZNIlLvAj8X3tMq+RzntIJSr9z7XdzuMomt0IM=
 github.com/McShelby/hugo-theme-relearn v0.0.0-20230204232138-97c6e628dd52 h1:js8d4aHMX8AI/zVOROWJwaqsDcYLEPw5nuetV6LdQ+I=
 github.com/McShelby/hugo-theme-relearn v0.0.0-20230204232138-97c6e628dd52/go.mod h1:mKQQdxZNIlLvAj8X3tMq+RzntIJSr9z7XdzuMomt0IM=
+github.com/McShelby/hugo-theme-relearn v0.0.0-20230205123738-62bba23ad5b4 h1:PwKjo7Rcq/9A8ZLLRVv5HsBmpJY1R41Y/Y6BvZJb068=
+github.com/McShelby/hugo-theme-relearn v0.0.0-20230205123738-62bba23ad5b4/go.mod h1:mKQQdxZNIlLvAj8X3tMq+RzntIJSr9z7XdzuMomt0IM=
 github.com/MeiK2333/github-style v0.0.0-20221030070900-eee158a65892 h1:KPnOKKnc9Ix8Hnqu0qtCAkrFp/NtpAY96wYx1ZSq3Y0=
 github.com/MeiK2333/github-style v0.0.0-20221030070900-eee158a65892/go.mod h1:MDvfpZqhD/YSKR6X4f5hVUv588HxL1MVjsCTSM7ETxs=
 github.com/Mitrichius/hugo-theme-anubis v0.0.0-20220725170731-d4ba47cd2196 h1:TzahMQaJXpezO9D2iQHnifGWPUn+41IWgYNBg/wNtQE=
@@ -737,6 +739,8 @@ github.com/jgazeau/shadocs v0.0.0-20230130222549-de3cccc8b72a h1:YaWN65u7yHPjtaX
 github.com/jgazeau/shadocs v0.0.0-20230130222549-de3cccc8b72a/go.mod h1:lh2LpFEzd7eZ51bssSV8bKZh6pJCtWJhjs7aDBQ5sws=
 github.com/jgazeau/shadocs v0.0.0-20230204173355-f8ed7d9eee08 h1:uQ39921IMn6Doc4coyDzrjddszXg4idXCNjMJ3KiYZ8=
 github.com/jgazeau/shadocs v0.0.0-20230204173355-f8ed7d9eee08/go.mod h1:lh2LpFEzd7eZ51bssSV8bKZh6pJCtWJhjs7aDBQ5sws=
+github.com/jgazeau/shadocs v0.0.0-20230205003852-bf22508ffd6f h1:Ou4zpRlreC4vU+w0QnFcwLKGLCvofFY6th6k6gVj8Fw=
+github.com/jgazeau/shadocs v0.0.0-20230205003852-bf22508ffd6f/go.mod h1:lh2LpFEzd7eZ51bssSV8bKZh6pJCtWJhjs7aDBQ5sws=
 github.com/jimfrenette/hugo-starter v0.0.0-20210805024343-ed81461deb5c h1:f/eReCP+1UTv2hfZBcDBn53opChkNqAMFxhxjUilBIo=
 github.com/jimfrenette/hugo-starter v0.0.0-20210805024343-ed81461deb5c/go.mod h1:D1zakjaP6nB32NDhNZQPWIue7Zc/E4oMMIDsCxwclk0=
 github.com/jmablog/hugo-clinic-notes v0.0.0-20210111134623-7f5a64696c35 h1:YsYPlj5FWkr3Ncg+gDe7umeQoEvpdvBNlLOD7erXXX4=
@@ -923,6 +927,8 @@ github.com/markdumay/hugo-theme-hinode v0.7.9 h1:MGjswgooY/ARsoBqNJXnTNJdW0WbZo5
 github.com/markdumay/hugo-theme-hinode v0.7.9/go.mod h1:GS7ODxya3k6knpGA9hjvu1BHdZt2E9M2Fpwks6kf67c=
 github.com/markdumay/hugo-theme-hinode v0.8.2 h1:wcropalJoeHJoUI74KjnzQ8DLuNHnqex5MEPtwtG2Jo=
 github.com/markdumay/hugo-theme-hinode v0.8.2/go.mod h1:GS7ODxya3k6knpGA9hjvu1BHdZt2E9M2Fpwks6kf67c=
+github.com/markdumay/hugo-theme-hinode v0.8.3 h1:V8Y6cXpKmdvlwD0TJdEjH7PtJM74QBbRM4gnYY5x97U=
+github.com/markdumay/hugo-theme-hinode v0.8.3/go.mod h1:GS7ODxya3k6knpGA9hjvu1BHdZt2E9M2Fpwks6kf67c=
 github.com/marketempower/axiom v0.8.0 h1:zi9Fz4N0hu8EqKEALSkCUc9NnilnqmvZlyyWVfdcn5g=
 github.com/marketempower/axiom v0.8.0/go.mod h1:yBi32+wVWUXnGDYjQ4tqXwcGAuSP8lOhOm1jgxN7SCA=
 github.com/matcornic/hugo-theme-learn v0.0.0-20211028190410-e817f53d690d h1:p7ktiW/GnHccjB9oO5YGY7us5v/oHmkyF0C7EDZFM3s=
@@ -987,6 +993,8 @@ github.com/nanxiaobei/hugo-paper v0.0.0-20230127092512-59b71a04e085 h1:+0mmQdVey
 github.com/nanxiaobei/hugo-paper v0.0.0-20230127092512-59b71a04e085/go.mod h1:CeRgawh+WFgm29TC2yGTPy9CAWkQaUABYejSFQDmL28=
 github.com/nanxiaobei/hugo-paper v0.0.0-20230203152650-f1f543d635f8 h1:ystTPuCcRz7NZbb8dR2rSuZ0hHWMlSJ2agdfH90vWNQ=
 github.com/nanxiaobei/hugo-paper v0.0.0-20230203152650-f1f543d635f8/go.mod h1:CeRgawh+WFgm29TC2yGTPy9CAWkQaUABYejSFQDmL28=
+github.com/nanxiaobei/hugo-paper v0.0.0-20230205175618-54d0b03e1e90 h1:qOUPMRIRomNXsXFM87TG+JEhFamMdJFRxVpqNxtEHNc=
+github.com/nanxiaobei/hugo-paper v0.0.0-20230205175618-54d0b03e1e90/go.mod h1:CeRgawh+WFgm29TC2yGTPy9CAWkQaUABYejSFQDmL28=
 github.com/nanxstats/hugo-tanka v0.0.0-20210707221939-9bec4eba33e5 h1:ArKJMwXbgVVeIhpHxuDES/IoftMzOlk4mMB0tYHmUsY=
 github.com/nanxstats/hugo-tanka v0.0.0-20210707221939-9bec4eba33e5/go.mod h1:MpW+xmCZzgJK5cTtN7/k+nKAKSU7IR8Y3Y7Vt7rdm0c=
 github.com/naro143/hugo-coder-portfolio v0.0.0-20200903083500-255d92337c07 h1:sJcQpPI0wm1zKeX38i/A1RmpPGIN9c4YPMuOTek1woY=
@@ -1398,6 +1406,8 @@ github.com/wowchemy/starter-hugo-academic v0.0.0-20230122014149-77f6ad36627a h1:
 github.com/wowchemy/starter-hugo-academic v0.0.0-20230122014149-77f6ad36627a/go.mod h1:flNr8gC0J4XDkGrPOqi7aRZaAh10p/lnBc1o134yYKU=
 github.com/wowchemy/starter-hugo-academic v0.0.0-20230129014306-f5b8c4a538e2 h1:drdkb8o/f85uyFF5aDkeeD0n/QPM8NH2SqGsNnRtMe0=
 github.com/wowchemy/starter-hugo-academic v0.0.0-20230129014306-f5b8c4a538e2/go.mod h1:flNr8gC0J4XDkGrPOqi7aRZaAh10p/lnBc1o134yYKU=
+github.com/wowchemy/starter-hugo-academic v0.0.0-20230205014522-eea112e7940d h1:SWvqN54gegQMdg9mGdG7ValxoqxqRZS4UPOGmi0gmGo=
+github.com/wowchemy/starter-hugo-academic v0.0.0-20230205014522-eea112e7940d/go.mod h1:flNr8gC0J4XDkGrPOqi7aRZaAh10p/lnBc1o134yYKU=
 github.com/wowchemy/wowchemy-hugo-themes/modules/wowchemy-core v0.1.0/go.mod h1:kJwI9H8dicHQCnP8G9EvUDI+oNg/yXcGsjGjwjXuM8I=
 github.com/wowchemy/wowchemy-hugo-themes/modules/wowchemy-plugin-netlify v1.0.0/go.mod h1:s40UgLsWfVyCLQ2F4F3dBcNfZOXcPGld7KxsKhZdzvM=
 github.com/wowchemy/wowchemy-hugo-themes/modules/wowchemy-plugin-netlify-cms v1.0.0/go.mod h1:X1mETJo6Lkv9tEgfU0UYFRiRInf0RbgW+s1RKXB4GMA=
@@ -1518,6 +1528,8 @@ gitlab.com/rmaguiar/hugo-theme-color-your-world v0.0.0-20220812205505-1d4c030669
 gitlab.com/rmaguiar/hugo-theme-color-your-world v0.0.0-20220812205505-1d4c030669b1/go.mod h1:QRQ6cegjyNGQ0lRklSaG8CfpT98LjzQ4scoth803nIw=
 gitlab.com/rmaguiar/hugo-theme-color-your-world v0.0.0-20230131205435-fb4319efb1b4 h1:q4+cF08CIuBHofadyCLjHDhwpQnYmCc3x0h4URW9Xhc=
 gitlab.com/rmaguiar/hugo-theme-color-your-world v0.0.0-20230131205435-fb4319efb1b4/go.mod h1:QRQ6cegjyNGQ0lRklSaG8CfpT98LjzQ4scoth803nIw=
+gitlab.com/rmaguiar/hugo-theme-color-your-world v0.0.0-20230205174225-61d9137fa3bd h1:5tiUaqi1euL3ss+nrKGmTIu6yCzUsiKjEesjivByonY=
+gitlab.com/rmaguiar/hugo-theme-color-your-world v0.0.0-20230205174225-61d9137fa3bd/go.mod h1:QRQ6cegjyNGQ0lRklSaG8CfpT98LjzQ4scoth803nIw=
 gitlab.com/tmuguet/hugo-split-gallery v1.5.0 h1:fyQ0O/3kR+6Jz/gDGBGEBrFKTArHir95c7iA1nBcf0U=
 gitlab.com/tmuguet/hugo-split-gallery v1.5.0/go.mod h1:h16n/v1BLcL6E1lQeQDYZenuWXfm5zFkRJsPSCtji+Q=
 gitlab.com/toryanderson/hugo-icarus v0.0.0-20200701121335-f3e99478c35b h1:leUOmfYs6USbpDL6IlHFCVV5+p0g4ZDf/92D8y8HoR0=
