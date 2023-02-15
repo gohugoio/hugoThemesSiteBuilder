@@ -186,6 +186,8 @@ github.com/McShelby/hugo-theme-relearn v0.0.0-20230212131055-09e7aebcd8f4 h1:jNn
 github.com/McShelby/hugo-theme-relearn v0.0.0-20230212131055-09e7aebcd8f4/go.mod h1:mKQQdxZNIlLvAj8X3tMq+RzntIJSr9z7XdzuMomt0IM=
 github.com/McShelby/hugo-theme-relearn v0.0.0-20230213222123-e7a0ef9d9ebd h1:WN0QpLEHZOCJUsss/6KksQz1pIg1inDtz38qWjkJe8U=
 github.com/McShelby/hugo-theme-relearn v0.0.0-20230213222123-e7a0ef9d9ebd/go.mod h1:mKQQdxZNIlLvAj8X3tMq+RzntIJSr9z7XdzuMomt0IM=
+github.com/McShelby/hugo-theme-relearn v0.0.0-20230214203931-8b2380da2dcc h1:6SA5dJP71ik1Ex4n+5+ngPx8eq6fU3P1EIyJUVvL4+w=
+github.com/McShelby/hugo-theme-relearn v0.0.0-20230214203931-8b2380da2dcc/go.mod h1:mKQQdxZNIlLvAj8X3tMq+RzntIJSr9z7XdzuMomt0IM=
 github.com/MeiK2333/github-style v0.0.0-20221030070900-eee158a65892 h1:KPnOKKnc9Ix8Hnqu0qtCAkrFp/NtpAY96wYx1ZSq3Y0=
 github.com/MeiK2333/github-style v0.0.0-20221030070900-eee158a65892/go.mod h1:MDvfpZqhD/YSKR6X4f5hVUv588HxL1MVjsCTSM7ETxs=
 github.com/Mitrichius/hugo-theme-anubis v0.0.0-20220725170731-d4ba47cd2196 h1:TzahMQaJXpezO9D2iQHnifGWPUn+41IWgYNBg/wNtQE=
@@ -1113,6 +1115,8 @@ github.com/nusserstudios/tailbliss v0.0.0-20230116202604-5aebf79503ba h1:lzfARjw
 github.com/nusserstudios/tailbliss v0.0.0-20230116202604-5aebf79503ba/go.mod h1:M3j6IqtQdtuI00xn0zi+RGcva3zJtzrMbk15nJaZJCU=
 github.com/nusserstudios/tailbliss v0.0.0-20230120154319-afaa79a0d1c9 h1:XqD4svy01bH7lBZw9WXsVikC9uWHAZ8DNV3VvHvZv88=
 github.com/nusserstudios/tailbliss v0.0.0-20230120154319-afaa79a0d1c9/go.mod h1:M3j6IqtQdtuI00xn0zi+RGcva3zJtzrMbk15nJaZJCU=
+github.com/nusserstudios/tailbliss v0.0.0-20230214175347-d5915c6be284 h1:EeLyH1kHJpgU0gP4XcaFMd8RIiCB6kdxos3jU2qP6Io=
+github.com/nusserstudios/tailbliss v0.0.0-20230214175347-d5915c6be284/go.mod h1:M3j6IqtQdtuI00xn0zi+RGcva3zJtzrMbk15nJaZJCU=
 github.com/okkur/syna v0.17.4 h1:yjaij6V6gNftNDMTVxAwPBRb0B1LiZgxW3x6pqd/Nys=
 github.com/okkur/syna v0.17.4/go.mod h1:cNe2KzYuuFyTGHhK7y3OzaSjWE1YIbp91jgMetkAGbI=
 github.com/olOwOlo/hugo-theme-even v4.1.0+incompatible h1:vac90+azWrNgGvanS7mN2ztvJl9P5IHFvPSS+EAbYRA=
