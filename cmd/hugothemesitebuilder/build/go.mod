@@ -262,11 +262,11 @@ require (
 	github.com/lgaida/mediumish-gohugo-theme v0.0.0-20230202155000-10fe85e58df4 // indirect
 	github.com/lingxz/er v0.0.0-20190825175148-ebdb18610b68 // indirect
 	github.com/liuzc/LeaveIt v0.0.0-20181104111157-2884e266babb // indirect
-	github.com/loveminimal/hugo-theme-virgo v0.0.0-20230206031614-d7148ad26b9b // indirect
+	github.com/loveminimal/hugo-theme-virgo v0.0.0-20230215024937-d0a09d86b75e // indirect
 	github.com/lubang/hugo-hello-programmer-theme v2.1.0+incompatible // indirect
 	github.com/lucperkins/hugo-fresh v0.0.0-20230118074927-0c2ca44b94ef // indirect
 	github.com/luizdepra/hugo-coder v0.0.0-20230207234447-5c2476be1c29 // indirect
-	github.com/lukeorth/poison v0.0.0-20230203165935-04c2199defe6 // indirect
+	github.com/lukeorth/poison v0.0.0-20230215184353-4026789a0657 // indirect
 	github.com/lxndrblz/anatole v1.12.0 // indirect
 	github.com/marcanuy/simpleit-hugo-theme v0.0.0-20210616134837-49277e5c3be0 // indirect
 	github.com/markdumay/hugo-theme-hinode v0.8.5 // indirect
@@ -306,7 +306,7 @@ require (
 	github.com/nusserstudios/tailbliss v0.0.0-20230214175347-d5915c6be284 // indirect
 	github.com/okkur/syna v0.17.4 // indirect
 	github.com/olOwOlo/hugo-theme-even v4.1.0+incompatible // indirect
-	github.com/onweru/compose v0.0.0-20230209162450-3a9e98145d51 // indirect
+	github.com/onweru/compose v0.0.0-20230215205426-3fc585d53a0a // indirect
 	github.com/onweru/hugo-swift-theme v2.0.0+incompatible // indirect
 	github.com/onweru/newsroom v0.0.0-20230111195145-36d2b8bd39ec // indirect
 	github.com/opera7133/Blonde v0.0.0-20220918075631-4908a16a5ec6 // indirect
