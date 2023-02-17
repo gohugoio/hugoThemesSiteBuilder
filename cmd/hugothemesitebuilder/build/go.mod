@@ -168,7 +168,7 @@ require (
 	github.com/g1eny0ung/hugo-theme-dream v1.6.0 // indirect
 	github.com/garvincasimir/hugo-h5bp-simple v0.0.0-20190817231606-e834d00b96bb // indirect
 	github.com/gcaracuel/hugo-theme-gutenberg v0.0.0-20210225105328-abd624652c48 // indirect
-	github.com/geschke/hugo-tikva v0.3.2 // indirect
+	github.com/geschke/hugo-tikva v0.4.0 // indirect
 	github.com/gesquive/slate v1.1.1 // indirect
 	github.com/gevhaz/hugo-theme-notrack v0.0.0-20221126220453-640be3789df0 // indirect
 	github.com/gizak/nofancy v0.0.0-20180325214227-ae4670287c71 // indirect
@@ -212,8 +212,8 @@ require (
 	github.com/jacobsun/hugo-theme-cole v0.0.0-20220324124602-6df85b298c13 // indirect
 	github.com/jaden/twentyfourteen v0.0.0-20191130221218-9380d3fa1855 // indirect
 	github.com/jakewies/hugo-theme-codex v1.6.0 // indirect
-	github.com/janraasch/hugo-bearblog v0.0.0-20221227163549-d524ebeba7b9 // indirect
-	github.com/janraasch/hugo-product-launch v0.0.0-20230117160023-3b39011aa0d4 // indirect
+	github.com/janraasch/hugo-bearblog v0.0.0-20230216151444-2078d9560039 // indirect
+	github.com/janraasch/hugo-product-launch v0.0.0-20230216151317-c25aaf0bc9ae // indirect
 	github.com/janraasch/hugo-scroll v0.0.0-20230209155210-a9d7afe14cab // indirect
 	github.com/jbub/ghostwriter v0.6.0 // indirect
 	github.com/jeblister/bulma v0.0.0-20220331084658-8d25840df6ac // indirect
@@ -389,8 +389,8 @@ require (
 	github.com/tcgriffith/hugo-owaraiclub v0.0.0-20191105071036-a25aabbb1d0f // indirect
 	github.com/the2ne/hugo-frais v0.0.0-20200104180115-f6f23a885a7a // indirect
 	github.com/theNewDynamic/gohugo-theme-ananke v0.0.0-20230203204610-a1a99cf12681 // indirect
-	github.com/thegeeklab/hugo-geekblog v0.22.6 // indirect
-	github.com/thegeeklab/hugo-geekdoc v0.37.1 // indirect
+	github.com/thegeeklab/hugo-geekblog v0.22.7 // indirect
+	github.com/thegeeklab/hugo-geekdoc v0.37.3 // indirect
 	github.com/thingsym/hugo-theme-techdoc v0.9.9 // indirect
 	github.com/thomasheller/crab v1.0.0 // indirect
 	github.com/tnwhitwell/hugo-startpage-theme v0.0.0-20180704204829-76b1a1f5808e // indirect
