@@ -94,10 +94,14 @@ github.com/Lednerb/bilberry-hugo-theme/v3 v3.20.0 h1:Soo1fp/RYSIGQv//IgKGDDIeRvf
 github.com/Lednerb/bilberry-hugo-theme/v3 v3.20.0/go.mod h1:ERTLq/0yIBb0jN0Dh+w5G4wCp9TrB0JY86+Zh+26Dkg=
 github.com/Lednerb/bilberry-hugo-theme/v3 v3.21.0 h1:elf6AiWOA+vGLtu6a4Qf8MTcvTVQUWzehyxRzHDEJfs=
 github.com/Lednerb/bilberry-hugo-theme/v3 v3.21.0/go.mod h1:ERTLq/0yIBb0jN0Dh+w5G4wCp9TrB0JY86+Zh+26Dkg=
+github.com/Lednerb/bilberry-hugo-theme/v3 v3.22.0 h1:dm96mSlNyo3kTcbBU8DNslKbb7altshiGTIL+6YUpvU=
+github.com/Lednerb/bilberry-hugo-theme/v3 v3.22.0/go.mod h1:ERTLq/0yIBb0jN0Dh+w5G4wCp9TrB0JY86+Zh+26Dkg=
 github.com/LordMathis/hugo-theme-nix v0.0.0-20220120091656-084eef29e66f h1:gIT+xJbMF4DXPCOicc3x1yc4LeJHLnbzUzHLp+FPC8k=
 github.com/LordMathis/hugo-theme-nix v0.0.0-20220120091656-084eef29e66f/go.mod h1:gNBtSKD6958hUOyfSq/DPk6sancXDm9u/ftQGr03Nf8=
 github.com/LordMathis/hugo-theme-nix v0.0.0-20230117152236-eea9dfea31f3 h1:2RWv+QKWOfJbXhqNwWUR8uWPT+G4GSqXUhNTUamLpgc=
 github.com/LordMathis/hugo-theme-nix v0.0.0-20230117152236-eea9dfea31f3/go.mod h1:gNBtSKD6958hUOyfSq/DPk6sancXDm9u/ftQGr03Nf8=
+github.com/LordMathis/hugo-theme-nix v0.0.0-20230219120231-a66f39083658 h1:4qZCB4XnHTiOg+gfn3QjnKXv1rdk2yJ8heeiHuuLxqI=
+github.com/LordMathis/hugo-theme-nix v0.0.0-20230219120231-a66f39083658/go.mod h1:gNBtSKD6958hUOyfSq/DPk6sancXDm9u/ftQGr03Nf8=
 github.com/LukasJoswiak/etch v0.0.0-20221013042144-3286754ceb4e h1:jqtIPgKKdLwiwNtmvZqlSJGjwa1lZphDap7p0H+Y0ic=
 github.com/LukasJoswiak/etch v0.0.0-20221013042144-3286754ceb4e/go.mod h1:tdCjHyDbi/JUH+PwT7EuRAoTu1tIrDvTQgZ5UJLNe7Q=
 github.com/M1cR0xf7/kaslaanka v0.0.0-20221201154124-46e58a9a689c h1:n1Drn7ZxWl5/8qcQprcvOwDSol/t76YIiZunsrC1UwA=
@@ -190,6 +194,8 @@ github.com/McShelby/hugo-theme-relearn v0.0.0-20230214203931-8b2380da2dcc h1:6SA
 github.com/McShelby/hugo-theme-relearn v0.0.0-20230214203931-8b2380da2dcc/go.mod h1:mKQQdxZNIlLvAj8X3tMq+RzntIJSr9z7XdzuMomt0IM=
 github.com/McShelby/hugo-theme-relearn v0.0.0-20230217145922-686c013ef5fb h1:ltyS4+ni0yMn0pkqdx5xKYB8iY7sU0DMPizRSQzQCcI=
 github.com/McShelby/hugo-theme-relearn v0.0.0-20230217145922-686c013ef5fb/go.mod h1:mKQQdxZNIlLvAj8X3tMq+RzntIJSr9z7XdzuMomt0IM=
+github.com/McShelby/hugo-theme-relearn v0.0.0-20230219232037-bbd322bbf8d1 h1:pXC0wMJ47YzJs19JM2PP21BnR2rSD3bSU0KYQNaxh5o=
+github.com/McShelby/hugo-theme-relearn v0.0.0-20230219232037-bbd322bbf8d1/go.mod h1:mKQQdxZNIlLvAj8X3tMq+RzntIJSr9z7XdzuMomt0IM=
 github.com/MeiK2333/github-style v0.0.0-20221030070900-eee158a65892 h1:KPnOKKnc9Ix8Hnqu0qtCAkrFp/NtpAY96wYx1ZSq3Y0=
 github.com/MeiK2333/github-style v0.0.0-20221030070900-eee158a65892/go.mod h1:MDvfpZqhD/YSKR6X4f5hVUv588HxL1MVjsCTSM7ETxs=
 github.com/Mitrichius/hugo-theme-anubis v0.0.0-20220725170731-d4ba47cd2196 h1:TzahMQaJXpezO9D2iQHnifGWPUn+41IWgYNBg/wNtQE=
@@ -1542,6 +1548,8 @@ github.com/wowchemy/starter-hugo-academic v0.0.0-20230205014522-eea112e7940d h1:
 github.com/wowchemy/starter-hugo-academic v0.0.0-20230205014522-eea112e7940d/go.mod h1:flNr8gC0J4XDkGrPOqi7aRZaAh10p/lnBc1o134yYKU=
 github.com/wowchemy/starter-hugo-academic v0.0.0-20230212014257-13e3fc6f6265 h1:pM6jiP986+Ezm+g+GV3B1Ss2+ZzEVaoVLiREyf8c9MM=
 github.com/wowchemy/starter-hugo-academic v0.0.0-20230212014257-13e3fc6f6265/go.mod h1:flNr8gC0J4XDkGrPOqi7aRZaAh10p/lnBc1o134yYKU=
+github.com/wowchemy/starter-hugo-academic v0.0.0-20230219014401-794741239752 h1:+Gxvw/S5epfASGLrHybqFkx3Wsll6dIXIMqtLQ8v7mU=
+github.com/wowchemy/starter-hugo-academic v0.0.0-20230219014401-794741239752/go.mod h1:flNr8gC0J4XDkGrPOqi7aRZaAh10p/lnBc1o134yYKU=
 github.com/wowchemy/wowchemy-hugo-themes/modules/wowchemy-core v0.1.0/go.mod h1:kJwI9H8dicHQCnP8G9EvUDI+oNg/yXcGsjGjwjXuM8I=
 github.com/wowchemy/wowchemy-hugo-themes/modules/wowchemy-plugin-netlify v1.0.0/go.mod h1:s40UgLsWfVyCLQ2F4F3dBcNfZOXcPGld7KxsKhZdzvM=
 github.com/wowchemy/wowchemy-hugo-themes/modules/wowchemy-plugin-netlify-cms v1.0.0/go.mod h1:X1mETJo6Lkv9tEgfU0UYFRiRInf0RbgW+s1RKXB4GMA=
