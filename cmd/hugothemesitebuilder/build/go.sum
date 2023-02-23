@@ -1119,6 +1119,8 @@ github.com/nanxiaobei/hugo-paper v0.0.0-20230208202446-de3fdfa5bd38 h1:vCBsgxClF
 github.com/nanxiaobei/hugo-paper v0.0.0-20230208202446-de3fdfa5bd38/go.mod h1:CeRgawh+WFgm29TC2yGTPy9CAWkQaUABYejSFQDmL28=
 github.com/nanxiaobei/hugo-paper v0.0.0-20230220071153-6c2ed14a7e97 h1:2GoyKotSrT8KE2AFGWDNRe4dxdMN5HPQn5J/DLpMJRA=
 github.com/nanxiaobei/hugo-paper v0.0.0-20230220071153-6c2ed14a7e97/go.mod h1:CeRgawh+WFgm29TC2yGTPy9CAWkQaUABYejSFQDmL28=
+github.com/nanxiaobei/hugo-paper v0.0.0-20230222070527-6026486bb2e0 h1:PJq+6y8GXkrdxZ10ZaBxS15+IGMMEr+gyD1+kmPF6l8=
+github.com/nanxiaobei/hugo-paper v0.0.0-20230222070527-6026486bb2e0/go.mod h1:CeRgawh+WFgm29TC2yGTPy9CAWkQaUABYejSFQDmL28=
 github.com/nanxstats/hugo-tanka v0.0.0-20210707221939-9bec4eba33e5 h1:ArKJMwXbgVVeIhpHxuDES/IoftMzOlk4mMB0tYHmUsY=
 github.com/nanxstats/hugo-tanka v0.0.0-20210707221939-9bec4eba33e5/go.mod h1:MpW+xmCZzgJK5cTtN7/k+nKAKSU7IR8Y3Y7Vt7rdm0c=
 github.com/naro143/hugo-coder-portfolio v0.0.0-20200903083500-255d92337c07 h1:sJcQpPI0wm1zKeX38i/A1RmpPGIN9c4YPMuOTek1woY=
@@ -1686,6 +1688,8 @@ gitlab.com/avron/gruvhugo v0.0.0-20220224131010-c7ac9df23c5b h1:9oj517DeOtuthbYZ
 gitlab.com/avron/gruvhugo v0.0.0-20220224131010-c7ac9df23c5b/go.mod h1:vqifeKD9I8POxEF7LyJ6nU/317SDCGyerR9TN3JCK1E=
 gitlab.com/gabmus/hugo-ficurinia v0.0.0-20221115070106-8b3973dc2f6b h1:2KiTI2p0GUlYWtwGY0wx33EyJaq4Pe/8is81YZ887s4=
 gitlab.com/gabmus/hugo-ficurinia v0.0.0-20221115070106-8b3973dc2f6b/go.mod h1:nmsV9/x7nn3bvahS0FgLujjD8VV0PDaAHJxrgq+dACM=
+gitlab.com/gabmus/hugo-ficurinia v0.0.0-20230222071453-72da9f00c79f h1:jEv7Su6G0IY/gShiN/UqDXm+qqjIeHuATLXDKapgaaw=
+gitlab.com/gabmus/hugo-ficurinia v0.0.0-20230222071453-72da9f00c79f/go.mod h1:nmsV9/x7nn3bvahS0FgLujjD8VV0PDaAHJxrgq+dACM=
 gitlab.com/ian-s-mcb/smigle-hugo-theme v0.0.0-20210831185208-13c241e8ab83 h1:aL5YRlsKi9HwNGaUlSN+3T+DY2e30d4JF1v1sKA5PE4=
 gitlab.com/ian-s-mcb/smigle-hugo-theme v0.0.0-20210831185208-13c241e8ab83/go.mod h1:NTH/777MQHJdou8Yo/baECwBtDwaWPaCWrITwE3816c=
 gitlab.com/kskarthik/monopriv v0.0.0-20200526110241-17ac34952952 h1:w0OGzA0bM05MJjNnESs7Lnn6BVpWPcmSiAkAorIEE5A=
