@@ -994,6 +994,8 @@ github.com/loveminimal/hugo-theme-virgo v0.0.0-20230223032247-a4406117552b h1:oS
 github.com/loveminimal/hugo-theme-virgo v0.0.0-20230223032247-a4406117552b/go.mod h1:rYaAxThYe50neshv8H6CXi4K1uCVIGwtBPdK2ZlnF88=
 github.com/loveminimal/hugo-theme-virgo v0.0.0-20230224093921-d5e579d281c9 h1:6danyYpofZoQMwx8S9Rtz1ff6JuD8f+gLXvFQglQotY=
 github.com/loveminimal/hugo-theme-virgo v0.0.0-20230224093921-d5e579d281c9/go.mod h1:rYaAxThYe50neshv8H6CXi4K1uCVIGwtBPdK2ZlnF88=
+github.com/loveminimal/hugo-theme-virgo v0.0.0-20230227123510-6539d3368faf h1:Em0O924jpFc6dF9le4J8TVRvsvb51+9VMG9vuXB+BYk=
+github.com/loveminimal/hugo-theme-virgo v0.0.0-20230227123510-6539d3368faf/go.mod h1:rYaAxThYe50neshv8H6CXi4K1uCVIGwtBPdK2ZlnF88=
 github.com/lubang/hugo-hello-programmer-theme v2.1.0+incompatible h1:cjrUz89VoSYXXyOj+xiyJrkfiY0yc3K6p2sBX5BGKHs=
 github.com/lubang/hugo-hello-programmer-theme v2.1.0+incompatible/go.mod h1:B5YCYcL791YB88XiLoaNYIUB5MZiAqSObDekgp1iwk0=
 github.com/lucperkins/hugo-fresh v0.0.0-20220922022354-244bcfcbdfc1 h1:tUhBhOZuOzBNfJISHx6Fi904EHYte641HYlz0PXTLCw=
@@ -1028,6 +1030,8 @@ github.com/luizdepra/hugo-coder v0.0.0-20230130011526-215fc8e70731 h1:37AKIhDbky
 github.com/luizdepra/hugo-coder v0.0.0-20230130011526-215fc8e70731/go.mod h1:9EQBf2rU+NPjlohGuKcEgdqSeOc3tIQoOty4xPpuUQ4=
 github.com/luizdepra/hugo-coder v0.0.0-20230207234447-5c2476be1c29 h1:/VqJHlTTP2otqmmV8CwW5f4LkVjjJiwu0h7ngMBSauw=
 github.com/luizdepra/hugo-coder v0.0.0-20230207234447-5c2476be1c29/go.mod h1:9EQBf2rU+NPjlohGuKcEgdqSeOc3tIQoOty4xPpuUQ4=
+github.com/luizdepra/hugo-coder v0.0.0-20230227213722-d66f7cee3cfe h1:azZjraJypxDvUDg0oJnXyvihhmUpG+EpRjaDBBy0RjY=
+github.com/luizdepra/hugo-coder v0.0.0-20230227213722-d66f7cee3cfe/go.mod h1:9EQBf2rU+NPjlohGuKcEgdqSeOc3tIQoOty4xPpuUQ4=
 github.com/lukeorth/poison v0.0.0-20230106173213-a545c2b77df9 h1:+Oi4Csreb9kLYreCMJs20hboKqTKl7XxrS/8OA7JFtE=
 github.com/lukeorth/poison v0.0.0-20230106173213-a545c2b77df9/go.mod h1:fYVpevZiA79ef8Q1DkUgg/MF53oy4mKFSFTnK+EeiO0=
 github.com/lukeorth/poison v0.0.0-20230112180736-d620c286f11f h1:CKqBBX+GfDkONL04BO8Cg8EZNfDxUeAekEy/iuO89zk=
@@ -1239,6 +1243,8 @@ github.com/onweru/compose v0.0.0-20230221215310-74b36c6c5c48 h1:dRxrca4LwZQXdB+N
 github.com/onweru/compose v0.0.0-20230221215310-74b36c6c5c48/go.mod h1:tf1kQIBUcwJ/3mRFU5eiMrMvsDScVTK2IEFsZE3hZOc=
 github.com/onweru/compose v0.0.0-20230223155545-8496fdfb1b5f h1:HrtJm97RoGgdT5sBra0PXYpUf8naiq/j18pj9nyteFc=
 github.com/onweru/compose v0.0.0-20230223155545-8496fdfb1b5f/go.mod h1:tf1kQIBUcwJ/3mRFU5eiMrMvsDScVTK2IEFsZE3hZOc=
+github.com/onweru/compose v0.0.0-20230227162650-febef48c3b7a h1:waHZkxLmkT9s3imHooLiO4iOpJp++rZ9hUdnvr1OIk4=
+github.com/onweru/compose v0.0.0-20230227162650-febef48c3b7a/go.mod h1:tf1kQIBUcwJ/3mRFU5eiMrMvsDScVTK2IEFsZE3hZOc=
 github.com/onweru/hugo-swift-theme v2.0.0+incompatible h1:UGc/TiOzqcSnNyfkkKoU8vQ9wGQTBmLjkblGcPhnzjM=
 github.com/onweru/hugo-swift-theme v2.0.0+incompatible/go.mod h1:Flki1A7Xnz36putWgud7Dmfqn4wIwoiAQO1pnNb4IOs=
 github.com/onweru/newsroom v0.0.0-20220114000312-a46aedf8f0c5 h1:ooAGhkoF7KRpD/CJ5/dbPl8yp08u5HABu7uC7dDOSFw=
