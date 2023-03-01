@@ -996,6 +996,8 @@ github.com/loveminimal/hugo-theme-virgo v0.0.0-20230224093921-d5e579d281c9 h1:6d
 github.com/loveminimal/hugo-theme-virgo v0.0.0-20230224093921-d5e579d281c9/go.mod h1:rYaAxThYe50neshv8H6CXi4K1uCVIGwtBPdK2ZlnF88=
 github.com/loveminimal/hugo-theme-virgo v0.0.0-20230227123510-6539d3368faf h1:Em0O924jpFc6dF9le4J8TVRvsvb51+9VMG9vuXB+BYk=
 github.com/loveminimal/hugo-theme-virgo v0.0.0-20230227123510-6539d3368faf/go.mod h1:rYaAxThYe50neshv8H6CXi4K1uCVIGwtBPdK2ZlnF88=
+github.com/loveminimal/hugo-theme-virgo v0.0.0-20230228130116-5831e2ae022a h1:ZHoysJI2bMOqU2vjWvsT2Ikk7my3pRggg9al4L/lvR8=
+github.com/loveminimal/hugo-theme-virgo v0.0.0-20230228130116-5831e2ae022a/go.mod h1:rYaAxThYe50neshv8H6CXi4K1uCVIGwtBPdK2ZlnF88=
 github.com/lubang/hugo-hello-programmer-theme v2.1.0+incompatible h1:cjrUz89VoSYXXyOj+xiyJrkfiY0yc3K6p2sBX5BGKHs=
 github.com/lubang/hugo-hello-programmer-theme v2.1.0+incompatible/go.mod h1:B5YCYcL791YB88XiLoaNYIUB5MZiAqSObDekgp1iwk0=
 github.com/lucperkins/hugo-fresh v0.0.0-20220922022354-244bcfcbdfc1 h1:tUhBhOZuOzBNfJISHx6Fi904EHYte641HYlz0PXTLCw=
@@ -1008,6 +1010,8 @@ github.com/lucperkins/hugo-fresh v0.0.0-20230223180920-7314ef37e8ec h1:/XKG+4srG
 github.com/lucperkins/hugo-fresh v0.0.0-20230223180920-7314ef37e8ec/go.mod h1:d/Bbpm+tb9iaSSenov0CyQrUUck1FnkSdY1EH1STm7s=
 github.com/lucperkins/hugo-fresh v0.0.0-20230225195141-b43789ae6df8 h1:sSIzz/RjA6O0pMeiUKk49xcmzUJElOM7XXPyTAN+420=
 github.com/lucperkins/hugo-fresh v0.0.0-20230225195141-b43789ae6df8/go.mod h1:d/Bbpm+tb9iaSSenov0CyQrUUck1FnkSdY1EH1STm7s=
+github.com/lucperkins/hugo-fresh v0.0.0-20230228132241-1907474cb8a3 h1:IM/lyFMrX39H/GWCHNdzyWCEeQE3c92CQW+VZv3kbBI=
+github.com/lucperkins/hugo-fresh v0.0.0-20230228132241-1907474cb8a3/go.mod h1:d/Bbpm+tb9iaSSenov0CyQrUUck1FnkSdY1EH1STm7s=
 github.com/luizdepra/hugo-coder v0.0.0-20221130122428-266beec0d168 h1:NjJrd6q1E66nUhaqKhTe9NfKzpbAMPi0mDnFVWkhbxM=
 github.com/luizdepra/hugo-coder v0.0.0-20221130122428-266beec0d168/go.mod h1:9EQBf2rU+NPjlohGuKcEgdqSeOc3tIQoOty4xPpuUQ4=
 github.com/luizdepra/hugo-coder v0.0.0-20221212231810-7fa76b460a7e h1:O8dJ2w/r6F8aFOrOMMlh+SJkrkGUCDqFNWkg5U/5a6Y=
@@ -1245,6 +1249,8 @@ github.com/onweru/compose v0.0.0-20230223155545-8496fdfb1b5f h1:HrtJm97RoGgdT5sB
 github.com/onweru/compose v0.0.0-20230223155545-8496fdfb1b5f/go.mod h1:tf1kQIBUcwJ/3mRFU5eiMrMvsDScVTK2IEFsZE3hZOc=
 github.com/onweru/compose v0.0.0-20230227162650-febef48c3b7a h1:waHZkxLmkT9s3imHooLiO4iOpJp++rZ9hUdnvr1OIk4=
 github.com/onweru/compose v0.0.0-20230227162650-febef48c3b7a/go.mod h1:tf1kQIBUcwJ/3mRFU5eiMrMvsDScVTK2IEFsZE3hZOc=
+github.com/onweru/compose v0.0.0-20230228154313-aa617b79709e h1:Crf4LBnuD+EmZHS7rwxYnwZDjx7mVRsyDAWfBdtLbr4=
+github.com/onweru/compose v0.0.0-20230228154313-aa617b79709e/go.mod h1:tf1kQIBUcwJ/3mRFU5eiMrMvsDScVTK2IEFsZE3hZOc=
 github.com/onweru/hugo-swift-theme v2.0.0+incompatible h1:UGc/TiOzqcSnNyfkkKoU8vQ9wGQTBmLjkblGcPhnzjM=
 github.com/onweru/hugo-swift-theme v2.0.0+incompatible/go.mod h1:Flki1A7Xnz36putWgud7Dmfqn4wIwoiAQO1pnNb4IOs=
 github.com/onweru/newsroom v0.0.0-20220114000312-a46aedf8f0c5 h1:ooAGhkoF7KRpD/CJ5/dbPl8yp08u5HABu7uC7dDOSFw=
@@ -1694,6 +1700,8 @@ github.com/yue1124/hero v0.0.0-20211205133758-af2b1f878227 h1:UPWIg/xCEX4CBaofma
 github.com/yue1124/hero v0.0.0-20211205133758-af2b1f878227/go.mod h1:AEwVzarJyGeB5CUsK/bJUOZ9k5L12XoS4fm4+0J/vCs=
 github.com/yursan9/manis-hugo-theme v0.0.0-20220207052450-3e51c1c27efc h1:Z9UCgYZeExfGgWgqnmGNs8sFVG9qCN0CEJraphitXdo=
 github.com/yursan9/manis-hugo-theme v0.0.0-20220207052450-3e51c1c27efc/go.mod h1:tRnEMyqlbKgYsm7KWlT63+7I0cJVpEV6p9bMt4sQ160=
+github.com/yursan9/manis-hugo-theme v0.0.0-20230228032349-9e8e09ebfc78 h1:B+XsR6USS7aYoggV+8of9Uwv3bS1QsjHGgzLS6clNAI=
+github.com/yursan9/manis-hugo-theme v0.0.0-20230228032349-9e8e09ebfc78/go.mod h1:tRnEMyqlbKgYsm7KWlT63+7I0cJVpEV6p9bMt4sQ160=
 github.com/zerostaticthemes/hugo-hero-theme v1.1.0 h1:SjjN0RY+75XE4dUISzeSkQfrDr4SRhlrky+fRf5RR0Y=
 github.com/zerostaticthemes/hugo-hero-theme v1.1.0/go.mod h1:4+Fj7q4tyVtSC6s7EwS4RedKa6pYj6TyjBQqh29GU/Q=
 github.com/zerostaticthemes/hugo-serif-theme v1.1.1 h1:9qsICmqv9n7zUHvvrigDYQuwH40K81RnOFQPdqDchFA=

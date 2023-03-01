@@ -262,9 +262,9 @@ require (
 	github.com/lgaida/mediumish-gohugo-theme v0.0.0-20230202155000-10fe85e58df4 // indirect
 	github.com/lingxz/er v0.0.0-20190825175148-ebdb18610b68 // indirect
 	github.com/liuzc/LeaveIt v0.0.0-20181104111157-2884e266babb // indirect
-	github.com/loveminimal/hugo-theme-virgo v0.0.0-20230227123510-6539d3368faf // indirect
+	github.com/loveminimal/hugo-theme-virgo v0.0.0-20230228130116-5831e2ae022a // indirect
 	github.com/lubang/hugo-hello-programmer-theme v2.1.0+incompatible // indirect
-	github.com/lucperkins/hugo-fresh v0.0.0-20230225195141-b43789ae6df8 // indirect
+	github.com/lucperkins/hugo-fresh v0.0.0-20230228132241-1907474cb8a3 // indirect
 	github.com/luizdepra/hugo-coder v0.0.0-20230227213722-d66f7cee3cfe // indirect
 	github.com/lukeorth/poison v0.0.0-20230215184353-4026789a0657 // indirect
 	github.com/lxndrblz/anatole v1.12.0 // indirect
@@ -306,7 +306,7 @@ require (
 	github.com/nusserstudios/tailbliss v0.0.0-20230221011022-194515f87247 // indirect
 	github.com/okkur/syna v0.17.4 // indirect
 	github.com/olOwOlo/hugo-theme-even v4.1.0+incompatible // indirect
-	github.com/onweru/compose v0.0.0-20230227162650-febef48c3b7a // indirect
+	github.com/onweru/compose v0.0.0-20230228154313-aa617b79709e // indirect
 	github.com/onweru/hugo-swift-theme v2.0.0+incompatible // indirect
 	github.com/onweru/newsroom v0.0.0-20230111195145-36d2b8bd39ec // indirect
 	github.com/opera7133/Blonde v0.0.0-20220918075631-4908a16a5ec6 // indirect
@@ -433,7 +433,7 @@ require (
 	github.com/yoshiharuyamashita/blackburn v0.0.0-20220530060627-99cf136a06f3 // indirect
 	github.com/your-identity/hugo-theme-dimension v0.0.0-20210521214308-2474081b7846 // indirect
 	github.com/yue1124/hero v0.0.0-20211205133758-af2b1f878227 // indirect
-	github.com/yursan9/manis-hugo-theme v0.0.0-20220207052450-3e51c1c27efc // indirect
+	github.com/yursan9/manis-hugo-theme v0.0.0-20230228032349-9e8e09ebfc78 // indirect
 	github.com/zerostaticthemes/hugo-hero-theme v1.1.0 // indirect
 	github.com/zerostaticthemes/hugo-serif-theme v1.1.1 // indirect
 	github.com/zerostaticthemes/hugo-whisper-theme v0.0.0-20220103005035-399397966bef // indirect
