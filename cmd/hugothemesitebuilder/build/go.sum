@@ -389,6 +389,8 @@ github.com/boratanrikulu/eternity v0.0.0-20230202164754-28fdd1c515e3 h1:TMdDYMpl
 github.com/boratanrikulu/eternity v0.0.0-20230202164754-28fdd1c515e3/go.mod h1:oTxriBGTETn/Saurq+nI5noIRiNG4/kpBMiroG2qgoM=
 github.com/boratanrikulu/eternity v0.0.0-20230224144729-a3d115e0cf73 h1:olRQp0fSFtWWJsw9/5HmVPp+wk378dpgZwrU9rlizdM=
 github.com/boratanrikulu/eternity v0.0.0-20230224144729-a3d115e0cf73/go.mod h1:oTxriBGTETn/Saurq+nI5noIRiNG4/kpBMiroG2qgoM=
+github.com/boratanrikulu/eternity v0.0.0-20230301155702-8191a3004093 h1:dszwvyO/p86ejVmLWVr2CU9uy4p1gOteDH4jY+Lpm48=
+github.com/boratanrikulu/eternity v0.0.0-20230301155702-8191a3004093/go.mod h1:oTxriBGTETn/Saurq+nI5noIRiNG4/kpBMiroG2qgoM=
 github.com/brycematheson/allegiant v0.0.0-20161024030126-4db3e8fe3a01 h1:HV/QUp8P/7mVJLFMAkhQ6CoNr5/SalGxU0p9hJEc/LA=
 github.com/brycematheson/allegiant v0.0.0-20161024030126-4db3e8fe3a01/go.mod h1:n4s7O9CIJgRlnvJFHr2L5asHj3ITIEUjdfVBGZAInBk=
 github.com/bul-ikana/hugo-cards v0.0.0-20211031232746-55e303495347 h1:UHhqtMNM8NBvnjrDvZ+rcGkbylFMLmSg9Vidl3i2DJo=
@@ -623,6 +625,8 @@ github.com/funkydan2/alpha-church v0.0.0-20221214233526-9dc063db788c h1:+DYWmweJ
 github.com/funkydan2/alpha-church v0.0.0-20221214233526-9dc063db788c/go.mod h1:OwMMBZA76bnNA4UMfOwV8WJ9UEQ+c+VkI+ubK3y5d5c=
 github.com/funkydan2/alpha-church v0.0.0-20230111073348-d2cc31e59d46 h1:zYuJ+qHJ7lSUc7K4KCqcmxFEhKQcQdAUjb8QaYFbd/w=
 github.com/funkydan2/alpha-church v0.0.0-20230111073348-d2cc31e59d46/go.mod h1:OwMMBZA76bnNA4UMfOwV8WJ9UEQ+c+VkI+ubK3y5d5c=
+github.com/funkydan2/alpha-church v0.0.0-20230301222547-f4d113bc7d59 h1:eXuGaoJ+rZR8brrmpYqfcOFmLj2jKUu4Lju8o8rvyKs=
+github.com/funkydan2/alpha-church v0.0.0-20230301222547-f4d113bc7d59/go.mod h1:OwMMBZA76bnNA4UMfOwV8WJ9UEQ+c+VkI+ubK3y5d5c=
 github.com/funkydan2/hugo-kiera v1.1.0 h1:59YvXD+wlVQHmENtsXIUE7vPZnirBLxUOqz6wS21AkY=
 github.com/funkydan2/hugo-kiera v1.1.0/go.mod h1:BbmZeo7pwZ40j9PB9MSEteiGYFAUFoMZZvEU44AycqQ=
 github.com/g1eny0ung/hugo-theme-dream v1.6.0 h1:qnQ3LAMTkrFq4Cs+pdR4H76HQyzEDZ/XpiC3Pmg4nFw=
@@ -998,6 +1002,8 @@ github.com/loveminimal/hugo-theme-virgo v0.0.0-20230227123510-6539d3368faf h1:Em
 github.com/loveminimal/hugo-theme-virgo v0.0.0-20230227123510-6539d3368faf/go.mod h1:rYaAxThYe50neshv8H6CXi4K1uCVIGwtBPdK2ZlnF88=
 github.com/loveminimal/hugo-theme-virgo v0.0.0-20230228130116-5831e2ae022a h1:ZHoysJI2bMOqU2vjWvsT2Ikk7my3pRggg9al4L/lvR8=
 github.com/loveminimal/hugo-theme-virgo v0.0.0-20230228130116-5831e2ae022a/go.mod h1:rYaAxThYe50neshv8H6CXi4K1uCVIGwtBPdK2ZlnF88=
+github.com/loveminimal/hugo-theme-virgo v0.0.0-20230301091303-bb6ce74aff19 h1:LY+YxSuVpUaYs1OXj4Lm1i867DvLcmPZ45epRzRXInA=
+github.com/loveminimal/hugo-theme-virgo v0.0.0-20230301091303-bb6ce74aff19/go.mod h1:rYaAxThYe50neshv8H6CXi4K1uCVIGwtBPdK2ZlnF88=
 github.com/lubang/hugo-hello-programmer-theme v2.1.0+incompatible h1:cjrUz89VoSYXXyOj+xiyJrkfiY0yc3K6p2sBX5BGKHs=
 github.com/lubang/hugo-hello-programmer-theme v2.1.0+incompatible/go.mod h1:B5YCYcL791YB88XiLoaNYIUB5MZiAqSObDekgp1iwk0=
 github.com/lucperkins/hugo-fresh v0.0.0-20220922022354-244bcfcbdfc1 h1:tUhBhOZuOzBNfJISHx6Fi904EHYte641HYlz0PXTLCw=

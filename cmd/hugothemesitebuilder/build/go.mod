@@ -95,7 +95,7 @@ require (
 	github.com/bep/gallerydeluxe v0.9.2 // indirect
 	github.com/bjacquemet/personal-web v0.0.0-20210930154027-95178cb6bf55 // indirect
 	github.com/blankoworld/hugo_theme_adam_eve v0.0.0-20221104230834-48436eef467b // indirect
-	github.com/boratanrikulu/eternity v0.0.0-20230224144729-a3d115e0cf73 // indirect
+	github.com/boratanrikulu/eternity v0.0.0-20230301155702-8191a3004093 // indirect
 	github.com/brycematheson/allegiant v0.0.0-20161024030126-4db3e8fe3a01 // indirect
 	github.com/bul-ikana/hugo-cards v0.0.0-20211031232746-55e303495347 // indirect
 	github.com/calintat/minimal v0.0.0-20210103220336-987f270dfee3 // indirect
@@ -163,7 +163,7 @@ require (
 	github.com/forestryio/hugo-theme-novela v0.0.0-20210222084032-5d015eef4c56 // indirect
 	github.com/fourtyone11/origin-hugo-theme v0.0.0-20200611125917-021c45772a9a // indirect
 	github.com/frjo/hugo-theme-zen/v2 v2.5.2 // indirect
-	github.com/funkydan2/alpha-church v0.0.0-20230111073348-d2cc31e59d46 // indirect
+	github.com/funkydan2/alpha-church v0.0.0-20230301222547-f4d113bc7d59 // indirect
 	github.com/funkydan2/hugo-kiera v1.1.0 // indirect
 	github.com/g1eny0ung/hugo-theme-dream v1.6.0 // indirect
 	github.com/garvincasimir/hugo-h5bp-simple v0.0.0-20190817231606-e834d00b96bb // indirect
@@ -262,7 +262,7 @@ require (
 	github.com/lgaida/mediumish-gohugo-theme v0.0.0-20230202155000-10fe85e58df4 // indirect
 	github.com/lingxz/er v0.0.0-20190825175148-ebdb18610b68 // indirect
 	github.com/liuzc/LeaveIt v0.0.0-20181104111157-2884e266babb // indirect
-	github.com/loveminimal/hugo-theme-virgo v0.0.0-20230228130116-5831e2ae022a // indirect
+	github.com/loveminimal/hugo-theme-virgo v0.0.0-20230301091303-bb6ce74aff19 // indirect
 	github.com/lubang/hugo-hello-programmer-theme v2.1.0+incompatible // indirect
 	github.com/lucperkins/hugo-fresh v0.0.0-20230228132241-1907474cb8a3 // indirect
 	github.com/luizdepra/hugo-coder v0.0.0-20230227213722-d66f7cee3cfe // indirect
