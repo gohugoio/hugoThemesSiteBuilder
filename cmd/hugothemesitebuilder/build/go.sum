@@ -665,6 +665,8 @@ github.com/guangzhengli/hugo-theme-ladder v1.0.1 h1:qHh8a8UzQe5IrnMkTB+8DmP+Ju3A
 github.com/guangzhengli/hugo-theme-ladder v1.0.1/go.mod h1:U8Y5rpvGKp2MKWX4r9O7XV5GUOIde5lKGn2dC5jZMUI=
 github.com/guangzhengli/hugo-theme-ladder v1.1.0 h1:r9asen1aAcVe+rIoxYu7o9Gb4/meOLK0ebebLPsDOOA=
 github.com/guangzhengli/hugo-theme-ladder v1.1.0/go.mod h1:U8Y5rpvGKp2MKWX4r9O7XV5GUOIde5lKGn2dC5jZMUI=
+github.com/guangzhengli/hugo-theme-ladder v1.2.0 h1:ChMt3xQ2R5zwBEAZksnSrcnfnqdC/Mn+L8D+5/nafUo=
+github.com/guangzhengli/hugo-theme-ladder v1.2.0/go.mod h1:U8Y5rpvGKp2MKWX4r9O7XV5GUOIde5lKGn2dC5jZMUI=
 github.com/gundamew/hugo-bingo v1.8.2 h1:XEhmUp3D8/yh8vwxHNCq1iwpiABZ6Mza4wxScIe/YSs=
 github.com/gundamew/hugo-bingo v1.8.2/go.mod h1:h+xHd+oIVw9LFzIFp5ZKHrEm+3CwBiSXOe1CI5lqLI0=
 github.com/gurusabarish/hugo-profile v0.0.0-20221129110957-efc0918ad7e4 h1:tc/Y41h/ijAGp+hx9PtuCJhyd8pNpDM1+CY0kEm21Q0=
@@ -1004,6 +1006,8 @@ github.com/loveminimal/hugo-theme-virgo v0.0.0-20230228130116-5831e2ae022a h1:ZH
 github.com/loveminimal/hugo-theme-virgo v0.0.0-20230228130116-5831e2ae022a/go.mod h1:rYaAxThYe50neshv8H6CXi4K1uCVIGwtBPdK2ZlnF88=
 github.com/loveminimal/hugo-theme-virgo v0.0.0-20230301091303-bb6ce74aff19 h1:LY+YxSuVpUaYs1OXj4Lm1i867DvLcmPZ45epRzRXInA=
 github.com/loveminimal/hugo-theme-virgo v0.0.0-20230301091303-bb6ce74aff19/go.mod h1:rYaAxThYe50neshv8H6CXi4K1uCVIGwtBPdK2ZlnF88=
+github.com/loveminimal/hugo-theme-virgo v0.0.0-20230302020222-7d2b9822d97b h1:yCAP6Ki+fizyLzzYG12+uc2JDkz4Ib1OxSSmPpjlMp4=
+github.com/loveminimal/hugo-theme-virgo v0.0.0-20230302020222-7d2b9822d97b/go.mod h1:rYaAxThYe50neshv8H6CXi4K1uCVIGwtBPdK2ZlnF88=
 github.com/lubang/hugo-hello-programmer-theme v2.1.0+incompatible h1:cjrUz89VoSYXXyOj+xiyJrkfiY0yc3K6p2sBX5BGKHs=
 github.com/lubang/hugo-hello-programmer-theme v2.1.0+incompatible/go.mod h1:B5YCYcL791YB88XiLoaNYIUB5MZiAqSObDekgp1iwk0=
 github.com/lucperkins/hugo-fresh v0.0.0-20220922022354-244bcfcbdfc1 h1:tUhBhOZuOzBNfJISHx6Fi904EHYte641HYlz0PXTLCw=
@@ -1620,6 +1624,8 @@ github.com/willfaught/paige v0.41.1 h1:WR85+498Y9wncgcHtREKxznj5KMjo1/fZMqRKUf0J
 github.com/willfaught/paige v0.41.1/go.mod h1:0Nt8ifl7UVYQIBaMtpZmg+BrQHHzFNqKcrBoA2Oo4/E=
 github.com/willfaught/paige v0.41.2 h1:w8um2uA626YUxlIyyiNUSvLX7BH4x7eDPGCh6nbchso=
 github.com/willfaught/paige v0.41.2/go.mod h1:0Nt8ifl7UVYQIBaMtpZmg+BrQHHzFNqKcrBoA2Oo4/E=
+github.com/willfaught/paige v0.42.0 h1:NH4+lltpGQK/W7AFQ95sjlizrFutNEjHznJ/KvKStCg=
+github.com/willfaught/paige v0.42.0/go.mod h1:0Nt8ifl7UVYQIBaMtpZmg+BrQHHzFNqKcrBoA2Oo4/E=
 github.com/wlh320/hugo-theme-hulga v0.0.0-20221106071311-0487d9d1a45c h1:bq5mOJZ30Fo3+7wNK06EAICIbBBe/NXEJHNJQXewkaQ=
 github.com/wlh320/hugo-theme-hulga v0.0.0-20221106071311-0487d9d1a45c/go.mod h1:erdTksWjSdnpLpgqvRzmDjpt/VI0OsX4FKnqCcINyR0=
 github.com/wowchemy/starter-hugo-academic v0.0.0-20221127215757-a8e14c1488e0 h1:4c+QrlG/JHpzYA0jKdwK+BAscj5zdNZP9nJCkDPaVL4=
