@@ -122,6 +122,7 @@ To ease accessibility for international users of your theme, please provide at l
 
 **Note:** If you add screenshots to the README, please make use of absolute file paths instead of relative ones like `/images/screenshot.png`. Relative paths work great on GitHub, but they don't correspond to the directory structure of [themes.gohugo.io](https://themes.gohugo.io/). Therefore, browsers will not be able to display screenshots on the theme site under the given (relative) path.
 
+**Note:** We will not merge themes with READMEs that's set up as marketing campaigns for other products (e.g. paid versions of the free theme).
 
 ## FAQ
 
