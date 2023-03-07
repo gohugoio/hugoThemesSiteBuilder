@@ -87,7 +87,15 @@ Note that you can omit any of the fields `extended`, `min`, or `max`.
 
 Theme maintainers, please do **not** delete Git references or tags from your theme repositories. Otherwise, Hugo Modules will not be able to fetch a specific version of a module, resulting in errors.
 
-## LICENSE
+## Criterias to be added to this site
+
+### If a fork, it must be notably different
+
+Themes based on other theme (aka forks) must be must be notably different for us to add it as a new entry to this theme site. You should make this clear in the README; a few arguments as to why we should pick your theme instead of the original? 
+
+The definition of _notably different_ is a little subjective, but in most cases it will be obvious. A new background color is not enough. It would be better for all if you created a PR to add that as an option to the original theme.
+
+### LICENSE
 
 Themes in this repository are accepted only if they come with an Open Source license that allows for the theme to be freely used, modified, and shared. 
 
@@ -97,7 +105,7 @@ To have a look at popular licenses, please visit the [Open Source Initiative](ht
 
 If a submission is found to violate the LICENSE of an original theme, it will be rejected without further discussion.
 
-## Media
+### Media
 
 Screenshots are used as theme previews in the list. They should feature a theme's layout (without any browser chrome or device mockups) and have the following dimensions:
 
@@ -111,7 +119,7 @@ Screenshots are used as theme previews in the list. They should feature a theme'
 
 Additional media may be provided in that same directory.
 
-## README.md
+### README.md
 
 Your theme's README file (which should be written in Markdown and called `README.md`) serves a double purpose. This is because its content will appear in two places&mdash;i.e., it will appear:
 
