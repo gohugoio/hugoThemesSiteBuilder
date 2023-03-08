@@ -1,35 +1,35 @@
 name: update-themes
 on:
-   schedule:
-   - cron: '0 0 * * *'
-   workflow_dispatch: 
+  schedule:
+    - cron: "0 0 * * *"
+  workflow_dispatch:
 jobs:
   build:
     runs-on: ubuntu-latest
     env:
       HUGO_CACHEDIR: /tmp/hugo_cache
     steps:
-    - uses: actions/checkout@v2
-    - uses: actions/setup-go@v2
-      with:
-        go-version: '^1.16.5'
-    - uses: actions/cache@v3
-      with:
-        path: |
-          ~/.cache/go-build
-          ~/go/pkg/mod
-          ${{ env.HUGO_CACHEDIR }}
-        key: ${{ runner.os }}-go-${{ hashFiles('**/go.sum') }}
-        restore-keys: |
-          ${{ runner.os }}-go-
-    - name: Update submodules
-      shell: bash
-      working-directory: ./cmd/hugothemesitebuilder/build
-      run: |
-       git config --global user.email "digitalcraftsman@users.noreply.github.com"
-       git config --global user.name "digitalcraftsman"
-       go install github.com/gohugoio/hugo@v0.103.1
-       hugo mod get -u
-       git add .
-       git commit -am "[Bot] Update themes"
-       git push --force-with-lease
+      - uses: actions/checkout@v2
+      - uses: actions/setup-go@v3
+        with:
+          go-version: "^1.19.5"
+      - uses: actions/cache@v3
+        with:
+          path: |
+            ~/.cache/go-build
+            ~/go/pkg/mod
+            ${{ env.HUGO_CACHEDIR }}
+          key: ${{ runner.os }}-go-${{ hashFiles('**/go.sum') }}
+          restore-keys: |
+            ${{ runner.os }}-go-
+      - name: Update submodules
+        shell: bash
+        working-directory: ./cmd/hugothemesitebuilder/build
+        run: |
+          git config --global user.email "digitalcraftsman@users.noreply.github.com"
+          git config --global user.name "digitalcraftsman"
+          go install github.com/gohugoio/hugo@v0.110.0
+          hugo mod get -u
+          git add .
+          git commit -am "[Bot] Update themes"
+          git push --force-with-lease
