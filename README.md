@@ -87,17 +87,25 @@ Note that you can omit any of the fields `extended`, `min`, or `max`.
 
 Theme maintainers, please do **not** delete Git references or tags from your theme repositories. Otherwise, Hugo Modules will not be able to fetch a specific version of a module, resulting in errors.
 
-## LICENSE
+## Criteria to be added to this site
+
+### If a fork, it must be notably different
+
+Themes based on another theme (aka forks) must be notably different for us to add it as a new entry to this theme site. You should make this clear in the README; a few arguments as to why we should pick your theme instead of the original? 
+
+The definition of _notably different_ is a little subjective, but in most cases it will be obvious. A new background color is not enough. It would be better for all if you created a PR to add that as an option to the original theme.
+
+### LICENSE
 
 Themes in this repository are accepted only if they come with an Open Source license that allows for the theme to be freely used, modified, and shared. 
 
 To have a look at popular licenses, please visit the [Open Source Initiative](https://opensource.org/licenses) website.
 
-**Note:** When porting an existing theme from another platform to Hugo, or if you are forking another Hugo theme in order to add new features and you wish to submit the derivative work for inclusion at the Hugo Themes Showcase, you really need to make sure that the requirements of the original theme's license are met. 
+**Note:** When porting an existing theme from another platform to Hugo, or if you are forking another Hugo theme in order to add new features and you wish to submit the derivative work for inclusion at the Hugo Themes Showcase, you really need to make sure that the requirements of the original theme's license are met. And if the original theme does not have an Open Source license, you cannot add one.
 
 If a submission is found to violate the LICENSE of an original theme, it will be rejected without further discussion.
 
-## Media
+### Media
 
 Screenshots are used as theme previews in the list. They should feature a theme's layout (without any browser chrome or device mockups) and have the following dimensions:
 
@@ -111,7 +119,7 @@ Screenshots are used as theme previews in the list. They should feature a theme'
 
 Additional media may be provided in that same directory.
 
-## README.md
+### README.md
 
 Your theme's README file (which should be written in Markdown and called `README.md`) serves a double purpose. This is because its content will appear in two places&mdash;i.e., it will appear:
 
@@ -122,6 +130,7 @@ To ease accessibility for international users of your theme, please provide at l
 
 **Note:** If you add screenshots to the README, please make use of absolute file paths instead of relative ones like `/images/screenshot.png`. Relative paths work great on GitHub, but they don't correspond to the directory structure of [themes.gohugo.io](https://themes.gohugo.io/). Therefore, browsers will not be able to display screenshots on the theme site under the given (relative) path.
 
+**Note:** We will not merge themes with READMEs that's set up as marketing campaigns for other products (e.g. paid versions of the free theme).
 
 ## FAQ
 
