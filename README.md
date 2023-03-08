@@ -87,7 +87,7 @@ Note that you can omit any of the fields `extended`, `min`, or `max`.
 
 Theme maintainers, please do **not** delete Git references or tags from your theme repositories. Otherwise, Hugo Modules will not be able to fetch a specific version of a module, resulting in errors.
 
-## Criterias to be added to this site
+## Criteria to be added to this site
 
 ### If a fork, it must be notably different
 
