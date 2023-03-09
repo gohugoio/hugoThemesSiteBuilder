@@ -18,7 +18,7 @@ Then, from the root of your theme's repository, you need to perform the followin
 
 * Create a `config.toml` file that specifies the Hugo version(s) supported by your theme. Also, add a `theme.toml` file and include some relevant metadata about the theme ([see below](#theme-configuration)).
 * Add a descriptive `README.md` ([see below](#readmemd)).
-* Include screenshot images in `/images/screenshot.{png,jpg}` and thumbnail images in `/images/tn.{png,jpg}` ([see below](#media)).
+* Include a screenshot image in `/images/screenshot.{png,jpg}` and a thumbnail image in `/images/tn.{png,jpg}` ([see below](#media)).
 * Push the changes.
 
 After making your theme available online, you can include it here by following the steps mentioned below.
@@ -28,16 +28,14 @@ After making your theme available online, you can include it here by following t
 * Write a meaningful commit message title (e.g. `Add theme my-blog-theme`).
 * Create a pull request and ensure that the preview looks good.
 
-> **Note**: If the PR preview does not appear as expected after you have fixed your theme (missing thumbnail image for example), you can trigger a new preview build as follows:
+> **Note**: If the PR preview does not appear as expected after you have fixed your theme (missing thumbnail image for example), you can trigger a new preview build as follows.
 
-1. Amend the commit on your PR branch
-
+1. Amend the commit in your PR branch
 ```bash
 git commit --amend --no-edit
 ```
 
-2. Do a force push:
-
+2. Do a force push
 ```bash
 git push -f
 ```
@@ -46,7 +44,8 @@ git push -f
 
 ## Theme Configuration
 
-You should have a file named `theme.toml` in the root of your theme. This file contains metadata about the theme and its creator or creators. **Only `theme.toml` is accepted, not `theme.yaml` or not `theme.json`**.
+Your theme should have a `theme.toml` file in the root directory. This file should contain relevant metadata about the theme and its creator(s). It's important to note that only the `theme.toml` file format is supported. `theme.yaml` or `theme.json` files are not supported.
+
 
 ```toml
 name = "Theme Name"
@@ -81,7 +80,7 @@ authors = [
     repo = "Link to source code of original theme"
 ```
 
-Your theme should also have a configuration file (e.g. `config.toml`) configuring what [Hugo versions](https://gohugo.io/hugo-modules/configuration/#module-config-hugoversion) the theme supports:
+Your theme must include a configuration file (such as config.toml) that specifies the [Hugo versions](https://gohugo.io/hugo-modules/configuration/#module-config-hugoversion) supported by the theme.
 
 ```toml
 [module]
@@ -91,9 +90,9 @@ Your theme should also have a configuration file (e.g. `config.toml`) configurin
     max = "0.84.2"
 ```
 
-Note that you can omit any of the fields `extended`, `min`, or `max`.
+You may omit the fields `extended`, `min`, or `max`.
 
-Theme maintainers, please do **not** delete Git references or tags from your theme repositories. Otherwise, Hugo Modules will not be able to fetch a specific version of a module, resulting in errors.
+Theme maintainers are requested **not** to delete Git references or tags from your theme's repository.  Doing so may cause issues with fetching specific version of a module, leading to errors.
 
 ## Criteria to be added to this site
 
