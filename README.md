@@ -1,40 +1,48 @@
 
 # Hugo themes
 
-A collection of themes created by the Hugo community. Builds to [themes.gohugo.io](https://themes.gohugo.io/).
-
-**Have questions?** Have a look at the [FAQ](#faq) first.
+This repository contains a list of themes developed by the Hugo community, which can be accessed at [themes.gohugo.io](https://themes.gohugo.io/). For any queries, refer to the [FAQ](#faq) section provided below.
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/58968044-3238-424c-b9b6-e0d00733890c/deploy-status)](https://app.netlify.com/sites/hugothemes/deploys)
 
 
-# Themes are removed if not up to date
+# Themes which are out of date are removed
 
-The current policy is to expire a theme if it has not been updated (version date) for the past several years. Even if your theme is feature complete, it's appreciated that you check on it from time to time and verify that it works with newer Hugo versions.
+Themes that have not been updated in the past few years are removed as per the current policy. Even if your theme is fully functional, it is recommended that you periodically check and confirm its compatibility with the latest versions of Hugo.
 
 # Adding a theme to the list
 
-Create your theme using <code>hugo new theme <em>THEME_NAME</em></code>. In your theme repository:
+You can use the command <code>hugo new theme <em>THEME_NAME</em></code> to create a new theme.
 
-* Add a `config.toml` with supported Hugo version(s), add a `theme.toml` file to the root of the theme, and add some metadata about the theme ([see below](#theme-configuration));
-* Add a descriptive `README.md` to the root of the theme ([see below](#readmemd));
-* Add `/images/screenshot.{png,jpg}` and `/images/tn.{png,jpg}` ([see below](#media)).
+Then, from the root of your theme's repository, you need to perform the following steps:
 
-Once your theme repository is on GitHub, you can add it here.
+* Create a `config.toml` file that specifies the Hugo version(s) supported by your theme. Also, add a `theme.toml` file and include some relevant metadata about the theme ([see below](#theme-configuration)).
+* Add a descriptive `README.md` ([see below](#readmemd)).
+* Include screenshot images in `/images/screenshot.{png,jpg}` and thumbnail images in `/images/tn.{png,jpg}` ([see below](#media)).
+* Push the changes.
+
+After making your theme available online, you can include it here by following the steps mentioned below.
 
 * Clone this repository: <code>git clone https://github.com/gohugoio/hugoThemesSiteBuilder.git</code>.
-* Add your theme path (e.g. `github.com/gohugoio/gohugoioTheme`) to [themes.txt](https://github.com/gohugoio/hugoThemesSiteBuilder/edit/main/themes.txt) in [lexicographical order](https://en.wikipedia.org/wiki/Lexicographic_order).
-* Write a descriptive commit message title (e.g. `Add theme my-blog-theme`).
-* Create a pull request and verify that the preview looks good.
+* Add your theme's URL (e.g. `github.com/user/my-blog-theme`) to [themes.txt](https://github.com/gohugoio/hugoThemesSiteBuilder/edit/main/themes.txt) in [lexicographical order](https://en.wikipedia.org/wiki/Lexicographic_order).
+* Write a meaningful commit message title (e.g. `Add theme my-blog-theme`).
+* Create a pull request and ensure that the preview looks good.
 
-Note that if the PR preview does not come up as expected after fixing your theme (missing thumbnail image etc.), you can trigger a new preview build by amending the commit on your PR branch and doing a force push:
+**Note:** If the PR preview does not appear as expected after you have fixed your theme (missing thumbnail image for example), you can trigger a new preview build as follows:
+
+1. Amend the commit on your PR branch
 
 ```bash
 git commit --amend --no-edit
+```
+
+2. Do a force push:
+
+```bash
 git push -f
 ```
- 
-**Note:** The site is rebuilt once a day with the themes from this repository.  Any edits/updates you make to an existing theme will be shown on the site within 24 hours.
+
+**Note:** The site is rebuilt on a daily basis using the list of themes present in this repository. Any changes or modifications you make to an existing theme will be reflected on the site within 24 hours.
 
 ## Theme Configuration
 
