@@ -5,12 +5,7 @@ This repository contains a list of themes developed by the Hugo community, which
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/58968044-3238-424c-b9b6-e0d00733890c/deploy-status)](https://app.netlify.com/sites/hugothemes/deploys)
 
-
-# Themes which are out of date are removed
-
-Themes that have not been updated in the past few years are removed as per the current policy. Even if your theme is fully functional, it is recommended that you periodically check and confirm its compatibility with the latest versions of Hugo.
-
-# Adding a theme to the list
+# Adding a theme
 
 You can use the command <code>hugo new theme <em>THEME_NAME</em></code> to create a new theme.
 
@@ -146,6 +141,11 @@ Your theme's README file (which should be written in Markdown and called `README
 To make your theme more accessible to users across the globe, it would be helpful if you could include an English translation of the README, at the very least.
 
 > **Note**: If you add screenshots to the README, please make sure to use absolute file paths instead of relative ones (like `/images/screenshot.png`). Relative paths work great on GitHub/GitLab, but they don't correspond to the directory structure of [themes.gohugo.io](https://themes.gohugo.io/) website. Therefore, browsers will not be able to display screenshots if relative paths are used.
+
+
+## Note on outdated themes
+
+Themes that have not been updated in the past few years are removed as per the current policy. Even if your theme is fully functional, it is recommended that you periodically check and confirm its compatibility with the latest versions of Hugo.
 
 ## FAQ
 
