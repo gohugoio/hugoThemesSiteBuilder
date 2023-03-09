@@ -28,7 +28,7 @@ After making your theme available online, you can include it here by following t
 * Write a meaningful commit message title (e.g. `Add theme my-blog-theme`).
 * Create a pull request and ensure that the preview looks good.
 
-**Note:** If the PR preview does not appear as expected after you have fixed your theme (missing thumbnail image for example), you can trigger a new preview build as follows:
+> **Note**: If the PR preview does not appear as expected after you have fixed your theme (missing thumbnail image for example), you can trigger a new preview build as follows:
 
 1. Amend the commit on your PR branch
 
@@ -42,7 +42,7 @@ git commit --amend --no-edit
 git push -f
 ```
 
-**Note:** The site is rebuilt on a daily basis using the list of themes present in this repository. Any changes or modifications you make to an existing theme will be reflected on the site within 24 hours.
+> **Note**: The site is rebuilt on a daily basis using the list of themes present in this repository. Any changes or modifications you make to an existing theme will be reflected on the site within 24 hours.
 
 ## Theme Configuration
 
@@ -109,7 +109,7 @@ Themes in this repository are accepted only if they come with an Open Source lic
 
 To have a look at popular licenses, please visit the [Open Source Initiative](https://opensource.org/licenses) website.
 
-**Note:** When porting an existing theme from another platform to Hugo, or if you are forking another Hugo theme in order to add new features and you wish to submit the derivative work for inclusion at the Hugo Themes Showcase, you really need to make sure that the requirements of the original theme's license are met. And if the original theme does not have an Open Source license, you cannot add one.
+> **Note**: When porting an existing theme from another platform to Hugo, or if you are forking another Hugo theme in order to add new features and you wish to submit the derivative work for inclusion at the Hugo Themes Showcase, you really need to make sure that the requirements of the original theme's license are met. And if the original theme does not have an Open Source license, you cannot add one.
 
 If a submission is found to violate the LICENSE of an original theme, it will be rejected without further discussion.
 
@@ -136,9 +136,9 @@ Your theme's README file (which should be written in Markdown and called `README
 
 To ease accessibility for international users of your theme, please provide at least an English translation of the README.
 
-**Note:** If you add screenshots to the README, please make use of absolute file paths instead of relative ones like `/images/screenshot.png`. Relative paths work great on GitHub, but they don't correspond to the directory structure of [themes.gohugo.io](https://themes.gohugo.io/). Therefore, browsers will not be able to display screenshots on the theme site under the given (relative) path.
+> **Note**: If you add screenshots to the README, please make use of absolute file paths instead of relative ones like `/images/screenshot.png`. Relative paths work great on GitHub, but they don't correspond to the directory structure of [themes.gohugo.io](https://themes.gohugo.io/). Therefore, browsers will not be able to display screenshots on the theme site under the given (relative) path.
 
-**Note:** We will not merge themes with READMEs that's set up as marketing campaigns for other products (e.g. paid versions of the free theme).
+> **Note**: We will not merge themes with READMEs that's set up as marketing campaigns for other products (e.g. paid versions of the free theme).
 
 ## FAQ
 
