@@ -23,28 +23,31 @@ Then, from the root of your theme's repository, you need to perform the followin
 
 After making your theme available online, you can include it here by following the steps mentioned below.
 
-* Clone this repository: <code>git clone https://github.com/gohugoio/hugoThemesSiteBuilder.git</code>.
-* Add your theme's URL (e.g. `github.com/user/my-blog-theme`) to [themes.txt](https://github.com/gohugoio/hugoThemesSiteBuilder/edit/main/themes.txt) in [lexicographical order](https://en.wikipedia.org/wiki/Lexicographic_order).
+* Clone this repository
+    ```bash
+    git clone https://github.com/gohugoio/hugoThemesSiteBuilder.git
+    ```
+* Add your theme's URL (e.g. `github.com/user/my-blog-theme`) in [themes.txt](https://github.com/gohugoio/hugoThemesSiteBuilder/edit/main/themes.txt) in [lexicographical order](https://en.wikipedia.org/wiki/Lexicographic_order).
 * Write a meaningful commit message title (e.g. `Add theme my-blog-theme`).
-* Create a pull request and ensure that the preview looks good.
+* Create a pull request(PR) and ensure that the preview looks good.
 
 > **Note**: If the PR preview does not appear as expected after you have fixed your theme (missing thumbnail image for example), you can trigger a new preview build as follows.
 
 1. Amend the commit in your PR branch
-```bash
-git commit --amend --no-edit
-```
+     ```bash
+     git commit --amend --no-edit
+     ```
 
 2. Do a force push
-```bash
-git push -f
-```
+     ```bash
+     git push -f
+     ```
 
-> **Note**: The site is rebuilt on a daily basis using the list of themes present in this repository. Any changes or modifications you make to an existing theme will be reflected on the site within 24 hours.
+> **Note**: The [themes site](https://themes.gohugo.io/) is rebuilt on a daily basis using the list of themes present in this repository. Any changes made to an existing theme will be reflected on the website within 24 hours.
 
-## Theme Configuration
+## Theme configuration
 
-Your theme should have a `theme.toml` file in the root directory. This file should contain relevant metadata about the theme and its creator(s). It's important to note that only the `theme.toml` file format is supported. `theme.yaml` or `theme.json` files are not supported.
+Your theme should have a `theme.toml` file in the root directory. This file should contain relevant metadata about the theme and its creator(s). It's important to note that only the `theme.toml` file format is supported. `theme.yaml` or `theme.json` files are not supported currently.
 
 
 ```toml
@@ -94,27 +97,30 @@ You may omit the fields `extended`, `min`, or `max`.
 
 Theme maintainers are requested **not** to delete Git references or tags from your theme's repository.  Doing so may cause issues with fetching specific version of a module, leading to errors.
 
-## Criteria to be added to this site
+## Criteria for acceptance of a theme
 
-### If a fork, it must be notably different
+### Forks must be notably different
 
-Themes based on another theme (aka forks) must be notably different for us to add it as a new entry to this theme site. You should make this clear in the README; a few arguments as to why we should pick your theme instead of the original? 
+A theme based on an existing Hugo theme (aka a fork) must be notably different for it to be considered a separate theme altogether. In such cases, you should list few arguments in `README.md` file mentioning why your theme should be included. 
 
-The definition of _notably different_ is a little subjective, but in most cases it will be obvious. A new background color is not enough. It would be better for all if you created a PR to add that as an option to the original theme.
+The definition of _notably different_ can be subjective, but in most cases, it should be clear. Simply changing the background color or changing few styles, for instance, does not make a theme notably different. It would be better if you submit a pull request to the original theme to include your proposed changes.
 
 ### LICENSE
 
 Themes in this repository are accepted only if they come with an Open Source license that allows for the theme to be freely used, modified, and shared. 
-
 To view a list of popular licenses, you can visit [Open Source Initiative](https://opensource.org/licenses) website.
 
 #### License of derivative works
 
-If you are porting an existing theme from another platform to Hugo, or if you're forking an existing Hugo theme to incorporate new features and plan to submit the derivative work, it's essential to ensure that the original theme's licensing requirements are met. 
+If you are porting an existing theme from another platform to Hugo, or if you're forking an existing Hugo theme to incorporate new features and plan to submit the derivative work; it's essential to ensure that the original theme's license requirements are met. 
 
-In case the original theme lacks an [open source license](https://opensource.org/licenses), you should try to obtain one from the creator of the original work. You cannot add a license on your own. Such derivative works will not be accepted.
+In case the original theme lacks an Open Source license, you should try to obtain one from the creator of the original work. You cannot add a license on your own. Such derivative work where license of the original work is unclear, will not be accepted.
 
-In any other case, if a submission is found to be in violation of the original work's licence, it will be rejected without further discussion.
+In any other case, if a submission is found to be in violation of licence of the original work, it will be rejected without further discussion.
+
+### Other criteria
+
+Themes with READMEs set up as marketing campaigns for other products (e.g. paid version of a free theme) will not be accepted.
 
 ### Media
 
@@ -128,20 +134,18 @@ Screenshots are used as theme previews in the list. They should feature a theme'
     * <code><em>[ThemeDir]</em>/images/tn.{png,jpg}</code>
 
 
-Additional media may be provided in that same directory.
+Additional media may be provided in the same directory.
 
 ### README.md
 
-Your theme's README file (which should be written in Markdown and called `README.md`) serves a double purpose. This is because its content will appear in two places&mdash;i.e., it will appear:
+Your theme's README file (which should be written in Markdown and called `README.md`) serves a two purposes. It's content appears in two places, which are:
 
-1. On your theme's details page at [themes.gohugo.io](https://themes.gohugo.io/); and
-1. At GitHub (as usual), on your theme's regular main page.
+1. On your theme's detail page on [themes.gohugo.io](https://themes.gohugo.io/) website.
+2. On your theme's regular main page at GitHub/GitLab (as usual).
 
-To ease accessibility for international users of your theme, please provide at least an English translation of the README.
+To make your theme more accessible to users across the globe, it would be helpful if you could include an English translation of the README, at the very least.
 
-> **Note**: If you add screenshots to the README, please make use of absolute file paths instead of relative ones like `/images/screenshot.png`. Relative paths work great on GitHub, but they don't correspond to the directory structure of [themes.gohugo.io](https://themes.gohugo.io/). Therefore, browsers will not be able to display screenshots on the theme site under the given (relative) path.
-
-> **Note**: We will not merge themes with READMEs that's set up as marketing campaigns for other products (e.g. paid versions of the free theme).
+> **Note**: If you add screenshots to the README, please make sure to use absolute file paths instead of relative ones (like `/images/screenshot.png`). Relative paths work great on GitHub/GitLab, but they don't correspond to the directory structure of [themes.gohugo.io](https://themes.gohugo.io/) website. Therefore, browsers will not be able to display screenshots if relative paths are used.
 
 ## FAQ
 
