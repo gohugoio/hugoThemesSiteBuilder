@@ -153,3 +153,8 @@ Themes that have not been updated in the past few years are removed as per the c
 
 **Answer:** We use Hugo Modules to manage the themes -- which is backed by Go Modules. If you have one or more tagged releases (e.g. `v1.0.0`), we will choose the last version within the current major version. To get rid of that warning you need to tag a new release and wait for us to rebuild the theme site. Note that for unversioned themes, the latest commit gets picked.
 
+**Question:** Can I submit a theme with a repository hosted on git.sr.ht (or any other platform for that matter), given that themes.txt contains links to github.com and gitlab.com?
+
+**Answer:** Yes, it would be accepted if the repository hosted on git.sr.ht (or any other platform) is supported by Go Modules. To confirm the same, you can create a pull request and check if the build process succeeds.
+
+
