@@ -112,9 +112,9 @@ To view a list of popular licenses, you can visit [Open Source Initiative](https
 
 If you are porting an existing theme from another platform to Hugo, or if you're forking an existing Hugo theme to incorporate new features and plan to submit the derivative work, it's essential to ensure that the original theme's licensing requirements are met. 
 
-In cases where the original theme lacks an Open Source license, you cannot add one.
+In case the original theme lacks an [open source license](https://opensource.org/licenses), you should try to obtain one from the creator of the original work. You cannot add a license on your own. Such derivative works will not be accepted.
 
-If a submission is found to violate the license of an original work, it will be rejected without further discussion.
+In any other case, if a submission is found to be in violation of the original work's licence, it will be rejected without further discussion.
 
 ### Media
 
