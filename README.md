@@ -80,7 +80,7 @@ authors = [
     repo = "Link to source code of original theme"
 ```
 
-Your theme must include a configuration file (such as config.toml) that specifies the [Hugo versions](https://gohugo.io/hugo-modules/configuration/#module-config-hugoversion) supported by the theme.
+Your theme should also have a configuration file (such as config.toml) that specifies the [Hugo versions](https://gohugo.io/hugo-modules/configuration/#module-config-hugoversion) supported by the theme.
 
 ```toml
 [module]
