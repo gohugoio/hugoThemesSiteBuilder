@@ -91,7 +91,7 @@ Theme maintainers, please do **not** delete Git references or tags from your the
 
 ### If a fork, it must be notably different
 
-Themes based on other theme (aka forks) must be must be notably different for us to add it as a new entry to this theme site. You should make this clear in the README; a few arguments as to why we should pick your theme instead of the original? 
+Themes based on another theme (aka forks) must be notably different for us to add it as a new entry to this theme site. You should make this clear in the README; a few arguments as to why we should pick your theme instead of the original? 
 
 The definition of _notably different_ is a little subjective, but in most cases it will be obvious. A new background color is not enough. It would be better for all if you created a PR to add that as an option to the original theme.
 
@@ -101,7 +101,7 @@ Themes in this repository are accepted only if they come with an Open Source lic
 
 To have a look at popular licenses, please visit the [Open Source Initiative](https://opensource.org/licenses) website.
 
-**Note:** When porting an existing theme from another platform to Hugo, or if you are forking another Hugo theme in order to add new features and you wish to submit the derivative work for inclusion at the Hugo Themes Showcase, you really need to make sure that the requirements of the original theme's license are met. 
+**Note:** When porting an existing theme from another platform to Hugo, or if you are forking another Hugo theme in order to add new features and you wish to submit the derivative work for inclusion at the Hugo Themes Showcase, you really need to make sure that the requirements of the original theme's license are met. And if the original theme does not have an Open Source license, you cannot add one.
 
 If a submission is found to violate the LICENSE of an original theme, it will be rejected without further discussion.
 
