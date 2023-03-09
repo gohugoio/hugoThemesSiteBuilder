@@ -106,11 +106,15 @@ The definition of _notably different_ is a little subjective, but in most cases 
 
 Themes in this repository are accepted only if they come with an Open Source license that allows for the theme to be freely used, modified, and shared. 
 
-To have a look at popular licenses, please visit the [Open Source Initiative](https://opensource.org/licenses) website.
+To view a list of popular licenses, you can visit [Open Source Initiative](https://opensource.org/licenses) website.
 
-> **Note**: When porting an existing theme from another platform to Hugo, or if you are forking another Hugo theme in order to add new features and you wish to submit the derivative work for inclusion at the Hugo Themes Showcase, you really need to make sure that the requirements of the original theme's license are met. And if the original theme does not have an Open Source license, you cannot add one.
+#### License of derivative works
 
-If a submission is found to violate the LICENSE of an original theme, it will be rejected without further discussion.
+If you are porting an existing theme from another platform to Hugo, or if you're forking an existing Hugo theme to incorporate new features and plan to submit the derivative work, it's essential to ensure that the original theme's licensing requirements are met. 
+
+In cases where the original theme lacks an Open Source license, you cannot add one.
+
+If a submission is found to violate the license of an original work, it will be rejected without further discussion.
 
 ### Media
 
