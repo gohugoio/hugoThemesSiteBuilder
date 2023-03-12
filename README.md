@@ -122,7 +122,7 @@ Themes with READMEs set up as marketing campaigns for other products (e.g. paid 
 Screenshots are used as theme previews in the list. They should feature a theme's layout (without any browser chrome or device mockups) and have the following dimensions:
 
 * Both the Thumbnail and Screenshot must be in 3:2 aspect ratio.
-* Screenshot (`screenshot.png` or (`screenshot.jpg`) should have a dimension of at least 1500×1000 in pixels.
+* Screenshot (`screenshot.png` or `screenshot.jpg`) should have a dimension of at least 1500×1000 in pixels.
 * Thumbnail (`tn.png` or `tn.jpg`) should have a dimension of at least 900×600 in pixels.
 * Media must be located in:
     * <code><em>[ThemeDir]</em>/images/screenshot.{png,jpg}</code>
