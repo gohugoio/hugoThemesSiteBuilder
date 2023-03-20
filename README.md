@@ -92,6 +92,31 @@ You may omit the fields `extended`, `min`, or `max`.
 
 Theme maintainers are requested **not** to delete Git references or tags from your theme's repository.  Doing so may cause issues with fetching specific version of a module, leading to errors.
 
+## Media
+
+Screenshots are used as theme previews in the list. They should feature a theme's layout (without any browser chrome or device mockups) and have the following dimensions:
+
+* Both the Thumbnail and Screenshot must be in 3:2 aspect ratio.
+* Screenshot (`screenshot.png` or `screenshot.jpg`) should have a dimension of at least 1500×1000 in pixels.
+* Thumbnail (`tn.png` or `tn.jpg`) should have a dimension of at least 900×600 in pixels.
+* Media must be located in:
+    * <code><em>[ThemeDir]</em>/images/screenshot.{png,jpg}</code>
+    * <code><em>[ThemeDir]</em>/images/tn.{png,jpg}</code>
+
+
+Additional media may be provided in the same directory.
+
+## README.md
+
+Your theme's README file (which should be written in Markdown and called `README.md`) serves a two purposes. It's content appears in two places, which are:
+
+1. On your theme's detail page on [themes.gohugo.io](https://themes.gohugo.io/) website.
+2. On your theme's regular main page at GitHub/GitLab (as usual).
+
+To make your theme more accessible to users across the globe, it would be helpful if you could include an English translation of the README, at the very least.
+
+> **Note**: If you add screenshots to the README, please make sure to use absolute file paths instead of relative ones (like `/images/screenshot.png`). Relative paths work great on GitHub/GitLab, but they don't correspond to the directory structure of [themes.gohugo.io](https://themes.gohugo.io/) website. Therefore, browsers will not be able to display screenshots if relative paths are used.
+
 ## Criteria for acceptance of a theme
 
 ### Forks must be notably different
@@ -116,31 +141,6 @@ In any other case, if a submission is found to be in violation of licence of the
 ### Other criteria
 
 Themes with READMEs set up as marketing campaigns for other products (e.g. paid version of a free theme) will not be accepted.
-
-### Media
-
-Screenshots are used as theme previews in the list. They should feature a theme's layout (without any browser chrome or device mockups) and have the following dimensions:
-
-* Both the Thumbnail and Screenshot must be in 3:2 aspect ratio.
-* Screenshot (`screenshot.png` or `screenshot.jpg`) should have a dimension of at least 1500×1000 in pixels.
-* Thumbnail (`tn.png` or `tn.jpg`) should have a dimension of at least 900×600 in pixels.
-* Media must be located in:
-    * <code><em>[ThemeDir]</em>/images/screenshot.{png,jpg}</code>
-    * <code><em>[ThemeDir]</em>/images/tn.{png,jpg}</code>
-
-
-Additional media may be provided in the same directory.
-
-### README.md
-
-Your theme's README file (which should be written in Markdown and called `README.md`) serves a two purposes. It's content appears in two places, which are:
-
-1. On your theme's detail page on [themes.gohugo.io](https://themes.gohugo.io/) website.
-2. On your theme's regular main page at GitHub/GitLab (as usual).
-
-To make your theme more accessible to users across the globe, it would be helpful if you could include an English translation of the README, at the very least.
-
-> **Note**: If you add screenshots to the README, please make sure to use absolute file paths instead of relative ones (like `/images/screenshot.png`). Relative paths work great on GitHub/GitLab, but they don't correspond to the directory structure of [themes.gohugo.io](https://themes.gohugo.io/) website. Therefore, browsers will not be able to display screenshots if relative paths are used.
 
 
 ## Note on outdated themes
