@@ -23,7 +23,7 @@ After making your theme available online, you can include it here by following t
     git clone https://github.com/gohugoio/hugoThemesSiteBuilder.git
     ```
 * Add your theme's URL (e.g. `github.com/user/my-blog-theme`) in [themes.txt](https://github.com/gohugoio/hugoThemesSiteBuilder/edit/main/themes.txt) in [lexicographical order](https://en.wikipedia.org/wiki/Lexicographic_order).
-* Write a meaningful commit message title (e.g. `Add theme my-blog-theme`).
+* Write a meaningful commit message (e.g. `Add theme my-blog-theme`).
 * Create a pull request(PR) and ensure that the preview looks good.
 
 > **Note**: If the PR preview does not appear as expected after you have fixed your theme (missing thumbnail image for example), you can trigger a new preview build as follows.
