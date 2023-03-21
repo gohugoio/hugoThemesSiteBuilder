@@ -26,7 +26,7 @@ After making your theme available online, you can include it here by following t
 * Write a meaningful commit message (e.g. `Add theme my-blog-theme`).
 * Create a pull request(PR) and ensure that the preview looks good.
 
-> **Note**: If the PR preview does not appear as expected after you have fixed your theme (missing thumbnail image for example), you can trigger a new preview build as follows.
+If the PR preview does not appear as expected after you have fixed your theme (missing thumbnail image for example), you can trigger a new preview build as follows.
 
 1. Amend the commit in your PR branch
      ```bash
