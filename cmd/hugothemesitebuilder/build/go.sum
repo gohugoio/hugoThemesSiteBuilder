@@ -250,6 +250,8 @@ github.com/StaticMania/portio-hugo v1.0.0 h1:Io5PDkSC/1LaaJ7zXRiC2+4T2dNm3U9ufhq
 github.com/StaticMania/portio-hugo v1.0.0/go.mod h1:R6tFxNWV9033HHAwnrjZNzmhP6i4wRGBMA13eRvwc54=
 github.com/StaticMania/roxo-hugo v0.0.0-20221025062222-ce354191864b h1:sKCQZJji3oiZdrNDccqjVjw9JhDxhDIxxxpuf10zU1c=
 github.com/StaticMania/roxo-hugo v0.0.0-20221025062222-ce354191864b/go.mod h1:+5LvP1v1BC8OeR2EuIJqH67vaO9PFdD0ZvC2Vvi1eBw=
+github.com/StefMa/hugo-fresh v1.0.0 h1:Nxo9WtzfBlaFi1G8NEHQLReJQz+Dn4jRxec+lMrPG6k=
+github.com/StefMa/hugo-fresh v1.0.0/go.mod h1:yRzHyco0bfnITjvq7rfAiOADfGMrDlM0kXeKBllUJEc=
 github.com/SteveLane/hugo-icon v0.0.0-20190305212339-0e6206738afc h1:7i+GMagHgVnXdx8e4Px2g6Uvm4f6UEWc3ttCSCC4Hq4=
 github.com/SteveLane/hugo-icon v0.0.0-20190305212339-0e6206738afc/go.mod h1:MGL8HSybhAF/bC9n2rzwIUEJ16OGIKdcQU8JWklhF50=
 github.com/Tazeg/hugo-blog-jeffprod v0.0.0-20200528191810-bbe726e57038 h1:6wuYih0a26yWUJY6zrkML2rJQkyr3xBCdbVHv7mo5RI=
@@ -880,6 +882,7 @@ github.com/jgazeau/shadocs v0.0.0-20230220170104-e5d53cc8b628 h1:ohhsVceAF7JZw9o
 github.com/jgazeau/shadocs v0.0.0-20230220170104-e5d53cc8b628/go.mod h1:lh2LpFEzd7eZ51bssSV8bKZh6pJCtWJhjs7aDBQ5sws=
 github.com/jgazeau/shadocs v0.0.0-20230221233141-519e40a47393 h1:A/Mxksu95+yq/XQENBlLAQpPZmoyJh5iOzHJg5r0JyA=
 github.com/jgazeau/shadocs v0.0.0-20230221233141-519e40a47393/go.mod h1:lh2LpFEzd7eZ51bssSV8bKZh6pJCtWJhjs7aDBQ5sws=
+github.com/jgthms/bulma v0.0.0-20220508134905-3e00a8e6d0d0/go.mod h1:89FLBKXYFKfOKAoDeUT26V0pHGwzr205cMXAEqtAVOI=
 github.com/jimfrenette/hugo-starter v0.0.0-20210805024343-ed81461deb5c h1:f/eReCP+1UTv2hfZBcDBn53opChkNqAMFxhxjUilBIo=
 github.com/jimfrenette/hugo-starter v0.0.0-20210805024343-ed81461deb5c/go.mod h1:D1zakjaP6nB32NDhNZQPWIue7Zc/E4oMMIDsCxwclk0=
 github.com/jmablog/hugo-clinic-notes v0.0.0-20210111134623-7f5a64696c35 h1:YsYPlj5FWkr3Ncg+gDe7umeQoEvpdvBNlLOD7erXXX4=
@@ -1748,6 +1751,8 @@ github.com/zhaohuabing/hugo-theme-cleanwhite v0.0.0-20230118063547-98ae269fff7b 
 github.com/zhaohuabing/hugo-theme-cleanwhite v0.0.0-20230118063547-98ae269fff7b/go.mod h1:7w+SNXU8/rQ2S3nYfeS3kk9dmtPmb64kGc87N/IQo+Q=
 github.com/zhe/hugo-theme-slim v0.0.0-20190920014445-f666effe196a h1:bXNuJQNpXUz0Vgi1OjTCwbkvAXjQ3S1gYEfl+W6PidM=
 github.com/zhe/hugo-theme-slim v0.0.0-20190920014445-f666effe196a/go.mod h1:srqDDUYym3e6mlFIk2sRIQw8Vtz3+9n5DSNm5LlbTFU=
+github.com/zjedi/hugo-scroll v0.0.0-20230324163057-fd5b97501f73 h1:1A6li8ZF43LeGZwaW4Q1RrRsi0Q4yyDlq/9XF8kAvjI=
+github.com/zjedi/hugo-scroll v0.0.0-20230324163057-fd5b97501f73/go.mod h1:9ff5uP1NN+XSQUVF7BZHH8xYmQr9KJedEQ2b5ri7IpY=
 github.com/zwbetz-gh/cayman-hugo-theme v0.0.0-20210525185112-00e0828a4781 h1:X8vdN83u/DtvDkHjBrwIWq/SvGOVKpFHzvF5EnYL69M=
 github.com/zwbetz-gh/cayman-hugo-theme v0.0.0-20210525185112-00e0828a4781/go.mod h1:7MCyGUMQuyrpF98oCINqNlQsvxRNqJ4OJ0JD9ojWCCg=
 github.com/zwbetz-gh/cayman-hugo-theme v0.0.0-20230103054115-9cdbba36630d h1:W4hc7ib+IdLyu/x8HtG9CH1AT2t6rOeIU6oP8pBkSXs=

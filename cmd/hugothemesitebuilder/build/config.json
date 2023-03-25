@@ -927,11 +927,6 @@
       {
         "ignoreImports": true,
         "noMounts": true,
-        "path": "github.com/janraasch/hugo-scroll"
-      },
-      {
-        "ignoreImports": true,
-        "noMounts": true,
         "path": "github.com/jbub/ghostwriter"
       },
       {
@@ -1193,11 +1188,6 @@
         "ignoreImports": true,
         "noMounts": true,
         "path": "github.com/lubang/hugo-hello-programmer-theme"
-      },
-      {
-        "ignoreImports": true,
-        "noMounts": true,
-        "path": "github.com/lucperkins/hugo-fresh"
       },
       {
         "ignoreImports": true,
@@ -1877,6 +1867,11 @@
       {
         "ignoreImports": true,
         "noMounts": true,
+        "path": "github.com/StefMa/hugo-fresh"
+      },
+      {
+        "ignoreImports": true,
+        "noMounts": true,
         "path": "github.com/sudorook/capsule"
       },
       {
@@ -2233,6 +2228,11 @@
         "ignoreImports": true,
         "noMounts": true,
         "path": "github.com/zhe/hugo-theme-slim"
+      },
+      {
+        "ignoreImports": true,
+        "noMounts": true,
+        "path": "github.com/zjedi/hugo-scroll"
       },
       {
         "ignoreImports": true,

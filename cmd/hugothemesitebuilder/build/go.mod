@@ -56,6 +56,7 @@ require (
 	github.com/Somrat37/somrat v2.0.0+incompatible // indirect
 	github.com/StaticMania/portio-hugo v1.0.0 // indirect
 	github.com/StaticMania/roxo-hugo v0.0.0-20221025062222-ce354191864b // indirect
+	github.com/StefMa/hugo-fresh v1.0.0 // indirect
 	github.com/SteveLane/hugo-icon v0.0.0-20190305212339-0e6206738afc // indirect
 	github.com/Tazeg/hugo-blog-jeffprod v0.0.0-20200528191810-bbe726e57038 // indirect
 	github.com/ThemeTony/hugo-theme-tony v0.0.0-20220330055515-32580d30ce47 // indirect
@@ -450,6 +451,7 @@ require (
 	github.com/zerostaticthemes/hugo-winston-theme v1.2.0 // indirect
 	github.com/zhaohuabing/hugo-theme-cleanwhite v0.0.0-20230118063547-98ae269fff7b // indirect
 	github.com/zhe/hugo-theme-slim v0.0.0-20190920014445-f666effe196a // indirect
+	github.com/zjedi/hugo-scroll v0.0.0-20230324163057-fd5b97501f73 // indirect
 	github.com/zwbetz-gh/cayman-hugo-theme v0.0.0-20230103054115-9cdbba36630d // indirect
 	github.com/zwbetz-gh/cupper-hugo-theme v0.0.0-20230104033449-387d905ae451 // indirect
 	github.com/zwbetz-gh/minimal-bootstrap-hugo-theme v0.0.0-20230103054008-e5649966f5be // indirect
