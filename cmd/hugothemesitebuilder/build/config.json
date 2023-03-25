@@ -1767,11 +1767,6 @@
       {
         "ignoreImports": true,
         "noMounts": true,
-        "path": "github.com/shankar/hugo-grapes"
-      },
-      {
-        "ignoreImports": true,
-        "noMounts": true,
         "path": "github.com/shenoybr/hugo-goa"
       },
       {
