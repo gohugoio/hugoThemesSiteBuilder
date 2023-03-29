@@ -273,7 +273,6 @@ require (
 	github.com/loveminimal/hugo-theme-virgo v0.0.0-20230328093737-4507b3381de0 // indirect
 	github.com/lubang/hugo-hello-programmer-theme v2.1.0+incompatible // indirect
 	github.com/luizdepra/hugo-coder v0.0.0-20230322121603-a198b8eb15c0 // indirect
-	github.com/lukeorth/poison v0.0.0-20230328111454-7dc63b9ca423 // indirect
 	github.com/lxndrblz/anatole v1.12.0 // indirect
 	github.com/marcanuy/simpleit-hugo-theme v0.0.0-20210616134837-49277e5c3be0 // indirect
 	github.com/markdumay/hugo-theme-hinode v0.9.6 // indirect
