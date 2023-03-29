@@ -363,7 +363,7 @@ require (
 	github.com/samrobbins85/hugo-developer-portfolio v0.0.0-20221230201635-d7e23c1c723e // indirect
 	github.com/sbruder/spectral v0.0.0-20230306171048-8463c525fb19 // indirect
 	github.com/schmanat/hugo-highlights-theme v0.0.0-20200409134000-79eb66a32c74 // indirect
-	github.com/schnerring/hugo-theme-gruvbox v0.0.0-20230329002402-4028095875eb // indirect
+	github.com/schnerring/hugo-theme-gruvbox v0.0.0-20230329014622-49b2b3e0b542 // indirect
 	github.com/schollz/onetwothree v0.0.0-20190916161743-a09e6530494c // indirect
 	github.com/seanlane/gochowdown v0.0.0-20220603122033-5458dc7bd80a // indirect
 	github.com/sefeng211/techlab-hugo-theme v0.0.0-20221108011911-ed0fcb80d48f // indirect
