@@ -26,8 +26,6 @@ jobs:
         shell: bash
         working-directory: ./cmd/hugothemesitebuilder/build
         run: |
-          git config --global user.email "digitalcraftsman@users.noreply.github.com"
-          git config --global user.name "digitalcraftsman"
           go install github.com/gohugoio/hugo@v0.110.0
           hugo mod get -u
           git add .
