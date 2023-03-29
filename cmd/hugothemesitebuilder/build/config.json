@@ -1202,11 +1202,6 @@
       {
         "ignoreImports": true,
         "noMounts": true,
-        "path": "github.com/lukeorth/poison"
-      },
-      {
-        "ignoreImports": true,
-        "noMounts": true,
         "path": "github.com/lxndrblz/anatole"
       },
       {
