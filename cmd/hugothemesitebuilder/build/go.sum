@@ -435,8 +435,12 @@ github.com/htr3n/hyde-hyde v2.0.2+incompatible h1:CNMhiXOvTnTMwqIRTRMwTtt6yuhXn7
 github.com/htr3n/hyde-hyde v2.0.2+incompatible/go.mod h1:g1t0wJ9s7VUgxMo9hQQOJPQy2LPcSnmAWHzm8a4wbdM=
 github.com/httpsecure/hugo-theme-red-rose v0.0.0-20221016191510-ffd45c906689 h1:zRhPJwbcpwTSa5cD1qqYxJeGNSmBbvck/+T15CTBeb4=
 github.com/httpsecure/hugo-theme-red-rose v0.0.0-20221016191510-ffd45c906689/go.mod h1:0+LEsf9O9ttEf8O7J67VRR7uzSUwTCEo+xw9VbemY0o=
+github.com/httpsecure/hugo-theme-red-rose v0.0.0-20230414195647-18de6143a070 h1:85+3E9PNzEVqwctau9++0cU6PjPib6ENt0mtQWjL52A=
+github.com/httpsecure/hugo-theme-red-rose v0.0.0-20230414195647-18de6143a070/go.mod h1:0+LEsf9O9ttEf8O7J67VRR7uzSUwTCEo+xw9VbemY0o=
 github.com/httpsecure/kembang v0.0.0-20221228045215-90531f24ebeb h1:qad5NidUrlVYhNtcRbGsK28k6UveUdgPbAv2Ad5OhHw=
 github.com/httpsecure/kembang v0.0.0-20221228045215-90531f24ebeb/go.mod h1:cC8noVG+imqPMlrYXYUAUmc5OV4wpMobo59k5W0utX8=
+github.com/httpsecure/kembang v0.0.0-20230414195452-e525d79067da h1:3AajyP8ylzjSpmnoaD3aqzwuPeUn5n0NTFnKBb/7M+w=
+github.com/httpsecure/kembang v0.0.0-20230414195452-e525d79067da/go.mod h1:cC8noVG+imqPMlrYXYUAUmc5OV4wpMobo59k5W0utX8=
 github.com/hugcis/hugo-astatine-theme v0.0.0-20230213102847-17f1644a8e5a h1:qMRedT8Jx7Y8MVimXjL0H1Ex+TRYk7foY/hyfN+TCA4=
 github.com/hugcis/hugo-astatine-theme v0.0.0-20230213102847-17f1644a8e5a/go.mod h1:gbOEGGwov71SFNmbUwE4TN2aHFzT3GdZK1Zo5zO9hA8=
 github.com/hugo-fixit/FixIt v0.2.17 h1:MdPEZ0oFAdaX/2oQZY8SPNacd5y++cO3Jox6NBVMEjY=
@@ -798,6 +802,8 @@ github.com/schnerring/hugo-theme-gruvbox v0.0.0-20230329014622-49b2b3e0b542 h1:t
 github.com/schnerring/hugo-theme-gruvbox v0.0.0-20230329014622-49b2b3e0b542/go.mod h1:2s8YIdWs0I+gUl08QnNC+bRgpw5n6btEu3Eap8ZC1ms=
 github.com/schnerring/hugo-theme-gruvbox v0.0.0-20230410233029-61829e83e6a7 h1:s/VD1YsrqW4bjifbrL4asPNJxJAbk8KbumQN3xq8LZY=
 github.com/schnerring/hugo-theme-gruvbox v0.0.0-20230410233029-61829e83e6a7/go.mod h1:oAQ0sPR28jK88K5w81PExNhd/kqyuBn30JRMr0tAm6Q=
+github.com/schnerring/hugo-theme-gruvbox v0.0.0-20230414195323-8ce820aabde7 h1:CZ6DivCO0/1Ac+ivhg18hjhQ6Z9klvxmdP30e0O95GA=
+github.com/schnerring/hugo-theme-gruvbox v0.0.0-20230414195323-8ce820aabde7/go.mod h1:oAQ0sPR28jK88K5w81PExNhd/kqyuBn30JRMr0tAm6Q=
 github.com/schollz/onetwothree v0.0.0-20190916161743-a09e6530494c h1:503PXSWQR7gXGemoNiHnFz76i8pLEgTF0tLDnBIU9DQ=
 github.com/schollz/onetwothree v0.0.0-20190916161743-a09e6530494c/go.mod h1:7GFph1UoE8pGK7EBI8rJLnfsBltHgQp0gb8VIBZoTOI=
 github.com/seanlane/gochowdown v0.0.0-20220603122033-5458dc7bd80a h1:ZnCjJaq/MoQv0fOo6L7eZvjhlwC/+IcSF1dJGeoRRRM=
@@ -942,6 +948,8 @@ github.com/wowchemy/wowchemy-hugo-themes/modules/wowchemy-seo v0.1.0/go.mod h1:R
 github.com/wowchemy/wowchemy-hugo-themes/modules/wowchemy/v5 v5.7.1-0.20221127215619-58b270a3e103/go.mod h1:pxtkh2Fw4Vdwh2NvIYpCqhR0g7MgwVAxFN1lW9Rep44=
 github.com/wowchemy/wowchemy-hugo-themes/modules/wowchemy/v5 v5.7.1-0.20230323175000-a7f7d7aa46f2 h1:pU8SdYGw/t+9j2Tpjvj2hFYCz+1+w9O95Q84iLE6saI=
 github.com/wowchemy/wowchemy-hugo-themes/modules/wowchemy/v5 v5.7.1-0.20230323175000-a7f7d7aa46f2/go.mod h1:pxtkh2Fw4Vdwh2NvIYpCqhR0g7MgwVAxFN1lW9Rep44=
+github.com/wowchemy/wowchemy-hugo-themes/modules/wowchemy/v5 v5.7.1-0.20230414192829-9ea080c35435 h1:tompoWch/XyWRqTo6j4kU5bO6Fl9DKwkTD5UGBhEpKw=
+github.com/wowchemy/wowchemy-hugo-themes/modules/wowchemy/v5 v5.7.1-0.20230414192829-9ea080c35435/go.mod h1:pxtkh2Fw4Vdwh2NvIYpCqhR0g7MgwVAxFN1lW9Rep44=
 github.com/wtoll/venture v0.1.0 h1:6k6cp0Z+J9y4dTqT+3YemZ+mnwKqC/evuoD0MJYOJwU=
 github.com/wtoll/venture v0.1.0/go.mod h1:7FXXcVlExVYccaYMrUo2ZBjX3ez49ZJ4dNI6MVUnIo0=
 github.com/xaprb/story v0.0.0-20220322144912-046bf4f12e69 h1:gPjuTsOgjjscNm+QMC7vilHkYCPRZUH2sxVeO5fINps=
