@@ -132,6 +132,8 @@ github.com/Vimux/Binario v0.0.0-20230217154345-621ca48e95af h1:yF2XLdb8evrwCq2gh
 github.com/Vimux/Binario v0.0.0-20230217154345-621ca48e95af/go.mod h1:N0zYrDolgZfBpcsLvyv4DEgEmE5QwAB7wHCJ4AP6tdY=
 github.com/Vimux/mainroad v0.0.0-20230323133150-8a539f8baa1e h1:deYKwJTXXM9nlbk7GcrCiKviiyr2NgPXo842i5AzI50=
 github.com/Vimux/mainroad v0.0.0-20230323133150-8a539f8baa1e/go.mod h1:13Sfg07PTbKTuzennbP0eC0Od7pbpfaxVcTQZWKRZeU=
+github.com/Vimux/mainroad v0.0.0-20230415132637-e20f0b2b1ddf h1:47NH7dSS8ubCkhQw8udX0yAo+Nhxlp2PC2GZXaY9AIw=
+github.com/Vimux/mainroad v0.0.0-20230415132637-e20f0b2b1ddf/go.mod h1:13Sfg07PTbKTuzennbP0eC0Od7pbpfaxVcTQZWKRZeU=
 github.com/WingLim/hugo-tania v1.9.3 h1:dmxbWDmQMWw/xUdhV1CYtyxYXSbJpeYgJwojDCxnilY=
 github.com/WingLim/hugo-tania v1.9.3/go.mod h1:dlKyBD3QGdzGk50VequqA+PStaePmTPc1qlgZrDZB94=
 github.com/Xzya/hugo-material-blog v0.100.2 h1:DZ5eKIFpp/LkJn++rWwmQiWX44G9EJ2yTXsp5ySdaLA=
@@ -1030,6 +1032,8 @@ gitlab.com/maxlefou/hugo.386 v0.0.0-20220814192734-066fbbd86f9e h1:m9eUDQTrwk+vG
 gitlab.com/maxlefou/hugo.386 v0.0.0-20220814192734-066fbbd86f9e/go.mod h1:0vS3OrmDkN60zGzNAaEryy3B5B41No+l5lJ0Hm2Cy/w=
 gitlab.com/maxlefou/hugo.386 v0.0.0-20230414130816-c3468d1a485e h1:XgdMoJ6sm/jCNx8MW1XlPhPld+1cEknJgJHIW26R+Mc=
 gitlab.com/maxlefou/hugo.386 v0.0.0-20230414130816-c3468d1a485e/go.mod h1:0vS3OrmDkN60zGzNAaEryy3B5B41No+l5lJ0Hm2Cy/w=
+gitlab.com/maxlefou/hugo.386 v0.0.0-20230415163320-2e2a41232ab5 h1:Z9qiSVMG8BbZfLtzNDHLe5T9J+iYLYQO3IEXu5EPKAU=
+gitlab.com/maxlefou/hugo.386 v0.0.0-20230415163320-2e2a41232ab5/go.mod h1:0vS3OrmDkN60zGzNAaEryy3B5B41No+l5lJ0Hm2Cy/w=
 gitlab.com/mertbakir/resume-a4 v0.0.0-20220410112716-a4948115181e h1:ZKEXTlSf30FrBqDQNgPYzLnyjPwKNSH5t7rTJAUopvA=
 gitlab.com/mertbakir/resume-a4 v0.0.0-20220410112716-a4948115181e/go.mod h1:7MEY9O15Dm1V5tw5IhRXGp+F0+Ds5fGWCwgCYVNEOXA=
 gitlab.com/rmaguiar/hugo-theme-color-your-world v0.0.0-20230205174225-61d9137fa3bd h1:5tiUaqi1euL3ss+nrKGmTIu6yCzUsiKjEesjivByonY=

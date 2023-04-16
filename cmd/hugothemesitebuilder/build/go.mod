@@ -63,7 +63,7 @@ require (
 	github.com/Track3/hermit v1.2.2 // indirect
 	github.com/VVelox/hugo-dusky-neon-potato v0.0.0-20211017191045-d82667fe5106 // indirect
 	github.com/Vimux/Binario v0.0.0-20230217154345-621ca48e95af // indirect
-	github.com/Vimux/mainroad v0.0.0-20230323133150-8a539f8baa1e // indirect
+	github.com/Vimux/mainroad v0.0.0-20230415132637-e20f0b2b1ddf // indirect
 	github.com/WingLim/hugo-tania v1.9.3 // indirect
 	github.com/Xzya/hugo-material-blog v0.100.2 // indirect
 	github.com/Y4er/hugo-theme-easybook v0.0.0-20200124093729-48555b802349 // indirect
@@ -464,7 +464,7 @@ require (
 	gitlab.com/kskarthik/monopriv v0.0.0-20200526110241-17ac34952952 // indirect
 	gitlab.com/kskarthik/resto-hugo v0.0.0-20200526110347-8d2d566dfec7 // indirect
 	gitlab.com/m-e-leypold/brutalist-minimalist-gohugo-theme v0.0.0-20220403145752-739f8ff2d55f // indirect
-	gitlab.com/maxlefou/hugo.386 v0.0.0-20230414130816-c3468d1a485e // indirect
+	gitlab.com/maxlefou/hugo.386 v0.0.0-20230415163320-2e2a41232ab5 // indirect
 	gitlab.com/mertbakir/resume-a4 v0.0.0-20220410112716-a4948115181e // indirect
 	gitlab.com/rmaguiar/hugo-theme-color-your-world v0.0.0-20230205174225-61d9137fa3bd // indirect
 	gitlab.com/tmuguet/hugo-split-gallery v1.5.0 // indirect
