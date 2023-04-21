@@ -2147,11 +2147,6 @@
       {
         "ignoreImports": true,
         "noMounts": true,
-        "path": "github.com/Y4er/hugo-theme-easybook"
-      },
-      {
-        "ignoreImports": true,
-        "noMounts": true,
         "path": "github.com/yanlinlin82/simple-style"
       },
       {
