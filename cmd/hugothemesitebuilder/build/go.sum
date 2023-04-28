@@ -667,6 +667,8 @@ github.com/markdumay/hugo-theme-hinode v0.12.0 h1:bu7JRE6yfyNuVEDvEcBsMf+J1SZpjx
 github.com/markdumay/hugo-theme-hinode v0.12.0/go.mod h1:GS7ODxya3k6knpGA9hjvu1BHdZt2E9M2Fpwks6kf67c=
 github.com/markdumay/hugo-theme-hinode v0.12.1 h1:ED5UtG3JCBQXVJThtgpg06G9ERIp7iJlfumWLGKqbD0=
 github.com/markdumay/hugo-theme-hinode v0.12.1/go.mod h1:GS7ODxya3k6knpGA9hjvu1BHdZt2E9M2Fpwks6kf67c=
+github.com/markdumay/hugo-theme-hinode v0.12.5 h1:sBeA/yUF6xSkehsTkpRxym5j8QCMJa0e49CD+rxTGew=
+github.com/markdumay/hugo-theme-hinode v0.12.5/go.mod h1:GS7ODxya3k6knpGA9hjvu1BHdZt2E9M2Fpwks6kf67c=
 github.com/marketempower/axiom v0.8.0 h1:zi9Fz4N0hu8EqKEALSkCUc9NnilnqmvZlyyWVfdcn5g=
 github.com/marketempower/axiom v0.8.0/go.mod h1:yBi32+wVWUXnGDYjQ4tqXwcGAuSP8lOhOm1jgxN7SCA=
 github.com/matcornic/hugo-theme-learn v0.0.0-20211028190410-e817f53d690d h1:p7ktiW/GnHccjB9oO5YGY7us5v/oHmkyF0C7EDZFM3s=
@@ -882,6 +884,8 @@ github.com/schnerring/hugo-theme-gruvbox v0.0.0-20230423211906-54a4153e8df6 h1:f
 github.com/schnerring/hugo-theme-gruvbox v0.0.0-20230423211906-54a4153e8df6/go.mod h1:9jvg9nUb5p4p0SftYe3kVp2h2lETdhzGizgS5RQqNQY=
 github.com/schnerring/hugo-theme-gruvbox v0.0.0-20230424102859-9bdc796c0bcf h1:W/S13ScFUD7JvYCPR0+oIAblQ08EDUfM3hp87PFKfVc=
 github.com/schnerring/hugo-theme-gruvbox v0.0.0-20230424102859-9bdc796c0bcf/go.mod h1:3GPsDFEt3KOyf7iZWn4WoNnBuEuSG0jTv6983rCUufc=
+github.com/schnerring/hugo-theme-gruvbox v0.0.0-20230427165857-521b746ebca4 h1:Y21byfd4LxkF0avGp0Y7rmM5AMy1H76iom9EGhTkowk=
+github.com/schnerring/hugo-theme-gruvbox v0.0.0-20230427165857-521b746ebca4/go.mod h1:uu6REBmP1yAZb/4+rNbK2JF7nPECC+cNBxYWgcDlGYM=
 github.com/schollz/onetwothree v0.0.0-20190916161743-a09e6530494c h1:503PXSWQR7gXGemoNiHnFz76i8pLEgTF0tLDnBIU9DQ=
 github.com/schollz/onetwothree v0.0.0-20190916161743-a09e6530494c/go.mod h1:7GFph1UoE8pGK7EBI8rJLnfsBltHgQp0gb8VIBZoTOI=
 github.com/seanlane/gochowdown v0.0.0-20220603122033-5458dc7bd80a h1:ZnCjJaq/MoQv0fOo6L7eZvjhlwC/+IcSF1dJGeoRRRM=
@@ -1045,6 +1049,8 @@ github.com/wowchemy/wowchemy-hugo-themes/modules/wowchemy/v5 v5.7.1-0.2023041419
 github.com/wowchemy/wowchemy-hugo-themes/modules/wowchemy/v5 v5.7.1-0.20230414192829-9ea080c35435/go.mod h1:pxtkh2Fw4Vdwh2NvIYpCqhR0g7MgwVAxFN1lW9Rep44=
 github.com/wowchemy/wowchemy-hugo-themes/modules/wowchemy/v5 v5.7.1-0.20230420210249-859b57464242 h1:rzuKk0yTqSPG9Tzs9KS9giESdWnqHkEQvfcreaFJIas=
 github.com/wowchemy/wowchemy-hugo-themes/modules/wowchemy/v5 v5.7.1-0.20230420210249-859b57464242/go.mod h1:aTjV1UoWPt03vYsb6TImLXMlby6p1lXF9aUy+GnAuqw=
+github.com/wowchemy/wowchemy-hugo-themes/modules/wowchemy/v5 v5.7.1-0.20230427201456-ecde20096152 h1:HF0CIULneum64oX/f/aI4WuUI5Un6H0e2l7+PG7Dt4g=
+github.com/wowchemy/wowchemy-hugo-themes/modules/wowchemy/v5 v5.7.1-0.20230427201456-ecde20096152/go.mod h1:aTjV1UoWPt03vYsb6TImLXMlby6p1lXF9aUy+GnAuqw=
 github.com/wtoll/venture v0.1.0 h1:6k6cp0Z+J9y4dTqT+3YemZ+mnwKqC/evuoD0MJYOJwU=
 github.com/wtoll/venture v0.1.0/go.mod h1:7FXXcVlExVYccaYMrUo2ZBjX3ez49ZJ4dNI6MVUnIo0=
 github.com/xaprb/story v0.0.0-20220322144912-046bf4f12e69 h1:gPjuTsOgjjscNm+QMC7vilHkYCPRZUH2sxVeO5fINps=
