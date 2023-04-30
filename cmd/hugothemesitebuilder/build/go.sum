@@ -86,6 +86,8 @@ github.com/MarcusVirg/forty v0.0.0-20190430033326-dccea57bd2ed h1:LjHYgmJraTUExO
 github.com/MarcusVirg/forty v0.0.0-20190430033326-dccea57bd2ed/go.mod h1:afK3GTGd/UIXHIDgpmy8MgyNo0V6yNSBozZMUyqVhj4=
 github.com/Masellum/hugo-theme-nostyleplease v0.0.0-20230206055833-94cfe48bb3b0 h1:e5FEE1NBvs1ZtZ2Nw433A8UVgfpgJAc+J+4Fs51dec8=
 github.com/Masellum/hugo-theme-nostyleplease v0.0.0-20230206055833-94cfe48bb3b0/go.mod h1:zMlcobA4v4gavXle2KCHE1/WfupsHXUY3a8s9GeLfpk=
+github.com/Masellum/hugo-theme-nostyleplease v0.0.0-20230429064057-1f0773883f34 h1:KGrJ0yaIA7l/d/JrGBrigli9Fj77URC81Q1WQyLMhxE=
+github.com/Masellum/hugo-theme-nostyleplease v0.0.0-20230429064057-1f0773883f34/go.mod h1:zMlcobA4v4gavXle2KCHE1/WfupsHXUY3a8s9GeLfpk=
 github.com/McShelby/hugo-theme-relearn v0.0.0-20230328175528-8d474ed3b16b h1:jxQtSeFMg84UClWIS1sxQXCraGeGmTsq+SBFHvaN4/k=
 github.com/McShelby/hugo-theme-relearn v0.0.0-20230328175528-8d474ed3b16b/go.mod h1:mKQQdxZNIlLvAj8X3tMq+RzntIJSr9z7XdzuMomt0IM=
 github.com/MeiK2333/github-style v0.0.0-20221030070900-eee158a65892 h1:KPnOKKnc9Ix8Hnqu0qtCAkrFp/NtpAY96wYx1ZSq3Y0=
@@ -461,6 +463,8 @@ github.com/homecat805/hugo-theme-walden v0.0.0-20230303071320-9c24496d15ca h1:pw
 github.com/homecat805/hugo-theme-walden v0.0.0-20230303071320-9c24496d15ca/go.mod h1:lsV8/eE0HXBNB6P/dx0fdSjkzCpmp/gNP87xTdvF8zg=
 github.com/homecat805/hugo-theme-walden v0.0.0-20230406062348-67b9012c4cd7 h1:6zNkIV8VRVXJmNCZ6dP7v/pyZb5owYdqMnLoSiZUrYg=
 github.com/homecat805/hugo-theme-walden v0.0.0-20230406062348-67b9012c4cd7/go.mod h1:lsV8/eE0HXBNB6P/dx0fdSjkzCpmp/gNP87xTdvF8zg=
+github.com/homecat805/hugo-theme-walden v0.0.0-20230429013403-99f4c00f7f4d h1:Fr6yrqUA85CAGOJB2sWtzlt0j/49JNGV0N/vVS4mZ7E=
+github.com/homecat805/hugo-theme-walden v0.0.0-20230429013403-99f4c00f7f4d/go.mod h1:lsV8/eE0HXBNB6P/dx0fdSjkzCpmp/gNP87xTdvF8zg=
 github.com/hootan09/simple-cv v0.0.0-20220526085510-32a2ca6f372b h1:kNoknmQeUgLxGscE/ld5OCfTTHb6V9RGUiDGZzinkEw=
 github.com/hootan09/simple-cv v0.0.0-20220526085510-32a2ca6f372b/go.mod h1:S0p2zxIK4BBgzVpJ+Y2Wa8VGXBa5SrMxdHhK7meijZg=
 github.com/hossainemruz/toha v3.7.0+incompatible h1:RX8n8PoC3kc9TrAsbVHuKYkg9AiOrpNBCrWEDRbw2nc=
@@ -755,6 +759,8 @@ github.com/nusserstudios/tailbliss v0.0.0-20230414140009-5cf262aa94df h1:u1E3Hag
 github.com/nusserstudios/tailbliss v0.0.0-20230414140009-5cf262aa94df/go.mod h1:M3j6IqtQdtuI00xn0zi+RGcva3zJtzrMbk15nJaZJCU=
 github.com/nusserstudios/tailbliss v0.0.0-20230428230518-b7ed7be5d810 h1:s/SZnxjGo+0wpyhEzyKFp9AihytRRkDgzuyzYM/uBhY=
 github.com/nusserstudios/tailbliss v0.0.0-20230428230518-b7ed7be5d810/go.mod h1:M3j6IqtQdtuI00xn0zi+RGcva3zJtzrMbk15nJaZJCU=
+github.com/nusserstudios/tailbliss v0.0.0-20230429131437-c054218f1b34 h1:BYD8sFgKrbJQlj0KPUYiUMJs7UzwilhVyURQfZFnWV0=
+github.com/nusserstudios/tailbliss v0.0.0-20230429131437-c054218f1b34/go.mod h1:M3j6IqtQdtuI00xn0zi+RGcva3zJtzrMbk15nJaZJCU=
 github.com/okkur/syna v0.17.4 h1:yjaij6V6gNftNDMTVxAwPBRb0B1LiZgxW3x6pqd/Nys=
 github.com/okkur/syna v0.17.4/go.mod h1:cNe2KzYuuFyTGHhK7y3OzaSjWE1YIbp91jgMetkAGbI=
 github.com/olOwOlo/hugo-theme-even v4.1.0+incompatible h1:vac90+azWrNgGvanS7mN2ztvJl9P5IHFvPSS+EAbYRA=
