@@ -761,6 +761,8 @@ github.com/nusserstudios/tailbliss v0.0.0-20230428230518-b7ed7be5d810 h1:s/SZnxj
 github.com/nusserstudios/tailbliss v0.0.0-20230428230518-b7ed7be5d810/go.mod h1:M3j6IqtQdtuI00xn0zi+RGcva3zJtzrMbk15nJaZJCU=
 github.com/nusserstudios/tailbliss v0.0.0-20230429131437-c054218f1b34 h1:BYD8sFgKrbJQlj0KPUYiUMJs7UzwilhVyURQfZFnWV0=
 github.com/nusserstudios/tailbliss v0.0.0-20230429131437-c054218f1b34/go.mod h1:M3j6IqtQdtuI00xn0zi+RGcva3zJtzrMbk15nJaZJCU=
+github.com/nusserstudios/tailbliss v0.0.0-20230430162450-c76cf0d74888 h1:wYlWEjsSp0AsrVJRDZ9Qvr+ycMP2s6IWqADO+HzWLg8=
+github.com/nusserstudios/tailbliss v0.0.0-20230430162450-c76cf0d74888/go.mod h1:M3j6IqtQdtuI00xn0zi+RGcva3zJtzrMbk15nJaZJCU=
 github.com/okkur/syna v0.17.4 h1:yjaij6V6gNftNDMTVxAwPBRb0B1LiZgxW3x6pqd/Nys=
 github.com/okkur/syna v0.17.4/go.mod h1:cNe2KzYuuFyTGHhK7y3OzaSjWE1YIbp91jgMetkAGbI=
 github.com/olOwOlo/hugo-theme-even v4.1.0+incompatible h1:vac90+azWrNgGvanS7mN2ztvJl9P5IHFvPSS+EAbYRA=
@@ -1056,6 +1058,8 @@ github.com/wowchemy/starter-hugo-academic v0.0.0-20230416013412-a71afeebc478 h1:
 github.com/wowchemy/starter-hugo-academic v0.0.0-20230416013412-a71afeebc478/go.mod h1:flNr8gC0J4XDkGrPOqi7aRZaAh10p/lnBc1o134yYKU=
 github.com/wowchemy/starter-hugo-academic v0.0.0-20230423013902-7266f6c201e7 h1:m/d+4mEqjnOpieRDioqzVh6ZYlyl3Es1bHMDm/lOibU=
 github.com/wowchemy/starter-hugo-academic v0.0.0-20230423013902-7266f6c201e7/go.mod h1:flNr8gC0J4XDkGrPOqi7aRZaAh10p/lnBc1o134yYKU=
+github.com/wowchemy/starter-hugo-academic v0.0.0-20230430013338-3e1d5da5feea h1:pHaBt58qQU+YY30kuB9Gd1w3j9bBaK3yHTN/92x++Ys=
+github.com/wowchemy/starter-hugo-academic v0.0.0-20230430013338-3e1d5da5feea/go.mod h1:flNr8gC0J4XDkGrPOqi7aRZaAh10p/lnBc1o134yYKU=
 github.com/wowchemy/wowchemy-hugo-themes/modules/wowchemy-core v0.1.0/go.mod h1:kJwI9H8dicHQCnP8G9EvUDI+oNg/yXcGsjGjwjXuM8I=
 github.com/wowchemy/wowchemy-hugo-themes/modules/wowchemy-core v0.2.0/go.mod h1:kJwI9H8dicHQCnP8G9EvUDI+oNg/yXcGsjGjwjXuM8I=
 github.com/wowchemy/wowchemy-hugo-themes/modules/wowchemy-plugin-netlify v1.0.0/go.mod h1:s40UgLsWfVyCLQ2F4F3dBcNfZOXcPGld7KxsKhZdzvM=

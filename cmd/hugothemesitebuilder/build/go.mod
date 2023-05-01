@@ -309,7 +309,7 @@ require (
 	github.com/ntk148v/hugo-toigian v0.0.1 // indirect
 	github.com/nunocoracao/blowfish v1.9.0 // indirect
 	github.com/nurlansu/hugo-sustain v0.0.0-20210213172029-615e0611b5c0 // indirect
-	github.com/nusserstudios/tailbliss v0.0.0-20230429131437-c054218f1b34 // indirect
+	github.com/nusserstudios/tailbliss v0.0.0-20230430162450-c76cf0d74888 // indirect
 	github.com/okkur/syna v0.17.4 // indirect
 	github.com/olOwOlo/hugo-theme-even v4.1.0+incompatible // indirect
 	github.com/onweru/compose v0.0.0-20230422160951-3478eb14b340 // indirect
@@ -424,7 +424,7 @@ require (
 	github.com/wileybaba/hugo-theme-robotico v0.0.0-20190128025338-a1e633362eee // indirect
 	github.com/willfaught/paige v0.61.1 // indirect
 	github.com/wlh320/hugo-theme-hulga v0.0.0-20230428115018-0ff741b7d8c4 // indirect
-	github.com/wowchemy/starter-hugo-academic v0.0.0-20230423013902-7266f6c201e7 // indirect
+	github.com/wowchemy/starter-hugo-academic v0.0.0-20230430013338-3e1d5da5feea // indirect
 	github.com/wowchemy/wowchemy-hugo-themes/modules/wowchemy/v5 v5.7.1-0.20230427201456-ecde20096152 // indirect
 	github.com/wtoll/venture v0.1.0 // indirect
 	github.com/xaprb/story v0.0.0-20220322144912-046bf4f12e69 // indirect
