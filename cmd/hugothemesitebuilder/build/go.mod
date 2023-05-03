@@ -206,7 +206,7 @@ require (
 	github.com/hugcis/hugo-astatine-theme v0.0.0-20230213102847-17f1644a8e5a // indirect
 	github.com/hugo-fixit/FixIt v0.2.18 // indirect
 	github.com/hugo-next/hugo-theme-next v4.4.0+incompatible // indirect
-	github.com/hugo-sid/hugo-blog-awesome v0.0.0-20230428154514-ab263ddb8e76 // indirect
+	github.com/hugo-sid/hugo-blog-awesome v1.0.0 // indirect
 	github.com/humrochagf/colordrop v1.12.1 // indirect
 	github.com/huyb1991/hugo-lamp v1.2.1 // indirect
 	github.com/iCyris/hugo-theme-yuki v1.1.0 // indirect
@@ -303,7 +303,7 @@ require (
 	github.com/nightswinger/hugo-theme-coyote v1.0.2 // indirect
 	github.com/niklasbuschmann/contrast-hugo v0.0.0-20210313140659-9b3ec3d0243d // indirect
 	github.com/nirocfz/arabica v0.0.0-20220406035148-c63700f10450 // indirect
-	github.com/nixentric/Lowkey-Hugo-Theme v0.0.0-20230413235348-b97e83f133eb // indirect
+	github.com/nixentric/Lowkey-Hugo-Theme v0.0.0-20230502233211-f541fe7abd80 // indirect
 	github.com/nodejh/hugo-theme-cactus-plus v0.0.0-20230131063142-76cdefd84b9b // indirect
 	github.com/ntk148v/hugo-cuisine-book v0.0.0-20221206105543-2fa57df4ad46 // indirect
 	github.com/ntk148v/hugo-toigian v0.0.1 // indirect
@@ -361,7 +361,7 @@ require (
 	github.com/samrobbins85/hugo-developer-portfolio v0.0.0-20230421080835-4d3db20b1574 // indirect
 	github.com/sbruder/spectral v0.0.0-20230306171048-8463c525fb19 // indirect
 	github.com/schmanat/hugo-highlights-theme v0.0.0-20200409134000-79eb66a32c74 // indirect
-	github.com/schnerring/hugo-theme-gruvbox v0.0.0-20230427165857-521b746ebca4 // indirect
+	github.com/schnerring/hugo-theme-gruvbox v0.0.0-20230502165626-a30782f6c5c6 // indirect
 	github.com/schollz/onetwothree v0.0.0-20190916161743-a09e6530494c // indirect
 	github.com/seanlane/gochowdown v0.0.0-20220603122033-5458dc7bd80a // indirect
 	github.com/sefeng211/techlab-hugo-theme v0.0.0-20221108011911-ed0fcb80d48f // indirect
@@ -388,7 +388,7 @@ require (
 	github.com/surajmandalcell/potato-dark v0.0.0-20230319000340-833b1fee8fd1 // indirect
 	github.com/syui/hugo-theme-air v0.0.0-20220103011837-46ea2028968c // indirect
 	github.com/syui/hugo-theme-wave v0.0.0-20190818110101-1250495d730e // indirect
-	github.com/taikii/whiteplain v0.0.0-20230103162231-7501e385bcb9 // indirect
+	github.com/taikii/whiteplain v0.0.0-20230502081403-61b47444650e // indirect
 	github.com/tastaturtier/someparts-hugo v1.0.2 // indirect
 	github.com/tatsatb/TatBanTheme2.0 v0.0.0-20220801063826-d833dd6745f6 // indirect
 	github.com/tblyler/light-hugo v0.0.0-20201014192444-65d2bef4320a // indirect

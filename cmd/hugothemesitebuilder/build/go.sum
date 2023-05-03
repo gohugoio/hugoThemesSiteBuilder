@@ -514,6 +514,8 @@ github.com/hugo-sid/hugo-blog-awesome v0.0.0-20230425131840-04b83b18b32d h1:vOFD
 github.com/hugo-sid/hugo-blog-awesome v0.0.0-20230425131840-04b83b18b32d/go.mod h1:oRoqH9/bJDdyQqBoxI77O1oWAwVtn+fTng9MD3vR8A0=
 github.com/hugo-sid/hugo-blog-awesome v0.0.0-20230428154514-ab263ddb8e76 h1:gBAqcvY2Hg1EJ5lfbfW2FB2tSNdbom9IlzpAWM9+dDQ=
 github.com/hugo-sid/hugo-blog-awesome v0.0.0-20230428154514-ab263ddb8e76/go.mod h1:oRoqH9/bJDdyQqBoxI77O1oWAwVtn+fTng9MD3vR8A0=
+github.com/hugo-sid/hugo-blog-awesome v1.0.0 h1:FxGBpryADJ0eZEWLmKeqKIKG4a1CZhOaqaxuZMWoOQA=
+github.com/hugo-sid/hugo-blog-awesome v1.0.0/go.mod h1:oRoqH9/bJDdyQqBoxI77O1oWAwVtn+fTng9MD3vR8A0=
 github.com/humrochagf/colordrop v1.12.1 h1:nIGiH3+TifM55GsuNzHBRFyu2VSZn+AAH/L72DinXIw=
 github.com/humrochagf/colordrop v1.12.1/go.mod h1:JutTqO0xjsqqrF6A/MkhAl+iXg4DCM6/nY5wy81TmLQ=
 github.com/huyb1991/hugo-lamp v1.2.1 h1:/mgi7HrIKhnnaavaM7ybdQSjaYorpOdPKYTmfZrGC4A=
@@ -747,6 +749,8 @@ github.com/nixentric/Lowkey-Hugo-Theme v0.0.0-20230317094522-4a4f909449d7 h1:wAt
 github.com/nixentric/Lowkey-Hugo-Theme v0.0.0-20230317094522-4a4f909449d7/go.mod h1:8AD1dXNnOhPKJZFk1cq0eBp1VdMLEvu1MdaUKZc91/o=
 github.com/nixentric/Lowkey-Hugo-Theme v0.0.0-20230413235348-b97e83f133eb h1:PumJ47vu3SHSHFGKvlp0Zs2m3AD4+lPtEe2U0fMA9/Q=
 github.com/nixentric/Lowkey-Hugo-Theme v0.0.0-20230413235348-b97e83f133eb/go.mod h1:8AD1dXNnOhPKJZFk1cq0eBp1VdMLEvu1MdaUKZc91/o=
+github.com/nixentric/Lowkey-Hugo-Theme v0.0.0-20230502233211-f541fe7abd80 h1:2bnkrppYG9Rmz8MwVvVG3vb96Cib4a1Aak8t6o53Iec=
+github.com/nixentric/Lowkey-Hugo-Theme v0.0.0-20230502233211-f541fe7abd80/go.mod h1:8AD1dXNnOhPKJZFk1cq0eBp1VdMLEvu1MdaUKZc91/o=
 github.com/nodejh/hugo-theme-cactus-plus v0.0.0-20230131063142-76cdefd84b9b h1:LvpX729MPmllhHwOJa+xW1teKnl6vhhZhYJ3l8f/bSg=
 github.com/nodejh/hugo-theme-cactus-plus v0.0.0-20230131063142-76cdefd84b9b/go.mod h1:/f0ZXsMvHAdPQedcJ2ZUDg/rDWAnGAclQ8ukFRSTNHs=
 github.com/ntk148v/hugo-cuisine-book v0.0.0-20221206105543-2fa57df4ad46 h1:XpRreFIq7esYJpRHulfS+1vSuv4Yy8OlPMKtF5aefAw=
@@ -908,6 +912,8 @@ github.com/schnerring/hugo-theme-gruvbox v0.0.0-20230424102859-9bdc796c0bcf h1:W
 github.com/schnerring/hugo-theme-gruvbox v0.0.0-20230424102859-9bdc796c0bcf/go.mod h1:3GPsDFEt3KOyf7iZWn4WoNnBuEuSG0jTv6983rCUufc=
 github.com/schnerring/hugo-theme-gruvbox v0.0.0-20230427165857-521b746ebca4 h1:Y21byfd4LxkF0avGp0Y7rmM5AMy1H76iom9EGhTkowk=
 github.com/schnerring/hugo-theme-gruvbox v0.0.0-20230427165857-521b746ebca4/go.mod h1:uu6REBmP1yAZb/4+rNbK2JF7nPECC+cNBxYWgcDlGYM=
+github.com/schnerring/hugo-theme-gruvbox v0.0.0-20230502165626-a30782f6c5c6 h1:AtfCM4tawpvBErYU2B1uKxZ7dn1AvXmzSBflSFfJ8Bo=
+github.com/schnerring/hugo-theme-gruvbox v0.0.0-20230502165626-a30782f6c5c6/go.mod h1:lh3PVuJbPtN34EqPuxwR5p2dwJqpzr+g17lGrxxaxIw=
 github.com/schollz/onetwothree v0.0.0-20190916161743-a09e6530494c h1:503PXSWQR7gXGemoNiHnFz76i8pLEgTF0tLDnBIU9DQ=
 github.com/schollz/onetwothree v0.0.0-20190916161743-a09e6530494c/go.mod h1:7GFph1UoE8pGK7EBI8rJLnfsBltHgQp0gb8VIBZoTOI=
 github.com/seanlane/gochowdown v0.0.0-20220603122033-5458dc7bd80a h1:ZnCjJaq/MoQv0fOo6L7eZvjhlwC/+IcSF1dJGeoRRRM=
@@ -967,6 +973,8 @@ github.com/syui/hugo-theme-wave v0.0.0-20190818110101-1250495d730e h1:dN+XqeDByo
 github.com/syui/hugo-theme-wave v0.0.0-20190818110101-1250495d730e/go.mod h1:O1CxyyRjpe7jxa2AlgKsAod29z9bBsg2XEw7UTpjSr0=
 github.com/taikii/whiteplain v0.0.0-20230103162231-7501e385bcb9 h1:ccjsnmA1i9uN7Och0WMtrszUpTXS6eYcYoOcTvBMCLA=
 github.com/taikii/whiteplain v0.0.0-20230103162231-7501e385bcb9/go.mod h1:5n6fhPw1CNwbuNCXkfW4+z+AHJWWmUbe4/ziPNczHpM=
+github.com/taikii/whiteplain v0.0.0-20230502081403-61b47444650e h1:9BWLp9i89YF95fgFWNyAnp6c7MNz82mRxbP0nY9TEKA=
+github.com/taikii/whiteplain v0.0.0-20230502081403-61b47444650e/go.mod h1:5n6fhPw1CNwbuNCXkfW4+z+AHJWWmUbe4/ziPNczHpM=
 github.com/tastaturtier/someparts-hugo v1.0.2 h1:K3nyiYLw5WVccGiXv+G+dYEqCDFyM3vUOuHU/G+mSLw=
 github.com/tastaturtier/someparts-hugo v1.0.2/go.mod h1:Yvh5iE0mz91VOaSuGvLyOmGkV2Xo23HNkGlK9FT4WyU=
 github.com/tatsatb/TatBanTheme2.0 v0.0.0-20220801063826-d833dd6745f6 h1:V+BCjvwcKYWljVrz49PbLC26X7pLJOXLq+RxgYtrxxI=
