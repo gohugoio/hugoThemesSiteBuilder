@@ -92,6 +92,8 @@ github.com/Masellum/hugo-theme-nostyleplease v0.0.0-20230429064057-1f0773883f34 
 github.com/Masellum/hugo-theme-nostyleplease v0.0.0-20230429064057-1f0773883f34/go.mod h1:zMlcobA4v4gavXle2KCHE1/WfupsHXUY3a8s9GeLfpk=
 github.com/McShelby/hugo-theme-relearn v0.0.0-20230328175528-8d474ed3b16b h1:jxQtSeFMg84UClWIS1sxQXCraGeGmTsq+SBFHvaN4/k=
 github.com/McShelby/hugo-theme-relearn v0.0.0-20230328175528-8d474ed3b16b/go.mod h1:mKQQdxZNIlLvAj8X3tMq+RzntIJSr9z7XdzuMomt0IM=
+github.com/McShelby/hugo-theme-relearn v0.0.0-20230504203447-aca602724db8 h1:xqk5Sn9r+VTvtGAvXb9ZLsjb+GiIpkyKHJ/ab7aUk4I=
+github.com/McShelby/hugo-theme-relearn v0.0.0-20230504203447-aca602724db8/go.mod h1:mKQQdxZNIlLvAj8X3tMq+RzntIJSr9z7XdzuMomt0IM=
 github.com/MeiK2333/github-style v0.0.0-20221030070900-eee158a65892 h1:KPnOKKnc9Ix8Hnqu0qtCAkrFp/NtpAY96wYx1ZSq3Y0=
 github.com/MeiK2333/github-style v0.0.0-20221030070900-eee158a65892/go.mod h1:MDvfpZqhD/YSKR6X4f5hVUv588HxL1MVjsCTSM7ETxs=
 github.com/Mitrichius/hugo-theme-anubis v0.0.0-20230303133243-95a8df754cd9 h1:fsVhv+VSdDbZb7eNSsi43iFvG6J5/349og1o04LJCZQ=
@@ -520,6 +522,8 @@ github.com/hugo-sid/hugo-blog-awesome v1.0.0 h1:FxGBpryADJ0eZEWLmKeqKIKG4a1CZhOa
 github.com/hugo-sid/hugo-blog-awesome v1.0.0/go.mod h1:oRoqH9/bJDdyQqBoxI77O1oWAwVtn+fTng9MD3vR8A0=
 github.com/hugo-sid/hugo-blog-awesome v1.0.1 h1:sUU9PTgtZIU7Rw01yn9LZI93mx9QbQgv2I2bqpHrlUQ=
 github.com/hugo-sid/hugo-blog-awesome v1.0.1/go.mod h1:oRoqH9/bJDdyQqBoxI77O1oWAwVtn+fTng9MD3vR8A0=
+github.com/hugo-sid/hugo-blog-awesome v1.1.0 h1:K8xKnyYXfn0RT1Eh5aWio70tNWsT1m4jbwmbnWKG8s4=
+github.com/hugo-sid/hugo-blog-awesome v1.1.0/go.mod h1:oRoqH9/bJDdyQqBoxI77O1oWAwVtn+fTng9MD3vR8A0=
 github.com/humrochagf/colordrop v1.12.1 h1:nIGiH3+TifM55GsuNzHBRFyu2VSZn+AAH/L72DinXIw=
 github.com/humrochagf/colordrop v1.12.1/go.mod h1:JutTqO0xjsqqrF6A/MkhAl+iXg4DCM6/nY5wy81TmLQ=
 github.com/huyb1991/hugo-lamp v1.2.1 h1:/mgi7HrIKhnnaavaM7ybdQSjaYorpOdPKYTmfZrGC4A=
@@ -1001,10 +1005,14 @@ github.com/thegeeklab/hugo-geekblog v0.22.10 h1:qsCUYw1L9TFsOgGstt7bDnPp7N3/Yd/m
 github.com/thegeeklab/hugo-geekblog v0.22.10/go.mod h1:xwX0oPqfUdT2py6Elyo1RJk8mZF3mq7f0N6jAFS3RMk=
 github.com/thegeeklab/hugo-geekblog v0.23.0 h1:P3rK262+Ga+rgd23hNBGVkg6TUD//UuXn3jsnfeoSnI=
 github.com/thegeeklab/hugo-geekblog v0.23.0/go.mod h1:xwX0oPqfUdT2py6Elyo1RJk8mZF3mq7f0N6jAFS3RMk=
+github.com/thegeeklab/hugo-geekblog v0.23.1 h1:v+SatYv4FGcesNVthNNaWtHm1xfHtkCO0chkg2sh0sg=
+github.com/thegeeklab/hugo-geekblog v0.23.1/go.mod h1:xwX0oPqfUdT2py6Elyo1RJk8mZF3mq7f0N6jAFS3RMk=
 github.com/thegeeklab/hugo-geekdoc v0.38.1 h1:ZBJIcR6BY/VBF65bAAD3iuLxq6HhOy8071T4ICXRzCg=
 github.com/thegeeklab/hugo-geekdoc v0.38.1/go.mod h1:XEAtAuJ3nRMshRupMW1xPZ7EVMleS87rmr+RklRamRY=
 github.com/thegeeklab/hugo-geekdoc v0.39.0 h1:mHcGKUupZqG51WABZss9ChE84sj1AqBbPJIiMoMmJ24=
 github.com/thegeeklab/hugo-geekdoc v0.39.0/go.mod h1:XEAtAuJ3nRMshRupMW1xPZ7EVMleS87rmr+RklRamRY=
+github.com/thegeeklab/hugo-geekdoc v0.39.1 h1:22OgWATT4l78bOIy44O8fX1g+ZyGrwU/nTypO5lsbZA=
+github.com/thegeeklab/hugo-geekdoc v0.39.1/go.mod h1:XEAtAuJ3nRMshRupMW1xPZ7EVMleS87rmr+RklRamRY=
 github.com/thingsym/hugo-theme-techdoc v0.9.9 h1:7eHNfuf0x86MtLmUPhKCUoQ6cR/Iuwqm9TPtHtuUAkc=
 github.com/thingsym/hugo-theme-techdoc v0.9.9/go.mod h1:HgH3EWQ4j2sDjNP8UBio6zyZim8RnfJCY1gTWxVGcxA=
 github.com/thomasheller/crab v1.0.0 h1:44e23bkxvfoipejOJI0UT9IvhLvPTdk7P4aDsgL3T40=
