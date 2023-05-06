@@ -106,6 +106,8 @@ github.com/Mitrichius/hugo-theme-anubis v0.0.0-20230425171028-335cc72cccd8 h1:j9
 github.com/Mitrichius/hugo-theme-anubis v0.0.0-20230425171028-335cc72cccd8/go.mod h1:FKD3NbdsQzL+cXsC3x99XD/t/Rd5EyhDlNBAxQhULbo=
 github.com/Mitrichius/hugo-theme-anubis v0.0.0-20230428111256-901df3239e41 h1:mZwMA7J8eGNkcIUrWzmO8mh2F4DvRg4UR5LF4VPjwMU=
 github.com/Mitrichius/hugo-theme-anubis v0.0.0-20230428111256-901df3239e41/go.mod h1:FKD3NbdsQzL+cXsC3x99XD/t/Rd5EyhDlNBAxQhULbo=
+github.com/Mitrichius/hugo-theme-anubis v0.0.0-20230505192016-a9272e10f062 h1:p0FAoF2Df3P0TGACXG0QYHxMP8dnG3SXm8Q4Y78EmkA=
+github.com/Mitrichius/hugo-theme-anubis v0.0.0-20230505192016-a9272e10f062/go.mod h1:FKD3NbdsQzL+cXsC3x99XD/t/Rd5EyhDlNBAxQhULbo=
 github.com/Morgscode/hugo-theme-spaced-blog v0.0.0-20230314002556-b35af33f4373 h1:1yNAf79yanTK1+LcT0IUf4iAXcnvKv1P46Dq/lHAf6I=
 github.com/Morgscode/hugo-theme-spaced-blog v0.0.0-20230314002556-b35af33f4373/go.mod h1:vGiTWnhY5rFpCahN5zEfrjeRAGKWvC69XrNl29zJGCI=
 github.com/MunifTanjim/minimo v2.10.1+incompatible h1:o7ckkriYLj/ER1ysqsmTFUJ1l82qWGdrz7bXCSjdqpY=
@@ -524,6 +526,8 @@ github.com/hugo-sid/hugo-blog-awesome v1.0.1 h1:sUU9PTgtZIU7Rw01yn9LZI93mx9QbQgv
 github.com/hugo-sid/hugo-blog-awesome v1.0.1/go.mod h1:oRoqH9/bJDdyQqBoxI77O1oWAwVtn+fTng9MD3vR8A0=
 github.com/hugo-sid/hugo-blog-awesome v1.1.0 h1:K8xKnyYXfn0RT1Eh5aWio70tNWsT1m4jbwmbnWKG8s4=
 github.com/hugo-sid/hugo-blog-awesome v1.1.0/go.mod h1:oRoqH9/bJDdyQqBoxI77O1oWAwVtn+fTng9MD3vR8A0=
+github.com/hugo-sid/hugo-blog-awesome v1.1.1 h1:y7wje3zScc5dzxUkF5HloRxDdwiJUdKV4da8ZJX0eZQ=
+github.com/hugo-sid/hugo-blog-awesome v1.1.1/go.mod h1:oRoqH9/bJDdyQqBoxI77O1oWAwVtn+fTng9MD3vR8A0=
 github.com/humrochagf/colordrop v1.12.1 h1:nIGiH3+TifM55GsuNzHBRFyu2VSZn+AAH/L72DinXIw=
 github.com/humrochagf/colordrop v1.12.1/go.mod h1:JutTqO0xjsqqrF6A/MkhAl+iXg4DCM6/nY5wy81TmLQ=
 github.com/huyb1991/hugo-lamp v1.2.1 h1:/mgi7HrIKhnnaavaM7ybdQSjaYorpOdPKYTmfZrGC4A=
