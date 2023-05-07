@@ -475,6 +475,8 @@ github.com/homecat805/hugo-theme-walden v0.0.0-20230406062348-67b9012c4cd7 h1:6z
 github.com/homecat805/hugo-theme-walden v0.0.0-20230406062348-67b9012c4cd7/go.mod h1:lsV8/eE0HXBNB6P/dx0fdSjkzCpmp/gNP87xTdvF8zg=
 github.com/homecat805/hugo-theme-walden v0.0.0-20230429013403-99f4c00f7f4d h1:Fr6yrqUA85CAGOJB2sWtzlt0j/49JNGV0N/vVS4mZ7E=
 github.com/homecat805/hugo-theme-walden v0.0.0-20230429013403-99f4c00f7f4d/go.mod h1:lsV8/eE0HXBNB6P/dx0fdSjkzCpmp/gNP87xTdvF8zg=
+github.com/homecat805/hugo-theme-walden v0.0.0-20230506063022-fc848fbc1a6a h1:vM9NAbKH1h4e3h4caTURRm6S8KztRVKKvGqUqINQ1eg=
+github.com/homecat805/hugo-theme-walden v0.0.0-20230506063022-fc848fbc1a6a/go.mod h1:lsV8/eE0HXBNB6P/dx0fdSjkzCpmp/gNP87xTdvF8zg=
 github.com/hootan09/simple-cv v0.0.0-20220526085510-32a2ca6f372b h1:kNoknmQeUgLxGscE/ld5OCfTTHb6V9RGUiDGZzinkEw=
 github.com/hootan09/simple-cv v0.0.0-20220526085510-32a2ca6f372b/go.mod h1:S0p2zxIK4BBgzVpJ+Y2Wa8VGXBa5SrMxdHhK7meijZg=
 github.com/hossainemruz/toha v3.7.0+incompatible h1:RX8n8PoC3kc9TrAsbVHuKYkg9AiOrpNBCrWEDRbw2nc=
@@ -542,6 +544,8 @@ github.com/ineesalmeida/almeida-cv v0.0.0-20230104222639-f7d1aa97660f h1:4HIRnkY
 github.com/ineesalmeida/almeida-cv v0.0.0-20230104222639-f7d1aa97660f/go.mod h1:kS5gSjROz6mp4i3g2B2QvKvZdcz54ayHr96FewEQjfM=
 github.com/invinciblycool/lekh v0.0.0-20210502104821-722276c0d33d h1:UVqwwtPht+jBf5g4dsHRPGRJVu0riEwKZeC4YDlUiPA=
 github.com/invinciblycool/lekh v0.0.0-20210502104821-722276c0d33d/go.mod h1:MJR8M5I9pbW7zxmOSJsa1pPJnY8wJQu3vnuE6J96u98=
+github.com/invinciblycool/lekh v0.0.0-20230506043404-4e65dc197414 h1:nkTi+gKNqZmELQdVPSHJQ2O3JcIGprKCvS/q0PTIuOY=
+github.com/invinciblycool/lekh v0.0.0-20230506043404-4e65dc197414/go.mod h1:MJR8M5I9pbW7zxmOSJsa1pPJnY8wJQu3vnuE6J96u98=
 github.com/it-gro/hugo-theme-w3css-basic v0.0.0-20230306221104-d5db94051de6 h1:7FkuAMsj4PL1m6ZlTwC3//Op7h462mm9vmZ5HKzQMo0=
 github.com/it-gro/hugo-theme-w3css-basic v0.0.0-20230306221104-d5db94051de6/go.mod h1:j31sf4/j0eJY5JVr5cmGiwscgLElo0Si5smqacCovn0=
 github.com/jacksalici/salinger-theme v0.0.0-20220529184427-4eefcee963f3 h1:gF7M146W+SG4HrIj7fbgx1dTkcurrQw68QjcgoIaLzA=
@@ -624,6 +628,8 @@ github.com/kaushikgopal/henry-hugo v0.0.0-20230204021604-38dfd1a107d6 h1:r4P/tgx
 github.com/kaushikgopal/henry-hugo v0.0.0-20230204021604-38dfd1a107d6/go.mod h1:dcwDTF/at6oz9I6T9Dj7EZxPYOnYHmNqmCQjD39r7Jo=
 github.com/kaushikgopal/henry-hugo v0.0.0-20230423174934-40c72fb20987 h1:Wx7c33cKJN8DFseE9VNzJl9ab84re4BReiKuuFsMdOE=
 github.com/kaushikgopal/henry-hugo v0.0.0-20230423174934-40c72fb20987/go.mod h1:dcwDTF/at6oz9I6T9Dj7EZxPYOnYHmNqmCQjD39r7Jo=
+github.com/kaushikgopal/henry-hugo v0.0.0-20230506044039-e071a7c34e3a h1:auCD10ZfjwV27S/zp5pVZv5t9d7wzUZuuJbWrJ8Hnw8=
+github.com/kaushikgopal/henry-hugo v0.0.0-20230506044039-e071a7c34e3a/go.mod h1:dcwDTF/at6oz9I6T9Dj7EZxPYOnYHmNqmCQjD39r7Jo=
 github.com/kc0bfv/autophugo v0.0.0-20221029211619-6bb38297e756 h1:FVz2Gt+3dqlbWE7/MNkyp00RyYgmSWRAkj9vHj9abVI=
 github.com/kc0bfv/autophugo v0.0.0-20221029211619-6bb38297e756/go.mod h1:cGqUURdbJzJ6TY9SQU2+iJQFs0Nza1iI1unQ2LutyOM=
 github.com/kc0bfv/autophugo v0.0.0-20230410220711-4237a2039ab9 h1:GYTUeE5NFQfGe81ELP5s3mWag+Nh6G5wRzqj13q7fMM=
@@ -679,6 +685,8 @@ github.com/loveminimal/hugo-theme-virgo v0.0.0-20230423013835-2c4859cb4675 h1:WV
 github.com/loveminimal/hugo-theme-virgo v0.0.0-20230423013835-2c4859cb4675/go.mod h1:rYaAxThYe50neshv8H6CXi4K1uCVIGwtBPdK2ZlnF88=
 github.com/loveminimal/hugo-theme-virgo v0.0.0-20230426095249-f8baf840f496 h1:GnF2LIFbF19UIjp+qjcCfIt9tl/xjA68sQNrRRgfKVM=
 github.com/loveminimal/hugo-theme-virgo v0.0.0-20230426095249-f8baf840f496/go.mod h1:rYaAxThYe50neshv8H6CXi4K1uCVIGwtBPdK2ZlnF88=
+github.com/loveminimal/hugo-theme-virgo v0.0.0-20230506092309-cccc83c0aa74 h1:GwAOYKdYj3sBak3uGHPT7ks4NvnCTOGP5/Jm4J1+XeM=
+github.com/loveminimal/hugo-theme-virgo v0.0.0-20230506092309-cccc83c0aa74/go.mod h1:rYaAxThYe50neshv8H6CXi4K1uCVIGwtBPdK2ZlnF88=
 github.com/lubang/hugo-hello-programmer-theme v2.1.0+incompatible h1:cjrUz89VoSYXXyOj+xiyJrkfiY0yc3K6p2sBX5BGKHs=
 github.com/lubang/hugo-hello-programmer-theme v2.1.0+incompatible/go.mod h1:B5YCYcL791YB88XiLoaNYIUB5MZiAqSObDekgp1iwk0=
 github.com/luizdepra/hugo-coder v0.0.0-20230322121603-a198b8eb15c0 h1:zXvQBtc2i7Tr1Dyt6NKAwCLSS7mOCPnr53xoAjdAiwg=
@@ -866,6 +874,8 @@ github.com/razonyang/hugo-theme-bootstrap v0.80.4 h1:HCq5KtIWtXCHZVoR4V0hlSBFNoL
 github.com/razonyang/hugo-theme-bootstrap v0.80.4/go.mod h1:o+IIPL/5wreiTojnN4MsQqKuxbv3fWAQnMhG9geltQo=
 github.com/razonyang/hugo-theme-bootstrap v1.0.0 h1:RYKYml1sy/VF5na78oa0ph0wUQutmhx5MLd8l6igYps=
 github.com/razonyang/hugo-theme-bootstrap v1.0.0/go.mod h1:o+IIPL/5wreiTojnN4MsQqKuxbv3fWAQnMhG9geltQo=
+github.com/razonyang/hugo-theme-bootstrap v1.0.1 h1:h1h3hE47T3kh91twN2/tIz7PhxYwRa+ILz722sO1ZSU=
+github.com/razonyang/hugo-theme-bootstrap v1.0.1/go.mod h1:o+IIPL/5wreiTojnN4MsQqKuxbv3fWAQnMhG9geltQo=
 github.com/reuixiy/hugo-theme-meme v5.0.0+incompatible h1:S/aBbLHQTcsLXQrh0xf/vUN1gdsgApFE74JZBtVfZtY=
 github.com/reuixiy/hugo-theme-meme v5.0.0+incompatible/go.mod h1:t+xPvEmNNin6n1dGhQagjz1hCUIAgxGobMvbQfICAW4=
 github.com/rhazdon/hugo-theme-hello-friend-ng v0.0.0-20230210234352-959421da9314 h1:WvWrynE0bV4jIj2jvJQoQKjXSOBa5GZEdx4IgfohjhY=
@@ -932,6 +942,8 @@ github.com/schnerring/hugo-theme-gruvbox v0.0.0-20230502165626-a30782f6c5c6 h1:A
 github.com/schnerring/hugo-theme-gruvbox v0.0.0-20230502165626-a30782f6c5c6/go.mod h1:lh3PVuJbPtN34EqPuxwR5p2dwJqpzr+g17lGrxxaxIw=
 github.com/schnerring/hugo-theme-gruvbox v0.0.0-20230503011813-7f2345b779e3 h1:l9OS+0bmZmIVj2WiEvRpsSMSyej3TYnI4B4959VsWes=
 github.com/schnerring/hugo-theme-gruvbox v0.0.0-20230503011813-7f2345b779e3/go.mod h1:lh3PVuJbPtN34EqPuxwR5p2dwJqpzr+g17lGrxxaxIw=
+github.com/schnerring/hugo-theme-gruvbox v0.0.0-20230506051028-318f6b4e3f91 h1:deP6N3ewKOnxZyHgDZYIeddOwJz+Elv3buORjrKvx8U=
+github.com/schnerring/hugo-theme-gruvbox v0.0.0-20230506051028-318f6b4e3f91/go.mod h1:lh3PVuJbPtN34EqPuxwR5p2dwJqpzr+g17lGrxxaxIw=
 github.com/schollz/onetwothree v0.0.0-20190916161743-a09e6530494c h1:503PXSWQR7gXGemoNiHnFz76i8pLEgTF0tLDnBIU9DQ=
 github.com/schollz/onetwothree v0.0.0-20190916161743-a09e6530494c/go.mod h1:7GFph1UoE8pGK7EBI8rJLnfsBltHgQp0gb8VIBZoTOI=
 github.com/seanlane/gochowdown v0.0.0-20220603122033-5458dc7bd80a h1:ZnCjJaq/MoQv0fOo6L7eZvjhlwC/+IcSF1dJGeoRRRM=
