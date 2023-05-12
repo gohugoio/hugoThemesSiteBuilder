@@ -274,7 +274,7 @@ require (
 	github.com/luizdepra/hugo-coder v0.0.0-20230409012211-d336b3cc3a65 // indirect
 	github.com/lxndrblz/anatole v1.12.0 // indirect
 	github.com/marcanuy/simpleit-hugo-theme v0.0.0-20210616134837-49277e5c3be0 // indirect
-	github.com/markdumay/hugo-theme-hinode v0.12.9 // indirect
+	github.com/markdumay/hugo-theme-hinode v0.12.11 // indirect
 	github.com/marketempower/axiom v0.8.0 // indirect
 	github.com/matcornic/hugo-theme-learn v0.0.0-20211028190410-e817f53d690d // indirect
 	github.com/matsuyoshi30/harbor v1.0.0 // indirect
@@ -303,7 +303,7 @@ require (
 	github.com/nightswinger/hugo-theme-coyote v1.0.2 // indirect
 	github.com/niklasbuschmann/contrast-hugo v0.0.0-20210313140659-9b3ec3d0243d // indirect
 	github.com/nirocfz/arabica v0.0.0-20220406035148-c63700f10450 // indirect
-	github.com/nixentric/Lowkey-Hugo-Theme v0.0.0-20230502233211-f541fe7abd80 // indirect
+	github.com/nixentric/Lowkey-Hugo-Theme v0.0.0-20230511003926-b05745d09ae7 // indirect
 	github.com/nodejh/hugo-theme-cactus-plus v0.0.0-20230131063142-76cdefd84b9b // indirect
 	github.com/ntk148v/hugo-cuisine-book v0.0.0-20221206105543-2fa57df4ad46 // indirect
 	github.com/ntk148v/hugo-toigian v0.0.1 // indirect
@@ -361,13 +361,13 @@ require (
 	github.com/samrobbins85/hugo-developer-portfolio v0.0.0-20230421080835-4d3db20b1574 // indirect
 	github.com/sbruder/spectral v0.0.0-20230306171048-8463c525fb19 // indirect
 	github.com/schmanat/hugo-highlights-theme v0.0.0-20200409134000-79eb66a32c74 // indirect
-	github.com/schnerring/hugo-theme-gruvbox v0.0.0-20230507163347-f84673da7757 // indirect
+	github.com/schnerring/hugo-theme-gruvbox v0.0.0-20230511114728-e9250bf7d3aa // indirect
 	github.com/schollz/onetwothree v0.0.0-20190916161743-a09e6530494c // indirect
 	github.com/seanlane/gochowdown v0.0.0-20220603122033-5458dc7bd80a // indirect
 	github.com/sefeng211/techlab-hugo-theme v0.0.0-20221108011911-ed0fcb80d48f // indirect
 	github.com/serg/yourfolio v0.0.0-20211028094824-57f039fc707d // indirect
 	github.com/sergeyklay/gohugo-theme-ed v0.6.0 // indirect
-	github.com/serkodev/holy v0.0.0-20221206094014-6c3be2194534 // indirect
+	github.com/serkodev/holy v0.0.0-20230511213523-3f1d91875c66 // indirect
 	github.com/setsevireon/photophobia v0.0.7 // indirect
 	github.com/shaform/hugo-theme-den v0.0.0-20220704130400-f420b491a016 // indirect
 	github.com/shenoybr/hugo-goa v0.0.0-20230206040406-d0ee8b21cdba // indirect
