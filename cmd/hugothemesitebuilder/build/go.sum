@@ -50,6 +50,8 @@ github.com/FarseaSH/hugo-theme-moments v0.0.0-20230416101020-a27aa02797e3 h1:C87
 github.com/FarseaSH/hugo-theme-moments v0.0.0-20230416101020-a27aa02797e3/go.mod h1:vNkEDMP6bii2SaV1nExU5VhE4QpgCfegwvWpT8lJ7E0=
 github.com/FarseaSH/hugo-theme-moments v0.0.0-20230507085812-4b71d96e29ef h1:ZRBSHujQpO6l+MW6tSECC+fO1/YjPwnZCx/3b2PXh+c=
 github.com/FarseaSH/hugo-theme-moments v0.0.0-20230507085812-4b71d96e29ef/go.mod h1:vNkEDMP6bii2SaV1nExU5VhE4QpgCfegwvWpT8lJ7E0=
+github.com/FarseaSH/hugo-theme-moments v0.0.0-20230517132348-3e3a45dde548 h1:fbSEzxDPSb1NA1HEdzJTrsf/f01WTMWc38IZ+LuztFQ=
+github.com/FarseaSH/hugo-theme-moments v0.0.0-20230517132348-3e3a45dde548/go.mod h1:vNkEDMP6bii2SaV1nExU5VhE4QpgCfegwvWpT8lJ7E0=
 github.com/Fastbyte01/KeepIt v0.0.0-20220316160340-0b501727f8e6 h1:uYas/AiFhR7KQ0h4eZBqdgdnCCUse6wtAsWSMX2LN2w=
 github.com/Fastbyte01/KeepIt v0.0.0-20220316160340-0b501727f8e6/go.mod h1:M6ThhOtiUROtefKk1Oqi5Yd35F3JXQKjY42i0/s+n88=
 github.com/FortAwesome/Font-Awesome v0.0.0-20210316185733-d79d85c3fad8/go.mod h1:IUgezN/MFpCDIlFezw3L8j83oeiIuYoj28Miwr/KUYo=
@@ -102,6 +104,8 @@ github.com/McShelby/hugo-theme-relearn v0.0.0-20230514214326-7875bfcf4b14 h1:iii
 github.com/McShelby/hugo-theme-relearn v0.0.0-20230514214326-7875bfcf4b14/go.mod h1:mKQQdxZNIlLvAj8X3tMq+RzntIJSr9z7XdzuMomt0IM=
 github.com/McShelby/hugo-theme-relearn v0.0.0-20230516020558-fbc32b19e749 h1:KiKU5e1dydevNHl0ZM/l5Ru1hEoDWn9R8sI0aG6ZArk=
 github.com/McShelby/hugo-theme-relearn v0.0.0-20230516020558-fbc32b19e749/go.mod h1:mKQQdxZNIlLvAj8X3tMq+RzntIJSr9z7XdzuMomt0IM=
+github.com/McShelby/hugo-theme-relearn v0.0.0-20230517223214-dc695da6a13d h1:H7ll1Zz065BptNRvOPAAFQ1iHC+uB22qasmPHhXgpic=
+github.com/McShelby/hugo-theme-relearn v0.0.0-20230517223214-dc695da6a13d/go.mod h1:mKQQdxZNIlLvAj8X3tMq+RzntIJSr9z7XdzuMomt0IM=
 github.com/MeiK2333/github-style v0.0.0-20221030070900-eee158a65892 h1:KPnOKKnc9Ix8Hnqu0qtCAkrFp/NtpAY96wYx1ZSq3Y0=
 github.com/MeiK2333/github-style v0.0.0-20221030070900-eee158a65892/go.mod h1:MDvfpZqhD/YSKR6X4f5hVUv588HxL1MVjsCTSM7ETxs=
 github.com/Mitrichius/hugo-theme-anubis v0.0.0-20230303133243-95a8df754cd9 h1:fsVhv+VSdDbZb7eNSsi43iFvG6J5/349og1o04LJCZQ=
@@ -763,6 +767,8 @@ github.com/markdumay/hugo-theme-hinode v0.13.1 h1:oNO2MNgcNyB1GgkSdowschEo45RObx
 github.com/markdumay/hugo-theme-hinode v0.13.1/go.mod h1:GS7ODxya3k6knpGA9hjvu1BHdZt2E9M2Fpwks6kf67c=
 github.com/markdumay/hugo-theme-hinode v0.13.2 h1:kx0hd/XnqmYY8tZC4Z5EDmFS3k/YoBD0LqupFnkIQ0I=
 github.com/markdumay/hugo-theme-hinode v0.13.2/go.mod h1:GS7ODxya3k6knpGA9hjvu1BHdZt2E9M2Fpwks6kf67c=
+github.com/markdumay/hugo-theme-hinode v0.14.0 h1:ccxrOnw+ZIj3aW2FTWR/2Kq+s5urowKQWsfJ94SlYsM=
+github.com/markdumay/hugo-theme-hinode v0.14.0/go.mod h1:GS7ODxya3k6knpGA9hjvu1BHdZt2E9M2Fpwks6kf67c=
 github.com/marketempower/axiom v0.8.0 h1:zi9Fz4N0hu8EqKEALSkCUc9NnilnqmvZlyyWVfdcn5g=
 github.com/marketempower/axiom v0.8.0/go.mod h1:yBi32+wVWUXnGDYjQ4tqXwcGAuSP8lOhOm1jgxN7SCA=
 github.com/matcornic/hugo-theme-learn v0.0.0-20211028190410-e817f53d690d h1:p7ktiW/GnHccjB9oO5YGY7us5v/oHmkyF0C7EDZFM3s=
@@ -805,6 +811,8 @@ github.com/mrmierzejewski/hugo-theme-console v0.0.0-20220330115610-7e98cbce03d4 
 github.com/mrmierzejewski/hugo-theme-console v0.0.0-20220330115610-7e98cbce03d4/go.mod h1:N65e0/XqC5/oKjv5TpwNFi88vAgMDUZfnGU4sf7KRkQ=
 github.com/nanxiaobei/hugo-paper v0.0.0-20230327180418-feb0ac5d1aec h1:nA/SEghiCfkzr7/LexwbYbUtJUqjC2+aJriHxy3MGjg=
 github.com/nanxiaobei/hugo-paper v0.0.0-20230327180418-feb0ac5d1aec/go.mod h1:CeRgawh+WFgm29TC2yGTPy9CAWkQaUABYejSFQDmL28=
+github.com/nanxiaobei/hugo-paper v0.0.0-20230517185701-7ba9f09fee0f h1:A48PxmbfGa93yteXwJ+sjgYyCxOUg6VrNsD8trn+P2w=
+github.com/nanxiaobei/hugo-paper v0.0.0-20230517185701-7ba9f09fee0f/go.mod h1:CeRgawh+WFgm29TC2yGTPy9CAWkQaUABYejSFQDmL28=
 github.com/nanxstats/hugo-tanka v0.0.0-20210707221939-9bec4eba33e5 h1:ArKJMwXbgVVeIhpHxuDES/IoftMzOlk4mMB0tYHmUsY=
 github.com/nanxstats/hugo-tanka v0.0.0-20210707221939-9bec4eba33e5/go.mod h1:MpW+xmCZzgJK5cTtN7/k+nKAKSU7IR8Y3Y7Vt7rdm0c=
 github.com/naro143/hugo-coder-portfolio v0.0.0-20200903083500-255d92337c07 h1:sJcQpPI0wm1zKeX38i/A1RmpPGIN9c4YPMuOTek1woY=

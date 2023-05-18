@@ -21,7 +21,7 @@ require (
 	github.com/EmielH/stip-hugo v1.0.0 // indirect
 	github.com/EmielH/tale-hugo v2.2.0+incompatible // indirect
 	github.com/ExchangeRate-API/strange-case v0.0.0-20210304125749-3ea1d7d50bd0 // indirect
-	github.com/FarseaSH/hugo-theme-moments v0.0.0-20230507085812-4b71d96e29ef // indirect
+	github.com/FarseaSH/hugo-theme-moments v0.0.0-20230517132348-3e3a45dde548 // indirect
 	github.com/Fastbyte01/KeepIt v0.0.0-20220316160340-0b501727f8e6 // indirect
 	github.com/GDGToulouse/devfest-theme-hugo v0.0.0-20220415065715-84f2f2191d40 // indirect
 	github.com/HEIGE-PCloud/DoIt v0.4.0 // indirect
@@ -39,7 +39,7 @@ require (
 	github.com/M1cR0xf7/kaslaanka v0.0.0-20230403172412-c705bba54798 // indirect
 	github.com/MarcusVirg/forty v0.0.0-20190430033326-dccea57bd2ed // indirect
 	github.com/Masellum/hugo-theme-nostyleplease v0.0.0-20230429064057-1f0773883f34 // indirect
-	github.com/McShelby/hugo-theme-relearn v0.0.0-20230516020558-fbc32b19e749 // indirect
+	github.com/McShelby/hugo-theme-relearn v0.0.0-20230517223214-dc695da6a13d // indirect
 	github.com/MeiK2333/github-style v0.0.0-20221030070900-eee158a65892 // indirect
 	github.com/Mitrichius/hugo-theme-anubis v0.0.0-20230512172629-53cbfc5b10c7 // indirect
 	github.com/Morgscode/hugo-theme-spaced-blog v0.0.0-20230314002556-b35af33f4373 // indirect
@@ -274,7 +274,7 @@ require (
 	github.com/luizdepra/hugo-coder v0.0.0-20230515135051-5616919fcb15 // indirect
 	github.com/lxndrblz/anatole v1.13.0 // indirect
 	github.com/marcanuy/simpleit-hugo-theme v0.0.0-20210616134837-49277e5c3be0 // indirect
-	github.com/markdumay/hugo-theme-hinode v0.13.2 // indirect
+	github.com/markdumay/hugo-theme-hinode v0.14.0 // indirect
 	github.com/marketempower/axiom v0.8.0 // indirect
 	github.com/matcornic/hugo-theme-learn v0.0.0-20211028190410-e817f53d690d // indirect
 	github.com/matsuyoshi30/harbor v1.0.0 // indirect
@@ -294,7 +294,7 @@ require (
 	github.com/mmrath/hugo-bootstrap v0.0.0-20190615045721-5e7bfb2518b7 // indirect
 	github.com/monkeyWzr/hugo-theme-cactus v0.0.0-20210831141748-a27a14348040 // indirect
 	github.com/mrmierzejewski/hugo-theme-console v0.0.0-20220330115610-7e98cbce03d4 // indirect
-	github.com/nanxiaobei/hugo-paper v0.0.0-20230327180418-feb0ac5d1aec // indirect
+	github.com/nanxiaobei/hugo-paper v0.0.0-20230517185701-7ba9f09fee0f // indirect
 	github.com/nanxstats/hugo-tanka v0.0.0-20210707221939-9bec4eba33e5 // indirect
 	github.com/naro143/hugo-coder-portfolio v0.0.0-20200903083500-255d92337c07 // indirect
 	github.com/natarajmb/charaka-hugo-theme v0.0.0-20201215113736-021bc743417b // indirect
