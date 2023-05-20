@@ -108,6 +108,8 @@ github.com/McShelby/hugo-theme-relearn v0.0.0-20230517223214-dc695da6a13d h1:H7l
 github.com/McShelby/hugo-theme-relearn v0.0.0-20230517223214-dc695da6a13d/go.mod h1:mKQQdxZNIlLvAj8X3tMq+RzntIJSr9z7XdzuMomt0IM=
 github.com/McShelby/hugo-theme-relearn v0.0.0-20230518221408-02b1ed997db1 h1:bDQkfsjKgEqT1tuQzaV56ULel/KB8F7VOT0Ccw3H84I=
 github.com/McShelby/hugo-theme-relearn v0.0.0-20230518221408-02b1ed997db1/go.mod h1:mKQQdxZNIlLvAj8X3tMq+RzntIJSr9z7XdzuMomt0IM=
+github.com/McShelby/hugo-theme-relearn v0.0.0-20230519220909-446482a38167 h1:Yml9qndp/ReiHh6UHdlOzYHFwCLadOU37iFB2epHzeo=
+github.com/McShelby/hugo-theme-relearn v0.0.0-20230519220909-446482a38167/go.mod h1:mKQQdxZNIlLvAj8X3tMq+RzntIJSr9z7XdzuMomt0IM=
 github.com/MeiK2333/github-style v0.0.0-20221030070900-eee158a65892 h1:KPnOKKnc9Ix8Hnqu0qtCAkrFp/NtpAY96wYx1ZSq3Y0=
 github.com/MeiK2333/github-style v0.0.0-20221030070900-eee158a65892/go.mod h1:MDvfpZqhD/YSKR6X4f5hVUv588HxL1MVjsCTSM7ETxs=
 github.com/Mitrichius/hugo-theme-anubis v0.0.0-20230303133243-95a8df754cd9 h1:fsVhv+VSdDbZb7eNSsi43iFvG6J5/349og1o04LJCZQ=
@@ -861,6 +863,8 @@ github.com/nusserstudios/tailbliss v0.0.0-20230429131437-c054218f1b34 h1:BYD8sFg
 github.com/nusserstudios/tailbliss v0.0.0-20230429131437-c054218f1b34/go.mod h1:M3j6IqtQdtuI00xn0zi+RGcva3zJtzrMbk15nJaZJCU=
 github.com/nusserstudios/tailbliss v0.0.0-20230430162450-c76cf0d74888 h1:wYlWEjsSp0AsrVJRDZ9Qvr+ycMP2s6IWqADO+HzWLg8=
 github.com/nusserstudios/tailbliss v0.0.0-20230430162450-c76cf0d74888/go.mod h1:M3j6IqtQdtuI00xn0zi+RGcva3zJtzrMbk15nJaZJCU=
+github.com/nusserstudios/tailbliss v0.0.0-20230519130529-ad005b2d9ea7 h1:O2O1P9KdijprQLTDEvKr6/h3J5gHUUUjfPiVveSXq2I=
+github.com/nusserstudios/tailbliss v0.0.0-20230519130529-ad005b2d9ea7/go.mod h1:M3j6IqtQdtuI00xn0zi+RGcva3zJtzrMbk15nJaZJCU=
 github.com/okkur/syna v0.17.4 h1:yjaij6V6gNftNDMTVxAwPBRb0B1LiZgxW3x6pqd/Nys=
 github.com/okkur/syna v0.17.4/go.mod h1:cNe2KzYuuFyTGHhK7y3OzaSjWE1YIbp91jgMetkAGbI=
 github.com/olOwOlo/hugo-theme-even v4.1.0+incompatible h1:vac90+azWrNgGvanS7mN2ztvJl9P5IHFvPSS+EAbYRA=
