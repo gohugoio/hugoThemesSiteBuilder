@@ -79,7 +79,7 @@ disableKinds    = ["taxonomyTerm"]
   anchor = "smart"
 
 [params]
-  github_repo = "https://github.com/spf13/hugothemes"
+  github_repo = "https://github.com/gohugoio/hugoThemesSiteBuilder"
   gitter      = "https://gitter.im/spf13/hugo"
   forum       = "https://discourse.gohugo.io/"
   #This array is meant for disabling the Homepage button of a theme.
