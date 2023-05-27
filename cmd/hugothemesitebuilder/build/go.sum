@@ -126,6 +126,8 @@ github.com/McShelby/hugo-theme-relearn v0.0.0-20230524182513-a135b2adb492 h1:VXm
 github.com/McShelby/hugo-theme-relearn v0.0.0-20230524182513-a135b2adb492/go.mod h1:mKQQdxZNIlLvAj8X3tMq+RzntIJSr9z7XdzuMomt0IM=
 github.com/McShelby/hugo-theme-relearn v0.0.0-20230525172733-806de0bbc429 h1:P0YLcnIXGDnLdlxqVCi5mAAFIeYB8mXzVXHhtlAgOGA=
 github.com/McShelby/hugo-theme-relearn v0.0.0-20230525172733-806de0bbc429/go.mod h1:mKQQdxZNIlLvAj8X3tMq+RzntIJSr9z7XdzuMomt0IM=
+github.com/McShelby/hugo-theme-relearn v0.0.0-20230526063821-c25bc2a27ab4 h1:ya/BLsgCSdb/Pv4TJ+xXognn469s5RMbtqxSukKEdMc=
+github.com/McShelby/hugo-theme-relearn v0.0.0-20230526063821-c25bc2a27ab4/go.mod h1:mKQQdxZNIlLvAj8X3tMq+RzntIJSr9z7XdzuMomt0IM=
 github.com/MeiK2333/github-style v0.0.0-20221030070900-eee158a65892 h1:KPnOKKnc9Ix8Hnqu0qtCAkrFp/NtpAY96wYx1ZSq3Y0=
 github.com/MeiK2333/github-style v0.0.0-20221030070900-eee158a65892/go.mod h1:MDvfpZqhD/YSKR6X4f5hVUv588HxL1MVjsCTSM7ETxs=
 github.com/Mitrichius/hugo-theme-anubis v0.0.0-20230303133243-95a8df754cd9 h1:fsVhv+VSdDbZb7eNSsi43iFvG6J5/349og1o04LJCZQ=
@@ -287,6 +289,8 @@ github.com/boratanrikulu/eternity v0.0.0-20230326203049-67dcc82738a1 h1:rBZ+ZRiz
 github.com/boratanrikulu/eternity v0.0.0-20230326203049-67dcc82738a1/go.mod h1:oTxriBGTETn/Saurq+nI5noIRiNG4/kpBMiroG2qgoM=
 github.com/boratanrikulu/eternity v0.0.0-20230501181406-1a7aed3ba2ad h1:DnkbTYGBm4v8BZihcdrhninKumANorehRHAEF0osz54=
 github.com/boratanrikulu/eternity v0.0.0-20230501181406-1a7aed3ba2ad/go.mod h1:oTxriBGTETn/Saurq+nI5noIRiNG4/kpBMiroG2qgoM=
+github.com/boratanrikulu/eternity v0.0.0-20230526134433-0a1a3b5f5d8e h1:5pB+dDQUmCHeRFGNdWk3PGk0JjFnbWZTu3PG1HzFBsE=
+github.com/boratanrikulu/eternity v0.0.0-20230526134433-0a1a3b5f5d8e/go.mod h1:oTxriBGTETn/Saurq+nI5noIRiNG4/kpBMiroG2qgoM=
 github.com/brycematheson/allegiant v0.0.0-20161024030126-4db3e8fe3a01 h1:HV/QUp8P/7mVJLFMAkhQ6CoNr5/SalGxU0p9hJEc/LA=
 github.com/brycematheson/allegiant v0.0.0-20161024030126-4db3e8fe3a01/go.mod h1:n4s7O9CIJgRlnvJFHr2L5asHj3ITIEUjdfVBGZAInBk=
 github.com/bul-ikana/hugo-cards v0.0.0-20211031232746-55e303495347 h1:UHhqtMNM8NBvnjrDvZ+rcGkbylFMLmSg9Vidl3i2DJo=
@@ -389,6 +393,8 @@ github.com/de-souza/hugo-flex v0.0.0-20230131090349-64e030211b89 h1:ZRJOwoJHfPLD
 github.com/de-souza/hugo-flex v0.0.0-20230131090349-64e030211b89/go.mod h1:XAyp0wkF5CZ3IX2uFMPZOyAuVI3GY7kKDUiJGk4UD6w=
 github.com/devcows/hugo-universal-theme v0.0.0-20230107121035-4e9eace61e0a h1:sfI8IsJ1aY3TISVXsXku4om7jMq/S7VjT3mRPWyF3uo=
 github.com/devcows/hugo-universal-theme v0.0.0-20230107121035-4e9eace61e0a/go.mod h1:MqYH15Evmut/wgYkFi7ArsX+k44HfRrH675FbVLBkq0=
+github.com/devcows/hugo-universal-theme v0.0.0-20230526111422-cf0336a17584 h1:N/0zYlU7y8vP8Af7nbD67Ca2VPC2Qu1IfRadvlIEg6s=
+github.com/devcows/hugo-universal-theme v0.0.0-20230526111422-cf0336a17584/go.mod h1:MqYH15Evmut/wgYkFi7ArsX+k44HfRrH675FbVLBkq0=
 github.com/dewittn/hugo-html5up-alpha v0.0.0-20200529171052-b921f3bccb74 h1:76Ef3Rcn9MThiBdBB7N8zUNUbp9LjWhM/IYaWvMm8hY=
 github.com/dewittn/hugo-html5up-alpha v0.0.0-20200529171052-b921f3bccb74/go.mod h1:NP0jYDQ5c8XWbW6AlGUqpOWJpe14vYXDTc7l44062oQ=
 github.com/dillonzq/LoveIt v0.2.11 h1:rIj8YX5oJHHyKazLLWBwvURCoVizsNBQJc6vVKX6AG8=
@@ -805,6 +811,8 @@ github.com/markdumay/hugo-theme-hinode v0.14.1 h1:QwcCA6ZN3yRixi8fMot6DkxI4e/CFB
 github.com/markdumay/hugo-theme-hinode v0.14.1/go.mod h1:GS7ODxya3k6knpGA9hjvu1BHdZt2E9M2Fpwks6kf67c=
 github.com/markdumay/hugo-theme-hinode v0.14.2 h1:kaAVi7sW7XLbOgP5IsR3OIoBgncOZjDQHNvLgh/W3ok=
 github.com/markdumay/hugo-theme-hinode v0.14.2/go.mod h1:GS7ODxya3k6knpGA9hjvu1BHdZt2E9M2Fpwks6kf67c=
+github.com/markdumay/hugo-theme-hinode v0.14.3 h1:8yWgFr4EwATYixHZ77zL8Aix/XhjJjXUM9Yvr55YO+4=
+github.com/markdumay/hugo-theme-hinode v0.14.3/go.mod h1:GS7ODxya3k6knpGA9hjvu1BHdZt2E9M2Fpwks6kf67c=
 github.com/marketempower/axiom v0.8.0 h1:zi9Fz4N0hu8EqKEALSkCUc9NnilnqmvZlyyWVfdcn5g=
 github.com/marketempower/axiom v0.8.0/go.mod h1:yBi32+wVWUXnGDYjQ4tqXwcGAuSP8lOhOm1jgxN7SCA=
 github.com/matcornic/hugo-theme-learn v0.0.0-20211028190410-e817f53d690d h1:p7ktiW/GnHccjB9oO5YGY7us5v/oHmkyF0C7EDZFM3s=
@@ -831,6 +839,8 @@ github.com/michimani/simplog v0.0.0-20230307165059-0f59cecfbb1a h1:ozDGaZykKviEQ
 github.com/michimani/simplog v0.0.0-20230307165059-0f59cecfbb1a/go.mod h1:OYyHKMrmwd5vJiBDtonXmATXJG1rydhPvB0vmaclVPc=
 github.com/michimani/simplog v0.0.0-20230510053938-f8f7b8f8ff59 h1:1glHrvamJhFIBuMSgRV93ctxkPgp7y7KtNLpftcHXV8=
 github.com/michimani/simplog v0.0.0-20230510053938-f8f7b8f8ff59/go.mod h1:OYyHKMrmwd5vJiBDtonXmATXJG1rydhPvB0vmaclVPc=
+github.com/michimani/simplog v0.0.0-20230526204025-be7cd1a6694e h1:KUa4MQe/v0TbRd2z49B4sND6aQHYKeVBGenNv6jVnI4=
+github.com/michimani/simplog v0.0.0-20230526204025-be7cd1a6694e/go.mod h1:OYyHKMrmwd5vJiBDtonXmATXJG1rydhPvB0vmaclVPc=
 github.com/miguelsimoni/hugo-initio v0.0.0-20221223163548-9b0c5459f703 h1:lT53chOnErgPOrpEItIQDL+Es8zkFeOGXifHRGCGbcQ=
 github.com/miguelsimoni/hugo-initio v0.0.0-20221223163548-9b0c5459f703/go.mod h1:KBCk/6VF3tsQ8qGIJqNNxyZkTyDluE/WzvhAPoet/FY=
 github.com/mikeblum/hugo-now v0.2.4 h1:nV/2FnBKypnuquQrIiyi8rW36uAdZBOOOIdWsKluTos=
