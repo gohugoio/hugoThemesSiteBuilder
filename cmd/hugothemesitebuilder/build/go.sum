@@ -919,6 +919,8 @@ github.com/nodejh/hugo-theme-cactus-plus v0.0.0-20230131063142-76cdefd84b9b h1:L
 github.com/nodejh/hugo-theme-cactus-plus v0.0.0-20230131063142-76cdefd84b9b/go.mod h1:/f0ZXsMvHAdPQedcJ2ZUDg/rDWAnGAclQ8ukFRSTNHs=
 github.com/ntk148v/hugo-cuisine-book v0.0.0-20221206105543-2fa57df4ad46 h1:XpRreFIq7esYJpRHulfS+1vSuv4Yy8OlPMKtF5aefAw=
 github.com/ntk148v/hugo-cuisine-book v0.0.0-20221206105543-2fa57df4ad46/go.mod h1:GosNhNSwCn6UFew4B/qyvG377LBJVtWiTnurjrLES78=
+github.com/ntk148v/hugo-cuisine-book v0.0.0-20230601072234-6c62e98269be h1:hqfKPV6xrqBp5kGB/pWa929yyYsv5ZxV8MrpeRJauQY=
+github.com/ntk148v/hugo-cuisine-book v0.0.0-20230601072234-6c62e98269be/go.mod h1:GosNhNSwCn6UFew4B/qyvG377LBJVtWiTnurjrLES78=
 github.com/ntk148v/hugo-toigian v0.0.1 h1:sGA49eriK5WLRaMEffGLa7OomNN6oHvTl41S/DsN0vg=
 github.com/ntk148v/hugo-toigian v0.0.1/go.mod h1:QgnchuVFunTeAJY28C9Lru/8h9Y8sN6mn5thA262ClY=
 github.com/nunocoracao/blowfish v1.9.0 h1:DqTrybi9CtG6HzCDMsDdzkVxVCjDaE6z1Ebj4OBykV8=
@@ -1018,6 +1020,8 @@ github.com/radity/raditian-free-hugo-theme v0.0.0-20200716150603-a25af74cbf97 h1
 github.com/radity/raditian-free-hugo-theme v0.0.0-20200716150603-a25af74cbf97/go.mod h1:t5mRQK6QRON/UpS75dOnK9vaJ54KDMhFR9UAEhDAl3s=
 github.com/rafed/BlogRa v0.0.0-20220909095014-ae061e8911c1 h1:d9Gue0Vb4rFiCKWd3Bz7viwNj3HNAMTorXxZBqhwxFM=
 github.com/rafed/BlogRa v0.0.0-20220909095014-ae061e8911c1/go.mod h1:UMZH6bbJWNVmxz4Yg/9oFmmRdT6DkT+6/dRly2C7P78=
+github.com/rafed/BlogRa v0.0.0-20230601111155-9eafca79bbfd h1:XLkFMmk7S9zIQezbBJxWxjVD11A/mTKFwhWnfNquo+c=
+github.com/rafed/BlogRa v0.0.0-20230601111155-9eafca79bbfd/go.mod h1:UMZH6bbJWNVmxz4Yg/9oFmmRdT6DkT+6/dRly2C7P78=
 github.com/rafed/ramium v0.0.0-20220506114717-161b4f6cbf8d h1:HHhf9eG1ixHVPa0GOBX0qIbbsXOegl/2RcemvmAEaJs=
 github.com/rafed/ramium v0.0.0-20220506114717-161b4f6cbf8d/go.mod h1:iPCh2zZy/WAJki2zywFfwh60Q6bvqXfmMUl55S0+MyI=
 github.com/razonyang/hb-theme v0.0.0-20230318024407-142308b93a8e h1:Kfr5KBinxGcxYnxpRPbb7aSmqQe+tE2MCEwi940kwYo=
@@ -1118,6 +1122,8 @@ github.com/schnerring/hugo-theme-gruvbox v0.0.0-20230523105626-421120a3113c h1:5
 github.com/schnerring/hugo-theme-gruvbox v0.0.0-20230523105626-421120a3113c/go.mod h1:qSk5VekQgH1NCmXREXluiGdrH9eJl+D5By6WE4TENzI=
 github.com/schnerring/hugo-theme-gruvbox v0.0.0-20230528133339-cc3ce24ca73c h1:3iWped8u+sZ24n8BRtBRxRBYo4ex1FS8I1+ZZEsLU1k=
 github.com/schnerring/hugo-theme-gruvbox v0.0.0-20230528133339-cc3ce24ca73c/go.mod h1:edqpaDNowoFVoJKyojAHZwTNGWwXBe7DA50svbOSb78=
+github.com/schnerring/hugo-theme-gruvbox v0.0.0-20230601183240-443bb766e645 h1:HSV6V34FAOb2cq669SA1tki4o8CPtQh5HZYwASQ+BcQ=
+github.com/schnerring/hugo-theme-gruvbox v0.0.0-20230601183240-443bb766e645/go.mod h1:edqpaDNowoFVoJKyojAHZwTNGWwXBe7DA50svbOSb78=
 github.com/schollz/onetwothree v0.0.0-20190916161743-a09e6530494c h1:503PXSWQR7gXGemoNiHnFz76i8pLEgTF0tLDnBIU9DQ=
 github.com/schollz/onetwothree v0.0.0-20190916161743-a09e6530494c/go.mod h1:7GFph1UoE8pGK7EBI8rJLnfsBltHgQp0gb8VIBZoTOI=
 github.com/seanlane/gochowdown v0.0.0-20220603122033-5458dc7bd80a h1:ZnCjJaq/MoQv0fOo6L7eZvjhlwC/+IcSF1dJGeoRRRM=
