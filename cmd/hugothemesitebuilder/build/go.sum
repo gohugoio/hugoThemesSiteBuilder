@@ -889,6 +889,8 @@ github.com/nanxiaobei/hugo-paper v0.0.0-20230520192116-15aebcd86169 h1:+psKGMoyh
 github.com/nanxiaobei/hugo-paper v0.0.0-20230520192116-15aebcd86169/go.mod h1:CeRgawh+WFgm29TC2yGTPy9CAWkQaUABYejSFQDmL28=
 github.com/nanxiaobei/hugo-paper v0.0.0-20230528062011-df66f99fcdb3 h1:x6x9SmiVxIwcmuYIS3WzGR/KEYInWFSSGEuiQX8+I4I=
 github.com/nanxiaobei/hugo-paper v0.0.0-20230528062011-df66f99fcdb3/go.mod h1:CeRgawh+WFgm29TC2yGTPy9CAWkQaUABYejSFQDmL28=
+github.com/nanxiaobei/hugo-paper v0.0.0-20230602164922-4b2199f5ecff h1:j2dUQR/hYVZn+THzoiqen49eL0hJz+uumUIC0U2CKQA=
+github.com/nanxiaobei/hugo-paper v0.0.0-20230602164922-4b2199f5ecff/go.mod h1:CeRgawh+WFgm29TC2yGTPy9CAWkQaUABYejSFQDmL28=
 github.com/nanxstats/hugo-tanka v0.0.0-20210707221939-9bec4eba33e5 h1:ArKJMwXbgVVeIhpHxuDES/IoftMzOlk4mMB0tYHmUsY=
 github.com/nanxstats/hugo-tanka v0.0.0-20210707221939-9bec4eba33e5/go.mod h1:MpW+xmCZzgJK5cTtN7/k+nKAKSU7IR8Y3Y7Vt7rdm0c=
 github.com/naro143/hugo-coder-portfolio v0.0.0-20200903083500-255d92337c07 h1:sJcQpPI0wm1zKeX38i/A1RmpPGIN9c4YPMuOTek1woY=
@@ -1124,6 +1126,8 @@ github.com/schnerring/hugo-theme-gruvbox v0.0.0-20230528133339-cc3ce24ca73c h1:3
 github.com/schnerring/hugo-theme-gruvbox v0.0.0-20230528133339-cc3ce24ca73c/go.mod h1:edqpaDNowoFVoJKyojAHZwTNGWwXBe7DA50svbOSb78=
 github.com/schnerring/hugo-theme-gruvbox v0.0.0-20230601183240-443bb766e645 h1:HSV6V34FAOb2cq669SA1tki4o8CPtQh5HZYwASQ+BcQ=
 github.com/schnerring/hugo-theme-gruvbox v0.0.0-20230601183240-443bb766e645/go.mod h1:edqpaDNowoFVoJKyojAHZwTNGWwXBe7DA50svbOSb78=
+github.com/schnerring/hugo-theme-gruvbox v0.0.0-20230602022759-9cb5365e57c0 h1:aKWFj0XoCbFkYh3PjppNrHZDd6v4A/Sl/wANVVvdP/o=
+github.com/schnerring/hugo-theme-gruvbox v0.0.0-20230602022759-9cb5365e57c0/go.mod h1:edqpaDNowoFVoJKyojAHZwTNGWwXBe7DA50svbOSb78=
 github.com/schollz/onetwothree v0.0.0-20190916161743-a09e6530494c h1:503PXSWQR7gXGemoNiHnFz76i8pLEgTF0tLDnBIU9DQ=
 github.com/schollz/onetwothree v0.0.0-20190916161743-a09e6530494c/go.mod h1:7GFph1UoE8pGK7EBI8rJLnfsBltHgQp0gb8VIBZoTOI=
 github.com/seanlane/gochowdown v0.0.0-20220603122033-5458dc7bd80a h1:ZnCjJaq/MoQv0fOo6L7eZvjhlwC/+IcSF1dJGeoRRRM=
