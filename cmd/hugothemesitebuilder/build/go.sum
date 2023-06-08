@@ -16,6 +16,8 @@ github.com/526avijitgupta/gokarna v0.0.0-20230402021352-0d85706e1f4c h1:XaBPID8F
 github.com/526avijitgupta/gokarna v0.0.0-20230402021352-0d85706e1f4c/go.mod h1:v34Pn8p/EFQ1WnVF43/Vis+6u+vdB795sYEGshBHFSs=
 github.com/526avijitgupta/gokarna v0.0.0-20230416062719-10fd8b2c6bdb h1:iS21TPRUJTd6Hgnup5w79BKraaLN09rSWepzzSAqIjc=
 github.com/526avijitgupta/gokarna v0.0.0-20230416062719-10fd8b2c6bdb/go.mod h1:v34Pn8p/EFQ1WnVF43/Vis+6u+vdB795sYEGshBHFSs=
+github.com/526avijitgupta/gokarna v0.0.0-20230607170457-038a2c9da851 h1:kGYSYvux37unNaXUS61XZyEUhbS5L6d/Gz0kAlmDizw=
+github.com/526avijitgupta/gokarna v0.0.0-20230607170457-038a2c9da851/go.mod h1:v34Pn8p/EFQ1WnVF43/Vis+6u+vdB795sYEGshBHFSs=
 github.com/7ma7X/HugoTeX v0.0.0-20221106021144-93d5cc0ad74d h1:L3f2yBjsg5buHlhOC8VK1YP121YsZJB4y0v5sdAnJVM=
 github.com/7ma7X/HugoTeX v0.0.0-20221106021144-93d5cc0ad74d/go.mod h1:OTLKv02XnopNEckzZ8Ttg/NjueJWWLrzJzeVHGm/6lo=
 github.com/AlexFinn/simple-a v0.0.0-20191202062540-bb2f8c9172a0 h1:sy/Ez5f6eA2b96BStFblKC0eikTq23couIRerUgDQRM=
@@ -142,6 +144,8 @@ github.com/McShelby/hugo-theme-relearn v0.0.0-20230605233637-d39c0fb40225 h1:i57
 github.com/McShelby/hugo-theme-relearn v0.0.0-20230605233637-d39c0fb40225/go.mod h1:mKQQdxZNIlLvAj8X3tMq+RzntIJSr9z7XdzuMomt0IM=
 github.com/McShelby/hugo-theme-relearn v0.0.0-20230606183850-228ab819b917 h1:gswMg8P7Vat6bH6XJI2CanrTriro1ulh8zF7e7ed4Tk=
 github.com/McShelby/hugo-theme-relearn v0.0.0-20230606183850-228ab819b917/go.mod h1:mKQQdxZNIlLvAj8X3tMq+RzntIJSr9z7XdzuMomt0IM=
+github.com/McShelby/hugo-theme-relearn v0.0.0-20230607221319-27d11a1c7255 h1:uK/GYHppkBr3GV8CxIeYBAm2MhVbnE9/cbhZMHetoto=
+github.com/McShelby/hugo-theme-relearn v0.0.0-20230607221319-27d11a1c7255/go.mod h1:mKQQdxZNIlLvAj8X3tMq+RzntIJSr9z7XdzuMomt0IM=
 github.com/MeiK2333/github-style v0.0.0-20221030070900-eee158a65892 h1:KPnOKKnc9Ix8Hnqu0qtCAkrFp/NtpAY96wYx1ZSq3Y0=
 github.com/MeiK2333/github-style v0.0.0-20221030070900-eee158a65892/go.mod h1:MDvfpZqhD/YSKR6X4f5hVUv588HxL1MVjsCTSM7ETxs=
 github.com/Mitrichius/hugo-theme-anubis v0.0.0-20230303133243-95a8df754cd9 h1:fsVhv+VSdDbZb7eNSsi43iFvG6J5/349og1o04LJCZQ=
@@ -301,6 +305,8 @@ github.com/bep/docuapi/v2 v2.3.0 h1:T4MJuzXAk753CqvVDXk+eP+dk9PodxXqtL3GBjbnt0I=
 github.com/bep/docuapi/v2 v2.3.0/go.mod h1:3wLOeVtAUkqA/oMrCtT7p2RyxkIgssvarP3aLSikxwM=
 github.com/bep/gallerydeluxe v0.9.3 h1:+m0eEzt+NUdHeXUozVjM4ppoDO5ecVn6Eoa8q33E2hI=
 github.com/bep/gallerydeluxe v0.9.3/go.mod h1:sUfRcjREo6DwxPo0sMp0TAxNZiGreOY6DY2dWGpSeR8=
+github.com/bep/gallerydeluxe v0.10.0 h1:0CXOArpCD6S0XdhFpXuShnlqx8VJBCrWhKdgi/xdRjE=
+github.com/bep/gallerydeluxe v0.10.0/go.mod h1:sUfRcjREo6DwxPo0sMp0TAxNZiGreOY6DY2dWGpSeR8=
 github.com/bjacquemet/personal-web v0.0.0-20210930154027-95178cb6bf55 h1:X95Y1Q86jMCh8A7yUoc40Cp06TqF/QGpNLuXVbh6Mc8=
 github.com/bjacquemet/personal-web v0.0.0-20210930154027-95178cb6bf55/go.mod h1:DsXz9EZYMBXvuTEFFKLfRy8cjjBxgsPfwK516DyAx8E=
 github.com/bjacquemet/personal-web v0.0.0-20230606080827-69cf270ceddf h1:iE3yFd68a4OO5oB0ZhXCYB09o2AuM+uJx/LyfC/QItM=
@@ -859,6 +865,8 @@ github.com/markdumay/hugo-theme-hinode v0.14.5 h1:PYI2iJV60H7+NGV8uXM0Z6Oure7vmV
 github.com/markdumay/hugo-theme-hinode v0.14.5/go.mod h1:GS7ODxya3k6knpGA9hjvu1BHdZt2E9M2Fpwks6kf67c=
 github.com/markdumay/hugo-theme-hinode v0.14.6 h1:SxXOk74wESUdagy6r5N50LF5cJnQc7p2s8uQpVfq/qw=
 github.com/markdumay/hugo-theme-hinode v0.14.6/go.mod h1:GS7ODxya3k6knpGA9hjvu1BHdZt2E9M2Fpwks6kf67c=
+github.com/markdumay/hugo-theme-hinode v0.14.7 h1:I5nI8rTKfVCwYqeb9nDfbqrKgksEnyVI9DkijX/EnhE=
+github.com/markdumay/hugo-theme-hinode v0.14.7/go.mod h1:GS7ODxya3k6knpGA9hjvu1BHdZt2E9M2Fpwks6kf67c=
 github.com/marketempower/axiom v0.8.0 h1:zi9Fz4N0hu8EqKEALSkCUc9NnilnqmvZlyyWVfdcn5g=
 github.com/marketempower/axiom v0.8.0/go.mod h1:yBi32+wVWUXnGDYjQ4tqXwcGAuSP8lOhOm1jgxN7SCA=
 github.com/matcornic/hugo-theme-learn v0.0.0-20211028190410-e817f53d690d h1:p7ktiW/GnHccjB9oO5YGY7us5v/oHmkyF0C7EDZFM3s=
@@ -1174,6 +1182,8 @@ github.com/serkodev/holy v0.0.0-20230511213523-3f1d91875c66 h1:eH+fnDmaPyt02mFXT
 github.com/serkodev/holy v0.0.0-20230511213523-3f1d91875c66/go.mod h1:DkatpwWKNZ8djg808hh7hGEPvQKmKaYGXPWQeWcqCfE=
 github.com/serkodev/holy v0.0.0-20230512074441-b7b0699b3eba h1:aM2NGpZ/O51Q2exVxUFNAHF4pINU0Y1nPnQy7UhJvKg=
 github.com/serkodev/holy v0.0.0-20230512074441-b7b0699b3eba/go.mod h1:DkatpwWKNZ8djg808hh7hGEPvQKmKaYGXPWQeWcqCfE=
+github.com/serkodev/holy v0.0.0-20230607154125-9dff9e0ebd43 h1:O0uk+ISOnopPFL7pFAVog7HHgRKsmXRlzJ3JaGMQetM=
+github.com/serkodev/holy v0.0.0-20230607154125-9dff9e0ebd43/go.mod h1:DkatpwWKNZ8djg808hh7hGEPvQKmKaYGXPWQeWcqCfE=
 github.com/setsevireon/photophobia v0.0.7 h1:0J9HBN3uhKMFW13vchb+S65hw71GSHhUhFEH5y2wUAg=
 github.com/setsevireon/photophobia v0.0.7/go.mod h1:IZCqmSmQZahg6Jm1S2a3sjWN3C67akbFS0uGaCnniMc=
 github.com/shaform/hugo-theme-den v0.0.0-20220704130400-f420b491a016 h1:dfOqTNaq8YMAUNj9x3OaQBQaeOXFdex1vDMq4evszpg=
