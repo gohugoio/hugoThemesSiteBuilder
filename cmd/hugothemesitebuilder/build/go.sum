@@ -151,6 +151,8 @@ github.com/McShelby/hugo-theme-relearn v0.0.0-20230608160410-e3ac6efd7cda h1:FuC
 github.com/McShelby/hugo-theme-relearn v0.0.0-20230608160410-e3ac6efd7cda/go.mod h1:mKQQdxZNIlLvAj8X3tMq+RzntIJSr9z7XdzuMomt0IM=
 github.com/McShelby/hugo-theme-relearn v0.0.0-20230609222158-57943fac1653 h1:e5xFkFylyN/tMTZj1QQU/W6vpyCRRDuWKb0t6Cu0T00=
 github.com/McShelby/hugo-theme-relearn v0.0.0-20230609222158-57943fac1653/go.mod h1:mKQQdxZNIlLvAj8X3tMq+RzntIJSr9z7XdzuMomt0IM=
+github.com/McShelby/hugo-theme-relearn v0.0.0-20230610122345-821002099413 h1:PzoTL2t7YfxPZXnIdtiGAg13b7tVD1sMp4lI0Wub/KI=
+github.com/McShelby/hugo-theme-relearn v0.0.0-20230610122345-821002099413/go.mod h1:mKQQdxZNIlLvAj8X3tMq+RzntIJSr9z7XdzuMomt0IM=
 github.com/MeiK2333/github-style v0.0.0-20221030070900-eee158a65892 h1:KPnOKKnc9Ix8Hnqu0qtCAkrFp/NtpAY96wYx1ZSq3Y0=
 github.com/MeiK2333/github-style v0.0.0-20221030070900-eee158a65892/go.mod h1:MDvfpZqhD/YSKR6X4f5hVUv588HxL1MVjsCTSM7ETxs=
 github.com/Mitrichius/hugo-theme-anubis v0.0.0-20230303133243-95a8df754cd9 h1:fsVhv+VSdDbZb7eNSsi43iFvG6J5/349og1o04LJCZQ=
@@ -997,6 +999,8 @@ github.com/nusserstudios/tailbliss v0.0.0-20230608113153-c13b1ad61831 h1:ImXRI5z
 github.com/nusserstudios/tailbliss v0.0.0-20230608113153-c13b1ad61831/go.mod h1:Ou13OBMp/iiaRB7Zc8X/yfecpA2NCli6cef8Meya+jw=
 github.com/nusserstudios/tailbliss v0.0.0-20230609225257-cf44485b5b2e h1:h2kXUWI5veh/cT52gbY2fvemJGmGv5zkmet/87oQ2mQ=
 github.com/nusserstudios/tailbliss v0.0.0-20230609225257-cf44485b5b2e/go.mod h1:Ou13OBMp/iiaRB7Zc8X/yfecpA2NCli6cef8Meya+jw=
+github.com/nusserstudios/tailbliss v0.0.0-20230610122839-90938081b78c h1:yD/UInx7f1EGF9Fym/A5ujTnIbSDYGKAwkX07SybCuY=
+github.com/nusserstudios/tailbliss v0.0.0-20230610122839-90938081b78c/go.mod h1:Ou13OBMp/iiaRB7Zc8X/yfecpA2NCli6cef8Meya+jw=
 github.com/okkur/syna v0.17.4 h1:yjaij6V6gNftNDMTVxAwPBRb0B1LiZgxW3x6pqd/Nys=
 github.com/okkur/syna v0.17.4/go.mod h1:cNe2KzYuuFyTGHhK7y3OzaSjWE1YIbp91jgMetkAGbI=
 github.com/olOwOlo/hugo-theme-even v4.1.0+incompatible h1:vac90+azWrNgGvanS7mN2ztvJl9P5IHFvPSS+EAbYRA=
@@ -1040,6 +1044,8 @@ github.com/panr/hugo-theme-hello-friend v0.0.0-20230107225212-aa69b5504cbe h1:iF
 github.com/panr/hugo-theme-hello-friend v0.0.0-20230107225212-aa69b5504cbe/go.mod h1:JIa0X0X//YWawD537HytHDdYUhl4TtOMRx+HCMJXEc4=
 github.com/panr/hugo-theme-hello-friend v0.0.0-20230609211221-7f0c2ded7a94 h1:jOnCB5bPXj3y30sGkySwrSz40Z2U+9g43V/jB2Od038=
 github.com/panr/hugo-theme-hello-friend v0.0.0-20230609211221-7f0c2ded7a94/go.mod h1:JIa0X0X//YWawD537HytHDdYUhl4TtOMRx+HCMJXEc4=
+github.com/panr/hugo-theme-hello-friend v0.0.0-20230610160555-05c4ecfd03d7 h1:zkDQoKhysQ1amFrZs1uQoShmDLQUvUF9pf3eAkXNdqI=
+github.com/panr/hugo-theme-hello-friend v0.0.0-20230610160555-05c4ecfd03d7/go.mod h1:JIa0X0X//YWawD537HytHDdYUhl4TtOMRx+HCMJXEc4=
 github.com/panr/hugo-theme-terminal v0.0.0-20230102221952-20fc1079fa31 h1:3uJwHLbocHRY+Jsi6vgImICWTVaE0LU8v5IbqdZY4J8=
 github.com/panr/hugo-theme-terminal v0.0.0-20230102221952-20fc1079fa31/go.mod h1:rl66QefAPr/ZSyEFGqukIUV6S1TVjWSxAVpx/GHeJOs=
 github.com/parsiya/Hugo-Octopress v0.0.0-20230210234300-be22e9c1e61a h1:47ZCvyyj74uZdnbDxyDeQODzbaPi7mA6tdZyLOL7j9w=
