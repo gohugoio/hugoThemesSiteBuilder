@@ -18,6 +18,8 @@ github.com/526avijitgupta/gokarna v0.0.0-20230416062719-10fd8b2c6bdb h1:iS21TPRU
 github.com/526avijitgupta/gokarna v0.0.0-20230416062719-10fd8b2c6bdb/go.mod h1:v34Pn8p/EFQ1WnVF43/Vis+6u+vdB795sYEGshBHFSs=
 github.com/526avijitgupta/gokarna v0.0.0-20230607170457-038a2c9da851 h1:kGYSYvux37unNaXUS61XZyEUhbS5L6d/Gz0kAlmDizw=
 github.com/526avijitgupta/gokarna v0.0.0-20230607170457-038a2c9da851/go.mod h1:v34Pn8p/EFQ1WnVF43/Vis+6u+vdB795sYEGshBHFSs=
+github.com/526avijitgupta/gokarna v0.0.0-20230611143844-323147c9d0dc h1:nTP7wdcFe8HuC6NsLVZpv3jSsX4rqb2FXpNY3wZJ0pc=
+github.com/526avijitgupta/gokarna v0.0.0-20230611143844-323147c9d0dc/go.mod h1:v34Pn8p/EFQ1WnVF43/Vis+6u+vdB795sYEGshBHFSs=
 github.com/7ma7X/HugoTeX v0.0.0-20221106021144-93d5cc0ad74d h1:L3f2yBjsg5buHlhOC8VK1YP121YsZJB4y0v5sdAnJVM=
 github.com/7ma7X/HugoTeX v0.0.0-20221106021144-93d5cc0ad74d/go.mod h1:OTLKv02XnopNEckzZ8Ttg/NjueJWWLrzJzeVHGm/6lo=
 github.com/AlexFinn/simple-a v0.0.0-20191202062540-bb2f8c9172a0 h1:sy/Ez5f6eA2b96BStFblKC0eikTq23couIRerUgDQRM=
@@ -591,6 +593,8 @@ github.com/hotjuicew/hugo-JuiceBar v0.0.0-20230426161904-69fdca28469a h1:fbbSKEG
 github.com/hotjuicew/hugo-JuiceBar v0.0.0-20230426161904-69fdca28469a/go.mod h1:hC9paSZdBbsbjdGS9OmcZBSXaQf1dADhObM+t5qvv5s=
 github.com/hotjuicew/hugo-JuiceBar v0.0.0-20230609155645-22e01a4b79e7 h1:0O3yglEgOCpeCuQ70smN/EQLKOnam9ix6MWf6W6WX88=
 github.com/hotjuicew/hugo-JuiceBar v0.0.0-20230609155645-22e01a4b79e7/go.mod h1:hC9paSZdBbsbjdGS9OmcZBSXaQf1dADhObM+t5qvv5s=
+github.com/hotjuicew/hugo-JuiceBar v0.0.0-20230611153515-84d0e4f471f7 h1:Ly/kuq3x/4EJ0vowXBl3z9Mner5SMpdWSUwG3g8Xzfg=
+github.com/hotjuicew/hugo-JuiceBar v0.0.0-20230611153515-84d0e4f471f7/go.mod h1:hC9paSZdBbsbjdGS9OmcZBSXaQf1dADhObM+t5qvv5s=
 github.com/htr3n/hyde-hyde v2.0.2+incompatible h1:CNMhiXOvTnTMwqIRTRMwTtt6yuhXn7Yi5nqIx1BP9KU=
 github.com/htr3n/hyde-hyde v2.0.2+incompatible/go.mod h1:g1t0wJ9s7VUgxMo9hQQOJPQy2LPcSnmAWHzm8a4wbdM=
 github.com/httpsecure/hugo-theme-red-rose v0.0.0-20221016191510-ffd45c906689 h1:zRhPJwbcpwTSa5cD1qqYxJeGNSmBbvck/+T15CTBeb4=
@@ -1080,6 +1084,8 @@ github.com/qub1750ul/hugo-simpleIntro v0.0.0-20220730152549-06783511dc64 h1:Tyqj
 github.com/qub1750ul/hugo-simpleIntro v0.0.0-20220730152549-06783511dc64/go.mod h1:9iZ8KucsxGRx3AIEUO4dhD/p/KalaH8MF/ODRHHyUzI=
 github.com/queensferryme/hugo-theme-texify v0.0.0-20221002100717-f40af04636cd h1:C+JaIw0BgiLc7P9Hi2LSybdCRZ6VLAogrv6TeHkhxqs=
 github.com/queensferryme/hugo-theme-texify v0.0.0-20221002100717-f40af04636cd/go.mod h1:n2KensxBMkG6nwIEjVzStjj+6NoroEb9r0TYMR/FMZo=
+github.com/queensferryme/hugo-theme-texify v0.0.0-20230611010640-1024f9eb2961 h1:u5VTDekKcwSUlTDMxCb1Gb8S49wTKO6v0ERfEelktbg=
+github.com/queensferryme/hugo-theme-texify v0.0.0-20230611010640-1024f9eb2961/go.mod h1:n2KensxBMkG6nwIEjVzStjj+6NoroEb9r0TYMR/FMZo=
 github.com/radity/raditian-free-hugo-theme v0.0.0-20200716150603-a25af74cbf97 h1:qa6ap7FRKOu8FJpaxzWjKJDaOJEh5UWIkmJarGGnMak=
 github.com/radity/raditian-free-hugo-theme v0.0.0-20200716150603-a25af74cbf97/go.mod h1:t5mRQK6QRON/UpS75dOnK9vaJ54KDMhFR9UAEhDAl3s=
 github.com/rafed/BlogRa v0.0.0-20220909095014-ae061e8911c1 h1:d9Gue0Vb4rFiCKWd3Bz7viwNj3HNAMTorXxZBqhwxFM=
@@ -1403,6 +1409,8 @@ github.com/wowchemy/starter-hugo-academic v0.0.0-20230528014145-c59787a0a072 h1:
 github.com/wowchemy/starter-hugo-academic v0.0.0-20230528014145-c59787a0a072/go.mod h1:KUMtCtjw3hOP3uAp1FoyVxlc/vCRJyKbYADICB5rxP8=
 github.com/wowchemy/starter-hugo-academic v0.0.0-20230604020220-590472e04217 h1:TXNxpCPXPD7YYoEkoxULi0rcnQIAaWssQVz2lPPuyQY=
 github.com/wowchemy/starter-hugo-academic v0.0.0-20230604020220-590472e04217/go.mod h1:KUMtCtjw3hOP3uAp1FoyVxlc/vCRJyKbYADICB5rxP8=
+github.com/wowchemy/starter-hugo-academic v0.0.0-20230611015552-50afe1c379af h1:qlUZyP2o0hUYVCibLHheFv2sjbnLWKUtZ8LN5AtL9UY=
+github.com/wowchemy/starter-hugo-academic v0.0.0-20230611015552-50afe1c379af/go.mod h1:KUMtCtjw3hOP3uAp1FoyVxlc/vCRJyKbYADICB5rxP8=
 github.com/wowchemy/wowchemy-hugo-themes/modules/wowchemy-core v0.1.0/go.mod h1:kJwI9H8dicHQCnP8G9EvUDI+oNg/yXcGsjGjwjXuM8I=
 github.com/wowchemy/wowchemy-hugo-themes/modules/wowchemy-core v0.2.0/go.mod h1:kJwI9H8dicHQCnP8G9EvUDI+oNg/yXcGsjGjwjXuM8I=
 github.com/wowchemy/wowchemy-hugo-themes/modules/wowchemy-plugin-netlify v1.0.0/go.mod h1:s40UgLsWfVyCLQ2F4F3dBcNfZOXcPGld7KxsKhZdzvM=
