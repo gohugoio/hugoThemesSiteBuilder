@@ -330,6 +330,8 @@ github.com/boratanrikulu/eternity v0.0.0-20230526134433-0a1a3b5f5d8e h1:5pB+dDQU
 github.com/boratanrikulu/eternity v0.0.0-20230526134433-0a1a3b5f5d8e/go.mod h1:oTxriBGTETn/Saurq+nI5noIRiNG4/kpBMiroG2qgoM=
 github.com/boratanrikulu/eternity v0.0.0-20230608171315-809a59b637d1 h1:BLIwdKtsKmJ0EOnDwCRt8bIzTvix4GDQU5C+H79z15M=
 github.com/boratanrikulu/eternity v0.0.0-20230608171315-809a59b637d1/go.mod h1:oTxriBGTETn/Saurq+nI5noIRiNG4/kpBMiroG2qgoM=
+github.com/boratanrikulu/eternity v0.0.0-20230614185302-d12b6b1b2749 h1:WwxEeCUPq3IXfeN9nbQ8rQ0YqsYtSJZFq7pl6CxS2D4=
+github.com/boratanrikulu/eternity v0.0.0-20230614185302-d12b6b1b2749/go.mod h1:oTxriBGTETn/Saurq+nI5noIRiNG4/kpBMiroG2qgoM=
 github.com/brycematheson/allegiant v0.0.0-20161024030126-4db3e8fe3a01 h1:HV/QUp8P/7mVJLFMAkhQ6CoNr5/SalGxU0p9hJEc/LA=
 github.com/brycematheson/allegiant v0.0.0-20161024030126-4db3e8fe3a01/go.mod h1:n4s7O9CIJgRlnvJFHr2L5asHj3ITIEUjdfVBGZAInBk=
 github.com/bul-ikana/hugo-cards v0.0.0-20211031232746-55e303495347 h1:UHhqtMNM8NBvnjrDvZ+rcGkbylFMLmSg9Vidl3i2DJo=
@@ -597,6 +599,8 @@ github.com/hotjuicew/hugo-JuiceBar v0.0.0-20230609155645-22e01a4b79e7 h1:0O3yglE
 github.com/hotjuicew/hugo-JuiceBar v0.0.0-20230609155645-22e01a4b79e7/go.mod h1:hC9paSZdBbsbjdGS9OmcZBSXaQf1dADhObM+t5qvv5s=
 github.com/hotjuicew/hugo-JuiceBar v0.0.0-20230611153515-84d0e4f471f7 h1:Ly/kuq3x/4EJ0vowXBl3z9Mner5SMpdWSUwG3g8Xzfg=
 github.com/hotjuicew/hugo-JuiceBar v0.0.0-20230611153515-84d0e4f471f7/go.mod h1:hC9paSZdBbsbjdGS9OmcZBSXaQf1dADhObM+t5qvv5s=
+github.com/hotjuicew/hugo-JuiceBar v0.0.0-20230614143417-f93209b9559f h1:Mwm57KgSvb5Y8UTPh9/IIIraH+3bCUL1BDNIM7Xem88=
+github.com/hotjuicew/hugo-JuiceBar v0.0.0-20230614143417-f93209b9559f/go.mod h1:hC9paSZdBbsbjdGS9OmcZBSXaQf1dADhObM+t5qvv5s=
 github.com/htr3n/hyde-hyde v2.0.2+incompatible h1:CNMhiXOvTnTMwqIRTRMwTtt6yuhXn7Yi5nqIx1BP9KU=
 github.com/htr3n/hyde-hyde v2.0.2+incompatible/go.mod h1:g1t0wJ9s7VUgxMo9hQQOJPQy2LPcSnmAWHzm8a4wbdM=
 github.com/httpsecure/hugo-theme-red-rose v0.0.0-20221016191510-ffd45c906689 h1:zRhPJwbcpwTSa5cD1qqYxJeGNSmBbvck/+T15CTBeb4=
@@ -849,6 +853,8 @@ github.com/luizdepra/hugo-coder v0.0.0-20230515135051-5616919fcb15 h1:P8ZR38Icxv
 github.com/luizdepra/hugo-coder v0.0.0-20230515135051-5616919fcb15/go.mod h1:9EQBf2rU+NPjlohGuKcEgdqSeOc3tIQoOty4xPpuUQ4=
 github.com/luizdepra/hugo-coder v0.0.0-20230520220730-1fb96cf9a920 h1:Vzj4HnLOvtYEQl6FxCDTDumakq8Jynd7HQm35VCPpt0=
 github.com/luizdepra/hugo-coder v0.0.0-20230520220730-1fb96cf9a920/go.mod h1:9EQBf2rU+NPjlohGuKcEgdqSeOc3tIQoOty4xPpuUQ4=
+github.com/luizdepra/hugo-coder v0.0.0-20230614132806-86ed09e0fe61 h1:HSKwVkxjFpD0SvEwjgGf+TCdCReNV3WvAYFzV0I08mU=
+github.com/luizdepra/hugo-coder v0.0.0-20230614132806-86ed09e0fe61/go.mod h1:9EQBf2rU+NPjlohGuKcEgdqSeOc3tIQoOty4xPpuUQ4=
 github.com/lxndrblz/anatole v1.12.0 h1:+3cmraXdZTcUwzW4wVB/hLeQOyZOIUZOXtxnY7vcCf8=
 github.com/lxndrblz/anatole v1.12.0/go.mod h1:hy61SRyUDKaWw2P+cERt9UPde5guWyVKgtjdzRF5bfI=
 github.com/lxndrblz/anatole v1.13.0 h1:H3f6kEZJWSPApJyvWSEee6L+rjWY896peMbSFpY9Eks=
@@ -1383,6 +1389,8 @@ github.com/willfaught/paige v0.61.1 h1:eh5NJcc1a4FdnlP5hqCpLY50YBZ0cQESy6tbZSbG1
 github.com/willfaught/paige v0.61.1/go.mod h1:0Nt8ifl7UVYQIBaMtpZmg+BrQHHzFNqKcrBoA2Oo4/E=
 github.com/willfaught/paige v0.62.1 h1:QYK5UKRo7CysyNJ/kBtbLyILx6RqEScdr21kbiVf4Ss=
 github.com/willfaught/paige v0.62.1/go.mod h1:0Nt8ifl7UVYQIBaMtpZmg+BrQHHzFNqKcrBoA2Oo4/E=
+github.com/willfaught/paige v0.62.3 h1:gPeRcaM+YN2nDy3CkS95b2LcGzp9oAEf5v/B5Zwuj6o=
+github.com/willfaught/paige v0.62.3/go.mod h1:0Nt8ifl7UVYQIBaMtpZmg+BrQHHzFNqKcrBoA2Oo4/E=
 github.com/wlh320/hugo-theme-hulga v0.0.0-20230318130807-005ed4235edf h1:uUvJmFWdOwLKGpQ/BZB/WNpGbAX0wKAUGd5cncrommM=
 github.com/wlh320/hugo-theme-hulga v0.0.0-20230318130807-005ed4235edf/go.mod h1:erdTksWjSdnpLpgqvRzmDjpt/VI0OsX4FKnqCcINyR0=
 github.com/wlh320/hugo-theme-hulga v0.0.0-20230416154634-84b9fc185e5d h1:rA1hCMEAVlmZXifOng6yyvGmP+mUIGQ2GAZwdCiF2Ps=
@@ -1473,6 +1481,8 @@ github.com/zerostaticthemes/hugo-serif-theme v1.1.1 h1:9qsICmqv9n7zUHvvrigDYQuwH
 github.com/zerostaticthemes/hugo-serif-theme v1.1.1/go.mod h1:dT/Drfcf/NQrYTXak8BZ0hkpgOWzek94FUdGLcDORAk=
 github.com/zerostaticthemes/hugo-whisper-theme v0.0.0-20220103005035-399397966bef h1:hsFJdCKVDFfmNv47dR1Uoow9+WFsVqjpN6PQANJGs7I=
 github.com/zerostaticthemes/hugo-whisper-theme v0.0.0-20220103005035-399397966bef/go.mod h1:3pXj02L0BmVtBJxF3HK1rWyES1AYTzfH5q6+YTaYaQI=
+github.com/zerostaticthemes/hugo-whisper-theme v0.0.0-20230615001108-3f4b715182cd h1:/2lVuROmV1LCP+1ab5vht0y77vU/tBCMq4LvrVru7Uo=
+github.com/zerostaticthemes/hugo-whisper-theme v0.0.0-20230615001108-3f4b715182cd/go.mod h1:3pXj02L0BmVtBJxF3HK1rWyES1AYTzfH5q6+YTaYaQI=
 github.com/zerostaticthemes/hugo-winston-theme v1.2.0 h1:Rm8jfxQ7PzDFaJJLcHAWEtzwTyoTAeX8LW77ceRhFjE=
 github.com/zerostaticthemes/hugo-winston-theme v1.2.0/go.mod h1:9ndr+mz6vl/8wiu/9ny8xU4eRPeUVDVgHRKN1WENS40=
 github.com/zerostaticthemes/hugo-winston-theme v1.3.0 h1:YyupBg7X+Hz5cjziUJJ1pP1k3rXrABoWujk0/DES5p4=
