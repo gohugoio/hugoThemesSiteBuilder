@@ -39,7 +39,7 @@ require (
 	github.com/M1cR0xf7/kaslaanka v0.0.0-20230403172412-c705bba54798 // indirect
 	github.com/MarcusVirg/forty v0.0.0-20190430033326-dccea57bd2ed // indirect
 	github.com/Masellum/hugo-theme-nostyleplease v0.0.0-20230429064057-1f0773883f34 // indirect
-	github.com/McShelby/hugo-theme-relearn v0.0.0-20230616223744-ca6965b843c1 // indirect
+	github.com/McShelby/hugo-theme-relearn v0.0.0-20230617082307-05e33f051bab // indirect
 	github.com/MeiK2333/github-style v0.0.0-20221030070900-eee158a65892 // indirect
 	github.com/Mitrichius/hugo-theme-anubis v0.0.0-20230512172629-53cbfc5b10c7 // indirect
 	github.com/Morgscode/hugo-theme-spaced-blog v0.0.0-20230314002556-b35af33f4373 // indirect
