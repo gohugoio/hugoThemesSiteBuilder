@@ -68,6 +68,8 @@ github.com/FarseaSH/hugo-theme-moments v0.0.0-20230523152157-a1d1d3df2b49 h1:pfs
 github.com/FarseaSH/hugo-theme-moments v0.0.0-20230523152157-a1d1d3df2b49/go.mod h1:vNkEDMP6bii2SaV1nExU5VhE4QpgCfegwvWpT8lJ7E0=
 github.com/Fastbyte01/KeepIt v0.0.0-20220316160340-0b501727f8e6 h1:uYas/AiFhR7KQ0h4eZBqdgdnCCUse6wtAsWSMX2LN2w=
 github.com/Fastbyte01/KeepIt v0.0.0-20220316160340-0b501727f8e6/go.mod h1:M6ThhOtiUROtefKk1Oqi5Yd35F3JXQKjY42i0/s+n88=
+github.com/Fastbyte01/KeepIt v0.0.0-20230622145951-67abc82f152d h1:0BFgzTsjYgRWZuxZUyMpmMD3l/Vn63vZ4N+/txauHso=
+github.com/Fastbyte01/KeepIt v0.0.0-20230622145951-67abc82f152d/go.mod h1:M6ThhOtiUROtefKk1Oqi5Yd35F3JXQKjY42i0/s+n88=
 github.com/FortAwesome/Font-Awesome v0.0.0-20210316185733-d79d85c3fad8/go.mod h1:IUgezN/MFpCDIlFezw3L8j83oeiIuYoj28Miwr/KUYo=
 github.com/FortAwesome/Font-Awesome v0.0.0-20220831210243-d3a7818c253f/go.mod h1:IUgezN/MFpCDIlFezw3L8j83oeiIuYoj28Miwr/KUYo=
 github.com/FortAwesome/Font-Awesome v0.0.0-20230327165841-0698449d50f2/go.mod h1:IUgezN/MFpCDIlFezw3L8j83oeiIuYoj28Miwr/KUYo=
@@ -97,6 +99,8 @@ github.com/LordMathis/hugo-theme-nightfall v0.2.0 h1:T92rXtfSdd4lgEC087NWbp2BMHe
 github.com/LordMathis/hugo-theme-nightfall v0.2.0/go.mod h1:0tCPxAeg5+tWhv17517Q8Lti/TPh0KNyON/uferEU30=
 github.com/LordMathis/hugo-theme-nightfall v0.3.0 h1:aRQSqXmNF7m/YDU5xQOzsnEIoefTpjSlm8sTLKx0jXI=
 github.com/LordMathis/hugo-theme-nightfall v0.3.0/go.mod h1:0tCPxAeg5+tWhv17517Q8Lti/TPh0KNyON/uferEU30=
+github.com/LordMathis/hugo-theme-nightfall v0.4.0 h1:TJEkfr9bdYmSSJPnsZ09L4l2R0ACAYZtZSVQnbvczSg=
+github.com/LordMathis/hugo-theme-nightfall v0.4.0/go.mod h1:0tCPxAeg5+tWhv17517Q8Lti/TPh0KNyON/uferEU30=
 github.com/LordMathis/hugo-theme-nix v0.0.0-20230219120231-a66f39083658 h1:4qZCB4XnHTiOg+gfn3QjnKXv1rdk2yJ8heeiHuuLxqI=
 github.com/LordMathis/hugo-theme-nix v0.0.0-20230219120231-a66f39083658/go.mod h1:gNBtSKD6958hUOyfSq/DPk6sancXDm9u/ftQGr03Nf8=
 github.com/LordMathis/hugo-theme-nix v0.0.0-20230520172020-b4735abcfe60 h1:+fcat4gKh8XbK1xH04MkLADCJB5qre5RCgLKIB46ZiU=
@@ -171,6 +175,8 @@ github.com/McShelby/hugo-theme-relearn v0.0.0-20230618094437-95f7b0107ed5 h1:AEw
 github.com/McShelby/hugo-theme-relearn v0.0.0-20230618094437-95f7b0107ed5/go.mod h1:mKQQdxZNIlLvAj8X3tMq+RzntIJSr9z7XdzuMomt0IM=
 github.com/McShelby/hugo-theme-relearn v0.0.0-20230621233412-7c42d47a73b8 h1:u1UgJLYLuZAJLWpOYcTwNZJnQALd/X1ZN8Vsa2UtP78=
 github.com/McShelby/hugo-theme-relearn v0.0.0-20230621233412-7c42d47a73b8/go.mod h1:mKQQdxZNIlLvAj8X3tMq+RzntIJSr9z7XdzuMomt0IM=
+github.com/McShelby/hugo-theme-relearn v0.0.0-20230622170510-61ccf4e42f4f h1:7SMp/lX1Hkv3pHEwJo8kH/95HCCpURtlg35EWcPFnBI=
+github.com/McShelby/hugo-theme-relearn v0.0.0-20230622170510-61ccf4e42f4f/go.mod h1:mKQQdxZNIlLvAj8X3tMq+RzntIJSr9z7XdzuMomt0IM=
 github.com/MeiK2333/github-style v0.0.0-20221030070900-eee158a65892 h1:KPnOKKnc9Ix8Hnqu0qtCAkrFp/NtpAY96wYx1ZSq3Y0=
 github.com/MeiK2333/github-style v0.0.0-20221030070900-eee158a65892/go.mod h1:MDvfpZqhD/YSKR6X4f5hVUv588HxL1MVjsCTSM7ETxs=
 github.com/Mitrichius/hugo-theme-anubis v0.0.0-20230303133243-95a8df754cd9 h1:fsVhv+VSdDbZb7eNSsi43iFvG6J5/349og1o04LJCZQ=
@@ -1260,6 +1266,8 @@ github.com/schnerring/hugo-theme-gruvbox v0.0.0-20230618214310-d6c4b736f505 h1:5
 github.com/schnerring/hugo-theme-gruvbox v0.0.0-20230618214310-d6c4b736f505/go.mod h1:BxsVKuuINFBErqZpW5KIDYWPt4o66NCjH4h51n64gWQ=
 github.com/schnerring/hugo-theme-gruvbox v0.0.0-20230620091208-8464c539e3fb h1:fxwUev+6zwFiwXFCK+t6KhMklvvlMYX1Oy+IRbr1AyY=
 github.com/schnerring/hugo-theme-gruvbox v0.0.0-20230620091208-8464c539e3fb/go.mod h1:LsokERCQ3Tyl/2/9iu5v7rppoi5qAfEsppn3Nwf0Sj4=
+github.com/schnerring/hugo-theme-gruvbox v0.0.0-20230622041604-d247b1120f57 h1:oyp5a8/sxYnS6QGBAPzXOOIoPLMiYLUud/EAoNwvVuA=
+github.com/schnerring/hugo-theme-gruvbox v0.0.0-20230622041604-d247b1120f57/go.mod h1:LsokERCQ3Tyl/2/9iu5v7rppoi5qAfEsppn3Nwf0Sj4=
 github.com/schollz/onetwothree v0.0.0-20190916161743-a09e6530494c h1:503PXSWQR7gXGemoNiHnFz76i8pLEgTF0tLDnBIU9DQ=
 github.com/schollz/onetwothree v0.0.0-20190916161743-a09e6530494c/go.mod h1:7GFph1UoE8pGK7EBI8rJLnfsBltHgQp0gb8VIBZoTOI=
 github.com/seanlane/gochowdown v0.0.0-20220603122033-5458dc7bd80a h1:ZnCjJaq/MoQv0fOo6L7eZvjhlwC/+IcSF1dJGeoRRRM=
