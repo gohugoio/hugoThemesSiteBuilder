@@ -358,6 +358,8 @@ github.com/boratanrikulu/eternity v0.0.0-20230608171315-809a59b637d1 h1:BLIwdKts
 github.com/boratanrikulu/eternity v0.0.0-20230608171315-809a59b637d1/go.mod h1:oTxriBGTETn/Saurq+nI5noIRiNG4/kpBMiroG2qgoM=
 github.com/boratanrikulu/eternity v0.0.0-20230614185302-d12b6b1b2749 h1:WwxEeCUPq3IXfeN9nbQ8rQ0YqsYtSJZFq7pl6CxS2D4=
 github.com/boratanrikulu/eternity v0.0.0-20230614185302-d12b6b1b2749/go.mod h1:oTxriBGTETn/Saurq+nI5noIRiNG4/kpBMiroG2qgoM=
+github.com/boratanrikulu/eternity v0.0.0-20230624191849-441c06c70838 h1:5MpAY6MFpT/jpVD7yWRA100DzsKUv1LOdnKWD1kjmMg=
+github.com/boratanrikulu/eternity v0.0.0-20230624191849-441c06c70838/go.mod h1:oTxriBGTETn/Saurq+nI5noIRiNG4/kpBMiroG2qgoM=
 github.com/brycematheson/allegiant v0.0.0-20161024030126-4db3e8fe3a01 h1:HV/QUp8P/7mVJLFMAkhQ6CoNr5/SalGxU0p9hJEc/LA=
 github.com/brycematheson/allegiant v0.0.0-20161024030126-4db3e8fe3a01/go.mod h1:n4s7O9CIJgRlnvJFHr2L5asHj3ITIEUjdfVBGZAInBk=
 github.com/bul-ikana/hugo-cards v0.0.0-20211031232746-55e303495347 h1:UHhqtMNM8NBvnjrDvZ+rcGkbylFMLmSg9Vidl3i2DJo=
@@ -595,6 +597,8 @@ github.com/halogenica/beautifulhugo v0.0.0-20230104152324-d817dd97ea8c h1:ZgjqeI
 github.com/halogenica/beautifulhugo v0.0.0-20230104152324-d817dd97ea8c/go.mod h1:ufPkGvDjUx8ELYtHwaxCSuQeDMIrW7wtDzw/Hqoy4CY=
 github.com/halogenica/beautifulhugo v0.0.0-20230619162550-a17a048b90c8 h1:BykLs2MJfSdnYOO0iYzQ8FoZ3RIeZdBHWd5GYRhb50Y=
 github.com/halogenica/beautifulhugo v0.0.0-20230619162550-a17a048b90c8/go.mod h1:ufPkGvDjUx8ELYtHwaxCSuQeDMIrW7wtDzw/Hqoy4CY=
+github.com/halogenica/beautifulhugo v0.0.0-20230624134853-c9856df47194 h1:ErkS5kdF/NeVE06/irB4FH0ITmTdW6GbFi4WNWl92RI=
+github.com/halogenica/beautifulhugo v0.0.0-20230624134853-c9856df47194/go.mod h1:ufPkGvDjUx8ELYtHwaxCSuQeDMIrW7wtDzw/Hqoy4CY=
 github.com/hauke96/hugo-theme-hamburg v0.7.4 h1:n44+tVBVmeU4SyshHJs+TFFA1N8/W244FLDHPT0oZyY=
 github.com/hauke96/hugo-theme-hamburg v0.7.4/go.mod h1:tCt4aBkjMpw2iH2GqxOOpTTcZ832mebzdBar1HoWhoA=
 github.com/hdcdstr8fwd/foundation-theme v0.0.0-20190427172834-b159c5ca30a4 h1:Mzy1zoWrsGr/m7IkccFcjJduu+JOExwmwatXcfVdQ8U=
@@ -658,6 +662,8 @@ github.com/hugo-mods/lazyimg v0.0.0-20211204103006-f8df703cfde3/go.mod h1:mUw/5r
 github.com/hugo-mods/release-notify v0.0.0-20211204191115-572031cb0d70/go.mod h1:RYv2eTG8LmJsxnEajLP4wkOLK3GDmwNterXVWgW6DYA=
 github.com/hugo-next/hugo-theme-next v4.4.0+incompatible h1:SB93/l1B8Vbd6wZNWemrkyh2erbSlzWmC1uhSkz0z60=
 github.com/hugo-next/hugo-theme-next v4.4.0+incompatible/go.mod h1:d58SfYRRDZMt90HDyQVk1sUGACcdbHsEH6OdopnE5Fw=
+github.com/hugo-next/hugo-theme-next v4.5.0+incompatible h1:o9LA2PYanXyX7Se6xjUZghef+zzUoMX55PPKXFA+fAE=
+github.com/hugo-next/hugo-theme-next v4.5.0+incompatible/go.mod h1:d58SfYRRDZMt90HDyQVk1sUGACcdbHsEH6OdopnE5Fw=
 github.com/hugo-sid/hugo-blog-awesome v0.0.0-20230325191718-ce9f89bda938 h1:4HeGzEBfiq9R680Tp7iAli/za5/u/Y9cNlIXm9PTo28=
 github.com/hugo-sid/hugo-blog-awesome v0.0.0-20230325191718-ce9f89bda938/go.mod h1:oRoqH9/bJDdyQqBoxI77O1oWAwVtn+fTng9MD3vR8A0=
 github.com/hugo-sid/hugo-blog-awesome v0.0.0-20230414161213-4afdfcbb47a3 h1:ToPdLBVybG0sNaS2cfjJQBzJb6+7f/03LK+VpUGP+O8=
@@ -1274,6 +1280,8 @@ github.com/schnerring/hugo-theme-gruvbox v0.0.0-20230620091208-8464c539e3fb h1:f
 github.com/schnerring/hugo-theme-gruvbox v0.0.0-20230620091208-8464c539e3fb/go.mod h1:LsokERCQ3Tyl/2/9iu5v7rppoi5qAfEsppn3Nwf0Sj4=
 github.com/schnerring/hugo-theme-gruvbox v0.0.0-20230622041604-d247b1120f57 h1:oyp5a8/sxYnS6QGBAPzXOOIoPLMiYLUud/EAoNwvVuA=
 github.com/schnerring/hugo-theme-gruvbox v0.0.0-20230622041604-d247b1120f57/go.mod h1:LsokERCQ3Tyl/2/9iu5v7rppoi5qAfEsppn3Nwf0Sj4=
+github.com/schnerring/hugo-theme-gruvbox v0.0.0-20230624010643-b094b3de1024 h1:2NiZLxxK6VSkzmWnt2QauFqSRZKSYjm+JQlGJ9R1RHU=
+github.com/schnerring/hugo-theme-gruvbox v0.0.0-20230624010643-b094b3de1024/go.mod h1:LsokERCQ3Tyl/2/9iu5v7rppoi5qAfEsppn3Nwf0Sj4=
 github.com/schollz/onetwothree v0.0.0-20190916161743-a09e6530494c h1:503PXSWQR7gXGemoNiHnFz76i8pLEgTF0tLDnBIU9DQ=
 github.com/schollz/onetwothree v0.0.0-20190916161743-a09e6530494c/go.mod h1:7GFph1UoE8pGK7EBI8rJLnfsBltHgQp0gb8VIBZoTOI=
 github.com/seanlane/gochowdown v0.0.0-20220603122033-5458dc7bd80a h1:ZnCjJaq/MoQv0fOo6L7eZvjhlwC/+IcSF1dJGeoRRRM=
