@@ -2,4 +2,4 @@ module github.com/gohugoio/hugoThemeSiteBuilder/cmd/hugothemesitebuilder/build/s
 
 go 1.16
 
-require github.com/gohugoio/hugoThemesSite v0.0.0-20230624091532-52630e7701e4
+require github.com/gohugoio/hugoThemesSite v0.0.0-20230630055933-d3c50fa883e4
