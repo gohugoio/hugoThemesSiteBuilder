@@ -789,6 +789,8 @@ github.com/jgazeau/shadocs v0.0.0-20230609203333-868a23e7eed2 h1:LwFtM+FJv29HrFK
 github.com/jgazeau/shadocs v0.0.0-20230609203333-868a23e7eed2/go.mod h1:lh2LpFEzd7eZ51bssSV8bKZh6pJCtWJhjs7aDBQ5sws=
 github.com/jgazeau/shadocs v0.0.0-20230613191955-7616b52b89bf h1:GwdKMUa8Cj9k2nRP60Fgi9BN2iprm8WGw/n/E+6QA/k=
 github.com/jgazeau/shadocs v0.0.0-20230613191955-7616b52b89bf/go.mod h1:lh2LpFEzd7eZ51bssSV8bKZh6pJCtWJhjs7aDBQ5sws=
+github.com/jgazeau/shadocs v0.0.0-20230701201054-e106903efaab h1:ukQD9W2F1HYUylk2B5EZfifuQ7Aiw4pEr7fBH1r3fsM=
+github.com/jgazeau/shadocs v0.0.0-20230701201054-e106903efaab/go.mod h1:lh2LpFEzd7eZ51bssSV8bKZh6pJCtWJhjs7aDBQ5sws=
 github.com/jgthms/bulma v0.0.0-20220508134905-3e00a8e6d0d0/go.mod h1:89FLBKXYFKfOKAoDeUT26V0pHGwzr205cMXAEqtAVOI=
 github.com/jimfrenette/hugo-starter v0.0.0-20210805024343-ed81461deb5c h1:f/eReCP+1UTv2hfZBcDBn53opChkNqAMFxhxjUilBIo=
 github.com/jimfrenette/hugo-starter v0.0.0-20210805024343-ed81461deb5c/go.mod h1:D1zakjaP6nB32NDhNZQPWIue7Zc/E4oMMIDsCxwclk0=
@@ -984,6 +986,8 @@ github.com/markdumay/hugo-theme-hinode v0.15.0 h1:P51nxnSQHzbuigcV5XnnIQuu3sXunj
 github.com/markdumay/hugo-theme-hinode v0.15.0/go.mod h1:GS7ODxya3k6knpGA9hjvu1BHdZt2E9M2Fpwks6kf67c=
 github.com/markdumay/hugo-theme-hinode v0.15.1 h1:l5qkYVJvUbg/dbb72Kgyfiqd6NyqtZBhjemrAfQ3RJY=
 github.com/markdumay/hugo-theme-hinode v0.15.1/go.mod h1:GS7ODxya3k6knpGA9hjvu1BHdZt2E9M2Fpwks6kf67c=
+github.com/markdumay/hugo-theme-hinode v0.15.2 h1:KxsuncgfWwJuusbMlKudonsjx7AXMxZtYsQ9NkbRQhg=
+github.com/markdumay/hugo-theme-hinode v0.15.2/go.mod h1:GS7ODxya3k6knpGA9hjvu1BHdZt2E9M2Fpwks6kf67c=
 github.com/marketempower/axiom v0.8.0 h1:zi9Fz4N0hu8EqKEALSkCUc9NnilnqmvZlyyWVfdcn5g=
 github.com/marketempower/axiom v0.8.0/go.mod h1:yBi32+wVWUXnGDYjQ4tqXwcGAuSP8lOhOm1jgxN7SCA=
 github.com/matcornic/hugo-theme-learn v0.0.0-20211028190410-e817f53d690d h1:p7ktiW/GnHccjB9oO5YGY7us5v/oHmkyF0C7EDZFM3s=
