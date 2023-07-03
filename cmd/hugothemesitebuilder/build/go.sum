@@ -938,6 +938,8 @@ github.com/luizdepra/hugo-coder v0.0.0-20230614132806-86ed09e0fe61 h1:HSKwVkxjFp
 github.com/luizdepra/hugo-coder v0.0.0-20230614132806-86ed09e0fe61/go.mod h1:9EQBf2rU+NPjlohGuKcEgdqSeOc3tIQoOty4xPpuUQ4=
 github.com/luizdepra/hugo-coder v0.0.0-20230619122100-e0969a4ab96d h1:rvGecLUfLjaqYrg6ZDoWxaVYKBnssR9UXy0I1G0tkKo=
 github.com/luizdepra/hugo-coder v0.0.0-20230619122100-e0969a4ab96d/go.mod h1:9EQBf2rU+NPjlohGuKcEgdqSeOc3tIQoOty4xPpuUQ4=
+github.com/luizdepra/hugo-coder v0.0.0-20230702231252-205879463092 h1:nHMxKZRwYhjRnKvUqrDD/hboT1JCvdn8AAgYncIFvtc=
+github.com/luizdepra/hugo-coder v0.0.0-20230702231252-205879463092/go.mod h1:9EQBf2rU+NPjlohGuKcEgdqSeOc3tIQoOty4xPpuUQ4=
 github.com/lxndrblz/anatole v1.12.0 h1:+3cmraXdZTcUwzW4wVB/hLeQOyZOIUZOXtxnY7vcCf8=
 github.com/lxndrblz/anatole v1.12.0/go.mod h1:hy61SRyUDKaWw2P+cERt9UPde5guWyVKgtjdzRF5bfI=
 github.com/lxndrblz/anatole v1.13.0 h1:H3f6kEZJWSPApJyvWSEee6L+rjWY896peMbSFpY9Eks=
@@ -1560,6 +1562,8 @@ github.com/wowchemy/starter-hugo-academic v0.0.0-20230618220814-4c178e678dc8 h1:
 github.com/wowchemy/starter-hugo-academic v0.0.0-20230618220814-4c178e678dc8/go.mod h1:KUMtCtjw3hOP3uAp1FoyVxlc/vCRJyKbYADICB5rxP8=
 github.com/wowchemy/starter-hugo-academic v0.0.0-20230625020309-6f9ca12b3fc9 h1:sdrQI4t2UtXKq/XIVpnFFIEeDMDBUYbLT1z/V9faiRE=
 github.com/wowchemy/starter-hugo-academic v0.0.0-20230625020309-6f9ca12b3fc9/go.mod h1:KUMtCtjw3hOP3uAp1FoyVxlc/vCRJyKbYADICB5rxP8=
+github.com/wowchemy/starter-hugo-academic v0.0.0-20230702015857-5aa9ebe2aaf9 h1:8zeZbIGOm58QryoXh1smXmn2pXJCAG1TZGYXJ8Z5fMU=
+github.com/wowchemy/starter-hugo-academic v0.0.0-20230702015857-5aa9ebe2aaf9/go.mod h1:KUMtCtjw3hOP3uAp1FoyVxlc/vCRJyKbYADICB5rxP8=
 github.com/wowchemy/wowchemy-hugo-themes/modules/wowchemy-core v0.1.0/go.mod h1:kJwI9H8dicHQCnP8G9EvUDI+oNg/yXcGsjGjwjXuM8I=
 github.com/wowchemy/wowchemy-hugo-themes/modules/wowchemy-core v0.2.0/go.mod h1:kJwI9H8dicHQCnP8G9EvUDI+oNg/yXcGsjGjwjXuM8I=
 github.com/wowchemy/wowchemy-hugo-themes/modules/wowchemy-plugin-netlify v1.0.0/go.mod h1:s40UgLsWfVyCLQ2F4F3dBcNfZOXcPGld7KxsKhZdzvM=
