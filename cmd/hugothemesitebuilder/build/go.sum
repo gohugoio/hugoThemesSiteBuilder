@@ -203,6 +203,8 @@ github.com/Mitrichius/hugo-theme-anubis v0.0.0-20230512172629-53cbfc5b10c7 h1:op
 github.com/Mitrichius/hugo-theme-anubis v0.0.0-20230512172629-53cbfc5b10c7/go.mod h1:FKD3NbdsQzL+cXsC3x99XD/t/Rd5EyhDlNBAxQhULbo=
 github.com/Mitrichius/hugo-theme-anubis v0.0.0-20230625102159-f6769864be13 h1:aWYk5WpYqoNsav+vgAcVZm9bOIxQFwR/kzu2SOfhUDE=
 github.com/Mitrichius/hugo-theme-anubis v0.0.0-20230625102159-f6769864be13/go.mod h1:FKD3NbdsQzL+cXsC3x99XD/t/Rd5EyhDlNBAxQhULbo=
+github.com/Mitrichius/hugo-theme-anubis v0.0.0-20230706141357-e2c522d776d7 h1:kzrgDev1W24wIKKBO9QQBGRWaGq83QQ+lumCJW2N4t8=
+github.com/Mitrichius/hugo-theme-anubis v0.0.0-20230706141357-e2c522d776d7/go.mod h1:FKD3NbdsQzL+cXsC3x99XD/t/Rd5EyhDlNBAxQhULbo=
 github.com/Morgscode/hugo-theme-spaced-blog v0.0.0-20230314002556-b35af33f4373 h1:1yNAf79yanTK1+LcT0IUf4iAXcnvKv1P46Dq/lHAf6I=
 github.com/Morgscode/hugo-theme-spaced-blog v0.0.0-20230314002556-b35af33f4373/go.mod h1:vGiTWnhY5rFpCahN5zEfrjeRAGKWvC69XrNl29zJGCI=
 github.com/MunifTanjim/minimo v2.10.1+incompatible h1:o7ckkriYLj/ER1ysqsmTFUJ1l82qWGdrz7bXCSjdqpY=
@@ -662,6 +664,8 @@ github.com/hotjuicew/hugo-JuiceBar v0.0.0-20230614143417-f93209b9559f h1:Mwm57Kg
 github.com/hotjuicew/hugo-JuiceBar v0.0.0-20230614143417-f93209b9559f/go.mod h1:hC9paSZdBbsbjdGS9OmcZBSXaQf1dADhObM+t5qvv5s=
 github.com/hotjuicew/hugo-JuiceBar v0.0.0-20230626130131-280704683664 h1:vsdOX0yKMZa3/WFyNv6hJ9vNkSuRIeJzya7wgA3QQuQ=
 github.com/hotjuicew/hugo-JuiceBar v0.0.0-20230626130131-280704683664/go.mod h1:hC9paSZdBbsbjdGS9OmcZBSXaQf1dADhObM+t5qvv5s=
+github.com/hotjuicew/hugo-JuiceBar v0.0.0-20230706071111-543d939c26d8 h1:uMdeuOOgeWju8HNQl/CCjRLzyWVrtKuBPHezvrnnLk0=
+github.com/hotjuicew/hugo-JuiceBar v0.0.0-20230706071111-543d939c26d8/go.mod h1:hC9paSZdBbsbjdGS9OmcZBSXaQf1dADhObM+t5qvv5s=
 github.com/htr3n/hyde-hyde v2.0.2+incompatible h1:CNMhiXOvTnTMwqIRTRMwTtt6yuhXn7Yi5nqIx1BP9KU=
 github.com/htr3n/hyde-hyde v2.0.2+incompatible/go.mod h1:g1t0wJ9s7VUgxMo9hQQOJPQy2LPcSnmAWHzm8a4wbdM=
 github.com/httpsecure/hugo-theme-red-rose v0.0.0-20221016191510-ffd45c906689 h1:zRhPJwbcpwTSa5cD1qqYxJeGNSmBbvck/+T15CTBeb4=
@@ -888,6 +892,8 @@ github.com/leafee98/hugo-theme-flat v0.0.0-20230528143032-97c892077afd h1:mi857i
 github.com/leafee98/hugo-theme-flat v0.0.0-20230528143032-97c892077afd/go.mod h1:Oz7GRO6rOgv2JLFcCBQ8GPH61gsiutHuIY5qaZUXv4w=
 github.com/leafee98/hugo-theme-flat v0.0.0-20230629142237-e4e2844c3eba h1:Ta/vhJjLO4Q8Ye24ai0yMcgHt7M1v+S+QV9PPlKd3jo=
 github.com/leafee98/hugo-theme-flat v0.0.0-20230629142237-e4e2844c3eba/go.mod h1:Oz7GRO6rOgv2JLFcCBQ8GPH61gsiutHuIY5qaZUXv4w=
+github.com/leafee98/hugo-theme-flat v0.0.0-20230706072410-ad98c7238d2e h1:0wZnhS2826/xQHdRQrdjXU7QrVZdX43xQCblJgwORh8=
+github.com/leafee98/hugo-theme-flat v0.0.0-20230706072410-ad98c7238d2e/go.mod h1:Oz7GRO6rOgv2JLFcCBQ8GPH61gsiutHuIY5qaZUXv4w=
 github.com/leonardofaria/bento v1.0.0 h1:Y5thQdUADjpsMZaqwIU3f52rqYvKl6c/IJiqniDZBYQ=
 github.com/leonardofaria/bento v1.0.0/go.mod h1:Hbxd6tt8E89d4fleTMJi8Z36YqxvE50Cz4+onrFWYiY=
 github.com/leonhe/hugo_eiio v0.0.0-20220625022627-bbcd7a744107 h1:bPxrBZokbAid0pRPiXJGVtAiNe5A5x5/DJPR8Cnz37o=
@@ -1446,6 +1452,8 @@ github.com/thegeeklab/hugo-geekblog v0.23.6 h1:uqmoyqqJ44BvuhlCXI0We05njVCm946Oo
 github.com/thegeeklab/hugo-geekblog v0.23.6/go.mod h1:xwX0oPqfUdT2py6Elyo1RJk8mZF3mq7f0N6jAFS3RMk=
 github.com/thegeeklab/hugo-geekblog v0.23.7 h1:qM8kjJlom4TmBoHEohhJRgJT5N8RZzGQkLNx9bvLxgw=
 github.com/thegeeklab/hugo-geekblog v0.23.7/go.mod h1:xwX0oPqfUdT2py6Elyo1RJk8mZF3mq7f0N6jAFS3RMk=
+github.com/thegeeklab/hugo-geekblog v0.24.0 h1:FJCymFWcUrJ1tPKFRY+im6lJOGHviElpAJ1l3wdzk8A=
+github.com/thegeeklab/hugo-geekblog v0.24.0/go.mod h1:xwX0oPqfUdT2py6Elyo1RJk8mZF3mq7f0N6jAFS3RMk=
 github.com/thegeeklab/hugo-geekdoc v0.38.1 h1:ZBJIcR6BY/VBF65bAAD3iuLxq6HhOy8071T4ICXRzCg=
 github.com/thegeeklab/hugo-geekdoc v0.38.1/go.mod h1:XEAtAuJ3nRMshRupMW1xPZ7EVMleS87rmr+RklRamRY=
 github.com/thegeeklab/hugo-geekdoc v0.39.0 h1:mHcGKUupZqG51WABZss9ChE84sj1AqBbPJIiMoMmJ24=
