@@ -666,6 +666,8 @@ github.com/hotjuicew/hugo-JuiceBar v0.0.0-20230626130131-280704683664 h1:vsdOX0y
 github.com/hotjuicew/hugo-JuiceBar v0.0.0-20230626130131-280704683664/go.mod h1:hC9paSZdBbsbjdGS9OmcZBSXaQf1dADhObM+t5qvv5s=
 github.com/hotjuicew/hugo-JuiceBar v0.0.0-20230706071111-543d939c26d8 h1:uMdeuOOgeWju8HNQl/CCjRLzyWVrtKuBPHezvrnnLk0=
 github.com/hotjuicew/hugo-JuiceBar v0.0.0-20230706071111-543d939c26d8/go.mod h1:hC9paSZdBbsbjdGS9OmcZBSXaQf1dADhObM+t5qvv5s=
+github.com/hotjuicew/hugo-JuiceBar v0.0.0-20230707095440-fc3b599be64b h1:2AfFWVhPMJ/hR3Mh1jYqIgNmPveimrODfxQZt6wC4kA=
+github.com/hotjuicew/hugo-JuiceBar v0.0.0-20230707095440-fc3b599be64b/go.mod h1:hC9paSZdBbsbjdGS9OmcZBSXaQf1dADhObM+t5qvv5s=
 github.com/htr3n/hyde-hyde v2.0.2+incompatible h1:CNMhiXOvTnTMwqIRTRMwTtt6yuhXn7Yi5nqIx1BP9KU=
 github.com/htr3n/hyde-hyde v2.0.2+incompatible/go.mod h1:g1t0wJ9s7VUgxMo9hQQOJPQy2LPcSnmAWHzm8a4wbdM=
 github.com/httpsecure/hugo-theme-red-rose v0.0.0-20221016191510-ffd45c906689 h1:zRhPJwbcpwTSa5cD1qqYxJeGNSmBbvck/+T15CTBeb4=
@@ -1066,6 +1068,8 @@ github.com/nanxiaobei/hugo-paper v0.0.0-20230704070952-25331098e7b4 h1:rUwf/16kV
 github.com/nanxiaobei/hugo-paper v0.0.0-20230704070952-25331098e7b4/go.mod h1:CeRgawh+WFgm29TC2yGTPy9CAWkQaUABYejSFQDmL28=
 github.com/nanxiaobei/hugo-paper v0.0.0-20230705180833-e6ed9239d6aa h1:nkwO7tNrpJXLEbYxsBsvoHU9jkv8zZBkHpwkV8d1fVY=
 github.com/nanxiaobei/hugo-paper v0.0.0-20230705180833-e6ed9239d6aa/go.mod h1:CeRgawh+WFgm29TC2yGTPy9CAWkQaUABYejSFQDmL28=
+github.com/nanxiaobei/hugo-paper v0.0.0-20230707084602-779b82460332 h1:gHhBRrBa/2OolIDVQEHo1yLkCYJqIHDF1bXxI23BBng=
+github.com/nanxiaobei/hugo-paper v0.0.0-20230707084602-779b82460332/go.mod h1:CeRgawh+WFgm29TC2yGTPy9CAWkQaUABYejSFQDmL28=
 github.com/nanxstats/hugo-tanka v0.0.0-20210707221939-9bec4eba33e5 h1:ArKJMwXbgVVeIhpHxuDES/IoftMzOlk4mMB0tYHmUsY=
 github.com/nanxstats/hugo-tanka v0.0.0-20210707221939-9bec4eba33e5/go.mod h1:MpW+xmCZzgJK5cTtN7/k+nKAKSU7IR8Y3Y7Vt7rdm0c=
 github.com/naro143/hugo-coder-portfolio v0.0.0-20200903083500-255d92337c07 h1:sJcQpPI0wm1zKeX38i/A1RmpPGIN9c4YPMuOTek1woY=
@@ -1078,6 +1082,8 @@ github.com/negrel/hugo-theme-pico v0.0.0-20230327202537-2a57f5b17a65 h1:slIZRzj2
 github.com/negrel/hugo-theme-pico v0.0.0-20230327202537-2a57f5b17a65/go.mod h1:F+ajoXGGIAThW+0Xu17oY7QrBfv6TnHr9DyYLD4fhxI=
 github.com/negrel/hugo-theme-pico v0.0.0-20230419190831-ba41a4e98da8 h1:Q9Kwl8DLOHMihHpNUcic0oUfhX6u7w1kYTT4+PJqABg=
 github.com/negrel/hugo-theme-pico v0.0.0-20230419190831-ba41a4e98da8/go.mod h1:F+ajoXGGIAThW+0Xu17oY7QrBfv6TnHr9DyYLD4fhxI=
+github.com/negrel/hugo-theme-pico v0.0.0-20230707085618-8e8d593be254 h1:FJkzPQV7moxDX9YIiiaMqxkEmEq2x9/M2R5YsirntXc=
+github.com/negrel/hugo-theme-pico v0.0.0-20230707085618-8e8d593be254/go.mod h1:F+ajoXGGIAThW+0Xu17oY7QrBfv6TnHr9DyYLD4fhxI=
 github.com/nightswinger/hugo-theme-coyote v1.0.2 h1:fwwzA/0Smx9eJksuHMJbm7yRsrGvXEbOn4+NblFaSS4=
 github.com/nightswinger/hugo-theme-coyote v1.0.2/go.mod h1:s/6YLrlqVrsSb5cli1GQjQ/bYfwyNlIg8vcuXT37acw=
 github.com/niklasbuschmann/contrast-hugo v0.0.0-20210313140659-9b3ec3d0243d h1:/C/SBnlNSDmtO/NomZamb1QSfMAouNG9/oqtUx45TvQ=
@@ -1698,6 +1704,8 @@ gitlab.com/ian-s-mcb/smigle-hugo-theme v0.0.0-20210831185208-13c241e8ab83 h1:aL5
 gitlab.com/ian-s-mcb/smigle-hugo-theme v0.0.0-20210831185208-13c241e8ab83/go.mod h1:NTH/777MQHJdou8Yo/baECwBtDwaWPaCWrITwE3816c=
 gitlab.com/ian-s-mcb/smigle-hugo-theme v0.0.0-20230626135648-e229749af106 h1:VWOXhHflEL8CjPAbimUw4j4po0O/M8nX0pZ4vBGfWgI=
 gitlab.com/ian-s-mcb/smigle-hugo-theme v0.0.0-20230626135648-e229749af106/go.mod h1:NTH/777MQHJdou8Yo/baECwBtDwaWPaCWrITwE3816c=
+gitlab.com/ian-s-mcb/smigle-hugo-theme v0.0.0-20230707022917-857deb9edf36 h1:mg0aLjvDItjlMN2MK0Zpoou4dRJB6gbh1QEUbOS/S7Q=
+gitlab.com/ian-s-mcb/smigle-hugo-theme v0.0.0-20230707022917-857deb9edf36/go.mod h1:NTH/777MQHJdou8Yo/baECwBtDwaWPaCWrITwE3816c=
 gitlab.com/kskarthik/monopriv v0.0.0-20200526110241-17ac34952952 h1:w0OGzA0bM05MJjNnESs7Lnn6BVpWPcmSiAkAorIEE5A=
 gitlab.com/kskarthik/monopriv v0.0.0-20200526110241-17ac34952952/go.mod h1:t9GiOC9mywBJPLM81UYoUv462rgAwEIUwfbVLLbMYgM=
 gitlab.com/kskarthik/resto-hugo v0.0.0-20200526110347-8d2d566dfec7 h1:VdHX0K297tRYkmTKwqF/FopJiykd3j65c/ZddrjpLJo=
