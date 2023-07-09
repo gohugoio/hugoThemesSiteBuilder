@@ -459,7 +459,7 @@ require (
 	gitlab.com/VincentTam/huginn v0.0.0-20190817135446-c6cfb0ab831c // indirect
 	gitlab.com/avron/gruvhugo v0.0.0-20230515125413-99971952d6c3 // indirect
 	gitlab.com/gabmus/hugo-ficurinia v0.0.0-20230422160211-4395cd9b6921 // indirect
-	gitlab.com/ian-s-mcb/smigle-hugo-theme v0.0.0-20230707022917-857deb9edf36 // indirect
+	gitlab.com/ian-s-mcb/smigle-hugo-theme v0.0.0-20230708194324-eec5426e7d20 // indirect
 	gitlab.com/kskarthik/monopriv v0.0.0-20200526110241-17ac34952952 // indirect
 	gitlab.com/kskarthik/resto-hugo v0.0.0-20200526110347-8d2d566dfec7 // indirect
 	gitlab.com/m-e-leypold/brutalist-minimalist-gohugo-theme v0.0.0-20220403145752-739f8ff2d55f // indirect
