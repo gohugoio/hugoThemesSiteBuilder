@@ -42,6 +42,8 @@ github.com/AmazingRise/hugo-theme-diary v0.0.0-20230524113400-1809a332e9f8 h1:TV
 github.com/AmazingRise/hugo-theme-diary v0.0.0-20230524113400-1809a332e9f8/go.mod h1:jFlSWwFHa+nHPenO/b8j3bsMtN/bnsqlWOBK7OxB/Y4=
 github.com/AmazingRise/hugo-theme-diary v0.0.0-20230621032726-ea56656b2f01 h1:t/N7FQnGeS6Ynvp4bvFdXrhQ9NJMBoFLKk7RCiyh038=
 github.com/AmazingRise/hugo-theme-diary v0.0.0-20230621032726-ea56656b2f01/go.mod h1:jFlSWwFHa+nHPenO/b8j3bsMtN/bnsqlWOBK7OxB/Y4=
+github.com/AmazingRise/hugo-theme-diary v0.0.0-20230710023300-b7d98d543a67 h1:COdAiei9h2oW5DkldX0cvGm7OIXEREZCwHtpwkf1aZY=
+github.com/AmazingRise/hugo-theme-diary v0.0.0-20230710023300-b7d98d543a67/go.mod h1:jFlSWwFHa+nHPenO/b8j3bsMtN/bnsqlWOBK7OxB/Y4=
 github.com/AminZibayi/Corporio v0.0.0-20230308115028-6d664cde3548 h1:Ah/OQXiTXUeFJHcI8flqSL6AMXMhNF2ML6KR6CxIYiQ=
 github.com/AminZibayi/Corporio v0.0.0-20230308115028-6d664cde3548/go.mod h1:Tyg8ZeRgQt7trONwr4HCiG7xuZ9TM/3aSsrpK8aO5pE=
 github.com/AminZibayi/Corporio v0.0.0-20230626201858-3d85865a2ded h1:WUArh5mb+qiqeNLKqBGgwNyW9wqsEd4vKFrkNzuoS2w=
@@ -263,6 +265,8 @@ github.com/Vimux/mainroad v0.0.0-20230529170340-81795f3149f1 h1:pozi2KZrphfBUni3
 github.com/Vimux/mainroad v0.0.0-20230529170340-81795f3149f1/go.mod h1:13Sfg07PTbKTuzennbP0eC0Od7pbpfaxVcTQZWKRZeU=
 github.com/Vimux/mainroad v0.0.0-20230531161903-4c82ea8ec7f6 h1:+dZE34oyqFVtk1JVb/MxaymP9x5D9ChUdL9D1UdTTG4=
 github.com/Vimux/mainroad v0.0.0-20230531161903-4c82ea8ec7f6/go.mod h1:13Sfg07PTbKTuzennbP0eC0Od7pbpfaxVcTQZWKRZeU=
+github.com/Vimux/mainroad v0.0.0-20230710145320-328722919cb7 h1:mokIo0MUzflKP+58WdxeYAPE7hA3YkG000eMXU/hA8Q=
+github.com/Vimux/mainroad v0.0.0-20230710145320-328722919cb7/go.mod h1:13Sfg07PTbKTuzennbP0eC0Od7pbpfaxVcTQZWKRZeU=
 github.com/WingLim/hugo-tania v1.9.3 h1:dmxbWDmQMWw/xUdhV1CYtyxYXSbJpeYgJwojDCxnilY=
 github.com/WingLim/hugo-tania v1.9.3/go.mod h1:dlKyBD3QGdzGk50VequqA+PStaePmTPc1qlgZrDZB94=
 github.com/Xzya/hugo-material-blog v0.100.2 h1:DZ5eKIFpp/LkJn++rWwmQiWX44G9EJ2yTXsp5ySdaLA=
@@ -672,6 +676,8 @@ github.com/hotjuicew/hugo-JuiceBar v0.0.0-20230706071111-543d939c26d8 h1:uMdeuOO
 github.com/hotjuicew/hugo-JuiceBar v0.0.0-20230706071111-543d939c26d8/go.mod h1:hC9paSZdBbsbjdGS9OmcZBSXaQf1dADhObM+t5qvv5s=
 github.com/hotjuicew/hugo-JuiceBar v0.0.0-20230707095440-fc3b599be64b h1:2AfFWVhPMJ/hR3Mh1jYqIgNmPveimrODfxQZt6wC4kA=
 github.com/hotjuicew/hugo-JuiceBar v0.0.0-20230707095440-fc3b599be64b/go.mod h1:hC9paSZdBbsbjdGS9OmcZBSXaQf1dADhObM+t5qvv5s=
+github.com/hotjuicew/hugo-JuiceBar v0.0.0-20230710093148-095131a36362 h1:iUTmaaEGJedtY721fSHUr7XVXoFjiMzmXGenn1P34Pg=
+github.com/hotjuicew/hugo-JuiceBar v0.0.0-20230710093148-095131a36362/go.mod h1:hC9paSZdBbsbjdGS9OmcZBSXaQf1dADhObM+t5qvv5s=
 github.com/htr3n/hyde-hyde v2.0.2+incompatible h1:CNMhiXOvTnTMwqIRTRMwTtt6yuhXn7Yi5nqIx1BP9KU=
 github.com/htr3n/hyde-hyde v2.0.2+incompatible/go.mod h1:g1t0wJ9s7VUgxMo9hQQOJPQy2LPcSnmAWHzm8a4wbdM=
 github.com/httpsecure/hugo-theme-red-rose v0.0.0-20221016191510-ffd45c906689 h1:zRhPJwbcpwTSa5cD1qqYxJeGNSmBbvck/+T15CTBeb4=
@@ -1165,6 +1171,8 @@ github.com/onweru/compose v0.0.0-20230704180205-99e73179ad8a h1:W0RBspNDQqSV2G+w
 github.com/onweru/compose v0.0.0-20230704180205-99e73179ad8a/go.mod h1:tf1kQIBUcwJ/3mRFU5eiMrMvsDScVTK2IEFsZE3hZOc=
 github.com/onweru/compose v0.0.0-20230709170553-cdf6b3d268e3 h1:LQ9aw508QrowSWfr8m7Q43AelhGTaNhX+obnkCWefKg=
 github.com/onweru/compose v0.0.0-20230709170553-cdf6b3d268e3/go.mod h1:tf1kQIBUcwJ/3mRFU5eiMrMvsDScVTK2IEFsZE3hZOc=
+github.com/onweru/compose v0.0.0-20230710101129-3be652e31d8f h1:Qe4yXODT7mADH6NzQituBI0b4Wqf0ZLgrdjZukI8z24=
+github.com/onweru/compose v0.0.0-20230710101129-3be652e31d8f/go.mod h1:tf1kQIBUcwJ/3mRFU5eiMrMvsDScVTK2IEFsZE3hZOc=
 github.com/onweru/hugo-swift-theme v2.0.0+incompatible h1:UGc/TiOzqcSnNyfkkKoU8vQ9wGQTBmLjkblGcPhnzjM=
 github.com/onweru/hugo-swift-theme v2.0.0+incompatible/go.mod h1:Flki1A7Xnz36putWgud7Dmfqn4wIwoiAQO1pnNb4IOs=
 github.com/onweru/newsroom v0.0.0-20230111195145-36d2b8bd39ec h1:RxeC/8kd6lEFeeeqRLSPpR9NWY1qSrOAAAj7mPNNnfs=
