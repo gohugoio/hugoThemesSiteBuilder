@@ -1173,6 +1173,8 @@ github.com/onweru/compose v0.0.0-20230709170553-cdf6b3d268e3 h1:LQ9aw508QrowSWfr
 github.com/onweru/compose v0.0.0-20230709170553-cdf6b3d268e3/go.mod h1:tf1kQIBUcwJ/3mRFU5eiMrMvsDScVTK2IEFsZE3hZOc=
 github.com/onweru/compose v0.0.0-20230710101129-3be652e31d8f h1:Qe4yXODT7mADH6NzQituBI0b4Wqf0ZLgrdjZukI8z24=
 github.com/onweru/compose v0.0.0-20230710101129-3be652e31d8f/go.mod h1:tf1kQIBUcwJ/3mRFU5eiMrMvsDScVTK2IEFsZE3hZOc=
+github.com/onweru/compose v0.0.0-20230711080705-2b9d64cae2c3 h1:SXxS0PYINuQP1CQENvf1xjSZv9ZRr9EN9O2rj8RP31g=
+github.com/onweru/compose v0.0.0-20230711080705-2b9d64cae2c3/go.mod h1:tf1kQIBUcwJ/3mRFU5eiMrMvsDScVTK2IEFsZE3hZOc=
 github.com/onweru/hugo-swift-theme v2.0.0+incompatible h1:UGc/TiOzqcSnNyfkkKoU8vQ9wGQTBmLjkblGcPhnzjM=
 github.com/onweru/hugo-swift-theme v2.0.0+incompatible/go.mod h1:Flki1A7Xnz36putWgud7Dmfqn4wIwoiAQO1pnNb4IOs=
 github.com/onweru/newsroom v0.0.0-20230111195145-36d2b8bd39ec h1:RxeC/8kd6lEFeeeqRLSPpR9NWY1qSrOAAAj7mPNNnfs=
@@ -1367,6 +1369,8 @@ github.com/schnerring/hugo-theme-gruvbox v0.0.0-20230622041604-d247b1120f57 h1:o
 github.com/schnerring/hugo-theme-gruvbox v0.0.0-20230622041604-d247b1120f57/go.mod h1:LsokERCQ3Tyl/2/9iu5v7rppoi5qAfEsppn3Nwf0Sj4=
 github.com/schnerring/hugo-theme-gruvbox v0.0.0-20230624010643-b094b3de1024 h1:2NiZLxxK6VSkzmWnt2QauFqSRZKSYjm+JQlGJ9R1RHU=
 github.com/schnerring/hugo-theme-gruvbox v0.0.0-20230624010643-b094b3de1024/go.mod h1:LsokERCQ3Tyl/2/9iu5v7rppoi5qAfEsppn3Nwf0Sj4=
+github.com/schnerring/hugo-theme-gruvbox v0.0.0-20230711155305-0563ca699b04 h1:UgVnuFlPqbs91cZCxNfFIsWfkNO3D8zPkeQSmfoOY0k=
+github.com/schnerring/hugo-theme-gruvbox v0.0.0-20230711155305-0563ca699b04/go.mod h1:GyEO4GOxgOqN6GEa6e5K996Gy75GHFKFcED2dX7xbns=
 github.com/schollz/onetwothree v0.0.0-20190916161743-a09e6530494c h1:503PXSWQR7gXGemoNiHnFz76i8pLEgTF0tLDnBIU9DQ=
 github.com/schollz/onetwothree v0.0.0-20190916161743-a09e6530494c/go.mod h1:7GFph1UoE8pGK7EBI8rJLnfsBltHgQp0gb8VIBZoTOI=
 github.com/seanlane/gochowdown v0.0.0-20220603122033-5458dc7bd80a h1:ZnCjJaq/MoQv0fOo6L7eZvjhlwC/+IcSF1dJGeoRRRM=
@@ -1500,6 +1504,8 @@ github.com/thegeeklab/hugo-geekdoc v0.39.6 h1:ifn3gpsoGsU98lFOc1GrQAxmUu2ffyKXKz
 github.com/thegeeklab/hugo-geekdoc v0.39.6/go.mod h1:XEAtAuJ3nRMshRupMW1xPZ7EVMleS87rmr+RklRamRY=
 github.com/thegeeklab/hugo-geekdoc v0.39.7 h1:2pudyvzV8oD5E/I2++NcVfWbT+8m5XcC9GSLwMuTx78=
 github.com/thegeeklab/hugo-geekdoc v0.39.7/go.mod h1:XEAtAuJ3nRMshRupMW1xPZ7EVMleS87rmr+RklRamRY=
+github.com/thegeeklab/hugo-geekdoc v0.40.0 h1:/E2HHvOqvhA4RZy7eCICTa0aekEdKId3UMPbBwdGIt0=
+github.com/thegeeklab/hugo-geekdoc v0.40.0/go.mod h1:XEAtAuJ3nRMshRupMW1xPZ7EVMleS87rmr+RklRamRY=
 github.com/thingsym/hugo-theme-techdoc v0.9.9 h1:7eHNfuf0x86MtLmUPhKCUoQ6cR/Iuwqm9TPtHtuUAkc=
 github.com/thingsym/hugo-theme-techdoc v0.9.9/go.mod h1:HgH3EWQ4j2sDjNP8UBio6zyZim8RnfJCY1gTWxVGcxA=
 github.com/thomasheller/crab v1.0.0 h1:44e23bkxvfoipejOJI0UT9IvhLvPTdk7P4aDsgL3T40=
