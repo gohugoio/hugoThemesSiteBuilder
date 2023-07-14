@@ -384,6 +384,8 @@ github.com/boratanrikulu/eternity v0.0.0-20230624191849-441c06c70838 h1:5MpAY6MF
 github.com/boratanrikulu/eternity v0.0.0-20230624191849-441c06c70838/go.mod h1:oTxriBGTETn/Saurq+nI5noIRiNG4/kpBMiroG2qgoM=
 github.com/boratanrikulu/eternity v0.0.0-20230625103638-19a478ff2933 h1:PcYKcKR8CZRthHLpDigOe+PDPBsTpqfebR1TjL4YBE0=
 github.com/boratanrikulu/eternity v0.0.0-20230625103638-19a478ff2933/go.mod h1:oTxriBGTETn/Saurq+nI5noIRiNG4/kpBMiroG2qgoM=
+github.com/boratanrikulu/eternity v0.0.0-20230713154606-bfd81c055280 h1:tbuepphH/dDaw4Y5y9CnS+/cUrCuvU+MA52tE2G2Mtw=
+github.com/boratanrikulu/eternity v0.0.0-20230713154606-bfd81c055280/go.mod h1:oTxriBGTETn/Saurq+nI5noIRiNG4/kpBMiroG2qgoM=
 github.com/brycematheson/allegiant v0.0.0-20161024030126-4db3e8fe3a01 h1:HV/QUp8P/7mVJLFMAkhQ6CoNr5/SalGxU0p9hJEc/LA=
 github.com/brycematheson/allegiant v0.0.0-20161024030126-4db3e8fe3a01/go.mod h1:n4s7O9CIJgRlnvJFHr2L5asHj3ITIEUjdfVBGZAInBk=
 github.com/bul-ikana/hugo-cards v0.0.0-20211031232746-55e303495347 h1:UHhqtMNM8NBvnjrDvZ+rcGkbylFMLmSg9Vidl3i2DJo=
@@ -972,6 +974,8 @@ github.com/luizdepra/hugo-coder v0.0.0-20230703004508-1ac9df38a59a h1:DReKI1UojT
 github.com/luizdepra/hugo-coder v0.0.0-20230703004508-1ac9df38a59a/go.mod h1:9EQBf2rU+NPjlohGuKcEgdqSeOc3tIQoOty4xPpuUQ4=
 github.com/luizdepra/hugo-coder v0.0.0-20230712172424-8e511854538e h1:PBusi7vuH35MMkytKK9d+FRSWy5FQvDjR+dvceJrb5E=
 github.com/luizdepra/hugo-coder v0.0.0-20230712172424-8e511854538e/go.mod h1:9EQBf2rU+NPjlohGuKcEgdqSeOc3tIQoOty4xPpuUQ4=
+github.com/luizdepra/hugo-coder v0.0.0-20230713135121-c3df12d0bbc2 h1:XkDRebpj2QYMbeHo1R/ToVppWUQXSpooR69aRCiLsog=
+github.com/luizdepra/hugo-coder v0.0.0-20230713135121-c3df12d0bbc2/go.mod h1:9EQBf2rU+NPjlohGuKcEgdqSeOc3tIQoOty4xPpuUQ4=
 github.com/lxndrblz/anatole v1.12.0 h1:+3cmraXdZTcUwzW4wVB/hLeQOyZOIUZOXtxnY7vcCf8=
 github.com/lxndrblz/anatole v1.12.0/go.mod h1:hy61SRyUDKaWw2P+cERt9UPde5guWyVKgtjdzRF5bfI=
 github.com/lxndrblz/anatole v1.13.0 h1:H3f6kEZJWSPApJyvWSEee6L+rjWY896peMbSFpY9Eks=
@@ -1385,6 +1389,8 @@ github.com/schnerring/hugo-theme-gruvbox v0.0.0-20230624010643-b094b3de1024 h1:2
 github.com/schnerring/hugo-theme-gruvbox v0.0.0-20230624010643-b094b3de1024/go.mod h1:LsokERCQ3Tyl/2/9iu5v7rppoi5qAfEsppn3Nwf0Sj4=
 github.com/schnerring/hugo-theme-gruvbox v0.0.0-20230711155305-0563ca699b04 h1:UgVnuFlPqbs91cZCxNfFIsWfkNO3D8zPkeQSmfoOY0k=
 github.com/schnerring/hugo-theme-gruvbox v0.0.0-20230711155305-0563ca699b04/go.mod h1:GyEO4GOxgOqN6GEa6e5K996Gy75GHFKFcED2dX7xbns=
+github.com/schnerring/hugo-theme-gruvbox v0.0.0-20230713012453-25641c2515c7 h1:hsaELFfMBqJTE9kvSyrSfuslnYo9KR+K8MQVRBy37Ek=
+github.com/schnerring/hugo-theme-gruvbox v0.0.0-20230713012453-25641c2515c7/go.mod h1:GyEO4GOxgOqN6GEa6e5K996Gy75GHFKFcED2dX7xbns=
 github.com/schollz/onetwothree v0.0.0-20190916161743-a09e6530494c h1:503PXSWQR7gXGemoNiHnFz76i8pLEgTF0tLDnBIU9DQ=
 github.com/schollz/onetwothree v0.0.0-20190916161743-a09e6530494c/go.mod h1:7GFph1UoE8pGK7EBI8rJLnfsBltHgQp0gb8VIBZoTOI=
 github.com/seanlane/gochowdown v0.0.0-20220603122033-5458dc7bd80a h1:ZnCjJaq/MoQv0fOo6L7eZvjhlwC/+IcSF1dJGeoRRRM=
