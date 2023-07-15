@@ -359,7 +359,7 @@ require (
 	github.com/salcan/BeyondNothing v0.0.0-20190908210852-2931c2abf096 // indirect
 	github.com/salsysd/hugo-assembly v0.0.0-20181002012130-b536220bd067 // indirect
 	github.com/samrobbins85/hugo-developer-portfolio v0.0.0-20230421080835-4d3db20b1574 // indirect
-	github.com/sbruder/spectral v0.0.0-20230529161752-051ab43429d6 // indirect
+	github.com/sbruder/spectral v0.0.0-20230714132658-cbd3a2877cfd // indirect
 	github.com/schmanat/hugo-highlights-theme v0.0.0-20200409134000-79eb66a32c74 // indirect
 	github.com/schnerring/hugo-theme-gruvbox v0.0.0-20230713012453-25641c2515c7 // indirect
 	github.com/schollz/onetwothree v0.0.0-20190916161743-a09e6530494c // indirect
