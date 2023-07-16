@@ -296,6 +296,8 @@ github.com/adityatelange/hugo-PaperMod v0.0.0-20230604125955-4a924cef5408 h1:ozg
 github.com/adityatelange/hugo-PaperMod v0.0.0-20230604125955-4a924cef5408/go.mod h1:HCHxNMKYdGafUYjVV3ICiAqznZK2yH0iI53jqcDFDdQ=
 github.com/adityatelange/hugo-PaperMod v0.0.0-20230709054043-804a8682f3f0 h1:pZZn2HWJfv8mLqLoRSAaHw1klbII1w3ZEhpbT3VRUM0=
 github.com/adityatelange/hugo-PaperMod v0.0.0-20230709054043-804a8682f3f0/go.mod h1:HCHxNMKYdGafUYjVV3ICiAqznZK2yH0iI53jqcDFDdQ=
+github.com/adityatelange/hugo-PaperMod v0.0.0-20230715062230-750feb9cc9ba h1:kGnJvHyCHVpwouexxeYOhTOvIVd5EWEETYGgWURSYEg=
+github.com/adityatelange/hugo-PaperMod v0.0.0-20230715062230-750feb9cc9ba/go.mod h1:HCHxNMKYdGafUYjVV3ICiAqznZK2yH0iI53jqcDFDdQ=
 github.com/aerohub/hugo-faq-theme v0.0.0-20161016225807-e6ed082c15bc h1:U7NZzqVuAs73vHEkpDxvypyk5v/jKxtT2neVUXxN5aY=
 github.com/aerohub/hugo-faq-theme v0.0.0-20161016225807-e6ed082c15bc/go.mod h1:EedoO5hm5mrYswWcGuitAoikrhYrNkyx70d28VeVRAI=
 github.com/aerohub/hugo-identity-theme v0.0.0-20171209130528-ca4e10de2297 h1:gYjk3ZXeWSNT94ZoigTzc8hKkxdFodKmxQ4ztER6JN4=
@@ -386,6 +388,8 @@ github.com/boratanrikulu/eternity v0.0.0-20230625103638-19a478ff2933 h1:PcYKcKR8
 github.com/boratanrikulu/eternity v0.0.0-20230625103638-19a478ff2933/go.mod h1:oTxriBGTETn/Saurq+nI5noIRiNG4/kpBMiroG2qgoM=
 github.com/boratanrikulu/eternity v0.0.0-20230713154606-bfd81c055280 h1:tbuepphH/dDaw4Y5y9CnS+/cUrCuvU+MA52tE2G2Mtw=
 github.com/boratanrikulu/eternity v0.0.0-20230713154606-bfd81c055280/go.mod h1:oTxriBGTETn/Saurq+nI5noIRiNG4/kpBMiroG2qgoM=
+github.com/boratanrikulu/eternity v0.0.0-20230715230741-6dc00ca29d9a h1:q9RLr/O9p5hODi2VMIVsVz6CZvus6wP5ojLu5nlxp88=
+github.com/boratanrikulu/eternity v0.0.0-20230715230741-6dc00ca29d9a/go.mod h1:oTxriBGTETn/Saurq+nI5noIRiNG4/kpBMiroG2qgoM=
 github.com/brycematheson/allegiant v0.0.0-20161024030126-4db3e8fe3a01 h1:HV/QUp8P/7mVJLFMAkhQ6CoNr5/SalGxU0p9hJEc/LA=
 github.com/brycematheson/allegiant v0.0.0-20161024030126-4db3e8fe3a01/go.mod h1:n4s7O9CIJgRlnvJFHr2L5asHj3ITIEUjdfVBGZAInBk=
 github.com/bul-ikana/hugo-cards v0.0.0-20211031232746-55e303495347 h1:UHhqtMNM8NBvnjrDvZ+rcGkbylFMLmSg9Vidl3i2DJo=
@@ -1582,6 +1586,8 @@ github.com/wayjam/hugo-theme-fluency v0.0.0-20220326153649-e8f8ae148206 h1:aglLv
 github.com/wayjam/hugo-theme-fluency v0.0.0-20220326153649-e8f8ae148206/go.mod h1:S7USIElCZhAp9tTul3zEH8FtmY8y2nJ+z5yT9UdylrI=
 github.com/wayjam/hugo-theme-fluency v0.0.0-20230510142908-20bb84f912c8 h1:UdV/O521uU9VZgN1EAaS5TCl7j8w2ysZyEt+4tIvDHE=
 github.com/wayjam/hugo-theme-fluency v0.0.0-20230510142908-20bb84f912c8/go.mod h1:S7USIElCZhAp9tTul3zEH8FtmY8y2nJ+z5yT9UdylrI=
+github.com/wayjam/hugo-theme-fluency v0.0.0-20230715093146-d0b9cab37a9f h1:XNDAssM5ftvQvlUNxewPSb+86vMmvbeCxCryNs3htAI=
+github.com/wayjam/hugo-theme-fluency v0.0.0-20230715093146-d0b9cab37a9f/go.mod h1:S7USIElCZhAp9tTul3zEH8FtmY8y2nJ+z5yT9UdylrI=
 github.com/wayjam/hugo-theme-mixedpaper v0.0.0-20200816131211-367945f7d7c0 h1:ebvrgqiHbX+qfjJHQr9DRs9gOwnPyfRrApQ10vhT6VQ=
 github.com/wayjam/hugo-theme-mixedpaper v0.0.0-20200816131211-367945f7d7c0/go.mod h1:q+w9cArrnacJZhhqH5GWChInQuQX32i7PhpIzvy5O7w=
 github.com/wd/hugo-fabric v0.0.0-20191202002427-c416adb14920 h1:hDfoEpE2WbDFZeq7G4jZDcSiQPF+HjY5dLhXKBoy6VA=
