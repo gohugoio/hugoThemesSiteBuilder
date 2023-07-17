@@ -390,6 +390,8 @@ github.com/boratanrikulu/eternity v0.0.0-20230713154606-bfd81c055280 h1:tbuepphH
 github.com/boratanrikulu/eternity v0.0.0-20230713154606-bfd81c055280/go.mod h1:oTxriBGTETn/Saurq+nI5noIRiNG4/kpBMiroG2qgoM=
 github.com/boratanrikulu/eternity v0.0.0-20230715230741-6dc00ca29d9a h1:q9RLr/O9p5hODi2VMIVsVz6CZvus6wP5ojLu5nlxp88=
 github.com/boratanrikulu/eternity v0.0.0-20230715230741-6dc00ca29d9a/go.mod h1:oTxriBGTETn/Saurq+nI5noIRiNG4/kpBMiroG2qgoM=
+github.com/boratanrikulu/eternity v0.0.0-20230716161555-d58ccbee3fe6 h1:Xsfqhq1sD5F05DCUN1jKz0ZYGmeU9gcJl9Hcw8mHfeo=
+github.com/boratanrikulu/eternity v0.0.0-20230716161555-d58ccbee3fe6/go.mod h1:oTxriBGTETn/Saurq+nI5noIRiNG4/kpBMiroG2qgoM=
 github.com/brycematheson/allegiant v0.0.0-20161024030126-4db3e8fe3a01 h1:HV/QUp8P/7mVJLFMAkhQ6CoNr5/SalGxU0p9hJEc/LA=
 github.com/brycematheson/allegiant v0.0.0-20161024030126-4db3e8fe3a01/go.mod h1:n4s7O9CIJgRlnvJFHr2L5asHj3ITIEUjdfVBGZAInBk=
 github.com/bul-ikana/hugo-cards v0.0.0-20211031232746-55e303495347 h1:UHhqtMNM8NBvnjrDvZ+rcGkbylFMLmSg9Vidl3i2DJo=
@@ -1100,6 +1102,8 @@ github.com/nanxiaobei/hugo-paper v0.0.0-20230705180833-e6ed9239d6aa h1:nkwO7tNrp
 github.com/nanxiaobei/hugo-paper v0.0.0-20230705180833-e6ed9239d6aa/go.mod h1:CeRgawh+WFgm29TC2yGTPy9CAWkQaUABYejSFQDmL28=
 github.com/nanxiaobei/hugo-paper v0.0.0-20230707084602-779b82460332 h1:gHhBRrBa/2OolIDVQEHo1yLkCYJqIHDF1bXxI23BBng=
 github.com/nanxiaobei/hugo-paper v0.0.0-20230707084602-779b82460332/go.mod h1:CeRgawh+WFgm29TC2yGTPy9CAWkQaUABYejSFQDmL28=
+github.com/nanxiaobei/hugo-paper v0.0.0-20230716040751-f8eba3b591b2 h1:OqhVPNO/oR4RAkgCiAu/utNvVVStABBxGB+mnAxmsO0=
+github.com/nanxiaobei/hugo-paper v0.0.0-20230716040751-f8eba3b591b2/go.mod h1:CeRgawh+WFgm29TC2yGTPy9CAWkQaUABYejSFQDmL28=
 github.com/nanxstats/hugo-tanka v0.0.0-20210707221939-9bec4eba33e5 h1:ArKJMwXbgVVeIhpHxuDES/IoftMzOlk4mMB0tYHmUsY=
 github.com/nanxstats/hugo-tanka v0.0.0-20210707221939-9bec4eba33e5/go.mod h1:MpW+xmCZzgJK5cTtN7/k+nKAKSU7IR8Y3Y7Vt7rdm0c=
 github.com/naro143/hugo-coder-portfolio v0.0.0-20200903083500-255d92337c07 h1:sJcQpPI0wm1zKeX38i/A1RmpPGIN9c4YPMuOTek1woY=
@@ -1654,6 +1658,8 @@ github.com/wowchemy/starter-hugo-academic v0.0.0-20230702015857-5aa9ebe2aaf9 h1:
 github.com/wowchemy/starter-hugo-academic v0.0.0-20230702015857-5aa9ebe2aaf9/go.mod h1:KUMtCtjw3hOP3uAp1FoyVxlc/vCRJyKbYADICB5rxP8=
 github.com/wowchemy/starter-hugo-academic v0.0.0-20230709020121-c47a7d89b821 h1:oedlfjgfdAkxaV0VG9Tq8MO6wXTW1t2IDzaU4tqTKFE=
 github.com/wowchemy/starter-hugo-academic v0.0.0-20230709020121-c47a7d89b821/go.mod h1:KUMtCtjw3hOP3uAp1FoyVxlc/vCRJyKbYADICB5rxP8=
+github.com/wowchemy/starter-hugo-academic v0.0.0-20230716020513-12d2eb99a1e0 h1:NHy8jLwW39SuaPPzBZvRtaXnXaS1a/TUZAQRPba9IvU=
+github.com/wowchemy/starter-hugo-academic v0.0.0-20230716020513-12d2eb99a1e0/go.mod h1:KUMtCtjw3hOP3uAp1FoyVxlc/vCRJyKbYADICB5rxP8=
 github.com/wowchemy/wowchemy-hugo-themes/modules/wowchemy-core v0.1.0/go.mod h1:kJwI9H8dicHQCnP8G9EvUDI+oNg/yXcGsjGjwjXuM8I=
 github.com/wowchemy/wowchemy-hugo-themes/modules/wowchemy-core v0.2.0/go.mod h1:kJwI9H8dicHQCnP8G9EvUDI+oNg/yXcGsjGjwjXuM8I=
 github.com/wowchemy/wowchemy-hugo-themes/modules/wowchemy-plugin-netlify v1.0.0/go.mod h1:s40UgLsWfVyCLQ2F4F3dBcNfZOXcPGld7KxsKhZdzvM=
