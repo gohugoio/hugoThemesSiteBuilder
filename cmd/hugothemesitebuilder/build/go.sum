@@ -115,6 +115,8 @@ github.com/LordMathis/hugo-theme-nightfall v0.3.0 h1:aRQSqXmNF7m/YDU5xQOzsnEIoef
 github.com/LordMathis/hugo-theme-nightfall v0.3.0/go.mod h1:0tCPxAeg5+tWhv17517Q8Lti/TPh0KNyON/uferEU30=
 github.com/LordMathis/hugo-theme-nightfall v0.4.0 h1:TJEkfr9bdYmSSJPnsZ09L4l2R0ACAYZtZSVQnbvczSg=
 github.com/LordMathis/hugo-theme-nightfall v0.4.0/go.mod h1:0tCPxAeg5+tWhv17517Q8Lti/TPh0KNyON/uferEU30=
+github.com/LordMathis/hugo-theme-nightfall v0.5.0 h1:qQXM6jZcV44fX1xPAZxmbaQ7brJy75jagsKrJmsmf4w=
+github.com/LordMathis/hugo-theme-nightfall v0.5.0/go.mod h1:0tCPxAeg5+tWhv17517Q8Lti/TPh0KNyON/uferEU30=
 github.com/LordMathis/hugo-theme-nix v0.0.0-20230219120231-a66f39083658 h1:4qZCB4XnHTiOg+gfn3QjnKXv1rdk2yJ8heeiHuuLxqI=
 github.com/LordMathis/hugo-theme-nix v0.0.0-20230219120231-a66f39083658/go.mod h1:gNBtSKD6958hUOyfSq/DPk6sancXDm9u/ftQGr03Nf8=
 github.com/LordMathis/hugo-theme-nix v0.0.0-20230520172020-b4735abcfe60 h1:+fcat4gKh8XbK1xH04MkLADCJB5qre5RCgLKIB46ZiU=
@@ -257,6 +259,8 @@ github.com/Vimux/Binario v0.0.0-20230217154345-621ca48e95af h1:yF2XLdb8evrwCq2gh
 github.com/Vimux/Binario v0.0.0-20230217154345-621ca48e95af/go.mod h1:N0zYrDolgZfBpcsLvyv4DEgEmE5QwAB7wHCJ4AP6tdY=
 github.com/Vimux/Binario v0.0.0-20230425163422-01aeeee3d628 h1:Foz1UsmW4JhQa93qbCt+/3CJ1UHPGZUkgPtx2Mlh/hs=
 github.com/Vimux/Binario v0.0.0-20230425163422-01aeeee3d628/go.mod h1:N0zYrDolgZfBpcsLvyv4DEgEmE5QwAB7wHCJ4AP6tdY=
+github.com/Vimux/Binario v0.0.0-20230718165403-dcb23be68d05 h1:jJAPSIo3EJ9v5tIvfc3cUyC2tp/txAp9Y7DMSAWQKM4=
+github.com/Vimux/Binario v0.0.0-20230718165403-dcb23be68d05/go.mod h1:N0zYrDolgZfBpcsLvyv4DEgEmE5QwAB7wHCJ4AP6tdY=
 github.com/Vimux/mainroad v0.0.0-20230323133150-8a539f8baa1e h1:deYKwJTXXM9nlbk7GcrCiKviiyr2NgPXo842i5AzI50=
 github.com/Vimux/mainroad v0.0.0-20230323133150-8a539f8baa1e/go.mod h1:13Sfg07PTbKTuzennbP0eC0Od7pbpfaxVcTQZWKRZeU=
 github.com/Vimux/mainroad v0.0.0-20230415132637-e20f0b2b1ddf h1:47NH7dSS8ubCkhQw8udX0yAo+Nhxlp2PC2GZXaY9AIw=
@@ -271,6 +275,8 @@ github.com/Vimux/mainroad v0.0.0-20230531161903-4c82ea8ec7f6 h1:+dZE34oyqFVtk1JV
 github.com/Vimux/mainroad v0.0.0-20230531161903-4c82ea8ec7f6/go.mod h1:13Sfg07PTbKTuzennbP0eC0Od7pbpfaxVcTQZWKRZeU=
 github.com/Vimux/mainroad v0.0.0-20230710145320-328722919cb7 h1:mokIo0MUzflKP+58WdxeYAPE7hA3YkG000eMXU/hA8Q=
 github.com/Vimux/mainroad v0.0.0-20230710145320-328722919cb7/go.mod h1:13Sfg07PTbKTuzennbP0eC0Od7pbpfaxVcTQZWKRZeU=
+github.com/Vimux/mainroad v0.0.0-20230718171305-330cbefdb08b h1:vqzJd8snnaBIcQyCyTFC54lJB2HgRWE1eK3hx3Nb90s=
+github.com/Vimux/mainroad v0.0.0-20230718171305-330cbefdb08b/go.mod h1:13Sfg07PTbKTuzennbP0eC0Od7pbpfaxVcTQZWKRZeU=
 github.com/WingLim/hugo-tania v1.9.3 h1:dmxbWDmQMWw/xUdhV1CYtyxYXSbJpeYgJwojDCxnilY=
 github.com/WingLim/hugo-tania v1.9.3/go.mod h1:dlKyBD3QGdzGk50VequqA+PStaePmTPc1qlgZrDZB94=
 github.com/Xzya/hugo-material-blog v0.100.2 h1:DZ5eKIFpp/LkJn++rWwmQiWX44G9EJ2yTXsp5ySdaLA=
@@ -696,6 +702,8 @@ github.com/hotjuicew/hugo-JuiceBar v0.0.0-20230710093148-095131a36362 h1:iUTmaaE
 github.com/hotjuicew/hugo-JuiceBar v0.0.0-20230710093148-095131a36362/go.mod h1:hC9paSZdBbsbjdGS9OmcZBSXaQf1dADhObM+t5qvv5s=
 github.com/hotjuicew/hugo-JuiceBar v0.0.0-20230712115945-e82a124ebf2a h1:8hdoTvEYi/D8DKwMDhHRCqEwJKKsfDFsseBUXH7L3Zc=
 github.com/hotjuicew/hugo-JuiceBar v0.0.0-20230712115945-e82a124ebf2a/go.mod h1:hC9paSZdBbsbjdGS9OmcZBSXaQf1dADhObM+t5qvv5s=
+github.com/hotjuicew/hugo-JuiceBar v0.0.0-20230718090327-39ff44e5cfc3 h1:mlPNuSf551k5/3Zw3hCblJJTrb4kuqQgtAIrrr2Mk00=
+github.com/hotjuicew/hugo-JuiceBar v0.0.0-20230718090327-39ff44e5cfc3/go.mod h1:hC9paSZdBbsbjdGS9OmcZBSXaQf1dADhObM+t5qvv5s=
 github.com/htr3n/hyde-hyde v2.0.2+incompatible h1:CNMhiXOvTnTMwqIRTRMwTtt6yuhXn7Yi5nqIx1BP9KU=
 github.com/htr3n/hyde-hyde v2.0.2+incompatible/go.mod h1:g1t0wJ9s7VUgxMo9hQQOJPQy2LPcSnmAWHzm8a4wbdM=
 github.com/httpsecure/hugo-theme-red-rose v0.0.0-20221016191510-ffd45c906689 h1:zRhPJwbcpwTSa5cD1qqYxJeGNSmBbvck/+T15CTBeb4=
@@ -721,6 +729,8 @@ github.com/hugo-next/hugo-theme-next v4.5.0+incompatible h1:o9LA2PYanXyX7Se6xjUZ
 github.com/hugo-next/hugo-theme-next v4.5.0+incompatible/go.mod h1:d58SfYRRDZMt90HDyQVk1sUGACcdbHsEH6OdopnE5Fw=
 github.com/hugo-next/hugo-theme-next v4.5.2+incompatible h1:uXWu1wxZ7X++CcsCU8fV7jFMca/YDboTs9uMYZmfA54=
 github.com/hugo-next/hugo-theme-next v4.5.2+incompatible/go.mod h1:d58SfYRRDZMt90HDyQVk1sUGACcdbHsEH6OdopnE5Fw=
+github.com/hugo-next/hugo-theme-next v4.5.3+incompatible h1:QTA1KsDS6WWFt3ZMYe2YLowXsgLVg3zu1xuNAzgVBEE=
+github.com/hugo-next/hugo-theme-next v4.5.3+incompatible/go.mod h1:d58SfYRRDZMt90HDyQVk1sUGACcdbHsEH6OdopnE5Fw=
 github.com/hugo-sid/hugo-blog-awesome v0.0.0-20230325191718-ce9f89bda938 h1:4HeGzEBfiq9R680Tp7iAli/za5/u/Y9cNlIXm9PTo28=
 github.com/hugo-sid/hugo-blog-awesome v0.0.0-20230325191718-ce9f89bda938/go.mod h1:oRoqH9/bJDdyQqBoxI77O1oWAwVtn+fTng9MD3vR8A0=
 github.com/hugo-sid/hugo-blog-awesome v0.0.0-20230414161213-4afdfcbb47a3 h1:ToPdLBVybG0sNaS2cfjJQBzJb6+7f/03LK+VpUGP+O8=
@@ -827,6 +837,8 @@ github.com/jgazeau/shadocs v0.0.0-20230613191955-7616b52b89bf h1:GwdKMUa8Cj9k2nR
 github.com/jgazeau/shadocs v0.0.0-20230613191955-7616b52b89bf/go.mod h1:lh2LpFEzd7eZ51bssSV8bKZh6pJCtWJhjs7aDBQ5sws=
 github.com/jgazeau/shadocs v0.0.0-20230701201054-e106903efaab h1:ukQD9W2F1HYUylk2B5EZfifuQ7Aiw4pEr7fBH1r3fsM=
 github.com/jgazeau/shadocs v0.0.0-20230701201054-e106903efaab/go.mod h1:lh2LpFEzd7eZ51bssSV8bKZh6pJCtWJhjs7aDBQ5sws=
+github.com/jgazeau/shadocs v0.0.0-20230718200443-94723a1148c1 h1:0lATnToNE0bl5QFHpcJ1xIgEQuHyGM0uKD9DtfbFNnU=
+github.com/jgazeau/shadocs v0.0.0-20230718200443-94723a1148c1/go.mod h1:lh2LpFEzd7eZ51bssSV8bKZh6pJCtWJhjs7aDBQ5sws=
 github.com/jgthms/bulma v0.0.0-20220508134905-3e00a8e6d0d0/go.mod h1:89FLBKXYFKfOKAoDeUT26V0pHGwzr205cMXAEqtAVOI=
 github.com/jimfrenette/hugo-starter v0.0.0-20210805024343-ed81461deb5c h1:f/eReCP+1UTv2hfZBcDBn53opChkNqAMFxhxjUilBIo=
 github.com/jimfrenette/hugo-starter v0.0.0-20210805024343-ed81461deb5c/go.mod h1:D1zakjaP6nB32NDhNZQPWIue7Zc/E4oMMIDsCxwclk0=
