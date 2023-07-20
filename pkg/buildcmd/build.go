@@ -413,7 +413,7 @@ func (t *theme) checkLastMod() (warn warning, found bool) {
 	if !lastMod.IsZero() {
 		age := time.Since(lastMod)
 		ageYears := age.Hours() / 24 / 365
-		if ageYears > 2 {
+		if ageYears > 3 {
 			warn = themeWarningOld
 			found = true
 		}
