@@ -400,6 +400,8 @@ github.com/boratanrikulu/eternity v0.0.0-20230715230741-6dc00ca29d9a h1:q9RLr/O9
 github.com/boratanrikulu/eternity v0.0.0-20230715230741-6dc00ca29d9a/go.mod h1:oTxriBGTETn/Saurq+nI5noIRiNG4/kpBMiroG2qgoM=
 github.com/boratanrikulu/eternity v0.0.0-20230716161555-d58ccbee3fe6 h1:Xsfqhq1sD5F05DCUN1jKz0ZYGmeU9gcJl9Hcw8mHfeo=
 github.com/boratanrikulu/eternity v0.0.0-20230716161555-d58ccbee3fe6/go.mod h1:oTxriBGTETn/Saurq+nI5noIRiNG4/kpBMiroG2qgoM=
+github.com/boratanrikulu/eternity v0.0.0-20230719145913-5e895a461278 h1:MSgRQzmpDwkFEqoOSUxA9t84fMllwDYubtBpzCLBeAc=
+github.com/boratanrikulu/eternity v0.0.0-20230719145913-5e895a461278/go.mod h1:oTxriBGTETn/Saurq+nI5noIRiNG4/kpBMiroG2qgoM=
 github.com/brycematheson/allegiant v0.0.0-20161024030126-4db3e8fe3a01 h1:HV/QUp8P/7mVJLFMAkhQ6CoNr5/SalGxU0p9hJEc/LA=
 github.com/brycematheson/allegiant v0.0.0-20161024030126-4db3e8fe3a01/go.mod h1:n4s7O9CIJgRlnvJFHr2L5asHj3ITIEUjdfVBGZAInBk=
 github.com/bul-ikana/hugo-cards v0.0.0-20211031232746-55e303495347 h1:UHhqtMNM8NBvnjrDvZ+rcGkbylFMLmSg9Vidl3i2DJo=
@@ -839,6 +841,8 @@ github.com/jgazeau/shadocs v0.0.0-20230701201054-e106903efaab h1:ukQD9W2F1HYUylk
 github.com/jgazeau/shadocs v0.0.0-20230701201054-e106903efaab/go.mod h1:lh2LpFEzd7eZ51bssSV8bKZh6pJCtWJhjs7aDBQ5sws=
 github.com/jgazeau/shadocs v0.0.0-20230718200443-94723a1148c1 h1:0lATnToNE0bl5QFHpcJ1xIgEQuHyGM0uKD9DtfbFNnU=
 github.com/jgazeau/shadocs v0.0.0-20230718200443-94723a1148c1/go.mod h1:lh2LpFEzd7eZ51bssSV8bKZh6pJCtWJhjs7aDBQ5sws=
+github.com/jgazeau/shadocs v0.0.0-20230719220601-5b928aa85a29 h1:g26p+qUPsTDOa2rxRLTsA1WwsPU6kQHEgbOEPpGG26I=
+github.com/jgazeau/shadocs v0.0.0-20230719220601-5b928aa85a29/go.mod h1:lh2LpFEzd7eZ51bssSV8bKZh6pJCtWJhjs7aDBQ5sws=
 github.com/jgthms/bulma v0.0.0-20220508134905-3e00a8e6d0d0/go.mod h1:89FLBKXYFKfOKAoDeUT26V0pHGwzr205cMXAEqtAVOI=
 github.com/jimfrenette/hugo-starter v0.0.0-20210805024343-ed81461deb5c h1:f/eReCP+1UTv2hfZBcDBn53opChkNqAMFxhxjUilBIo=
 github.com/jimfrenette/hugo-starter v0.0.0-20210805024343-ed81461deb5c/go.mod h1:D1zakjaP6nB32NDhNZQPWIue7Zc/E4oMMIDsCxwclk0=
