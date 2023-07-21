@@ -41,7 +41,7 @@ require (
 	github.com/Masellum/hugo-theme-nostyleplease v0.0.0-20230429064057-1f0773883f34 // indirect
 	github.com/McShelby/hugo-theme-relearn v0.0.0-20230622170510-61ccf4e42f4f // indirect
 	github.com/MeiK2333/github-style v0.0.0-20221030070900-eee158a65892 // indirect
-	github.com/Mitrichius/hugo-theme-anubis v0.0.0-20230706141357-e2c522d776d7 // indirect
+	github.com/Mitrichius/hugo-theme-anubis v0.0.0-20230720170407-7f95692d9add // indirect
 	github.com/Morgscode/hugo-theme-spaced-blog v0.0.0-20230709210837-d9e6e9c4760a // indirect
 	github.com/MunifTanjim/minimo v2.10.1+incompatible // indirect
 	github.com/Nigh/tinyworks v0.0.0-20211102143612-3e258cc49e22 // indirect
