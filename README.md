@@ -143,9 +143,9 @@ In any other case, if a submission is found to be in violation of licence of the
 Themes with READMEs set up as marketing campaigns for other products (e.g. paid version of a free theme) will not be accepted.
 
 
-# Note on outdated themes
+# Outdated themes
 
-Themes that have not been updated in the past few years are removed as per the current policy. Even if your theme is fully functional, it is recommended that you periodically check and confirm its compatibility with the latest versions of Hugo.
+According to our current policy, themes that have not been updated within the last 3 years are deemed outdated and are removed. Even if your theme is fully functional, it is recommended that you periodically check and confirm its compatibility with the latest version of Hugo.
 
 # FAQ
 
