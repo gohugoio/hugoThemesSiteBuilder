@@ -1,7 +1,7 @@
 
 # Hugo themes
 
-This repository contains a list of themes developed by the Hugo community, which can be accessed at [themes.gohugo.io](https://themes.gohugo.io/). For any queries, refer to the [FAQ](#faq) section provided below.
+This repository contains a list of themes developed by the Hugo community, which can be accessed at [themes.gohugo.io](https://themes.gohugo.io/). For any queries, refer to the [FAQ](#faq) section below.
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/58968044-3238-424c-b9b6-e0d00733890c/deploy-status)](https://app.netlify.com/sites/hugothemes/deploys)
 
@@ -18,27 +18,17 @@ Then, from the root of your theme's repository, you need to perform the followin
 
 After making your theme available online, you can include it here by following the steps mentioned below.
 
-* Clone this repository
+1. Clone this repository
     ```bash
     git clone https://github.com/gohugoio/hugoThemesSiteBuilder.git
     ```
-* Add your theme's URL (e.g. `github.com/user/my-blog-theme`) in [themes.txt](https://github.com/gohugoio/hugoThemesSiteBuilder/edit/main/themes.txt) in [lexicographical order](https://en.wikipedia.org/wiki/Lexicographic_order).
-* Write a meaningful commit message (e.g. `Add theme my-blog-theme`).
-* Create a pull request(PR) and ensure that the preview looks good.
+2. Add your theme's URL (e.g. `github.com/user/my-blog-theme`) in [themes.txt](https://github.com/gohugoio/hugoThemesSiteBuilder/edit/main/themes.txt) in [lexicographical order](https://en.wikipedia.org/wiki/Lexicographic_order).
+3. Write a meaningful commit message (e.g. `Add theme my-blog-theme`).
+4. Create a pull request(PR) and ensure that deploy preview looks good.
 
-If the PR preview does not appear as expected after you have fixed your theme (missing thumbnail image for example), you can trigger a new preview build as follows.
+The deploy preview is automatically updated whenever there is a change in the PR content. For instance, if you pushed a commit to resolve an issue in your theme, such as a missing thumbnail image, Netlify will re-deploy the website with the updated changes from your PR. You can track the [deployment status](https://docs.netlify.com/site-deploys/deploy-previews/#status-and-notifications) in the Netlify comment of your PR.
 
-1. Amend the commit in your PR branch
-     ```bash
-     git commit --amend --no-edit
-     ```
-
-2. Do a force push
-     ```bash
-     git push -f
-     ```
-
-> **Note**: The [themes site](https://themes.gohugo.io/) is rebuilt on a daily basis using the list of themes present in this repository. Any changes made to an existing theme will be reflected on the website within 24 hours.
+> **Note**: The [themes site](https://themes.gohugo.io/) is scheduled to rebuild every day at UTC 00:00 (HH:MM). Any new theme addition or changes to existing theme will be reflected on the website after the next scheduled rebuild is complete.
 
 ## Theme configuration
 
