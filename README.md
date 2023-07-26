@@ -123,7 +123,7 @@ To make your theme more accessible to users across the globe, it would be helpfu
 
 A theme based on an existing Hugo theme (aka a fork) must be notably different for it to be considered a separate theme altogether. In such cases, you should list few arguments in `README.md` file mentioning why your theme should be included. 
 
-The definition of _notably different_ can be subjective, but in most cases, it should be clear. Simply changing the background color or changing few styles, for instance, does not make a theme notably different. It would be better if you submit a pull request to the original theme to include your proposed changes.
+The definition of _notably different_ can be subjective, but in most cases, it should be clear. Changing a few colors or making a few style changes, for example, does not result in a notably different theme. It would be better if you submit a [pull request](https://docs.github.com/en/pull-requests) to the original theme to include your proposed changes.
 
 ### 2. LICENSE
 
