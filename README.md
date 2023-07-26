@@ -119,18 +119,18 @@ To make your theme more accessible to users across the globe, it would be helpfu
 
 ## Criteria for acceptance of a theme
 
-### Forks must be notably different
+### 1. Forks must be notably different
 
 A theme based on an existing Hugo theme (aka a fork) must be notably different for it to be considered a separate theme altogether. In such cases, you should list few arguments in `README.md` file mentioning why your theme should be included. 
 
 The definition of _notably different_ can be subjective, but in most cases, it should be clear. Simply changing the background color or changing few styles, for instance, does not make a theme notably different. It would be better if you submit a pull request to the original theme to include your proposed changes.
 
-### LICENSE
+### 2. LICENSE
 
 Themes in this repository are accepted only if they come with an Open Source license that allows for the theme to be freely used, modified, and shared. 
 To view a list of popular licenses, you can visit [Open Source Initiative](https://opensource.org/licenses) website.
 
-#### License of derivative works
+#### 2.1 License of derivative works
 
 If you are porting an existing theme from another platform to Hugo, or if you're forking an existing Hugo theme to incorporate new features and plan to submit the derivative work; it's essential to ensure that the original theme's license requirements are met. 
 
@@ -138,9 +138,9 @@ In case the original theme lacks an Open Source license, you should try to obtai
 
 In any other case, if a submission is found to be in violation of licence of the original work, it will be rejected without further discussion.
 
-### Other criteria
+### 3. Paid themes
 
-Themes with READMEs set up as marketing campaigns for other products (e.g. paid version of a free theme) will not be accepted.
+Themes that require payment are not accepted. Themes with READMEs set up as marketing campaigns for other products (e.g. paid version of a free theme) will not be accepted.
 
 
 # Outdated themes
