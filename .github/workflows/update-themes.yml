@@ -32,4 +32,5 @@ jobs:
           hugo mod get -u
           git add .
           git commit -am "[Bot] Update themes"
-          git push --force-with-lease
+          git log -p -3
+
