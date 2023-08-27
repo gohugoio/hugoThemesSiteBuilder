@@ -10,6 +10,8 @@ jobs:
       HUGO_CACHEDIR: /tmp/hugo_cache
     steps:
       - uses: actions/checkout@v3
+        with:
+          ref: fix-ci
       - uses: actions/setup-go@v3
         with:
           go-version: "^1.19.5"
