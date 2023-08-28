@@ -1222,11 +1222,6 @@
       {
         "ignoreImports": true,
         "noMounts": true,
-        "path": "github.com/markdumay/hugo-theme-hinode"
-      },
-      {
-        "ignoreImports": true,
-        "noMounts": true,
         "path": "github.com/marketempower/axiom"
       },
       {
