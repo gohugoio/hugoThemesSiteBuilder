@@ -84,7 +84,7 @@ func (c *Client) GetHugoModulesMap(config string) (ModulesMap, error) {
 	c.Logf("Get Hugo Modules, config %q", config)
 	defer c.TimeTrack(time.Now(), "Got Hugo Modules")
 	b := &bytes.Buffer{}
-	if err := c.runHugo(b, "--config", config, "config", "mounts", "-v"); err != nil {
+	if err := c.runHugo(b, "--config", config, "config", "mounts"); err != nil {
 		return nil, err
 	}
 
@@ -95,7 +95,7 @@ func (c *Client) GetHugoModulesMap(config string) (ModulesMap, error) {
 		var m Module
 		if derr := dec.Decode(&m); derr != nil {
 			b, _ := io.ReadAll(dec.Buffered())
-			return nil, fmt.Errorf("failed to decode config: %s (buf: %q)", derr, b)
+			return nil, fmt.Errorf("failed to decode module config: %s\n%s", derr, b)
 		}
 
 		if m.Owner == modPath {
