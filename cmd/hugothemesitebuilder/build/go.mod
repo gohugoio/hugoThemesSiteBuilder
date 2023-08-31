@@ -125,14 +125,14 @@ require (
 	github.com/cfrome77/hugo-theme-sky v0.0.0-20220117033109-ff94be67da92 // indirect
 	github.com/chaitanya4vedi/navada v0.0.0-20211223142020-aa7018bddcfc // indirect
 	github.com/chipsenkbeil/grid-side v0.0.0-20170626191754-f5251bfd15a7 // indirect
-	github.com/chipzoller/hugo-clarity v0.0.0-20230412150923-aaf6da813c63 // indirect
+	github.com/chipzoller/hugo-clarity v0.0.0-20230830081649-d0ec11e00b01 // indirect
 	github.com/chollinger93/ink-free v1.4.1 // indirect
 	github.com/chringel21/chringel-hugo-theme v1.3.1 // indirect
 	github.com/clente/hugo-bearcub v0.0.0-20230425190722-f26d122b2ad0 // indirect
 	github.com/cloudwithchris/hugo-creator v0.0.28 // indirect
 	github.com/cntrump/hugo-notepadium v2.6.2+incompatible // indirect
 	github.com/coderzh/hugo-pacman-theme v0.0.0-20211218130934-daba606c4f13 // indirect
-	github.com/colinwilson/lotusdocs v0.0.0-20230830123228-165e99178dbb // indirect
+	github.com/colinwilson/lotusdocs v0.0.0-20230830174710-2cb7cc59ee7a // indirect
 	github.com/colorchestra/smol v0.0.0-20210810214745-4129f82cd766 // indirect
 	github.com/cowboysmall-tools/hugo-business-frontpage-theme v0.0.0-20200113082043-c5212be68d07 // indirect
 	github.com/cowboysmall-tools/hugo-devresume-theme v0.0.0-20200901132045-ccd34cdca3b8 // indirect
@@ -325,7 +325,7 @@ require (
 	github.com/nixentric/Lowkey-Hugo-Theme v0.0.0-20230625125521-4d300ec4858a // indirect
 	github.com/nodejh/hugo-theme-cactus-plus v0.0.0-20230717024722-c6ce39c13659 // indirect
 	github.com/ntk148v/hugo-cuisine-book v0.0.0-20230817085758-c26a9c110fe7 // indirect
-	github.com/ntk148v/hugo-toigian v0.0.1 // indirect
+	github.com/ntk148v/hugo-toigian v0.0.2 // indirect
 	github.com/nunocoracao/blowfish v1.9.0 // indirect
 	github.com/nurlansu/hugo-sustain v0.0.0-20230524192148-21d9f8f53692 // indirect
 	github.com/nusserstudios/tailbliss v0.0.0-20230829230802-d08e53b69550 // indirect
