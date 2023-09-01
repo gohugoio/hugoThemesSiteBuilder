@@ -39,6 +39,7 @@ require (
 	github.com/JingWangTW/dark-theme-editor v0.0.0-20230823144529-8aa1d497b0ab // indirect
 	github.com/KatamariJr/split-landing v1.0.1 // indirect
 	github.com/Lednerb/bilberry-hugo-theme/v3 v3.25.0 // indirect
+	github.com/Lednerb/bilberry-hugo-theme/v4 v4.0.5 // indirect
 	github.com/LordMathis/hugo-theme-nightfall v0.5.1 // indirect
 	github.com/LordMathis/hugo-theme-nix v0.0.0-20230616072641-72c7ff1fabeb // indirect
 	github.com/LucasVadilho/heyo-hugo-theme v0.0.0-20230825133758-085d281abb2c // indirect
@@ -327,6 +328,7 @@ require (
 	github.com/ntk148v/hugo-cuisine-book v0.0.0-20230817085758-c26a9c110fe7 // indirect
 	github.com/ntk148v/hugo-toigian v0.0.2 // indirect
 	github.com/nunocoracao/blowfish v1.9.0 // indirect
+	github.com/nunocoracao/blowfish/v2 v2.40.1 // indirect
 	github.com/nurlansu/hugo-sustain v0.0.0-20230524192148-21d9f8f53692 // indirect
 	github.com/nusserstudios/tailbliss v0.0.0-20230829230802-d08e53b69550 // indirect
 	github.com/okkur/syna v0.17.4 // indirect

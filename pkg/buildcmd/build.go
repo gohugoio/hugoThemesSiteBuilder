@@ -6,7 +6,6 @@ import (
 	"flag"
 	"fmt"
 	"io"
-	"io/ioutil"
 	"os"
 	"path"
 	"path/filepath"
@@ -210,7 +209,7 @@ func (c *buildClient) writeThemeContent(k string, m client.Module) error {
 				continue
 			}
 			if strings.EqualFold(fi.Name(), "readme.md") {
-				b, err := ioutil.ReadFile(filepath.Join(m.Dir, fi.Name()))
+				b, err := os.ReadFile(filepath.Join(m.Dir, fi.Name()))
 				client.CheckErr(err)
 				return fixReadMeContent(string(b))
 			}
@@ -266,7 +265,7 @@ func (c *buildClient) writeThemeContent(k string, m client.Module) error {
 %s
 `, string(b), thm.readMeContent)
 
-	if err := ioutil.WriteFile(filepath.Join(themeDir, "index.md"), []byte(content), 0666); err != nil {
+	if err := os.WriteFile(filepath.Join(themeDir, "index.md"), []byte(content), 0666); err != nil {
 		return err
 	}
 
