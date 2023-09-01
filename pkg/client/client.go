@@ -18,6 +18,8 @@ import (
 	"strings"
 	"sync"
 	"time"
+
+	toml "github.com/pelletier/go-toml/v2"
 )
 
 const (
@@ -103,6 +105,22 @@ func (c *Client) GetHugoModulesMap(config string) (ModulesMap, error) {
 		}
 	}
 
+	for k, v := range mmap {
+
+		// Read any theme.toml into .Meta
+		filename := filepath.Join(v.Dir, "theme.toml")
+		if _, err := os.Stat(filename); err == nil {
+			b, err := os.ReadFile(filename)
+			if err != nil {
+				return nil, fmt.Errorf("failed to read %q: %s", filename, err)
+			}
+			if err := toml.Unmarshal(b, &v.Meta); err != nil {
+				c.Logf("warn: failed to parse theme.toml for theme %q: %s", k, err)
+			}
+			mmap[k] = v
+		}
+	}
+
 	return mmap, nil
 }
 
@@ -169,7 +187,7 @@ func (c *Client) CreateThemesConfig() error {
 		return err
 	}
 
-	return ioutil.WriteFile(filepath.Join(c.outDir, "config.json"), b, 0666)
+	return os.WriteFile(filepath.Join(c.outDir, "config.json"), b, 0666)
 
 }
 
@@ -243,7 +261,7 @@ func (c *Client) GetGitHubRepos(mods ModulesMap) (map[string]GitHubRepo, error) 
 			}
 
 			CheckErr(os.MkdirAll(filepath.Dir(nextCacheFilename), 0777))
-			CheckErr(ioutil.WriteFile(nextCacheFilename, b, 0666))
+			CheckErr(os.WriteFile(nextCacheFilename, b, 0666))
 		}
 	}
 

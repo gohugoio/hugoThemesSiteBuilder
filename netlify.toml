@@ -1,14 +1,14 @@
 [build]
-    base    = "cmd/hugothemesitebuilder/build/site"
-    publish = "public"
-    command = "./build.sh"
-    ignore  = "/bin/false"
+  base    = "cmd/hugothemesitebuilder/build/site"
+  publish = "public"
+  command = "./build.sh"
+  ignore  = "/bin/false"
 
-# No need to specify environment variables for each context (production, deploy-preview & branch-deploy).
-# From https://docs.netlify.com/configure-builds/file-based-configuration/#deploy-contexts
-#   any property of a context-aware key, such as [build] or [[plugins]], will be applied to all contexts 
-#   unless the same property key is present in a more specific context.
+  # No need to specify environment variables for each context (production, deploy-preview & branch-deploy).
+  # From https://docs.netlify.com/configure-builds/file-based-configuration/#deploy-contexts
+  #   any property of a context-aware key, such as [build] or [[plugins]], will be applied to all contexts 
+  #   unless the same property key is present in a more specific context.
 
-[build.environment]
-  HUGO_VERSION = "0.117.0"
-  GO_VERSION = "1.21.0"
+  [build.environment]
+    HUGO_VERSION = "0.118.2"
+    GO_VERSION   = "1.21.0"

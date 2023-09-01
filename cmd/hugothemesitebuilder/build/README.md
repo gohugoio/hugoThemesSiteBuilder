@@ -1,16 +1,19 @@
 
-## Update themes
+## Develop the site locally
 
-**Update all themes to the latest version:**
+If you have all of
+
+````
+hugoThemesSiteBuilder
+gohugoioTheme
+hugoThemesSiteBuilder
+```
+
+Checked out as sibling folders, you can start the server with:
+
 
 ```bash
- hugo mod get -u
- ```
+HUGO_MODULE_WORKSPACE=hugo.work hugo server
+```
 
-**Update one theme to the latest version:**
-
- ```bash
-  hugo mod get -u github.com/bep/docuapi
- ```
-
- Also see https://gohugo.io/commands/hugo_mod_get
+This will allow you to edit all of the above projects and see the changes reflected in the site.

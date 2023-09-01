@@ -172,7 +172,7 @@
       {
         "ignoreImports": true,
         "noMounts": true,
-        "path": "github.com/Lednerb/bilberry-hugo-theme/v3"
+        "path": "github.com/Lednerb/bilberry-hugo-theme/v4"
       },
       {
         "ignoreImports": true,
@@ -1607,7 +1607,7 @@
       {
         "ignoreImports": true,
         "noMounts": true,
-        "path": "github.com/nunocoracao/blowfish"
+        "path": "github.com/nunocoracao/blowfish/v2"
       },
       {
         "ignoreImports": true,
