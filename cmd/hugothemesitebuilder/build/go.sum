@@ -456,6 +456,8 @@ github.com/ijsucceed/onepress v0.0.0-20190207144746-ce9dcea408ed h1:a21nDI7vu5GJ
 github.com/ijsucceed/onepress v0.0.0-20190207144746-ce9dcea408ed/go.mod h1:+IBLYVUatOqYPCovGtyiB9pPhNHsK7/uVlo8YujbH94=
 github.com/imfing/hextra v0.2.3 h1:4pEhkr3e/6UuPTSf2vBgxCQcAqLn934zycBc/CuMdkk=
 github.com/imfing/hextra v0.2.3/go.mod h1:cEfel3lU/bSx7lTE/+uuR4GJaphyOyiwNR3PTqFTXpI=
+github.com/imfing/hextra v0.2.4 h1:Ku+Lr2ekM8RIlmabT9IVcwoMCzIxOwwYfyC9UbxatRQ=
+github.com/imfing/hextra v0.2.4/go.mod h1:cEfel3lU/bSx7lTE/+uuR4GJaphyOyiwNR3PTqFTXpI=
 github.com/ineesalmeida/almeida-cv v0.0.0-20230821151505-707b19ec126b h1:+LnpdWajzkH4Db10Q8C8IaY/cvfe36afwkSwNTwRaT8=
 github.com/ineesalmeida/almeida-cv v0.0.0-20230821151505-707b19ec126b/go.mod h1:kS5gSjROz6mp4i3g2B2QvKvZdcz54ayHr96FewEQjfM=
 github.com/invinciblycool/lekh v0.0.0-20230506043404-4e65dc197414 h1:nkTi+gKNqZmELQdVPSHJQ2O3JcIGprKCvS/q0PTIuOY=
@@ -766,6 +768,8 @@ github.com/schmanat/hugo-highlights-theme v0.0.0-20200409134000-79eb66a32c74 h1:
 github.com/schmanat/hugo-highlights-theme v0.0.0-20200409134000-79eb66a32c74/go.mod h1:T0ejOcPeyItxiGbJcGpAau/R3cWZMdMvO9NIar8F8eU=
 github.com/schnerring/hugo-theme-gruvbox v0.0.0-20230828203429-747c9c51f537 h1:AtSW90pGoRTgLbFaZA9sVHHtMy0EJuVklQm7Flhc7bM=
 github.com/schnerring/hugo-theme-gruvbox v0.0.0-20230828203429-747c9c51f537/go.mod h1:8zRC4Bmjg7hNeJmpGF/uf1QCCtRb727cec61TJ7UJFg=
+github.com/schnerring/hugo-theme-gruvbox v0.0.0-20230901014247-445b9ec57d92 h1:QuRM9j9aeYrvRZ/VII/iR6S792ywnbolefRYc/TFsHw=
+github.com/schnerring/hugo-theme-gruvbox v0.0.0-20230901014247-445b9ec57d92/go.mod h1:8zRC4Bmjg7hNeJmpGF/uf1QCCtRb727cec61TJ7UJFg=
 github.com/schollz/onetwothree v0.0.0-20190916161743-a09e6530494c h1:503PXSWQR7gXGemoNiHnFz76i8pLEgTF0tLDnBIU9DQ=
 github.com/schollz/onetwothree v0.0.0-20190916161743-a09e6530494c/go.mod h1:7GFph1UoE8pGK7EBI8rJLnfsBltHgQp0gb8VIBZoTOI=
 github.com/seanlane/gochowdown v0.0.0-20220603122033-5458dc7bd80a h1:ZnCjJaq/MoQv0fOo6L7eZvjhlwC/+IcSF1dJGeoRRRM=
