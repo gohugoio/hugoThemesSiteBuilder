@@ -44,10 +44,10 @@ require (
 	github.com/LordMathis/hugo-theme-nix v0.0.0-20230616072641-72c7ff1fabeb // indirect
 	github.com/LucasVadilho/heyo-hugo-theme v0.0.0-20230825133758-085d281abb2c // indirect
 	github.com/LukasJoswiak/etch v0.0.0-20221013042144-3286754ceb4e // indirect
-	github.com/M1cR0xf7/kaslaanka v0.0.0-20230817191110-1b64b747a136 // indirect
+	github.com/M1cR0xf7/kaslaanka v0.0.0-20230905163123-33efc173970b // indirect
 	github.com/MarcusVirg/forty v0.0.0-20190430033326-dccea57bd2ed // indirect
 	github.com/Masellum/hugo-theme-nostyleplease v0.0.0-20230429064057-1f0773883f34 // indirect
-	github.com/McShelby/hugo-theme-relearn v0.0.0-20230831103423-e6b50128e4a1 // indirect
+	github.com/McShelby/hugo-theme-relearn v0.0.0-20230905210935-196188b7f3bd // indirect
 	github.com/MeiK2333/github-style v0.0.0-20221030070900-eee158a65892 // indirect
 	github.com/Mitrichius/hugo-theme-anubis v0.0.0-20230903094235-e4e2c0bc4145 // indirect
 	github.com/Morgscode/hugo-theme-spaced-blog v0.0.0-20230709210837-d9e6e9c4760a // indirect
@@ -344,7 +344,7 @@ require (
 	github.com/panr/hugo-theme-hello-friend v0.0.0-20230610160555-05c4ecfd03d7 // indirect
 	github.com/panr/hugo-theme-terminal v0.0.0-20230102221952-20fc1079fa31 // indirect
 	github.com/parsiya/Hugo-Octopress v0.0.0-20230210234300-be22e9c1e61a // indirect
-	github.com/paulmartins/hugo-digital-garden-theme v0.0.0-20230311191732-6464f77f7845 // indirect
+	github.com/paulmartins/hugo-digital-garden-theme v0.0.0-20230905095737-9838f05dca16 // indirect
 	github.com/pavel-pi/kiss-em v2.0.0+incompatible // indirect
 	github.com/pdevty/material-design v0.0.0-20160828002125-587b3af7db83 // indirect
 	github.com/pdevty/polymer v0.0.0-20150630134133-d8be0028b80d // indirect
@@ -379,7 +379,7 @@ require (
 	github.com/salcan/BeyondNothing v0.0.0-20190908210852-2931c2abf096 // indirect
 	github.com/salsysd/hugo-assembly v0.0.0-20181002012130-b536220bd067 // indirect
 	github.com/samrobbins85/hugo-developer-portfolio v0.0.0-20230421080835-4d3db20b1574 // indirect
-	github.com/sbruder/spectral v0.0.0-20230822113735-5033989357c5 // indirect
+	github.com/sbruder/spectral v0.0.0-20230905121311-36405024f49d // indirect
 	github.com/schmanat/hugo-highlights-theme v0.0.0-20200409134000-79eb66a32c74 // indirect
 	github.com/schnerring/hugo-theme-gruvbox v0.0.0-20230904043550-4a4180acb46a // indirect
 	github.com/schollz/onetwothree v0.0.0-20190916161743-a09e6530494c // indirect

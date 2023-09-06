@@ -82,12 +82,16 @@ github.com/LukasJoswiak/etch v0.0.0-20221013042144-3286754ceb4e h1:jqtIPgKKdLwiw
 github.com/LukasJoswiak/etch v0.0.0-20221013042144-3286754ceb4e/go.mod h1:tdCjHyDbi/JUH+PwT7EuRAoTu1tIrDvTQgZ5UJLNe7Q=
 github.com/M1cR0xf7/kaslaanka v0.0.0-20230817191110-1b64b747a136 h1:Zb1HYyO4tPWR/72/1DdNl3CKbjaXXx2SsDbpaLUDLK0=
 github.com/M1cR0xf7/kaslaanka v0.0.0-20230817191110-1b64b747a136/go.mod h1:qSvc0m3XgEHO8vjsPWHZvFoQeY3qJceQ2gEvU8hhB7I=
+github.com/M1cR0xf7/kaslaanka v0.0.0-20230905163123-33efc173970b h1:FcbJVos4aHiXxN1cS3ED99CNkz/hf8k3MO/6CfrjNmA=
+github.com/M1cR0xf7/kaslaanka v0.0.0-20230905163123-33efc173970b/go.mod h1:qSvc0m3XgEHO8vjsPWHZvFoQeY3qJceQ2gEvU8hhB7I=
 github.com/MarcusVirg/forty v0.0.0-20190430033326-dccea57bd2ed h1:LjHYgmJraTUExON/Cg7aFSnI2kWo3zYPOMAzO2cd96Q=
 github.com/MarcusVirg/forty v0.0.0-20190430033326-dccea57bd2ed/go.mod h1:afK3GTGd/UIXHIDgpmy8MgyNo0V6yNSBozZMUyqVhj4=
 github.com/Masellum/hugo-theme-nostyleplease v0.0.0-20230429064057-1f0773883f34 h1:KGrJ0yaIA7l/d/JrGBrigli9Fj77URC81Q1WQyLMhxE=
 github.com/Masellum/hugo-theme-nostyleplease v0.0.0-20230429064057-1f0773883f34/go.mod h1:zMlcobA4v4gavXle2KCHE1/WfupsHXUY3a8s9GeLfpk=
 github.com/McShelby/hugo-theme-relearn v0.0.0-20230831103423-e6b50128e4a1 h1:jVnWGhiij8S/7zfF6r/GAs8tAf4cSYkEF0QS7S7GWk8=
 github.com/McShelby/hugo-theme-relearn v0.0.0-20230831103423-e6b50128e4a1/go.mod h1:mKQQdxZNIlLvAj8X3tMq+RzntIJSr9z7XdzuMomt0IM=
+github.com/McShelby/hugo-theme-relearn v0.0.0-20230905210935-196188b7f3bd h1:FHkdcHbMLHnL/O417BeDylfczyHx5V2FGUPzp08DJxY=
+github.com/McShelby/hugo-theme-relearn v0.0.0-20230905210935-196188b7f3bd/go.mod h1:mKQQdxZNIlLvAj8X3tMq+RzntIJSr9z7XdzuMomt0IM=
 github.com/MeiK2333/github-style v0.0.0-20221030070900-eee158a65892 h1:KPnOKKnc9Ix8Hnqu0qtCAkrFp/NtpAY96wYx1ZSq3Y0=
 github.com/MeiK2333/github-style v0.0.0-20221030070900-eee158a65892/go.mod h1:MDvfpZqhD/YSKR6X4f5hVUv588HxL1MVjsCTSM7ETxs=
 github.com/Mitrichius/hugo-theme-anubis v0.0.0-20230812084142-d214b9e410a9 h1:EDWQYTO6ofJn7Wp6E3N1l4XlYqkaNU4Ilimy/ae2Kdk=
@@ -706,6 +710,8 @@ github.com/parsiya/Hugo-Octopress v0.0.0-20230210234300-be22e9c1e61a h1:47ZCvyyj
 github.com/parsiya/Hugo-Octopress v0.0.0-20230210234300-be22e9c1e61a/go.mod h1:D0LXeujvveqza350hX2GgkJlf2s4ddLTC7Bg6r+5TzI=
 github.com/paulmartins/hugo-digital-garden-theme v0.0.0-20230311191732-6464f77f7845 h1:Tf498mFoTOxX05GC0d+7PR1UMUgAbI9vwUmg9htmLxk=
 github.com/paulmartins/hugo-digital-garden-theme v0.0.0-20230311191732-6464f77f7845/go.mod h1:rnay3VnA0z7WHFjIPEYhfqqet/qhyaohVtnwQ4e7djY=
+github.com/paulmartins/hugo-digital-garden-theme v0.0.0-20230905095737-9838f05dca16 h1:NI/DB2WxtsEiLsbXco4meVS8/tj2MSgOGpEjqJoUB+c=
+github.com/paulmartins/hugo-digital-garden-theme v0.0.0-20230905095737-9838f05dca16/go.mod h1:rnay3VnA0z7WHFjIPEYhfqqet/qhyaohVtnwQ4e7djY=
 github.com/pavel-pi/kiss-em v2.0.0+incompatible h1:JqnNbUxtB0uFQmoY8w64KuD86qsuZgR/izhkQC7Adu8=
 github.com/pavel-pi/kiss-em v2.0.0+incompatible/go.mod h1:f+mO8yTgb1+sWWczL2Ks0j5onemyN01Ii3Gc9niOCFk=
 github.com/pdevty/material-design v0.0.0-20160828002125-587b3af7db83 h1:KBWTiUhhdBBdwKKulfWuUCb3hm6pR8HFrUqA6e8wXVg=
@@ -776,6 +782,8 @@ github.com/samrobbins85/hugo-developer-portfolio v0.0.0-20230421080835-4d3db20b1
 github.com/samrobbins85/hugo-developer-portfolio v0.0.0-20230421080835-4d3db20b1574/go.mod h1:k8pYFLOf99+RFAdeKwBJGfgN2jyoX2bBv8j2MUaiqdo=
 github.com/sbruder/spectral v0.0.0-20230822113735-5033989357c5 h1:rmCbBmQxs7xPR/i0VTQC74tR9g7X3ugUBuy31wWqJYk=
 github.com/sbruder/spectral v0.0.0-20230822113735-5033989357c5/go.mod h1:CHnkp+QVfAbCTODPDirPd9CsuN9TMF7eqYXKiw+KaMM=
+github.com/sbruder/spectral v0.0.0-20230905121311-36405024f49d h1:zUTVnL/2dBWvFE2z34s9JgSCnl/e/Kx2p1CCglCQBkc=
+github.com/sbruder/spectral v0.0.0-20230905121311-36405024f49d/go.mod h1:CHnkp+QVfAbCTODPDirPd9CsuN9TMF7eqYXKiw+KaMM=
 github.com/schmanat/hugo-highlights-theme v0.0.0-20200409134000-79eb66a32c74 h1:FlcauPDVTB/VB7c0cK2K7D682gHaMwlftvVGrhDcvEM=
 github.com/schmanat/hugo-highlights-theme v0.0.0-20200409134000-79eb66a32c74/go.mod h1:T0ejOcPeyItxiGbJcGpAau/R3cWZMdMvO9NIar8F8eU=
 github.com/schnerring/hugo-theme-gruvbox v0.0.0-20230828203429-747c9c51f537 h1:AtSW90pGoRTgLbFaZA9sVHHtMy0EJuVklQm7Flhc7bM=
