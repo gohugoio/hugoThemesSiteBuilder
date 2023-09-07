@@ -333,6 +333,8 @@ github.com/dldx/hpstr-hugo-theme v0.0.0-20180623041957-3658a0b0c9c2 h1:7mp3iB7PW
 github.com/dldx/hpstr-hugo-theme v0.0.0-20180623041957-3658a0b0c9c2/go.mod h1:WOOD9MJgNRY9cy3EgEFzyY8MJMy8BamaNT06SzaO1RU=
 github.com/docura/docura v0.0.0-20230831155442-93c8475ceebc h1:/19yHj88uRD93BylnJW5an5a/SfCYIliAggOwCGxbog=
 github.com/docura/docura v0.0.0-20230831155442-93c8475ceebc/go.mod h1:W8aArNkl2SyQeYoK1apK0MmM0y9rPTqnKtMMe26/B1M=
+github.com/docura/docura v0.0.0-20230906160912-7569b5c8cf36 h1:9Z623MrqiN8aomT8MJvj98yhAcxZJmPSSZp1aWXuJMc=
+github.com/docura/docura v0.0.0-20230906160912-7569b5c8cf36/go.mod h1:W8aArNkl2SyQeYoK1apK0MmM0y9rPTqnKtMMe26/B1M=
 github.com/dplesca/purehugo v0.0.0-20190924072610-5b577adff2e1 h1:aP0iDTPytXiJUNpN5x35YLiKXjaZjMeeRbFcP7EzBr8=
 github.com/dplesca/purehugo v0.0.0-20190924072610-5b577adff2e1/go.mod h1:uej5ImEi6IiONmyRW2ylKZm1FjJCZjQfu4pXYBlTsyM=
 github.com/dsrkafuu/hugo-theme-fuji v2.8.2+incompatible h1:rU3UqNSrFegnNXT+IKXIz6F1HCwOZEELkW1Kn16MoJQ=
@@ -818,6 +820,8 @@ github.com/siegerts/hugo-theme-basic v0.0.0-20200521131547-7f8226c418da h1:h8ddK
 github.com/siegerts/hugo-theme-basic v0.0.0-20200521131547-7f8226c418da/go.mod h1:eGEo930QbIJWFiqvroWdb0qCYnePtot4e5Cz+92jYY8=
 github.com/sieis/re-cover v0.0.0-20221214144902-6f1ffc6f2c4c h1:hm84s0tk06p3ab4tDmqJpakPBJ2Z6xMmyl6paCJ9s0E=
 github.com/sieis/re-cover v0.0.0-20221214144902-6f1ffc6f2c4c/go.mod h1:+37XBCTgOiYKn/gjHI1Y+ipMUon/jjtndKg2pTMeix0=
+github.com/sieis/re-cover v0.0.0-20230906184022-350819ec15eb h1:DzZZ9Br19FzYZbsJIsCTfWoQqSmvyRUeQIfw6XPy7k4=
+github.com/sieis/re-cover v0.0.0-20230906184022-350819ec15eb/go.mod h1:+37XBCTgOiYKn/gjHI1Y+ipMUon/jjtndKg2pTMeix0=
 github.com/slashformotion/hugo-tufte v0.2.0 h1:0LP5Vbf67oqkPJxjfG7CshAp6VUWxgCo2Lk7Nl3EfC8=
 github.com/slashformotion/hugo-tufte v0.2.0/go.mod h1:K2kVc3Y/M/OY8okZDY51p4tWVNH+VishuKLZrmoPy/k=
 github.com/slatedocs/slate v2.13.1+incompatible/go.mod h1:n698aXLkExWIlF7prJey0Kq6wlKIKvj/stVb5oouZDM=
