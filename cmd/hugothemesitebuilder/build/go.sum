@@ -335,6 +335,8 @@ github.com/docura/docura v0.0.0-20230831155442-93c8475ceebc h1:/19yHj88uRD93Byln
 github.com/docura/docura v0.0.0-20230831155442-93c8475ceebc/go.mod h1:W8aArNkl2SyQeYoK1apK0MmM0y9rPTqnKtMMe26/B1M=
 github.com/docura/docura v0.0.0-20230906160912-7569b5c8cf36 h1:9Z623MrqiN8aomT8MJvj98yhAcxZJmPSSZp1aWXuJMc=
 github.com/docura/docura v0.0.0-20230906160912-7569b5c8cf36/go.mod h1:W8aArNkl2SyQeYoK1apK0MmM0y9rPTqnKtMMe26/B1M=
+github.com/docura/docura v0.0.0-20230907010712-6f3ac1f00be3 h1:EX7VJSXlnqPH8qUSnDY8/NnwZ09EbFrpr5iJy3nKxY0=
+github.com/docura/docura v0.0.0-20230907010712-6f3ac1f00be3/go.mod h1:W8aArNkl2SyQeYoK1apK0MmM0y9rPTqnKtMMe26/B1M=
 github.com/dplesca/purehugo v0.0.0-20190924072610-5b577adff2e1 h1:aP0iDTPytXiJUNpN5x35YLiKXjaZjMeeRbFcP7EzBr8=
 github.com/dplesca/purehugo v0.0.0-20190924072610-5b577adff2e1/go.mod h1:uej5ImEi6IiONmyRW2ylKZm1FjJCZjQfu4pXYBlTsyM=
 github.com/dsrkafuu/hugo-theme-fuji v2.8.2+incompatible h1:rU3UqNSrFegnNXT+IKXIz6F1HCwOZEELkW1Kn16MoJQ=
@@ -389,6 +391,8 @@ github.com/gethinode/hinode v0.18.7 h1:I2MwE1K2E7TjTiPaHUNGNLrD0FGxN0oS3svMlluGr
 github.com/gethinode/hinode v0.18.7/go.mod h1:TcI/H42BxRS4UNqz9/bC246sYC6z3Ssfv0ZuOF5wEpM=
 github.com/gethinode/hinode v0.19.0 h1:7QDAA0RGUvFJMlmzoBfUy8b27yI5+84xPBc5/1qfWrU=
 github.com/gethinode/hinode v0.19.0/go.mod h1:2+ioIlr+xp8k1eES6vGXWmmoxu+Mz+FHan3Ea8YPFd0=
+github.com/gethinode/hinode v0.20.0 h1:A6lxLIdKUMHOFWz9D7iQaSpqcMlKDPK1e/Cs3/SV1P8=
+github.com/gethinode/hinode v0.20.0/go.mod h1:/q/TH3TlGSzBHunDb3TdrpO7Zrckr0CeLay/Qpj9uWQ=
 github.com/gevhaz/hugo-theme-notrack v0.0.0-20230804122959-794cae70b96d h1:VTn8z0k4dGzA2wmybfttkb5sP5mcjBW9VRlH0INGsJU=
 github.com/gevhaz/hugo-theme-notrack v0.0.0-20230804122959-794cae70b96d/go.mod h1:x4ZvHK9D+ljqLbHYdSpdB4wiR2euhk4hSS43XUU7eAQ=
 github.com/gizak/nofancy v0.0.0-20180325214227-ae4670287c71 h1:WP/ROT3hNMB3G7NNAMnUvoTesPlWjPBQ9yHUywcmix4=
@@ -649,6 +653,8 @@ github.com/mrmierzejewski/hugo-theme-console v0.0.0-20230725171417-a03f416d170c 
 github.com/mrmierzejewski/hugo-theme-console v0.0.0-20230725171417-a03f416d170c/go.mod h1:N65e0/XqC5/oKjv5TpwNFi88vAgMDUZfnGU4sf7KRkQ=
 github.com/nanxiaobei/hugo-paper v0.0.0-20230827103318-3d9563e3cfa6 h1:l1iASCNInePJse86Of8IAD83/sM6Gy+YXnzLpavnMdI=
 github.com/nanxiaobei/hugo-paper v0.0.0-20230827103318-3d9563e3cfa6/go.mod h1:cS2hTYPgmZ2FkPTQbOiX6vB0yLQcWD067kJx2lkRPVQ=
+github.com/nanxiaobei/hugo-paper v0.0.0-20230907045345-2b823366719b h1:8EtiB/qZAcnVNYOzrZTLaGGlF0yxgX6S1x1126Yz7Jc=
+github.com/nanxiaobei/hugo-paper v0.0.0-20230907045345-2b823366719b/go.mod h1:cS2hTYPgmZ2FkPTQbOiX6vB0yLQcWD067kJx2lkRPVQ=
 github.com/nanxstats/hugo-tanka v0.0.0-20210707221939-9bec4eba33e5 h1:ArKJMwXbgVVeIhpHxuDES/IoftMzOlk4mMB0tYHmUsY=
 github.com/nanxstats/hugo-tanka v0.0.0-20210707221939-9bec4eba33e5/go.mod h1:MpW+xmCZzgJK5cTtN7/k+nKAKSU7IR8Y3Y7Vt7rdm0c=
 github.com/naro143/hugo-coder-portfolio v0.0.0-20200903083500-255d92337c07 h1:sJcQpPI0wm1zKeX38i/A1RmpPGIN9c4YPMuOTek1woY=
@@ -981,6 +987,8 @@ github.com/zeon-studio/hugoplate v0.0.0-20230829035800-59eef62fde0e h1:bGvejcLUC
 github.com/zeon-studio/hugoplate v0.0.0-20230829035800-59eef62fde0e/go.mod h1:YlRIwdTWidquf1dhtx+mDfu0I3KVrVQB4wi4UmHlK3E=
 github.com/zeon-studio/hugoplate v0.0.0-20230902034053-77bc7eef2df7 h1:95NIGEQb0up7q+skYyHhToGZGPNmtIwcqN6pVRF6yOs=
 github.com/zeon-studio/hugoplate v0.0.0-20230902034053-77bc7eef2df7/go.mod h1:YlRIwdTWidquf1dhtx+mDfu0I3KVrVQB4wi4UmHlK3E=
+github.com/zeon-studio/hugoplate v0.0.0-20230907024700-05f1d4c5fb9e h1:LMGeaxbqqqfmpTUWA8+c9YRFN90EzZzsG6mvKpHBOXE=
+github.com/zeon-studio/hugoplate v0.0.0-20230907024700-05f1d4c5fb9e/go.mod h1:YlRIwdTWidquf1dhtx+mDfu0I3KVrVQB4wi4UmHlK3E=
 github.com/zerostaticthemes/hugo-hero-theme v1.1.0 h1:SjjN0RY+75XE4dUISzeSkQfrDr4SRhlrky+fRf5RR0Y=
 github.com/zerostaticthemes/hugo-hero-theme v1.1.0/go.mod h1:4+Fj7q4tyVtSC6s7EwS4RedKa6pYj6TyjBQqh29GU/Q=
 github.com/zerostaticthemes/hugo-serif-theme v1.1.1 h1:9qsICmqv9n7zUHvvrigDYQuwH40K81RnOFQPdqDchFA=
