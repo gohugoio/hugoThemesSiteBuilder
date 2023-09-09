@@ -271,6 +271,8 @@ github.com/colinwilson/lotusdocs v0.0.0-20230831165116-7c6c7c9244d0 h1:mmaTI7spq
 github.com/colinwilson/lotusdocs v0.0.0-20230831165116-7c6c7c9244d0/go.mod h1:9zu2REJDi+zdPRcR5/bRYSUR7gkNF4NQLvV38SEoCP8=
 github.com/colinwilson/lotusdocs v0.0.0-20230902175918-ac01709267d5 h1:n8C2/rQp/wUE5nnTh8Q5R1SVofo8bxssvX+WuAQJm5w=
 github.com/colinwilson/lotusdocs v0.0.0-20230902175918-ac01709267d5/go.mod h1:9zu2REJDi+zdPRcR5/bRYSUR7gkNF4NQLvV38SEoCP8=
+github.com/colinwilson/lotusdocs v0.0.0-20230908053017-e672ff87608e h1:gDRXA6U3AbnRfhw47b11FHhc5EgiYNnq+oa3i7evtoM=
+github.com/colinwilson/lotusdocs v0.0.0-20230908053017-e672ff87608e/go.mod h1:9zu2REJDi+zdPRcR5/bRYSUR7gkNF4NQLvV38SEoCP8=
 github.com/colorchestra/smol v0.0.0-20210810214745-4129f82cd766 h1:5/rg5hX9hzYWpTjiyvv1ip5LBDVOT4Fi3UCXhKc3ssA=
 github.com/colorchestra/smol v0.0.0-20210810214745-4129f82cd766/go.mod h1:zCNGH1Qu+A99iK4ZWFGilgcr9e1HVs/j25UmmH+EOv8=
 github.com/cowboysmall-tools/hugo-business-frontpage-theme v0.0.0-20200113082043-c5212be68d07 h1:/ixVisd+5Sx3Zs6hwFPHZpmNUz9ZujinYz9vZTxbiQQ=
@@ -393,6 +395,8 @@ github.com/gethinode/hinode v0.19.0 h1:7QDAA0RGUvFJMlmzoBfUy8b27yI5+84xPBc5/1qfW
 github.com/gethinode/hinode v0.19.0/go.mod h1:2+ioIlr+xp8k1eES6vGXWmmoxu+Mz+FHan3Ea8YPFd0=
 github.com/gethinode/hinode v0.20.0 h1:A6lxLIdKUMHOFWz9D7iQaSpqcMlKDPK1e/Cs3/SV1P8=
 github.com/gethinode/hinode v0.20.0/go.mod h1:/q/TH3TlGSzBHunDb3TdrpO7Zrckr0CeLay/Qpj9uWQ=
+github.com/gethinode/hinode v0.20.1 h1:M2sNX1lpzwlogYFzn1fzZ5zTHU52zb7oSHIEnTze9LA=
+github.com/gethinode/hinode v0.20.1/go.mod h1:55zVYVPWwIaJVdVXxDAQZn0sOXmPSA/kTLCuGLYCH/k=
 github.com/gevhaz/hugo-theme-notrack v0.0.0-20230804122959-794cae70b96d h1:VTn8z0k4dGzA2wmybfttkb5sP5mcjBW9VRlH0INGsJU=
 github.com/gevhaz/hugo-theme-notrack v0.0.0-20230804122959-794cae70b96d/go.mod h1:x4ZvHK9D+ljqLbHYdSpdB4wiR2euhk4hSS43XUU7eAQ=
 github.com/gizak/nofancy v0.0.0-20180325214227-ae4670287c71 h1:WP/ROT3hNMB3G7NNAMnUvoTesPlWjPBQ9yHUywcmix4=
@@ -419,6 +423,8 @@ github.com/gyorb/hugo-dusk v1.0.1 h1:c0xGXY0UzGWEdpD9khaWWroNjzsgjlyQNGTBdPfsUDw
 github.com/gyorb/hugo-dusk v1.0.1/go.mod h1:EDbPT5mNiOeB83yEcqUa3bFKSfVSHNJgg3XvynKGwm0=
 github.com/h-enk/doks v0.5.0 h1:/pb2YhKODThnIty7ObwybJ/SNu3nyl8DqDSCbLybwd4=
 github.com/h-enk/doks v0.5.0/go.mod h1:rGZyg2gJspvHYEy6mWsl3JTVVkwcSEl6G3y88GRyfk4=
+github.com/h-enk/doks v1.0.0 h1:Xa9S6wJ3rZwSedVeVCTpHyZYlgp8xLExRLp8SYi1SFk=
+github.com/h-enk/doks v1.0.0/go.mod h1:rGZyg2gJspvHYEy6mWsl3JTVVkwcSEl6G3y88GRyfk4=
 github.com/hadisinaee/avicenna v0.0.0-20210802003840-1412ad1b941f h1:z2zpixZ1a+bos7Kp/mXJAP8TGvk8C3C2ooBGPDpJKnc=
 github.com/hadisinaee/avicenna v0.0.0-20210802003840-1412ad1b941f/go.mod h1:kg9hquFvYCh9THu+KTrZJEt214IgjNSewmOL2ocYwFM=
 github.com/half-duplex/hugo-arcana v0.0.0-20220925174418-62551760dc14 h1:oOKgjZAInpzW//TBiw2QzXKRFfdvab0wPRBzO5jnBLY=
@@ -802,6 +808,8 @@ github.com/schnerring/hugo-theme-gruvbox v0.0.0-20230903161148-91c648d75e04 h1:o
 github.com/schnerring/hugo-theme-gruvbox v0.0.0-20230903161148-91c648d75e04/go.mod h1:8zRC4Bmjg7hNeJmpGF/uf1QCCtRb727cec61TJ7UJFg=
 github.com/schnerring/hugo-theme-gruvbox v0.0.0-20230904043550-4a4180acb46a h1:gLh1X8XI5WghGXugpKn8cdLIAT05sTkIvp43vU2os0o=
 github.com/schnerring/hugo-theme-gruvbox v0.0.0-20230904043550-4a4180acb46a/go.mod h1:8zRC4Bmjg7hNeJmpGF/uf1QCCtRb727cec61TJ7UJFg=
+github.com/schnerring/hugo-theme-gruvbox v0.0.0-20230908042830-a69edbd7e189 h1:csPZuBV2/2agltl9YJ2q49NvXcEn9X2FXZLVOIn9W1Q=
+github.com/schnerring/hugo-theme-gruvbox v0.0.0-20230908042830-a69edbd7e189/go.mod h1:8zRC4Bmjg7hNeJmpGF/uf1QCCtRb727cec61TJ7UJFg=
 github.com/schollz/onetwothree v0.0.0-20190916161743-a09e6530494c h1:503PXSWQR7gXGemoNiHnFz76i8pLEgTF0tLDnBIU9DQ=
 github.com/schollz/onetwothree v0.0.0-20190916161743-a09e6530494c/go.mod h1:7GFph1UoE8pGK7EBI8rJLnfsBltHgQp0gb8VIBZoTOI=
 github.com/seanlane/gochowdown v0.0.0-20220603122033-5458dc7bd80a h1:ZnCjJaq/MoQv0fOo6L7eZvjhlwC/+IcSF1dJGeoRRRM=
@@ -936,6 +944,8 @@ github.com/wileybaba/hugo-theme-robotico v0.0.0-20190128025338-a1e633362eee h1:t
 github.com/wileybaba/hugo-theme-robotico v0.0.0-20190128025338-a1e633362eee/go.mod h1:vOJlr1xB/pfN4MHqu7WOOO3r/MBmZdaMo8XCjqY8pR0=
 github.com/willfaught/paige v0.65.5 h1:jdcV0Qf7WenA4/7cgKqq65w5q54KHvoL3d1qQRJgjQk=
 github.com/willfaught/paige v0.65.5/go.mod h1:0Nt8ifl7UVYQIBaMtpZmg+BrQHHzFNqKcrBoA2Oo4/E=
+github.com/willfaught/paige v0.65.6 h1:YBg4BO2izSuNWzRS6Stcff52sg3iTWreaG941UvYOYc=
+github.com/willfaught/paige v0.65.6/go.mod h1:0Nt8ifl7UVYQIBaMtpZmg+BrQHHzFNqKcrBoA2Oo4/E=
 github.com/wjh18/hugo-liftoff/v3 v3.4.2 h1:hSOzjpm7IOgFgLBxkg/GVsOnllQi3uDzldxWk/9O7nY=
 github.com/wjh18/hugo-liftoff/v3 v3.4.2/go.mod h1:V0l/Hfgg7sNFpGjEWXwtSLnYWzwT9n2I6CYq83is80E=
 github.com/wjh18/hugo-liftoff/v3 v3.4.3 h1:AVpRFjbgroI0FOJbobJwGxVuPK2n/peKi9O+pfMNIEw=
