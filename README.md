@@ -18,15 +18,32 @@ Then, from the root of your theme's repository, you need to perform the followin
 
 After making your theme available online, you can include it here by following the steps mentioned below.
 
-1. Clone this repository
-    ```bash
-    git clone https://github.com/gohugoio/hugoThemesSiteBuilder.git
-    ```
+1. Fork and clone this repository
 2. Add your theme's URL (e.g. `github.com/user/my-blog-theme`) in [themes.txt](https://github.com/gohugoio/hugoThemesSiteBuilder/edit/main/themes.txt) in [lexicographical order](https://en.wikipedia.org/wiki/Lexicographic_order).
 3. Write a meaningful commit message (e.g. `Add theme my-blog-theme`).
-4. Create a pull request(PR) and ensure that deploy preview looks good.
+4. Create a pull request(PR) and ensure that Netlify deploy preview succeeds.
 
-The deploy preview is automatically updated whenever there is a change in the PR content. For instance, if you pushed a commit to resolve an issue in your theme, such as a missing thumbnail image, Netlify will re-deploy the website with the updated changes from your PR. You can track the [deployment status](https://docs.netlify.com/site-deploys/deploy-previews/#status-and-notifications) in the Netlify comment of your PR.
+## Troubleshooting a failed Netlify deploy preview
+
+The Netlify deploy preview can fail for a variety of reasons. The following steps outline how to troubleshoot such a failure.
+
+1. **Inspect the Log:** examine the associated log and identify the issue.
+
+2. **Fix the issue:** push commits required to fix the issue.
+
+3. **Trigger a new deploy preview:** A new deploy preview can be created as follows.
+
+   Amend the commit in your PR branch
+
+   ```bash
+   git commit --amend --no-edit
+   ```
+
+   Do a force push
+
+   ```bash
+   git push -f
+   ```
 
 > **Note**: The [themes site](https://themes.gohugo.io/) is scheduled to rebuild every day at UTC 00:00 (HH:MM). Any new theme addition or changes to existing theme will be reflected on the website after the next scheduled rebuild is complete.
 
