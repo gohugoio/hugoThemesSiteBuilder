@@ -92,6 +92,8 @@ github.com/McShelby/hugo-theme-relearn v0.0.0-20230831103423-e6b50128e4a1 h1:jVn
 github.com/McShelby/hugo-theme-relearn v0.0.0-20230831103423-e6b50128e4a1/go.mod h1:mKQQdxZNIlLvAj8X3tMq+RzntIJSr9z7XdzuMomt0IM=
 github.com/McShelby/hugo-theme-relearn v0.0.0-20230905210935-196188b7f3bd h1:FHkdcHbMLHnL/O417BeDylfczyHx5V2FGUPzp08DJxY=
 github.com/McShelby/hugo-theme-relearn v0.0.0-20230905210935-196188b7f3bd/go.mod h1:mKQQdxZNIlLvAj8X3tMq+RzntIJSr9z7XdzuMomt0IM=
+github.com/McShelby/hugo-theme-relearn v0.0.0-20230911221528-2c3c9d101350 h1:5IBZLFepzlZmTsBQZIxyuV6t0hHvdfgGJoVK96tvLQ4=
+github.com/McShelby/hugo-theme-relearn v0.0.0-20230911221528-2c3c9d101350/go.mod h1:mKQQdxZNIlLvAj8X3tMq+RzntIJSr9z7XdzuMomt0IM=
 github.com/MeiK2333/github-style v0.0.0-20221030070900-eee158a65892 h1:KPnOKKnc9Ix8Hnqu0qtCAkrFp/NtpAY96wYx1ZSq3Y0=
 github.com/MeiK2333/github-style v0.0.0-20221030070900-eee158a65892/go.mod h1:MDvfpZqhD/YSKR6X4f5hVUv588HxL1MVjsCTSM7ETxs=
 github.com/Mitrichius/hugo-theme-anubis v0.0.0-20230812084142-d214b9e410a9 h1:EDWQYTO6ofJn7Wp6E3N1l4XlYqkaNU4Ilimy/ae2Kdk=
@@ -425,6 +427,8 @@ github.com/h-enk/doks v0.5.0 h1:/pb2YhKODThnIty7ObwybJ/SNu3nyl8DqDSCbLybwd4=
 github.com/h-enk/doks v0.5.0/go.mod h1:rGZyg2gJspvHYEy6mWsl3JTVVkwcSEl6G3y88GRyfk4=
 github.com/h-enk/doks v1.0.0 h1:Xa9S6wJ3rZwSedVeVCTpHyZYlgp8xLExRLp8SYi1SFk=
 github.com/h-enk/doks v1.0.0/go.mod h1:rGZyg2gJspvHYEy6mWsl3JTVVkwcSEl6G3y88GRyfk4=
+github.com/h-enk/doks v1.0.1 h1:Gnq5e48dTswnZdKhV652QvTrsFvOdCmGTzVEzh2AATc=
+github.com/h-enk/doks v1.0.1/go.mod h1:rGZyg2gJspvHYEy6mWsl3JTVVkwcSEl6G3y88GRyfk4=
 github.com/hadisinaee/avicenna v0.0.0-20210802003840-1412ad1b941f h1:z2zpixZ1a+bos7Kp/mXJAP8TGvk8C3C2ooBGPDpJKnc=
 github.com/hadisinaee/avicenna v0.0.0-20210802003840-1412ad1b941f/go.mod h1:kg9hquFvYCh9THu+KTrZJEt214IgjNSewmOL2ocYwFM=
 github.com/half-duplex/hugo-arcana v0.0.0-20220925174418-62551760dc14 h1:oOKgjZAInpzW//TBiw2QzXKRFfdvab0wPRBzO5jnBLY=
@@ -595,6 +599,8 @@ github.com/lasseborly/anybodyhome v0.0.0-20180409213336-13667609bc57 h1:xvlB+sV8
 github.com/lasseborly/anybodyhome v0.0.0-20180409213336-13667609bc57/go.mod h1:RUu96nCHxf79jx0qz+NmAfSg7n36Qe4DzYXZsOR2ajE=
 github.com/leafee98/hugo-theme-flat v0.0.0-20230706072410-ad98c7238d2e h1:0wZnhS2826/xQHdRQrdjXU7QrVZdX43xQCblJgwORh8=
 github.com/leafee98/hugo-theme-flat v0.0.0-20230706072410-ad98c7238d2e/go.mod h1:Oz7GRO6rOgv2JLFcCBQ8GPH61gsiutHuIY5qaZUXv4w=
+github.com/leafee98/hugo-theme-flat v0.0.0-20230911064802-9aebccb59046 h1:ne1mgnEirQ6HHTaa5Y0VJUrvv8mqrVuMIHzmWaQPAr4=
+github.com/leafee98/hugo-theme-flat v0.0.0-20230911064802-9aebccb59046/go.mod h1:Oz7GRO6rOgv2JLFcCBQ8GPH61gsiutHuIY5qaZUXv4w=
 github.com/leonardofaria/bento v1.0.0 h1:Y5thQdUADjpsMZaqwIU3f52rqYvKl6c/IJiqniDZBYQ=
 github.com/leonardofaria/bento v1.0.0/go.mod h1:Hbxd6tt8E89d4fleTMJi8Z36YqxvE50Cz4+onrFWYiY=
 github.com/leonhe/hugo_eiio v0.0.0-20220625022627-bbcd7a744107 h1:bPxrBZokbAid0pRPiXJGVtAiNe5A5x5/DJPR8Cnz37o=
@@ -687,6 +693,8 @@ github.com/nirocfz/arabica v0.0.0-20220406035148-c63700f10450 h1:cxJqJ0b/GE4JCxg
 github.com/nirocfz/arabica v0.0.0-20220406035148-c63700f10450/go.mod h1:4BsqPfTquYHZYKBeieSe4yVh7UqHTzc2tNNXhqhqgC0=
 github.com/nixentric/Lowkey-Hugo-Theme v0.0.0-20230625125521-4d300ec4858a h1:rtW2xI/A7y4R0T6fi6fPS72REo9nAcAINiQ3ptYbND4=
 github.com/nixentric/Lowkey-Hugo-Theme v0.0.0-20230625125521-4d300ec4858a/go.mod h1:8AD1dXNnOhPKJZFk1cq0eBp1VdMLEvu1MdaUKZc91/o=
+github.com/nixentric/Lowkey-Hugo-Theme v0.0.0-20230911140549-eab35612ed36 h1:vQv3ReGrj9B16eLpnCMHkSiDiG84fQw+kV0sicriFYg=
+github.com/nixentric/Lowkey-Hugo-Theme v0.0.0-20230911140549-eab35612ed36/go.mod h1:8AD1dXNnOhPKJZFk1cq0eBp1VdMLEvu1MdaUKZc91/o=
 github.com/nodejh/hugo-theme-cactus-plus v0.0.0-20230717024722-c6ce39c13659 h1:zgsR5iyWiWMDldX2NwMJ0X7wrlnotrr/niTNzsy9lH0=
 github.com/nodejh/hugo-theme-cactus-plus v0.0.0-20230717024722-c6ce39c13659/go.mod h1:/f0ZXsMvHAdPQedcJ2ZUDg/rDWAnGAclQ8ukFRSTNHs=
 github.com/ntk148v/hugo-cuisine-book v0.0.0-20230817085758-c26a9c110fe7 h1:/5Ys6wbTYir3dgAAxytqM3+aTBLxqBDr1EfTp7rSCW4=
@@ -820,6 +828,8 @@ github.com/schnerring/hugo-theme-gruvbox v0.0.0-20230909144125-169f63942ba1 h1:t
 github.com/schnerring/hugo-theme-gruvbox v0.0.0-20230909144125-169f63942ba1/go.mod h1:j0fEKiJZW+n8wOaZ1+GIwY3jMFvkGCK+ZenQljmjYSo=
 github.com/schnerring/hugo-theme-gruvbox v0.0.0-20230910203408-9569df3cb42f h1:qVb8AwKRo4yppjkmeVoyidsy5yoswfcYpXEJAkXoSII=
 github.com/schnerring/hugo-theme-gruvbox v0.0.0-20230910203408-9569df3cb42f/go.mod h1:JxIjBQqEtdWatlZtHoXlH3jQ0Z4XutvEscUaGcgCmPM=
+github.com/schnerring/hugo-theme-gruvbox v0.0.0-20230911101937-d6c1cfca0469 h1:+zPfB+PsQSI0vVnYoUyCMITqPHiVO3GE9exvIcXu6Is=
+github.com/schnerring/hugo-theme-gruvbox v0.0.0-20230911101937-d6c1cfca0469/go.mod h1:JxIjBQqEtdWatlZtHoXlH3jQ0Z4XutvEscUaGcgCmPM=
 github.com/schollz/onetwothree v0.0.0-20190916161743-a09e6530494c h1:503PXSWQR7gXGemoNiHnFz76i8pLEgTF0tLDnBIU9DQ=
 github.com/schollz/onetwothree v0.0.0-20190916161743-a09e6530494c/go.mod h1:7GFph1UoE8pGK7EBI8rJLnfsBltHgQp0gb8VIBZoTOI=
 github.com/seanlane/gochowdown v0.0.0-20220603122033-5458dc7bd80a h1:ZnCjJaq/MoQv0fOo6L7eZvjhlwC/+IcSF1dJGeoRRRM=
@@ -1013,6 +1023,8 @@ github.com/zeon-studio/hugoplate v0.0.0-20230902034053-77bc7eef2df7 h1:95NIGEQb0
 github.com/zeon-studio/hugoplate v0.0.0-20230902034053-77bc7eef2df7/go.mod h1:YlRIwdTWidquf1dhtx+mDfu0I3KVrVQB4wi4UmHlK3E=
 github.com/zeon-studio/hugoplate v0.0.0-20230907024700-05f1d4c5fb9e h1:LMGeaxbqqqfmpTUWA8+c9YRFN90EzZzsG6mvKpHBOXE=
 github.com/zeon-studio/hugoplate v0.0.0-20230907024700-05f1d4c5fb9e/go.mod h1:YlRIwdTWidquf1dhtx+mDfu0I3KVrVQB4wi4UmHlK3E=
+github.com/zeon-studio/hugoplate v0.0.0-20230911040509-e065b889b8c6 h1:BIn1J66DXwYoxN2qW+xMj5BYqkdkN9/4TGqmjjercXc=
+github.com/zeon-studio/hugoplate v0.0.0-20230911040509-e065b889b8c6/go.mod h1:YlRIwdTWidquf1dhtx+mDfu0I3KVrVQB4wi4UmHlK3E=
 github.com/zerostaticthemes/hugo-hero-theme v1.1.0 h1:SjjN0RY+75XE4dUISzeSkQfrDr4SRhlrky+fRf5RR0Y=
 github.com/zerostaticthemes/hugo-hero-theme v1.1.0/go.mod h1:4+Fj7q4tyVtSC6s7EwS4RedKa6pYj6TyjBQqh29GU/Q=
 github.com/zerostaticthemes/hugo-serif-theme v1.1.1 h1:9qsICmqv9n7zUHvvrigDYQuwH40K81RnOFQPdqDchFA=
