@@ -94,6 +94,8 @@ github.com/McShelby/hugo-theme-relearn v0.0.0-20230905210935-196188b7f3bd h1:FHk
 github.com/McShelby/hugo-theme-relearn v0.0.0-20230905210935-196188b7f3bd/go.mod h1:mKQQdxZNIlLvAj8X3tMq+RzntIJSr9z7XdzuMomt0IM=
 github.com/McShelby/hugo-theme-relearn v0.0.0-20230911221528-2c3c9d101350 h1:5IBZLFepzlZmTsBQZIxyuV6t0hHvdfgGJoVK96tvLQ4=
 github.com/McShelby/hugo-theme-relearn v0.0.0-20230911221528-2c3c9d101350/go.mod h1:mKQQdxZNIlLvAj8X3tMq+RzntIJSr9z7XdzuMomt0IM=
+github.com/McShelby/hugo-theme-relearn v0.0.0-20230912212017-6138eb1b6281 h1:PZxNQb0a9uTkfClnpe8cdAu3BO842fp24QBmvOgcCvQ=
+github.com/McShelby/hugo-theme-relearn v0.0.0-20230912212017-6138eb1b6281/go.mod h1:mKQQdxZNIlLvAj8X3tMq+RzntIJSr9z7XdzuMomt0IM=
 github.com/MeiK2333/github-style v0.0.0-20221030070900-eee158a65892 h1:KPnOKKnc9Ix8Hnqu0qtCAkrFp/NtpAY96wYx1ZSq3Y0=
 github.com/MeiK2333/github-style v0.0.0-20221030070900-eee158a65892/go.mod h1:MDvfpZqhD/YSKR6X4f5hVUv588HxL1MVjsCTSM7ETxs=
 github.com/Mitrichius/hugo-theme-anubis v0.0.0-20230812084142-d214b9e410a9 h1:EDWQYTO6ofJn7Wp6E3N1l4XlYqkaNU4Ilimy/ae2Kdk=
@@ -128,6 +130,8 @@ github.com/StaticMania/portio-hugo v1.0.0 h1:Io5PDkSC/1LaaJ7zXRiC2+4T2dNm3U9ufhq
 github.com/StaticMania/portio-hugo v1.0.0/go.mod h1:R6tFxNWV9033HHAwnrjZNzmhP6i4wRGBMA13eRvwc54=
 github.com/StaticMania/roxo-hugo v0.0.0-20221025062222-ce354191864b h1:sKCQZJji3oiZdrNDccqjVjw9JhDxhDIxxxpuf10zU1c=
 github.com/StaticMania/roxo-hugo v0.0.0-20221025062222-ce354191864b/go.mod h1:+5LvP1v1BC8OeR2EuIJqH67vaO9PFdD0ZvC2Vvi1eBw=
+github.com/StaticMania/roxo-hugo v0.0.0-20230912110241-eac3f49bc573 h1:wdx4P7ZBqj+jg1sDp7BwOnfEEEH04CjkX0MO8EGPeLM=
+github.com/StaticMania/roxo-hugo v0.0.0-20230912110241-eac3f49bc573/go.mod h1:+5LvP1v1BC8OeR2EuIJqH67vaO9PFdD0ZvC2Vvi1eBw=
 github.com/StefMa/hugo-fresh v1.0.0 h1:Nxo9WtzfBlaFi1G8NEHQLReJQz+Dn4jRxec+lMrPG6k=
 github.com/StefMa/hugo-fresh v1.0.0/go.mod h1:yRzHyco0bfnITjvq7rfAiOADfGMrDlM0kXeKBllUJEc=
 github.com/SteveLane/hugo-icon v0.0.0-20190305212339-0e6206738afc h1:7i+GMagHgVnXdx8e4Px2g6Uvm4f6UEWc3ttCSCC4Hq4=
@@ -321,6 +325,8 @@ github.com/davidhampgonsalves/hugo-black-and-light-theme v0.0.0-20221107102623-e
 github.com/davidhampgonsalves/hugo-black-and-light-theme v0.0.0-20221107102623-e75ab9e72a65/go.mod h1:J1ng1xShIPXhMmDnDQU/km2+bFm9QKul9ubdqqhteLU=
 github.com/dchucks/agnes-hugo-theme v0.0.0-20230823131257-5bb006a7ddfb h1:HK5nHmHoPY6M13ziUaDKeuCQXOGTf0XUyiUJWcP534A=
 github.com/dchucks/agnes-hugo-theme v0.0.0-20230823131257-5bb006a7ddfb/go.mod h1:kvecb3qvYixm6ars4fMPeGtdE8qHRySU9NMYg3ArZbQ=
+github.com/dchucks/agnes-hugo-theme v0.0.0-20230912123557-20832dff5811 h1:JsXH7M0yXvadBoKSnxITlwYRa09pWuDc9JhxoWt2tMY=
+github.com/dchucks/agnes-hugo-theme v0.0.0-20230912123557-20832dff5811/go.mod h1:kvecb3qvYixm6ars4fMPeGtdE8qHRySU9NMYg3ArZbQ=
 github.com/de-souza/hugo-flex v0.0.0-20230131090349-64e030211b89 h1:ZRJOwoJHfPLDBTHtT0JO8/NjJotvhEwRiwj6P5ELqW4=
 github.com/de-souza/hugo-flex v0.0.0-20230131090349-64e030211b89/go.mod h1:XAyp0wkF5CZ3IX2uFMPZOyAuVI3GY7kKDUiJGk4UD6w=
 github.com/devcows/hugo-universal-theme v0.0.0-20230526111422-cf0336a17584 h1:N/0zYlU7y8vP8Af7nbD67Ca2VPC2Qu1IfRadvlIEg6s=
@@ -980,6 +986,8 @@ github.com/wowchemy/starter-hugo-academic v0.0.0-20230903011407-c79cd099fef7 h1:
 github.com/wowchemy/starter-hugo-academic v0.0.0-20230903011407-c79cd099fef7/go.mod h1:Vaw9rlFHgcC4bV0njKCzrlBmKTv+O31dxFSVovEJIzQ=
 github.com/wowchemy/starter-hugo-academic v0.0.0-20230910011451-e5ad5ed55d98 h1:2dILryCDapujMs41dQhzu5d+28HD/nujtPAKFeqbfdY=
 github.com/wowchemy/starter-hugo-academic v0.0.0-20230910011451-e5ad5ed55d98/go.mod h1:Vaw9rlFHgcC4bV0njKCzrlBmKTv+O31dxFSVovEJIzQ=
+github.com/wowchemy/starter-hugo-academic v0.0.0-20230913000616-36e4c3053db0 h1:DjbGUBgfAIc0cPBy/28XsaT+7oatDHV0a3CkUyBmzBA=
+github.com/wowchemy/starter-hugo-academic v0.0.0-20230913000616-36e4c3053db0/go.mod h1:Vaw9rlFHgcC4bV0njKCzrlBmKTv+O31dxFSVovEJIzQ=
 github.com/wowchemy/wowchemy-hugo-themes/modules/wowchemy-core v0.1.0/go.mod h1:kJwI9H8dicHQCnP8G9EvUDI+oNg/yXcGsjGjwjXuM8I=
 github.com/wowchemy/wowchemy-hugo-themes/modules/wowchemy-core v0.2.0/go.mod h1:kJwI9H8dicHQCnP8G9EvUDI+oNg/yXcGsjGjwjXuM8I=
 github.com/wowchemy/wowchemy-hugo-themes/modules/wowchemy-plugin-netlify v1.0.0/go.mod h1:s40UgLsWfVyCLQ2F4F3dBcNfZOXcPGld7KxsKhZdzvM=
@@ -1025,6 +1033,8 @@ github.com/zeon-studio/hugoplate v0.0.0-20230907024700-05f1d4c5fb9e h1:LMGeaxbqq
 github.com/zeon-studio/hugoplate v0.0.0-20230907024700-05f1d4c5fb9e/go.mod h1:YlRIwdTWidquf1dhtx+mDfu0I3KVrVQB4wi4UmHlK3E=
 github.com/zeon-studio/hugoplate v0.0.0-20230911040509-e065b889b8c6 h1:BIn1J66DXwYoxN2qW+xMj5BYqkdkN9/4TGqmjjercXc=
 github.com/zeon-studio/hugoplate v0.0.0-20230911040509-e065b889b8c6/go.mod h1:YlRIwdTWidquf1dhtx+mDfu0I3KVrVQB4wi4UmHlK3E=
+github.com/zeon-studio/hugoplate v0.0.0-20230912030638-077ed060a344 h1:2+W3IKaJHzp45ktk+QoaM4a4egBhrSrFUQR3j9BoUro=
+github.com/zeon-studio/hugoplate v0.0.0-20230912030638-077ed060a344/go.mod h1:YlRIwdTWidquf1dhtx+mDfu0I3KVrVQB4wi4UmHlK3E=
 github.com/zerostaticthemes/hugo-hero-theme v1.1.0 h1:SjjN0RY+75XE4dUISzeSkQfrDr4SRhlrky+fRf5RR0Y=
 github.com/zerostaticthemes/hugo-hero-theme v1.1.0/go.mod h1:4+Fj7q4tyVtSC6s7EwS4RedKa6pYj6TyjBQqh29GU/Q=
 github.com/zerostaticthemes/hugo-serif-theme v1.1.1 h1:9qsICmqv9n7zUHvvrigDYQuwH40K81RnOFQPdqDchFA=
