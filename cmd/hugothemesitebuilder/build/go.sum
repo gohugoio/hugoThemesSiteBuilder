@@ -68,6 +68,8 @@ github.com/Jack-alope/sourgough-starter v0.0.0-20210828023614-9b85c4ba720b h1:uF
 github.com/Jack-alope/sourgough-starter v0.0.0-20210828023614-9b85c4ba720b/go.mod h1:IF+q4WiodjH5v6XxsBYksXjfwtRBKn7qdSbmEx2Cw6I=
 github.com/JingWangTW/dark-theme-editor v0.0.0-20230823144529-8aa1d497b0ab h1:fMMbtJZEMX3kv5no01T6DXe3ufGSPEHxsGxDAEcRvt0=
 github.com/JingWangTW/dark-theme-editor v0.0.0-20230823144529-8aa1d497b0ab/go.mod h1:bQG0zqAFVr8Q22E/POpE2azzIWcVu+zBBLsdBQMlWio=
+github.com/JingWangTW/dark-theme-editor v0.0.0-20230915050358-40e41600a186 h1:85hcriwc5OV2AEcnHZvC7vf2DrpgKrNVirR+cJw6p/s=
+github.com/JingWangTW/dark-theme-editor v0.0.0-20230915050358-40e41600a186/go.mod h1:bQG0zqAFVr8Q22E/POpE2azzIWcVu+zBBLsdBQMlWio=
 github.com/KatamariJr/split-landing v1.0.1 h1:Y/zC552Zx320o2sEtwBAEQCLK6811EgoGKTyssQfGno=
 github.com/KatamariJr/split-landing v1.0.1/go.mod h1:TbrZDcniqqiPdYvNSdt/1g04IS0U3xLctIT8RVOLMdw=
 github.com/Lednerb/bilberry-hugo-theme/v3 v3.25.0 h1:6lkClCTFvx5LhJr9CsfFNZxZ22B8FrcaRHVsT+hhoVQ=
@@ -289,6 +291,8 @@ github.com/colinwilson/lotusdocs v0.0.0-20230908053017-e672ff87608e h1:gDRXA6U3A
 github.com/colinwilson/lotusdocs v0.0.0-20230908053017-e672ff87608e/go.mod h1:9zu2REJDi+zdPRcR5/bRYSUR7gkNF4NQLvV38SEoCP8=
 github.com/colinwilson/lotusdocs v0.0.0-20230914215523-28215be06ca1 h1:dumIHcXz/SQmPQyLxI1JfwYnmxLNfp/1HW1o/1JFy5w=
 github.com/colinwilson/lotusdocs v0.0.0-20230914215523-28215be06ca1/go.mod h1:9zu2REJDi+zdPRcR5/bRYSUR7gkNF4NQLvV38SEoCP8=
+github.com/colinwilson/lotusdocs v0.0.0-20230915145608-8bab2d130c1e h1:siTZEfwVzCC+zml6o7JCMHs9c3lbtorHQGaneh5m6dI=
+github.com/colinwilson/lotusdocs v0.0.0-20230915145608-8bab2d130c1e/go.mod h1:9zu2REJDi+zdPRcR5/bRYSUR7gkNF4NQLvV38SEoCP8=
 github.com/colorchestra/smol v0.0.0-20210810214745-4129f82cd766 h1:5/rg5hX9hzYWpTjiyvv1ip5LBDVOT4Fi3UCXhKc3ssA=
 github.com/colorchestra/smol v0.0.0-20210810214745-4129f82cd766/go.mod h1:zCNGH1Qu+A99iK4ZWFGilgcr9e1HVs/j25UmmH+EOv8=
 github.com/cowboysmall-tools/hugo-business-frontpage-theme v0.0.0-20200113082043-c5212be68d07 h1:/ixVisd+5Sx3Zs6hwFPHZpmNUz9ZujinYz9vZTxbiQQ=
@@ -451,6 +455,8 @@ github.com/h-enk/doks v1.0.1 h1:Gnq5e48dTswnZdKhV652QvTrsFvOdCmGTzVEzh2AATc=
 github.com/h-enk/doks v1.0.1/go.mod h1:rGZyg2gJspvHYEy6mWsl3JTVVkwcSEl6G3y88GRyfk4=
 github.com/h-enk/doks v1.0.2 h1:z0S58qDGX2OkPP602LBbvFCnTFQLrXWaHf+XaaDlNB0=
 github.com/h-enk/doks v1.0.2/go.mod h1:rGZyg2gJspvHYEy6mWsl3JTVVkwcSEl6G3y88GRyfk4=
+github.com/h-enk/doks v1.0.3 h1:HmYKqYDAZxwK01UT9r6kU+7MJhqKedkWNpDPJ4x6xQs=
+github.com/h-enk/doks v1.0.3/go.mod h1:rGZyg2gJspvHYEy6mWsl3JTVVkwcSEl6G3y88GRyfk4=
 github.com/hadisinaee/avicenna v0.0.0-20210802003840-1412ad1b941f h1:z2zpixZ1a+bos7Kp/mXJAP8TGvk8C3C2ooBGPDpJKnc=
 github.com/hadisinaee/avicenna v0.0.0-20210802003840-1412ad1b941f/go.mod h1:kg9hquFvYCh9THu+KTrZJEt214IgjNSewmOL2ocYwFM=
 github.com/half-duplex/hugo-arcana v0.0.0-20220925174418-62551760dc14 h1:oOKgjZAInpzW//TBiw2QzXKRFfdvab0wPRBzO5jnBLY=
@@ -526,6 +532,8 @@ github.com/it-gro/hugo-theme-w3css-basic v0.0.0-20230306221104-d5db94051de6 h1:7
 github.com/it-gro/hugo-theme-w3css-basic v0.0.0-20230306221104-d5db94051de6/go.mod h1:j31sf4/j0eJY5JVr5cmGiwscgLElo0Si5smqacCovn0=
 github.com/jacksalici/salinger-theme/v2 v2.0.4 h1:Ij6dyXXq8n/1S+E+9i5zf2NdDaRu27GNNmUrZVuLkNs=
 github.com/jacksalici/salinger-theme/v2 v2.0.4/go.mod h1:l45EriaVkZ8NOzKleCvy268agtrAmBadmXNJ2lNnnaM=
+github.com/jacksalici/salinger-theme/v2 v2.1.1 h1:sYpDPRxJtBSLCYcIxFHKiKqmMQA1Ih2436bLbT2+G4E=
+github.com/jacksalici/salinger-theme/v2 v2.1.1/go.mod h1:rd0Mb0TLVhj+wch6/3iY+M6GRB16lhHb/B/h2UT56t4=
 github.com/jacobsun/edidor v1.1.0 h1:WyaU82I4v6WuvL0onoVuueomakjiUWc5aKFZ2nrs+To=
 github.com/jacobsun/edidor v1.1.0/go.mod h1:eMEZH0mLX9w4PDdrNMT+X6DtL8gRov616ijlrvT//F8=
 github.com/jacobsun/hugo-theme-cole v0.0.0-20220324124602-6df85b298c13 h1:FubAbwUCwhnnwNB1CeDoIIhUCBwn0bw6+xLN5uK32/8=
