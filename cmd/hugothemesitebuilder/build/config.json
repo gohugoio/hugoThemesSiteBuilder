@@ -627,6 +627,11 @@
       {
         "ignoreImports": true,
         "noMounts": true,
+        "path": "github.com/cncf/dot-org-hugo-theme"
+      },
+      {
+        "ignoreImports": true,
+        "noMounts": true,
         "path": "github.com/cntrump/hugo-notepadium"
       },
       {
@@ -788,6 +793,11 @@
         "ignoreImports": true,
         "noMounts": true,
         "path": "github.com/dldx/hpstr-hugo-theme"
+      },
+      {
+        "ignoreImports": true,
+        "noMounts": true,
+        "path": "github.com/dmachard/hugo-theme-gists"
       },
       {
         "ignoreImports": true,
@@ -1008,6 +1018,11 @@
         "ignoreImports": true,
         "noMounts": true,
         "path": "github.com/hbstack/theme"
+      },
+      {
+        "ignoreImports": true,
+        "noMounts": true,
+        "path": "github.com/hbstack/theme-start"
       },
       {
         "ignoreImports": true,

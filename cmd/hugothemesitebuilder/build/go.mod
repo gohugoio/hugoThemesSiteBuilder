@@ -131,6 +131,7 @@ require (
 	github.com/chringel21/chringel-hugo-theme v1.3.1 // indirect
 	github.com/clente/hugo-bearcub v0.0.0-20230425190722-f26d122b2ad0 // indirect
 	github.com/cloudwithchris/hugo-creator v0.0.28 // indirect
+	github.com/cncf/dot-org-hugo-theme v0.1.1 // indirect
 	github.com/cntrump/hugo-notepadium v2.6.2+incompatible // indirect
 	github.com/coderzh/hugo-pacman-theme v0.0.0-20211218130934-daba606c4f13 // indirect
 	github.com/colinwilson/lotusdocs v0.0.0-20230916164925-62442d2389fa // indirect
@@ -164,6 +165,7 @@ require (
 	github.com/diwao/hestia-pure v0.0.0-20180322071727-320c944ffcf9 // indirect
 	github.com/djuelg/Shapez-Theme v0.0.0-20200822131204-bfc2adf16fd4 // indirect
 	github.com/dldx/hpstr-hugo-theme v0.0.0-20180623041957-3658a0b0c9c2 // indirect
+	github.com/dmachard/hugo-theme-gists v0.0.0-20230917083617-05cca355a22b // indirect
 	github.com/docura/docura v0.0.0-20230914194849-cbb027c5275e // indirect
 	github.com/dplesca/purehugo v0.0.0-20190924072610-5b577adff2e1 // indirect
 	github.com/dsrkafuu/hugo-theme-fuji v2.8.2+incompatible // indirect
@@ -208,6 +210,7 @@ require (
 	github.com/halogenica/beautifulhugo v0.0.0-20230624134853-c9856df47194 // indirect
 	github.com/hauke96/hugo-theme-hamburg v0.8.2 // indirect
 	github.com/hbstack/theme v0.3.0 // indirect
+	github.com/hbstack/theme-start v0.3.2 // indirect
 	github.com/hdcdstr8fwd/foundation-theme v0.0.0-20190427172834-b159c5ca30a4 // indirect
 	github.com/heksagonnet/piko v0.0.0-20230326021046-49fea5abb244 // indirect
 	github.com/heyeshuang/hugo-theme-tokiwa v0.0.0-20230822002507-dd607ca18911 // indirect
