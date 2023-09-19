@@ -78,6 +78,8 @@ github.com/Lednerb/bilberry-hugo-theme/v4 v4.0.5 h1:w/pegFBjtIRvj5CEfwIfUUmWrZnd
 github.com/Lednerb/bilberry-hugo-theme/v4 v4.0.5/go.mod h1:EuKUIrQ8i/a2uxVuqZiUUK7FuoKsJ4UcolM1FYmLewM=
 github.com/Lednerb/bilberry-hugo-theme/v4 v4.0.6 h1:sGlt+vcKol9zv1tfIN2z/oeky9s49Y1elZEMaYUh3lM=
 github.com/Lednerb/bilberry-hugo-theme/v4 v4.0.6/go.mod h1:EuKUIrQ8i/a2uxVuqZiUUK7FuoKsJ4UcolM1FYmLewM=
+github.com/Lednerb/bilberry-hugo-theme/v4 v4.0.7 h1:5yLBHg+5RiwTLztjWwJVAekX4SHwykoCcG6DmZu5MZ4=
+github.com/Lednerb/bilberry-hugo-theme/v4 v4.0.7/go.mod h1:EuKUIrQ8i/a2uxVuqZiUUK7FuoKsJ4UcolM1FYmLewM=
 github.com/LordMathis/hugo-theme-nightfall v0.5.1 h1:xeycc74MTnikZ7tv+V8Lhuu9zrqRpVkaNjqw9eQYVNc=
 github.com/LordMathis/hugo-theme-nightfall v0.5.1/go.mod h1:0tCPxAeg5+tWhv17517Q8Lti/TPh0KNyON/uferEU30=
 github.com/LordMathis/hugo-theme-nix v0.0.0-20230616072641-72c7ff1fabeb h1:Wa2zyovcntvY+K+b7QtCHMbyF56HQ3PKmzW7MKdCWb4=
@@ -106,12 +108,18 @@ github.com/McShelby/hugo-theme-relearn v0.0.0-20230913212904-4921ec0583e9 h1:GcC
 github.com/McShelby/hugo-theme-relearn v0.0.0-20230913212904-4921ec0583e9/go.mod h1:mKQQdxZNIlLvAj8X3tMq+RzntIJSr9z7XdzuMomt0IM=
 github.com/McShelby/hugo-theme-relearn v0.0.0-20230914222341-6cd5a9319836 h1:2MJy3SqkfYhCVgheieM+wY8QsXuifWfM2wA/uR+l1+E=
 github.com/McShelby/hugo-theme-relearn v0.0.0-20230914222341-6cd5a9319836/go.mod h1:mKQQdxZNIlLvAj8X3tMq+RzntIJSr9z7XdzuMomt0IM=
+github.com/McShelby/hugo-theme-relearn v0.0.0-20230918201237-156985fcfd6e h1:bgi1y7CZNRF6qq6hJN7lA5YjRh4rBX98Di5ZLpsJS28=
+github.com/McShelby/hugo-theme-relearn v0.0.0-20230918201237-156985fcfd6e/go.mod h1:mKQQdxZNIlLvAj8X3tMq+RzntIJSr9z7XdzuMomt0IM=
 github.com/MeiK2333/github-style v0.0.0-20221030070900-eee158a65892 h1:KPnOKKnc9Ix8Hnqu0qtCAkrFp/NtpAY96wYx1ZSq3Y0=
 github.com/MeiK2333/github-style v0.0.0-20221030070900-eee158a65892/go.mod h1:MDvfpZqhD/YSKR6X4f5hVUv588HxL1MVjsCTSM7ETxs=
+github.com/MeiK2333/github-style v0.0.0-20230918025927-fafe84e58f28 h1:tBf/ff3pKpBFko1EtjbHQTT0DhK2kXnaKp3Xz9HjNyg=
+github.com/MeiK2333/github-style v0.0.0-20230918025927-fafe84e58f28/go.mod h1:MDvfpZqhD/YSKR6X4f5hVUv588HxL1MVjsCTSM7ETxs=
 github.com/Mitrichius/hugo-theme-anubis v0.0.0-20230812084142-d214b9e410a9 h1:EDWQYTO6ofJn7Wp6E3N1l4XlYqkaNU4Ilimy/ae2Kdk=
 github.com/Mitrichius/hugo-theme-anubis v0.0.0-20230812084142-d214b9e410a9/go.mod h1:FKD3NbdsQzL+cXsC3x99XD/t/Rd5EyhDlNBAxQhULbo=
 github.com/Mitrichius/hugo-theme-anubis v0.0.0-20230903094235-e4e2c0bc4145 h1:L6fOX0U7ZSMgKngT1k3LPgRlOnCb4jv1jJ5wvlu05Bc=
 github.com/Mitrichius/hugo-theme-anubis v0.0.0-20230903094235-e4e2c0bc4145/go.mod h1:FKD3NbdsQzL+cXsC3x99XD/t/Rd5EyhDlNBAxQhULbo=
+github.com/Mitrichius/hugo-theme-anubis v0.0.0-20230918182456-01c3a53f124c h1:ExzBis1WDt0gqG8jGpMmio6oCmx8r7MTu6dvp9Gc/g0=
+github.com/Mitrichius/hugo-theme-anubis v0.0.0-20230918182456-01c3a53f124c/go.mod h1:FKD3NbdsQzL+cXsC3x99XD/t/Rd5EyhDlNBAxQhULbo=
 github.com/Morgscode/hugo-theme-spaced-blog v0.0.0-20230709210837-d9e6e9c4760a h1:phpjWzA+lheAxuOot9BfRowSmry8Vym5K6MyIE1/mGI=
 github.com/Morgscode/hugo-theme-spaced-blog v0.0.0-20230709210837-d9e6e9c4760a/go.mod h1:vGiTWnhY5rFpCahN5zEfrjeRAGKWvC69XrNl29zJGCI=
 github.com/MunifTanjim/minimo v2.10.1+incompatible h1:o7ckkriYLj/ER1ysqsmTFUJ1l82qWGdrz7bXCSjdqpY=
@@ -297,6 +305,8 @@ github.com/colinwilson/lotusdocs v0.0.0-20230916164925-62442d2389fa h1:+GFNJdAro
 github.com/colinwilson/lotusdocs v0.0.0-20230916164925-62442d2389fa/go.mod h1:9zu2REJDi+zdPRcR5/bRYSUR7gkNF4NQLvV38SEoCP8=
 github.com/colinwilson/lotusdocs v0.0.0-20230917180318-983ce811b031 h1:9iTi/YgnPAe0C3BTyQzmBx3FaNXZQB+QqvESPX1lBJw=
 github.com/colinwilson/lotusdocs v0.0.0-20230917180318-983ce811b031/go.mod h1:9zu2REJDi+zdPRcR5/bRYSUR7gkNF4NQLvV38SEoCP8=
+github.com/colinwilson/lotusdocs v0.0.0-20230918160453-bc1752e7395a h1:cUTNEYTrKn+kkpZFSbfMFdFpW2qaB+8yT1iwPc5CTv8=
+github.com/colinwilson/lotusdocs v0.0.0-20230918160453-bc1752e7395a/go.mod h1:9zu2REJDi+zdPRcR5/bRYSUR7gkNF4NQLvV38SEoCP8=
 github.com/colorchestra/smol v0.0.0-20210810214745-4129f82cd766 h1:5/rg5hX9hzYWpTjiyvv1ip5LBDVOT4Fi3UCXhKc3ssA=
 github.com/colorchestra/smol v0.0.0-20210810214745-4129f82cd766/go.mod h1:zCNGH1Qu+A99iK4ZWFGilgcr9e1HVs/j25UmmH+EOv8=
 github.com/cowboysmall-tools/hugo-business-frontpage-theme v0.0.0-20200113082043-c5212be68d07 h1:/ixVisd+5Sx3Zs6hwFPHZpmNUz9ZujinYz9vZTxbiQQ=
@@ -510,6 +520,8 @@ github.com/hugo-sid/hugo-blog-awesome v1.8.0 h1:FWK7WfO5KaMN/bN1O/Rpiud18nWkv9/+
 github.com/hugo-sid/hugo-blog-awesome v1.8.0/go.mod h1:oRoqH9/bJDdyQqBoxI77O1oWAwVtn+fTng9MD3vR8A0=
 github.com/hugo-sid/hugo-blog-awesome v1.9.0 h1:ktvjX/a0SOaK306EuB929xM1rlGSzRNhU54aqPI/GxA=
 github.com/hugo-sid/hugo-blog-awesome v1.9.0/go.mod h1:oRoqH9/bJDdyQqBoxI77O1oWAwVtn+fTng9MD3vR8A0=
+github.com/hugo-sid/hugo-blog-awesome v1.10.0 h1:CzlWFi+gtPvvJSI3SCY7qSPx5k+I0oWZ5C4BvJG1Ih0=
+github.com/hugo-sid/hugo-blog-awesome v1.10.0/go.mod h1:oRoqH9/bJDdyQqBoxI77O1oWAwVtn+fTng9MD3vR8A0=
 github.com/humrochagf/colordrop v1.12.1 h1:nIGiH3+TifM55GsuNzHBRFyu2VSZn+AAH/L72DinXIw=
 github.com/humrochagf/colordrop v1.12.1/go.mod h1:JutTqO0xjsqqrF6A/MkhAl+iXg4DCM6/nY5wy81TmLQ=
 github.com/huyb1991/hugo-lamp v1.2.1 h1:/mgi7HrIKhnnaavaM7ybdQSjaYorpOdPKYTmfZrGC4A=
@@ -882,6 +894,8 @@ github.com/schnerring/hugo-theme-gruvbox v0.0.0-20230910203408-9569df3cb42f h1:q
 github.com/schnerring/hugo-theme-gruvbox v0.0.0-20230910203408-9569df3cb42f/go.mod h1:JxIjBQqEtdWatlZtHoXlH3jQ0Z4XutvEscUaGcgCmPM=
 github.com/schnerring/hugo-theme-gruvbox v0.0.0-20230911101937-d6c1cfca0469 h1:+zPfB+PsQSI0vVnYoUyCMITqPHiVO3GE9exvIcXu6Is=
 github.com/schnerring/hugo-theme-gruvbox v0.0.0-20230911101937-d6c1cfca0469/go.mod h1:JxIjBQqEtdWatlZtHoXlH3jQ0Z4XutvEscUaGcgCmPM=
+github.com/schnerring/hugo-theme-gruvbox v0.0.0-20230918060907-cca275b4845b h1:gbB753Q+hXl4yrw5gKLIkXF1XRXj8QV0X5DmJy5im7w=
+github.com/schnerring/hugo-theme-gruvbox v0.0.0-20230918060907-cca275b4845b/go.mod h1:Y6yXLMEAH2K7CN8HMriVo6JUBhqECrcY6zYZ2YlWvaY=
 github.com/schollz/onetwothree v0.0.0-20190916161743-a09e6530494c h1:503PXSWQR7gXGemoNiHnFz76i8pLEgTF0tLDnBIU9DQ=
 github.com/schollz/onetwothree v0.0.0-20190916161743-a09e6530494c/go.mod h1:7GFph1UoE8pGK7EBI8rJLnfsBltHgQp0gb8VIBZoTOI=
 github.com/seanlane/gochowdown v0.0.0-20220603122033-5458dc7bd80a h1:ZnCjJaq/MoQv0fOo6L7eZvjhlwC/+IcSF1dJGeoRRRM=
