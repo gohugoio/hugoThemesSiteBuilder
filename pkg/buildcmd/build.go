@@ -61,7 +61,7 @@ func (c *Config) Exec(ctx context.Context, args []string) error {
 	if !c.noClean {
 		client.CheckErr(os.RemoveAll(contentDir))
 	}
-	client.CheckErr(os.MkdirAll(contentDir, 0777))
+	client.CheckErr(os.MkdirAll(contentDir, 0o777))
 
 	client := &buildClient{Client: c.rootConfig.Client, contentDir: contentDir, w: workers.New(4)}
 
@@ -87,7 +87,6 @@ func (c *Config) Exec(ctx context.Context, args []string) error {
 	}
 
 	return nil
-
 }
 
 type buildClient struct {
@@ -132,7 +131,6 @@ func (c *buildClient) getGitHubRepo(path string) client.GitHubRepo {
 	})
 
 	return c.ghRepos[path]
-
 }
 
 func (c *buildClient) writeThemesContent() error {
@@ -152,7 +150,6 @@ func (c *buildClient) writeThemesContent() error {
 	c.Logf("Processed %d themes.", len(c.mmap))
 
 	if err != nil {
-
 	}
 
 	if len(c.buildErrs) > 0 {
@@ -167,12 +164,21 @@ func (c *buildClient) writeThemesContent() error {
 	return nil
 }
 
+func fixReadmeContent(s string) string {
+	// Tell Hugo not to process shortcode samples
+	s = regexp.MustCompile(`(?s){{%(/)?([^\/].*?)%}}`).ReplaceAllString(s, `{{%/*$1$2*/%}}`)
+	s = regexp.MustCompile(`(?s){{<(/)?([^\/].*?)>}}`).ReplaceAllString(s, `{{</*$1$2*/>}}`)
+	// s = regexp.MustCompile(`(?s)github\.com\/(.*?)\/blob\/master\/images/raw\.githubusercontent\.com`).ReplaceAllString(s, `/$1/master/images/`)
+
+	return s
+}
+
 func (c *buildClient) writeThemeContent(k string, m client.Module) error {
 	re := regexp.MustCompile(`\/v\d+$`)
 	themeName := strings.ToLower(path.Base(re.ReplaceAllString(k, "")))
 
 	themeDir := filepath.Join(c.contentDir, "themes", themeName)
-	client.CheckErr(os.MkdirAll(themeDir, 0777))
+	client.CheckErr(os.MkdirAll(themeDir, 0o777))
 
 	copyIfExists := func(sourcePath, targetPath string) error {
 		fs, err := os.Open(filepath.Join(m.Dir, sourcePath))
@@ -181,7 +187,7 @@ func (c *buildClient) writeThemeContent(k string, m client.Module) error {
 		}
 		defer fs.Close()
 		targetFilename := filepath.Join(themeDir, targetPath)
-		client.CheckErr(os.MkdirAll(filepath.Dir(targetFilename), 0777))
+		client.CheckErr(os.MkdirAll(filepath.Dir(targetFilename), 0o777))
 		ft, err := os.Create(targetFilename)
 		client.CheckErr(err)
 		defer ft.Close()
@@ -190,15 +196,6 @@ func (c *buildClient) writeThemeContent(k string, m client.Module) error {
 		client.CheckErr(err)
 
 		return nil
-	}
-
-	fixReadMeContent := func(s string) string {
-		// Tell Hugo not to process shortcode samples
-		s = regexp.MustCompile(`(?s){\{%([^\/].*?)%\}\}`).ReplaceAllString(s, `{{%/*$1*/%}}`)
-		s = regexp.MustCompile(`(?s){\{<([^\/].*?)>\}\}`).ReplaceAllString(s, `{{</*$1*/>}}`)
-		// s = regexp.MustCompile(`(?s)github\.com\/(.*?)\/blob\/master\/images/raw\.githubusercontent\.com`).ReplaceAllString(s, `/$1/master/images/`)
-
-		return s
 	}
 
 	getReadMeContent := func() string {
@@ -211,7 +208,7 @@ func (c *buildClient) writeThemeContent(k string, m client.Module) error {
 			if strings.EqualFold(fi.Name(), "readme.md") {
 				b, err := os.ReadFile(filepath.Join(m.Dir, fi.Name()))
 				client.CheckErr(err)
-				return fixReadMeContent(string(b))
+				return fixReadmeContent(string(b))
 			}
 		}
 		return ""
@@ -265,7 +262,7 @@ func (c *buildClient) writeThemeContent(k string, m client.Module) error {
 %s
 `, string(b), thm.readMeContent)
 
-	if err := os.WriteFile(filepath.Join(themeDir, "index.md"), []byte(content), 0666); err != nil {
+	if err := os.WriteFile(filepath.Join(themeDir, "index.md"), []byte(content), 0o666); err != nil {
 		return err
 	}
 
@@ -361,7 +358,6 @@ func (t *theme) calculateWeight(maxStars int) {
 	if t.weight < 0 {
 		t.weight = 1
 	}
-
 }
 
 func (t *theme) toFrontMatter() map[string]interface{} {
@@ -510,7 +506,6 @@ func normalizeTag(s string) string {
 		default:
 			return s
 		}
-
 	}
 
 	ca := func(candidates ...string) bool {
@@ -555,7 +550,6 @@ func normalizeTag(s string) string {
 	}
 
 	return ""
-
 }
 
 func uniqueStringsSorted(s []string) []string {
