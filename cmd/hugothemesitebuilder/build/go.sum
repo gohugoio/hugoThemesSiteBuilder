@@ -383,6 +383,8 @@ github.com/gesquive/slate v1.1.1 h1:g9Bg4Mu7NDkdsoPPlTiDBg99gXlySyoH0tHyEf4vvrI=
 github.com/gesquive/slate v1.1.1/go.mod h1:yYFEnRMwAYAotLCa//qCLrbOpPG1bq0uag2XSSP+BAQ=
 github.com/gethinode/hinode v0.20.2 h1:2Tcz593v9CAezogZzX9fXiN49nbUCkFbOacsAyjM1YI=
 github.com/gethinode/hinode v0.20.2/go.mod h1:55zVYVPWwIaJVdVXxDAQZn0sOXmPSA/kTLCuGLYCH/k=
+github.com/gethinode/hinode v0.20.3 h1:isWMVc6NAN3FuzXnIrvLKkaWbtwtyp7jYwoHGJdGx/4=
+github.com/gethinode/hinode v0.20.3/go.mod h1:55zVYVPWwIaJVdVXxDAQZn0sOXmPSA/kTLCuGLYCH/k=
 github.com/gevhaz/hugo-theme-notrack v0.0.0-20230804122959-794cae70b96d h1:VTn8z0k4dGzA2wmybfttkb5sP5mcjBW9VRlH0INGsJU=
 github.com/gevhaz/hugo-theme-notrack v0.0.0-20230804122959-794cae70b96d/go.mod h1:x4ZvHK9D+ljqLbHYdSpdB4wiR2euhk4hSS43XUU7eAQ=
 github.com/gizak/nofancy v0.0.0-20180325214227-ae4670287c71 h1:WP/ROT3hNMB3G7NNAMnUvoTesPlWjPBQ9yHUywcmix4=
@@ -641,6 +643,8 @@ github.com/mrmierzejewski/hugo-theme-console v0.0.0-20230725171417-a03f416d170c 
 github.com/mrmierzejewski/hugo-theme-console v0.0.0-20230725171417-a03f416d170c/go.mod h1:N65e0/XqC5/oKjv5TpwNFi88vAgMDUZfnGU4sf7KRkQ=
 github.com/nanxiaobei/hugo-paper v0.0.0-20230917123143-f9fa4cda0ade h1:4e3MlSHbzhFJk12l3w3lO+5FK7sI6CDeG+gtYDI3clQ=
 github.com/nanxiaobei/hugo-paper v0.0.0-20230917123143-f9fa4cda0ade/go.mod h1:cS2hTYPgmZ2FkPTQbOiX6vB0yLQcWD067kJx2lkRPVQ=
+github.com/nanxiaobei/hugo-paper v0.0.0-20230922171429-47bac0a8c04c h1:UsjWss9O0dFvNYjo87KiKLSiy7XagEIxw7sL9FnkMmQ=
+github.com/nanxiaobei/hugo-paper v0.0.0-20230922171429-47bac0a8c04c/go.mod h1:cS2hTYPgmZ2FkPTQbOiX6vB0yLQcWD067kJx2lkRPVQ=
 github.com/nanxstats/hugo-tanka v0.0.0-20210707221939-9bec4eba33e5 h1:ArKJMwXbgVVeIhpHxuDES/IoftMzOlk4mMB0tYHmUsY=
 github.com/nanxstats/hugo-tanka v0.0.0-20210707221939-9bec4eba33e5/go.mod h1:MpW+xmCZzgJK5cTtN7/k+nKAKSU7IR8Y3Y7Vt7rdm0c=
 github.com/naro143/hugo-coder-portfolio v0.0.0-20200903083500-255d92337c07 h1:sJcQpPI0wm1zKeX38i/A1RmpPGIN9c4YPMuOTek1woY=
