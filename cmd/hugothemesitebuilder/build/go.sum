@@ -2,6 +2,8 @@ github.com/10mohi6/hugo-theme-simple-blog v0.0.0-20200616052212-86b4f6f6d734 h1:
 github.com/10mohi6/hugo-theme-simple-blog v0.0.0-20200616052212-86b4f6f6d734/go.mod h1:5J7m1utmm0p8q7ZsBUvk1rPBR6mMZLcADgbiurIKk9o=
 github.com/1bl4z3r/hermit-V2 v0.0.7 h1:tTO9vpUj1mGexBQM34lXu1+5eT5xY/yrvvXEixYfaog=
 github.com/1bl4z3r/hermit-V2 v0.0.7/go.mod h1:jzBra4Jey2XWE2vYCkCqttBP3KxwFXpQMK0cBcsbO04=
+github.com/1bl4z3r/hermit-V2 v0.0.8 h1:G9IymM0BVRyQrArg/uBNavI8hjsD4W73PhJOUWRy7DM=
+github.com/1bl4z3r/hermit-V2 v0.0.8/go.mod h1:jzBra4Jey2XWE2vYCkCqttBP3KxwFXpQMK0cBcsbO04=
 github.com/2-REC/hugo-myportfolio-theme v0.0.0-20200725083546-d0708c5286eb h1:W1L90DCLCiFgaGl8zokydDa27SecZfjyS5S1hEeAmnM=
 github.com/2-REC/hugo-myportfolio-theme v0.0.0-20200725083546-d0708c5286eb/go.mod h1:9vmjjY6Js9T2jCGP2P67m/tz6nl5SmDRtISamr5F/Co=
 github.com/4ever9/less v0.0.0-20201228090934-105d2c8c6b53 h1:c+R82Bbz63gt8aCUZM5UyPree5t0hnJCChQPfokXqzc=
@@ -92,6 +94,8 @@ github.com/McShelby/hugo-theme-relearn v0.0.0-20230920222642-bb68b7b28a9c h1:em9
 github.com/McShelby/hugo-theme-relearn v0.0.0-20230920222642-bb68b7b28a9c/go.mod h1:mKQQdxZNIlLvAj8X3tMq+RzntIJSr9z7XdzuMomt0IM=
 github.com/McShelby/hugo-theme-relearn v0.0.0-20230921205455-862d8bb8c2c3 h1:z2r6xZT34XJcoECMgYOHHP2QR4FfGvmj+6RC/DowpEI=
 github.com/McShelby/hugo-theme-relearn v0.0.0-20230921205455-862d8bb8c2c3/go.mod h1:mKQQdxZNIlLvAj8X3tMq+RzntIJSr9z7XdzuMomt0IM=
+github.com/McShelby/hugo-theme-relearn v0.0.0-20230923232941-f8d0ec0b6e23 h1:t+4efm53a6hD/INLODrAYeLSU7DJSBNsGrBipc60gAU=
+github.com/McShelby/hugo-theme-relearn v0.0.0-20230923232941-f8d0ec0b6e23/go.mod h1:mKQQdxZNIlLvAj8X3tMq+RzntIJSr9z7XdzuMomt0IM=
 github.com/MeiK2333/github-style v0.0.0-20230918025927-fafe84e58f28 h1:tBf/ff3pKpBFko1EtjbHQTT0DhK2kXnaKp3Xz9HjNyg=
 github.com/MeiK2333/github-style v0.0.0-20230918025927-fafe84e58f28/go.mod h1:MDvfpZqhD/YSKR6X4f5hVUv588HxL1MVjsCTSM7ETxs=
 github.com/Mitrichius/hugo-theme-anubis v0.0.0-20230918182456-01c3a53f124c h1:ExzBis1WDt0gqG8jGpMmio6oCmx8r7MTu6dvp9Gc/g0=
