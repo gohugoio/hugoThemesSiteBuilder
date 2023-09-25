@@ -36,7 +36,7 @@ require (
 	github.com/J-Siu/hugo-theme-sk2 v0.0.0-20220516060556-edcaedff1823 // indirect
 	github.com/J-Siu/hugo-theme-sk3 v2.1.0+incompatible // indirect
 	github.com/Jack-alope/sourgough-starter v0.0.0-20210828023614-9b85c4ba720b // indirect
-	github.com/JingWangTW/dark-theme-editor v0.0.0-20230915050358-40e41600a186 // indirect
+	github.com/JingWangTW/dark-theme-editor v0.0.0-20230924010404-d6d8b6f6554f // indirect
 	github.com/KatamariJr/split-landing v1.0.1 // indirect
 	github.com/Lednerb/bilberry-hugo-theme/v3 v3.25.0 // indirect
 	github.com/Lednerb/bilberry-hugo-theme/v4 v4.0.7 // indirect
@@ -105,7 +105,7 @@ require (
 	github.com/bake/solar-theme-hugo v0.0.0-20210403202535-97632b71c241 // indirect
 	github.com/balaramadurai/hugo-travelify-theme v0.0.0-20220920044651-e35187ce23ad // indirect
 	github.com/barklan/hugo-dead-simple v1.67.0 // indirect
-	github.com/bep/docuapi/v2 v2.3.1 // indirect
+	github.com/bep/docuapi/v2 v2.4.0 // indirect
 	github.com/bep/galleriesdeluxe v0.0.0-20230806093933-541fed5059fd // indirect
 	github.com/bep/gallerydeluxe v0.11.1 // indirect
 	github.com/binokochumolvarghese/lightbi-hugo v0.0.0-20230814105330-bb7cc4a10b5f // indirect
@@ -190,7 +190,7 @@ require (
 	github.com/gcaracuel/hugo-theme-gutenberg v0.0.0-20210225105328-abd624652c48 // indirect
 	github.com/geschke/hugo-tikva v0.4.0 // indirect
 	github.com/gesquive/slate v1.1.1 // indirect
-	github.com/gethinode/hinode v0.20.3 // indirect
+	github.com/gethinode/hinode v0.20.4 // indirect
 	github.com/gevhaz/hugo-theme-notrack v0.0.0-20230804122959-794cae70b96d // indirect
 	github.com/gizak/nofancy v0.0.0-20180325214227-ae4670287c71 // indirect
 	github.com/gkmngrgn/hugo-alageek-theme v0.0.0-20230627213515-481d89a00d6b // indirect
@@ -447,7 +447,7 @@ require (
 	github.com/willfaught/paige v0.68.0 // indirect
 	github.com/wjh18/hugo-liftoff/v3 v3.4.3 // indirect
 	github.com/wlh320/hugo-theme-hulga v0.0.0-20230503151943-18912669b147 // indirect
-	github.com/wowchemy/starter-hugo-academic v0.0.0-20230917011505-8bcc16b53d72 // indirect
+	github.com/wowchemy/starter-hugo-academic v0.0.0-20230924011530-f91bd0852fb5 // indirect
 	github.com/wowchemy/wowchemy-hugo-themes/modules/wowchemy/v5 v5.8.1 // indirect
 	github.com/wtoll/venture v0.1.0 // indirect
 	github.com/xaprb/story v0.0.0-20220322144912-046bf4f12e69 // indirect

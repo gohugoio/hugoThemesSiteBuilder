@@ -66,6 +66,8 @@ github.com/Jack-alope/sourgough-starter v0.0.0-20210828023614-9b85c4ba720b h1:uF
 github.com/Jack-alope/sourgough-starter v0.0.0-20210828023614-9b85c4ba720b/go.mod h1:IF+q4WiodjH5v6XxsBYksXjfwtRBKn7qdSbmEx2Cw6I=
 github.com/JingWangTW/dark-theme-editor v0.0.0-20230915050358-40e41600a186 h1:85hcriwc5OV2AEcnHZvC7vf2DrpgKrNVirR+cJw6p/s=
 github.com/JingWangTW/dark-theme-editor v0.0.0-20230915050358-40e41600a186/go.mod h1:bQG0zqAFVr8Q22E/POpE2azzIWcVu+zBBLsdBQMlWio=
+github.com/JingWangTW/dark-theme-editor v0.0.0-20230924010404-d6d8b6f6554f h1:77WDvC8FU3EOaqvvxzozUiU4ZNk4JuLqxehxg+gb+tc=
+github.com/JingWangTW/dark-theme-editor v0.0.0-20230924010404-d6d8b6f6554f/go.mod h1:bQG0zqAFVr8Q22E/POpE2azzIWcVu+zBBLsdBQMlWio=
 github.com/KatamariJr/split-landing v1.0.1 h1:Y/zC552Zx320o2sEtwBAEQCLK6811EgoGKTyssQfGno=
 github.com/KatamariJr/split-landing v1.0.1/go.mod h1:TbrZDcniqqiPdYvNSdt/1g04IS0U3xLctIT8RVOLMdw=
 github.com/Lednerb/bilberry-hugo-theme/v3 v3.25.0 h1:6lkClCTFvx5LhJr9CsfFNZxZ22B8FrcaRHVsT+hhoVQ=
@@ -213,6 +215,8 @@ github.com/barklan/hugo-dead-simple v1.67.0 h1:pGpxybvfH550M2Sv/TwYKmPs6IhiolRVR
 github.com/barklan/hugo-dead-simple v1.67.0/go.mod h1:Ql5njM3SwZWMqWD1bt6UQoebKHIuRt37HeEkiWMUxXo=
 github.com/bep/docuapi/v2 v2.3.1 h1:S5IbSLraUhWYQkZh/+IB94Y3SHRnnIru53feSNCa7+A=
 github.com/bep/docuapi/v2 v2.3.1/go.mod h1:3wLOeVtAUkqA/oMrCtT7p2RyxkIgssvarP3aLSikxwM=
+github.com/bep/docuapi/v2 v2.4.0 h1:oxwJuHF98u/Wy5o2e2xxTDMlQnwzB6tr5v7wjvBKOqQ=
+github.com/bep/docuapi/v2 v2.4.0/go.mod h1:3wLOeVtAUkqA/oMrCtT7p2RyxkIgssvarP3aLSikxwM=
 github.com/bep/galleriesdeluxe v0.0.0-20230806093933-541fed5059fd h1:AUaFKbJ+4sQB2bOiRjklsnGLSBUv4d/NOPRNmG/BuMI=
 github.com/bep/galleriesdeluxe v0.0.0-20230806093933-541fed5059fd/go.mod h1:/6P5A6rbbR7UpGuMVW6wHhYzEwGttfqNjPoKkn9laCI=
 github.com/bep/gallerydeluxe v0.10.0 h1:0CXOArpCD6S0XdhFpXuShnlqx8VJBCrWhKdgi/xdRjE=
@@ -389,6 +393,8 @@ github.com/gethinode/hinode v0.20.2 h1:2Tcz593v9CAezogZzX9fXiN49nbUCkFbOacsAyjM1
 github.com/gethinode/hinode v0.20.2/go.mod h1:55zVYVPWwIaJVdVXxDAQZn0sOXmPSA/kTLCuGLYCH/k=
 github.com/gethinode/hinode v0.20.3 h1:isWMVc6NAN3FuzXnIrvLKkaWbtwtyp7jYwoHGJdGx/4=
 github.com/gethinode/hinode v0.20.3/go.mod h1:55zVYVPWwIaJVdVXxDAQZn0sOXmPSA/kTLCuGLYCH/k=
+github.com/gethinode/hinode v0.20.4 h1:bdO6SqgY5goC1GhplfWXF4I7wDvPPGe0MZYqE4ygNU4=
+github.com/gethinode/hinode v0.20.4/go.mod h1:mGm4kP3NaGNdlnchj6UjxF0PsZ+bVTP1Rhjtq30kidQ=
 github.com/gevhaz/hugo-theme-notrack v0.0.0-20230804122959-794cae70b96d h1:VTn8z0k4dGzA2wmybfttkb5sP5mcjBW9VRlH0INGsJU=
 github.com/gevhaz/hugo-theme-notrack v0.0.0-20230804122959-794cae70b96d/go.mod h1:x4ZvHK9D+ljqLbHYdSpdB4wiR2euhk4hSS43XUU7eAQ=
 github.com/gizak/nofancy v0.0.0-20180325214227-ae4670287c71 h1:WP/ROT3hNMB3G7NNAMnUvoTesPlWjPBQ9yHUywcmix4=
@@ -922,6 +928,8 @@ github.com/wlh320/hugo-theme-hulga v0.0.0-20230503151943-18912669b147 h1:K9bev17
 github.com/wlh320/hugo-theme-hulga v0.0.0-20230503151943-18912669b147/go.mod h1:erdTksWjSdnpLpgqvRzmDjpt/VI0OsX4FKnqCcINyR0=
 github.com/wowchemy/starter-hugo-academic v0.0.0-20230917011505-8bcc16b53d72 h1:xwdeAFR9xFqAwF8spG2Qdxlvo04yjA+d6ul6qCgrQgc=
 github.com/wowchemy/starter-hugo-academic v0.0.0-20230917011505-8bcc16b53d72/go.mod h1:Vaw9rlFHgcC4bV0njKCzrlBmKTv+O31dxFSVovEJIzQ=
+github.com/wowchemy/starter-hugo-academic v0.0.0-20230924011530-f91bd0852fb5 h1:j7yTJZhey0MydqtziMiYHJMk0BPXifr0UN+n2ys8p00=
+github.com/wowchemy/starter-hugo-academic v0.0.0-20230924011530-f91bd0852fb5/go.mod h1:Vaw9rlFHgcC4bV0njKCzrlBmKTv+O31dxFSVovEJIzQ=
 github.com/wowchemy/wowchemy-hugo-themes/modules/wowchemy-core v0.1.0/go.mod h1:kJwI9H8dicHQCnP8G9EvUDI+oNg/yXcGsjGjwjXuM8I=
 github.com/wowchemy/wowchemy-hugo-themes/modules/wowchemy-core v0.2.0/go.mod h1:kJwI9H8dicHQCnP8G9EvUDI+oNg/yXcGsjGjwjXuM8I=
 github.com/wowchemy/wowchemy-hugo-themes/modules/wowchemy-plugin-netlify v1.0.0/go.mod h1:s40UgLsWfVyCLQ2F4F3dBcNfZOXcPGld7KxsKhZdzvM=
