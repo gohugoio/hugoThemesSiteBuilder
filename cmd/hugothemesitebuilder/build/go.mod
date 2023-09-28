@@ -326,7 +326,6 @@ require (
 	github.com/nixentric/Lowkey-Hugo-Theme v0.0.0-20230919154918-aa01db51e69f // indirect
 	github.com/nodejh/hugo-theme-cactus-plus v0.0.0-20230717024722-c6ce39c13659 // indirect
 	github.com/ntk148v/hugo-cuisine-book v0.0.0-20230914083228-188f158ad681 // indirect
-	github.com/ntk148v/hugo-toigian v0.0.2 // indirect
 	github.com/nunocoracao/blowfish v1.9.0 // indirect
 	github.com/nunocoracao/blowfish/v2 v2.40.1 // indirect
 	github.com/nurlansu/hugo-sustain v0.0.0-20230524192148-21d9f8f53692 // indirect
