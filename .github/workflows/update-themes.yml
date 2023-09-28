@@ -1,4 +1,4 @@
-name: Update themes (test)
+name: Update themes
 on:
   schedule:
     - cron: "0 0 * * *"
