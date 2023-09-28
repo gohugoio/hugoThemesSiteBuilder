@@ -32,7 +32,7 @@ jobs:
         run: |
           git config --global user.email "bep@users.noreply.github.com"
           git config --global user.name "bep"
-          go install github.com/gohugoio/hugo@${{ env.HUGO_VERSION }}
+          go install github.com/gohugoio/hugo@$v{{ env.HUGO_VERSION }}
           hugo mod get -u
           git add .
           git commit -am "[Bot] Update themes"
