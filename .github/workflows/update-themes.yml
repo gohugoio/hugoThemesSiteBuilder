@@ -3,6 +3,8 @@ on:
   schedule:
     - cron: "0 0 * * *"
   workflow_dispatch:
+env:
+  HUGO_VERSION: '0.118.2'
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -28,8 +30,7 @@ jobs:
         run: |
           git config --global user.email "bep@users.noreply.github.com"
           git config --global user.name "bep"
-          go install github.com/gohugoio/hugo@v0.110.0
+          go install github.com/gohugoio/hugo@${{ env.HUGO_VERSION }}
           hugo mod get -u
           git add .
           git commit -am "[Bot] Update themes"
-          git push --force-with-lease
