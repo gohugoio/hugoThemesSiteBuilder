@@ -259,6 +259,8 @@ github.com/coderzh/hugo-pacman-theme v0.0.0-20211218130934-daba606c4f13 h1:Mkw/i
 github.com/coderzh/hugo-pacman-theme v0.0.0-20211218130934-daba606c4f13/go.mod h1:28YX/6/+njQ9P7C70SgriFcBqvk7DdVrPqaSghN5jg0=
 github.com/colinwilson/lotusdocs v0.0.0-20230919015602-a9717caaab14 h1:ORzVQia2njOTCs/5cTQZW0Y+YRZlupgwtGx3umABTcc=
 github.com/colinwilson/lotusdocs v0.0.0-20230919015602-a9717caaab14/go.mod h1:9zu2REJDi+zdPRcR5/bRYSUR7gkNF4NQLvV38SEoCP8=
+github.com/colinwilson/lotusdocs v0.0.0-20230928124913-d58cf3964d7e h1:sZHtL+vPvGvfhSqImfPukqp3tGONv8P7X2y0zLjWTIQ=
+github.com/colinwilson/lotusdocs v0.0.0-20230928124913-d58cf3964d7e/go.mod h1:9zu2REJDi+zdPRcR5/bRYSUR7gkNF4NQLvV38SEoCP8=
 github.com/colorchestra/smol v0.0.0-20210810214745-4129f82cd766 h1:5/rg5hX9hzYWpTjiyvv1ip5LBDVOT4Fi3UCXhKc3ssA=
 github.com/colorchestra/smol v0.0.0-20210810214745-4129f82cd766/go.mod h1:zCNGH1Qu+A99iK4ZWFGilgcr9e1HVs/j25UmmH+EOv8=
 github.com/cowboysmall-tools/hugo-business-frontpage-theme v0.0.0-20200113082043-c5212be68d07 h1:/ixVisd+5Sx3Zs6hwFPHZpmNUz9ZujinYz9vZTxbiQQ=
@@ -321,6 +323,8 @@ github.com/dldx/hpstr-hugo-theme v0.0.0-20180623041957-3658a0b0c9c2 h1:7mp3iB7PW
 github.com/dldx/hpstr-hugo-theme v0.0.0-20180623041957-3658a0b0c9c2/go.mod h1:WOOD9MJgNRY9cy3EgEFzyY8MJMy8BamaNT06SzaO1RU=
 github.com/docura/docura v0.0.0-20230925053009-a2eb5c722528 h1:F782V/PWhGNCqlYxh7oJGOhZEPTk04+iqilQ4qMTqIU=
 github.com/docura/docura v0.0.0-20230925053009-a2eb5c722528/go.mod h1:W8aArNkl2SyQeYoK1apK0MmM0y9rPTqnKtMMe26/B1M=
+github.com/docura/docura v0.0.0-20230928101913-b8c0576eda4b h1:D1VONvskfAA/pyDkppiHBUUo4yeDnsjGtym2eg1vT1M=
+github.com/docura/docura v0.0.0-20230928101913-b8c0576eda4b/go.mod h1:W8aArNkl2SyQeYoK1apK0MmM0y9rPTqnKtMMe26/B1M=
 github.com/dplesca/purehugo v0.0.0-20190924072610-5b577adff2e1 h1:aP0iDTPytXiJUNpN5x35YLiKXjaZjMeeRbFcP7EzBr8=
 github.com/dplesca/purehugo v0.0.0-20190924072610-5b577adff2e1/go.mod h1:uej5ImEi6IiONmyRW2ylKZm1FjJCZjQfu4pXYBlTsyM=
 github.com/dsrkafuu/hugo-theme-fuji v2.8.2+incompatible h1:rU3UqNSrFegnNXT+IKXIz6F1HCwOZEELkW1Kn16MoJQ=
@@ -375,6 +379,8 @@ github.com/gethinode/hinode v0.20.5 h1:rzzBBHjW1DrH8R8h11xp5ugPKfUqsZge6vBo15tjx
 github.com/gethinode/hinode v0.20.5/go.mod h1:cJjvH62yO9H9XHWatxHRasCvi8D4KXldR1ZQVCa5+Kc=
 github.com/gethinode/hinode v0.20.6 h1:r5DBOFeWXdVVliI/ejsBuWLPE5tfKvEQEvK0zP+jWO8=
 github.com/gethinode/hinode v0.20.6/go.mod h1:zCY+TOnpfkb3+ECml6MesKPhvlDyyEUvCCVxomYObik=
+github.com/gethinode/hinode v0.20.7 h1:oO94X9qLepgk5yPnyma0U80fZyx0LJGNNRJ2Px5na0Y=
+github.com/gethinode/hinode v0.20.7/go.mod h1:NKzXcB6LErY5jTUhvi/w6TBihwjujLVNuWVbrcwUBOk=
 github.com/gevhaz/hugo-theme-notrack v0.0.0-20230804122959-794cae70b96d h1:VTn8z0k4dGzA2wmybfttkb5sP5mcjBW9VRlH0INGsJU=
 github.com/gevhaz/hugo-theme-notrack v0.0.0-20230804122959-794cae70b96d/go.mod h1:x4ZvHK9D+ljqLbHYdSpdB4wiR2euhk4hSS43XUU7eAQ=
 github.com/gizak/nofancy v0.0.0-20180325214227-ae4670287c71 h1:WP/ROT3hNMB3G7NNAMnUvoTesPlWjPBQ9yHUywcmix4=
@@ -663,6 +669,8 @@ github.com/nunocoracao/blowfish v1.9.0 h1:DqTrybi9CtG6HzCDMsDdzkVxVCjDaE6z1Ebj4O
 github.com/nunocoracao/blowfish v1.9.0/go.mod h1:a+x71NKypnAynVrKYncF4jMagrvWjOdacVpA9RJh2UA=
 github.com/nunocoracao/blowfish/v2 v2.40.1 h1:uYSq9NGLA/iV/6t6AAijx9KQbqRjLAdkQxSMmWurJkw=
 github.com/nunocoracao/blowfish/v2 v2.40.1/go.mod h1:4SkMc+Ht8gpQCwArqiHMBDP3soxi2OWuAhVney+cuyk=
+github.com/nunocoracao/blowfish/v2 v2.41.1 h1:wccVaT6OtunObb1mf8ek3ajkGJTmP6HMVQ1tZjEoZMU=
+github.com/nunocoracao/blowfish/v2 v2.41.1/go.mod h1:4SkMc+Ht8gpQCwArqiHMBDP3soxi2OWuAhVney+cuyk=
 github.com/nurlansu/hugo-sustain v0.0.0-20230524192148-21d9f8f53692 h1:Rb5i+2uPcRCl35bXwCPiZOE7X6rd7I1Rwi/YVli1FRc=
 github.com/nurlansu/hugo-sustain v0.0.0-20230524192148-21d9f8f53692/go.mod h1:yqDFFHObanzDHusELnFREQdetJWE864Q88KGrr2wH8s=
 github.com/nusserstudios/tailbliss v0.0.0-20230926131138-93259c65c556 h1:t7GbE2gJPTCNW/M4z/8xPUqhWTQUnHCT5+NgjpZT9IA=
