@@ -627,6 +627,11 @@
       {
         "ignoreImports": true,
         "noMounts": true,
+        "path": "github.com/cncf/dot-org-hugo-theme"
+      },
+      {
+        "ignoreImports": true,
+        "noMounts": true,
         "path": "github.com/cntrump/hugo-notepadium"
       },
       {
@@ -792,6 +797,11 @@
       {
         "ignoreImports": true,
         "noMounts": true,
+        "path": "github.com/dmachard/hugo-theme-gists"
+      },
+      {
+        "ignoreImports": true,
+        "noMounts": true,
         "path": "github.com/docura/docura"
       },
       {
@@ -927,6 +937,11 @@
       {
         "ignoreImports": true,
         "noMounts": true,
+        "path": "github.com/gethyas/doks"
+      },
+      {
+        "ignoreImports": true,
+        "noMounts": true,
         "path": "github.com/gevhaz/hugo-theme-notrack"
       },
       {
@@ -982,11 +997,6 @@
       {
         "ignoreImports": true,
         "noMounts": true,
-        "path": "github.com/h-enk/doks"
-      },
-      {
-        "ignoreImports": true,
-        "noMounts": true,
         "path": "github.com/hadisinaee/avicenna"
       },
       {
@@ -1008,6 +1018,11 @@
         "ignoreImports": true,
         "noMounts": true,
         "path": "github.com/hbstack/theme"
+      },
+      {
+        "ignoreImports": true,
+        "noMounts": true,
+        "path": "github.com/hbstack/theme-start"
       },
       {
         "ignoreImports": true,
