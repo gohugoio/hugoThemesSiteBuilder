@@ -15,15 +15,6 @@ jobs:
       - uses: actions/setup-go@v3
         with:
           go-version: "^1.21.0"
-      - uses: actions/cache@v3
-        with:
-          path: |
-            ~/.cache/go-build
-            ~/go/pkg/mod
-            ${{ env.HUGO_CACHEDIR }}
-          key: ${{ runner.os }}-go-${{ hashFiles('**/go.sum') }}
-          restore-keys: |
-            ${{ runner.os }}-go-
       - name: Update submodules
         shell: bash
         working-directory: ./cmd/hugothemesitebuilder/build
