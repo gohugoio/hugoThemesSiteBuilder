@@ -4,7 +4,7 @@ go 1.21
 
 toolchain go1.21.0
 
-require github.com/docura/docura v0.0.0-20230928101913-b8c0576eda4b
+require github.com/docura/docura v0.0.0-20230929131758-19010b05d535
 
 require (
 	github.com/10mohi6/hugo-theme-simple-blog v0.0.0-20200616052212-86b4f6f6d734 // indirect
@@ -41,7 +41,7 @@ require (
 	github.com/JingWangTW/dark-theme-editor v0.0.0-20230924010404-d6d8b6f6554f // indirect
 	github.com/KatamariJr/split-landing v1.0.1 // indirect
 	github.com/Lednerb/bilberry-hugo-theme/v3 v3.25.0 // indirect
-	github.com/Lednerb/bilberry-hugo-theme/v4 v4.0.7 // indirect
+	github.com/Lednerb/bilberry-hugo-theme/v4 v4.0.8 // indirect
 	github.com/LordMathis/hugo-theme-nightfall v0.5.1 // indirect
 	github.com/LordMathis/hugo-theme-nix v0.0.0-20230616072641-72c7ff1fabeb // indirect
 	github.com/LucasVadilho/heyo-hugo-theme v0.0.0-20230919124134-ac4cd65c92bf // indirect
@@ -131,7 +131,7 @@ require (
 	github.com/chipzoller/hugo-clarity v0.0.0-20230830081649-d0ec11e00b01 // indirect
 	github.com/chollinger93/ink-free v1.4.1 // indirect
 	github.com/chringel21/chringel-hugo-theme v1.3.1 // indirect
-	github.com/clente/hugo-bearcub v0.0.0-20230425190722-f26d122b2ad0 // indirect
+	github.com/clente/hugo-bearcub v0.0.0-20230930000119-6cd4416ea3e5 // indirect
 	github.com/cloudwithchris/hugo-creator v0.0.28 // indirect
 	github.com/cncf/dot-org-hugo-theme v0.1.1 // indirect
 	github.com/cntrump/hugo-notepadium v2.6.2+incompatible // indirect
@@ -295,7 +295,7 @@ require (
 	github.com/loveminimal/hugo-theme-virgo v1.0.0 // indirect
 	github.com/lubang/hugo-hello-programmer-theme v2.1.0+incompatible // indirect
 	github.com/luizdepra/hugo-coder v0.0.0-20230824200107-e35f1da207cb // indirect
-	github.com/lukeorth/poison v0.0.0-20230910022005-9348267ecf29 // indirect
+	github.com/lukeorth/poison v0.0.0-20230929143719-f94c269d72fd // indirect
 	github.com/lxndrblz/anatole v1.13.0 // indirect
 	github.com/manid2/hugo-xterm v1.5.0 // indirect
 	github.com/marcanuy/simpleit-hugo-theme v0.0.0-20210616134837-49277e5c3be0 // indirect

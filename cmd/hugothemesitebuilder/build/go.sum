@@ -70,6 +70,8 @@ github.com/Lednerb/bilberry-hugo-theme/v3 v3.25.0 h1:6lkClCTFvx5LhJr9CsfFNZxZ22B
 github.com/Lednerb/bilberry-hugo-theme/v3 v3.25.0/go.mod h1:ERTLq/0yIBb0jN0Dh+w5G4wCp9TrB0JY86+Zh+26Dkg=
 github.com/Lednerb/bilberry-hugo-theme/v4 v4.0.7 h1:5yLBHg+5RiwTLztjWwJVAekX4SHwykoCcG6DmZu5MZ4=
 github.com/Lednerb/bilberry-hugo-theme/v4 v4.0.7/go.mod h1:EuKUIrQ8i/a2uxVuqZiUUK7FuoKsJ4UcolM1FYmLewM=
+github.com/Lednerb/bilberry-hugo-theme/v4 v4.0.8 h1:7oinXMVCVRa7SjnYf3ovdVzB/3M8EZzmvqhEa4TDuXI=
+github.com/Lednerb/bilberry-hugo-theme/v4 v4.0.8/go.mod h1:EuKUIrQ8i/a2uxVuqZiUUK7FuoKsJ4UcolM1FYmLewM=
 github.com/LordMathis/hugo-theme-nightfall v0.5.1 h1:xeycc74MTnikZ7tv+V8Lhuu9zrqRpVkaNjqw9eQYVNc=
 github.com/LordMathis/hugo-theme-nightfall v0.5.1/go.mod h1:0tCPxAeg5+tWhv17517Q8Lti/TPh0KNyON/uferEU30=
 github.com/LordMathis/hugo-theme-nix v0.0.0-20230616072641-72c7ff1fabeb h1:Wa2zyovcntvY+K+b7QtCHMbyF56HQ3PKmzW7MKdCWb4=
@@ -251,6 +253,8 @@ github.com/chringel21/chringel-hugo-theme v1.3.1 h1:G3L72hGaMhf5531QBXoXmOJP5fL5
 github.com/chringel21/chringel-hugo-theme v1.3.1/go.mod h1:5092oay2e9CKCtL/qZJ6Mric+kPIra6ofGrND6BMrdc=
 github.com/clente/hugo-bearcub v0.0.0-20230425190722-f26d122b2ad0 h1:voCbfSmQ+zbSwKcUfYuQA89BCHGzpduS+SrWuAGLiK4=
 github.com/clente/hugo-bearcub v0.0.0-20230425190722-f26d122b2ad0/go.mod h1:apcY0kKQY+CnkwsWuHiEfSrBusQgEsfAp9g065sNLFg=
+github.com/clente/hugo-bearcub v0.0.0-20230930000119-6cd4416ea3e5 h1:WP7fYujOTAuAvJRt4CmzMt2helpZNFCv9A2cDiiejls=
+github.com/clente/hugo-bearcub v0.0.0-20230930000119-6cd4416ea3e5/go.mod h1:apcY0kKQY+CnkwsWuHiEfSrBusQgEsfAp9g065sNLFg=
 github.com/cloudwithchris/hugo-creator v0.0.28 h1:KnBmo/2C1CzNsNmTaMEr7+ZydscXvFq1riLvB62ylmE=
 github.com/cloudwithchris/hugo-creator v0.0.28/go.mod h1:5JztDjGS8uB1KVWspxzs15gZRBAj1n3VL/61LoqV4ZA=
 github.com/cncf/dot-org-hugo-theme v0.1.1 h1:1y1VInYgJ78jD6sTERMCrG1LzhOBdYKB9ofL9+jEBCg=
@@ -329,6 +333,8 @@ github.com/docura/docura v0.0.0-20230925053009-a2eb5c722528 h1:F782V/PWhGNCqlYxh
 github.com/docura/docura v0.0.0-20230925053009-a2eb5c722528/go.mod h1:W8aArNkl2SyQeYoK1apK0MmM0y9rPTqnKtMMe26/B1M=
 github.com/docura/docura v0.0.0-20230928101913-b8c0576eda4b h1:D1VONvskfAA/pyDkppiHBUUo4yeDnsjGtym2eg1vT1M=
 github.com/docura/docura v0.0.0-20230928101913-b8c0576eda4b/go.mod h1:W8aArNkl2SyQeYoK1apK0MmM0y9rPTqnKtMMe26/B1M=
+github.com/docura/docura v0.0.0-20230929131758-19010b05d535 h1:LUdCmF4vau76N8cBs/xCcPEWoBrnbh8n0wVhBFwxDro=
+github.com/docura/docura v0.0.0-20230929131758-19010b05d535/go.mod h1:W8aArNkl2SyQeYoK1apK0MmM0y9rPTqnKtMMe26/B1M=
 github.com/dplesca/purehugo v0.0.0-20190924072610-5b577adff2e1 h1:aP0iDTPytXiJUNpN5x35YLiKXjaZjMeeRbFcP7EzBr8=
 github.com/dplesca/purehugo v0.0.0-20190924072610-5b577adff2e1/go.mod h1:uej5ImEi6IiONmyRW2ylKZm1FjJCZjQfu4pXYBlTsyM=
 github.com/dsrkafuu/hugo-theme-fuji v2.8.2+incompatible h1:rU3UqNSrFegnNXT+IKXIz6F1HCwOZEELkW1Kn16MoJQ=
@@ -601,6 +607,8 @@ github.com/luizdepra/hugo-coder v0.0.0-20230824200107-e35f1da207cb h1:2FVQIK0U5J
 github.com/luizdepra/hugo-coder v0.0.0-20230824200107-e35f1da207cb/go.mod h1:9EQBf2rU+NPjlohGuKcEgdqSeOc3tIQoOty4xPpuUQ4=
 github.com/lukeorth/poison v0.0.0-20230910022005-9348267ecf29 h1:E9zWPFpfDD8z8HK4P6DvjJ+kPP+JIPHxgtoI1c+Fab4=
 github.com/lukeorth/poison v0.0.0-20230910022005-9348267ecf29/go.mod h1:fYVpevZiA79ef8Q1DkUgg/MF53oy4mKFSFTnK+EeiO0=
+github.com/lukeorth/poison v0.0.0-20230929143719-f94c269d72fd h1:UoWpCOSnSrX9z9gPiIhrxiT+k5uQGi6Pg+QYLGy4Cx4=
+github.com/lukeorth/poison v0.0.0-20230929143719-f94c269d72fd/go.mod h1:fYVpevZiA79ef8Q1DkUgg/MF53oy4mKFSFTnK+EeiO0=
 github.com/lxndrblz/anatole v1.13.0 h1:H3f6kEZJWSPApJyvWSEee6L+rjWY896peMbSFpY9Eks=
 github.com/lxndrblz/anatole v1.13.0/go.mod h1:hy61SRyUDKaWw2P+cERt9UPde5guWyVKgtjdzRF5bfI=
 github.com/manid2/hugo-xterm v1.5.0 h1:edv5LE01JLIYuCkHJV4S9QdcHChRtscBnpEp/OGl7Jw=
