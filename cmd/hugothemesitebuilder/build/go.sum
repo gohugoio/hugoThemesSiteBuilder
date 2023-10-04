@@ -68,6 +68,8 @@ github.com/Jack-alope/sourgough-starter v0.0.0-20210828023614-9b85c4ba720b h1:uF
 github.com/Jack-alope/sourgough-starter v0.0.0-20210828023614-9b85c4ba720b/go.mod h1:IF+q4WiodjH5v6XxsBYksXjfwtRBKn7qdSbmEx2Cw6I=
 github.com/JingWangTW/dark-theme-editor v0.0.0-20230924010404-d6d8b6f6554f h1:77WDvC8FU3EOaqvvxzozUiU4ZNk4JuLqxehxg+gb+tc=
 github.com/JingWangTW/dark-theme-editor v0.0.0-20230924010404-d6d8b6f6554f/go.mod h1:bQG0zqAFVr8Q22E/POpE2azzIWcVu+zBBLsdBQMlWio=
+github.com/JingWangTW/dark-theme-editor v0.0.0-20231003152541-7de8985a5bf6 h1:bNjNPENgzCy6Bxsr5NhKOI6omVMPZID9XqvkkbrAnHk=
+github.com/JingWangTW/dark-theme-editor v0.0.0-20231003152541-7de8985a5bf6/go.mod h1:bQG0zqAFVr8Q22E/POpE2azzIWcVu+zBBLsdBQMlWio=
 github.com/KatamariJr/split-landing v1.0.1 h1:Y/zC552Zx320o2sEtwBAEQCLK6811EgoGKTyssQfGno=
 github.com/KatamariJr/split-landing v1.0.1/go.mod h1:TbrZDcniqqiPdYvNSdt/1g04IS0U3xLctIT8RVOLMdw=
 github.com/Lednerb/bilberry-hugo-theme/v3 v3.25.0 h1:6lkClCTFvx5LhJr9CsfFNZxZ22B8FrcaRHVsT+hhoVQ=
@@ -98,6 +100,8 @@ github.com/McShelby/hugo-theme-relearn v0.0.0-20231001192417-1876463e7c36 h1:TSA
 github.com/McShelby/hugo-theme-relearn v0.0.0-20231001192417-1876463e7c36/go.mod h1:mKQQdxZNIlLvAj8X3tMq+RzntIJSr9z7XdzuMomt0IM=
 github.com/McShelby/hugo-theme-relearn v0.0.0-20231003001216-3dfa5d718ee6 h1:0ulV/5PRGW0DgKsQZjCCT4DHgry4OvRxSBLSwSoV2ec=
 github.com/McShelby/hugo-theme-relearn v0.0.0-20231003001216-3dfa5d718ee6/go.mod h1:mKQQdxZNIlLvAj8X3tMq+RzntIJSr9z7XdzuMomt0IM=
+github.com/McShelby/hugo-theme-relearn v0.0.0-20231003205207-474a78b4520d h1:JF67EJz5fZnS7qk5QcgbxIeBTfGFIscyrIPqrQ/nMaM=
+github.com/McShelby/hugo-theme-relearn v0.0.0-20231003205207-474a78b4520d/go.mod h1:mKQQdxZNIlLvAj8X3tMq+RzntIJSr9z7XdzuMomt0IM=
 github.com/MeiK2333/github-style v0.0.0-20230918025927-fafe84e58f28 h1:tBf/ff3pKpBFko1EtjbHQTT0DhK2kXnaKp3Xz9HjNyg=
 github.com/MeiK2333/github-style v0.0.0-20230918025927-fafe84e58f28/go.mod h1:MDvfpZqhD/YSKR6X4f5hVUv588HxL1MVjsCTSM7ETxs=
 github.com/Mitrichius/hugo-theme-anubis v0.0.0-20230918182456-01c3a53f124c h1:ExzBis1WDt0gqG8jGpMmio6oCmx8r7MTu6dvp9Gc/g0=
@@ -349,6 +353,8 @@ github.com/docura/docura v0.0.0-20230928101913-b8c0576eda4b h1:D1VONvskfAA/pyDkp
 github.com/docura/docura v0.0.0-20230928101913-b8c0576eda4b/go.mod h1:W8aArNkl2SyQeYoK1apK0MmM0y9rPTqnKtMMe26/B1M=
 github.com/docura/docura v0.0.0-20230929131758-19010b05d535 h1:LUdCmF4vau76N8cBs/xCcPEWoBrnbh8n0wVhBFwxDro=
 github.com/docura/docura v0.0.0-20230929131758-19010b05d535/go.mod h1:W8aArNkl2SyQeYoK1apK0MmM0y9rPTqnKtMMe26/B1M=
+github.com/docura/docura v0.0.0-20231003083751-c38162c8a6d4 h1:WhE1TV43JbxMDf2aaAJXBfxazJ7RBfgztP5SbG7W7PE=
+github.com/docura/docura v0.0.0-20231003083751-c38162c8a6d4/go.mod h1:W8aArNkl2SyQeYoK1apK0MmM0y9rPTqnKtMMe26/B1M=
 github.com/dplesca/purehugo v0.0.0-20190924072610-5b577adff2e1 h1:aP0iDTPytXiJUNpN5x35YLiKXjaZjMeeRbFcP7EzBr8=
 github.com/dplesca/purehugo v0.0.0-20190924072610-5b577adff2e1/go.mod h1:uej5ImEi6IiONmyRW2ylKZm1FjJCZjQfu4pXYBlTsyM=
 github.com/dsrkafuu/hugo-theme-fuji v2.8.2+incompatible h1:rU3UqNSrFegnNXT+IKXIz6F1HCwOZEELkW1Kn16MoJQ=
@@ -776,6 +782,8 @@ github.com/rafed/ramium v0.0.0-20230721113732-a51bb919d150 h1:Ynd/oIzanKSfUy6M5l
 github.com/rafed/ramium v0.0.0-20230721113732-a51bb919d150/go.mod h1:iPCh2zZy/WAJki2zywFfwh60Q6bvqXfmMUl55S0+MyI=
 github.com/razonyang/hugo-theme-bootstrap v1.2.3 h1:ZkaOnXxkOiEDbapsd5Ce0ybnKisVC6L7bsFBk4YuL4A=
 github.com/razonyang/hugo-theme-bootstrap v1.2.3/go.mod h1:o+IIPL/5wreiTojnN4MsQqKuxbv3fWAQnMhG9geltQo=
+github.com/razonyang/hugo-theme-bootstrap v1.2.4 h1:mf5hVZ08iAH88kgqrWlfOZZB0WBUtNRxnSbr0bV8Ztk=
+github.com/razonyang/hugo-theme-bootstrap v1.2.4/go.mod h1:o+IIPL/5wreiTojnN4MsQqKuxbv3fWAQnMhG9geltQo=
 github.com/reuixiy/hugo-theme-meme v5.0.0+incompatible h1:S/aBbLHQTcsLXQrh0xf/vUN1gdsgApFE74JZBtVfZtY=
 github.com/reuixiy/hugo-theme-meme v5.0.0+incompatible/go.mod h1:t+xPvEmNNin6n1dGhQagjz1hCUIAgxGobMvbQfICAW4=
 github.com/rhazdon/hugo-theme-hello-friend-ng v0.0.0-20230410232223-8270f8ee0884 h1:eMxkNjb5BjDLF95xAgYzYiUk9A7uy2L2fzedQEaT3EU=
