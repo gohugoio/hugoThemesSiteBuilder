@@ -115,7 +115,7 @@ Additional media may be provided in the same directory.
 
 ## README.md
 
-Your theme's README file (which should be written in Markdown and called `README.md`) serves a two purposes. It's content appears in two places, which are:
+Your theme's README file (which should be written in Markdown and called `README.md`) serves two purposes. It's content appears in two places, which are:
 
 1. On your theme's detail page on [themes.gohugo.io](https://themes.gohugo.io/) website.
 2. On your theme's regular main page at GitHub/GitLab (as usual).
