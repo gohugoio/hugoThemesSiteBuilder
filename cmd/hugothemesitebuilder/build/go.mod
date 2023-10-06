@@ -49,7 +49,7 @@ require (
 	github.com/M1cR0xf7/kaslaanka v0.0.0-20230905163123-33efc173970b // indirect
 	github.com/MarcusVirg/forty v0.0.0-20190430033326-dccea57bd2ed // indirect
 	github.com/Masellum/hugo-theme-nostyleplease v0.0.0-20230920130130-22524617427a // indirect
-	github.com/McShelby/hugo-theme-relearn v0.0.0-20231003205207-474a78b4520d // indirect
+	github.com/McShelby/hugo-theme-relearn v0.0.0-20231005205328-bf788d8a3ee1 // indirect
 	github.com/MeiK2333/github-style v0.0.0-20230918025927-fafe84e58f28 // indirect
 	github.com/Mitrichius/hugo-theme-anubis v0.0.0-20230918182456-01c3a53f124c // indirect
 	github.com/Morgscode/hugo-theme-spaced-blog v0.0.0-20230709210837-d9e6e9c4760a // indirect
@@ -133,7 +133,7 @@ require (
 	github.com/chringel21/chringel-hugo-theme v1.3.1 // indirect
 	github.com/clente/hugo-bearcub v0.0.0-20230930000119-6cd4416ea3e5 // indirect
 	github.com/cloudwithchris/hugo-creator v0.0.28 // indirect
-	github.com/cncf/dot-org-hugo-theme v0.1.2 // indirect
+	github.com/cncf/dot-org-hugo-theme v0.1.3 // indirect
 	github.com/cntrump/hugo-notepadium v2.6.2+incompatible // indirect
 	github.com/coderzh/hugo-pacman-theme v0.0.0-20211218130934-daba606c4f13 // indirect
 	github.com/colinwilson/lotusdocs v0.1.0 // indirect
@@ -332,7 +332,7 @@ require (
 	github.com/nodejh/hugo-theme-cactus-plus v0.0.0-20230717024722-c6ce39c13659 // indirect
 	github.com/ntk148v/hugo-cuisine-book v0.0.0-20230914083228-188f158ad681 // indirect
 	github.com/nunocoracao/blowfish v1.9.0 // indirect
-	github.com/nunocoracao/blowfish/v2 v2.41.1 // indirect
+	github.com/nunocoracao/blowfish/v2 v2.42.0 // indirect
 	github.com/nurlansu/hugo-sustain v0.0.0-20230524192148-21d9f8f53692 // indirect
 	github.com/nusserstudios/tailbliss v0.0.0-20231004010428-2ee3fa053c57 // indirect
 	github.com/okkur/syna v0.17.4 // indirect
@@ -448,11 +448,11 @@ require (
 	github.com/wd/hugo-fabric v0.0.0-20191202002427-c416adb14920 // indirect
 	github.com/weastur/hugo-texify2 v0.2.0 // indirect
 	github.com/wileybaba/hugo-theme-robotico v0.0.0-20190128025338-a1e633362eee // indirect
-	github.com/willfaught/paige v0.70.0 // indirect
+	github.com/willfaught/paige v0.70.2 // indirect
 	github.com/wjh18/hugo-liftoff/v3 v3.4.3 // indirect
 	github.com/wlh320/hugo-theme-hulga v0.0.0-20230503151943-18912669b147 // indirect
 	github.com/wowchemy/starter-hugo-academic v0.0.0-20231002211636-17e4126c1198 // indirect
-	github.com/wowchemy/wowchemy-hugo-themes/modules/wowchemy/v5 v5.8.2-0.20231004195133-7b92ad1fbe49 // indirect
+	github.com/wowchemy/wowchemy-hugo-themes/modules/wowchemy/v5 v5.8.2-0.20231005175211-f6330d58f5e4 // indirect
 	github.com/wtoll/venture v0.1.0 // indirect
 	github.com/xaprb/story v0.0.0-20220322144912-046bf4f12e69 // indirect
 	github.com/xaviablaza/hugo-lodi-theme v0.0.0-20190215050835-89984401ebf2 // indirect
