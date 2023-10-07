@@ -159,7 +159,7 @@ require (
 	github.com/darshanbaral/sada v0.0.0-20210510233612-2f5aac944c75 // indirect
 	github.com/dataCobra/hugo-vitae v0.0.0-20230210081730-1f2587b2b744 // indirect
 	github.com/davidhampgonsalves/hugo-black-and-light-theme v0.0.0-20221107102623-e75ab9e72a65 // indirect
-	github.com/dchucks/agnes-hugo-theme v0.0.0-20230913054034-9a14608e8b3a // indirect
+	github.com/dchucks/agnes-hugo-theme v0.0.0-20231006041110-b3ce78840db6 // indirect
 	github.com/de-souza/hugo-flex v0.0.0-20230131090349-64e030211b89 // indirect
 	github.com/devcows/hugo-universal-theme v0.0.0-20230526111422-cf0336a17584 // indirect
 	github.com/dewittn/hugo-html5up-alpha v0.0.0-20200529171052-b921f3bccb74 // indirect
@@ -324,7 +324,7 @@ require (
 	github.com/natarajmb/charaka-hugo-theme v0.0.0-20201215113736-021bc743417b // indirect
 	github.com/nathancday/min_night v0.0.4 // indirect
 	github.com/negrel/hugo-theme-pico v0.0.0-20230712191543-ef7057b8650c // indirect
-	github.com/nicokaiser/hugo-theme-gallery v0.0.0-20230914160150-063e068b656d // indirect
+	github.com/nicokaiser/hugo-theme-gallery v0.0.0-20231006214444-a329f1cd98fa // indirect
 	github.com/nightswinger/hugo-theme-coyote v1.0.2 // indirect
 	github.com/niklasbuschmann/contrast-hugo v0.0.0-20210313140659-9b3ec3d0243d // indirect
 	github.com/nirocfz/arabica v0.0.0-20220406035148-c63700f10450 // indirect
@@ -475,7 +475,7 @@ require (
 	github.com/zetxek/adritian-free-hugo-theme v0.0.0-20230407194858-23af08390c19 // indirect
 	github.com/zhaohuabing/hugo-theme-cleanwhite v0.0.0-20230904071550-223965214ab8 // indirect
 	github.com/zhe/hugo-theme-slim v0.0.0-20190920014445-f666effe196a // indirect
-	github.com/zjedi/hugo-scroll v0.0.0-20231004191555-c547893371d1 // indirect
+	github.com/zjedi/hugo-scroll v0.0.0-20231006233219-0f957c9bffda // indirect
 	github.com/zwbetz-gh/cayman-hugo-theme v0.0.0-20230103054115-9cdbba36630d // indirect
 	github.com/zwbetz-gh/cupper-hugo-theme v0.0.0-20230104033449-387d905ae451 // indirect
 	github.com/zwbetz-gh/minimal-bootstrap-hugo-theme v0.0.0-20230103054008-e5649966f5be // indirect
