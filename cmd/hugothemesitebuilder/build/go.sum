@@ -373,6 +373,8 @@ github.com/docura/docura v0.0.0-20231004063426-ebf0979a45b8 h1:exfhVEtsgT3ZV4Kz9
 github.com/docura/docura v0.0.0-20231004063426-ebf0979a45b8/go.mod h1:W8aArNkl2SyQeYoK1apK0MmM0y9rPTqnKtMMe26/B1M=
 github.com/docura/docura v0.0.0-20231007102448-db7ddc545a97 h1:jIXDytJX7fmMfMJJWV67yBSNJF6ECisPfZUFcNotygs=
 github.com/docura/docura v0.0.0-20231007102448-db7ddc545a97/go.mod h1:W8aArNkl2SyQeYoK1apK0MmM0y9rPTqnKtMMe26/B1M=
+github.com/docura/docura v0.0.0-20231008041139-a6e40cfd7e7d h1:qLTa8I2Xw4RdoUAvL6OYCE4xmo8wl1UKJ7i6J2hiqRo=
+github.com/docura/docura v0.0.0-20231008041139-a6e40cfd7e7d/go.mod h1:W8aArNkl2SyQeYoK1apK0MmM0y9rPTqnKtMMe26/B1M=
 github.com/dplesca/purehugo v0.0.0-20190924072610-5b577adff2e1 h1:aP0iDTPytXiJUNpN5x35YLiKXjaZjMeeRbFcP7EzBr8=
 github.com/dplesca/purehugo v0.0.0-20190924072610-5b577adff2e1/go.mod h1:uej5ImEi6IiONmyRW2ylKZm1FjJCZjQfu4pXYBlTsyM=
 github.com/dsrkafuu/hugo-theme-fuji v2.8.2+incompatible h1:rU3UqNSrFegnNXT+IKXIz6F1HCwOZEELkW1Kn16MoJQ=
@@ -994,6 +996,8 @@ github.com/wowchemy/starter-hugo-academic v0.0.0-20231001012102-ec06dc2f406b h1:
 github.com/wowchemy/starter-hugo-academic v0.0.0-20231001012102-ec06dc2f406b/go.mod h1:a3/GNuhBHONyTbH0pOiXGKUZraqLwGzkfcqri66NUg8=
 github.com/wowchemy/starter-hugo-academic v0.0.0-20231002211636-17e4126c1198 h1:eNG0IlWkjfcJvvSMMjrNiqKj9H/auK60YqKYNgxctKA=
 github.com/wowchemy/starter-hugo-academic v0.0.0-20231002211636-17e4126c1198/go.mod h1:a3/GNuhBHONyTbH0pOiXGKUZraqLwGzkfcqri66NUg8=
+github.com/wowchemy/starter-hugo-academic v0.0.0-20231008011654-2550d6028f26 h1:5P+oSfmBWb+Le0hhhuAM2NDyGSAO6ZgMQl9kvZ5JIYk=
+github.com/wowchemy/starter-hugo-academic v0.0.0-20231008011654-2550d6028f26/go.mod h1:a3/GNuhBHONyTbH0pOiXGKUZraqLwGzkfcqri66NUg8=
 github.com/wowchemy/wowchemy-hugo-themes/modules/wowchemy-core v0.1.0/go.mod h1:kJwI9H8dicHQCnP8G9EvUDI+oNg/yXcGsjGjwjXuM8I=
 github.com/wowchemy/wowchemy-hugo-themes/modules/wowchemy-core v0.2.0/go.mod h1:kJwI9H8dicHQCnP8G9EvUDI+oNg/yXcGsjGjwjXuM8I=
 github.com/wowchemy/wowchemy-hugo-themes/modules/wowchemy-plugin-netlify v1.0.0/go.mod h1:s40UgLsWfVyCLQ2F4F3dBcNfZOXcPGld7KxsKhZdzvM=
@@ -1045,6 +1049,8 @@ github.com/zeon-studio/hugoplate v0.0.0-20230919033707-39e487943d6d h1:ul7PhsXEL
 github.com/zeon-studio/hugoplate v0.0.0-20230919033707-39e487943d6d/go.mod h1:YlRIwdTWidquf1dhtx+mDfu0I3KVrVQB4wi4UmHlK3E=
 github.com/zeon-studio/hugoplate v0.0.0-20231001043745-957dd395657f h1:6y5c4xI73aigVeiSXKkhN8MY+ayJQElgBv/MysPQamQ=
 github.com/zeon-studio/hugoplate v0.0.0-20231001043745-957dd395657f/go.mod h1:YlRIwdTWidquf1dhtx+mDfu0I3KVrVQB4wi4UmHlK3E=
+github.com/zeon-studio/hugoplate v0.0.0-20231008044245-4ff26745b764 h1:icWBJQouuXndD5OxxfKgEyVKDaXEELIHmqS6iJHdcHg=
+github.com/zeon-studio/hugoplate v0.0.0-20231008044245-4ff26745b764/go.mod h1:YlRIwdTWidquf1dhtx+mDfu0I3KVrVQB4wi4UmHlK3E=
 github.com/zerostaticthemes/hugo-hero-theme v1.1.0 h1:SjjN0RY+75XE4dUISzeSkQfrDr4SRhlrky+fRf5RR0Y=
 github.com/zerostaticthemes/hugo-hero-theme v1.1.0/go.mod h1:4+Fj7q4tyVtSC6s7EwS4RedKa6pYj6TyjBQqh29GU/Q=
 github.com/zerostaticthemes/hugo-serif-theme v1.1.1 h1:9qsICmqv9n7zUHvvrigDYQuwH40K81RnOFQPdqDchFA=
