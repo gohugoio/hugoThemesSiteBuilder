@@ -38,6 +38,8 @@ github.com/Bonzdev/alexa-portfolio v0.0.0-20211126085019-886d97a260c2 h1:EpHJ6Gd
 github.com/Bonzdev/alexa-portfolio v0.0.0-20211126085019-886d97a260c2/go.mod h1:AeYSboKj9vlLzFEn9dzQy4rAhYRsDuNPHi3XTPpVlu4=
 github.com/CaiJimmy/hugo-theme-stack/v3 v3.20.0 h1:HcDBhvXj1GJtFEN3lqkmLEULWYu5ycp4KV9v8fQ5s2s=
 github.com/CaiJimmy/hugo-theme-stack/v3 v3.20.0/go.mod h1:IPmCXiIxlFSLFYS0tOmYP6ySLviyeNVSabyvSuaxD+I=
+github.com/CaiJimmy/hugo-theme-stack/v3 v3.21.0 h1:GT519sWiMhJCYO2xkxgjTvgGZsfP31Q79OURWGTT8/Y=
+github.com/CaiJimmy/hugo-theme-stack/v3 v3.21.0/go.mod h1:IPmCXiIxlFSLFYS0tOmYP6ySLviyeNVSabyvSuaxD+I=
 github.com/EmielH/hallo-hugo v2.7.0+incompatible h1:Va+JshEveeXkX/i2vEiIP6U6CPXDnAPvfBrNfhwaDZc=
 github.com/EmielH/hallo-hugo v2.7.0+incompatible/go.mod h1:13Y/lBvJZLnLgZ0hLWhnDSdVoFF0sO4bKoWTu7sSn+M=
 github.com/EmielH/stip-hugo v1.0.0 h1:R+QUv5VjkLgTIAxUzzgyNAiw98NxsgPRMAsk6RKheGA=
@@ -114,6 +116,8 @@ github.com/McShelby/hugo-theme-relearn v0.0.0-20231009214101-dd692f79ee18 h1:Sch
 github.com/McShelby/hugo-theme-relearn v0.0.0-20231009214101-dd692f79ee18/go.mod h1:mKQQdxZNIlLvAj8X3tMq+RzntIJSr9z7XdzuMomt0IM=
 github.com/McShelby/hugo-theme-relearn v0.0.0-20231010214034-06ab15275255 h1:vCBwYqtJoliiPb9Sxhm1OcxP/Wp0cP1jdLKEGe/5oQs=
 github.com/McShelby/hugo-theme-relearn v0.0.0-20231010214034-06ab15275255/go.mod h1:mKQQdxZNIlLvAj8X3tMq+RzntIJSr9z7XdzuMomt0IM=
+github.com/McShelby/hugo-theme-relearn v0.0.0-20231011215825-c6db1f061daf h1:UYg89LN2IHFUpJ9cjnH54/RbgmxRMiMa+F3jzfOXah0=
+github.com/McShelby/hugo-theme-relearn v0.0.0-20231011215825-c6db1f061daf/go.mod h1:mKQQdxZNIlLvAj8X3tMq+RzntIJSr9z7XdzuMomt0IM=
 github.com/MeiK2333/github-style v0.0.0-20230918025927-fafe84e58f28 h1:tBf/ff3pKpBFko1EtjbHQTT0DhK2kXnaKp3Xz9HjNyg=
 github.com/MeiK2333/github-style v0.0.0-20230918025927-fafe84e58f28/go.mod h1:MDvfpZqhD/YSKR6X4f5hVUv588HxL1MVjsCTSM7ETxs=
 github.com/Mitrichius/hugo-theme-anubis v0.0.0-20230918182456-01c3a53f124c h1:ExzBis1WDt0gqG8jGpMmio6oCmx8r7MTu6dvp9Gc/g0=
@@ -253,6 +257,8 @@ github.com/canhtran/maverick v0.0.0-20230114060933-267086f1f4bc h1:EwYLNT6OMCGJ2
 github.com/canhtran/maverick v0.0.0-20230114060933-267086f1f4bc/go.mod h1:YuK6DnnmF0p8Cf5oZ4IWxZ463PtAfOlUy90d1tfCAKU=
 github.com/canstand/compost v0.6.2 h1:84IUgl2GY2P9TO32PD6Gj67fA1hS3A39FtIAzxprFfA=
 github.com/canstand/compost v0.6.2/go.mod h1:aX2G4Yo+cLUCO5jTAw92TT6MmJUf4ed5VV4gm63NMgk=
+github.com/canstand/compost v0.6.3 h1:l6Rhcdm5EoolQK0EqiI65HSrPDiPzbTTXzbFa8FmEG8=
+github.com/canstand/compost v0.6.3/go.mod h1:aX2G4Yo+cLUCO5jTAw92TT6MmJUf4ed5VV4gm63NMgk=
 github.com/capnfabs/paperesque v0.0.0-20230313144050-7e2bbb04aafa h1:z7wl+6NN7QYrEkCSiwb6Yq+TgTn1Z4sxFSsd4BR4/cU=
 github.com/capnfabs/paperesque v0.0.0-20230313144050-7e2bbb04aafa/go.mod h1:esZ0bM9RpwRG2I71ZuSv7NuS2OsYf5t7iMLbxYKAmCE=
 github.com/caressofsteel/hugo-story v0.0.0-20230122154440-fb2a35a34058 h1:1Kc1gyrBMq2zn04yzRhfF5p0zFIDdj9JFReZm6eUJKk=
