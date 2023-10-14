@@ -2,7 +2,7 @@
 The Hugo theme is inspired by Material Design version 3, built with love using Tailwind CSS.
 
 
-
+https://raw.githubusercontent.com/fauzanmy/pehtheme-hugo-lite/main/images/tn.png
 
 
 
