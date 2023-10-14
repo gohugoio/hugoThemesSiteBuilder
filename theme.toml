@@ -1,0 +1,16 @@
+# theme.toml template for a Hugo theme
+# See https://github.com/gohugoio/hugoThemes#themetoml for an example
+
+name = "Pehtheme Hugo"
+license = "MIT"
+licenselink = "https://github.com/insertapps/pehtheme-hugo/blob/master/LICENSE"
+description = "Pehtheme Hugo build with Tailwind CSS"
+homepage = "http://insertapps.com/pehtheme/hugo-theme"
+tags = ["blog", "simple"]
+features = ["tailwind"]
+min_version = "0.117.0"
+
+authors = [
+  {name = "Fauzan My", homepage = "https://fzn.my.id"},
+  {name = "InsertApps", homepage = "https://insertapps.com"}
+]

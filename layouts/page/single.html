@@ -1,0 +1,40 @@
+{{ define "main" }}
+
+<div class="py-14">
+
+	<div class="mb-14">	
+
+		<img class="rounded-3xl" src="{{ .Params.image | absURL }}" alt="{{ .Title }}">
+
+	</div>
+
+
+	<div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+
+		<article class="md:col-span-2 prose lg:prose-lg">
+
+		<header class="not-prose mb-14">
+
+			<h1 class="text-4xl font-bold">{{ .Title }}</h1>
+		
+		</header>
+
+		<div id="content" class="prose lg:prose-lg">
+
+			{{ .Content }}
+			
+		</div>
+
+		</article>
+
+		<aside class="md:col-span-1">
+
+			{{- partial "aside.html" . -}}
+		
+		</aside>
+
+	</div>
+
+</div>
+
+{{ end }}

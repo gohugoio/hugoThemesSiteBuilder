@@ -1,0 +1,28 @@
+<article class="relative group bg-zinc-100 hover:bg-blue-100 rounded-3xl">
+	
+	<a class="before:content-[''] before:z-10 before:top-0 before:right-0 before:left-0 before:bottom-0 before:absolute before:pointer-events-auto" href="{{ .Permalink }}"></a>
+
+	<figure class="w-full aspect-video overflow-hidden rounded-3xl">
+
+		{{ $imgcard := resources.Get .Params.image }}
+
+		{{ with $imgcard }}
+
+			{{ $imgcard := $imgcard.Process "resize 750x" }}
+
+			<img class="object-cover group-hover:scale-105 transition duration-500 cursor-pointer" src="{{ ($imgcard ).Permalink }}" alt="{{ $.Name }}" width="{{ $imgcard.Width }}" height="{{ $imgcard.Height }}">
+
+		{{ end }}
+
+	</figure>
+
+	<div class="p-6">
+
+		<time datetime="{{ .Date.Format "2006-01-02T15:04:05-07:00" | safeHTML }}">{{ .Date.Format "Jan 02, 2006" }}</time>
+
+		<h3 class="my-4 text-2xl font-bold">{{ .Title }}</h3>
+
+		<p class="text-normal leading-normal text-zinc-500 line-clamp-2">{{ .Params.description }}</p>
+
+	</div>
+</article>

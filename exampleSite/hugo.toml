@@ -1,0 +1,35 @@
+baseURL = 'http://insertapps.com/demo/pehtheme-hugo'
+languageCode = 'en-us'
+title = 'Pehtheme Hugo'
+theme = 'pehtheme-hugo'
+
+[author]
+	name = 'Anthony Arphan'
+	bio = 'Debitis assumenda esse dignissimos aperiam delectus maxime tenetur repudiandae dolore'
+	avatar = '/images/nasa-astronaut-unsplash.jpg'
+	twitter = 'https://twitter.com/insertapps'
+
+[menu]
+	[[menu.main]]
+		name = 'Home'
+		pageRef = '/'
+		weight = 10
+	[[menu.main]]
+		name = 'About'
+		pageRef = '/about'
+		weight = 15
+	[[menu.main]]
+		name = 'Tags'
+		pageRef = '/tags'
+		weight = 20
+	[[menu.main]]
+		name = 'Taxonomy'
+		pageRef = '/tags/space/'
+		weight = 25
+
+[module]
+	[[module.mounts]]
+    source = 'assets'
+    target = 'static'
+
+

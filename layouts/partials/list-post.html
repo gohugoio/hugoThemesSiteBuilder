@@ -1,0 +1,26 @@
+<article class="relative group flex flex-row">
+
+	<a class="before:content-[''] before:z-10 before:top-0 before:right-0 before:left-0 before:bottom-0 before:absolute before:pointer-events-auto" href="{{ .Permalink }}"></a>
+
+	<figure class="basis-1/3 aspect-square overflow-hidden rounded-2xl aspect-square bg-zinc-100">
+		
+		{{ $imglist := resources.Get .Params.image }}
+		
+		{{ $imglist := $imglist.Crop "250x250 Center" }}
+		
+		{{ with $imglist }}
+
+		<img class="object-cover group-hover:scale-105 transition duration-500 cursor-pointer" src="{{ $imglist.Permalink }}" alt="{{ $.Name }}" width="{{ $imglist.Width }}" height="{{ $imglist.Height }}">
+
+		{{ end }}
+
+	</figure>
+	
+	<div class="basis-2/3 self-center ml-4">
+		
+		<h3 class="font-bold group-hover:underline decoration-auto">{{ .Title }}</h3>
+
+	</div>
+
+
+</article>
