@@ -76,6 +76,8 @@ github.com/JingWangTW/dark-theme-editor v0.0.0-20231003152541-7de8985a5bf6 h1:bN
 github.com/JingWangTW/dark-theme-editor v0.0.0-20231003152541-7de8985a5bf6/go.mod h1:bQG0zqAFVr8Q22E/POpE2azzIWcVu+zBBLsdBQMlWio=
 github.com/JingWangTW/dark-theme-editor v0.0.0-20231006152658-ada2298e0e60 h1:zTiG7AYWPmUrMBhoCsx2e42UcZ8eRUFwzWjdHpu5Prc=
 github.com/JingWangTW/dark-theme-editor v0.0.0-20231006152658-ada2298e0e60/go.mod h1:bQG0zqAFVr8Q22E/POpE2azzIWcVu+zBBLsdBQMlWio=
+github.com/JingWangTW/dark-theme-editor v0.0.0-20231013160338-4af90e2d0f24 h1:TFO/Kn1s9Lm13q4PBEg+GbanfOa9QI56uGp8udXIWxA=
+github.com/JingWangTW/dark-theme-editor v0.0.0-20231013160338-4af90e2d0f24/go.mod h1:bQG0zqAFVr8Q22E/POpE2azzIWcVu+zBBLsdBQMlWio=
 github.com/KatamariJr/split-landing v1.0.1 h1:Y/zC552Zx320o2sEtwBAEQCLK6811EgoGKTyssQfGno=
 github.com/KatamariJr/split-landing v1.0.1/go.mod h1:TbrZDcniqqiPdYvNSdt/1g04IS0U3xLctIT8RVOLMdw=
 github.com/Lednerb/bilberry-hugo-theme/v3 v3.25.0 h1:6lkClCTFvx5LhJr9CsfFNZxZ22B8FrcaRHVsT+hhoVQ=
@@ -715,6 +717,8 @@ github.com/mrmierzejewski/hugo-theme-console v0.0.0-20230725171417-a03f416d170c 
 github.com/mrmierzejewski/hugo-theme-console v0.0.0-20230725171417-a03f416d170c/go.mod h1:N65e0/XqC5/oKjv5TpwNFi88vAgMDUZfnGU4sf7KRkQ=
 github.com/nanxiaobei/hugo-paper v0.0.0-20230922171429-47bac0a8c04c h1:UsjWss9O0dFvNYjo87KiKLSiy7XagEIxw7sL9FnkMmQ=
 github.com/nanxiaobei/hugo-paper v0.0.0-20230922171429-47bac0a8c04c/go.mod h1:cS2hTYPgmZ2FkPTQbOiX6vB0yLQcWD067kJx2lkRPVQ=
+github.com/nanxiaobei/hugo-paper v0.0.0-20231013100524-668361543586 h1:RN3ymRSNiF71AEkF5ckWIT1QQ4dhhqsuDbDq4oBVC8M=
+github.com/nanxiaobei/hugo-paper v0.0.0-20231013100524-668361543586/go.mod h1:cS2hTYPgmZ2FkPTQbOiX6vB0yLQcWD067kJx2lkRPVQ=
 github.com/nanxstats/hugo-tanka v0.0.0-20210707221939-9bec4eba33e5 h1:ArKJMwXbgVVeIhpHxuDES/IoftMzOlk4mMB0tYHmUsY=
 github.com/nanxstats/hugo-tanka v0.0.0-20210707221939-9bec4eba33e5/go.mod h1:MpW+xmCZzgJK5cTtN7/k+nKAKSU7IR8Y3Y7Vt7rdm0c=
 github.com/naro143/hugo-coder-portfolio v0.0.0-20200903083500-255d92337c07 h1:sJcQpPI0wm1zKeX38i/A1RmpPGIN9c4YPMuOTek1woY=
