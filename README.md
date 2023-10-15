@@ -31,8 +31,14 @@ Start Hugo:
 - Multy author
 - Schema Microdata JSON-LD
 - TailwindCSS custom style
+- 
+## License
 
-## Credit Picture
+MIT Licensed, see [LICENSE](https://github.com/halogenica/Hugo-BeautifulHugo/blob/master/LICENSE).
+
+## Credit Photo
+
+Image credit used in the live preview
 
 ```txt
 Images resource:
