@@ -1,10 +1,38 @@
-# pehtheme-hugo
-The Hugo theme is inspired by Material Design version 3, built with love using Tailwind CSS.
+# Pehtheme Hugo (Lite version)
 
+The Hugo theme is inspired by Material Design version 3, built with love using Tailwind CSS.
 
 ![Preview Pehtheme Hugo](https://raw.githubusercontent.com/fauzanmy/pehtheme-hugo-lite/main/images/tn.png?raw=true)
 
-DEMO: https://pehtheme-hugo-lite.netlify.app/
+## Live Demo
+
+Click https://pehtheme-hugo-lite.netlify.app/
+
+## Installation
+
+Install Hugo and create a new site. See [the Hugo documentation](https://gohugo.io/getting-started/quick-start/) for details.
+
+Add Pehtheme Hugo:
+
+  $ git add https://github.com/halogenica/beautifulhugo.git 
+
+Copy the content of `exampleSite` at the root of your project:
+    
+Start Hugo:
+
+    hugo serve
+
+## Features
+
+## Pehtheme Hugo (Pro version underconstruction )
+
+## Pro Feature
+
+- Multy author
+- Schema Microdata JSON-LD
+- TailwindCSS custom style
+
+## Credit Picture
 
 ```txt
 Images resource:
