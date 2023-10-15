@@ -5,6 +5,8 @@ The Hugo theme is inspired by Material Design version 3, built with love using T
 ![Preview Pehtheme Hugo](https://raw.githubusercontent.com/fauzanmy/pehtheme-hugo-lite/main/images/tn.png?raw=true)
 
 
+![DEMO](https://pehtheme-hugo-lite.netlify.app/)
+
 ```txt
 Images resource:
 - https://unsplash.com/photos/Smeer5L0tXM
