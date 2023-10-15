@@ -22,15 +22,24 @@ Start Hugo:
 
     hugo serve
 
-## Features
+## Lite Features
 
-## Pehtheme Hugo (Pro version underconstruction )
+- Build with Tailwind CSS
+- Feature post on home page
+- No JavaScript third party
+- Toggle button using pure JS
+- Two columns blog
+- Sidebar with recent post list
+
+## Pehtheme Hugo (Pro version)
+
+The pro version is still under development.
 
 ## Pro Feature
-
 - Multy author
 - Schema Microdata JSON-LD
 - TailwindCSS custom style
+
 - 
 ## License
 
@@ -38,7 +47,7 @@ MIT Licensed, see [LICENSE](https://github.com/halogenica/Hugo-BeautifulHugo/blo
 
 ## Credit Photo
 
-Image credit used in the live preview
+Image credit used in the live preview.
 
 ```txt
 Images resource:
