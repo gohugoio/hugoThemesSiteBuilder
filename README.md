@@ -14,7 +14,7 @@ Install Hugo and create a new site. See [the Hugo documentation](https://gohugo.
 
 Add Pehtheme Hugo:
 
-  $ git add https://github.com/halogenica/beautifulhugo.git 
+    $ git add https://github.com/halogenica/beautifulhugo.git 
 
 Copy the content of `exampleSite` at the root of your project:
     
