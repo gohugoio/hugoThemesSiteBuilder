@@ -1,7 +1,11 @@
-baseURL = 'http://insertapps.com/demo/pehtheme-hugo'
+baseURL = 'https://pehtheme-hugo-lite.netlify.app/'
 languageCode = 'en-us'
 title = 'Pehtheme Hugo Lite'
 theme = 'pehtheme-hugo-lite'
+
+[params]
+	# Meta description, not exceeding 160 characters, used for the meta description within the HTML head
+	description = 'Pehtheme Hugo Lite: A minimalist Hugo theme, built with TailwindCSS, for efficient performance and minimalism.'
 
 [author]
 	name = 'Anthony Arphan'
@@ -10,6 +14,7 @@ theme = 'pehtheme-hugo-lite'
 	twitter = 'https://twitter.com/insertapps'
 
 [menu]
+	# Menu management
 	[[menu.main]]
 		name = 'Home'
 		pageRef = '/'
@@ -28,10 +33,7 @@ theme = 'pehtheme-hugo-lite'
 		weight = 25
 
 [module]
+	# Directing the static folder to assets.
 	[[module.mounts]]
     source = 'assets'
     target = 'static'
-  [module.hugoVersion]
-    extended = true
-    min = "0.117.0"
-    max = "0.119.0"
