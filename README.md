@@ -81,7 +81,7 @@ authors = [
 # If porting an existing theme
 [original]
     author = "Name of original author"
-    homepage = "His/Her website"
+    homepage = "Link to website of original author"
     repo = "Link to source code of original theme"
 ```
 
