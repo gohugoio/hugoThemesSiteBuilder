@@ -10,7 +10,7 @@ Check out the live demo: [Pehtheme Hugo Live Demo](https://pehtheme-hugo-lite.ne
 
 ## Performance Testing
 
-To check the performance of a site using Pehtheme Hugo (Lite version), you can use the PageSpeed Insights tool. Click the button below to run a PageSpeed Insights test:
+To check the performance of the site using Pehtheme Hugo (Lite version), you can use the PageSpeed Insights tool. Click the button below to run a PageSpeed Insights test:
 
 [![PageSpeed Insights Test](https://pagespeed.web.dev/images/v2/psi.png)](https://pagespeed.web.dev/analysis/https-pehtheme-hugo-lite-netlify-app/fwjzkpvs22?form_factor=mobile)
 
@@ -33,7 +33,7 @@ To get started with Pehtheme Hugo, follow these steps:
     ```
     hugo serve
     ```
-
+    
 ## Lite Features
 
 - Powered by Tailwind CSS
