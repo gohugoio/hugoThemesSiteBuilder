@@ -37,9 +37,13 @@ Start Hugo:
 The pro version is still under development.
 
 ## Pro Feature
-- Multy author
+- SEO Optimization
+    - SEO Page optimization
+    - SEO Image optimization
+- Multi-Author Posts
 - Schema Microdata JSON-LD
-- TailwindCSS custom style
+- TailwindCSS custom styles
+- Lifetime updates
 - Premium support
 
 ## License
