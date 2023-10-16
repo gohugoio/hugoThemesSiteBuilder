@@ -1,7 +1,7 @@
 baseURL = 'http://insertapps.com/demo/pehtheme-hugo'
 languageCode = 'en-us'
-title = 'Pehtheme Hugo'
-theme = 'pehtheme-hugo'
+title = 'Pehtheme Hugo Lite'
+theme = 'pehtheme-hugo-lite'
 
 [author]
 	name = 'Anthony Arphan'
