@@ -1,6 +1,6 @@
 # Pehtheme Hugo (Lite version)
 
-An open-source Hugo theme inspired by Material Design v3, lovingly crafted using Tailwind CSS.
+An open-source Hugo theme inspired by [Material Design v3](https://m3.material.io/), lovingly crafted using Tailwind CSS.
 
 ![Preview Pehtheme Hugo](https://raw.githubusercontent.com/fauzanmy/pehtheme-hugo-lite/main/images/tn.png?raw=true)
 
