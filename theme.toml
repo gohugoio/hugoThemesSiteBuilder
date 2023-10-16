@@ -4,9 +4,9 @@
 name = "Pehtheme Hugo Lite"
 license = "MIT"
 licenselink = "https://github.com/insertapps/pehtheme-hugo/blob/master/LICENSE"
-description = "Pehtheme Hugo build with Tailwind CSS"
+description = "Pehtheme Hugo builds with Tailwind CSS"
 homepage = "http://insertapps.com/pehtheme/hugo-theme"
-tags = ["blog", "simple", "clean", "tailwindscss"]
+tags = ["blog", "minimal", "personal", "responsive" "tailwindscss"]
 features = ["tailwind"]
 min_version = "0.117.0"
 
