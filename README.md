@@ -8,6 +8,12 @@ An open-source Hugo theme inspired by [Material Design v3](https://m3.material.i
 
 Check out the live demo: [Pehtheme Hugo Live Demo](https://pehtheme-hugo-lite.netlify.app/)
 
+## Performance Testing
+
+To check the performance of a site using Pehtheme Hugo (Lite version), you can use the PageSpeed Insights tool. Click the button below to run a PageSpeed Insights test:
+
+[![PageSpeed Insights Test](https://pagespeed.web.dev/images/v2/psi.png)](https://pagespeed.web.dev/analysis/https-pehtheme-hugo-lite-netlify-app/fwjzkpvs22?form_factor=mobile)
+
 ## Installation
 
 To get started with Pehtheme Hugo, follow these steps:
