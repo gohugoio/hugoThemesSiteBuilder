@@ -1,36 +1,46 @@
 # Pehtheme Hugo (Lite version)
 
-The Hugo theme is inspired by Material Design version 3, built with love using Tailwind CSS.
+An open-source Hugo theme inspired by Material Design v3, lovingly crafted using Tailwind CSS.
 
 ![Preview Pehtheme Hugo](https://raw.githubusercontent.com/fauzanmy/pehtheme-hugo-lite/main/images/tn.png?raw=true)
 
 ## Live Demo
 
-Click https://pehtheme-hugo-lite.netlify.app/
+Check out the live demo: [Pehtheme Hugo Live Demo](https://pehtheme-hugo-lite.netlify.app/)
 
 ## Installation
 
-Install Hugo and create a new site. See [the Hugo documentation](https://gohugo.io/getting-started/quick-start/) for details.
+To get started with Pehtheme Hugo, follow these steps:
 
-Add Pehtheme Hugo:
+1. Install Hugo and create a new site. Refer to [Hugo's Quick Start Guide](https://gohugo.io/getting-started/quick-start/) for detailed instructions.
 
+2. Add Pehtheme Hugo to your project:
+
+    ```
     $ git clone https://github.com/fauzanmy/pehtheme-hugo-lite.git
+    ```
 
-Copy the content of `exampleSite` at the root of your project:
-    
+3. Copy the contents of the `exampleSite` directory to the root of your project.
+
+4. Start Hugo:
+
+    ```
+    hugo serve
+    ```
+
 Start Hugo:
 
     hugo serve
 
 ## Lite Features
 
-- Build with Tailwind CSS
-- Horizontal Menus
-- Feature post on home page
-- No JavaScript third party
-- Toggle button using pure JS
-- Two columns blog
-- Sidebar with recent post list
+- Powered by Tailwind CSS
+- Horizontal menus
+- Featured posts on the home page
+- JavaScript-free design
+- Pure JS toggle button
+- Two-column blog layout
+- Sidebar with a list of recent posts
 
 ## Pehtheme Hugo (Pro version)
 
