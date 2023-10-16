@@ -28,10 +28,6 @@ To get started with Pehtheme Hugo, follow these steps:
     hugo serve
     ```
 
-Start Hugo:
-
-    hugo serve
-
 ## Lite Features
 
 - Powered by Tailwind CSS
