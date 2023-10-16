@@ -40,8 +40,8 @@ The pro version is still under development.
 - Multy author
 - Schema Microdata JSON-LD
 - TailwindCSS custom style
+- Premium support
 
-- 
 ## License
 
 MIT Licensed, see [LICENSE](https://github.com/halogenica/Hugo-BeautifulHugo/blob/master/LICENSE).
