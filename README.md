@@ -25,6 +25,7 @@ Start Hugo:
 ## Lite Features
 
 - Build with Tailwind CSS
+- Horizontal Menus
 - Feature post on home page
 - No JavaScript third party
 - Toggle button using pure JS
