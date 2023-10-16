@@ -3,9 +3,12 @@
 
 name = "Pehtheme Hugo Lite"
 license = "MIT"
-licenselink = "https://github.com/insertapps/pehtheme-hugo/blob/master/LICENSE"
-description = "Pehtheme Hugo builds with Tailwind CSS"
-homepage = "http://insertapps.com/pehtheme/hugo-theme"
+licenselink = "https://github.com/fauzanmy/pehtheme-hugo-lite/blob/main/LICENSE"
+description = "Pehtheme Hugo Lite: A minimalist Hugo theme, built with TailwindCSS, for efficient performance and minimalism."
+
+homepage = "https://github.com/fauzanmy/pehtheme-hugo-lite/"
+demosite = "https://pehtheme-hugo-lite.netlify.app/"
+
 tags = ["blog", "minimal", "personal", "responsive", "tailwindscss"]
 features = ["tailwind"]
 min_version = "0.117.0"
