@@ -32,7 +32,7 @@ To get started with Pehtheme Hugo, follow these steps:
 
 - Powered by Tailwind CSS
 - Horizontal menus
-- Featured posts on the home page
+- Featured posts on the home page (To display feature posts on the homepage, the Hugo theme takes 'feature' tags data)
 - JavaScript-free design
 - Pure JS toggle button
 - Two-column blog layout
