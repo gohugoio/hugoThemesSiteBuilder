@@ -10,7 +10,7 @@ homepage = "https://github.com/fauzanmy/pehtheme-hugo-lite/"
 demosite = "https://pehtheme-hugo-lite.netlify.app/"
 
 tags = ["blog", "minimal", "personal", "responsive", "tailwindscss"]
-features = ["Cover Image", "Favicon", "SEO Optimized", "TailwindCSS"]
+features = ["Two Column", "Feature Post", "Cover Image", "Favicon", "SEO Optimized", "TailwindCSS"]
 min_version = "0.117.0"
 
 authors = [
