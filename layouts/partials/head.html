@@ -1,7 +1,26 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ .Title }} - {{ .Site.Title }}{{ end }}</title>
+
+{{ if .IsHome }} <!-- Dynamic title and description for SEO -->
+	<title>{{ .Site.Title }}</title>
+
+	<meta name="description" content="{{ .Site.Params.description }}">
+{{ else }}
+	<title>{{ .Title }} — {{ .Site.Title }}</title>
+
+	<meta name="description" content="{{ .Params.description }}">
+{{ end }}
+	
+	<!-- Preloading CSS in the background for better performance -->
+	<link rel="preload" href="{{ absURL "assets/css/style.css"}}" as="style">
+
+	<!-- This line is a conventional method for linking to a CSS file, suitable for older browsers -->
 	<link rel="stylesheet" href="{{ absURL "assets/css/style.css"}}">
-	<meta name="description" content="">
+
+	<!-- Favicon resource -->
+	<link rel="icon" type="image/x-icon" href="https://cloud.insertapps.com/assets/favicon/16.ico">
+	<link rel="icon" type="image/png" sizes="32x32" href="https://cloud.insertapps.com/assets/favicon/32.png">
+	<link rel="icon" type="image/png" sizes="128x128" href="https://cloud.insertapps.com/assets/favicon/128.png">
+
 </head>
