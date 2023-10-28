@@ -30,7 +30,11 @@ type Config struct {
 	// Do not delete the old /content folder
 	// This is useful when doing theme edits. Hugo gets confused
 	// when the entire content vanishes.
-	noClean    bool
+	noClean bool
+
+	// Only rebuild the config.json file.
+	configOnly bool
+
 	rootConfig *rootcmd.Config
 }
 
@@ -42,6 +46,7 @@ func New(rootConfig *rootcmd.Config) *ffcli.Command {
 
 	fs := flag.NewFlagSet(rootcmd.CommandName+" build", flag.ExitOnError)
 	fs.BoolVar(&cfg.noClean, "noClean", false, "do not clean out /content before building")
+	fs.BoolVar(&cfg.configOnly, "configOnly", false, "only build the config.json file")
 
 	rootConfig.RegisterFlags(fs)
 
@@ -58,31 +63,38 @@ func New(rootConfig *rootcmd.Config) *ffcli.Command {
 func (c *Config) Exec(ctx context.Context, args []string) error {
 	const configAll = "config.json"
 	contentDir := c.rootConfig.Client.JoinOutPath("site", "content")
+	configFile := c.rootConfig.Client.JoinOutPath(configAll)
+	client.CheckErr(os.Remove(configFile))
+
+	bc := &buildClient{Client: c.rootConfig.Client, contentDir: contentDir, w: workers.New(4)}
+
+	if !bc.OutFileExists("go.mod") {
+		// Initialize the Hugo Module
+		if err := bc.InitModule(); err != nil {
+			return fmt.Errorf("failed to init module: %w", err)
+		}
+	}
+
+	if err := bc.CreateThemesConfig(); err != nil {
+		return err
+	}
+
+	if c.configOnly {
+		return nil
+	}
+
 	if !c.noClean {
 		client.CheckErr(os.RemoveAll(contentDir))
 	}
 	client.CheckErr(os.MkdirAll(contentDir, 0o777))
 
-	client := &buildClient{Client: c.rootConfig.Client, contentDir: contentDir, w: workers.New(4)}
-
-	if err := client.CreateThemesConfig(); err != nil {
-		return err
-	}
-
-	if !client.OutFileExists("go.mod") {
-		// Initialize the Hugo Module
-		if err := client.InitModule(configAll); err != nil {
-			return err
-		}
-	}
-
 	var err error
-	client.mmap, err = client.GetHugoModulesMap(configAll)
+	bc.mmap, err = bc.GetHugoModulesMap(configAll)
 	if err != nil {
 		return err
 	}
 
-	if err := client.writeThemesContent(); err != nil {
+	if err := bc.writeThemesContent(); err != nil {
 		return err
 	}
 

@@ -81,7 +81,7 @@ func main() {
 
 	rootConfig.Client = client
 
-	if err := os.MkdirAll(rootConfig.Out, 0777); err != nil && !os.IsExist(err) {
+	if err := os.MkdirAll(rootConfig.Out, 0o777); err != nil && !os.IsExist(err) {
 		fmt.Fprintf(os.Stderr, "error: Failed to create output folder %q: %v\n", rootConfig.Out, err)
 		os.Exit(1)
 	}
@@ -89,7 +89,7 @@ func main() {
 	defer client.TimeTrack(time.Now(), "Total")
 
 	if err := rootCommand.Run(context.Background()); err != nil {
-		fmt.Fprintf(os.Stderr, "error: %v\n", err)
+		fmt.Fprintf(os.Stderr, "command error: %v\n", err)
 		os.Exit(1)
 	}
 }

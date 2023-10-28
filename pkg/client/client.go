@@ -44,7 +44,6 @@ type Client struct {
 }
 
 func (c *Client) IsBadURL(s string) bool {
-
 	u, err := url.Parse(s)
 	if err != nil {
 		return true
@@ -79,11 +78,9 @@ func (c *Client) IsBadURL(s string) bool {
 	host := strings.ToLower(u.Host)
 
 	return c.badHosts[host] || c.badHosts[strings.TrimPrefix(host, "www.")]
-
 }
 
 func (c *Client) GetHugoModulesMap(config string) (ModulesMap, error) {
-	c.Logf("Get Hugo Modules, config %q", config)
 	defer c.TimeTrack(time.Now(), "Got Hugo Modules")
 	b := &bytes.Buffer{}
 	if err := c.runHugo(b, "--config", config, "config", "mounts"); err != nil {
@@ -92,6 +89,8 @@ func (c *Client) GetHugoModulesMap(config string) (ModulesMap, error) {
 
 	mmap := make(ModulesMap)
 	dec := json.NewDecoder(b)
+
+	c.Logf("Get Hugo Modules, config %q", config)
 
 	for dec.More() {
 		var m Module
@@ -129,8 +128,8 @@ func (c *Client) Logf(format string, a ...interface{}) {
 	fmt.Fprintf(c.logWriter, format+"\n", a...)
 }
 
-func (c *Client) InitModule(config string) error {
-	return c.RunHugo("mod", "init", modPath, "--config", config)
+func (c *Client) InitModule() error {
+	return c.RunHugo("mod", "init", modPath)
 }
 
 func (c *Client) OutFileExists(name string) bool {
@@ -140,7 +139,7 @@ func (c *Client) OutFileExists(name string) bool {
 }
 
 func (c *Client) RunHugo(arg ...string) error {
-	return c.runHugo(io.Discard, arg...)
+	return c.runHugo(nil, arg...)
 }
 
 // CreateThemesConfig reads themes.txt and creates a config.json
@@ -165,9 +164,9 @@ func (c *Client) CreateThemesConfig() error {
 			imports = append(imports, map[string]interface{}{
 				"path":          line,
 				"ignoreImports": true,
+				"ignoreConfig":  true,
 				"noMounts":      true,
 			})
-
 		}
 	}
 
@@ -187,8 +186,7 @@ func (c *Client) CreateThemesConfig() error {
 		return err
 	}
 
-	return os.WriteFile(filepath.Join(c.outDir, "config.json"), b, 0666)
-
+	return os.WriteFile(filepath.Join(c.outDir, "config.json"), b, 0o666)
 }
 
 func (c *Client) JoinOutPath(elem ...string) string {
@@ -226,7 +224,6 @@ func (c *Client) GetGitHubRepos(mods ModulesMap) (map[string]GitHubRepo, error) 
 
 		for k, v := range m2 {
 			m[k] = v
-
 		}
 	}
 
@@ -260,18 +257,17 @@ func (c *Client) GetGitHubRepos(mods ModulesMap) (map[string]GitHubRepo, error) 
 				m[k] = v
 			}
 
-			CheckErr(os.MkdirAll(filepath.Dir(nextCacheFilename), 0777))
-			CheckErr(os.WriteFile(nextCacheFilename, b, 0666))
+			CheckErr(os.MkdirAll(filepath.Dir(nextCacheFilename), 0o777))
+			CheckErr(os.WriteFile(nextCacheFilename, b, 0o666))
 		}
 	}
 
 	return m, nil
-
 }
 
 func (c *Client) getGithubReposCacheFilesSorted() []string {
 	cacheDir := filepath.Join(c.outDir, cacheDir)
-	CheckErr(os.MkdirAll(cacheDir, 0777))
+	CheckErr(os.MkdirAll(cacheDir, 0o777))
 	fis, err := os.ReadDir(cacheDir)
 	CheckErr(err)
 
@@ -290,7 +286,6 @@ func (c *Client) getGithubReposCacheFilesSorted() []string {
 	sort.Strings(entries)
 
 	return entries
-
 }
 
 func (c *Client) fetchGitHubRepo(m Module) (GitHubRepo, error) {
@@ -337,11 +332,15 @@ func (c *Client) fetchGitHubRepos(mods ModulesMap) (map[string]GitHubRepo, error
 
 func (c *Client) runHugo(w io.Writer, arg ...string) error {
 	env := os.Environ()
-	setEnvVars(&env, "PWD", c.outDir) // Use the output dir as the Hugo root.
 
 	arg = append(arg, "--quiet")
 
+	if w == nil {
+		w = os.Stdout
+	}
+
 	cmd := exec.Command("hugo", arg...)
+	cmd.Dir = c.outDir
 	cmd.Env = env
 	cmd.Stdout = w
 	cmd.Stderr = os.Stderr
