@@ -8,67 +8,6 @@ github.com/4s3ti/terminalcv
 github.com/526avijitgupta/gokarna
 github.com/64bitpandas/amethyst
 github.com/7ma7X/HugoTeX
-github.com/AlexFinn/simple-a
-github.com/AmazingRise/hugo-theme-diary
-github.com/AminZibayi/Corporio
-github.com/AngeloStavrow/indigo
-github.com/Axorax/axile-hugo
-github.com/Binary-Eater/hugo-theme-ghci
-github.com/Bonzdev/alexa-portfolio
-github.com/CaiJimmy/hugo-theme-stack/v3
-github.com/Chrede88/L1nkr
-github.com/EmielH/hallo-hugo
-github.com/EmielH/stip-hugo
-github.com/EmielH/tale-hugo
-github.com/ExchangeRate-API/strange-case
-github.com/FarseaSH/hugo-theme-moments
-github.com/Fastbyte01/KeepIt
-github.com/fauzanmy/pehtheme-hugo
-github.com/GDGToulouse/devfest-theme-hugo
-github.com/HEIGE-PCloud/DoIt
-github.com/Ice-Hazymoon/hugo-theme-luna
-github.com/IvanChou/hugo-theme-vec
-github.com/J-Siu/hugo-theme-sk1
-github.com/J-Siu/hugo-theme-sk2
-github.com/J-Siu/hugo-theme-sk3
-github.com/Jack-alope/sourgough-starter
-github.com/JingWangTW/dark-theme-editor
-github.com/KatamariJr/split-landing
-github.com/Lednerb/bilberry-hugo-theme/v4
-github.com/LordMathis/hugo-theme-nightfall
-github.com/LordMathis/hugo-theme-nix
-github.com/LucasVadilho/heyo-hugo-theme
-github.com/LukasJoswiak/etch
-github.com/M1cR0xf7/kaslaanka
-github.com/MarcusVirg/forty
-github.com/Masellum/hugo-theme-nostyleplease
-github.com/McShelby/hugo-theme-relearn
-github.com/MeiK2333/github-style
-github.com/Mitrichius/hugo-theme-anubis
-github.com/Morgscode/hugo-theme-spaced-blog
-github.com/MunifTanjim/minimo
-github.com/Nigh/tinyworks
-github.com/NormandErwan/Blogpaper
-github.com/PippoRJ/hugo-refresh
-github.com/RCJacH/hugo-webslides
-github.com/RainerChiang/simpleness
-github.com/RealOrangeOne/hugo-theme-revealjs
-github.com/RononDex/interstellar-hugo
-github.com/SAGGameDeveloper/hugo-minimalist-spa
-github.com/Softorage/HugoTheme-VibrantShadows
-github.com/Somrat37/somrat
-github.com/StaticMania/portio-hugo
-github.com/StaticMania/roxo-hugo
-github.com/StefMa/hugo-fresh
-github.com/SteveLane/hugo-icon
-github.com/Tazeg/hugo-blog-jeffprod
-github.com/ThemeTony/hugo-theme-tony
-github.com/VVelox/hugo-dusky-neon-potato
-github.com/Vimux/Binario
-github.com/Vimux/mainroad
-github.com/WingLim/hugo-tania
-github.com/Xzya/hugo-material-blog
-github.com/Yukuro/hugo-theme-shell
 github.com/aanupam23/hugo-sugoi
 github.com/achary/engimo
 github.com/adityatelange/hugo-index
@@ -130,8 +69,12 @@ github.com/chaitanya4vedi/navada
 github.com/chipsenkbeil/grid-side
 github.com/chipzoller/hugo-clarity
 github.com/chollinger93/ink-free
+<<<<<<< HEAD
 github.com/chrede88/L1nkr
 github.com/chrede88/qubt
+=======
+github.com/Chrede88/L1nkr
+>>>>>>> 2610be8 (Sort themes.txt)
 github.com/chringel21/chringel-hugo-theme
 github.com/clente/hugo-bearcub
 github.com/cloudwithchris/hugo-creator
@@ -181,12 +124,20 @@ github.com/elkan1788/hugo-theme-next
 github.com/EmielH/hallo-hugo
 github.com/EmielH/stip-hugo
 github.com/EmielH/tale-hugo
+<<<<<<< HEAD
+=======
+github.com/epistemehealth/health-science-journal
+>>>>>>> 2610be8 (Sort themes.txt)
 github.com/ertuil/erblog
 github.com/escalate/hugo-split-theme
 github.com/eshlox/simplicity
 github.com/ExchangeRate-API/strange-case
 github.com/FarseaSH/hugo-theme-moments
 github.com/Fastbyte01/KeepIt
+<<<<<<< HEAD
+=======
+github.com/fauzanmy/pehtheme-hugo
+>>>>>>> 2610be8 (Sort themes.txt)
 github.com/felicianotech/hugo-theme-lean-launch-page
 github.com/fiatjaf/classless-hugo
 github.com/filipecarneiro/hugo-bootstrap-theme
@@ -244,7 +195,10 @@ github.com/huyb1991/hugo-lamp
 github.com/ianrodrigues/hugo-tailwind-journal
 github.com/Ice-Hazymoon/hugo-theme-luna
 github.com/iCyris/hugo-theme-yuki
+<<<<<<< HEAD
 github.com/isaksolheim/cyberscape
+=======
+>>>>>>> 2610be8 (Sort themes.txt)
 github.com/ijsucceed/onepress
 github.com/imfing/hextra
 github.com/ineesalmeida/almeida-cv
@@ -340,7 +294,10 @@ github.com/McShelby/hugo-theme-relearn
 github.com/mdashx/basicwebtheme
 github.com/meibenny/elephants
 github.com/MeiK2333/github-style
+<<<<<<< HEAD
 github.com/michaelneuper/hugo-texify3
+=======
+>>>>>>> 2610be8 (Sort themes.txt)
 github.com/michimani/simplog
 github.com/miguelsimoni/hugo-initio
 github.com/mikeblum/hugo-now
