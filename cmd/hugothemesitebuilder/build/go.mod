@@ -364,7 +364,7 @@ require (
 	github.com/radity/raditian-free-hugo-theme v0.0.0-20200716150603-a25af74cbf97 // indirect
 	github.com/rafed/BlogRa v0.0.0-20230623202135-8b92d969ab53 // indirect
 	github.com/rafed/ramium v0.0.0-20230721113732-a51bb919d150 // indirect
-	github.com/razonyang/hugo-theme-bootstrap v1.2.4 // indirect
+	github.com/razonyang/hugo-theme-bootstrap v1.2.6 // indirect
 	github.com/reuixiy/hugo-theme-meme v5.0.0+incompatible // indirect
 	github.com/rhazdon/hugo-theme-hello-friend-ng v0.0.0-20231007122510-71cee08f5605 // indirect
 	github.com/rhnvrm/bodhi v0.1.0 // indirect

@@ -218,11 +218,11 @@
   "github.com/Fastbyte01/KeepIt": {
     "id": 168930851,
     "created_at": "2019-02-03T09:52:26Z",
-    "updated_at": "2023-10-25T14:07:31Z",
+    "updated_at": "2023-10-29T11:57:43Z",
     "name": "KeepIt",
     "description": "The most powerful minimal Hugo theme.",
     "html_url": "https://github.com/Fastbyte01/KeepIt",
-    "stargazers_count": 244
+    "stargazers_count": 245
   },
   "github.com/GDGToulouse/devfest-theme-hugo": {
     "id": 165132952,
@@ -659,11 +659,11 @@
   "github.com/adityatelange/hugo-PaperMod": {
     "id": 281297416,
     "created_at": "2020-07-21T04:45:10Z",
-    "updated_at": "2023-10-29T10:48:51Z",
+    "updated_at": "2023-10-29T12:36:32Z",
     "name": "hugo-PaperMod",
     "description": " A fast, clean, responsive Hugo theme.",
     "html_url": "https://github.com/adityatelange/hugo-PaperMod",
-    "stargazers_count": 7340
+    "stargazers_count": 7341
   },
   "github.com/adityatelange/hugo-index": {
     "id": 625463549,
@@ -1766,11 +1766,11 @@
   "github.com/google/docsy": {
     "id": 153180924,
     "created_at": "2018-10-15T20:59:47Z",
-    "updated_at": "2023-10-29T10:25:42Z",
+    "updated_at": "2023-10-29T12:23:18Z",
     "name": "docsy",
     "description": "A set of Hugo doc templates for launching open source content.",
     "html_url": "https://github.com/google/docsy",
-    "stargazers_count": 2302
+    "stargazers_count": 2303
   },
   "github.com/guangmean/Niello": {
     "id": 163953752,
@@ -2306,11 +2306,11 @@
   "github.com/jpanther/lynx": {
     "id": 423043182,
     "created_at": "2021-10-31T03:26:52Z",
-    "updated_at": "2023-10-23T16:59:59Z",
+    "updated_at": "2023-10-29T12:08:05Z",
     "name": "lynx",
     "description": "A simple links theme for Hugo built with Tailwind CSS.",
     "html_url": "https://github.com/jpanther/lynx",
-    "stargazers_count": 248
+    "stargazers_count": 249
   },
   "github.com/jpescador/hugo-future-imperfect": {
     "id": 54349132,
@@ -3251,7 +3251,7 @@
   "github.com/razonyang/hugo-theme-bootstrap": {
     "id": 304332853,
     "created_at": "2020-10-15T13:20:45Z",
-    "updated_at": "2023-10-28T12:47:40Z",
+    "updated_at": "2023-10-29T12:24:20Z",
     "name": "hugo-theme-bootstrap",
     "description": "A fast, responsive, multipurpose and feature-rich Hugo theme.",
     "html_url": "https://github.com/razonyang/hugo-theme-bootstrap",
