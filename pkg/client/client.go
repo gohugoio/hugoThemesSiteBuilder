@@ -13,8 +13,6 @@ import (
 	"os/exec"
 	"path/filepath"
 	"runtime"
-	"sort"
-	"strconv"
 	"strings"
 	"sync"
 	"time"
@@ -198,94 +196,51 @@ func (c *Client) TimeTrack(start time.Time, name string) {
 	fmt.Fprintf(c.logWriter, "%s in %v ms\n", name, int(1000*elapsed.Seconds()))
 }
 
-const cacheFileSuffix = "githubrepos.json"
+const gitHubReposCacheFilename = "githubrepos.json"
 
 // GetGitHubRepos will first look in the chache folder for GitHub repo
 // information for mods. If not found, it will ask GitHub and then store
 // it in the cache.
 //
 // If you start with an empty cache, you will need to set a GITHUB_TOKEN environment variable.
-func (c *Client) GetGitHubRepos(mods ModulesMap) (map[string]GitHubRepo, error) {
+func (c *Client) GetGitHubRepos(mods ModulesMap, cleanCache bool) (map[string]GitHubRepo, error) {
 	c.Logf("Get GitHub repos")
 	defer c.TimeTrack(time.Now(), "Got GitHub repos")
-	cacheFiles := c.getGithubReposCacheFilesSorted()
-	m := make(map[string]GitHubRepo)
-	for _, cacheFile := range cacheFiles {
-		cacheFilename := filepath.Join(c.outDir, cacheDir, cacheFile)
-		b, err := os.ReadFile(cacheFilename)
+	cacheFilename := filepath.Join(c.outDir, cacheDir, gitHubReposCacheFilename)
+	if cleanCache {
+		os.Remove(cacheFilename)
+	}
+	b, err := os.ReadFile(cacheFilename)
+	if err != nil {
+		if !os.IsNotExist(err) {
+			return nil, err
+		}
+
+		// Fetch the github repos and store in cache.
+		m, err := c.fetchGitHubRepos(mods)
 		if err != nil {
 			return nil, err
 		}
 
-		m2 := make(map[string]GitHubRepo)
-		if err = json.Unmarshal(b, &m2); err != nil {
-			return nil, err
-		}
-
-		for k, v := range m2 {
-			m[k] = v
-		}
-	}
-
-	missing := ModulesMap{}
-	for k, v := range mods {
-		if _, found := m[k]; !found {
-			missing[k] = v
-		}
-	}
-
-	if len(missing) > 0 {
-		cacheNum := 0
-		if len(cacheFiles) > 0 {
-			last := cacheFiles[len(cacheFiles)-1]
-			cacheNum, _ = strconv.Atoi(last[:strings.Index(last, ".")])
-			cacheNum++
-		}
-		nextCacheFilename := filepath.Join(c.outDir, cacheDir, fmt.Sprintf("%0*d.%s", 4, cacheNum, cacheFileSuffix))
-		m2, err := c.fetchGitHubRepos(missing)
-		if err != nil {
-			return nil, err
-		}
-
-		if len(m2) > 0 {
-			b, err := json.MarshalIndent(m2, "", "  ")
+		if len(m) > 0 {
+			b, err := json.MarshalIndent(m, "", "  ")
 			if err != nil {
 				return nil, err
 			}
-
-			for k, v := range m2 {
-				m[k] = v
-			}
-
-			CheckErr(os.MkdirAll(filepath.Dir(nextCacheFilename), 0o777))
-			CheckErr(os.WriteFile(nextCacheFilename, b, 0o666))
+			CheckErr(os.MkdirAll(filepath.Dir(cacheFilename), 0o777))
+			CheckErr(os.WriteFile(cacheFilename, b, 0o666))
 		}
+
+		return m, nil
+	}
+
+	m := make(map[string]GitHubRepo)
+
+	if err = json.Unmarshal(b, &m); err != nil {
+		return nil, err
 	}
 
 	return m, nil
-}
-
-func (c *Client) getGithubReposCacheFilesSorted() []string {
-	cacheDir := filepath.Join(c.outDir, cacheDir)
-	CheckErr(os.MkdirAll(cacheDir, 0o777))
-	fis, err := os.ReadDir(cacheDir)
-	CheckErr(err)
-
-	var entries []string
-
-	for _, fi := range fis {
-		if fi.IsDir() {
-			continue
-		}
-
-		if strings.HasSuffix(fi.Name(), cacheFileSuffix) {
-			entries = append(entries, fi.Name())
-		}
-	}
-
-	sort.Strings(entries)
-
-	return entries
 }
 
 func (c *Client) fetchGitHubRepo(m Module) (GitHubRepo, error) {

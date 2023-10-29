@@ -25,15 +25,18 @@ import (
 	"github.com/gohugoio/hugoThemesSiteBuilder/pkg/rootcmd"
 )
 
-// Config for the get subcommand.
+// Config for the build subcommand.
 type Config struct {
 	// Do not delete the old /content folder
 	// This is useful when doing theme edits. Hugo gets confused
 	// when the entire content vanishes.
 	noClean bool
 
-	// Only rebuild the config.json file.
-	configOnly bool
+	// Skip the final site build.
+	skipSiteBuild bool
+
+	// Set to true to remove the GitHub cache before building.
+	cleanCache bool
 
 	rootConfig *rootcmd.Config
 }
@@ -46,8 +49,8 @@ func New(rootConfig *rootcmd.Config) *ffcli.Command {
 
 	fs := flag.NewFlagSet(rootcmd.CommandName+" build", flag.ExitOnError)
 	fs.BoolVar(&cfg.noClean, "noClean", false, "do not clean out /content before building")
-	fs.BoolVar(&cfg.configOnly, "configOnly", false, "only build the config.json file")
-
+	fs.BoolVar(&cfg.skipSiteBuild, "skipSiteBuild", false, "skip the final site build")
+	fs.BoolVar(&cfg.cleanCache, "cleanCache", false, "clean the GitHub cache before building")
 	rootConfig.RegisterFlags(fs)
 
 	return &ffcli.Command{
@@ -79,7 +82,15 @@ func (c *Config) Exec(ctx context.Context, args []string) error {
 		return err
 	}
 
-	if c.configOnly {
+	var err error
+	bc.mmap, err = bc.GetHugoModulesMap(configAll)
+	if err != nil {
+		return err
+	}
+
+	bc.initGhRepos(c.cleanCache)
+
+	if c.skipSiteBuild {
 		return nil
 	}
 
@@ -87,12 +98,6 @@ func (c *Config) Exec(ctx context.Context, args []string) error {
 		client.CheckErr(os.RemoveAll(contentDir))
 	}
 	client.CheckErr(os.MkdirAll(contentDir, 0o777))
-
-	var err error
-	bc.mmap, err = bc.GetHugoModulesMap(configAll)
-	if err != nil {
-		return err
-	}
 
 	if err := bc.writeThemesContent(); err != nil {
 		return err
@@ -128,9 +133,9 @@ func (c *buildClient) err(err error) {
 	c.buildErrs = append(c.buildErrs, err)
 }
 
-func (c *buildClient) getGitHubRepo(path string) client.GitHubRepo {
+func (c *buildClient) initGhRepos(cleanCache bool) {
 	c.ghReposInit.Do(func() {
-		ghRepos, err := c.GetGitHubRepos(c.mmap)
+		ghRepos, err := c.GetGitHubRepos(c.mmap, cleanCache)
 		client.CheckErr(err)
 		maxStars := 0
 		for _, ghRepo := range ghRepos {
@@ -141,7 +146,10 @@ func (c *buildClient) getGitHubRepo(path string) client.GitHubRepo {
 		c.maxStars = maxStars
 		c.ghRepos = ghRepos
 	})
+}
 
+func (c *buildClient) getGitHubRepo(path string) client.GitHubRepo {
+	c.initGhRepos(false)
 	return c.ghRepos[path]
 }
 
