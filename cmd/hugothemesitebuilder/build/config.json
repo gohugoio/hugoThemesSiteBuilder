@@ -1,7 +1,7 @@
 {
   "module": {
     "hugoVersion": {
-      "min": "0.84.2"
+      "min": "0.115.0"
     },
     "imports": [
       {
