@@ -25,6 +25,7 @@ jobs:
           git config --global user.name "bep"
           go install github.com/gohugoio/hugo@${{ env.HUGO_VERSION }}
           hugo mod get
+          hugo mod tidy
           git add .
           git commit -am "[Bot] Update themes"
           git push --force-with-lease

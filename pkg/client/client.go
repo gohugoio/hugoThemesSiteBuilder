@@ -176,7 +176,7 @@ func (c *Client) CreateThemesConfig() error {
 
 	config["module"] = map[string]interface{}{
 		"hugoVersion": map[string]interface{}{
-			"min": "0.84.2", // The noMounts config option was added in this version.
+			"min": "0.115.0",
 		},
 		"imports": imports,
 	}
@@ -212,7 +212,7 @@ func (c *Client) GetGitHubRepos(mods ModulesMap) (map[string]GitHubRepo, error) 
 	m := make(map[string]GitHubRepo)
 	for _, cacheFile := range cacheFiles {
 		cacheFilename := filepath.Join(c.outDir, cacheDir, cacheFile)
-		b, err := ioutil.ReadFile(cacheFilename)
+		b, err := os.ReadFile(cacheFilename)
 		if err != nil {
 			return nil, err
 		}
