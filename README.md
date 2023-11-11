@@ -85,7 +85,7 @@ authors = [
     repo = "Link to source code of original theme"
 ```
 
-Your theme should also have a configuration file (such as config.toml) that specifies the [Hugo versions](https://gohugo.io/hugo-modules/configuration/#module-config-hugoversion) supported by the theme.
+Your theme should also have a configuration file (such as `config.toml`) that specifies the [Hugo versions](https://gohugo.io/hugo-modules/configuration/#module-config-hugoversion) supported by the theme.
 
 ```toml
 [module]
@@ -158,7 +158,7 @@ According to our current policy, themes that have not been updated within the la
 
 **Question:** My theme is flagged as 'old' when it's been updated recently.
 
-**Answer:** We use Hugo Modules to manage the themes -- which is backed by Go Modules. If you have one or more tagged releases (e.g. `v1.0.0`), we will choose the last version within the current major version. To get rid of that warning you need to tag a new release and wait for us to rebuild the theme site. Note that for unversioned themes, the latest commit gets picked.
+**Answer:** We use Hugo Modules to manage the themes -- which is backed by Go Modules. If you have one or more tagged releases (e.g. `v1.0.0`), adhering to [Semantic Versioning](https://semver.org/), we will choose the last version within the current major version. To get rid of that warning you need to tag a new release and wait for us to rebuild the theme site. Note that for unversioned themes, the latest commit gets picked.
 
 **Question:** Can I submit a theme with a repository hosted on git.sr.ht (or any other platform for that matter), given that themes.txt contains links to github.com and gitlab.com?
 
