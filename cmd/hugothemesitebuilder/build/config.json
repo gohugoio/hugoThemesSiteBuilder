@@ -1688,6 +1688,12 @@
         "ignoreConfig": true,
         "ignoreImports": true,
         "noMounts": true,
+        "path": "github.com/michaelneuper/hugo-texify3"
+      },
+      {
+        "ignoreConfig": true,
+        "ignoreImports": true,
+        "noMounts": true,
         "path": "github.com/michimani/simplog"
       },
       {
@@ -2330,6 +2336,12 @@
         "ignoreConfig": true,
         "ignoreImports": true,
         "noMounts": true,
+        "path": "github.com/Sped0n/bridget"
+      },
+      {
+        "ignoreConfig": true,
+        "ignoreImports": true,
+        "noMounts": true,
         "path": "github.com/spf13/hyde"
       },
       {
@@ -2673,12 +2685,6 @@
         "ignoreImports": true,
         "noMounts": true,
         "path": "github.com/wlh320/hugo-theme-hulga"
-      },
-      {
-        "ignoreConfig": true,
-        "ignoreImports": true,
-        "noMounts": true,
-        "path": "github.com/wowchemy/starter-hugo-academic"
       },
       {
         "ignoreConfig": true,
