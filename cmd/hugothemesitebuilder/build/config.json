@@ -434,7 +434,7 @@
         "ignoreConfig": true,
         "ignoreImports": true,
         "noMounts": true,
-        "path": "github.com/Chrede88/L1nkr"
+        "path": "github.com/chrede88/L1nkr"
       },
       {
         "ignoreConfig": true,
@@ -729,12 +729,6 @@
         "ignoreImports": true,
         "noMounts": true,
         "path": "github.com/EmielH/tale-hugo"
-      },
-      {
-        "ignoreConfig": true,
-        "ignoreImports": true,
-        "noMounts": true,
-        "path": "github.com/epistemehealth/health-science-journal"
       },
       {
         "ignoreConfig": true,
