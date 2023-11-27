@@ -440,6 +440,12 @@
         "ignoreConfig": true,
         "ignoreImports": true,
         "noMounts": true,
+        "path": "github.com/chrede88/qubt"
+      },
+      {
+        "ignoreConfig": true,
+        "ignoreImports": true,
+        "noMounts": true,
         "path": "github.com/chringel21/chringel-hugo-theme"
       },
       {
@@ -1112,6 +1118,12 @@
         "ignoreConfig": true,
         "ignoreImports": true,
         "noMounts": true,
+        "path": "github.com/isaksolheim/cyberscape"
+      },
+      {
+        "ignoreConfig": true,
+        "ignoreImports": true,
+        "noMounts": true,
         "path": "github.com/ijsucceed/onepress"
       },
       {
@@ -1310,7 +1322,7 @@
         "ignoreConfig": true,
         "ignoreImports": true,
         "noMounts": true,
-        "path": "github.com/jpanther/congo"
+        "path": "github.com/jpanther/congo/v2"
       },
       {
         "ignoreConfig": true,
@@ -2282,12 +2294,6 @@
         "ignoreConfig": true,
         "ignoreImports": true,
         "noMounts": true,
-        "path": "github.com/Softorage/HugoTheme-VibrantShadows"
-      },
-      {
-        "ignoreConfig": true,
-        "ignoreImports": true,
-        "noMounts": true,
         "path": "github.com/softwareyoga/ronu-hugo-theme"
       },
       {
@@ -2684,7 +2690,13 @@
         "ignoreConfig": true,
         "ignoreImports": true,
         "noMounts": true,
-        "path": "github.com/wowchemy/wowchemy-hugo-themes/modules/wowchemy/v5"
+        "path": "github.com/HugoBlox/theme-academic-cv"
+      },
+      {
+        "ignoreConfig": true,
+        "ignoreImports": true,
+        "noMounts": true,
+        "path": "github.com/HugoBlox/hugo-blox-builder/modules/blox-tailwind"
       },
       {
         "ignoreConfig": true,
