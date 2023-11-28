@@ -632,6 +632,12 @@
         "ignoreConfig": true,
         "ignoreImports": true,
         "noMounts": true,
+        "path": "github.com/derme302/triple-hyde"
+      },
+      {
+        "ignoreConfig": true,
+        "ignoreImports": true,
+        "noMounts": true,
         "path": "github.com/devcows/hugo-universal-theme"
       },
       {
@@ -1040,12 +1046,6 @@
         "ignoreConfig": true,
         "ignoreImports": true,
         "noMounts": true,
-        "path": "github.com/htr3n/hyde-hyde"
-      },
-      {
-        "ignoreConfig": true,
-        "ignoreImports": true,
-        "noMounts": true,
         "path": "github.com/httpsecure/hugo-cat"
       },
       {
@@ -1088,6 +1088,18 @@
         "ignoreConfig": true,
         "ignoreImports": true,
         "noMounts": true,
+        "path": "github.com/HugoBlox/hugo-blox-builder/modules/blox-tailwind"
+      },
+      {
+        "ignoreConfig": true,
+        "ignoreImports": true,
+        "noMounts": true,
+        "path": "github.com/HugoBlox/theme-academic-cv"
+      },
+      {
+        "ignoreConfig": true,
+        "ignoreImports": true,
+        "noMounts": true,
         "path": "github.com/humrochagf/colordrop"
       },
       {
@@ -1118,12 +1130,6 @@
         "ignoreConfig": true,
         "ignoreImports": true,
         "noMounts": true,
-        "path": "github.com/isaksolheim/cyberscape"
-      },
-      {
-        "ignoreConfig": true,
-        "ignoreImports": true,
-        "noMounts": true,
         "path": "github.com/ijsucceed/onepress"
       },
       {
@@ -1143,6 +1149,12 @@
         "ignoreImports": true,
         "noMounts": true,
         "path": "github.com/invinciblycool/lekh"
+      },
+      {
+        "ignoreConfig": true,
+        "ignoreImports": true,
+        "noMounts": true,
+        "path": "github.com/isaksolheim/cyberscape"
       },
       {
         "ignoreConfig": true,
@@ -2685,18 +2697,6 @@
         "ignoreImports": true,
         "noMounts": true,
         "path": "github.com/wlh320/hugo-theme-hulga"
-      },
-      {
-        "ignoreConfig": true,
-        "ignoreImports": true,
-        "noMounts": true,
-        "path": "github.com/HugoBlox/theme-academic-cv"
-      },
-      {
-        "ignoreConfig": true,
-        "ignoreImports": true,
-        "noMounts": true,
-        "path": "github.com/HugoBlox/hugo-blox-builder/modules/blox-tailwind"
       },
       {
         "ignoreConfig": true,
