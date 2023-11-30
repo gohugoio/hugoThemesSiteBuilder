@@ -332,6 +332,12 @@
         "ignoreConfig": true,
         "ignoreImports": true,
         "noMounts": true,
+        "path": "github.com/bowman2001/perplex"
+      },
+      {
+        "ignoreConfig": true,
+        "ignoreImports": true,
+        "noMounts": true,
         "path": "github.com/brycematheson/allegiant"
       },
       {
@@ -1610,6 +1616,12 @@
         "ignoreConfig": true,
         "ignoreImports": true,
         "noMounts": true,
+        "path": "github.com/mansoorbarri/glim-midnight"
+      },
+      {
+        "ignoreConfig": true,
+        "ignoreImports": true,
+        "noMounts": true,
         "path": "github.com/marcanuy/simpleit-hugo-theme"
       },
       {
@@ -2301,6 +2313,12 @@
         "ignoreImports": true,
         "noMounts": true,
         "path": "github.com/slashformotion/hugo-tufte"
+      },
+      {
+        "ignoreConfig": true,
+        "ignoreImports": true,
+        "noMounts": true,
+        "path": "github.com/Softorage/HugoTheme-VibrantShadows"
       },
       {
         "ignoreConfig": true,
