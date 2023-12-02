@@ -47,7 +47,7 @@ require (
 	github.com/M1cR0xf7/kaslaanka v0.0.0-20230905163123-33efc173970b // indirect
 	github.com/MarcusVirg/forty v0.0.0-20190430033326-dccea57bd2ed // indirect
 	github.com/Masellum/hugo-theme-nostyleplease v0.0.0-20230920130130-22524617427a // indirect
-	github.com/McShelby/hugo-theme-relearn v0.0.0-20231201000351-18061dbc0604 // indirect
+	github.com/McShelby/hugo-theme-relearn v0.0.0-20231202001631-2eadb31269b0 // indirect
 	github.com/MeiK2333/github-style v0.0.0-20230918025927-fafe84e58f28 // indirect
 	github.com/Mitrichius/hugo-theme-anubis v0.0.0-20230918182456-01c3a53f124c // indirect
 	github.com/Morgscode/hugo-theme-spaced-blog v0.0.0-20231126180246-0829a7d2d68b // indirect
@@ -337,7 +337,7 @@ require (
 	github.com/nixentric/Lowkey-Hugo-Theme v0.0.0-20231116044231-e06586201d4c // indirect
 	github.com/nodejh/hugo-theme-cactus-plus v0.0.0-20231103024956-c79672b53a9f // indirect
 	github.com/ntk148v/hugo-cuisine-book v0.0.0-20230914083228-188f158ad681 // indirect
-	github.com/nunocoracao/blowfish/v2 v2.45.0 // indirect
+	github.com/nunocoracao/blowfish/v2 v2.46.0 // indirect
 	github.com/nurlansu/hugo-sustain v0.0.0-20230524192148-21d9f8f53692 // indirect
 	github.com/nusserstudios/tailbliss v0.0.0-20231122035845-880c7ddb5a12 // indirect
 	github.com/okkur/syna v0.17.4 // indirect
