@@ -334,7 +334,7 @@ require (
 	github.com/nightswinger/hugo-theme-coyote v1.0.2 // indirect
 	github.com/niklasbuschmann/contrast-hugo v0.0.0-20210313140659-9b3ec3d0243d // indirect
 	github.com/nirocfz/arabica v0.0.0-20220406035148-c63700f10450 // indirect
-	github.com/nixentric/Lowkey-Hugo-Theme v0.0.0-20231116044231-e06586201d4c // indirect
+	github.com/nixentric/Lowkey-Hugo-Theme v0.0.0-20231202094726-4d5b7df4b41d // indirect
 	github.com/nodejh/hugo-theme-cactus-plus v0.0.0-20231103024956-c79672b53a9f // indirect
 	github.com/ntk148v/hugo-cuisine-book v0.0.0-20230914083228-188f158ad681 // indirect
 	github.com/nunocoracao/blowfish/v2 v2.46.0 // indirect
@@ -371,7 +371,7 @@ require (
 	github.com/radity/raditian-free-hugo-theme v0.0.0-20200716150603-a25af74cbf97 // indirect
 	github.com/rafed/BlogRa v0.0.0-20230623202135-8b92d969ab53 // indirect
 	github.com/rafed/ramium v0.0.0-20230721113732-a51bb919d150 // indirect
-	github.com/razonyang/hugo-theme-bootstrap v1.4.1 // indirect
+	github.com/razonyang/hugo-theme-bootstrap v1.5.0 // indirect
 	github.com/reuixiy/hugo-theme-meme v5.0.0+incompatible // indirect
 	github.com/rhazdon/hugo-theme-hello-friend-ng v0.0.0-20231122225555-51e697bea7eb // indirect
 	github.com/rhnvrm/bodhi v0.1.0 // indirect
@@ -398,7 +398,7 @@ require (
 	github.com/sergeyklay/gohugo-theme-ed v0.6.0 // indirect
 	github.com/sergiobarriel/tophat-theme v0.0.0-20231105115724-1029f8da1a7c // indirect
 	github.com/serkodev/holy v0.0.0-20230619092132-813c12d1d9ad // indirect
-	github.com/setsevireon/photophobia v0.0.7 // indirect
+	github.com/setsevireon/photophobia v0.1.0 // indirect
 	github.com/shaform/hugo-theme-den v0.0.0-20220704130400-f420b491a016 // indirect
 	github.com/shenoybr/hugo-goa v0.0.0-20230513102438-a5f1ebcde824 // indirect
 	github.com/siegerts/hugo-theme-basic v0.0.0-20200521131547-7f8226c418da // indirect
@@ -425,7 +425,7 @@ require (
 	github.com/tcgriffith/hugo-owaraiclub v0.0.0-20191105071036-a25aabbb1d0f // indirect
 	github.com/the2ne/hugo-frais v0.0.0-20200104180115-f6f23a885a7a // indirect
 	github.com/theNewDynamic/gohugo-theme-ananke v0.0.0-20231122160523-91df000ca827 // indirect
-	github.com/thegeeklab/hugo-geekblog v0.25.0 // indirect
+	github.com/thegeeklab/hugo-geekblog v0.26.0 // indirect
 	github.com/thegeeklab/hugo-geekdoc v0.44.0 // indirect
 	github.com/thingsym/hugo-theme-techdoc v1.0.0 // indirect
 	github.com/thomasheller/crab v1.0.0 // indirect
