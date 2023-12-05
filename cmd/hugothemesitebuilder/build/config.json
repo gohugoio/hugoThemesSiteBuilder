@@ -2702,6 +2702,12 @@
         "ignoreConfig": true,
         "ignoreImports": true,
         "noMounts": true,
+        "path": "github.com/Wivik/am-writing-hugo-theme"
+      },
+      {
+        "ignoreConfig": true,
+        "ignoreImports": true,
+        "noMounts": true,
         "path": "github.com/Wivik/vinyl-records-collection-theme"
       },
       {
