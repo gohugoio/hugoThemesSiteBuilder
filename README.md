@@ -122,7 +122,16 @@ Your theme's README file (which should be written in Markdown and called `README
 
 To make your theme more accessible to users across the globe, it would be helpful if you could include an English translation of the README, at the very least.
 
-> **Note**: If you add screenshots to the README, please make sure to use absolute file paths instead of relative ones (like `/images/screenshot.png`). Relative paths work great on GitHub/GitLab, but they don't correspond to the directory structure of [themes.gohugo.io](https://themes.gohugo.io/) website. Therefore, browsers will not be able to display screenshots if relative paths are used.
+### Use absolute paths for images
+If you are adding images to README, make sure to use absolute file paths instead of relative paths.
+
+Examples:
+
+- Absolute Path: `https://raw.githubusercontent.com/user/repo/branch/images/tn.png`
+- Relative Path: `images/example.png`
+
+
+Relative paths work great on GitHub/GitLab, but they don't correspond to the directory structure of [themes.gohugo.io](https://themes.gohugo.io/) website. Therefore, browsers will not be able to display the image if relative path is used.
 
 ## Criteria for acceptance of a theme
 
