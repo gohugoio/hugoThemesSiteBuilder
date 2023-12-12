@@ -18,3 +18,6 @@ cmd/hugothemesitebuilder/build/site/content
 cmd/hugothemesitebuilder/build/site/public
 cmd/hugothemesitebuilder/build/.vscode/settings.json
 .hugo_build.lock
+
+# Local Netlify folder
+.netlify
