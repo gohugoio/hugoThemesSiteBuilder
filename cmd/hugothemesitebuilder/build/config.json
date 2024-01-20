@@ -2318,12 +2318,6 @@
         "ignoreConfig": true,
         "ignoreImports": true,
         "noMounts": true,
-        "path": "github.com/Softorage/HugoTheme-VibrantShadows"
-      },
-      {
-        "ignoreConfig": true,
-        "ignoreImports": true,
-        "noMounts": true,
         "path": "github.com/softwareyoga/ronu-hugo-theme"
       },
       {
