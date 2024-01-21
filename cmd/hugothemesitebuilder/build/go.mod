@@ -1,6 +1,6 @@
 module github.com/gohugoio/hugoThemesSiteBuilder/cmd/hugothemesitebuilder/build
 
-go 1.21.5
+go 1.21.6
 
 require (
 	github.com/10mohi6/hugo-theme-simple-blog v0.0.0-20200616052212-86b4f6f6d734 // indirect
@@ -114,7 +114,7 @@ require (
 	github.com/bjacquemet/personal-web v0.0.0-20230606080827-69cf270ceddf // indirect
 	github.com/blankoworld/hugo_theme_adam_eve v0.0.0-20230831124402-202f892ad6b4 // indirect
 	github.com/boratanrikulu/eternity v0.0.0-20231230113059-bb2ee098275f // indirect
-	github.com/bowman2001/perplex v0.19.4 // indirect
+	github.com/bowman2001/perplex v0.19.5 // indirect
 	github.com/brycematheson/allegiant v0.0.0-20161024030126-4db3e8fe3a01 // indirect
 	github.com/bul-ikana/hugo-cards v0.0.0-20211031232746-55e303495347 // indirect
 	github.com/calintat/minimal v0.0.0-20210103220336-987f270dfee3 // indirect
@@ -342,9 +342,9 @@ require (
 	github.com/nusserstudios/tailbliss v0.0.0-20231230223139-55c93634b6db // indirect
 	github.com/okkur/syna v0.17.4 // indirect
 	github.com/olOwOlo/hugo-theme-even v4.1.0+incompatible // indirect
-	github.com/onweru/compose v0.0.0-20240114140517-428f07ecaa8c // indirect
+	github.com/onweru/compose v0.0.0-20240120161256-b45ed7d8dcaf // indirect
 	github.com/onweru/hugo-swift-theme v2.0.0+incompatible // indirect
-	github.com/onweru/newsroom v0.0.0-20240111102626-4cc59cc0ad42 // indirect
+	github.com/onweru/newsroom v0.0.0-20240120161557-606b753af75b // indirect
 	github.com/opera7133/Blonde v0.0.0-20231206112515-d77c28284b46 // indirect
 	github.com/opera7133/tella v0.0.0-20231206115635-8feda77d917f // indirect
 	github.com/opera7133/vnovel v0.0.0-20231206112306-d1c3cf709dfd // indirect
