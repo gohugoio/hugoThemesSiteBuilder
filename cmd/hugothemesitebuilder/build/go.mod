@@ -48,7 +48,7 @@ require (
 	github.com/MarcusVirg/forty v0.0.0-20190430033326-dccea57bd2ed // indirect
 	github.com/Masellum/hugo-theme-nostyleplease v0.0.0-20230920130130-22524617427a // indirect
 	github.com/McShelby/hugo-theme-relearn v0.0.0-20240121131944-13b451368861 // indirect
-	github.com/MeiK2333/github-style v0.0.0-20240108025657-b43894e9e5f7 // indirect
+	github.com/MeiK2333/github-style v0.0.0-20240125080259-4fa1ee2d58ef // indirect
 	github.com/MichaelSchaecher/simple-dark v0.0.0-20240115112235-7537551d21b2 // indirect
 	github.com/Mitrichius/hugo-theme-anubis v0.0.0-20240108194352-8a718f7418c5 // indirect
 	github.com/Morgscode/hugo-theme-spaced-blog v0.0.0-20231126180246-0829a7d2d68b // indirect
@@ -153,7 +153,7 @@ require (
 	github.com/damiencaselli/paperback v0.0.0-20210402085202-17a1f57512f3 // indirect
 	github.com/danielkvist/hugo-piercer-theme v1.2.2 // indirect
 	github.com/danielkvist/hugo-terrassa-theme v1.9.1 // indirect
-	github.com/darshanbaral/aafu v0.0.0-20231230163817-e5a0ae9fe4d0 // indirect
+	github.com/darshanbaral/aafu v0.0.0-20240125141321-a711783b9050 // indirect
 	github.com/darshanbaral/kitab v0.0.0-20200606045956-6efafba28674 // indirect
 	github.com/darshanbaral/sada v0.0.0-20210510233612-2f5aac944c75 // indirect
 	github.com/dataCobra/hugo-vitae v0.0.0-20230210081730-1f2587b2b744 // indirect
@@ -321,7 +321,7 @@ require (
 	github.com/mivinci/hugo-theme-minima v1.1.0 // indirect
 	github.com/mmrath/hugo-bootstrap v0.0.0-20190615045721-5e7bfb2518b7 // indirect
 	github.com/monkeyWzr/hugo-theme-cactus v0.0.0-20210831141748-a27a14348040 // indirect
-	github.com/mrhelloboy/seven v1.5.2 // indirect
+	github.com/mrhelloboy/seven v1.5.4 // indirect
 	github.com/mrmierzejewski/hugo-theme-console v0.0.0-20230725171417-a03f416d170c // indirect
 	github.com/nanxiaobei/hugo-paper v0.0.0-20240117201023-9782859a4acf // indirect
 	github.com/nanxstats/hugo-tanka v0.0.0-20210707221939-9bec4eba33e5 // indirect
@@ -377,6 +377,7 @@ require (
 	github.com/ribice/kiss v2.0.0+incompatible // indirect
 	github.com/rijoth/rsimple v0.0.0-20210720173156-0b67a7051fb6 // indirect
 	github.com/rmsubekti/the-roots-home v0.0.0-20210423002432-5a73107ad8cf // indirect
+	github.com/romka/fruhling v0.0.0-20240124200233-bd3f2d3d0795 // indirect
 	github.com/roninro/hugo-theme-puppet v0.0.0-20221128071334-71e55a893702 // indirect
 	github.com/rullmann/hugo-theme-terminal-cookbook v0.0.0-20220407133453-be15b9007685 // indirect
 	github.com/runningstream/hugograyscale v0.0.0-20210123004850-14efda4aa932 // indirect
