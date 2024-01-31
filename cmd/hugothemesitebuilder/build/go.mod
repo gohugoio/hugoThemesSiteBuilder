@@ -25,7 +25,7 @@ require (
 	github.com/EmielH/stip-hugo v1.0.0 // indirect
 	github.com/EmielH/tale-hugo v2.2.0+incompatible // indirect
 	github.com/ExchangeRate-API/strange-case v0.0.0-20210304125749-3ea1d7d50bd0 // indirect
-	github.com/FarseaSH/hugo-theme-moments v0.0.0-20240122140711-79fa0e801dcd // indirect
+	github.com/FarseaSH/hugo-theme-moments v0.0.0-20240130131246-9151869e97cf // indirect
 	github.com/Fastbyte01/KeepIt v0.0.0-20231031014040-50ffb35785a0 // indirect
 	github.com/GDGToulouse/devfest-theme-hugo v0.0.0-20220415065715-84f2f2191d40 // indirect
 	github.com/HEIGE-PCloud/DoIt v0.4.0 // indirect
@@ -155,7 +155,7 @@ require (
 	github.com/danielkvist/hugo-piercer-theme v1.2.2 // indirect
 	github.com/danielkvist/hugo-terrassa-theme v1.9.1 // indirect
 	github.com/darshanbaral/aafu v0.0.0-20240125141321-a711783b9050 // indirect
-	github.com/darshanbaral/kitab v0.0.0-20240129023645-e3111947f24b // indirect
+	github.com/darshanbaral/kitab v0.0.0-20240130004420-79d94b7daef9 // indirect
 	github.com/darshanbaral/sada v0.0.0-20210510233612-2f5aac944c75 // indirect
 	github.com/dataCobra/hugo-vitae v0.0.0-20230210081730-1f2587b2b744 // indirect
 	github.com/davidhampgonsalves/hugo-black-and-light-theme v0.0.0-20231209011516-e024de785b91 // indirect
@@ -299,9 +299,9 @@ require (
 	github.com/lukeorth/poison v0.0.0-20240122213339-8dffa65ed3a7 // indirect
 	github.com/lxndrblz/anatole v1.13.0 // indirect
 	github.com/manid2/hugo-xterm v1.6.1 // indirect
-	github.com/mansoorbarri/coming-soon v0.0.0-20231113110312-c06f38403768 // indirect
+	github.com/mansoorbarri/coming-soon v0.0.0-20240130233715-f01f0492ec50 // indirect
 	github.com/mansoorbarri/glim-midnight v0.0.0-20231127125721-ee3f76679a12 // indirect
-	github.com/maolonglong/hugo-simple v0.0.0-20240119155758-a29ddfa16532 // indirect
+	github.com/maolonglong/hugo-simple v0.0.0-20240130053912-6a02dde72ba7 // indirect
 	github.com/marcanuy/simpleit-hugo-theme v0.0.0-20231012140445-3d40feab8da2 // indirect
 	github.com/marketempower/axiom v0.8.0 // indirect
 	github.com/matcornic/hugo-theme-learn v0.0.0-20240104141228-3202533a746f // indirect
@@ -432,7 +432,7 @@ require (
 	github.com/thomasheller/crab v1.0.0 // indirect
 	github.com/tnwhitwell/hugo-startpage-theme v0.0.0-20180704204829-76b1a1f5808e // indirect
 	github.com/tohn/linkshrubbery v0.0.0-20230623094327-4b529ca6cb8b // indirect
-	github.com/tomowang/hugo-theme-tailwind v0.0.0-20240128111523-2f0ecf1c8e0c // indirect
+	github.com/tomowang/hugo-theme-tailwind v0.0.0-20240130154458-ccdd987d2b1f // indirect
 	github.com/tosi29/inkblotty v0.0.0-20210329142630-603eab433785 // indirect
 	github.com/tummychow/lanyon-hugo v0.0.0-20210123043723-cd7b91420a90 // indirect
 	github.com/tylerjlawson/port-hugo v0.0.0-20220927001103-4c4a5023cc37 // indirect
