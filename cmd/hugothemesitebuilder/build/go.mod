@@ -227,6 +227,7 @@ require (
 	github.com/hugo-fixit/FixIt v0.3.1 // indirect
 	github.com/hugo-next/hugo-theme-next v4.5.3+incompatible // indirect
 	github.com/hugo-sid/hugo-blog-awesome v1.13.0 // indirect
+	github.com/hugo-toha/toha/v4 v4.2.0 // indirect
 	github.com/humrochagf/colordrop v1.12.1 // indirect
 	github.com/huyb1991/hugo-lamp v1.2.1 // indirect
 	github.com/iCyris/hugo-theme-yuki v1.1.0 // indirect
