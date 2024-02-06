@@ -12,7 +12,7 @@ require (
 	github.com/4s3ti/terminalcv v1.1.0 // indirect
 	github.com/526avijitgupta/gokarna v0.0.0-20240124002215-56aa323638fc // indirect
 	github.com/64bitpandas/amethyst v1.0.0 // indirect
-	github.com/7ma7X/HugoTeX v0.0.0-20240114042049-e4809ae4d1af // indirect
+	github.com/7ma7X/HugoTeX v0.0.0-20240205070810-a256fd6f2a9d // indirect
 	github.com/AlexFinn/simple-a v0.0.0-20191202062540-bb2f8c9172a0 // indirect
 	github.com/AmazingRise/hugo-theme-diary v0.0.0-20231218163534-9e6fa1168e9a // indirect
 	github.com/AminZibayi/Corporio v0.0.0-20230712152857-5d103898d672 // indirect
@@ -62,7 +62,7 @@ require (
 	github.com/RononDex/interstellar-hugo v1.0.0 // indirect
 	github.com/SAGGameDeveloper/hugo-minimalist-spa v0.0.0-20190214084547-2637ff850398 // indirect
 	github.com/Somrat37/somrat v2.0.0+incompatible // indirect
-	github.com/Sped0n/bridget v1.0.1 // indirect
+	github.com/Sped0n/bridget v1.0.2 // indirect
 	github.com/StaticMania/portio-hugo v1.0.0 // indirect
 	github.com/StaticMania/roxo-hugo v0.0.0-20230912110241-eac3f49bc573 // indirect
 	github.com/StefMa/hugo-fresh v1.0.0 // indirect
@@ -73,7 +73,7 @@ require (
 	github.com/Vimux/Binario v0.0.0-20231209190444-2558f6bbde56 // indirect
 	github.com/Vimux/mainroad v0.0.0-20240110174112-de5754335457 // indirect
 	github.com/WingLim/hugo-tania v1.9.3 // indirect
-	github.com/Wivik/am-writing-hugo-theme v0.0.0-20240128104250-a2aaec40d533 // indirect
+	github.com/Wivik/am-writing-hugo-theme v0.0.0-20240205214510-ca4a2af5b210 // indirect
 	github.com/Wivik/vinyl-records-collection-theme v0.2.0 // indirect
 	github.com/Xzya/hugo-material-blog v0.100.2 // indirect
 	github.com/Yukuro/hugo-theme-shell v0.1.5 // indirect
@@ -156,7 +156,7 @@ require (
 	github.com/danielkvist/hugo-terrassa-theme v1.9.1 // indirect
 	github.com/darshanbaral/aafu v0.0.0-20240125141321-a711783b9050 // indirect
 	github.com/darshanbaral/kitab v0.0.0-20240130004420-79d94b7daef9 // indirect
-	github.com/darshanbaral/sada v0.0.0-20210510233612-2f5aac944c75 // indirect
+	github.com/darshanbaral/sada v0.0.0-20240205045913-b735b99c3f2a // indirect
 	github.com/dataCobra/hugo-vitae v0.0.0-20230210081730-1f2587b2b744 // indirect
 	github.com/davidhampgonsalves/hugo-black-and-light-theme v0.0.0-20231209011516-e024de785b91 // indirect
 	github.com/dchucks/agnes-hugo-theme v0.0.0-20231006041110-b3ce78840db6 // indirect
@@ -290,12 +290,12 @@ require (
 	github.com/leonhe/hugo_eiio v0.0.0-20220625022627-bbcd7a744107 // indirect
 	github.com/leonstafford/accessible-minimalism-hugo-theme v0.0.0-20211112232051-057bd3b35c97 // indirect
 	github.com/letItCurl/minimal_marketing v0.0.0-20231221031509-ad8b62c250a4 // indirect
-	github.com/lgaida/mediumish-gohugo-theme v0.0.0-20230202155000-10fe85e58df4 // indirect
+	github.com/lgaida/mediumish-gohugo-theme v0.0.0-20240205070826-1784be862662 // indirect
 	github.com/lingxz/er v0.0.0-20190825175148-ebdb18610b68 // indirect
 	github.com/liuzc/LeaveIt v0.0.0-20181104111157-2884e266babb // indirect
 	github.com/loveminimal/hugo-theme-virgo v1.0.0 // indirect
 	github.com/lubang/hugo-hello-programmer-theme v2.1.0+incompatible // indirect
-	github.com/luizdepra/hugo-coder v0.0.0-20240131003939-1fdac008175c // indirect
+	github.com/luizdepra/hugo-coder v0.0.0-20240205121531-cb6f1a797f52 // indirect
 	github.com/lukeorth/poison v0.0.0-20240122213339-8dffa65ed3a7 // indirect
 	github.com/lxndrblz/anatole v1.13.0 // indirect
 	github.com/manid2/hugo-xterm v1.7.1 // indirect
@@ -468,7 +468,7 @@ require (
 	github.com/xslingcn/vno-hugo v1.1.3 // indirect
 	github.com/yanlinlin82/simple-style v0.0.0-20220414155221-f448e5d675fa // indirect
 	github.com/yihui/hugo-xmag v0.0.0-20231230001925-5a8efa83ecdb // indirect
-	github.com/yihui/hugo-xmin v0.0.0-20240202154624-b7d104c0905d // indirect
+	github.com/yihui/hugo-xmin v0.0.0-20240205145203-d7763268b46b // indirect
 	github.com/yoshiharuyamashita/blackburn v0.0.0-20220530060627-99cf136a06f3 // indirect
 	github.com/your-identity/hugo-theme-dimension v0.0.0-20210521214308-2474081b7846 // indirect
 	github.com/yue1124/hero v0.0.0-20211205133758-af2b1f878227 // indirect
