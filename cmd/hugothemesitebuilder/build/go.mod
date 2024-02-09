@@ -135,7 +135,7 @@ require (
 	github.com/chrede88/L1nkr v1.8.5 // indirect
 	github.com/chrede88/qubt v1.2.6 // indirect
 	github.com/chringel21/chringel-hugo-theme v1.3.1 // indirect
-	github.com/clente/hugo-bearcub v0.0.0-20240108171108-5f343dee4f92 // indirect
+	github.com/clente/hugo-bearcub v0.0.0-20240208150155-3c5d3c4afc66 // indirect
 	github.com/cloudwithchris/hugo-creator v0.0.32 // indirect
 	github.com/cncf/dot-org-hugo-theme v0.1.4 // indirect
 	github.com/cntrump/hugo-notepadium v2.6.2+incompatible // indirect
@@ -391,7 +391,7 @@ require (
 	github.com/samrobbins85/hugo-developer-portfolio v0.0.0-20230421080835-4d3db20b1574 // indirect
 	github.com/sbruder/spectral v0.0.0-20231021125325-0d4b111afae1 // indirect
 	github.com/schmanat/hugo-highlights-theme v0.0.0-20200409134000-79eb66a32c74 // indirect
-	github.com/schnerring/hugo-theme-gruvbox v0.0.0-20240207090913-ca7fb1cbdb10 // indirect
+	github.com/schnerring/hugo-theme-gruvbox v0.0.0-20240208062401-d24660e132d1 // indirect
 	github.com/schollz/onetwothree v0.0.0-20190916161743-a09e6530494c // indirect
 	github.com/seanlane/gochowdown v0.0.0-20220603122033-5458dc7bd80a // indirect
 	github.com/sefeng211/techlab-hugo-theme v0.0.0-20221108011911-ed0fcb80d48f // indirect
