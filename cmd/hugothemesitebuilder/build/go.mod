@@ -298,8 +298,8 @@ require (
 	github.com/luizdepra/hugo-coder v0.0.0-20240205121531-cb6f1a797f52 // indirect
 	github.com/lukeorth/poison v0.0.0-20240122213339-8dffa65ed3a7 // indirect
 	github.com/lxndrblz/anatole v1.13.0 // indirect
-	github.com/manid2/hugo-xterm v1.7.1 // indirect
-	github.com/mansoorbarri/coming-soon v0.0.0-20240130233715-f01f0492ec50 // indirect
+	github.com/manid2/hugo-xterm v1.7.2 // indirect
+	github.com/mansoorbarri/coming-soon v0.0.0-20240209175518-27e1d682c0fb // indirect
 	github.com/mansoorbarri/glim-midnight v0.0.0-20231127125721-ee3f76679a12 // indirect
 	github.com/maolonglong/hugo-simple v0.0.0-20240206124917-3786b1c29d59 // indirect
 	github.com/marcanuy/simpleit-hugo-theme v0.0.0-20231012140445-3d40feab8da2 // indirect
