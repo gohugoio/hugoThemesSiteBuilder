@@ -143,7 +143,7 @@ The definition of _notably different_ can be subjective, but in most cases, it s
 
 ### 2. LICENSE
 
-Themes submitted to this repository must come with an [OSI approved license](https://opensource.org/licenses).
+Themes submitted to this repository must come with an [OSI approved license](https://opensource.org/licenses), that is, most free software licenses are fine.
 
 ### 3. Paid themes
 
