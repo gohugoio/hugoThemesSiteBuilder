@@ -1286,12 +1286,6 @@
         "ignoreConfig": true,
         "ignoreImports": true,
         "noMounts": true,
-        "path": "github.com/joseph-mccarthy/hugo-bootstrap-freelancer-template"
-      },
-      {
-        "ignoreConfig": true,
-        "ignoreImports": true,
-        "noMounts": true,
         "path": "github.com/josephhutch/aether"
       },
       {
@@ -2295,12 +2289,6 @@
         "ignoreImports": true,
         "noMounts": true,
         "path": "github.com/shaform/hugo-theme-den"
-      },
-      {
-        "ignoreConfig": true,
-        "ignoreImports": true,
-        "noMounts": true,
-        "path": "github.com/shenoybr/hugo-goa"
       },
       {
         "ignoreConfig": true,

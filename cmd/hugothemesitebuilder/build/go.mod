@@ -255,7 +255,6 @@ require (
 	github.com/jnjosh/internet-weblog v0.0.0-20240104001134-830ad5392bf0 // indirect
 	github.com/joeroe/risotto v0.4.0 // indirect
 	github.com/jonathanjanssens/hugo-casper3 v1.0.1 // indirect
-	github.com/joseph-mccarthy/hugo-bootstrap-freelancer-template v1.0.2 // indirect
 	github.com/josephhutch/aether v0.0.0-20230106155952-cfba21de2f57 // indirect
 	github.com/jota-ele-ene/just-me v0.0.0-20221125102733-2ce1d38b8ea3 // indirect
 	github.com/joway/hugo-theme-yinyang v0.0.0-20220428055119-1c3bec670a42 // indirect
@@ -401,7 +400,6 @@ require (
 	github.com/serkodev/holy v0.0.0-20230619092132-813c12d1d9ad // indirect
 	github.com/setsevireon/photophobia v0.1.2 // indirect
 	github.com/shaform/hugo-theme-den v0.0.0-20220704130400-f420b491a016 // indirect
-	github.com/shenoybr/hugo-goa v0.0.0-20240215105909-bc81702b8241 // indirect
 	github.com/siegerts/hugo-theme-basic v0.0.0-20200521131547-7f8226c418da // indirect
 	github.com/sieis/re-cover v0.0.0-20230906184022-350819ec15eb // indirect
 	github.com/slashformotion/hugo-tufte v0.2.0 // indirect
