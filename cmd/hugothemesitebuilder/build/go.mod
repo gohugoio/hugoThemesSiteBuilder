@@ -400,7 +400,6 @@ require (
 	github.com/serkodev/holy v0.0.0-20230619092132-813c12d1d9ad // indirect
 	github.com/setsevireon/photophobia v0.1.2 // indirect
 	github.com/shaform/hugo-theme-den v0.0.0-20220704130400-f420b491a016 // indirect
-	github.com/shenoybr/hugo-goa v0.0.0-20240215105909-bc81702b8241 // indirect
 	github.com/siegerts/hugo-theme-basic v0.0.0-20200521131547-7f8226c418da // indirect
 	github.com/sieis/re-cover v0.0.0-20230906184022-350819ec15eb // indirect
 	github.com/slashformotion/hugo-tufte v0.2.0 // indirect
