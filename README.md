@@ -143,16 +143,7 @@ The definition of _notably different_ can be subjective, but in most cases, it s
 
 ### 2. LICENSE
 
-Themes in this repository are accepted only if they come with an Open Source license that allows for the theme to be freely used, modified, and shared. 
-To view a list of popular licenses, you can visit [Open Source Initiative](https://opensource.org/licenses) website.
-
-#### 2.1 License of derivative works
-
-If you are porting an existing theme from another platform to Hugo, or if you're forking an existing Hugo theme to incorporate new features and plan to submit the derivative work; it's essential to ensure that the original theme's license requirements are met. 
-
-In case the original theme lacks an Open Source license, you should try to obtain one from the creator of the original work. You cannot add a license on your own. Such derivative work where license of the original work is unclear, will not be accepted.
-
-In any other case, if a submission is found to be in violation of licence of the original work, it will be rejected without further discussion.
+Themes submitted to this repository must come with an [OSI approved license](https://opensource.org/licenses).
 
 ### 3. Paid themes
 
