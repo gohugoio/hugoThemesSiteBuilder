@@ -18,7 +18,7 @@ Then, from the root of your theme's repository, you need to perform the followin
 After making your theme available online, you can include it here by following the steps mentioned below.
 
 1. Fork and clone this repository.
-2. Add your theme's URL (e.g. `https://github.com/user/my-blog-theme`) in [themes.txt](https://github.com/gohugoio/hugoThemesSiteBuilder/edit/main/themes.txt) in [lexicographical order](https://en.wikipedia.org/wiki/Lexicographic_order).
+2. Add your theme's URL (e.g. `github.com/user/my-blog-theme`) in [themes.txt](https://github.com/gohugoio/hugoThemesSiteBuilder/edit/main/themes.txt) in [lexicographical order](https://en.wikipedia.org/wiki/Lexicographic_order).
 3. Write a meaningful commit message (e.g. `Add theme my-blog-theme`).
 4. Create a pull request(PR) and ensure that Netlify deploy preview succeeds.
 
