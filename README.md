@@ -149,7 +149,7 @@ If you are porting an existing theme from another platform to Hugo, or if you're
 
 In case the original theme lacks an Open Source license, you should try to obtain one from the creator of the original work. You cannot add a license on your own. Such derivative work where license of the original work is unclear, will not be accepted.
 
-In any other case, if a submission is found to be in violation of licence of the original work, it will be rejected without further discussion.
+In any other case, if a submission is found to be in violation of license of the original work, it will be rejected without further discussion.
 
 ### 3. Paid themes
 
@@ -165,6 +165,6 @@ Themes that have not been updated within the last 3 years are deemed outdated an
 
 **Answer:** We use Hugo Modules to manage the themes -- which is backed by Go Modules. If you have one or more tagged releases (e.g. `v1.0.0`), adhering to [Semantic Versioning](https://semver.org/), we will choose the last version within the current major version. To get rid of that warning you need to tag a new release and wait for us to rebuild the theme site. Note that for unversioned themes, the latest commit gets picked.
 
-**Question:** May I submit a theme whose repository is hosted at SourceHut (or any other platform for that matter), given that themes.txt contains links to Github and Gitlab?
+**Question:** May I submit a theme whose repository is hosted at SourceHut (or any other platform for that matter), given that themes.txt contains links to GitHub and GitLab?
 
 **Answer:** Yes, as long as the platform supports Go Modules. SourceHut does. If you are unsure whether or not Go Modules are supported, you may create a pull request and check if the build process succeeds.
