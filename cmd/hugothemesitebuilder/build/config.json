@@ -1286,12 +1286,6 @@
         "ignoreConfig": true,
         "ignoreImports": true,
         "noMounts": true,
-        "path": "github.com/joseph-mccarthy/hugo-bootstrap-freelancer-template"
-      },
-      {
-        "ignoreConfig": true,
-        "ignoreImports": true,
-        "noMounts": true,
         "path": "github.com/josephhutch/aether"
       },
       {
