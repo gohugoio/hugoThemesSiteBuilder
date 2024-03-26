@@ -244,7 +244,7 @@ require (
 	github.com/jaden/twentyfourteen v0.0.0-20191130221218-9380d3fa1855 // indirect
 	github.com/jakewies/hugo-theme-codex v1.6.0 // indirect
 	github.com/janraasch/hugo-bearblog v0.0.0-20240220150738-139ff348094f // indirect
-	github.com/janraasch/hugo-product-launch v0.0.0-20240321171031-a5d2de81f356 // indirect
+	github.com/janraasch/hugo-product-launch v0.0.0-20240325073003-72a096eacbfb // indirect
 	github.com/jbub/ghostwriter v0.6.0 // indirect
 	github.com/jeblister/bulma v0.0.0-20220331084658-8d25840df6ac // indirect
 	github.com/jeremybise/twentynineteen-hugo v0.0.0-20191008161335-7c0a63e24114 // indirect
@@ -293,7 +293,7 @@ require (
 	github.com/letItCurl/minimal_marketing v0.0.0-20231221031509-ad8b62c250a4 // indirect
 	github.com/lingxz/er v0.0.0-20190825175148-ebdb18610b68 // indirect
 	github.com/liuzc/LeaveIt v0.0.0-20181104111157-2884e266babb // indirect
-	github.com/loveminimal/hugo-theme-virgo v1.0.0 // indirect
+	github.com/loveminimal/hugo-theme-virgo v1.0.1 // indirect
 	github.com/lubang/hugo-hello-programmer-theme v2.1.0+incompatible // indirect
 	github.com/luizdepra/hugo-coder v0.0.0-20240228125558-745f785dd9a7 // indirect
 	github.com/lukeorth/poison v0.0.0-20240318172107-4b36ef57e683 // indirect
@@ -452,7 +452,7 @@ require (
 	github.com/wd/hugo-fabric v0.0.0-20191202002427-c416adb14920 // indirect
 	github.com/weastur/hugo-texify2 v0.2.0 // indirect
 	github.com/wileybaba/hugo-theme-robotico v0.0.0-20190128025338-a1e633362eee // indirect
-	github.com/willfaught/paige v0.71.4 // indirect
+	github.com/willfaught/paige v0.72.0 // indirect
 	github.com/wlh320/hugo-theme-hulga v0.0.0-20231209075444-062ab39ea7df // indirect
 	github.com/wtoll/venture v0.1.0 // indirect
 	github.com/xaprb/story v0.0.0-20220322144912-046bf4f12e69 // indirect
