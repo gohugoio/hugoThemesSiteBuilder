@@ -812,12 +812,6 @@
         "ignoreConfig": true,
         "ignoreImports": true,
         "noMounts": true,
-        "path": "github.com/frjo/hugo-theme-zen"
-      },
-      {
-        "ignoreConfig": true,
-        "ignoreImports": true,
-        "noMounts": true,
         "path": "github.com/funkydan2/alpha-church"
       },
       {
@@ -1809,12 +1803,6 @@
         "ignoreImports": true,
         "noMounts": true,
         "path": "github.com/nathancday/min_night"
-      },
-      {
-        "ignoreConfig": true,
-        "ignoreImports": true,
-        "noMounts": true,
-        "path": "github.com/nicokaiser/hugo-theme-gallery"
       },
       {
         "ignoreConfig": true,
