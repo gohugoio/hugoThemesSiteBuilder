@@ -38,7 +38,7 @@ require (
 	github.com/J-Siu/hugo-theme-sk2 v0.0.0-20220516060556-edcaedff1823 // indirect
 	github.com/J-Siu/hugo-theme-sk3 v2.1.0+incompatible // indirect
 	github.com/Jack-alope/sourgough-starter v0.0.0-20210828023614-9b85c4ba720b // indirect
-	github.com/JingWangTW/dark-theme-editor v3.1.0+incompatible // indirect
+	github.com/JingWangTW/dark-theme-editor v3.2.0+incompatible // indirect
 	github.com/Junyi-99/hugo-theme-anubis2 v1.3.0 // indirect
 	github.com/KatamariJr/split-landing v1.0.1 // indirect
 	github.com/Lednerb/bilberry-hugo-theme/v4 v4.3.0 // indirect
@@ -119,7 +119,7 @@ require (
 	github.com/brycematheson/allegiant v0.0.0-20161024030126-4db3e8fe3a01 // indirect
 	github.com/bul-ikana/hugo-cards v0.0.0-20211031232746-55e303495347 // indirect
 	github.com/calintat/minimal v0.0.0-20210103220336-987f270dfee3 // indirect
-	github.com/canhtran/maverick v0.0.0-20240329132145-726cad44c419 // indirect
+	github.com/canhtran/maverick v0.0.0-20240330184139-61fb187fcf4b // indirect
 	github.com/canstand/compost v0.6.4 // indirect
 	github.com/capnfabs/paperesque v0.0.0-20231203133750-5f72b475cde7 // indirect
 	github.com/caressofsteel/hugo-story v0.0.0-20230122154440-fb2a35a34058 // indirect
@@ -426,10 +426,10 @@ require (
 	github.com/thomasheller/crab v1.0.0 // indirect
 	github.com/tnwhitwell/hugo-startpage-theme v0.0.0-20180704204829-76b1a1f5808e // indirect
 	github.com/tohn/linkshrubbery v0.0.0-20230623094327-4b529ca6cb8b // indirect
-	github.com/tomowang/hugo-theme-tailwind v0.0.0-20240326022302-469c789e0536 // indirect
+	github.com/tomowang/hugo-theme-tailwind v0.0.0-20240330102849-9dc72c5ba801 // indirect
 	github.com/tosi29/inkblotty v0.0.0-20210329142630-603eab433785 // indirect
 	github.com/tummychow/lanyon-hugo v0.0.0-20210123043723-cd7b91420a90 // indirect
-	github.com/tylerjlawson/port-hugo v0.0.0-20220927001103-4c4a5023cc37 // indirect
+	github.com/tylerjlawson/port-hugo v0.0.0-20240330025428-005c9518aa1e // indirect
 	github.com/tylerjlawson/simple-resume v0.0.0-20211026182531-a6bbdc145e1b // indirect
 	github.com/tylerjlawson/simple-snipcart-shop v0.0.0-20220323145220-3d18970a8c9a // indirect
 	github.com/uPagge/uBlogger v1.2.0 // indirect
@@ -451,7 +451,7 @@ require (
 	github.com/weastur/hugo-texify2 v0.2.0 // indirect
 	github.com/wileybaba/hugo-theme-robotico v0.0.0-20190128025338-a1e633362eee // indirect
 	github.com/willfaught/paige v0.72.0 // indirect
-	github.com/wlh320/hugo-theme-hulga v0.0.0-20231209075444-062ab39ea7df // indirect
+	github.com/wlh320/hugo-theme-hulga v1.0.0 // indirect
 	github.com/wtoll/venture v0.1.0 // indirect
 	github.com/xaprb/story v0.0.0-20220322144912-046bf4f12e69 // indirect
 	github.com/xaviablaza/hugo-lodi-theme v0.0.0-20190215050835-89984401ebf2 // indirect
