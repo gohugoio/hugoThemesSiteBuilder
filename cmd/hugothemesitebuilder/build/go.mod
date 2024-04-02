@@ -71,7 +71,7 @@ require (
 	github.com/Tazeg/hugo-blog-jeffprod v0.0.0-20200528191810-bbe726e57038 // indirect
 	github.com/ThemeTony/hugo-theme-tony v0.0.0-20220330055515-32580d30ce47 // indirect
 	github.com/VVelox/hugo-dusky-neon-potato v0.0.0-20211017191045-d82667fe5106 // indirect
-	github.com/Vimux/Binario v0.0.0-20231209190444-2558f6bbde56 // indirect
+	github.com/Vimux/Binario v0.0.0-20240401150108-e4bab35fd1f1 // indirect
 	github.com/Vimux/mainroad v0.0.0-20240110174112-de5754335457 // indirect
 	github.com/WingLim/hugo-tania v1.9.3 // indirect
 	github.com/Wivik/am-writing-hugo-theme v1.4.0 // indirect
@@ -474,7 +474,7 @@ require (
 	github.com/zetxek/adritian-free-hugo-theme v0.0.0-20240225144455-d5796e8250a2 // indirect
 	github.com/zhaohuabing/hugo-theme-cleanwhite v0.0.0-20240304065058-ee91f5f8996c // indirect
 	github.com/zhe/hugo-theme-slim v0.0.0-20190920014445-f666effe196a // indirect
-	github.com/zjedi/hugo-scroll v0.0.0-20240319205607-9e4ffcda5e82 // indirect
+	github.com/zjedi/hugo-scroll v0.0.0-20240401200928-628147b53f21 // indirect
 	github.com/zzossig/hugo-theme-zdoc v0.0.0-20201105143606-574f6c3d26d5 // indirect
 	github.com/zzossig/hugo-theme-zzo v0.0.0-20210523142617-01f9e43e59b0 // indirect
 	github.com/zzzmisa/hugo-theme-doors v0.0.0-20231124013016-44ae7c3ba68e // indirect
