@@ -20,12 +20,6 @@
         "ignoreConfig": true,
         "ignoreImports": true,
         "noMounts": true,
-        "path": "github.com/1bl4z3r/hermit-V2"
-      },
-      {
-        "ignoreConfig": true,
-        "ignoreImports": true,
-        "noMounts": true,
         "path": "github.com/2-REC/hugo-myportfolio-theme"
       },
       {
@@ -1599,6 +1593,12 @@
         "ignoreImports": true,
         "noMounts": true,
         "path": "github.com/mansoorbarri/glim-midnight"
+      },
+      {
+        "ignoreConfig": true,
+        "ignoreImports": true,
+        "noMounts": true,
+        "path": "github.com/maolonglong/hugo-simple"
       },
       {
         "ignoreConfig": true,

@@ -5,7 +5,6 @@ go 1.22.2
 require (
 	github.com/10mohi6/hugo-theme-simple-blog v0.0.0-20200616052212-86b4f6f6d734 // indirect
 	github.com/17ms/yuan v0.0.0-20231107201735-635275395232 // indirect
-	github.com/1bl4z3r/hermit-V2 v1.1.4 // indirect
 	github.com/2-REC/hugo-myportfolio-theme v0.0.0-20200725083546-d0708c5286eb // indirect
 	github.com/4ever9/less v0.0.0-20201228090934-105d2c8c6b53 // indirect
 	github.com/4s3ti/hugo-theme-hello-4s3ti v1.0.5 // indirect
@@ -300,6 +299,7 @@ require (
 	github.com/manid2/hugo-xterm v1.7.3 // indirect
 	github.com/mansoorbarri/coming-soon v0.0.0-20240417095203-0e860ce9bbb5 // indirect
 	github.com/mansoorbarri/glim-midnight v0.0.0-20231127125721-ee3f76679a12 // indirect
+	github.com/maolonglong/hugo-simple v0.0.0-20240416135222-1f6e2158af4f // indirect
 	github.com/marcanuy/simpleit-hugo-theme v0.0.0-20231012140445-3d40feab8da2 // indirect
 	github.com/marketempower/axiom v0.8.0 // indirect
 	github.com/matsuyoshi30/harbor v1.0.0 // indirect

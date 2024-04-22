@@ -17,15 +17,6 @@
     "html_url": "https://github.com/17ms/yuan",
     "stargazers_count": 2
   },
-  "github.com/1bl4z3r/hermit-V2": {
-    "id": 656079852,
-    "created_at": "2023-06-20T08:12:22Z",
-    "updated_at": "2024-04-22T07:51:15Z",
-    "name": "hermit-V2",
-    "description": "Continuing Hermit's legacy to be minimal and fast theme",
-    "html_url": "https://github.com/1bl4z3r/hermit-V2",
-    "stargazers_count": 62
-  },
   "github.com/2-REC/hugo-myportfolio-theme": {
     "id": 148112554,
     "created_at": "2018-09-10T06:57:49Z",
@@ -209,11 +200,11 @@
   "github.com/FarseaSH/hugo-theme-moments": {
     "id": 392914495,
     "created_at": "2021-08-05T05:30:33Z",
-    "updated_at": "2024-04-22T10:31:02Z",
+    "updated_at": "2024-04-22T12:42:25Z",
     "name": "hugo-theme-moments",
     "description": "A Hugo theme designed for micro-blogging. 专为动态发布设计的moments主题",
     "html_url": "https://github.com/FarseaSH/hugo-theme-moments",
-    "stargazers_count": 94
+    "stargazers_count": 95
   },
   "github.com/Fastbyte01/KeepIt": {
     "id": 168930851,
@@ -1730,7 +1721,7 @@
   "github.com/gethyas/doks": {
     "id": 255927625,
     "created_at": "2020-04-15T13:37:31Z",
-    "updated_at": "2024-04-22T11:48:12Z",
+    "updated_at": "2024-04-22T12:40:51Z",
     "name": "doks",
     "description": "Everything you need to build a stellar documentation website. Fast, accessible, and easy to use.",
     "html_url": "https://github.com/gethyas/doks",
@@ -2063,11 +2054,11 @@
   "github.com/imfing/hextra": {
     "id": 668453226,
     "created_at": "2023-07-19T21:03:57Z",
-    "updated_at": "2024-04-22T09:45:45Z",
+    "updated_at": "2024-04-22T12:18:31Z",
     "name": "hextra",
     "description": "🔯 Modern, batteries-included Hugo theme for creating beautiful doc, blog and static websites",
     "html_url": "https://github.com/imfing/hextra",
-    "stargazers_count": 344
+    "stargazers_count": 345
   },
   "github.com/ineesalmeida/almeida-cv": {
     "id": 287938234,
@@ -2671,6 +2662,15 @@
     "description": "A minimal links page made with Hugo ",
     "html_url": "https://github.com/mansoorbarri/glim-midnight",
     "stargazers_count": 0
+  },
+  "github.com/maolonglong/hugo-simple": {
+    "id": 722524339,
+    "created_at": "2023-11-23T10:36:04Z",
+    "updated_at": "2024-03-30T14:31:30Z",
+    "name": "hugo-simple",
+    "description": "A Hugo-theme based on Simple.css and Bear Blog",
+    "html_url": "https://github.com/maolonglong/hugo-simple",
+    "stargazers_count": 10
   },
   "github.com/marcanuy/simpleit-hugo-theme": {
     "id": 143778607,
