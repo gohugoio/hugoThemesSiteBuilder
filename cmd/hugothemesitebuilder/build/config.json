@@ -1604,12 +1604,6 @@
         "ignoreConfig": true,
         "ignoreImports": true,
         "noMounts": true,
-        "path": "github.com/maolonglong/hugo-simple"
-      },
-      {
-        "ignoreConfig": true,
-        "ignoreImports": true,
-        "noMounts": true,
         "path": "github.com/marcanuy/simpleit-hugo-theme"
       },
       {
@@ -2439,6 +2433,12 @@
         "ignoreImports": true,
         "noMounts": true,
         "path": "github.com/tcgriffith/hugo-owaraiclub"
+      },
+      {
+        "ignoreConfig": true,
+        "ignoreImports": true,
+        "noMounts": true,
+        "path": "github.com/techbarrack/terminal-hugo-theme"
       },
       {
         "ignoreConfig": true,
