@@ -20,6 +20,12 @@
         "ignoreConfig": true,
         "ignoreImports": true,
         "noMounts": true,
+        "path": "github.com/1bl4z3r/hermit-V2"
+      },
+      {
+        "ignoreConfig": true,
+        "ignoreImports": true,
+        "noMounts": true,
         "path": "github.com/2-REC/hugo-myportfolio-theme"
       },
       {
@@ -1742,6 +1748,12 @@
         "ignoreConfig": true,
         "ignoreImports": true,
         "noMounts": true,
+        "path": "github.com/mohamedelhefni/zahi"
+      },
+      {
+        "ignoreConfig": true,
+        "ignoreImports": true,
+        "noMounts": true,
         "path": "github.com/monkeyWzr/hugo-theme-cactus"
       },
       {
@@ -2493,6 +2505,12 @@
         "ignoreImports": true,
         "noMounts": true,
         "path": "github.com/tohn/linkshrubbery"
+      },
+      {
+        "ignoreConfig": true,
+        "ignoreImports": true,
+        "noMounts": true,
+        "path": "github.com/tomfran/typo"
       },
       {
         "ignoreConfig": true,
