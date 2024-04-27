@@ -42,14 +42,14 @@ require (
 	github.com/Junyi-99/hugo-theme-anubis2 v1.3.1 // indirect
 	github.com/KatamariJr/split-landing v1.0.1 // indirect
 	github.com/Lednerb/bilberry-hugo-theme/v4 v4.3.0 // indirect
-	github.com/LordMathis/hugo-theme-nightfall v0.7.0 // indirect
+	github.com/LordMathis/hugo-theme-nightfall v0.7.1 // indirect
 	github.com/LordMathis/hugo-theme-nix v0.0.0-20231221192434-435c923c29df // indirect
 	github.com/LucasVadilho/heyo-hugo-theme v0.0.0-20240319150100-68a0e797f933 // indirect
 	github.com/LukasJoswiak/etch v0.0.0-20221013042144-3286754ceb4e // indirect
 	github.com/M1cR0xf7/kaslaanka v0.0.0-20240409132442-821b4aa7d9af // indirect
 	github.com/MarcusVirg/forty v0.0.0-20190430033326-dccea57bd2ed // indirect
 	github.com/Masellum/hugo-theme-nostyleplease v0.0.0-20230920130130-22524617427a // indirect
-	github.com/McShelby/hugo-theme-relearn v0.0.0-20240424213829-f9dc695a5783 // indirect
+	github.com/McShelby/hugo-theme-relearn v0.0.0-20240426224016-aed8845a16d1 // indirect
 	github.com/MeiK2333/github-style v0.0.0-20240407061128-22b3231b4e7d // indirect
 	github.com/MichaelSchaecher/simple-dark v0.0.0-20240406131851-f63ff8c3902e // indirect
 	github.com/Morgscode/hugo-theme-spaced-blog v0.0.0-20240202212622-46fcfd100b4a // indirect
