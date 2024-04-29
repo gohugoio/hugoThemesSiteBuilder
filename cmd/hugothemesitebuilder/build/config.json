@@ -1820,6 +1820,12 @@
         "ignoreConfig": true,
         "ignoreImports": true,
         "noMounts": true,
+        "path": "github.com/nicokaiser/hugo-theme-gallery/v4"
+      },
+      {
+        "ignoreConfig": true,
+        "ignoreImports": true,
+        "noMounts": true,
         "path": "github.com/Nigh/tinyworks"
       },
       {
