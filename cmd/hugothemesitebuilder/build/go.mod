@@ -20,7 +20,7 @@ require (
 	github.com/Axorax/axile-hugo v0.0.0-20230604174516-d0bf9248bcbd // indirect
 	github.com/Binary-Eater/hugo-theme-ghci v0.0.0-20220130042807-df347b1d8a3e // indirect
 	github.com/Bonzdev/alexa-portfolio v0.0.0-20211126085019-886d97a260c2 // indirect
-	github.com/CaiJimmy/hugo-theme-stack/v3 v3.25.0 // indirect
+	github.com/CaiJimmy/hugo-theme-stack/v3 v3.26.0 // indirect
 	github.com/ElecBrandy/freshpink v0.0.0-20240320032558-156b8455d437 // indirect
 	github.com/EmielH/hallo-hugo v2.7.0+incompatible // indirect
 	github.com/EmielH/stip-hugo v1.0.0 // indirect
@@ -497,6 +497,6 @@ require (
 	gitlab.com/tmuguet/hugo-split-gallery v1.6.0 // indirect
 	gitlab.com/toryanderson/hugo-icarus v0.0.0-20200701121335-f3e99478c35b // indirect
 	gitlab.com/writeonlyhugo/up-business-theme v0.0.0-20230808030904-a060a033be09 // indirect
-	gitlab.com/writeonlyhugo/writeonlyhugo-theme v0.0.0-20240420141856-cb674d1da7b2 // indirect
+	gitlab.com/writeonlyhugo/writeonlyhugo-theme v0.0.0-20240502104725-cc4014d1c855 // indirect
 	wangchucheng.com/hugo-eureka v0.9.3 // indirect
 )
