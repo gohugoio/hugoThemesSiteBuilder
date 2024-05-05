@@ -2624,6 +2624,12 @@
         "ignoreConfig": true,
         "ignoreImports": true,
         "noMounts": true,
+        "path": "github.com/victoriadrake/hugo-theme-quint"
+      },
+      {
+        "ignoreConfig": true,
+        "ignoreImports": true,
+        "noMounts": true,
         "path": "github.com/victoriadrake/neofeed-theme/v2"
       },
       {

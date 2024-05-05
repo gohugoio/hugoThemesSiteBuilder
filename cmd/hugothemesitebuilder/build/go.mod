@@ -195,7 +195,7 @@ require (
 	github.com/gcaracuel/hugo-theme-gutenberg v0.0.0-20210225105328-abd624652c48 // indirect
 	github.com/geschke/hugo-tikva v0.4.0 // indirect
 	github.com/gesquive/slate v1.1.1 // indirect
-	github.com/gethinode/hinode v0.23.11 // indirect
+	github.com/gethinode/hinode v0.23.12 // indirect
 	github.com/gethyas/doks v1.6.2 // indirect
 	github.com/gevhaz/hugo-theme-notrack v0.0.0-20240121192405-9dad9fec2e0e // indirect
 	github.com/gizak/nofancy v0.0.0-20180325214227-ae4670287c71 // indirect
@@ -447,6 +447,7 @@ require (
 	github.com/vaga/hugo-theme-m10c v0.0.0-20231121023432-ee7cf174616f // indirect
 	github.com/vantagedesign/ace-documentation v0.0.0-20230530074820-241592496471 // indirect
 	github.com/victoriadrake/hugo-theme-introduction v6.0.0+incompatible // indirect
+	github.com/victoriadrake/hugo-theme-quint v1.0.1 // indirect
 	github.com/victoriadrake/neofeed-theme/v2 v2.0.6 // indirect
 	github.com/vimux/blank v0.0.0-20231125180609-43cac0184173 // indirect
 	github.com/vjeantet/hugo-theme-docport v0.0.0-20201105223056-b43c043a7b91 // indirect
