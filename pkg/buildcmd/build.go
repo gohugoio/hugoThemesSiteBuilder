@@ -393,7 +393,7 @@ func (t *theme) toFrontMatter() map[string]interface{} {
 		htmlURL = t.ghRepo.HTMLURL
 	} else {
 		// Gitlab etc., assume the path is the base of the URL.
-		htmlURL = fmt.Sprintf("https://%s", t.m.Path)
+		htmlURL = fmt.Sprintf("https://%s", t.m.PathRepo())
 	}
 
 	var expiryDate time.Time

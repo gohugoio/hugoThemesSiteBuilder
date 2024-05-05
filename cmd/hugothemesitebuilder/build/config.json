@@ -812,6 +812,12 @@
         "ignoreConfig": true,
         "ignoreImports": true,
         "noMounts": true,
+        "path": "github.com/frjo/hugo-theme-zen/v3"
+      },
+      {
+        "ignoreConfig": true,
+        "ignoreImports": true,
+        "noMounts": true,
         "path": "github.com/funkydan2/alpha-church"
       },
       {
@@ -1748,6 +1754,12 @@
         "ignoreConfig": true,
         "ignoreImports": true,
         "noMounts": true,
+        "path": "github.com/mohamedelhefni/zahi"
+      },
+      {
+        "ignoreConfig": true,
+        "ignoreImports": true,
+        "noMounts": true,
         "path": "github.com/monkeyWzr/hugo-theme-cactus"
       },
       {
@@ -1803,6 +1815,12 @@
         "ignoreImports": true,
         "noMounts": true,
         "path": "github.com/nathancday/min_night"
+      },
+      {
+        "ignoreConfig": true,
+        "ignoreImports": true,
+        "noMounts": true,
+        "path": "github.com/nicokaiser/hugo-theme-gallery/v4"
       },
       {
         "ignoreConfig": true,
@@ -2444,6 +2462,12 @@
         "ignoreConfig": true,
         "ignoreImports": true,
         "noMounts": true,
+        "path": "github.com/techbarrack/terminal-hugo-theme"
+      },
+      {
+        "ignoreConfig": true,
+        "ignoreImports": true,
+        "noMounts": true,
         "path": "github.com/the2ne/hugo-frais"
       },
       {
@@ -2493,6 +2517,12 @@
         "ignoreImports": true,
         "noMounts": true,
         "path": "github.com/tohn/linkshrubbery"
+      },
+      {
+        "ignoreConfig": true,
+        "ignoreImports": true,
+        "noMounts": true,
+        "path": "github.com/tomfran/typo"
       },
       {
         "ignoreConfig": true,
@@ -2589,6 +2619,12 @@
         "ignoreImports": true,
         "noMounts": true,
         "path": "github.com/victoriadrake/hugo-theme-introduction"
+      },
+      {
+        "ignoreConfig": true,
+        "ignoreImports": true,
+        "noMounts": true,
+        "path": "github.com/victoriadrake/hugo-theme-quint"
       },
       {
         "ignoreConfig": true,
