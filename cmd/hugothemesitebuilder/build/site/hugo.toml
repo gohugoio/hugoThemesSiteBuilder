@@ -82,6 +82,7 @@ disableKinds    = ["taxonomy"]
   github_repo = "https://github.com/gohugoio/hugoThemesSiteBuilder"
   gitter      = "https://gitter.im/spf13/hugo"
   forum       = "https://discourse.gohugo.io/"
+  hideDemoLink = true
   #This array is meant for disabling the Homepage button of a theme.
   noHomePage = ["hugo-theme-novela"]
 
