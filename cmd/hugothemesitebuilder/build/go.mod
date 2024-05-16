@@ -72,7 +72,7 @@ require (
 	github.com/ThemeTony/hugo-theme-tony v0.0.0-20220330055515-32580d30ce47 // indirect
 	github.com/VVelox/hugo-dusky-neon-potato v0.0.0-20211017191045-d82667fe5106 // indirect
 	github.com/Vimux/Binario v0.0.0-20240401150108-e4bab35fd1f1 // indirect
-	github.com/Vimux/mainroad v0.0.0-20240411155536-ed54a7cc8741 // indirect
+	github.com/Vimux/mainroad v0.0.0-20240515133546-70f97b69b466 // indirect
 	github.com/WingLim/hugo-tania v1.9.3 // indirect
 	github.com/Wivik/am-writing-hugo-theme v1.5.0 // indirect
 	github.com/Wivik/vinyl-records-collection-theme v0.2.0 // indirect
@@ -371,7 +371,7 @@ require (
 	github.com/rafed/ramium v0.0.0-20230721113732-a51bb919d150 // indirect
 	github.com/razonyang/hugo-theme-bootstrap v1.5.6 // indirect
 	github.com/reuixiy/hugo-theme-meme v5.0.0+incompatible // indirect
-	github.com/rhazdon/hugo-theme-hello-friend-ng v0.0.0-20231122225555-51e697bea7eb // indirect
+	github.com/rhazdon/hugo-theme-hello-friend-ng v0.0.0-20240515061203-a902dacd8477 // indirect
 	github.com/rhnvrm/bodhi v0.1.0 // indirect
 	github.com/ribice/kiss v2.0.0+incompatible // indirect
 	github.com/rijoth/rsimple v0.0.0-20210720173156-0b67a7051fb6 // indirect
@@ -472,7 +472,7 @@ require (
 	github.com/your-identity/hugo-theme-dimension v0.0.0-20210521214308-2474081b7846 // indirect
 	github.com/yue1124/hero v0.0.0-20211205133758-af2b1f878227 // indirect
 	github.com/yursan9/manis-hugo-theme v0.0.0-20230228032349-9e8e09ebfc78 // indirect
-	github.com/zeon-studio/hugoplate v0.0.0-20240513062835-d4274ad7e3df // indirect
+	github.com/zeon-studio/hugoplate v0.0.0-20240515115337-55ed912d6381 // indirect
 	github.com/zerostaticthemes/hugo-hero-theme v1.1.0 // indirect
 	github.com/zerostaticthemes/hugo-serif-theme v1.1.1 // indirect
 	github.com/zerostaticthemes/hugo-whisper-theme v0.0.0-20231126060839-511dcd7dca62 // indirect
