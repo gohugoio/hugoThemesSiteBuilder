@@ -133,7 +133,7 @@ require (
 	github.com/chipzoller/hugo-clarity v0.0.0-20240429154213-8412edb36941 // indirect
 	github.com/chollinger93/ink-free v1.4.1 // indirect
 	github.com/chrede88/L1nkr v1.8.6 // indirect
-	github.com/chrede88/qubt v1.2.10 // indirect
+	github.com/chrede88/qubt v1.3.0 // indirect
 	github.com/chringel21/chringel-hugo-theme v1.3.1 // indirect
 	github.com/clente/hugo-bearcub v0.0.0-20240408182846-729a354f4cf3 // indirect
 	github.com/cloudwithchris/hugo-creator v0.0.32 // indirect
@@ -227,7 +227,7 @@ require (
 	github.com/hugo-fixit/FixIt v0.3.6 // indirect
 	github.com/hugo-next/hugo-theme-next v4.5.3+incompatible // indirect
 	github.com/hugo-sid/hugo-blog-awesome v1.14.0 // indirect
-	github.com/hugo-toha/toha/v4 v4.4.0 // indirect
+	github.com/hugo-toha/toha/v4 v4.5.0 // indirect
 	github.com/humrochagf/colordrop v1.13.0 // indirect
 	github.com/huyb1991/hugo-lamp v1.2.1 // indirect
 	github.com/iCyris/hugo-theme-yuki v1.1.0 // indirect
@@ -295,7 +295,7 @@ require (
 	github.com/liuzc/LeaveIt v0.0.0-20181104111157-2884e266babb // indirect
 	github.com/loveminimal/hugo-theme-virgo v1.0.1 // indirect
 	github.com/lubang/hugo-hello-programmer-theme v2.1.0+incompatible // indirect
-	github.com/luizdepra/hugo-coder v0.0.0-20240507000755-f850eb85badf // indirect
+	github.com/luizdepra/hugo-coder v0.0.0-20240517194540-759cc9456364 // indirect
 	github.com/lukeorth/poison v0.0.0-20240318172107-4b36ef57e683 // indirect
 	github.com/lxndrblz/anatole v1.14.0 // indirect
 	github.com/manid2/hugo-xterm v1.7.4 // indirect
