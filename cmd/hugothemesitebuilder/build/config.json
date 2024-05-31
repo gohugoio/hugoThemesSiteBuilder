@@ -632,13 +632,13 @@
         "ignoreConfig": true,
         "ignoreImports": true,
         "noMounts": true,
-        "path": "github.com/diwao/hestia-pure"
+        "path": "github.com/dipeshsingh253/saral"
       },
       {
         "ignoreConfig": true,
         "ignoreImports": true,
         "noMounts": true,
-        "path": "github.com/dipeshsingh253/saral"
+        "path": "github.com/diwao/hestia-pure"
       },
       {
         "ignoreConfig": true,
@@ -1058,6 +1058,12 @@
         "ignoreConfig": true,
         "ignoreImports": true,
         "noMounts": true,
+        "path": "github.com/hugo-porto/theme"
+      },
+      {
+        "ignoreConfig": true,
+        "ignoreImports": true,
+        "noMounts": true,
         "path": "github.com/hugo-sid/hugo-blog-awesome"
       },
       {
@@ -1076,7 +1082,7 @@
         "ignoreConfig": true,
         "ignoreImports": true,
         "noMounts": true,
-        "path": "github.com/HugoBlox/theme-academic-cv"
+        "path": "github.com/HugoBlox/hugo-blox-builder/starters/academic-cv"
       },
       {
         "ignoreConfig": true,
@@ -1958,6 +1964,12 @@
         "ignoreConfig": true,
         "ignoreImports": true,
         "noMounts": true,
+        "path": "github.com/paposeco/quietfoodie"
+      },
+      {
+        "ignoreConfig": true,
+        "ignoreImports": true,
+        "noMounts": true,
         "path": "github.com/parsiya/Hugo-Octopress"
       },
       {
@@ -1965,12 +1977,6 @@
         "ignoreImports": true,
         "noMounts": true,
         "path": "github.com/paulmartins/hugo-digital-garden-theme"
-      },
-      {
-        "ignoreConfig": true,
-        "ignoreImports": true,
-        "noMounts": true,
-        "path": "github.com/pavel-pi/kiss-em"
       },
       {
         "ignoreConfig": true,
@@ -2943,6 +2949,12 @@
         "ignoreImports": true,
         "noMounts": true,
         "path": "gitlab.com/mertbakir/resume-a4"
+      },
+      {
+        "ignoreConfig": true,
+        "ignoreImports": true,
+        "noMounts": true,
+        "path": "gitlab.com/mrubli/hugo-theme-comic"
       },
       {
         "ignoreConfig": true,
