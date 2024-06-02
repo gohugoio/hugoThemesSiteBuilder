@@ -30,8 +30,8 @@ require (
 	github.com/Fastbyte01/KeepIt v0.0.0-20231031014040-50ffb35785a0 // indirect
 	github.com/GDGToulouse/devfest-theme-hugo v0.0.0-20220415065715-84f2f2191d40 // indirect
 	github.com/HEIGE-PCloud/DoIt v0.4.0 // indirect
-	github.com/HugoBlox/hugo-blox-builder/modules/blox-tailwind v0.2.1-0.20240527185548-8d25fbed122c // indirect
-	github.com/HugoBlox/hugo-blox-builder/starters/academic-cv v0.0.0-20240527185548-8d25fbed122c // indirect
+	github.com/HugoBlox/hugo-blox-builder/modules/blox-tailwind v0.2.1-0.20240601182712-2b11b7e9fbf5 // indirect
+	github.com/HugoBlox/hugo-blox-builder/starters/academic-cv v0.0.0-20240601182712-2b11b7e9fbf5 // indirect
 	github.com/Ice-Hazymoon/hugo-theme-luna v0.7.1 // indirect
 	github.com/IvanChou/hugo-theme-vec v0.0.0-20190110125257-deb6897f1d8e // indirect
 	github.com/J-Siu/hugo-theme-sk1 v0.0.0-20230322094406-20055cbc8736 // indirect
@@ -177,7 +177,7 @@ require (
 	github.com/eliasson/liquorice v0.0.0-20200622115411-8eac8aa98593 // indirect
 	github.com/elkan1788/hugo-theme-next v0.0.0-20220624035358-5c7cf5589b19 // indirect
 	github.com/ertuil/erblog v1.1.0 // indirect
-	github.com/escalate/hugo-split-theme v1.3.0 // indirect
+	github.com/escalate/hugo-split-theme v1.4.0 // indirect
 	github.com/eshlox/simplicity v2.1.0+incompatible // indirect
 	github.com/fauzanmy/pehtheme-hugo v0.0.0-20231210072408-c186fd3b785d // indirect
 	github.com/felicianotech/hugo-theme-lean-launch-page v0.3.0 // indirect
@@ -481,7 +481,7 @@ require (
 	github.com/zetxek/adritian-free-hugo-theme v0.3.1 // indirect
 	github.com/zhaohuabing/hugo-theme-cleanwhite v0.0.0-20240512214910-6221a36a411d // indirect
 	github.com/zhe/hugo-theme-slim v0.0.0-20190920014445-f666effe196a // indirect
-	github.com/zjedi/hugo-scroll v0.0.0-20240519204112-4191af692faf // indirect
+	github.com/zjedi/hugo-scroll v0.0.0-20240601220216-33337a69ea80 // indirect
 	github.com/zzossig/hugo-theme-zdoc v0.0.0-20201105143606-574f6c3d26d5 // indirect
 	github.com/zzossig/hugo-theme-zzo v0.0.0-20210523142617-01f9e43e59b0 // indirect
 	github.com/zzzmisa/hugo-theme-doors v0.0.0-20231124013016-44ae7c3ba68e // indirect
