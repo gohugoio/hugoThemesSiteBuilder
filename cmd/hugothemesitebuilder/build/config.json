@@ -1082,12 +1082,6 @@
         "ignoreConfig": true,
         "ignoreImports": true,
         "noMounts": true,
-        "path": "github.com/HugoBlox/hugo-blox-builder/starters/academic-cv"
-      },
-      {
-        "ignoreConfig": true,
-        "ignoreImports": true,
-        "noMounts": true,
         "path": "github.com/humrochagf/colordrop"
       },
       {
