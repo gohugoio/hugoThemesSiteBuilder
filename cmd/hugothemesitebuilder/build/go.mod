@@ -21,7 +21,7 @@ require (
 	github.com/Binary-Eater/hugo-theme-ghci v0.0.0-20220130042807-df347b1d8a3e // indirect
 	github.com/Bonzdev/alexa-portfolio v0.0.0-20211126085019-886d97a260c2 // indirect
 	github.com/CaiJimmy/hugo-theme-stack/v3 v3.26.0 // indirect
-	github.com/ElecBrandy/freshpink v0.0.0-20240604085827-40b86882a8ad // indirect
+	github.com/ElecBrandy/freshpink v0.0.0-20240606091607-9d9000670f40 // indirect
 	github.com/EmielH/hallo-hugo v2.7.0+incompatible // indirect
 	github.com/EmielH/stip-hugo v1.0.0 // indirect
 	github.com/EmielH/tale-hugo v2.2.0+incompatible // indirect
@@ -120,7 +120,7 @@ require (
 	github.com/calintat/minimal v0.0.0-20210103220336-987f270dfee3 // indirect
 	github.com/canhtran/maverick v0.0.0-20240331062139-dcf832c83b4d // indirect
 	github.com/canstand/compost v0.6.4 // indirect
-	github.com/capnfabs/paperesque v0.0.0-20240518132925-a043fa6e4838 // indirect
+	github.com/capnfabs/paperesque v0.0.0-20240606105139-90acc9584917 // indirect
 	github.com/caressofsteel/hugo-story v0.0.0-20240521145125-b05c4ffd7030 // indirect
 	github.com/carsonip/hugo-theme-minos v0.0.0-20210404151835-ebac3b34438e // indirect
 	github.com/cathelijne/hugo-theme-huguette v0.0.0-20230926192551-370d1cd06943 // indirect
@@ -178,7 +178,7 @@ require (
 	github.com/ertuil/erblog v1.1.0 // indirect
 	github.com/escalate/hugo-split-theme v1.4.0 // indirect
 	github.com/eshlox/simplicity v2.1.0+incompatible // indirect
-	github.com/fauzanmy/pehtheme-hugo v0.0.0-20231210072408-c186fd3b785d // indirect
+	github.com/fauzanmy/pehtheme-hugo v0.0.0-20240606070734-bb2df75ceb48 // indirect
 	github.com/felicianotech/hugo-theme-lean-launch-page v0.3.0 // indirect
 	github.com/fiatjaf/classless-hugo v0.0.0-20190708182146-0b99da439e48 // indirect
 	github.com/filipecarneiro/hugo-bootstrap-theme v1.0.35 // indirect
@@ -441,7 +441,7 @@ require (
 	github.com/uicardiodev/hugo-lime v0.0.0-20180916134933-90177ceb59cb // indirect
 	github.com/uicardiodev/hugo-sodium-theme v0.0.0-20181119122014-1c681c5db2a0 // indirect
 	github.com/uicardiodev/hugo-uilite v0.0.0-20210608161142-0b625104854c // indirect
-	github.com/undus5/hugo-pure v0.0.0-20240529024144-53704b4556b2 // indirect
+	github.com/undus5/hugo-pure v0.0.0-20240606172530-9b20366e5b0c // indirect
 	github.com/unicef/inventory-hugo-theme v1.0.0 // indirect
 	github.com/urjaacharya/redgood v0.0.0-20210818044121-cf6f82ce70c2 // indirect
 	github.com/vaga/hugo-theme-m10c v0.0.0-20231121023432-ee7cf174616f // indirect
