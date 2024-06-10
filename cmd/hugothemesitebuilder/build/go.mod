@@ -9,7 +9,7 @@ require (
 	github.com/2-REC/hugo-myportfolio-theme v0.0.0-20200725083546-d0708c5286eb // indirect
 	github.com/4ever9/less v0.0.0-20201228090934-105d2c8c6b53 // indirect
 	github.com/4s3ti/hugo-theme-hello-4s3ti v2.2.1+incompatible // indirect
-	github.com/4s3ti/terminalcv v2.1.1+incompatible // indirect
+	github.com/4s3ti/terminalcv v2.2.0+incompatible // indirect
 	github.com/526avijitgupta/gokarna v0.0.0-20240522115636-9be9f017191a // indirect
 	github.com/64bitpandas/amethyst v1.0.0 // indirect
 	github.com/7ma7X/HugoTeX v0.0.0-20240522022300-fa8847c7ab7b // indirect
@@ -40,7 +40,7 @@ require (
 	github.com/JingWangTW/dark-theme-editor v3.2.1+incompatible // indirect
 	github.com/Junyi-99/hugo-theme-anubis2 v1.3.3 // indirect
 	github.com/KatamariJr/split-landing v1.0.1 // indirect
-	github.com/Lednerb/bilberry-hugo-theme/v4 v4.3.0 // indirect
+	github.com/Lednerb/bilberry-hugo-theme/v4 v4.4.1 // indirect
 	github.com/LordMathis/hugo-theme-nightfall v0.7.1 // indirect
 	github.com/LordMathis/hugo-theme-nix v0.0.0-20231221192434-435c923c29df // indirect
 	github.com/LucasVadilho/heyo-hugo-theme v0.0.0-20240319150100-68a0e797f933 // indirect
@@ -110,7 +110,7 @@ require (
 	github.com/bep/docuapi/v2 v2.4.0 // indirect
 	github.com/bep/galleriesdeluxe v0.0.0-20240115104851-622d8268efc3 // indirect
 	github.com/bep/gallerydeluxe v0.11.1 // indirect
-	github.com/binokochumolvarghese/lightbi-hugo v0.0.0-20240512055738-a2a1f4cf9943 // indirect
+	github.com/binokochumolvarghese/lightbi-hugo v0.0.0-20240608191410-e1d5343163cb // indirect
 	github.com/bjacquemet/personal-web v0.0.0-20230606080827-69cf270ceddf // indirect
 	github.com/blankoworld/hugo_theme_adam_eve v0.0.0-20230831124402-202f892ad6b4 // indirect
 	github.com/bowman2001/perplex v0.20.3 // indirect
@@ -430,7 +430,7 @@ require (
 	github.com/thomasheller/crab v1.0.0 // indirect
 	github.com/tnwhitwell/hugo-startpage-theme v0.0.0-20180704204829-76b1a1f5808e // indirect
 	github.com/tohn/linkshrubbery v0.0.0-20230623094327-4b529ca6cb8b // indirect
-	github.com/tomfran/typo v0.0.0-20240602094418-d329f19ff839 // indirect
+	github.com/tomfran/typo v0.0.0-20240609125205-88b7854de246 // indirect
 	github.com/tomowang/hugo-theme-tailwind v0.0.0-20240525085506-6aeb747a630f // indirect
 	github.com/tosi29/inkblotty v0.0.0-20210329142630-603eab433785 // indirect
 	github.com/tummychow/lanyon-hugo v0.0.0-20210123043723-cd7b91420a90 // indirect
