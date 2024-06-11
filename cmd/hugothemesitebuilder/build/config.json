@@ -38,18 +38,6 @@
         "ignoreConfig": true,
         "ignoreImports": true,
         "noMounts": true,
-        "path": "github.com/4s3ti/hugo-theme-hello-4s3ti"
-      },
-      {
-        "ignoreConfig": true,
-        "ignoreImports": true,
-        "noMounts": true,
-        "path": "github.com/4s3ti/terminalcv"
-      },
-      {
-        "ignoreConfig": true,
-        "ignoreImports": true,
-        "noMounts": true,
         "path": "github.com/526avijitgupta/gokarna"
       },
       {
@@ -495,6 +483,18 @@
         "ignoreImports": true,
         "noMounts": true,
         "path": "github.com/colorchestra/smol"
+      },
+      {
+        "ignoreConfig": true,
+        "ignoreImports": true,
+        "noMounts": true,
+        "path": "github.com/coolapso/hugo-theme-hello-4s3ti"
+      },
+      {
+        "ignoreConfig": true,
+        "ignoreImports": true,
+        "noMounts": true,
+        "path": "github.com/coolapso/hugo-theme-terminalcv"
       },
       {
         "ignoreConfig": true,
@@ -1557,6 +1557,12 @@
         "ignoreImports": true,
         "noMounts": true,
         "path": "github.com/LucasVadilho/heyo-hugo-theme"
+      },
+      {
+        "ignoreConfig": true,
+        "ignoreImports": true,
+        "noMounts": true,
+        "path": "github.com/LuisSousaRego/Ardeidae"
       },
       {
         "ignoreConfig": true,
