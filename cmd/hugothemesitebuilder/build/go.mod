@@ -38,7 +38,7 @@ require (
 	github.com/JingWangTW/dark-theme-editor v3.2.1+incompatible // indirect
 	github.com/Junyi-99/hugo-theme-anubis2 v1.3.3 // indirect
 	github.com/KatamariJr/split-landing v1.0.1 // indirect
-	github.com/Lednerb/bilberry-hugo-theme/v4 v4.5.1 // indirect
+	github.com/Lednerb/bilberry-hugo-theme/v4 v4.6.0 // indirect
 	github.com/LordMathis/hugo-theme-nightfall v0.7.1 // indirect
 	github.com/LordMathis/hugo-theme-nix v0.0.0-20231221192434-435c923c29df // indirect
 	github.com/LucasVadilho/heyo-hugo-theme v0.0.0-20240319150100-68a0e797f933 // indirect
@@ -164,7 +164,7 @@ require (
 	github.com/devcows/hugo-universal-theme v0.0.0-20240312142249-b34533c67125 // indirect
 	github.com/dewittn/hugo-html5up-alpha v0.0.0-20200529171052-b921f3bccb74 // indirect
 	github.com/dillonzq/LoveIt v0.2.11 // indirect
-	github.com/dipeshsingh253/saral v0.0.0-20240321113839-dd6c8969bae6 // indirect
+	github.com/dipeshsingh253/saral v0.0.0-20240617064024-edfa5cdb2aa5 // indirect
 	github.com/diwao/hestia-pure v0.0.0-20180322071727-320c944ffcf9 // indirect
 	github.com/djuelg/Shapez-Theme v0.0.0-20200822131204-bfc2adf16fd4 // indirect
 	github.com/dldx/hpstr-hugo-theme v0.0.0-20180623041957-3658a0b0c9c2 // indirect
@@ -431,7 +431,7 @@ require (
 	github.com/thomasheller/crab v1.0.0 // indirect
 	github.com/tnwhitwell/hugo-startpage-theme v0.0.0-20180704204829-76b1a1f5808e // indirect
 	github.com/tohn/linkshrubbery v0.0.0-20230623094327-4b529ca6cb8b // indirect
-	github.com/tomfran/typo v0.0.0-20240609125205-88b7854de246 // indirect
+	github.com/tomfran/typo v0.0.0-20240617152213-e8827aaf60ca // indirect
 	github.com/tomowang/hugo-theme-tailwind v0.0.0-20240525085506-6aeb747a630f // indirect
 	github.com/tosi29/inkblotty v0.0.0-20210329142630-603eab433785 // indirect
 	github.com/tummychow/lanyon-hugo v0.0.0-20210123043723-cd7b91420a90 // indirect
