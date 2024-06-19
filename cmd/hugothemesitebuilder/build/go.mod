@@ -38,7 +38,7 @@ require (
 	github.com/JingWangTW/dark-theme-editor v3.2.1+incompatible // indirect
 	github.com/Junyi-99/hugo-theme-anubis2 v1.3.3 // indirect
 	github.com/KatamariJr/split-landing v1.0.1 // indirect
-	github.com/Lednerb/bilberry-hugo-theme/v4 v4.6.0 // indirect
+	github.com/Lednerb/bilberry-hugo-theme/v4 v4.6.1 // indirect
 	github.com/LordMathis/hugo-theme-nightfall v0.7.1 // indirect
 	github.com/LordMathis/hugo-theme-nix v0.0.0-20231221192434-435c923c29df // indirect
 	github.com/LucasVadilho/heyo-hugo-theme v0.0.0-20240319150100-68a0e797f933 // indirect
@@ -390,7 +390,7 @@ require (
 	github.com/samrobbins85/hugo-developer-portfolio v0.0.0-20230421080835-4d3db20b1574 // indirect
 	github.com/sbruder/spectral v0.0.0-20231021125325-0d4b111afae1 // indirect
 	github.com/schmanat/hugo-highlights-theme v0.0.0-20200409134000-79eb66a32c74 // indirect
-	github.com/schnerring/hugo-theme-gruvbox v0.0.0-20240611221432-331b95430171 // indirect
+	github.com/schnerring/hugo-theme-gruvbox v0.0.0-20240618225326-601ce816eda7 // indirect
 	github.com/schollz/onetwothree v0.0.0-20190916161743-a09e6530494c // indirect
 	github.com/seanlane/gochowdown v0.0.0-20220603122033-5458dc7bd80a // indirect
 	github.com/sefeng211/techlab-hugo-theme v0.0.0-20221108011911-ed0fcb80d48f // indirect
