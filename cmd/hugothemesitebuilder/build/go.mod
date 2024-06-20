@@ -195,7 +195,7 @@ require (
 	github.com/gcaracuel/hugo-theme-gutenberg v0.0.0-20210225105328-abd624652c48 // indirect
 	github.com/geschke/hugo-tikva v0.4.0 // indirect
 	github.com/gesquive/slate v1.1.1 // indirect
-	github.com/gethinode/hinode v0.24.5 // indirect
+	github.com/gethinode/hinode v0.24.6 // indirect
 	github.com/gethyas/doks v1.6.2 // indirect
 	github.com/gevhaz/hugo-theme-notrack v0.0.0-20240121192405-9dad9fec2e0e // indirect
 	github.com/gizak/nofancy v0.0.0-20180325214227-ae4670287c71 // indirect
@@ -337,7 +337,7 @@ require (
 	github.com/nixentric/Lowkey-Hugo-Theme v0.0.0-20240410095828-b35362d5bf52 // indirect
 	github.com/nodejh/hugo-theme-cactus-plus v0.0.0-20240322021354-34417888405c // indirect
 	github.com/ntk148v/hugo-cuisine-book v0.0.0-20230914083228-188f158ad681 // indirect
-	github.com/nunocoracao/blowfish/v2 v2.70.0 // indirect
+	github.com/nunocoracao/blowfish/v2 v2.71.0 // indirect
 	github.com/nurlansu/hugo-sustain v0.0.0-20230524192148-21d9f8f53692 // indirect
 	github.com/nusserstudios/tailbliss v0.0.0-20240613115956-cc64cbb8caa5 // indirect
 	github.com/okkur/syna v0.17.4 // indirect
@@ -413,7 +413,7 @@ require (
 	github.com/splch/hugo-simplecss v0.0.0-20220426050908-aa5090af89a9 // indirect
 	github.com/spookey/slick v0.4.6 // indirect
 	github.com/st-wong/hugo-spectre-pixel-theme v0.0.0-20191012073037-219ea80b9785 // indirect
-	github.com/sudorook/capsule v0.7.1 // indirect
+	github.com/sudorook/capsule v0.7.2 // indirect
 	github.com/surajmandalcell/potato-dark v0.0.0-20230514060246-fb0ef4c222e7 // indirect
 	github.com/syui/hugo-theme-air v0.0.0-20220103011837-46ea2028968c // indirect
 	github.com/syui/hugo-theme-wave v0.0.0-20190818110101-1250495d730e // indirect
