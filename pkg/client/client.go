@@ -12,6 +12,7 @@ import (
 	"os"
 	"os/exec"
 	"path/filepath"
+	"regexp"
 	"runtime"
 	"strings"
 	"sync"
@@ -327,10 +328,15 @@ type Module struct {
 	Meta        map[string]interface{} `json:"meta"`
 }
 
+func (m Module) PathWithoutVersion() string {
+	return PathWithoutVersion(m.Path)
+}
+
 // PathRepo returns the root path to the repository.
 func (m Module) PathRepo() string {
 	slashCount := 0
-	idx := strings.IndexFunc(m.Path, func(r rune) bool {
+	p := m.PathWithoutVersion()
+	idx := strings.IndexFunc(p, func(r rune) bool {
 		if r == '/' {
 			slashCount++
 		}
@@ -338,10 +344,10 @@ func (m Module) PathRepo() string {
 	})
 
 	if slashCount < 3 {
-		return m.Path
+		return p
 	}
 
-	return m.Path[:idx]
+	return p[:idx]
 }
 
 // HugoVersion holds Hugo binary version requirements for a module.
@@ -352,6 +358,12 @@ type HugoVersion struct {
 }
 
 type ModulesMap map[string]Module
+
+var pathVersionRe = regexp.MustCompile(`/v\d+$`)
+
+func PathWithoutVersion(s string) string {
+	return pathVersionRe.ReplaceAllString(s, "")
+}
 
 func setEnvVar(vars *[]string, key, value string) {
 	for i := range *vars {
