@@ -47,7 +47,7 @@ require (
 	github.com/M1cR0xf7/kaslaanka v0.0.0-20240409132442-821b4aa7d9af // indirect
 	github.com/MarcusVirg/forty v0.0.0-20190430033326-dccea57bd2ed // indirect
 	github.com/Masellum/hugo-theme-nostyleplease v0.0.0-20230920130130-22524617427a // indirect
-	github.com/McShelby/hugo-theme-relearn v0.0.0-20240605212028-6f24d34f4442 // indirect
+	github.com/McShelby/hugo-theme-relearn v0.0.0-20240630085448-889453907022 // indirect
 	github.com/MeiK2333/github-style v0.0.0-20240613025205-f3f26d78e2e6 // indirect
 	github.com/MichaelSchaecher/simple-dark v0.0.0-20240406131851-f63ff8c3902e // indirect
 	github.com/Morgscode/hugo-theme-spaced-blog v0.0.0-20240202212622-46fcfd100b4a // indirect
@@ -142,7 +142,7 @@ require (
 	github.com/colinwilson/lotusdocs v0.1.0 // indirect
 	github.com/colorchestra/smol v0.0.0-20231124233107-9c5b894c0950 // indirect
 	github.com/coolapso/hugo-theme-hello-4s3ti v2.2.1+incompatible // indirect
-	github.com/coolapso/hugo-theme-terminalcv v2.2.0+incompatible // indirect
+	github.com/coolapso/hugo-theme-terminalcv v3.0.0+incompatible // indirect
 	github.com/cowboysmall-tools/hugo-business-frontpage-theme v0.0.0-20200113082043-c5212be68d07 // indirect
 	github.com/cowboysmall-tools/hugo-devresume-theme v0.0.0-20200901132045-ccd34cdca3b8 // indirect
 	github.com/cristianmarint/sicily-hugo-theme v1.0.0 // indirect
@@ -479,7 +479,7 @@ require (
 	github.com/zerostaticthemes/hugo-serif-theme v1.1.1 // indirect
 	github.com/zerostaticthemes/hugo-whisper-theme v0.0.0-20231126060839-511dcd7dca62 // indirect
 	github.com/zerostaticthemes/hugo-winston-theme v1.4.0 // indirect
-	github.com/zetxek/adritian-free-hugo-theme v0.4.1 // indirect
+	github.com/zetxek/adritian-free-hugo-theme v1.0.0 // indirect
 	github.com/zhaohuabing/hugo-theme-cleanwhite v0.0.0-20240624151252-1b48ef6630f9 // indirect
 	github.com/zhe/hugo-theme-slim v0.0.0-20190920014445-f666effe196a // indirect
 	github.com/zjedi/hugo-scroll v0.0.0-20240627055625-807c028d7151 // indirect
