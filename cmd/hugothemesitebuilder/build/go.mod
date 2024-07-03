@@ -48,7 +48,7 @@ require (
 	github.com/MarcusVirg/forty v0.0.0-20190430033326-dccea57bd2ed // indirect
 	github.com/Masellum/hugo-theme-nostyleplease v0.0.0-20230920130130-22524617427a // indirect
 	github.com/McShelby/hugo-theme-relearn v0.0.0-20240630085448-889453907022 // indirect
-	github.com/MeiK2333/github-style v0.0.0-20240701015447-bf47790f3a99 // indirect
+	github.com/MeiK2333/github-style v0.0.0-20240702022053-5c406167ffda // indirect
 	github.com/MichaelSchaecher/simple-dark v0.0.0-20240406131851-f63ff8c3902e // indirect
 	github.com/Morgscode/hugo-theme-spaced-blog v0.0.0-20240202212622-46fcfd100b4a // indirect
 	github.com/MunifTanjim/minimo v2.10.1+incompatible // indirect
