@@ -434,7 +434,7 @@ require (
 	github.com/tnwhitwell/hugo-startpage-theme v0.0.0-20180704204829-76b1a1f5808e // indirect
 	github.com/tohn/linkshrubbery v0.0.0-20230623094327-4b529ca6cb8b // indirect
 	github.com/tomfran/typo v0.0.0-20240707091239-8a70bc216b53 // indirect
-	github.com/tomowang/hugo-theme-tailwind v0.0.0-20240708053025-9feaec6edff4 // indirect
+	github.com/tomowang/hugo-theme-tailwind v0.0.0-20240714094354-fbd1afb7966d // indirect
 	github.com/tosi29/inkblotty v0.0.0-20210329142630-603eab433785 // indirect
 	github.com/tummychow/lanyon-hugo v0.0.0-20210123043723-cd7b91420a90 // indirect
 	github.com/tylerjlawson/port-hugo v0.0.0-20240330025428-005c9518aa1e // indirect
