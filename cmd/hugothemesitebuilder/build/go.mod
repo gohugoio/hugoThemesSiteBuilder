@@ -25,7 +25,7 @@ require (
 	github.com/EmielH/stip-hugo v1.0.0 // indirect
 	github.com/EmielH/tale-hugo v2.2.0+incompatible // indirect
 	github.com/ExchangeRate-API/strange-case v0.0.0-20210304125749-3ea1d7d50bd0 // indirect
-	github.com/FarseaSH/hugo-theme-moments v0.0.0-20240711141342-09cc120cccae // indirect
+	github.com/FarseaSH/hugo-theme-moments v0.0.0-20240715135735-dff0a2969800 // indirect
 	github.com/Fastbyte01/KeepIt v0.0.0-20231031014040-50ffb35785a0 // indirect
 	github.com/GDGToulouse/devfest-theme-hugo v0.0.0-20240603135139-fa7219ae75d6 // indirect
 	github.com/HEIGE-PCloud/DoIt v0.4.0 // indirect
@@ -434,7 +434,7 @@ require (
 	github.com/tnwhitwell/hugo-startpage-theme v0.0.0-20180704204829-76b1a1f5808e // indirect
 	github.com/tohn/linkshrubbery v0.0.0-20230623094327-4b529ca6cb8b // indirect
 	github.com/tomfran/typo v0.0.0-20240707091239-8a70bc216b53 // indirect
-	github.com/tomowang/hugo-theme-tailwind v0.0.0-20240714094354-fbd1afb7966d // indirect
+	github.com/tomowang/hugo-theme-tailwind v0.0.0-20240715061931-ea815baac6a8 // indirect
 	github.com/tosi29/inkblotty v0.0.0-20210329142630-603eab433785 // indirect
 	github.com/tummychow/lanyon-hugo v0.0.0-20210123043723-cd7b91420a90 // indirect
 	github.com/tylerjlawson/port-hugo v0.0.0-20240330025428-005c9518aa1e // indirect
