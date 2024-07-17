@@ -25,7 +25,7 @@ require (
 	github.com/EmielH/stip-hugo v1.0.0 // indirect
 	github.com/EmielH/tale-hugo v2.2.0+incompatible // indirect
 	github.com/ExchangeRate-API/strange-case v0.0.0-20210304125749-3ea1d7d50bd0 // indirect
-	github.com/FarseaSH/hugo-theme-moments v0.0.0-20240715135735-dff0a2969800 // indirect
+	github.com/FarseaSH/hugo-theme-moments v0.0.0-20240716131804-09c1f4614029 // indirect
 	github.com/Fastbyte01/KeepIt v0.0.0-20231031014040-50ffb35785a0 // indirect
 	github.com/GDGToulouse/devfest-theme-hugo v0.0.0-20240603135139-fa7219ae75d6 // indirect
 	github.com/HEIGE-PCloud/DoIt v0.4.0 // indirect
@@ -114,12 +114,12 @@ require (
 	github.com/binokochumolvarghese/lightbi-hugo v0.0.0-20240608191410-e1d5343163cb // indirect
 	github.com/bjacquemet/personal-web v0.0.0-20230606080827-69cf270ceddf // indirect
 	github.com/blankoworld/hugo_theme_adam_eve v0.0.0-20230831124402-202f892ad6b4 // indirect
-	github.com/bowman2001/perplex v0.20.3 // indirect
+	github.com/bowman2001/perplex v0.20.4 // indirect
 	github.com/brianreumere/plague v0.4.0 // indirect
 	github.com/brycematheson/allegiant v0.0.0-20161024030126-4db3e8fe3a01 // indirect
 	github.com/bul-ikana/hugo-cards v0.0.0-20211031232746-55e303495347 // indirect
 	github.com/calintat/minimal v0.0.0-20210103220336-987f270dfee3 // indirect
-	github.com/canhtran/maverick v0.0.0-20240331062139-dcf832c83b4d // indirect
+	github.com/canhtran/maverick v0.0.0-20240716170409-d668f6f882e6 // indirect
 	github.com/canstand/compost v0.6.4 // indirect
 	github.com/capnfabs/paperesque v0.0.0-20240606105139-90acc9584917 // indirect
 	github.com/caressofsteel/hugo-story v0.0.0-20240521145125-b05c4ffd7030 // indirect
