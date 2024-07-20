@@ -433,7 +433,7 @@ require (
 	github.com/thomasheller/crab v1.0.0 // indirect
 	github.com/tnwhitwell/hugo-startpage-theme v0.0.0-20180704204829-76b1a1f5808e // indirect
 	github.com/tohn/linkshrubbery v0.0.0-20230623094327-4b529ca6cb8b // indirect
-	github.com/tomfran/typo v0.0.0-20240718184038-6edab8cc8a26 // indirect
+	github.com/tomfran/typo v0.0.0-20240719121251-b3d6f78dd482 // indirect
 	github.com/tomowang/hugo-theme-tailwind v0.0.0-20240717125410-2a0d54fcce9c // indirect
 	github.com/tosi29/inkblotty v0.0.0-20210329142630-603eab433785 // indirect
 	github.com/tummychow/lanyon-hugo v0.0.0-20210123043723-cd7b91420a90 // indirect
