@@ -4,7 +4,7 @@ go 1.22.4
 
 require (
 	github.com/10mohi6/hugo-theme-simple-blog v0.0.0-20200616052212-86b4f6f6d734 // indirect
-	github.com/17ms/yuan v0.0.0-20231107201735-635275395232 // indirect
+	github.com/17ms/yuan v0.0.0-20240721101613-faae7a9fdf26 // indirect
 	github.com/1bl4z3r/hermit-V2 v1.1.6 // indirect
 	github.com/2-REC/hugo-myportfolio-theme v0.0.0-20200725083546-d0708c5286eb // indirect
 	github.com/4ever9/less v0.0.0-20201228090934-105d2c8c6b53 // indirect
@@ -48,7 +48,7 @@ require (
 	github.com/M1cR0xf7/kaslaanka v0.0.0-20240409132442-821b4aa7d9af // indirect
 	github.com/MarcusVirg/forty v0.0.0-20190430033326-dccea57bd2ed // indirect
 	github.com/Masellum/hugo-theme-nostyleplease v0.0.0-20230920130130-22524617427a // indirect
-	github.com/McShelby/hugo-theme-relearn v0.0.0-20240704062354-1b2e13951210 // indirect
+	github.com/McShelby/hugo-theme-relearn v0.0.0-20240721222908-7aec99b38dc2 // indirect
 	github.com/MeiK2333/github-style v0.0.0-20240709080820-b6c325642862 // indirect
 	github.com/MichaelSchaecher/simple-dark v0.0.0-20240406131851-f63ff8c3902e // indirect
 	github.com/Morgscode/hugo-theme-spaced-blog v0.0.0-20240202212622-46fcfd100b4a // indirect
@@ -184,7 +184,7 @@ require (
 	github.com/fauzanmy/pehtheme-hugo v0.0.0-20240606070734-bb2df75ceb48 // indirect
 	github.com/felicianotech/hugo-theme-lean-launch-page v0.3.0 // indirect
 	github.com/fiatjaf/classless-hugo v0.0.0-20190708182146-0b99da439e48 // indirect
-	github.com/filipecarneiro/hugo-bootstrap-theme v1.0.35 // indirect
+	github.com/filipecarneiro/hugo-bootstrap-theme v1.0.41 // indirect
 	github.com/floyd-li/hugo-theme-itheme v0.0.0-20240108015539-c22b5df3f2d7 // indirect
 	github.com/fncnt/vncnt-hugo v0.0.0-20240422191321-fad7815bc6eb // indirect
 	github.com/forestryio/hugo-theme-novela v0.0.0-20210222084032-5d015eef4c56 // indirect
@@ -459,7 +459,7 @@ require (
 	github.com/wd/hugo-fabric v0.0.0-20191202002427-c416adb14920 // indirect
 	github.com/weastur/hugo-texify2 v0.2.0 // indirect
 	github.com/wileybaba/hugo-theme-robotico v0.0.0-20190128025338-a1e633362eee // indirect
-	github.com/willfaught/paige v0.90.0 // indirect
+	github.com/willfaught/paige v0.90.1 // indirect
 	github.com/wlh320/hugo-theme-hulga v1.0.1 // indirect
 	github.com/wtoll/venture v0.1.0 // indirect
 	github.com/xaprb/story v0.0.0-20220322144912-046bf4f12e69 // indirect
