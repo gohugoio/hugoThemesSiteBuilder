@@ -8,6 +8,12 @@
         "ignoreConfig": true,
         "ignoreImports": true,
         "noMounts": true,
+        "path": "git.myco.systems/mycosystems/hugo-maintenance"
+      },
+      {
+        "ignoreConfig": true,
+        "ignoreImports": true,
+        "noMounts": true,
         "path": "github.com/10mohi6/hugo-theme-simple-blog"
       },
       {
@@ -675,6 +681,12 @@
         "ignoreImports": true,
         "noMounts": true,
         "path": "github.com/dsrkafuu/hugo-theme-fuji"
+      },
+      {
+        "ignoreConfig": true,
+        "ignoreImports": true,
+        "noMounts": true,
+        "path": "github.com/dumindu/E25DX"
       },
       {
         "ignoreConfig": true,
@@ -1599,6 +1611,12 @@
         "ignoreImports": true,
         "noMounts": true,
         "path": "github.com/M1cR0xf7/kaslaanka"
+      },
+      {
+        "ignoreConfig": true,
+        "ignoreImports": true,
+        "noMounts": true,
+        "path": "github.com/maheenwaris/hugo-portfolio"
       },
       {
         "ignoreConfig": true,
