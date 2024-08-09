@@ -8,6 +8,12 @@
         "ignoreConfig": true,
         "ignoreImports": true,
         "noMounts": true,
+        "path": "git.myco.systems/mycosystems/hugo-maintenance"
+      },
+      {
+        "ignoreConfig": true,
+        "ignoreImports": true,
+        "noMounts": true,
         "path": "github.com/10mohi6/hugo-theme-simple-blog"
       },
       {
@@ -548,6 +554,12 @@
         "ignoreConfig": true,
         "ignoreImports": true,
         "noMounts": true,
+        "path": "github.com/CyrusYip/hugo-theme-yue"
+      },
+      {
+        "ignoreConfig": true,
+        "ignoreImports": true,
+        "noMounts": true,
         "path": "github.com/d-kusk/minimage"
       },
       {
@@ -675,6 +687,12 @@
         "ignoreImports": true,
         "noMounts": true,
         "path": "github.com/dsrkafuu/hugo-theme-fuji"
+      },
+      {
+        "ignoreConfig": true,
+        "ignoreImports": true,
+        "noMounts": true,
+        "path": "github.com/dumindu/E25DX"
       },
       {
         "ignoreConfig": true,
@@ -1604,6 +1622,12 @@
         "ignoreConfig": true,
         "ignoreImports": true,
         "noMounts": true,
+        "path": "github.com/maheenwaris/hugo-portfolio"
+      },
+      {
+        "ignoreConfig": true,
+        "ignoreImports": true,
+        "noMounts": true,
         "path": "github.com/manid2/hugo-xterm"
       },
       {
@@ -1761,6 +1785,12 @@
         "ignoreImports": true,
         "noMounts": true,
         "path": "github.com/mmrath/hugo-bootstrap"
+      },
+      {
+        "ignoreConfig": true,
+        "ignoreImports": true,
+        "noMounts": true,
+        "path": "github.com/mnjm/kayal"
       },
       {
         "ignoreConfig": true,
