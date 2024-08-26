@@ -836,7 +836,7 @@
         "ignoreConfig": true,
         "ignoreImports": true,
         "noMounts": true,
-        "path": "github.com/frjo/hugo-theme-zen/v3"
+        "path": "github.com/frjo/hugo-theme-zen/v4"
       },
       {
         "ignoreConfig": true,
@@ -1772,6 +1772,12 @@
         "ignoreConfig": true,
         "ignoreImports": true,
         "noMounts": true,
+        "path": "github.com/mirus-ua/hugo-theme-re-terminal"
+      },
+      {
+        "ignoreConfig": true,
+        "ignoreImports": true,
+        "noMounts": true,
         "path": "github.com/mismith0227/hugo_theme_pickles"
       },
       {
@@ -1946,6 +1952,12 @@
         "ignoreConfig": true,
         "ignoreImports": true,
         "noMounts": true,
+        "path": "github.com/ololiuhqui/magnolia-free-hugo-theme"
+      },
+      {
+        "ignoreConfig": true,
+        "ignoreImports": true,
+        "noMounts": true,
         "path": "github.com/onweru/compose"
       },
       {
@@ -1994,7 +2006,7 @@
         "ignoreConfig": true,
         "ignoreImports": true,
         "noMounts": true,
-        "path": "github.com/panr/hugo-theme-terminal"
+        "path": "github.com/panr/hugo-theme-terminal/v4"
       },
       {
         "ignoreConfig": true,
@@ -2774,6 +2786,12 @@
         "ignoreConfig": true,
         "ignoreImports": true,
         "noMounts": true,
+        "path": "github.com/wonyoung-jang/hugo-PolyRhythmic"
+      },
+      {
+        "ignoreConfig": true,
+        "ignoreImports": true,
+        "noMounts": true,
         "path": "github.com/wtoll/venture"
       },
       {
@@ -2895,6 +2913,12 @@
         "ignoreImports": true,
         "noMounts": true,
         "path": "github.com/zerostaticthemes/hugo-winston-theme"
+      },
+      {
+        "ignoreConfig": true,
+        "ignoreImports": true,
+        "noMounts": true,
+        "path": "github.com/zEttOn86/hugo_theme_windy"
       },
       {
         "ignoreConfig": true,
