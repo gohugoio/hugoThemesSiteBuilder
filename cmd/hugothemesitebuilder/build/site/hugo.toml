@@ -106,11 +106,11 @@ disableKinds    = ["taxonomy"]
   identifier = "themes"
   url        = "https://themes.gohugo.io/"
 
-[[menu.global]]
-  name       = "Showcase"
-  weight     = 20
-  identifier = "showcase"
-  url        = "https://gohugo.io/showcase/"
+#[[menu.global]]
+#  name       = "Showcase"
+#  weight     = 20
+#  identifier = "showcase"
+#  url        = "https://gohugo.io/showcase/"
 
 [[menu.global]]
   name       = "Community"
