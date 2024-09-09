@@ -1622,12 +1622,6 @@
         "ignoreConfig": true,
         "ignoreImports": true,
         "noMounts": true,
-        "path": "github.com/maheenwaris/hugo-portfolio"
-      },
-      {
-        "ignoreConfig": true,
-        "ignoreImports": true,
-        "noMounts": true,
         "path": "github.com/manid2/hugo-xterm"
       },
       {
