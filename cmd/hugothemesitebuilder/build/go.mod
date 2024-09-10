@@ -1,6 +1,6 @@
 module github.com/gohugoio/hugoThemesSiteBuilder/cmd/hugothemesitebuilder/build
 
-go 1.23.0
+go 1.23.1
 
 require (
 	git.myco.systems/mycosystems/hugo-maintenance v0.0.0-20240706211644-ac821105a05c // indirect
@@ -27,7 +27,7 @@ require (
 	github.com/EmielH/stip-hugo v1.0.0 // indirect
 	github.com/EmielH/tale-hugo v2.2.0+incompatible // indirect
 	github.com/ExchangeRate-API/strange-case v0.0.0-20210304125749-3ea1d7d50bd0 // indirect
-	github.com/FarseaSH/hugo-theme-moments v0.0.0-20240905135544-ad503162f29f // indirect
+	github.com/FarseaSH/hugo-theme-moments v0.0.0-20240909131044-5691f41e33a2 // indirect
 	github.com/Fastbyte01/KeepIt v0.0.0-20231031014040-50ffb35785a0 // indirect
 	github.com/GDGToulouse/devfest-theme-hugo v0.0.0-20240603135139-fa7219ae75d6 // indirect
 	github.com/HEIGE-PCloud/DoIt v0.4.0 // indirect
@@ -112,6 +112,7 @@ require (
 	github.com/barklan/hugo-dead-simple v1.75.60 // indirect
 	github.com/bep/docuapi/v2 v2.4.0 // indirect
 	github.com/bep/galleriesdeluxe v0.1.0 // indirect
+	github.com/bep/gallerydeluxe v0.11.1 // indirect
 	github.com/binokochumolvarghese/lightbi-hugo v0.0.0-20240909061855-6a4c3fca1347 // indirect
 	github.com/bjacquemet/personal-web v0.0.0-20230606080827-69cf270ceddf // indirect
 	github.com/blankoworld/hugo_theme_adam_eve v0.0.0-20240821172240-3eb322279bea // indirect
@@ -352,9 +353,9 @@ require (
 	github.com/onweru/compose v0.0.0-20240711165103-54b84e8adb91 // indirect
 	github.com/onweru/hugo-swift-theme v2.0.0+incompatible // indirect
 	github.com/onweru/newsroom v0.0.0-20240414151936-5a0c428a9b15 // indirect
-	github.com/opera7133/Blonde v0.0.0-20231206112515-d77c28284b46 // indirect
-	github.com/opera7133/tella v0.0.0-20240826030908-bd42d7589303 // indirect
-	github.com/opera7133/vnovel v0.0.0-20231206112306-d1c3cf709dfd // indirect
+	github.com/opera7133/Blonde v0.0.0-20240909110807-54361e1f95b2 // indirect
+	github.com/opera7133/tella v0.0.0-20240909112142-05b11175cc7c // indirect
+	github.com/opera7133/vnovel v0.0.0-20240909111753-cabd727d40ba // indirect
 	github.com/orf/bare-hugo-theme v0.0.0-20230401233253-f285059e1e56 // indirect
 	github.com/pacollins/calligraphy v0.0.0-20220703233739-2207fab30d71 // indirect
 	github.com/panr/hugo-theme-terminal/v4 v4.0.6 // indirect
@@ -397,7 +398,7 @@ require (
 	github.com/samrobbins85/hugo-developer-portfolio v0.0.0-20230421080835-4d3db20b1574 // indirect
 	github.com/sbruder/spectral v0.0.0-20231021125325-0d4b111afae1 // indirect
 	github.com/schmanat/hugo-highlights-theme v0.0.0-20200409134000-79eb66a32c74 // indirect
-	github.com/schnerring/hugo-theme-gruvbox v0.0.0-20240902114639-3e783bc7d1e9 // indirect
+	github.com/schnerring/hugo-theme-gruvbox v0.0.0-20240909235145-2f030b2a2a44 // indirect
 	github.com/schollz/onetwothree v0.0.0-20190916161743-a09e6530494c // indirect
 	github.com/seanlane/gochowdown v0.0.0-20220603122033-5458dc7bd80a // indirect
 	github.com/sefeng211/techlab-hugo-theme v0.0.0-20221108011911-ed0fcb80d48f // indirect
@@ -416,7 +417,7 @@ require (
 	github.com/spech66/bootstrap-bp-hugo-theme v5.3.3+incompatible // indirect
 	github.com/spech66/flex-bp-hugo-cv v0.0.0-20240323105238-e241bce51690 // indirect
 	github.com/spech66/materialize-bp-hugo-theme v0.0.0-20240403055010-5abd54ed00e5 // indirect
-	github.com/spf13/hyde v1.1.0 // indirect
+	github.com/spf13/hyde v1.2.0 // indirect
 	github.com/splch/hugo-simplecss v0.0.0-20220426050908-aa5090af89a9 // indirect
 	github.com/spookey/slick v0.4.6 // indirect
 	github.com/st-wong/hugo-spectre-pixel-theme v0.0.0-20240829043020-8fd99bdd4002 // indirect
@@ -431,7 +432,7 @@ require (
 	github.com/tcgriffith/hugo-owaraiclub v0.0.0-20191105071036-a25aabbb1d0f // indirect
 	github.com/techbarrack/terminal-hugo-theme v0.0.0-20240611081157-ecce8013f3b7 // indirect
 	github.com/the2ne/hugo-frais v0.0.0-20200104180115-f6f23a885a7a // indirect
-	github.com/theNewDynamic/gohugo-theme-ananke v0.0.0-20240503174335-33fbda0e9d3e // indirect
+	github.com/theNewDynamic/gohugo-theme-ananke v0.0.0-20240909125919-ded8960bcb64 // indirect
 	github.com/thegeeklab/hugo-geekblog v1.0.0 // indirect
 	github.com/thegeeklab/hugo-geekdoc v1.0.0 // indirect
 	github.com/thingsym/hugo-theme-techdoc v1.0.1 // indirect
