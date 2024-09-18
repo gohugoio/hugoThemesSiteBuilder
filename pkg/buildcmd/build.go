@@ -490,9 +490,9 @@ var goodTags = map[string]interface{}{
 	"company":      true,
 	"business":     "company",
 	"dark":         true,
-	"dark mode":    true,
+	"dark-mode":    true,
 	"hero":         true,
-	"light mode":   true,
+	"light-mode":   true,
 	"ecommerce":    true,
 	"gallery":      true,
 	"green":        true,
@@ -518,6 +518,7 @@ var goodTags = map[string]interface{}{
 
 func normalizeTag(s string) string {
 	s = strings.ToLower(s)
+	s = strings.ReplaceAll(s, " ", "-")
 
 	if v, found := goodTags[s]; found {
 		switch vv := v.(type) {
