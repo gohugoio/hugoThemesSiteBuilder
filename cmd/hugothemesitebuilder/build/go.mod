@@ -44,7 +44,7 @@ require (
 	github.com/Lednerb/bilberry-hugo-theme/v4 v4.9.0 // indirect
 	github.com/LordMathis/hugo-theme-nightfall v0.7.1 // indirect
 	github.com/LordMathis/hugo-theme-nix v0.0.0-20240818141531-769e761d680c // indirect
-	github.com/LucasVadilho/heyo-hugo-theme v0.0.0-20240830040439-a6efa99be301 // indirect
+	github.com/LucasVadilho/heyo-hugo-theme v0.0.0-20240917212023-fc1cbf59fdfe // indirect
 	github.com/LuisSousaRego/Ardeidae v0.0.0-20240326170118-2b03aa6f994f // indirect
 	github.com/LukasJoswiak/etch v0.0.0-20221013042144-3286754ceb4e // indirect
 	github.com/M1cR0xf7/kaslaanka v0.0.0-20240409132442-821b4aa7d9af // indirect
@@ -207,7 +207,7 @@ require (
 	github.com/gonnux/hugo-apps-theme v2.0.0+incompatible // indirect
 	github.com/goodroot/hugo-classic v0.0.0-20240813164802-b445a3e26ec3 // indirect
 	github.com/google/docsy v0.10.0 // indirect
-	github.com/guangmean/Niello v3.0.3+incompatible // indirect
+	github.com/guangmean/Niello v3.0.4+incompatible // indirect
 	github.com/guangzhengli/hugo-theme-ladder v1.2.0 // indirect
 	github.com/gundamew/hugo-bingo v1.8.2 // indirect
 	github.com/gurusabarish/hugo-profile v0.0.0-20240811064503-df24b5134e90 // indirect
@@ -432,14 +432,14 @@ require (
 	github.com/tcgriffith/hugo-owaraiclub v0.0.0-20191105071036-a25aabbb1d0f // indirect
 	github.com/techbarrack/terminal-hugo-theme v0.0.0-20240611081157-ecce8013f3b7 // indirect
 	github.com/the2ne/hugo-frais v0.0.0-20200104180115-f6f23a885a7a // indirect
-	github.com/theNewDynamic/gohugo-theme-ananke v0.0.0-20240910150237-af9d8e86fc3b // indirect
+	github.com/theNewDynamic/gohugo-theme-ananke v0.0.0-20240917163124-321680f6ee8f // indirect
 	github.com/thegeeklab/hugo-geekblog v1.0.0 // indirect
 	github.com/thegeeklab/hugo-geekdoc v1.0.0 // indirect
 	github.com/thingsym/hugo-theme-techdoc v1.0.1 // indirect
 	github.com/thomasheller/crab v1.0.0 // indirect
 	github.com/tnwhitwell/hugo-startpage-theme v0.0.0-20180704204829-76b1a1f5808e // indirect
 	github.com/tohn/linkshrubbery v0.0.0-20230623094327-4b529ca6cb8b // indirect
-	github.com/tomfran/typo v0.0.0-20240914145238-3bf5b50b542d // indirect
+	github.com/tomfran/typo v0.0.0-20240917204828-eaf952c8c65c // indirect
 	github.com/tomowang/hugo-theme-tailwind v0.0.0-20240827154831-21ec731106f5 // indirect
 	github.com/tosi29/inkblotty v0.0.0-20210329142630-603eab433785 // indirect
 	github.com/tummychow/lanyon-hugo v0.0.0-20210123043723-cd7b91420a90 // indirect
