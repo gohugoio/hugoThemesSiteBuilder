@@ -443,7 +443,7 @@ require (
 	github.com/tomowang/hugo-theme-tailwind v0.0.0-20240827154831-21ec731106f5 // indirect
 	github.com/tosi29/inkblotty v0.0.0-20210329142630-603eab433785 // indirect
 	github.com/tummychow/lanyon-hugo v0.0.0-20210123043723-cd7b91420a90 // indirect
-	github.com/tylerjlawson/port-hugo v0.0.0-20240330025428-005c9518aa1e // indirect
+	github.com/tylerjlawson/port-hugo v0.0.0-20240918204613-eef922bcc8b6 // indirect
 	github.com/tylerjlawson/simple-resume v0.0.0-20211026182531-a6bbdc145e1b // indirect
 	github.com/tylerjlawson/simple-snipcart-shop v0.0.0-20220323145220-3d18970a8c9a // indirect
 	github.com/uPagge/uBlogger v1.2.0 // indirect
