@@ -122,7 +122,7 @@ require (
 	github.com/bul-ikana/hugo-cards v0.0.0-20211031232746-55e303495347 // indirect
 	github.com/calintat/minimal v0.0.0-20210103220336-987f270dfee3 // indirect
 	github.com/canhtran/maverick v0.0.0-20240716170409-d668f6f882e6 // indirect
-	github.com/canstand/compost v0.6.4 // indirect
+	github.com/canstand/compost v0.7.0 // indirect
 	github.com/capnfabs/paperesque v0.0.0-20240606105139-90acc9584917 // indirect
 	github.com/caressofsteel/hugo-story v0.0.0-20240723132157-e3e2b8d86730 // indirect
 	github.com/carsonip/hugo-theme-minos v0.0.0-20210404151835-ebac3b34438e // indirect
@@ -250,7 +250,7 @@ require (
 	github.com/jaden/twentyfourteen v0.0.0-20191130221218-9380d3fa1855 // indirect
 	github.com/jakewies/hugo-theme-codex v1.6.0 // indirect
 	github.com/janraasch/hugo-bearblog v0.0.0-20240409062118-efc24bc5e95f // indirect
-	github.com/janraasch/hugo-product-launch v0.0.0-20240916171155-52d371a84eba // indirect
+	github.com/janraasch/hugo-product-launch v0.0.0-20240919170642-d57453839c00 // indirect
 	github.com/jbub/ghostwriter v0.6.0 // indirect
 	github.com/jeblister/bulma v0.0.0-20220331084658-8d25840df6ac // indirect
 	github.com/jeremybise/twentynineteen-hugo v0.0.0-20191008161335-7c0a63e24114 // indirect
@@ -353,7 +353,7 @@ require (
 	github.com/onweru/compose v0.0.0-20240916142207-c30136892257 // indirect
 	github.com/onweru/hugo-swift-theme v2.0.0+incompatible // indirect
 	github.com/onweru/newsroom v0.0.0-20240414151936-5a0c428a9b15 // indirect
-	github.com/opera7133/Blonde v0.0.0-20240909110807-54361e1f95b2 // indirect
+	github.com/opera7133/Blonde v0.0.0-20240919045326-ee6382dfc7ad // indirect
 	github.com/opera7133/tella v0.0.0-20240909112142-05b11175cc7c // indirect
 	github.com/opera7133/vnovel v0.0.0-20240909111753-cabd727d40ba // indirect
 	github.com/orf/bare-hugo-theme v0.0.0-20230401233253-f285059e1e56 // indirect
@@ -432,7 +432,7 @@ require (
 	github.com/tcgriffith/hugo-owaraiclub v0.0.0-20191105071036-a25aabbb1d0f // indirect
 	github.com/techbarrack/terminal-hugo-theme v0.0.0-20240611081157-ecce8013f3b7 // indirect
 	github.com/the2ne/hugo-frais v0.0.0-20200104180115-f6f23a885a7a // indirect
-	github.com/theNewDynamic/gohugo-theme-ananke v0.0.0-20240917163124-321680f6ee8f // indirect
+	github.com/theNewDynamic/gohugo-theme-ananke v0.0.0-20240919090412-ca6da4883e76 // indirect
 	github.com/thegeeklab/hugo-geekblog v1.0.0 // indirect
 	github.com/thegeeklab/hugo-geekdoc v1.0.0 // indirect
 	github.com/thingsym/hugo-theme-techdoc v1.0.1 // indirect
