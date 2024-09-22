@@ -878,6 +878,12 @@
         "ignoreConfig": true,
         "ignoreImports": true,
         "noMounts": true,
+        "path": "github.com/gentleadam/hugo-menu"
+      },
+      {
+        "ignoreConfig": true,
+        "ignoreImports": true,
+        "noMounts": true,
         "path": "github.com/geschke/hugo-tikva"
       },
       {
@@ -1041,6 +1047,12 @@
         "ignoreImports": true,
         "noMounts": true,
         "path": "github.com/hotjuicew/hugo-JuiceBar"
+      },
+      {
+        "ignoreConfig": true,
+        "ignoreImports": true,
+        "noMounts": true,
+        "path": "github.com/htnabe/HikaeMe"
       },
       {
         "ignoreConfig": true,
