@@ -22,7 +22,7 @@ require (
 	github.com/Bonzdev/alexa-portfolio v0.0.0-20211126085019-886d97a260c2 // indirect
 	github.com/CaiJimmy/hugo-theme-stack/v3 v3.27.0 // indirect
 	github.com/CyrusYip/hugo-theme-yue v0.0.0-20240922074514-3893c45b5658 // indirect
-	github.com/ElecBrandy/freshpink v0.0.0-20240922142304-7fd926053735 // indirect
+	github.com/ElecBrandy/freshpink v0.0.0-20240927161940-e5d77529af81 // indirect
 	github.com/EmielH/hallo-hugo v2.7.0+incompatible // indirect
 	github.com/EmielH/stip-hugo v1.0.0 // indirect
 	github.com/EmielH/tale-hugo v2.2.0+incompatible // indirect
@@ -214,7 +214,7 @@ require (
 	github.com/gurusabarish/hugo-profile v0.0.0-20240811064503-df24b5134e90 // indirect
 	github.com/gyorb/hugo-dusk v1.3.0 // indirect
 	github.com/hadisinaee/avicenna v0.0.0-20210802003840-1412ad1b941f // indirect
-	github.com/half-duplex/hugo-arcana v0.0.0-20240507162146-4243c0f7c9d1 // indirect
+	github.com/half-duplex/hugo-arcana v0.0.0-20240927151654-73c2ec1fd3af // indirect
 	github.com/halogenica/beautifulhugo v0.0.0-20240903032548-fd74af48c3bb // indirect
 	github.com/hauke96/hugo-theme-hamburg v0.8.2 // indirect
 	github.com/hbstack/theme v0.4.0 // indirect
@@ -469,11 +469,11 @@ require (
 	github.com/wileybaba/hugo-theme-robotico v0.0.0-20190128025338-a1e633362eee // indirect
 	github.com/willfaught/paige v0.92.0 // indirect
 	github.com/wlh320/hugo-theme-hulga v1.1.0 // indirect
-	github.com/wonyoung-jang/hugo-PolyRhythmic v0.0.0-20240926201227-c01fadce24ce // indirect
+	github.com/wonyoung-jang/hugo-PolyRhythmic v0.0.0-20240927132256-92c028a2a82c // indirect
 	github.com/wtoll/venture v0.1.0 // indirect
 	github.com/xaprb/story v0.0.0-20220322144912-046bf4f12e69 // indirect
 	github.com/xaviablaza/hugo-lodi-theme v0.0.0-20190215050835-89984401ebf2 // indirect
-	github.com/xianmin/hugo-theme-jane v0.0.0-20240921102405-4be0bdc8a266 // indirect
+	github.com/xianmin/hugo-theme-jane v0.0.0-20240927212908-c0c6323dfb19 // indirect
 	github.com/xiaoheiAh/hugo-theme-pure v0.0.0-20210607025111-902bd9b73dae // indirect
 	github.com/xioyito/NewBee v1.2.3 // indirect
 	github.com/xslingcn/vno-hugo v1.1.3 // indirect
