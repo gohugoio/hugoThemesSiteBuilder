@@ -194,7 +194,7 @@ require (
 	github.com/fourtyone11/origin-hugo-theme v0.0.0-20200611125917-021c45772a9a // indirect
 	github.com/frjo/hugo-theme-zen/v4 v4.1.0 // indirect
 	github.com/funkydan2/alpha-church v0.0.0-20240926233822-eb11ade66436 // indirect
-	github.com/funkydan2/hugo-kiera v1.1.2 // indirect
+	github.com/funkydan2/hugo-kiera v1.1.3 // indirect
 	github.com/g1eny0ung/hugo-theme-dream v3.8.2+incompatible // indirect
 	github.com/garvincasimir/hugo-h5bp-simple v0.0.0-20190817231606-e834d00b96bb // indirect
 	github.com/gcaracuel/hugo-theme-gutenberg v0.0.0-20210225105328-abd624652c48 // indirect
@@ -278,7 +278,7 @@ require (
 	github.com/kaiiiz/hugo-theme-monochrome v3.1.0+incompatible // indirect
 	github.com/kakawait/hugo-tranquilpeak-theme v0.0.0-20220821070134-3b5676afca7e // indirect
 	github.com/kaushalmodi/hugo-bare-min-theme v0.6.0 // indirect
-	github.com/kaushikgopal/henry-hugo v0.0.0-20240921225020-0be606b8d8b0 // indirect
+	github.com/kaushikgopal/henry-hugo v0.0.0-20240929203458-666de2df1c7f // indirect
 	github.com/kc0bfv/autophugo v0.0.0-20240405222923-a77901f07531 // indirect
 	github.com/kc0bfv/ticky_tacky_dark v0.0.0-20221111221805-f626fbd274d1 // indirect
 	github.com/kdevo/osprey-delight/v5 v5.0.7 // indirect
