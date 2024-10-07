@@ -22,7 +22,7 @@ require (
 	github.com/Bonzdev/alexa-portfolio v0.0.0-20211126085019-886d97a260c2 // indirect
 	github.com/CaiJimmy/hugo-theme-stack/v3 v3.27.0 // indirect
 	github.com/CyrusYip/hugo-theme-yue v0.0.0-20240922074514-3893c45b5658 // indirect
-	github.com/ElecBrandy/freshpink v0.0.0-20240927161940-e5d77529af81 // indirect
+	github.com/ElecBrandy/freshpink v0.0.0-20241006091421-f9b43757a3dc // indirect
 	github.com/EmielH/hallo-hugo v2.7.0+incompatible // indirect
 	github.com/EmielH/stip-hugo v1.0.0 // indirect
 	github.com/EmielH/tale-hugo v2.2.0+incompatible // indirect
@@ -436,8 +436,8 @@ require (
 	github.com/techbarrack/terminal-hugo-theme v0.0.0-20240611081157-ecce8013f3b7 // indirect
 	github.com/the2ne/hugo-frais v0.0.0-20200104180115-f6f23a885a7a // indirect
 	github.com/theNewDynamic/gohugo-theme-ananke v0.0.0-20240928043059-33178c0d498e // indirect
-	github.com/thegeeklab/hugo-geekblog v1.0.0 // indirect
-	github.com/thegeeklab/hugo-geekdoc v1.0.0 // indirect
+	github.com/thegeeklab/hugo-geekblog v1.1.0 // indirect
+	github.com/thegeeklab/hugo-geekdoc v1.1.0 // indirect
 	github.com/thingsym/hugo-theme-techdoc v1.0.1 // indirect
 	github.com/thomasheller/crab v1.0.0 // indirect
 	github.com/tnwhitwell/hugo-startpage-theme v0.0.0-20180704204829-76b1a1f5808e // indirect
@@ -494,7 +494,7 @@ require (
 	github.com/zetxek/adritian-free-hugo-theme v1.1.1 // indirect
 	github.com/zhaohuabing/hugo-theme-cleanwhite v0.0.0-20240921073947-c84f90a0d830 // indirect
 	github.com/zhe/hugo-theme-slim v0.0.0-20190920014445-f666effe196a // indirect
-	github.com/zjedi/hugo-scroll v0.0.0-20240915231115-ae3f16bd93d5 // indirect
+	github.com/zjedi/hugo-scroll v0.0.0-20241006185129-b88d13e7f050 // indirect
 	github.com/zzossig/hugo-theme-zdoc v0.0.0-20201105143606-574f6c3d26d5 // indirect
 	github.com/zzossig/hugo-theme-zzo v0.0.0-20210523142617-01f9e43e59b0 // indirect
 	github.com/zzzmisa/hugo-theme-doors v0.0.0-20231124013016-44ae7c3ba68e // indirect
