@@ -2354,6 +2354,12 @@
         "ignoreConfig": true,
         "ignoreImports": true,
         "noMounts": true,
+        "path": "github.com/shenoydotme/hugo-goa"
+      },
+      {
+        "ignoreConfig": true,
+        "ignoreImports": true,
+        "noMounts": true,
         "path": "github.com/siegerts/hugo-theme-basic"
       },
       {
