@@ -135,7 +135,7 @@ require (
 	github.com/chipzoller/hugo-clarity v0.0.0-20240923132253-174a5e638704 // indirect
 	github.com/chollinger93/ink-free v1.4.3 // indirect
 	github.com/chrede88/L1nkr v1.8.6 // indirect
-	github.com/chrede88/qubt v1.3.2 // indirect
+	github.com/chrede88/qubt v1.4.0 // indirect
 	github.com/chringel21/chringel-hugo-theme v1.3.1 // indirect
 	github.com/clente/hugo-bearcub v0.0.0-20240903145222-7cc146b13f3b // indirect
 	github.com/cloudwithchris/hugo-creator v0.0.32 // indirect
@@ -202,7 +202,7 @@ require (
 	github.com/gentleadam/hugo-menu v0.0.0-20240921094303-089916b92b9f // indirect
 	github.com/geschke/hugo-tikva v0.4.0 // indirect
 	github.com/gesquive/slate v1.1.1 // indirect
-	github.com/gethinode/hinode v0.27.5 // indirect
+	github.com/gethinode/hinode v0.27.7 // indirect
 	github.com/gethyas/doks v1.7.0 // indirect
 	github.com/gevhaz/hugo-theme-notrack v0.0.0-20241018093114-14d307d7b843 // indirect
 	github.com/gizak/nofancy v0.0.0-20180325214227-ae4670287c71 // indirect
@@ -464,7 +464,7 @@ require (
 	github.com/victoriadrake/neofeed-theme/v2 v2.0.6 // indirect
 	github.com/vimux/blank v0.0.0-20231125180609-43cac0184173 // indirect
 	github.com/vjeantet/hugo-theme-docport v0.0.0-20201105223056-b43c043a7b91 // indirect
-	github.com/wayjam/hugo-theme-fluency v0.0.0-20240610090413-32218f074eb6 // indirect
+	github.com/wayjam/hugo-theme-fluency v0.0.0-20241026163529-77014bdb2272 // indirect
 	github.com/wayjam/hugo-theme-mixedpaper v0.0.0-20200816131211-367945f7d7c0 // indirect
 	github.com/wd/hugo-fabric v0.0.0-20191202002427-c416adb14920 // indirect
 	github.com/weastur/hugo-texify2 v0.2.0 // indirect
