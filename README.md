@@ -169,14 +169,14 @@ The Netlify deploy preview can fail for a variety of reasons. The following step
    
    <summary>error: no image found for "images/tn</summary>
    
-   If your Netlify deploy preview fails with an error like `error: no image found for "images/tn"` then you should check your theme to see whether you have included the screenshots as per the guidelines mentioned [here](#media). 
-   If you get this error despite having the screenshots in your theme, it’s likely because the images weren’t part of the latest release when it was created. To resolve this:
+   If your Netlify deploy preview fails with an error like `error: no image found for "images/tn"` then you should check your theme to see whether you have included the images as per the guidelines mentioned [here](#media). 
+   If you get this error despite having the images in your theme, it’s likely that the images weren’t part of the latest release when it was created. To resolve this:
    
-   1. **Check Your Release**: Make sure the images or other required assets were included in the latest tagged release.
+   1. **Check your release**: make sure the images were included in the latest tagged release.
      
-   2. **Create a New Release Tag**: If the images were added after the last release, create a new release tag to incorporate them (e.g., `v0.1.1` if the previous release was `v0.1.0`).
+   2. **Create a new release tag**: if the images were added after the last release, create a new release tag to incorporate them (e.g., `v0.1.1` if the previous release was `v0.1.0`).
    
-   3. **Trigger a new deploy preview**: After tagging the latest version, follow the steps mentioned above to trigger a new deploy preview.
+   3. **Trigger a new deploy preview**: after tagging the latest version, follow the steps mentioned above to trigger a new deploy preview.
    
    </details>
 
