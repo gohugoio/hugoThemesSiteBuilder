@@ -78,7 +78,7 @@ You may omit the fields `extended`, `min`, or `max`.
 You must provide two images: a thumbnail and a screenshot, which will be used for theme previews. These images should showcase the theme's layout without any browser or device mockups and adhere to the following specifications:
 
 - **Aspect Ratio**: Both the thumbnail and screenshot should have a 3:2 aspect ratio.
-- **File mame & location**:
+- **File name & location**:
   - Place `screenshot.{png,jpg}` in <code><em>[ThemeDir]</em>/images/screenshot.{png,jpg}</code>.
   - Place `tn.{png,jpg}` in <code><em>[ThemeDir]</em>/images/tn.{png,jpg}</code>.
 - **Dimension**:
