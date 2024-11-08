@@ -4,7 +4,7 @@ on:
     - cron: "0 0 * * *"
   workflow_dispatch:
 env:
-  HUGO_VERSION: "v0.125.6"
+  HUGO_VERSION: "v0.136.5"
 jobs:
   build:
     runs-on: ubuntu-latest

@@ -23,30 +23,6 @@ After making your theme available online, you can include it here by following t
 3. Write a meaningful commit message (e.g. `Add theme my-blog-theme`).
 4. Create a pull request(PR) and ensure that Netlify deploy preview succeeds.
 
-## Troubleshooting a failed Netlify deploy preview
-
-The Netlify deploy preview can fail for a variety of reasons. The following steps outline how to troubleshoot such a failure.
-
-1. **Inspect the Log:** examine the associated log and identify the issue.
-
-2. **Fix the issue:** push commits required to fix the issue.
-
-3. **Trigger a new deploy preview:** A new deploy preview can be created as follows.
-
-   Amend the commit in your PR branch
-
-   ```bash
-   git commit --amend --no-edit
-   ```
-
-   Do a force push
-
-   ```bash
-   git push -f
-   ```
-
-> **Note**: The [themes site](https://themes.gohugo.io/) is scheduled to rebuild every day at UTC 00:00 (HH:MM). Any new theme addition or changes to existing theme will be reflected on the website after the next scheduled rebuild is complete.
-
 ## Theme configuration
 
 Your theme should have a `theme.toml` file in the root directory. This file should contain relevant metadata about the theme and its creator(s). It's important to note that only the `theme.toml` file format is supported. `theme.yaml` or `theme.json` files are not supported currently.
@@ -97,19 +73,17 @@ Your theme should also have a configuration file (such as `config.toml`) that sp
 
 You may omit the fields `extended`, `min`, or `max`.
 
-Theme maintainers are requested **not** to delete Git references or tags from your theme's repository.  Doing so may cause issues with fetching specific version of a module, leading to errors.
-
 ## Media
 
-Screenshots are used as theme previews in the list. They should feature a theme's layout (without any browser chrome or device mockups) and have the following dimensions:
+You must provide two images: a thumbnail and a screenshot, which will be used for theme previews. These images should showcase the theme's layout without any browser or device mockups and adhere to the following specifications:
 
-* Both the Thumbnail and Screenshot must be in 3:2 aspect ratio.
-* Screenshot (`screenshot.png` or `screenshot.jpg`) should have a dimension of at least 1500×1000 in pixels.
-* Thumbnail (`tn.png` or `tn.jpg`) should have a dimension of at least 900×600 in pixels.
-* Media must be located in:
-    * <code><em>[ThemeDir]</em>/images/screenshot.{png,jpg}</code>
-    * <code><em>[ThemeDir]</em>/images/tn.{png,jpg}</code>
-
+- **Aspect Ratio**: Both the thumbnail and screenshot should have a 3:2 aspect ratio.
+- **File name & location**:
+  - Place `screenshot.{png,jpg}` in <code><em>[ThemeDir]</em>/images/screenshot.{png,jpg}</code>.
+  - Place `tn.{png,jpg}` in <code><em>[ThemeDir]</em>/images/tn.{png,jpg}</code>.
+- **Dimension**:
+  - **Screenshot**: minimum size of 1500×1000 px.
+  - **Thumbnail**: minimum size of 900×600 px.
 
 Additional media may be provided in the same directory.
 
@@ -128,7 +102,7 @@ If you are adding images to README, make sure to use absolute file paths instead
 Examples:
 
 - Absolute Path: `https://raw.githubusercontent.com/user/repo/branch/images/tn.png`
-- Relative Path: `images/example.png`
+- Relative Path: `images/tn.png`
 
 
 Relative paths work great on GitHub/GitLab, but they don't correspond to the directory structure of [themes.gohugo.io](https://themes.gohugo.io/) website. Therefore, browsers will not be able to display the image if relative path is used.
@@ -158,6 +132,53 @@ In any other case, if a submission is found to be in violation of licence of the
 
 Themes that require payment are not accepted. Themes with READMEs set up as marketing campaigns for other products (e.g. paid version of a free theme) will not be accepted.
 
+## Troubleshooting a failed Netlify deploy preview
+
+The Netlify deploy preview can fail for a variety of reasons. The following steps outline how to troubleshoot such a failure.
+
+1. **Inspect the Log:** examine the associated log and identify the issue.
+
+2. **Fix the issue:** push commits required to fix the issue.
+
+3. **Trigger a new deploy preview:** A new deploy preview can be created as follows.
+
+   Amend the commit in your PR branch
+
+   ```bash
+   git commit --amend --no-edit
+   ```
+
+   Do a force push
+
+   ```bash
+   git push -f
+   ```
+
+> [!NOTE]  
+> The [themes site](https://themes.gohugo.io/) is scheduled to rebuild every day at UTC 00:00 (HH:MM). Any new theme addition or changes to existing theme will be reflected on the website after the next scheduled rebuild is complete.
+
+> [!NOTE]  
+> The build process utilizes metadata (such as config and images) from the latest release of your theme. If you haven't created any releases, it will use information from the most recent commit instead.
+
+> [!WARNING]  
+> The buid process uses Go modules. You are requested **not** to delete Git references or tags from your theme's repository. Doing so may cause issues with fetching specific version of a module, leading to errors.
+
+### Common errors and their resolutions
+
+   <details>
+   
+   <summary>error: no image found for "images/tn</summary>
+   
+   If your Netlify deploy preview fails with an error like `error: no image found for "images/tn"` then you should check your theme to see whether you have included the images as per the guidelines mentioned [here](#media). 
+   If you get this error despite having the images in your theme, it’s likely that the images weren’t part of the latest release when it was created. To resolve this:
+   
+   1. **Check your release**: make sure the images were included in the latest tagged release.
+     
+   2. **Create a new release tag**: if the images were added after the last release, create a new release tag to incorporate them (e.g., `v0.1.1` if the previous release was `v0.1.0`).
+   
+   3. **Trigger a new deploy preview**: after tagging the latest version, follow the steps mentioned above to trigger a new deploy preview.
+   
+   </details>
 
 # Outdated themes
 
