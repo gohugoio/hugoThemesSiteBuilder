@@ -283,7 +283,7 @@ require (
 	github.com/kaiiiz/hugo-theme-monochrome v4.0.0+incompatible // indirect
 	github.com/kakawait/hugo-tranquilpeak-theme v0.0.0-20220821070134-3b5676afca7e // indirect
 	github.com/kaushalmodi/hugo-bare-min-theme v0.6.0 // indirect
-	github.com/kaushikgopal/henry-hugo v0.0.0-20241030172507-28621650e382 // indirect
+	github.com/kaushikgopal/henry-hugo v0.0.0-20241203232830-0a65bcdd2fea // indirect
 	github.com/kc0bfv/autophugo v0.0.0-20241124220856-7acf1a7caa67 // indirect
 	github.com/kc0bfv/ticky_tacky_dark v0.0.0-20221111221805-f626fbd274d1 // indirect
 	github.com/kdevo/osprey-delight/v5 v5.0.7 // indirect
@@ -327,7 +327,7 @@ require (
 	github.com/mdashx/basicwebtheme v0.3.0 // indirect
 	github.com/meibenny/elephants v0.1.4 // indirect
 	github.com/michaelneuper/hugo-texify3 v0.0.0-20241129193136-4a9c4398666e // indirect
-	github.com/michenriksen/hugo-theme-til v0.5.2 // indirect
+	github.com/michenriksen/hugo-theme-til v0.6.0 // indirect
 	github.com/michimani/simplog v0.0.0-20230526204025-be7cd1a6694e // indirect
 	github.com/miguelsimoni/hugo-initio v0.0.0-20230619214421-1f75a080452e // indirect
 	github.com/mikeblum/hugo-now v0.3.0 // indirect
