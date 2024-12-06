@@ -50,7 +50,7 @@ require (
 	github.com/M1cR0xf7/kaslaanka v0.0.0-20241018122350-b6fff4183d15 // indirect
 	github.com/MarcusVirg/forty v0.0.0-20190430033326-dccea57bd2ed // indirect
 	github.com/Masellum/hugo-theme-nostyleplease v0.0.0-20241201065530-034ae899db8b // indirect
-	github.com/McShelby/hugo-theme-relearn v0.0.0-20241204191025-25824cef5bf0 // indirect
+	github.com/McShelby/hugo-theme-relearn v0.0.0-20241205232316-2c5ac2b60022 // indirect
 	github.com/MeiK2333/github-style v0.0.0-20241125012343-74b2fa2fe04b // indirect
 	github.com/MichaelSchaecher/simple-dark v0.0.0-20240406131851-f63ff8c3902e // indirect
 	github.com/Morgscode/hugo-theme-spaced-blog v0.0.0-20241015182912-2fa656e549dc // indirect
@@ -283,7 +283,7 @@ require (
 	github.com/kaiiiz/hugo-theme-monochrome v4.0.0+incompatible // indirect
 	github.com/kakawait/hugo-tranquilpeak-theme v0.0.0-20220821070134-3b5676afca7e // indirect
 	github.com/kaushalmodi/hugo-bare-min-theme v0.6.0 // indirect
-	github.com/kaushikgopal/henry-hugo v0.0.0-20241204043356-dc581e36e1b6 // indirect
+	github.com/kaushikgopal/henry-hugo v0.0.0-20241205170653-644f0a5f393c // indirect
 	github.com/kc0bfv/autophugo v0.0.0-20241124220856-7acf1a7caa67 // indirect
 	github.com/kc0bfv/ticky_tacky_dark v0.0.0-20221111221805-f626fbd274d1 // indirect
 	github.com/kdevo/osprey-delight/v5 v5.0.7 // indirect
@@ -339,8 +339,8 @@ require (
 	github.com/mohamedelhefni/zahi v0.0.0-20240428061523-2f25953e86ba // indirect
 	github.com/monkeyWzr/hugo-theme-cactus v0.0.0-20240312084910-a5df1d6bed25 // indirect
 	github.com/mrhelloboy/seven v1.7.3 // indirect
-	github.com/mrmierzejewski/hugo-theme-console v0.0.0-20241204183324-a2668fff85da // indirect
-	github.com/nanxiaobei/hugo-paper v0.0.0-20240911142118-22dd5fb368f1 // indirect
+	github.com/mrmierzejewski/hugo-theme-console v0.0.0-20241205185154-69afe3ccd2a4 // indirect
+	github.com/nanxiaobei/hugo-paper v0.0.0-20241205182052-8eeb1e8a513d // indirect
 	github.com/nanxstats/hugo-tanka v0.0.0-20210707221939-9bec4eba33e5 // indirect
 	github.com/naro143/hugo-coder-portfolio v0.0.0-20200903083500-255d92337c07 // indirect
 	github.com/natarajmb/charaka-hugo-theme v0.0.0-20201215113736-021bc743417b // indirect
