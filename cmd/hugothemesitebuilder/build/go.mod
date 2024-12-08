@@ -50,7 +50,7 @@ require (
 	github.com/M1cR0xf7/kaslaanka v0.0.0-20241018122350-b6fff4183d15 // indirect
 	github.com/MarcusVirg/forty v0.0.0-20190430033326-dccea57bd2ed // indirect
 	github.com/Masellum/hugo-theme-nostyleplease v0.0.0-20241206231156-54b49193a0c5 // indirect
-	github.com/McShelby/hugo-theme-relearn v0.0.0-20241205232316-2c5ac2b60022 // indirect
+	github.com/McShelby/hugo-theme-relearn v0.0.0-20241208000153-520876608545 // indirect
 	github.com/MeiK2333/github-style v0.0.0-20241125012343-74b2fa2fe04b // indirect
 	github.com/MichaelSchaecher/simple-dark v0.0.0-20240406131851-f63ff8c3902e // indirect
 	github.com/Morgscode/hugo-theme-spaced-blog v0.0.0-20241015182912-2fa656e549dc // indirect
@@ -155,7 +155,7 @@ require (
 	github.com/curtiscde/hugo-theme-massively v6.7.0+incompatible // indirect
 	github.com/cyevgeniy/monday-theme v0.0.0-20220914082252-bbc8d0ac6b8a // indirect
 	github.com/d-kusk/minimage v0.0.0-20220111164856-4b041de5f767 // indirect
-	github.com/d-sketon/hugo-theme-reimu v0.1.0 // indirect
+	github.com/d-sketon/hugo-theme-reimu v0.2.0 // indirect
 	github.com/damiencaselli/hugo-journal v0.0.0-20210402093327-32b5d7cac5d0 // indirect
 	github.com/damiencaselli/paperback v0.0.0-20210402085202-17a1f57512f3 // indirect
 	github.com/danielkvist/hugo-piercer-theme v1.2.2 // indirect
@@ -166,7 +166,7 @@ require (
 	github.com/dataCobra/hugo-vitae v0.0.0-20241011091145-ea62bcbff66d // indirect
 	github.com/davidhampgonsalves/hugo-black-and-light-theme v0.0.0-20231209011516-e024de785b91 // indirect
 	github.com/dchucks/agnes-hugo-theme v0.0.0-20240621082436-696a93321a2a // indirect
-	github.com/derme302/triple-hyde v2023.10.7+incompatible // indirect
+	github.com/derme302/triple-hyde v2024.12.7+incompatible // indirect
 	github.com/desmondlzy/bloggraph v0.0.0-20241107230447-b76fdf21c966 // indirect
 	github.com/devcows/hugo-universal-theme v0.0.0-20241014210449-11d5d7de6a1e // indirect
 	github.com/dewittn/hugo-html5up-alpha v0.0.0-20200529171052-b921f3bccb74 // indirect
@@ -205,7 +205,7 @@ require (
 	github.com/gesquive/slate v1.1.1 // indirect
 	github.com/gethinode/hinode v0.27.12 // indirect
 	github.com/gethyas/doks v1.7.0 // indirect
-	github.com/gevhaz/hugo-theme-notrack v0.0.0-20241118154427-e248ac5a845a // indirect
+	github.com/gevhaz/hugo-theme-notrack v0.0.0-20241207030341-418142e3f1c2 // indirect
 	github.com/gizak/nofancy v0.0.0-20180325214227-ae4670287c71 // indirect
 	github.com/gonnux/hugo-apps-theme v2.0.0+incompatible // indirect
 	github.com/goodroot/hugo-classic v0.0.0-20240813164802-b445a3e26ec3 // indirect
