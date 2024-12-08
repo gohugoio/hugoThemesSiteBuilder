@@ -66,10 +66,16 @@ func New(rootConfig *rootcmd.Config) *ffcli.Command {
 func (c *Config) Exec(ctx context.Context, args []string) error {
 	const configAll = "config.json"
 	contentDir := c.rootConfig.Client.JoinOutPath("site", "content")
+	staticDir := c.rootConfig.Client.JoinOutPath("site", "static")
 	configFile := c.rootConfig.Client.JoinOutPath(configAll)
 	client.CheckErr(os.Remove(configFile))
 
-	bc := &buildClient{Client: c.rootConfig.Client, contentDir: contentDir, w: workers.New(4)}
+	bc := &buildClient{
+		Client:     c.rootConfig.Client,
+		contentDir: contentDir,
+		staticDir:  staticDir,
+		w:          workers.New(4),
+	}
 
 	if !bc.OutFileExists("go.mod") {
 		// Initialize the Hugo Module
@@ -117,11 +123,17 @@ type buildClient struct {
 	mmap client.ModulesMap
 
 	contentDir string
+	staticDir  string
 
 	// Loaded from GitHub
 	ghReposInit sync.Once
 	ghRepos     map[string]client.GitHubRepo
 	maxStars    int
+}
+
+type asset struct {
+	source string
+	target string
 }
 
 func (c *buildClient) err(err error) {
@@ -201,19 +213,49 @@ func (c *buildClient) writeThemeContent(k string, m client.Module) error {
 	client.CheckErr(os.MkdirAll(themeDir, 0o777))
 
 	copyIfExists := func(sourcePath, targetPath string) error {
-		fs, err := os.Open(filepath.Join(m.Dir, sourcePath))
+		fs, err := os.Open(sourcePath)
 		if err != nil {
 			return err
 		}
 		defer fs.Close()
-		targetFilename := filepath.Join(themeDir, targetPath)
-		client.CheckErr(os.MkdirAll(filepath.Dir(targetFilename), 0o777))
-		ft, err := os.Create(targetFilename)
+		client.CheckErr(os.MkdirAll(filepath.Dir(targetPath), 0o777))
+		ft, err := os.Create(targetPath)
 		client.CheckErr(err)
 		defer ft.Close()
 
 		_, err = io.Copy(ft, fs)
 		client.CheckErr(err)
+
+		return nil
+	}
+
+	copyAsset := func(source, target string) error {
+		var foundOne bool
+		allowedExts := []string{".png", ".jpg"}
+		for _, ext := range allowedExts {
+			sourceFilename := filepath.Join(m.Dir, source) + ext
+			targetFilename := filepath.Join(themeDir, target) + ext
+			if err := copyIfExists(sourceFilename, targetFilename); err == nil {
+				foundOne = true
+				break
+			}
+		}
+		if !foundOne {
+			exts := strings.Join(allowedExts, ", ")
+			return fmt.Errorf("copy image: no %q of type [%s] found for theme %q", source, exts, k)
+		}
+
+		return nil
+	}
+
+	copyPlaceholder := func(source, target string) error {
+		ext := ".png"
+		sourceFilename := filepath.Join(c.staticDir, "placeholders", filepath.Base(source)) + ext
+		targetFilename := filepath.Join(themeDir, target) + ext
+		err := copyIfExists(sourceFilename, targetFilename)
+		if err != nil {
+			return err
+		}
 
 		return nil
 	}
@@ -286,26 +328,18 @@ func (c *buildClient) writeThemeContent(k string, m client.Module) error {
 		return err
 	}
 
-	copyImage := func(source, target string) error {
-		var foundOne bool
-		for _, ext := range []string{".png", ".jpg"} {
-			if err := copyIfExists(source+ext, target+ext); err == nil {
-				foundOne = true
-				break
+	assets := []asset{
+		{"images/tn", "tn-featured"},
+		{"images/screenshot", "screenshot"},
+	}
+	for _, a := range assets {
+		if err := copyAsset(a.source, a.target); err != nil {
+			c.Logf("warn: using asset placeholder: %s", err)
+
+			if err = copyPlaceholder(a.source, a.target); err != nil {
+				return err
 			}
 		}
-		if !foundOne {
-			return fmt.Errorf("%s: no image found for %q", themeName, source)
-		}
-
-		return nil
-	}
-
-	if err := copyImage("images/tn", "tn-featured"); err != nil {
-		return err
-	}
-	if err := copyImage("images/screenshot", "screenshot"); err != nil {
-		return err
 	}
 
 	return nil
