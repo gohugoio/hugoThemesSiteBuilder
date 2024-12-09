@@ -242,7 +242,7 @@ func (c *buildClient) writeThemeContent(k string, m client.Module) error {
 		}
 		if !foundOne {
 			exts := strings.Join(allowedExts, ", ")
-			return fmt.Errorf("copy image: no %q of type [%s] found for theme %q", source, exts, k)
+			return fmt.Errorf("copy asset: no %q of type [%s] found for theme %q", source, exts, k)
 		}
 
 		return nil
