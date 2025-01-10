@@ -38,12 +38,6 @@
         "ignoreConfig": true,
         "ignoreImports": true,
         "noMounts": true,
-        "path": "github.com/4ever9/less"
-      },
-      {
-        "ignoreConfig": true,
-        "ignoreImports": true,
-        "noMounts": true,
         "path": "github.com/526avijitgupta/gokarna"
       },
       {
@@ -2841,12 +2835,6 @@
         "ignoreImports": true,
         "noMounts": true,
         "path": "github.com/wonyoung-jang/hugo-PolyRhythmic"
-      },
-      {
-        "ignoreConfig": true,
-        "ignoreImports": true,
-        "noMounts": true,
-        "path": "github.com/wtoll/venture"
       },
       {
         "ignoreConfig": true,
