@@ -108,7 +108,7 @@ require (
 	github.com/azmelanar/hugo-theme-pixyll v0.0.0-20240430145741-84b471227eba // indirect
 	github.com/bake/solar-theme-hugo v0.0.0-20210403202535-97632b71c241 // indirect
 	github.com/balaramadurai/hugo-travelify-theme v0.0.0-20240910051838-ed36b6ecfb05 // indirect
-	github.com/barklan/hugo-dead-simple v1.75.64 // indirect
+	github.com/barklan/hugo-dead-simple v1.75.65 // indirect
 	github.com/bep/docuapi/v2 v2.4.0 // indirect
 	github.com/bep/galleriesdeluxe v0.4.0 // indirect
 	github.com/bep/gallerydeluxe v0.12.0 // indirect
@@ -430,7 +430,7 @@ require (
 	github.com/splch/hugo-simplecss v0.0.0-20220426050908-aa5090af89a9 // indirect
 	github.com/spookey/slick v0.5.0 // indirect
 	github.com/st-wong/hugo-spectre-pixel-theme v0.0.0-20240829043020-8fd99bdd4002 // indirect
-	github.com/sudorook/capsule v0.8.0 // indirect
+	github.com/sudorook/capsule v0.8.1 // indirect
 	github.com/surajmandalcell/potato-dark v0.0.0-20230514060246-fb0ef4c222e7 // indirect
 	github.com/syui/hugo-theme-air v0.0.0-20220103011837-46ea2028968c // indirect
 	github.com/syui/hugo-theme-wave v0.0.0-20190818110101-1250495d730e // indirect
