@@ -170,6 +170,12 @@
         "ignoreConfig": true,
         "ignoreImports": true,
         "noMounts": true,
+        "path": "github.com/ananthb/jughead"
+      },
+      {
+        "ignoreConfig": true,
+        "ignoreImports": true,
+        "noMounts": true,
         "path": "github.com/AngeloStavrow/indigo"
       },
       {
@@ -285,6 +291,12 @@
         "ignoreImports": true,
         "noMounts": true,
         "path": "github.com/bep/gallerydeluxe"
+      },
+      {
+        "ignoreConfig": true,
+        "ignoreImports": true,
+        "noMounts": true,
+        "path": "github.com/bin16/hugo-theme-island"
       },
       {
         "ignoreConfig": true,
@@ -2121,6 +2133,12 @@
         "ignoreImports": true,
         "noMounts": true,
         "path": "github.com/pravin/hugo-theme-prav"
+      },
+      {
+        "ignoreConfig": true,
+        "ignoreImports": true,
+        "noMounts": true,
+        "path": "github.com/professionalaf/hugo-news"
       },
       {
         "ignoreConfig": true,
