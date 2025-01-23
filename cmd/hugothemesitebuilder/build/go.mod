@@ -40,7 +40,7 @@ require (
 	github.com/JingWangTW/dark-theme-editor v3.2.3+incompatible // indirect
 	github.com/Junyi-99/hugo-theme-anubis2 v1.3.5 // indirect
 	github.com/KatamariJr/split-landing v1.0.1 // indirect
-	github.com/Lednerb/bilberry-hugo-theme/v4 v4.10.0 // indirect
+	github.com/Lednerb/bilberry-hugo-theme/v4 v4.11.0 // indirect
 	github.com/LordMathis/hugo-theme-nightfall v0.7.1 // indirect
 	github.com/LordMathis/hugo-theme-nix v0.0.0-20241208170734-c7d81f98fe3a // indirect
 	github.com/LucasVadilho/heyo-hugo-theme v0.0.0-20240917212023-fc1cbf59fdfe // indirect
@@ -309,7 +309,7 @@ require (
 	github.com/liuzc/LeaveIt v0.0.0-20181104111157-2884e266babb // indirect
 	github.com/loveminimal/hugo-theme-virgo v1.0.1 // indirect
 	github.com/lubang/hugo-hello-programmer-theme v2.1.0+incompatible // indirect
-	github.com/luizdepra/hugo-coder v0.0.0-20250117004012-0bc26e3a9350 // indirect
+	github.com/luizdepra/hugo-coder v0.0.0-20250122233642-1147e049247f // indirect
 	github.com/lukeorth/poison v0.0.0-20240905132908-07485e85f024 // indirect
 	github.com/lxndrblz/anatole v1.16.2 // indirect
 	github.com/manid2/hugo-xterm v1.7.4 // indirect
@@ -455,9 +455,9 @@ require (
 	github.com/tomowang/hugo-theme-tailwind v0.0.0-20250113134511-b2b0b4c61fcd // indirect
 	github.com/tosi29/inkblotty v0.0.0-20210329142630-603eab433785 // indirect
 	github.com/tummychow/lanyon-hugo v0.0.0-20210123043723-cd7b91420a90 // indirect
-	github.com/tylerjlawson/port-hugo v0.0.0-20240918204613-eef922bcc8b6 // indirect
-	github.com/tylerjlawson/simple-resume v0.0.0-20211026182531-a6bbdc145e1b // indirect
-	github.com/tylerjlawson/simple-snipcart-shop v0.0.0-20220323145220-3d18970a8c9a // indirect
+	github.com/tylerjlawson/port-hugo v0.0.0-20250122060430-c2c94739fd68 // indirect
+	github.com/tylerjlawson/simple-resume v0.0.0-20250122060721-fcd947c6e06c // indirect
+	github.com/tylerjlawson/simple-snipcart-shop v0.0.0-20250122060647-2f3cd8acd2e8 // indirect
 	github.com/uPagge/uBlogger v1.2.0 // indirect
 	github.com/uicardiodev/hugo-lime v0.0.0-20180916134933-90177ceb59cb // indirect
 	github.com/uicardiodev/hugo-sodium-theme v0.0.0-20181119122014-1c681c5db2a0 // indirect
