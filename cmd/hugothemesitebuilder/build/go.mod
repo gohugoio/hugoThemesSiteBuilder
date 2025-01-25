@@ -327,6 +327,7 @@ require (
 	github.com/mcrwfrd/hugo-frances-theme v0.0.0-20190917015302-bed6647b837f // indirect
 	github.com/mdashx/basicwebtheme v0.3.0 // indirect
 	github.com/mdfriday/theme-long-teng v0.0.0-20241127060205-1fabfc515857 // indirect
+	github.com/medialesson/hugo-theme-event v0.0.0-20250124094957-2838110412fd // indirect
 	github.com/meibenny/elephants v0.1.4 // indirect
 	github.com/michaelneuper/hugo-texify3 v0.0.0-20250107191459-cf5cc1a3a88d // indirect
 	github.com/michenriksen/hugo-theme-til v0.6.0 // indirect
@@ -488,7 +489,7 @@ require (
 	github.com/xslingcn/vno-hugo v1.1.3 // indirect
 	github.com/yanlinlin82/simple-style v0.0.0-20240320081416-2b198a8c5f17 // indirect
 	github.com/yihui/hugo-xmag v0.0.0-20240923034633-72d795739781 // indirect
-	github.com/yihui/hugo-xmin v0.0.0-20250117201805-2a60b8d4dd52 // indirect
+	github.com/yihui/hugo-xmin v0.0.0-20250124184326-9a42033486b4 // indirect
 	github.com/yoshiharuyamashita/blackburn v0.0.0-20220530060627-99cf136a06f3 // indirect
 	github.com/your-identity/hugo-theme-dimension v0.0.0-20210521214308-2474081b7846 // indirect
 	github.com/yue1124/hero v0.0.0-20211205133758-af2b1f878227 // indirect
