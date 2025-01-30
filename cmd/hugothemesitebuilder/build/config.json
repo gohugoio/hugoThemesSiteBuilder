@@ -854,6 +854,12 @@
         "ignoreConfig": true,
         "ignoreImports": true,
         "noMounts": true,
+        "path": "github.com/foxihd/hugo-brewm"
+      },
+      {
+        "ignoreConfig": true,
+        "ignoreImports": true,
+        "noMounts": true,
         "path": "github.com/frjo/hugo-theme-zen/v4"
       },
       {
