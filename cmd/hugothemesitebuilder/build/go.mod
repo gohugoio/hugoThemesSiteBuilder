@@ -50,7 +50,7 @@ require (
 	github.com/M1cR0xf7/kaslaanka v0.0.0-20241018122350-b6fff4183d15 // indirect
 	github.com/MarcusVirg/forty v0.0.0-20190430033326-dccea57bd2ed // indirect
 	github.com/Masellum/hugo-theme-nostyleplease v0.0.0-20250120053207-cfbfe4e8ed13 // indirect
-	github.com/McShelby/hugo-theme-relearn v0.0.0-20250227193043-8f55271c7781 // indirect
+	github.com/McShelby/hugo-theme-relearn v0.0.0-20250228233620-4a4b60ef048a // indirect
 	github.com/MeiK2333/github-style v0.0.0-20250103014044-9cb8c4c882d9 // indirect
 	github.com/MichaelSchaecher/simple-dark v0.0.0-20250103115132-46361b0e75d6 // indirect
 	github.com/Morgscode/hugo-theme-spaced-blog v0.0.0-20241015182912-2fa656e549dc // indirect
@@ -220,7 +220,7 @@ require (
 	github.com/hadisinaee/avicenna v0.0.0-20210802003840-1412ad1b941f // indirect
 	github.com/half-duplex/hugo-arcana v0.0.0-20241120153416-9fcf0964e35f // indirect
 	github.com/halogenica/beautifulhugo v0.0.0-20241117162719-7b8953f455a4 // indirect
-	github.com/hauke96/hugo-theme-hamburg v0.8.2 // indirect
+	github.com/hauke96/hugo-theme-hamburg v0.8.3 // indirect
 	github.com/hbstack/theme v0.4.0 // indirect
 	github.com/hbstack/theme-search v0.1.2 // indirect
 	github.com/hbstack/theme-start v0.7.0 // indirect
@@ -258,7 +258,7 @@ require (
 	github.com/jacobsun/hugo-theme-cole v0.0.0-20220324124602-6df85b298c13 // indirect
 	github.com/jaden/twentyfourteen v0.0.0-20191130221218-9380d3fa1855 // indirect
 	github.com/jakewies/hugo-theme-codex v1.6.0 // indirect
-	github.com/janraasch/hugo-bearblog v0.0.0-20250211172226-7cce218e4b72 // indirect
+	github.com/janraasch/hugo-bearblog v0.0.0-20250228172217-550b6a2e47fe // indirect
 	github.com/janraasch/hugo-product-launch v0.0.0-20250219180750-3f9c2a37d216 // indirect
 	github.com/jbub/ghostwriter v0.6.0 // indirect
 	github.com/jeblister/bulma v0.0.0-20220331084658-8d25840df6ac // indirect
@@ -312,7 +312,7 @@ require (
 	github.com/liuzc/LeaveIt v0.0.0-20181104111157-2884e266babb // indirect
 	github.com/loveminimal/hugo-theme-virgo v1.0.1 // indirect
 	github.com/lubang/hugo-hello-programmer-theme v2.1.0+incompatible // indirect
-	github.com/luizdepra/hugo-coder v0.0.0-20250210225328-7e776ee1bf97 // indirect
+	github.com/luizdepra/hugo-coder v0.0.0-20250228200816-6bc00595434a // indirect
 	github.com/lukeorth/poison v0.0.0-20240905132908-07485e85f024 // indirect
 	github.com/lxndrblz/anatole v1.16.2 // indirect
 	github.com/manid2/hugo-xterm v1.7.4 // indirect
