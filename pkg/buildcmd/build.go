@@ -548,6 +548,8 @@ var goodTags = map[string]interface{}{
 	"responsive":   true,
 	"pink":         true,
 	"two-column":   true,
+	"tailwind":     true,
+	"tailwindcss":  "tailwind",
 }
 
 func normalizeTag(s string) string {
@@ -599,7 +601,7 @@ func normalizeTag(s string) string {
 		return "minimal"
 	}
 
-	if ca("prodcuct") {
+	if ca("product") {
 		return "ecommerce"
 	}
 
