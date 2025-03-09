@@ -8,12 +8,6 @@
         "ignoreConfig": true,
         "ignoreImports": true,
         "noMounts": true,
-        "path": "git.myco.systems/mycosystems/hugo-maintenance"
-      },
-      {
-        "ignoreConfig": true,
-        "ignoreImports": true,
-        "noMounts": true,
         "path": "github.com/10mohi6/hugo-theme-simple-blog"
       },
       {
@@ -1028,6 +1022,12 @@
         "ignoreConfig": true,
         "ignoreImports": true,
         "noMounts": true,
+        "path": "github.com/discaptive/hugo-discaptive"
+      },
+      {
+        "ignoreConfig": true,
+        "ignoreImports": true,
+        "noMounts": true,
         "path": "github.com/diwao/hestia-pure"
       },
       {
@@ -1742,6 +1742,12 @@
         "ignoreConfig": true,
         "ignoreImports": true,
         "noMounts": true,
+        "path": "github.com/khitezza/vortisil"
+      },
+      {
+        "ignoreConfig": true,
+        "ignoreImports": true,
+        "noMounts": true,
         "path": "github.com/khusika/FeelIt"
       },
       {
@@ -2007,6 +2013,12 @@
         "ignoreImports": true,
         "noMounts": true,
         "path": "github.com/mikeblum/hugo-now"
+      },
+      {
+        "ignoreConfig": true,
+        "ignoreImports": true,
+        "noMounts": true,
+        "path": "github.com/mirmousaviii/mostafa-hugo-theme"
       },
       {
         "ignoreConfig": true,
