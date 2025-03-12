@@ -214,7 +214,7 @@ require (
 	github.com/gonnux/hugo-apps-theme v2.0.0+incompatible // indirect
 	github.com/goodroot/hugo-classic v0.0.0-20250206231743-18a7c62ecc52 // indirect
 	github.com/google/docsy v0.11.0 // indirect
-	github.com/guangmean/Niello v4.1.1+incompatible // indirect
+	github.com/guangmean/Niello v4.1.2+incompatible // indirect
 	github.com/guangzhengli/hugo-theme-ladder v1.2.0 // indirect
 	github.com/gundamew/hugo-bingo v1.8.2 // indirect
 	github.com/gurusabarish/hugo-profile v0.0.0-20250216102448-1fb40fd0994c // indirect
@@ -418,7 +418,7 @@ require (
 	github.com/samrobbins85/hugo-developer-portfolio v0.0.0-20230421080835-4d3db20b1574 // indirect
 	github.com/sbruder/spectral v0.0.0-20231021125325-0d4b111afae1 // indirect
 	github.com/schmanat/hugo-highlights-theme v0.0.0-20200409134000-79eb66a32c74 // indirect
-	github.com/schnerring/hugo-theme-gruvbox v0.0.0-20250225213936-845cf098d741 // indirect
+	github.com/schnerring/hugo-theme-gruvbox v0.0.0-20250311225438-e37181494ba5 // indirect
 	github.com/schollz/onetwothree v0.0.0-20190916161743-a09e6530494c // indirect
 	github.com/seanlane/gochowdown v0.0.0-20220603122033-5458dc7bd80a // indirect
 	github.com/sefeng211/techlab-hugo-theme v0.0.0-20221108011911-ed0fcb80d48f // indirect
@@ -486,7 +486,7 @@ require (
 	github.com/wd/hugo-fabric v0.0.0-20191202002427-c416adb14920 // indirect
 	github.com/weastur/hugo-texify2 v0.2.0 // indirect
 	github.com/wileybaba/hugo-theme-robotico v0.0.0-20190128025338-a1e633362eee // indirect
-	github.com/willfaught/paige v0.110.1 // indirect
+	github.com/willfaught/paige v0.110.4 // indirect
 	github.com/wlh320/hugo-theme-hulga v1.1.0 // indirect
 	github.com/wonyoung-jang/hugo-PolyRhythmic v0.0.0-20250309193839-6c680e9ea49d // indirect
 	github.com/xaprb/story v0.0.0-20220322144912-046bf4f12e69 // indirect
