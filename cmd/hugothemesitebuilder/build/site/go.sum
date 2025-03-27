@@ -6,6 +6,8 @@ github.com/gohugoio/gohugoioTheme v0.0.0-20240508091825-b23e8e2d2419/go.mod h1:G
 github.com/gohugoio/gohugoioTheme v0.0.0-20240619093131-b595d5fb8c52/go.mod h1:GOYeAPQJ/ok8z7oz1cjfcSlsFpXrmx6VkzQ5RpnyhZM=
 github.com/gohugoio/gohugoioTheme v0.0.0-20240622143740-53a4bdb8c0fb/go.mod h1:GOYeAPQJ/ok8z7oz1cjfcSlsFpXrmx6VkzQ5RpnyhZM=
 github.com/gohugoio/gohugoioTheme v0.0.0-20240623150114-cc7096eab3fd/go.mod h1:GOYeAPQJ/ok8z7oz1cjfcSlsFpXrmx6VkzQ5RpnyhZM=
+github.com/gohugoio/gohugoioTheme v0.0.0-20241101084928-e9fbbd3dc24e/go.mod h1:GOYeAPQJ/ok8z7oz1cjfcSlsFpXrmx6VkzQ5RpnyhZM=
+github.com/gohugoio/gohugoioTheme v0.0.0-20241223174847-fbbab8777a87/go.mod h1:GOYeAPQJ/ok8z7oz1cjfcSlsFpXrmx6VkzQ5RpnyhZM=
 github.com/gohugoio/hugoThemesSite v0.0.0-20230630055933-d3c50fa883e4 h1:tbTxZ14aW7e+p8pxDExKHXdk/n3/aiPWRbJwT+p1yOo=
 github.com/gohugoio/hugoThemesSite v0.0.0-20230630055933-d3c50fa883e4/go.mod h1:cmDbgD9KdXCaWrTNrq0LElFo0OPFG06nriXEhM+yDgo=
 github.com/gohugoio/hugoThemesSite v0.0.0-20230927170012-178092c0dc30 h1:r3e7lkRE7+fNbLc/M8Op+5od+nZq9bKll5BHRaZIMqQ=
@@ -24,3 +26,9 @@ github.com/gohugoio/hugoThemesSite v0.0.0-20240622144044-73545e9a3336 h1:LX6pK75
 github.com/gohugoio/hugoThemesSite v0.0.0-20240622144044-73545e9a3336/go.mod h1:afpv/Sdy9yGyHHRdEulhsMrW563yxSxIBW8qxz1zPaQ=
 github.com/gohugoio/hugoThemesSite v0.0.0-20240623150330-b396fbe09433 h1:4pOO8vN3CY83JeznX4cBcuHijp43nqs28+tLmKAnYaI=
 github.com/gohugoio/hugoThemesSite v0.0.0-20240623150330-b396fbe09433/go.mod h1:3d+pMxNb2cM8gPeaZeOyjCFMobVTDuE02iEx0ScxtOs=
+github.com/gohugoio/hugoThemesSite v0.0.0-20240909090308-14a7ab416677 h1:mIIG81q4tRku0afsKcEu1kNIHAgjc3bPqim9a7u1usc=
+github.com/gohugoio/hugoThemesSite v0.0.0-20240909090308-14a7ab416677/go.mod h1:3d+pMxNb2cM8gPeaZeOyjCFMobVTDuE02iEx0ScxtOs=
+github.com/gohugoio/hugoThemesSite v0.0.0-20241101085157-a7802c4e6f9c h1:+nuoFYWAS3uH3osM+IwIY9Ti5Oi6qov90qQoJxhluEE=
+github.com/gohugoio/hugoThemesSite v0.0.0-20241101085157-a7802c4e6f9c/go.mod h1:S5Csdy76Wm8xH0zjYbo3ny7B/1xDqUhYPThxZvVFJI0=
+github.com/gohugoio/hugoThemesSite v0.0.0-20241223175450-9740fc871774 h1:gWBRr9s78fN2m8qMCy1kl0cY2D2V65hTvp9bv5fOj6E=
+github.com/gohugoio/hugoThemesSite v0.0.0-20241223175450-9740fc871774/go.mod h1:QFhYWoH0DvRaNRtX1R1vcI+BNnKJl3cNN/YQ4AgiekU=

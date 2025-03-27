@@ -82,7 +82,7 @@ disableKinds    = ["taxonomy"]
   github_repo = "https://github.com/gohugoio/hugoThemesSiteBuilder"
   gitter      = "https://gitter.im/spf13/hugo"
   forum       = "https://discourse.gohugo.io/"
-  hideDemoLink = true
+  hideDemoLink = false
   #This array is meant for disabling the Homepage button of a theme.
   noHomePage = ["hugo-theme-novela"]
 
@@ -106,11 +106,11 @@ disableKinds    = ["taxonomy"]
   identifier = "themes"
   url        = "https://themes.gohugo.io/"
 
-[[menu.global]]
-  name       = "Showcase"
-  weight     = 20
-  identifier = "showcase"
-  url        = "https://gohugo.io/showcase/"
+#[[menu.global]]
+#  name       = "Showcase"
+#  weight     = 20
+#  identifier = "showcase"
+#  url        = "https://gohugo.io/showcase/"
 
 [[menu.global]]
   name       = "Community"
