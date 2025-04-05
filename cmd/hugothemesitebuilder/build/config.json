@@ -3159,12 +3159,6 @@
         "ignoreImports": true,
         "noMounts": true,
         "path": "gitlab.com/writeonlyhugo/writeonlyhugo-theme"
-      },
-      {
-        "ignoreConfig": true,
-        "ignoreImports": true,
-        "noMounts": true,
-        "path": "wangchucheng.com/hugo-eureka"
       }
     ]
   }

@@ -20,6 +20,7 @@ popd() {
 }
 
 pushd "../.."
+try go clean -modcache
 try go run main.go build
 popd
 if [ -z  ${NETLIFY} ] || [ "$CONTEXT" == "production" ]
