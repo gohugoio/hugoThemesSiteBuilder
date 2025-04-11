@@ -320,6 +320,12 @@
         "ignoreConfig": true,
         "ignoreImports": true,
         "noMounts": true,
+        "path": "github.com/prxshetty/hugo-noir"
+      },
+      {
+        "ignoreConfig": true,
+        "ignoreImports": true,
+        "noMounts": true,
         "path": "github.com/RCJacH/hugo-webslides"
       },
       {
@@ -974,6 +980,12 @@
         "ignoreConfig": true,
         "ignoreImports": true,
         "noMounts": true,
+        "path": "github.com/Daucloud/hugo-theme-void"
+      },
+      {
+        "ignoreConfig": true,
+        "ignoreImports": true,
+        "noMounts": true,
         "path": "github.com/davidhampgonsalves/hugo-black-and-light-theme"
       },
       {
@@ -1160,7 +1172,13 @@
         "ignoreConfig": true,
         "ignoreImports": true,
         "noMounts": true,
-        "path": "github.com/frjo/hugo-theme-zen/v4"
+        "path": "github.com/francoiducat/hugo-air"
+      },
+      {
+        "ignoreConfig": true,
+        "ignoreImports": true,
+        "noMounts": true,
+        "path": "github.com/frjo/hugo-theme-zen/v5"
       },
       {
         "ignoreConfig": true,
@@ -1431,6 +1449,12 @@
         "ignoreImports": true,
         "noMounts": true,
         "path": "github.com/hugo-toha/toha/v4"
+      },
+      {
+        "ignoreConfig": true,
+        "ignoreImports": true,
+        "noMounts": true,
+        "path": "github.com/hugolify/hugolify-theme"
       },
       {
         "ignoreConfig": true,
@@ -1922,6 +1946,12 @@
         "ignoreConfig": true,
         "ignoreImports": true,
         "noMounts": true,
+        "path": "github.com/math-queiroz/rusty-typewriter"
+      },
+      {
+        "ignoreConfig": true,
+        "ignoreImports": true,
+        "noMounts": true,
         "path": "github.com/matsuyoshi30/harbor"
       },
       {
@@ -2024,7 +2054,7 @@
         "ignoreConfig": true,
         "ignoreImports": true,
         "noMounts": true,
-        "path": "github.com/mirus-ua/hugo-theme-re-terminal"
+        "path": "github.com/mirus-ua/hugo-theme-re-terminal/v2"
       },
       {
         "ignoreConfig": true,
@@ -2049,6 +2079,12 @@
         "ignoreImports": true,
         "noMounts": true,
         "path": "github.com/mnjm/kayal"
+      },
+      {
+        "ignoreConfig": true,
+        "ignoreImports": true,
+        "noMounts": true,
+        "path": "github.com/mnordhaus/pico-base"
       },
       {
         "ignoreConfig": true,
