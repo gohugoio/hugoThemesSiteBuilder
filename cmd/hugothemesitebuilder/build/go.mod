@@ -7,7 +7,7 @@ require (
 	github.com/17ms/yuan v0.0.0-20240721101613-faae7a9fdf26 // indirect
 	github.com/1bl4z3r/hermit-V2 v1.1.21 // indirect
 	github.com/2-REC/hugo-myportfolio-theme v0.0.0-20200725083546-d0708c5286eb // indirect
-	github.com/526avijitgupta/gokarna v0.0.0-20250411043327-f80c362e71ff // indirect
+	github.com/526avijitgupta/gokarna v0.0.0-20250411085457-6d3b1d6d296c // indirect
 	github.com/64bitpandas/amethyst v1.0.0 // indirect
 	github.com/7ma7X/HugoTeX v0.0.0-20241022001613-675ea61fb18e // indirect
 	github.com/ANSSI-FR/hackropole-hugo v0.0.0-20250223124201-cfccbf3243bc // indirect
@@ -114,6 +114,7 @@ require (
 	github.com/barklan/hugo-dead-simple v1.76.0 // indirect
 	github.com/bep/docuapi/v2 v2.4.0 // indirect
 	github.com/bep/galleriesdeluxe v0.4.0 // indirect
+	github.com/bep/gallerydeluxe v0.12.0 // indirect
 	github.com/bin16/hugo-theme-island v0.5.2 // indirect
 	github.com/binokochumolvarghese/lightbi-hugo v0.0.0-20250304060546-70f0b17cb94d // indirect
 	github.com/bjacquemet/personal-web v0.0.0-20230606080827-69cf270ceddf // indirect
@@ -135,7 +136,7 @@ require (
 	github.com/chaitanya4vedi/navada v0.0.0-20211223142020-aa7018bddcfc // indirect
 	github.com/chaoming/hugo-saasify-theme v1.0.2 // indirect
 	github.com/chipsenkbeil/grid-side v0.0.0-20170626191754-f5251bfd15a7 // indirect
-	github.com/chipzoller/hugo-clarity v0.0.0-20250328112150-ff8ac149f364 // indirect
+	github.com/chipzoller/hugo-clarity v0.0.0-20250411201404-a8ce0375e8cb // indirect
 	github.com/chollinger93/ink-free v1.4.4 // indirect
 	github.com/chrede88/L1nkr v1.9.2 // indirect
 	github.com/chrede88/qubt v1.6.0 // indirect
@@ -491,7 +492,7 @@ require (
 	github.com/wileybaba/hugo-theme-robotico v0.0.0-20190128025338-a1e633362eee // indirect
 	github.com/willfaught/paige v0.111.1 // indirect
 	github.com/wlh320/hugo-theme-hulga v1.1.0 // indirect
-	github.com/wonyoung-jang/hugo-PolyRhythmic v0.0.0-20250331004221-22e5369dac04 // indirect
+	github.com/wonyoung-jang/hugo-PolyRhythmic v0.0.0-20250411194009-c51f8e1bf8a8 // indirect
 	github.com/xaprb/story v0.0.0-20220322144912-046bf4f12e69 // indirect
 	github.com/xaviablaza/hugo-lodi-theme v0.0.0-20190215050835-89984401ebf2 // indirect
 	github.com/xianmin/hugo-theme-jane v0.0.0-20250316235314-8f882af2a8dc // indirect
