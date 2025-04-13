@@ -20,7 +20,7 @@ require (
 	github.com/Blackstareye/stargazer-layout v1.1.2 // indirect
 	github.com/CaiJimmy/hugo-theme-stack/v3 v3.30.0 // indirect
 	github.com/CyrusYip/hugo-theme-yue v0.0.0-20250226155945-53dd5874f964 // indirect
-	github.com/D-Sketon/hugo-theme-reimu v0.8.1 // indirect
+	github.com/D-Sketon/hugo-theme-reimu v0.9.0 // indirect
 	github.com/Daucloud/hugo-theme-void v0.0.0-20250324041314-6e2b41e83936 // indirect
 	github.com/ElecBrandy/freshpink v0.0.0-20250329194405-27c15802281e // indirect
 	github.com/EmielH/hallo-hugo v2.7.0+incompatible // indirect
@@ -112,7 +112,7 @@ require (
 	github.com/bake/solar-theme-hugo v0.0.0-20210403202535-97632b71c241 // indirect
 	github.com/balaramadurai/hugo-travelify-theme v0.0.0-20240910051838-ed36b6ecfb05 // indirect
 	github.com/barklan/hugo-dead-simple v1.76.0 // indirect
-	github.com/bep/docuapi/v2 v2.4.0 // indirect
+	github.com/bep/docuapi/v2 v2.4.1 // indirect
 	github.com/bep/galleriesdeluxe v0.4.0 // indirect
 	github.com/bep/gallerydeluxe v0.12.0 // indirect
 	github.com/bin16/hugo-theme-island v0.5.2 // indirect
