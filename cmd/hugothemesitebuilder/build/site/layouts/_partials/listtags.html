@@ -1,0 +1,19 @@
+{{ $tags := site.Taxonomies.tags.ByCount }}
+{{ $tags = where $tags "Count" ">=" 3 }}
+
+
+<nav role="navigation" class="pt-2 pl-2 px-4">
+  <h3 class="text-base font-semibold">Tags</h3>
+  <ul class="mt-3 space-y-1">
+    {{ range $tags }}
+      <li class="text-base">
+        <a
+          href="{{ .Page.RelPermalink }}"
+          class="text-blue-600 hover:text-blue-500
+dark:hover:text-blue-200 dark:text-blue-200">
+          {{ .Name }} ({{ .Count }})
+        </a>
+      </li>
+    {{ end }}
+  </ul>
+</nav>
