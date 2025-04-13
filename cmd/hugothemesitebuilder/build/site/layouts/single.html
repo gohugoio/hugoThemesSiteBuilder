@@ -1,10 +1,10 @@
 {{ define "hero" }}
-  <div class="relative isolate overflow-hidden">
+  <div class="relative isolate overflow-hidden h-screen">
     <div
       class="mx-auto max-w-7xl px-6 pt-10 lg:py-20 pb-24 sm:pb-32 lg:flex lg:px-8">
       <div class="mx-auto max-w-2xl lg:mx-0 lg:shrink-0 lg:pt-8">
         <h1
-          class="mt-10 text-5xl font-semibold tracking-tight text-pretty text-gray-900 sm:text-7xl dark:text-gray-100">
+          class="text-5xl font-semibold tracking-tight text-pretty text-gray-900  dark:text-gray-100">
           {{ .Title }}
         </h1>
         <p
@@ -13,7 +13,7 @@
         </p>
 
         {{ template "theme-details" . }}
-        <div class="mt-10 flex items-center gap-x-6">
+        <div class="mt-12 flex items-center gap-x-6">
           {{ if not site.Params.hideHTMLLink }}
             {{ with .Params.htmlURL }}
               <a
@@ -35,14 +35,14 @@
         </div>
       </div>
       <div
-        class="mx-auto mt-16 flex max-w-2xl sm:mt-24 lg:mt-0 lg:mr-0 lg:ml-10 lg:max-w-none lg:flex-none xl:ml-32">
+        class="mx-auto pt-16 lg:pt-24  flex max-w-2xl  lg:mt-0 lg:mr-0 lg:ml-18 lg:max-w-none lg:flex-none">
         {{ $img := (.Resources.ByType "image").GetMatch "*screen*" }}
         {{ if $img }}
           {{ partial "helpers/picture.html" (dict
             "image" $img
             "alt" "Theme Screenshot"
             "width" 1280
-            "class" "w-5xl rounded-md shadow-2xl ring-1 ring-gray-900/10")
+            "class" "w-3xl rounded-md shadow-2xl ring-1 ring-gray-900/10")
           }}
         {{ end }}
 
@@ -73,7 +73,7 @@
 
 {{ define "theme-details" }}
   <div>
-    <div class="mt-6 border-t border-gray-100">
+    <div class="mt-8 border-t border-gray-100">
       <dl class="divide-y divide-gray-100">
         {{ with .Params.meta.license }}
           {{ template "descriptionlist-item" (dict "label" "License" "value" . ) }}
