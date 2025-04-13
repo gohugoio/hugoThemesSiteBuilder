@@ -518,7 +518,7 @@ func normalizeTags(in interface{}) []string {
 	return uniqueStringsSorted(tagsout)
 }
 
-var goodTags = map[string]interface{}{
+var goodTags = map[string]any{
 	"api":          true,
 	"blog":         true,
 	"bootstrap":    true,
@@ -533,7 +533,6 @@ var goodTags = map[string]interface{}{
 	"green":        true,
 	"light":        true,
 	"multilingual": true,
-	"mobile":       "responsive",
 	"newsletter":   true,
 	"portfolio":    true,
 	"white":        "light",
@@ -546,7 +545,6 @@ var goodTags = map[string]interface{}{
 	"education":    true,
 	"magazine":     true,
 	"podcast":      true,
-	"responsive":   true,
 	"pink":         true,
 	"two-column":   true,
 	"tailwind":     true,
