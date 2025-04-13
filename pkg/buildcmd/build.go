@@ -66,6 +66,7 @@ func New(rootConfig *rootcmd.Config) *ffcli.Command {
 func (c *Config) Exec(ctx context.Context, args []string) error {
 	const configAll = "config.json"
 	contentDir := c.rootConfig.Client.JoinOutPath("site", "content")
+	contentThemesDir := filepath.Join(contentDir, "themes")
 	staticDir := c.rootConfig.Client.JoinOutPath("site", "static")
 	configFile := c.rootConfig.Client.JoinOutPath(configAll)
 	client.CheckErr(os.Remove(configFile))
@@ -101,9 +102,9 @@ func (c *Config) Exec(ctx context.Context, args []string) error {
 	}
 
 	if !c.noClean {
-		client.CheckErr(os.RemoveAll(contentDir))
+		client.CheckErr(os.RemoveAll(contentThemesDir))
 	}
-	client.CheckErr(os.MkdirAll(contentDir, 0o777))
+	client.CheckErr(os.MkdirAll(contentThemesDir, 0o777))
 
 	if err := bc.writeThemesContent(); err != nil {
 		return err

@@ -1,0 +1,17 @@
+{{ define "main" }}
+  {{ partial "themes.html" .RegularPages }}
+{{ end }}
+
+{{ define "subheader" }}
+  <div class="mt-8 mx-auto max-w-7xl">
+    {{ partial "breadcrumbs.html" . }}
+  </div>
+{{ end }}
+
+{{ define "rightsidebar" }}
+  {{ printf "%c" '\u00A0' }}
+{{ end }}
+
+{{ define "leftsidebar" }}
+  {{ printf "%c" '\u00A0' }}
+{{ end }}

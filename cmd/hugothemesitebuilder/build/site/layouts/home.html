@@ -1,0 +1,11 @@
+{{ define "main" }}
+  {{ partial "themes.html" site.RegularPages }}
+{{ end }}
+
+{{ define "rightsidebar_content" }}
+  {{ partial "listtags.html" . }}
+{{ end }}
+
+{{ define "leftsidebar" }}
+  {{ printf "%c" '\u00A0' }}
+{{ end }}
