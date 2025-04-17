@@ -424,8 +424,10 @@ func (t *theme) toFrontMatter() map[string]interface{} {
 	}
 
 	var htmlURL string
+	var starCount int
 	if !t.ghRepo.IsZero() {
 		htmlURL = t.ghRepo.HTMLURL
+		starCount = t.ghRepo.Stars
 	} else {
 		// Gitlab etc., assume the path is the base of the URL.
 		htmlURL = fmt.Sprintf("https://%s", t.m.PathRepo())
@@ -438,6 +440,11 @@ func (t *theme) toFrontMatter() map[string]interface{} {
 	} else {
 		// In practice, this will never expire.
 		expiryDate = time.Now().Add(22 * d30)
+	}
+
+	tags := normalizeTags(t.m.Meta["tags"])
+	if starCount >= 100 {
+		tags = append(tags, "popular")
 	}
 
 	return map[string]interface{}{
@@ -454,7 +461,7 @@ func (t *theme) toFrontMatter() map[string]interface{} {
 		"meta":          t.m.Meta,
 		"githubInfo":    t.ghRepo,
 		"themeWarnings": t.themeWarnings,
-		"tags":          normalizeTags(t.m.Meta["tags"]),
+		"tags":          tags,
 	}
 }
 
