@@ -443,7 +443,7 @@ func (t *theme) toFrontMatter() map[string]interface{} {
 	}
 
 	tags := normalizeTags(t.m.Meta["tags"])
-	if starCount >= 100 {
+	if starCount >= 170 {
 		tags = append(tags, "popular")
 	}
 
