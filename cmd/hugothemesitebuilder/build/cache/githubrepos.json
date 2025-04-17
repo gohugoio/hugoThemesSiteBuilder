@@ -137,11 +137,11 @@
   "github.com/CaiJimmy/hugo-theme-stack/v3": {
     "id": 289457038,
     "created_at": "2020-08-22T09:16:55Z",
-    "updated_at": "2025-04-16T20:11:23Z",
+    "updated_at": "2025-04-17T03:59:33Z",
     "name": "hugo-theme-stack",
     "description": "Card-style Hugo theme designed for bloggers",
     "html_url": "https://github.com/CaiJimmy/hugo-theme-stack",
-    "stargazers_count": 5554
+    "stargazers_count": 5555
   },
   "github.com/CyrusYip/hugo-theme-yue": {
     "id": 780420640,
@@ -263,11 +263,11 @@
   "github.com/HugoBlox/hugo-blox-builder/modules/blox-tailwind": {
     "id": 57165232,
     "created_at": "2016-04-26T22:09:15Z",
-    "updated_at": "2025-04-16T05:33:47Z",
+    "updated_at": "2025-04-17T08:51:06Z",
     "name": "hugo-blox-builder",
     "description": "🚨 GROW YOUR AUDIENCE WITH HUGOBLOX! 🚀 HugoBlox is an easy, fast no-code website builder for researchers, entrepreneurs, data scientists, and developers. Build stunning sites in minutes. 适合研究人员、企业家、数据科学家和开发者的简单快速无代码网站构建器。用拖放功能、可定制模板和内置SEO工具快速创建精美网站！",
     "html_url": "https://github.com/HugoBlox/hugo-blox-builder",
-    "stargazers_count": 8580
+    "stargazers_count": 8582
   },
   "github.com/Ice-Hazymoon/hugo-theme-luna": {
     "id": 486781027,
@@ -434,11 +434,11 @@
   "github.com/McShelby/hugo-theme-relearn": {
     "id": 295128524,
     "created_at": "2020-09-13T10:34:08Z",
-    "updated_at": "2025-04-15T18:09:19Z",
+    "updated_at": "2025-04-17T01:30:41Z",
     "name": "hugo-theme-relearn",
     "description": "A theme for Hugo designed for documentation",
     "html_url": "https://github.com/McShelby/hugo-theme-relearn",
-    "stargazers_count": 507
+    "stargazers_count": 508
   },
   "github.com/MeiK2333/github-style": {
     "id": 216473473,
@@ -650,11 +650,11 @@
   "github.com/Vimux/mainroad": {
     "id": 76561407,
     "created_at": "2016-12-15T13:21:09Z",
-    "updated_at": "2025-04-14T14:09:53Z",
+    "updated_at": "2025-04-17T04:10:05Z",
     "name": "Mainroad",
     "description": "Responsive, simple, clean and content-focused Hugo theme based on the MH Magazine lite WordPress theme",
     "html_url": "https://github.com/Vimux/Mainroad",
-    "stargazers_count": 967
+    "stargazers_count": 968
   },
   "github.com/WingLim/hugo-tania": {
     "id": 316264307,
@@ -722,11 +722,11 @@
   "github.com/adityatelange/hugo-PaperMod": {
     "id": 281297416,
     "created_at": "2020-07-21T04:45:10Z",
-    "updated_at": "2025-04-16T22:51:49Z",
+    "updated_at": "2025-04-17T05:59:54Z",
     "name": "hugo-PaperMod",
     "description": " A fast, clean, responsive Hugo theme.",
     "html_url": "https://github.com/adityatelange/hugo-PaperMod",
-    "stargazers_count": 11373
+    "stargazers_count": 11374
   },
   "github.com/adityatelange/hugo-index": {
     "id": 625463549,
@@ -803,11 +803,11 @@
   "github.com/alex-shpak/hugo-book": {
     "id": 147530276,
     "created_at": "2018-09-05T14:21:31Z",
-    "updated_at": "2025-04-16T07:25:17Z",
+    "updated_at": "2025-04-17T03:04:17Z",
     "name": "hugo-book",
     "description": "Hugo documentation theme as simple as plain book",
     "html_url": "https://github.com/alex-shpak/hugo-book",
-    "stargazers_count": 3653
+    "stargazers_count": 3654
   },
   "github.com/alexandrevicenzi/soho": {
     "id": 239386232,
@@ -983,7 +983,7 @@
   "github.com/bep/docuapi/v2": {
     "id": 71171466,
     "created_at": "2016-10-17T19:02:31Z",
-    "updated_at": "2025-04-13T16:38:51Z",
+    "updated_at": "2025-04-17T08:39:40Z",
     "name": "docuapi",
     "description": "Beautiful multilingual API documentation theme for Hugo",
     "html_url": "https://github.com/bep/docuapi",
@@ -992,7 +992,7 @@
   "github.com/bep/galleriesdeluxe": {
     "id": 661359382,
     "created_at": "2023-07-02T15:44:28Z",
-    "updated_at": "2025-04-02T05:10:13Z",
+    "updated_at": "2025-04-17T08:37:24Z",
     "name": "galleriesdeluxe",
     "description": "Multi gallery Hugo theme.",
     "html_url": "https://github.com/bep/galleriesdeluxe",
@@ -1001,7 +1001,7 @@
   "github.com/bep/gallerydeluxe": {
     "id": 538049920,
     "created_at": "2022-09-18T08:44:48Z",
-    "updated_at": "2025-04-16T17:59:07Z",
+    "updated_at": "2025-04-17T08:38:17Z",
     "name": "gallerydeluxe",
     "description": "Fast Hugo gallery theme/module suitable for lots of images.",
     "html_url": "https://github.com/bep/gallerydeluxe",
@@ -1289,11 +1289,11 @@
   "github.com/colinwilson/lotusdocs": {
     "id": 556089040,
     "created_at": "2022-10-23T03:00:45Z",
-    "updated_at": "2025-04-16T00:55:26Z",
+    "updated_at": "2025-04-17T02:47:45Z",
     "name": "lotusdocs",
     "description": "📖 A free, lightweight, modern documentation theme for Hugo",
     "html_url": "https://github.com/colinwilson/lotusdocs",
-    "stargazers_count": 470
+    "stargazers_count": 469
   },
   "github.com/colorchestra/smol": {
     "id": 266912351,
@@ -1739,7 +1739,7 @@
   "github.com/foxihd/hugo-brewm": {
     "id": 923527728,
     "created_at": "2025-01-28T12:10:28Z",
-    "updated_at": "2025-04-16T05:33:10Z",
+    "updated_at": "2025-04-17T03:22:25Z",
     "name": "hugo-brewm",
     "description": "Fine-brewed Hugo theme made open",
     "html_url": "https://github.com/foxihd/hugo-brewm",
@@ -1847,11 +1847,11 @@
   "github.com/gethyas/doks": {
     "id": 255927625,
     "created_at": "2020-04-15T13:37:31Z",
-    "updated_at": "2025-04-16T04:05:36Z",
+    "updated_at": "2025-04-17T05:37:33Z",
     "name": "doks",
     "description": "Everything you need to build a stellar documentation website. Fast, accessible, and easy to use.",
     "html_url": "https://github.com/thuliteio/doks",
-    "stargazers_count": 2202
+    "stargazers_count": 2203
   },
   "github.com/gevhaz/hugo-theme-notrack": {
     "id": 264459867,
@@ -1892,11 +1892,11 @@
   "github.com/google/docsy": {
     "id": 153180924,
     "created_at": "2018-10-15T20:59:47Z",
-    "updated_at": "2025-04-16T06:49:23Z",
+    "updated_at": "2025-04-17T07:54:34Z",
     "name": "docsy",
     "description": "Hugo theme for open source documentation",
     "html_url": "https://github.com/google/docsy",
-    "stargazers_count": 2709
+    "stargazers_count": 2711
   },
   "github.com/guangmean/Niello": {
     "id": 163953752,
@@ -2216,11 +2216,11 @@
   "github.com/imfing/hextra": {
     "id": 668453226,
     "created_at": "2023-07-19T21:03:57Z",
-    "updated_at": "2025-04-16T22:40:04Z",
+    "updated_at": "2025-04-17T03:54:29Z",
     "name": "hextra",
     "description": "🔯 Modern, batteries-included Hugo theme for creating beautiful doc, blog and static websites",
     "html_url": "https://github.com/imfing/hextra",
-    "stargazers_count": 1180
+    "stargazers_count": 1181
   },
   "github.com/imgios/not-much": {
     "id": 773790108,
@@ -2900,7 +2900,7 @@
   "github.com/math-queiroz/rusty-typewriter": {
     "id": 933271677,
     "created_at": "2025-02-15T15:08:19Z",
-    "updated_at": "2025-04-16T23:30:31Z",
+    "updated_at": "2025-04-17T01:25:16Z",
     "name": "rusty-typewriter",
     "description": "A simple theme for Hugo intended blogs ✍️",
     "html_url": "https://github.com/math-queiroz/rusty-typewriter",
@@ -3017,11 +3017,11 @@
   "github.com/michenriksen/hugo-theme-til": {
     "id": 879194807,
     "created_at": "2024-10-27T09:03:00Z",
-    "updated_at": "2025-04-08T16:08:30Z",
+    "updated_at": "2025-04-17T08:58:00Z",
     "name": "hugo-theme-til",
     "description": "A Hugo theme focused on simplicity and readability, and content discovery.",
     "html_url": "https://github.com/michenriksen/hugo-theme-til",
-    "stargazers_count": 98
+    "stargazers_count": 99
   },
   "github.com/michimani/simplog": {
     "id": 326343129,
@@ -3242,11 +3242,11 @@
   "github.com/nodejh/hugo-theme-cactus-plus": {
     "id": 79039278,
     "created_at": "2017-01-15T14:56:47Z",
-    "updated_at": "2025-04-10T07:32:20Z",
+    "updated_at": "2025-04-17T08:55:13Z",
     "name": "hugo-theme-mini",
     "description": "A fast, minimalist and responsive hugo theme for bloggers.",
     "html_url": "https://github.com/nodejh/hugo-theme-mini",
-    "stargazers_count": 768
+    "stargazers_count": 769
   },
   "github.com/ntk148v/hugo-cuisine-book": {
     "id": 513742307,
@@ -3260,11 +3260,11 @@
   "github.com/nunocoracao/blowfish/v2": {
     "id": 534798642,
     "created_at": "2022-09-09T20:38:52Z",
-    "updated_at": "2025-04-16T06:31:48Z",
+    "updated_at": "2025-04-17T08:41:22Z",
     "name": "blowfish",
     "description": "Personal Website \u0026 Blog Theme for Hugo",
     "html_url": "https://github.com/nunocoracao/blowfish",
-    "stargazers_count": 1874
+    "stargazers_count": 1875
   },
   "github.com/nurlansu/hugo-sustain": {
     "id": 71623522,
@@ -3404,11 +3404,11 @@
   "github.com/parsiya/Hugo-Octopress": {
     "id": 50900827,
     "created_at": "2016-02-02T06:55:49Z",
-    "updated_at": "2025-04-16T13:20:13Z",
+    "updated_at": "2025-04-17T06:59:08Z",
     "name": "Hugo-Octopress",
     "description": "Port of the classic Octopress theme to Hugo",
     "html_url": "https://github.com/parsiya/Hugo-Octopress",
-    "stargazers_count": 157
+    "stargazers_count": 158
   },
   "github.com/paulmartins/hugo-digital-garden-theme": {
     "id": 397395153,
@@ -4538,7 +4538,7 @@
   "github.com/zeon-studio/hugoplate": {
     "id": 645295049,
     "created_at": "2023-05-25T10:41:33Z",
-    "updated_at": "2025-04-16T05:05:34Z",
+    "updated_at": "2025-04-17T07:18:30Z",
     "name": "hugoplate",
     "description": "Hugoplate is a free starter template built with Hugo and Tailwind CSS v4.0 that will save you hours of work.",
     "html_url": "https://github.com/zeon-studio/hugoplate",
@@ -4556,11 +4556,11 @@
   "github.com/zerostaticthemes/hugo-serif-theme": {
     "id": 159459907,
     "created_at": "2018-11-28T07:14:22Z",
-    "updated_at": "2025-04-12T18:36:27Z",
+    "updated_at": "2025-04-17T02:07:44Z",
     "name": "hugo-serif-theme",
     "description": "Serif is a modern business theme for Hugo.",
     "html_url": "https://github.com/zerostaticthemes/hugo-serif-theme",
-    "stargazers_count": 461
+    "stargazers_count": 462
   },
   "github.com/zerostaticthemes/hugo-whisper-theme": {
     "id": 171089926,
