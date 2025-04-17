@@ -198,7 +198,7 @@ require (
 	github.com/fourtyone11/origin-hugo-theme v0.0.0-20200611125917-021c45772a9a // indirect
 	github.com/foxihd/hugo-brewm v1.5.3 // indirect
 	github.com/francoiducat/hugo-air v0.0.7 // indirect
-	github.com/frjo/hugo-theme-zen/v5 v5.3.0 // indirect
+	github.com/frjo/hugo-theme-zen/v5 v5.4.0 // indirect
 	github.com/funkydan2/alpha-church v0.0.0-20250414064848-4dd863555dfc // indirect
 	github.com/funkydan2/hugo-kiera v1.1.3 // indirect
 	github.com/g1eny0ung/hugo-theme-dream v3.12.0+incompatible // indirect
@@ -243,7 +243,7 @@ require (
 	github.com/hugo-porto/theme v0.1.8 // indirect
 	github.com/hugo-sid/hugo-blog-awesome v1.20.0 // indirect
 	github.com/hugo-toha/toha/v4 v4.8.0 // indirect
-	github.com/hugolify/hugolify-theme v1.22.2 // indirect
+	github.com/hugolify/hugolify-theme v1.22.3 // indirect
 	github.com/humrochagf/colordrop v1.13.0 // indirect
 	github.com/huyb1991/hugo-lamp v1.2.1 // indirect
 	github.com/iCyris/hugo-theme-yuki v1.1.0 // indirect
@@ -325,7 +325,7 @@ require (
 	github.com/maolonglong/hugo-simple v0.0.0-20250410054059-6c649ca820e9 // indirect
 	github.com/marcanuy/simpleit-hugo-theme v0.0.0-20231012140445-3d40feab8da2 // indirect
 	github.com/marketempower/axiom v0.8.0 // indirect
-	github.com/math-queiroz/rusty-typewriter v0.0.0-20250414171359-bd2acd7a59dd // indirect
+	github.com/math-queiroz/rusty-typewriter v0.0.0-20250416203250-bc633c669f6e // indirect
 	github.com/matsuyoshi30/harbor v1.0.0 // indirect
 	github.com/mattbutton/silhouette-hugo v0.0.0-20230823055120-385ed37e61fb // indirect
 	github.com/mattstratton/castanet v1.22.11 // indirect
@@ -370,7 +370,7 @@ require (
 	github.com/nusserstudios/tailbliss v0.0.0-20241102185753-f4db22988331 // indirect
 	github.com/okkur/syna v0.17.4 // indirect
 	github.com/olOwOlo/hugo-theme-even v4.1.0+incompatible // indirect
-	github.com/ololiuhqui/magnolia-free-hugo-theme v2.0.1+incompatible // indirect
+	github.com/ololiuhqui/magnolia-free-hugo-theme v2.1.0+incompatible // indirect
 	github.com/onweru/compose v0.0.0-20250123191918-095317e5c72c // indirect
 	github.com/onweru/hugo-swift-theme v2.0.0+incompatible // indirect
 	github.com/onweru/newsroom v0.0.0-20250123185016-29bfff494220 // indirect
@@ -416,7 +416,7 @@ require (
 	github.com/s4n7h0/hugo-theme-timeline v0.0.0-20201011151605-b2edb87d3406 // indirect
 	github.com/saadnpq/npq-hugo v0.0.0-20230327225325-c67514134768 // indirect
 	github.com/saey55/hugo-elate-theme v0.0.0-20190113203640-d4390ac60a50 // indirect
-	github.com/salatine/neopost v0.0.0-20250415182014-ea27d13d220c // indirect
+	github.com/salatine/neopost v0.0.0-20250416182245-32615ee36f8f // indirect
 	github.com/salcan/BeyondNothing v0.0.0-20190908210852-2931c2abf096 // indirect
 	github.com/salsysd/hugo-assembly v0.0.0-20181002012130-b536220bd067 // indirect
 	github.com/samrobbins85/hugo-developer-portfolio v0.0.0-20230421080835-4d3db20b1574 // indirect
