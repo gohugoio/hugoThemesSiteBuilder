@@ -375,11 +375,14 @@ var (
 	d30 = 30 * 24 * time.Hour
 	// 7 days.
 	d7 = 7 * 24 * time.Hour
+	// 1 year.
+	d1y = 365 * 24 * time.Hour
 )
 
 func (t *theme) calculateWeight(maxStars int) {
-	t.weight = maxStars + 500
-	t.weight -= t.ghRepo.Stars
+	const maxMaxStars = 3000
+	t.weight = min(maxStars, maxMaxStars) + 500
+	t.weight -= min(t.ghRepo.Stars, maxMaxStars)
 
 	boostRecent := func(age, threshold time.Duration, boost int) {
 		if age < threshold {
@@ -390,12 +393,13 @@ func (t *theme) calculateWeight(maxStars int) {
 	// Boost themes versioned recently.
 	if !t.m.Time.IsZero() && t.isVersioned() {
 		// Add some weight to recently versioned themes.
-		boostRecent(time.Since(t.m.Time), (1 * d30), 20)
+		boostRecent(time.Since(t.m.Time), (1 * d30), 40)
 	}
 
 	if !t.ghRepo.IsZero() {
 		// Boost themes created recently.
-		boostRecent(time.Since(t.ghRepo.CreatedAt), (1 * d30), 50)
+		boostRecent(time.Since(t.ghRepo.CreatedAt), (1 * d30), 100)
+		boostRecent(time.Since(t.ghRepo.CreatedAt), (1 * d1y), 50)
 		// Pull themes created within the last week the top.
 		// Note that we currently only have that information for themes
 		// hosted on GitHub.
