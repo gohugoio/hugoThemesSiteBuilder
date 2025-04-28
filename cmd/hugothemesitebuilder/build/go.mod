@@ -165,7 +165,7 @@ require (
 	github.com/darshanbaral/aafu v0.0.0-20250405194423-d53e0fbd1df3 // indirect
 	github.com/darshanbaral/kitab v0.0.0-20241005205948-cc1e0eb809c5 // indirect
 	github.com/darshanbaral/sada v0.0.0-20250223042225-477ffc7e832e // indirect
-	github.com/dataCobra/hugo-vitae v0.0.0-20250425112705-a38469d48cee // indirect
+	github.com/dataCobra/hugo-vitae v0.0.0-20250427103441-e853037cdc1a // indirect
 	github.com/davidhampgonsalves/hugo-black-and-light-theme v0.0.0-20231209011516-e024de785b91 // indirect
 	github.com/dchucks/agnes-hugo-theme v0.0.0-20240621082436-696a93321a2a // indirect
 	github.com/derme302/triple-hyde v2025.1.30+incompatible // indirect
@@ -522,7 +522,7 @@ require (
 	gitlab.com/Kaligule/classless-blog v0.0.0-20241010152133-0f709529acb1 // indirect
 	gitlab.com/VincentTam/huginn v0.0.0-20190817135446-c6cfb0ab831c // indirect
 	gitlab.com/avron/gruvhugo v0.0.0-20230515125413-99971952d6c3 // indirect
-	gitlab.com/gabmus/hugo-ficurinia v0.0.0-20250326191932-c105d8fc3dde // indirect
+	gitlab.com/gabmus/hugo-ficurinia v0.0.0-20250427183130-769f01ad4363 // indirect
 	gitlab.com/ian-s-mcb/smigle-hugo-theme v0.0.0-20240802190254-2e5e6d49c470 // indirect
 	gitlab.com/jmfergeau/hugo.386 v0.0.0-20230415163320-2e2a41232ab5 // indirect
 	gitlab.com/kskarthik/monopriv v0.0.0-20200526110241-17ac34952952 // indirect
