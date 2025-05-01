@@ -1,9 +1,18 @@
 
-baseurl = "https://themes.gohugo.io/"
-title   = "Hugo Themes"
+baseurl         = "https://themes.gohugo.io/"
+languageCode    = "en-us"
+title           = "Hugo Themes"
+googleAnalytics = "G-MBZGKNMDWC"
 
-# Merge in config from Hugo Docs.
-merge = "_root"
+[security]
+  enableInlineShortcodes = false
+  [security.exec]
+    allow = ['^go$', '^npx$', '^tailwindcss$']
+    osEnv = ['(?i)^(PATH|PATHEXT|APPDATA|TMP|TEMP|TERM)$']
+  [security.funcs]
+    getenv = ['^HUGO_', 'REPOSITORY_URL', 'BRANCH']
+  [security.http]
+    # Disallow all HTTP for now.
 
 [module]
   [module.hugoVersion]
@@ -38,6 +47,11 @@ merge = "_root"
       source = "i18n"
       target = "i18n"
 
+[markup.goldmark.renderer]
+  # We pull in README.md files from the theme repos, and they can have HTML,
+  # but we need to trust GitHub to sanitize them well.
+  unsafe = true
+
 [outputs]
   home     = ["html", "redir", "headers"]
   page     = ["html"]
@@ -45,11 +59,111 @@ merge = "_root"
   taxonomy = ["html"]
   term     = ["html"]
 
+[mediaTypes]
+  [mediaTypes."text/netlify"]
+    suffixes  = [""]
+    delimiter = ""
+
+[outputFormats]
+  [outputFormats.redir]
+    baseName    = "_redirects"
+    isPlainText = true
+    mediatype   = "text/netlify"
+  [outputFormats.headers]
+    baseName       = "_headers"
+    isPlainText    = true
+    mediatype      = "text/netlify"
+    notAlternative = true
+
+[related]
+  threshold    = 80
+  includeNewer = true
+  toLower      = false
+
+  [[related.indices]]
+    name   = "tags"
+    weight = 100
+  [[related.indices]]
+    name    = "date"
+    weight  = 10
+    pattern = "2006"
+
+[social]
+  twitter = "GoHugoIO"
+
+  disableAliases = true
+
+[build]
+  [build.buildStats]
+    disableIDs = true
+    enable     = true
+  [[build.cachebusters]]
+    source = "assets/notwatching/hugo_stats\\.json"
+    target = "css"
+  [[build.cachebusters]]
+    source = "(postcss|tailwind)\\.config\\.js"
+    target = "css"
+
+[caches]
+  [caches.images]
+    dir    = ":cacheDir/images"
+    maxAge = "1440h"
+  [caches.getresource]
+    dir    = ':cacheDir/:project'
+    maxAge = "1h"
+
+[imaging]
+  resampleFilter = "CatmullRom"
+
+  # Defatult JPEG quality setting. Default is 75.
+  quality = 75
+
+  anchor = "smart"
+
 [params]
   github_repo  = "https://github.com/gohugoio/hugoThemesSiteBuilder"
   gitter       = "https://gitter.im/spf13/hugo"
   forum        = "https://discourse.gohugo.io/"
   hideDemoLink = false
-  hideContent  = true
   #This array is meant for disabling the Homepage button of a theme.
   noHomePage = ["hugo-theme-novela"]
+
+  # GLOBAL = IF ANYTHING CHANGES BELOW UPDATE MAIN, DOCS, THEMES
+
+[[menu.global]]
+  name       = "News"
+  weight     = 1
+  identifier = "news"
+  url        = "https://gohugo.io/news/"
+
+[[menu.global]]
+  name       = "Docs"
+  weight     = 10
+  identifier = "docs"
+  url        = "https://gohugo.io/documentation/"
+
+[[menu.global]]
+  name       = "Themes"
+  weight     = 15
+  identifier = "themes"
+  url        = "https://themes.gohugo.io/"
+
+  #[[menu.global]]
+  #  name       = "Showcase"
+  #  weight     = 20
+  #  identifier = "showcase"
+  #  url        = "https://gohugo.io/showcase/"
+
+[[menu.global]]
+  name       = "Community"
+  weight     = 100
+  post       = "external"
+  identifier = "community"
+  url        = "https://discourse.gohugo.io/"
+
+[[menu.global]]
+  name       = "GitHub"
+  weight     = 200
+  identifier = "github"
+  post       = "external"
+  url        = "https://github.com/gohugoio/hugo"

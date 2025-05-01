@@ -52,9 +52,7 @@
 
 {{ define "main" }}
   <div class="flex flex-col w-full p-0 m-0 content">
-    {{ if not site.Params.hideContent }}
-      {{ .Content }}
-    {{ end }}
+    {{ .Content }}
   </div>
 {{ end }}
 
