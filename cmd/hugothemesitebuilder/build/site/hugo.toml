@@ -3,7 +3,10 @@ baseurl = "https://themes.gohugo.io/"
 title   = "Hugo Themes"
 
 # Merge in config from Hugo Docs.
-merge = "_root"
+_merge = "deep"
+
+[taxonomies]
+  tag = "tags"
 
 [module]
   [module.hugoVersion]
