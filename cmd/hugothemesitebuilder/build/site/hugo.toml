@@ -56,3 +56,35 @@ _merge = "deep"
   hideContent  = true
   #This array is meant for disabling the Homepage button of a theme.
   noHomePage = ["hugo-theme-novela"]
+
+[[menu.global]]
+  name       = "News"
+  weight     = 1
+  identifier = "news"
+  url        = "https://gohugo.io/news/"
+
+[[menu.global]]
+  name       = "Docs"
+  weight     = 10
+  identifier = "docs"
+  url        = "https://gohugo.io/documentation/"
+
+[[menu.global]]
+  name       = "Themes"
+  weight     = 15
+  identifier = "themes"
+  url        = "https://themes.gohugo.io/"
+
+[[menu.global]]
+  name       = "Community"
+  weight     = 100
+  post       = "external"
+  identifier = "community"
+  url        = "https://discourse.gohugo.io/"
+
+[[menu.global]]
+  name       = "GitHub"
+  weight     = 200
+  identifier = "github"
+  post       = "external"
+  url        = "https://github.com/gohugoio/hugo"
