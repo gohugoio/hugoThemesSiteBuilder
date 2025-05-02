@@ -262,7 +262,7 @@ func (c *buildClient) writeThemeContent(k string, m client.Module) error {
 	}
 
 	getReadMeContent := func() string {
-		files, err := os.ReadDir(m.Dir)
+		/*files, err := os.ReadDir(m.Dir)
 		client.CheckErr(err)
 		for _, fi := range files {
 			if fi.IsDir() {
@@ -273,7 +273,7 @@ func (c *buildClient) writeThemeContent(k string, m client.Module) error {
 				client.CheckErr(err)
 				return fixReadmeContent(string(b))
 			}
-		}
+		}*/
 		return ""
 	}
 
@@ -426,6 +426,12 @@ func (t *theme) toFrontMatter() map[string]interface{} {
 	} else {
 		title = strings.Title(t.name)
 	}
+	var description string
+	if md, ok := t.m.Meta["description"]; ok {
+		description = md.(string)
+	} else {
+		description = fmt.Sprintf("Theme %q for Hugo", title)
+	}
 
 	var htmlURL string
 	var starCount int
@@ -455,6 +461,8 @@ func (t *theme) toFrontMatter() map[string]interface{} {
 		"draft":         t.draft,
 		"expiryDate":    expiryDate,
 		"title":         title,
+		"description":   description,
+		"summary":       description,
 		"slug":          t.name,
 		"aliases":       []string{"/" + t.name},
 		"weight":        t.weight,
