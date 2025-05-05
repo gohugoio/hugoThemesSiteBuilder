@@ -23,7 +23,7 @@ require (
 	github.com/CyrusYip/hugo-theme-yue v0.0.0-20250226155945-53dd5874f964 // indirect
 	github.com/D-Sketon/hugo-theme-reimu v0.10.1 // indirect
 	github.com/Daucloud/hugo-theme-void v0.0.0-20250503132101-085bf94ee122 // indirect
-	github.com/ElecBrandy/freshpink v0.0.0-20250329194405-27c15802281e // indirect
+	github.com/ElecBrandy/freshpink v0.0.0-20250504125117-b78315216866 // indirect
 	github.com/EmielH/hallo-hugo v2.7.0+incompatible // indirect
 	github.com/EmielH/stip-hugo v1.0.0 // indirect
 	github.com/EmielH/tale-hugo v2.2.0+incompatible // indirect
@@ -198,7 +198,7 @@ require (
 	github.com/fncnt/vncnt-hugo v0.0.0-20240422191321-fad7815bc6eb // indirect
 	github.com/forestryio/hugo-theme-novela v0.0.0-20210222084032-5d015eef4c56 // indirect
 	github.com/fourtyone11/origin-hugo-theme v0.0.0-20200611125917-021c45772a9a // indirect
-	github.com/foxihd/hugo-brewm v1.8.2 // indirect
+	github.com/foxihd/hugo-brewm v1.8.3 // indirect
 	github.com/francoiducat/hugo-air v0.0.9 // indirect
 	github.com/frjo/hugo-theme-zen/v5 v5.4.0 // indirect
 	github.com/funkydan2/alpha-church v0.0.0-20250414064848-4dd863555dfc // indirect
