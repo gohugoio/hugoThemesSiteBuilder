@@ -8,6 +8,12 @@
         "ignoreConfig": true,
         "ignoreImports": true,
         "noMounts": true,
+        "path": "codeberg.org/gbilder/eurozephyr"
+      },
+      {
+        "ignoreConfig": true,
+        "ignoreImports": true,
+        "noMounts": true,
         "path": "github.com/10mohi6/hugo-theme-simple-blog"
       },
       {
@@ -93,6 +99,12 @@
         "ignoreImports": true,
         "noMounts": true,
         "path": "github.com/CaiJimmy/hugo-theme-stack/v3"
+      },
+      {
+        "ignoreConfig": true,
+        "ignoreImports": true,
+        "noMounts": true,
+        "path": "github.com/cx48/LucentLink-Hugo"
       },
       {
         "ignoreConfig": true,

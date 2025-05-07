@@ -66,6 +66,7 @@ func New(rootConfig *rootcmd.Config) *ffcli.Command {
 func (c *Config) Exec(ctx context.Context, args []string) error {
 	const configAll = "config.json"
 	contentDir := c.rootConfig.Client.JoinOutPath("site", "content")
+	contentThemesDir := filepath.Join(contentDir, "themes")
 	staticDir := c.rootConfig.Client.JoinOutPath("site", "static")
 	configFile := c.rootConfig.Client.JoinOutPath(configAll)
 	client.CheckErr(os.Remove(configFile))
@@ -101,9 +102,9 @@ func (c *Config) Exec(ctx context.Context, args []string) error {
 	}
 
 	if !c.noClean {
-		client.CheckErr(os.RemoveAll(contentDir))
+		client.CheckErr(os.RemoveAll(contentThemesDir))
 	}
-	client.CheckErr(os.MkdirAll(contentDir, 0o777))
+	client.CheckErr(os.MkdirAll(contentThemesDir, 0o777))
 
 	if err := bc.writeThemesContent(); err != nil {
 		return err
@@ -261,7 +262,7 @@ func (c *buildClient) writeThemeContent(k string, m client.Module) error {
 	}
 
 	getReadMeContent := func() string {
-		files, err := os.ReadDir(m.Dir)
+		/*files, err := os.ReadDir(m.Dir)
 		client.CheckErr(err)
 		for _, fi := range files {
 			if fi.IsDir() {
@@ -272,7 +273,7 @@ func (c *buildClient) writeThemeContent(k string, m client.Module) error {
 				client.CheckErr(err)
 				return fixReadmeContent(string(b))
 			}
-		}
+		}*/
 		return ""
 	}
 
@@ -374,11 +375,14 @@ var (
 	d30 = 30 * 24 * time.Hour
 	// 7 days.
 	d7 = 7 * 24 * time.Hour
+	// 1 year.
+	d1y = 365 * 24 * time.Hour
 )
 
 func (t *theme) calculateWeight(maxStars int) {
-	t.weight = maxStars + 500
-	t.weight -= t.ghRepo.Stars
+	const maxMaxStars = 3000
+	t.weight = min(maxStars, maxMaxStars) + 500
+	t.weight -= min(t.ghRepo.Stars, maxMaxStars)
 
 	boostRecent := func(age, threshold time.Duration, boost int) {
 		if age < threshold {
@@ -389,12 +393,13 @@ func (t *theme) calculateWeight(maxStars int) {
 	// Boost themes versioned recently.
 	if !t.m.Time.IsZero() && t.isVersioned() {
 		// Add some weight to recently versioned themes.
-		boostRecent(time.Since(t.m.Time), (1 * d30), 20)
+		boostRecent(time.Since(t.m.Time), (1 * d30), 40)
 	}
 
 	if !t.ghRepo.IsZero() {
 		// Boost themes created recently.
-		boostRecent(time.Since(t.ghRepo.CreatedAt), (1 * d30), 50)
+		boostRecent(time.Since(t.ghRepo.CreatedAt), (1 * d30), 100)
+		boostRecent(time.Since(t.ghRepo.CreatedAt), (1 * d1y), 50)
 		// Pull themes created within the last week the top.
 		// Note that we currently only have that information for themes
 		// hosted on GitHub.
@@ -421,10 +426,18 @@ func (t *theme) toFrontMatter() map[string]interface{} {
 	} else {
 		title = strings.Title(t.name)
 	}
+	var description string
+	if md, ok := t.m.Meta["description"]; ok {
+		description = md.(string)
+	} else {
+		description = fmt.Sprintf("Theme %q for Hugo", title)
+	}
 
 	var htmlURL string
+	var starCount int
 	if !t.ghRepo.IsZero() {
 		htmlURL = t.ghRepo.HTMLURL
+		starCount = t.ghRepo.Stars
 	} else {
 		// Gitlab etc., assume the path is the base of the URL.
 		htmlURL = fmt.Sprintf("https://%s", t.m.PathRepo())
@@ -439,10 +452,17 @@ func (t *theme) toFrontMatter() map[string]interface{} {
 		expiryDate = time.Now().Add(22 * d30)
 	}
 
+	tags := normalizeTags(t.m.Meta["tags"])
+	if starCount >= 750 {
+		tags = append(tags, "popular")
+	}
+
 	return map[string]interface{}{
 		"draft":         t.draft,
 		"expiryDate":    expiryDate,
 		"title":         title,
+		"description":   description,
+		"summary":       description,
 		"slug":          t.name,
 		"aliases":       []string{"/" + t.name},
 		"weight":        t.weight,
@@ -453,7 +473,7 @@ func (t *theme) toFrontMatter() map[string]interface{} {
 		"meta":          t.m.Meta,
 		"githubInfo":    t.ghRepo,
 		"themeWarnings": t.themeWarnings,
-		"tags":          normalizeTags(t.m.Meta["tags"]),
+		"tags":          tags,
 	}
 }
 
@@ -517,39 +537,38 @@ func normalizeTags(in interface{}) []string {
 	return uniqueStringsSorted(tagsout)
 }
 
-var goodTags = map[string]interface{}{
+var goodTags = map[string]any{
+	"agency":       true,
 	"api":          true,
+	"archive":      true,
+	"archives":     "archive",
 	"blog":         true,
+	"book":         true,
 	"bootstrap":    true,
-	"company":      true,
 	"business":     "company",
-	"dark":         true,
+	"church":       true,
+	"company":      true,
 	"dark mode":    true,
-	"hero":         true,
-	"light mode":   true,
+	"dark":         true,
 	"ecommerce":    true,
+	"education":    true,
 	"gallery":      true,
 	"green":        true,
+	"hero":         true,
+	"light mode":   true,
 	"light":        true,
-	"multilingual": true,
-	"mobile":       "responsive",
-	"newsletter":   true,
-	"portfolio":    true,
-	"white":        "light",
-	"agency":       true,
-	"personal":     true,
-	"archives":     "archive",
-	"archive":      true,
-	"book":         true,
-	"church":       true,
-	"education":    true,
 	"magazine":     true,
-	"podcast":      true,
-	"responsive":   true,
+	"multilingual": true,
+	"newsletter":   true,
+	"personal":     true,
 	"pink":         true,
-	"two-column":   true,
+	"podcast":      true,
+	"portfolio":    true,
+	"sass":         true,
 	"tailwind":     true,
 	"tailwindcss":  "tailwind",
+	"two-column":   true,
+	"white":        "light",
 }
 
 func normalizeTag(s string) string {

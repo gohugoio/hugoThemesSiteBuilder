@@ -1,5 +1,7 @@
 module github.com/gohugoio/hugoThemeSiteBuilder/cmd/hugothemesitebuilder/build/site
 
-go 1.16
+go 1.23
 
-require github.com/gohugoio/hugoThemesSite v0.0.0-20241223175450-9740fc871774
+toolchain go1.24.2
+
+require github.com/gohugoio/hugoDocs v0.147.0 // indirect

@@ -14,7 +14,7 @@
 # Dependency directories (remove the comment below to include it)
 # vendor/
 cmd/hugothemesitebuilder/hugothemesitebuilder
-cmd/hugothemesitebuilder/build/site/content
+cmd/hugothemesitebuilder/build/site/content/themes
 cmd/hugothemesitebuilder/build/site/public
 cmd/hugothemesitebuilder/build/.vscode/settings.json
 .hugo_build.lock

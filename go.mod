@@ -1,6 +1,6 @@
 module github.com/gohugoio/hugoThemesSiteBuilder
 
-go 1.20
+go 1.23
 
 require (
 	github.com/bep/workers v0.0.0-20210707112724-e02f640a8c6b

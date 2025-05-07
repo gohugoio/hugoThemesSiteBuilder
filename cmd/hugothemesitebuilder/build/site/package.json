@@ -1,0 +1,34 @@
+{
+  "comments": {
+    "dependencies": {
+      "@alpinejs/focus": "github.com/gohugoio/hugoDocs",
+      "@alpinejs/persist": "github.com/gohugoio/hugoDocs",
+      "@hotwired/turbo": "github.com/gohugoio/hugoDocs",
+      "alpinejs": "github.com/gohugoio/hugoDocs"
+    },
+    "devDependencies": {
+      "@awmottaz/prettier-plugin-void-html": "github.com/gohugoio/hugoDocs",
+      "@tailwindcss/cli": "github.com/gohugoio/hugoDocs",
+      "@tailwindcss/typography": "github.com/gohugoio/hugoDocs",
+      "prettier": "github.com/gohugoio/hugoDocs",
+      "prettier-plugin-go-template": "github.com/gohugoio/hugoDocs",
+      "tailwindcss": "github.com/gohugoio/hugoDocs"
+    }
+  },
+  "dependencies": {
+    "@alpinejs/focus": "~3.14.9",
+    "@alpinejs/persist": "~3.14.9",
+    "@hotwired/turbo": "~8.0.13",
+    "alpinejs": "~3.14.9"
+  },
+  "devDependencies": {
+    "@awmottaz/prettier-plugin-void-html": "~1.8.0",
+    "@tailwindcss/cli": "~4.1.0",
+    "@tailwindcss/typography": "~0.5.16",
+    "prettier": "~3.5.3",
+    "prettier-plugin-go-template": "~0.0.15",
+    "tailwindcss": "~4.1.0"
+  },
+  "name": "site",
+  "version": "0.1.0"
+}
