@@ -1,0 +1,15 @@
+{{ define "main" }}
+  {{ partial "themes.html" site.RegularPages }}
+{{ end }}
+
+{{ define "subheader" }}
+  <div class="mt-2 lg:mt-8 mx-auto max-w-7xl"></div>
+{{ end }}
+
+{{ define "rightsidebar_content" }}
+  {{ partial "listtags.html" . }}
+{{ end }}
+
+{{ define "leftsidebar" }}
+  {{ printf "%c" '\u00A0' }}
+{{ end }}
