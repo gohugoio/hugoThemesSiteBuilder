@@ -195,3 +195,5 @@ According to our current policy, themes that have not been updated within the la
 **Answer:** Yes, it would be accepted if the repository hosted on git.sr.ht (or any other platform) is supported by Go Modules. To confirm the same, you can create a pull request and check if the build process succeeds.
 
 
+
+  
