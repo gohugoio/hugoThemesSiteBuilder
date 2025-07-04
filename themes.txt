@@ -385,7 +385,12 @@ github.com/queensferryme/hugo-theme-texify
 github.com/radity/raditian-free-hugo-theme
 github.com/rafed/BlogRa
 github.com/rafed/ramium
+<<<<<<< HEAD
 github.com/RainerChiang/simpleness
+=======
+github.com/raisingpixels/loficode-hugo-theme
+github.com/raisingpixels/vintage-web-hugo-theme
+>>>>>>> b902870 (Add LofiCode theme)
 github.com/razonyang/hugo-theme-bootstrap
 github.com/RCJacH/hugo-webslides
 github.com/RealOrangeOne/hugo-theme-revealjs
@@ -481,7 +486,6 @@ github.com/uPagge/uBlogger
 github.com/urjaacharya/redgood
 github.com/vaga/hugo-theme-m10c
 github.com/vantagedesign/ace-documentation
-github.com/vibecodemama/vintage-web
 github.com/victoriadrake/hugo-theme-introduction
 github.com/victoriadrake/hugo-theme-quint
 github.com/victoriadrake/neofeed-theme/v2
