@@ -27,7 +27,7 @@ require (
 	github.com/EmielH/stip-hugo v1.0.0 // indirect
 	github.com/EmielH/tale-hugo v2.2.0+incompatible // indirect
 	github.com/ExchangeRate-API/strange-case v0.0.0-20210304125749-3ea1d7d50bd0 // indirect
-	github.com/FarseaSH/hugo-theme-moments v0.0.0-20250616150146-608a37f8b040 // indirect
+	github.com/FarseaSH/hugo-theme-moments v0.0.0-20250709123642-3d4fb4cd5541 // indirect
 	github.com/Fastbyte01/KeepIt v0.0.0-20250627215237-472472446066 // indirect
 	github.com/GDGToulouse/devfest-theme-hugo v0.0.0-20240603135139-fa7219ae75d6 // indirect
 	github.com/GrantBirki/dario v0.0.0-20250616161509-10402cd47e6a // indirect
@@ -251,7 +251,7 @@ require (
 	github.com/hugo-porto/theme v0.1.8 // indirect
 	github.com/hugo-sid/hugo-blog-awesome v1.20.0 // indirect
 	github.com/hugo-toha/toha/v4 v4.9.0 // indirect
-	github.com/hugolify/hugolify-theme v1.24.11 // indirect
+	github.com/hugolify/hugolify-theme v1.24.12 // indirect
 	github.com/humrochagf/colordrop v1.13.0 // indirect
 	github.com/huyb1991/hugo-lamp v1.2.1 // indirect
 	github.com/iCyris/hugo-theme-yuki v1.1.0 // indirect
@@ -298,7 +298,7 @@ require (
 	github.com/kaiiiz/hugo-theme-monochrome v5.1.0+incompatible // indirect
 	github.com/kakawait/hugo-tranquilpeak-theme v0.0.0-20220821070134-3b5676afca7e // indirect
 	github.com/kaushalmodi/hugo-bare-min-theme v0.6.0 // indirect
-	github.com/kaushikgopal/henry-hugo v0.0.0-20250706175749-d5f771c759e8 // indirect
+	github.com/kaushikgopal/henry-hugo v0.0.0-20250709034315-f26a1371a7d7 // indirect
 	github.com/kc0bfv/autophugo v0.0.0-20250302235832-9267211a842a // indirect
 	github.com/kc0bfv/ticky_tacky_dark v0.0.0-20221111221805-f626fbd274d1 // indirect
 	github.com/kdevo/osprey-delight/v5 v5.0.8 // indirect
@@ -508,7 +508,7 @@ require (
 	github.com/willfaught/paige v0.111.1 // indirect
 	github.com/wlh320/hugo-theme-hulga v1.1.0 // indirect
 	github.com/wonyoung-jang/hugo-PolyRhythmic v0.0.0-20250523184420-2bdf373fb8b6 // indirect
-	github.com/writeonlycode/hugo-up-business v0.0.0-20250708123158-4fb319cddcf6 // indirect
+	github.com/writeonlycode/hugo-up-business v0.0.0-20250709124836-33d421f28c8c // indirect
 	github.com/xaprb/story v0.0.0-20220322144912-046bf4f12e69 // indirect
 	github.com/xaviablaza/hugo-lodi-theme v0.0.0-20190215050835-89984401ebf2 // indirect
 	github.com/xianmin/hugo-theme-jane v0.0.0-20250519002000-b4aac7720efc // indirect
