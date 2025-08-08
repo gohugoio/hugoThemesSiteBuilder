@@ -1496,12 +1496,6 @@
         "ignoreConfig": true,
         "ignoreImports": true,
         "noMounts": true,
-        "path": "github.com/Junyi-99/hugo-theme-anubis2"
-      },
-      {
-        "ignoreConfig": true,
-        "ignoreImports": true,
-        "noMounts": true,
         "path": "github.com/jweslley/hugo-conference"
       },
       {
@@ -1988,7 +1982,7 @@
         "ignoreConfig": true,
         "ignoreImports": true,
         "noMounts": true,
-        "path": "github.com/Morgscode/hugo-theme-spaced-blog"
+        "path": "github.com/mozanunal/hugo-classless"
       },
       {
         "ignoreConfig": true,
@@ -2102,6 +2096,12 @@
         "ignoreConfig": true,
         "ignoreImports": true,
         "noMounts": true,
+        "path": "github.com/ntk148v/shibui"
+      },
+      {
+        "ignoreConfig": true,
+        "ignoreImports": true,
+        "noMounts": true,
         "path": "github.com/nunocoracao/blowfish/v2"
       },
       {
@@ -2175,6 +2175,12 @@
         "ignoreImports": true,
         "noMounts": true,
         "path": "github.com/orf/bare-hugo-theme"
+      },
+      {
+        "ignoreConfig": true,
+        "ignoreImports": true,
+        "noMounts": true,
+        "path": "github.com/oxypteros/alpha"
       },
       {
         "ignoreConfig": true,
@@ -2324,7 +2330,13 @@
         "ignoreConfig": true,
         "ignoreImports": true,
         "noMounts": true,
-        "path": "github.com/RainerChiang/simpleness"
+        "path": "github.com/raisingpixels/loficode-hugo-theme"
+      },
+      {
+        "ignoreConfig": true,
+        "ignoreImports": true,
+        "noMounts": true,
+        "path": "github.com/raisingpixels/vintage-web-hugo-theme"
       },
       {
         "ignoreConfig": true,
@@ -2385,6 +2397,12 @@
         "ignoreImports": true,
         "noMounts": true,
         "path": "github.com/rmsubekti/the-roots-home"
+      },
+      {
+        "ignoreConfig": true,
+        "ignoreImports": true,
+        "noMounts": true,
+        "path": "github.com/rokcso/hugo-bearneo"
       },
       {
         "ignoreConfig": true,
@@ -2786,12 +2804,6 @@
         "ignoreConfig": true,
         "ignoreImports": true,
         "noMounts": true,
-        "path": "github.com/thomasheller/crab"
-      },
-      {
-        "ignoreConfig": true,
-        "ignoreImports": true,
-        "noMounts": true,
         "path": "github.com/tnwhitwell/hugo-startpage-theme"
       },
       {
@@ -2895,12 +2907,6 @@
         "ignoreImports": true,
         "noMounts": true,
         "path": "github.com/vantagedesign/ace-documentation"
-      },
-      {
-        "ignoreConfig": true,
-        "ignoreImports": true,
-        "noMounts": true,
-        "path": "github.com/vibecodemama/vintage-web"
       },
       {
         "ignoreConfig": true,
@@ -3021,6 +3027,12 @@
         "ignoreImports": true,
         "noMounts": true,
         "path": "github.com/wonyoung-jang/hugo-PolyRhythmic"
+      },
+      {
+        "ignoreConfig": true,
+        "ignoreImports": true,
+        "noMounts": true,
+        "path": "github.com/writeonlycode/hugo-agency-web"
       },
       {
         "ignoreConfig": true,
