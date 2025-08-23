@@ -132,12 +132,12 @@ require (
 	github.com/chaitanya4vedi/navada v0.0.0-20211223142020-aa7018bddcfc // indirect
 	github.com/chaoming/hugo-saasify-theme v1.0.2 // indirect
 	github.com/chipsenkbeil/grid-side v0.0.0-20170626191754-f5251bfd15a7 // indirect
-	github.com/chipzoller/hugo-clarity v0.0.0-20250514185450-16f2e94b0bce // indirect
+	github.com/chipzoller/hugo-clarity v0.0.0-20250822134453-ea273fa2d87c // indirect
 	github.com/chollinger93/ink-free v1.4.5 // indirect
 	github.com/chrede88/L1nkr v1.10.0 // indirect
 	github.com/chrede88/qubt v1.6.0 // indirect
 	github.com/chringel21/chringel-hugo-theme v1.3.1 // indirect
-	github.com/clente/hugo-bearcub v0.0.0-20250620184129-467c7b2925d8 // indirect
+	github.com/clente/hugo-bearcub v0.0.0-20250822192412-1d12a7654944 // indirect
 	github.com/cloudwithchris/hugo-creator v0.0.32 // indirect
 	github.com/cncf/dot-org-hugo-theme v0.1.8 // indirect
 	github.com/cntrump/hugo-notepadium v2.6.3+incompatible // indirect
@@ -187,7 +187,7 @@ require (
 	github.com/elecbrandy/freshpink v0.0.0-20250529011124-c66af02c0f65 // indirect
 	github.com/eliasson/liquorice v0.0.0-20200622115411-8eac8aa98593 // indirect
 	github.com/ertuil/erblog v1.1.0 // indirect
-	github.com/escalate/hugo-split-theme v1.8.0 // indirect
+	github.com/escalate/hugo-split-theme v1.9.0 // indirect
 	github.com/eshlox/simplicity v2.1.0+incompatible // indirect
 	github.com/fauzanmy/pehtheme-hugo v0.0.0-20250628024136-28d138580ffc // indirect
 	github.com/felicianotech/hugo-theme-lean-launch-page v0.3.0 // indirect
@@ -209,7 +209,7 @@ require (
 	github.com/gentleadam/hugo-menu v0.0.0-20250110132225-bba55df574d5 // indirect
 	github.com/geschke/hugo-tikva v0.4.0 // indirect
 	github.com/gesquive/slate v1.1.1 // indirect
-	github.com/gethinode/hinode v1.10.0 // indirect
+	github.com/gethinode/hinode v1.11.1 // indirect
 	github.com/gethyas/doks v1.8.1 // indirect
 	github.com/gevhaz/hugo-theme-notrack v1.1.0 // indirect
 	github.com/gizak/nofancy v0.0.0-20180325214227-ae4670287c71 // indirect
@@ -479,7 +479,7 @@ require (
 	github.com/thingsym/hugo-theme-techdoc v1.0.2 // indirect
 	github.com/tnwhitwell/hugo-startpage-theme v0.0.0-20180704204829-76b1a1f5808e // indirect
 	github.com/tohn/linkshrubbery v0.0.0-20230623094327-4b529ca6cb8b // indirect
-	github.com/tom2almighty/hugo-narrow v1.1.3 // indirect
+	github.com/tom2almighty/hugo-narrow v1.1.4 // indirect
 	github.com/tomfran/typo v1.16.0 // indirect
 	github.com/tomowang/hugo-theme-tailwind v0.0.0-20250622133411-4d127288a8cc // indirect
 	github.com/tosi29/inkblotty v0.0.0-20250815092838-7f54a6777a70 // indirect
