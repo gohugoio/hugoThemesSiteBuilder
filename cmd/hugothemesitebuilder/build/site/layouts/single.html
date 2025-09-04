@@ -1,5 +1,6 @@
 {{ define "hero" }}
-  <div class="relative isolate overflow-hidden h-screen">
+  <div class="relative isolate overflow-hidden min-h-screen">
+    {{ template "prevnext-button" . }}
     <div class="mx-auto max-w-7xl px-6 pt-10 lg:flex lg:px-8">
       <div class="mx-auto max-w-2xl lg:mx-0 lg:shrink-0 lg:pt-8">
         <h1
@@ -12,7 +13,7 @@
         </p>
 
         {{ template "theme-details" . }}
-        <div class="mt-12 flex items-center gap-x-6">
+        <div class="mt-12 flex items-center gap-x-3">
           {{ if not site.Params.hideHTMLLink }}
             {{ with .Params.htmlURL }}
               <a
@@ -30,7 +31,18 @@
                 >Demo</a
               >
             {{ end }}
+
           {{ end }}
+        </div>
+        <div class="mt-8 text-sm">
+          <kbd
+            class="rounded-sm text-lg outline-1 outline-gray-300 dark:outline-gray-600 bg-gray-100 dark:bg-gray-700 shadow-sm px-2 py-1"
+            >←</kbd
+          ><kbd
+            class="ml-2 mr-1 rounded-sm text-lg outline-1 outline-gray-300 dark:outline-gray-600 bg-gray-100 dark:bg-gray-700 shadow-sm px-2 py-1"
+            >→</kbd
+          >
+          to navigate
         </div>
       </div>
       <div
@@ -139,5 +151,61 @@ dark:hover:text-blue-200 dark:text-blue-200">
         {{ .value }}
       {{ end }}
     </dd>
+  </div>
+{{ end }}
+
+{{ define "prevnext-button" }}
+  {{ $prev := "" }}
+  {{ with .NextInSection }}
+    {{ $prev = .RelPermalink }}
+  {{ end }}
+  {{ $next := "" }}
+  {{ with .PrevInSection }}
+    {{ $next = .RelPermalink }}
+  {{ end }}
+  {{ $data := dict "prev" $prev "next" $next | jsonify }}
+  <div
+    class="hidden lg:block print:hidden bg-black transition transition-all transition-discrete"
+    x-data="{{ $data }}"
+    x-show="$store.nav.scroll.atTop"
+    @keydown.left.window.prevent="if(prev) { document.location.href = prev; }"
+    @keydown.right.window.prevent="if(next) { document.location.href = next; }">
+    {{ $classes := "ml-6 fixed mb-6 flex items-center justify-center rounded-md bg-white/80 dark:bg-dark px-3.5 py-2.5 text-sm font-semibold text-black dark:text-white outline-solid outline-gray-300 dark:outline-gray-800 shadow-xs hover:bg-gray-50 dark:hover:bg-gray-800 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-gray-400" }}
+    {{ with $prev }}
+      <a href="{{ . }}" class="bottom-0 {{ $classes }}">
+        <svg
+          class="w-3.5 h-3.5 me-2 rtl:rotate-180"
+          aria-hidden="true"
+          xmlns="http://www.w3.org/2000/svg"
+          fill="none"
+          viewBox="0 0 14 10">
+          <path
+            stroke="currentColor"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="2"
+            d="M13 5H1m0 0 4 4M1 5l4-4" />
+        </svg>
+        Previous
+      </a>
+    {{ end }}
+    {{ with $next }}
+      <a href="{{ . }}" class="bottom-0 right-0 mr-6 {{ $classes }}">
+        Next
+        <svg
+          class="w-3.5 h-3.5 ms-2 rtl:rotate-180"
+          aria-hidden="true"
+          xmlns="http://www.w3.org/2000/svg"
+          fill="none"
+          viewBox="0 0 14 10">
+          <path
+            stroke="currentColor"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="2"
+            d="M1 5h12m0 0L9 1m4 4L9 9" />
+        </svg>
+      </a>
+    {{ end }}
   </div>
 {{ end }}
