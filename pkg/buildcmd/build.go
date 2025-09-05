@@ -69,7 +69,7 @@ func (c *Config) Exec(ctx context.Context, args []string) error {
 	contentThemesDir := filepath.Join(contentDir, "themes")
 	staticDir := c.rootConfig.Client.JoinOutPath("site", "static")
 	configFile := c.rootConfig.Client.JoinOutPath(configAll)
-	client.CheckErr(os.Remove(configFile))
+	os.Remove(configFile)
 
 	bc := &buildClient{
 		Client:     c.rootConfig.Client,

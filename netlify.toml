@@ -10,5 +10,5 @@
   #   unless the same property key is present in a more specific context.
 
   [build.environment]
-    HUGO_VERSION = "0.148.2"
+    HUGO_VERSION = "0.149.1"
     GO_VERSION   = "1.24.0"

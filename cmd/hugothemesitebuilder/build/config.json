@@ -704,6 +704,12 @@
         "ignoreConfig": true,
         "ignoreImports": true,
         "noMounts": true,
+        "path": "github.com/Dim0000/simple-frame"
+      },
+      {
+        "ignoreConfig": true,
+        "ignoreImports": true,
+        "noMounts": true,
         "path": "github.com/dipeshsingh253/saral"
       },
       {
@@ -1202,6 +1208,12 @@
         "ignoreConfig": true,
         "ignoreImports": true,
         "noMounts": true,
+        "path": "github.com/HugoBlox/theme-documentation"
+      },
+      {
+        "ignoreConfig": true,
+        "ignoreImports": true,
+        "noMounts": true,
         "path": "github.com/hugolify/hugolify-theme"
       },
       {
@@ -1688,13 +1700,13 @@
         "ignoreConfig": true,
         "ignoreImports": true,
         "noMounts": true,
-        "path": "github.com/LordMathis/hugo-theme-nightfall"
+        "path": "github.com/lordmathis/hugo-theme-nightfall"
       },
       {
         "ignoreConfig": true,
         "ignoreImports": true,
         "noMounts": true,
-        "path": "github.com/LordMathis/hugo-theme-nix"
+        "path": "github.com/lordmathis/hugo-theme-nix"
       },
       {
         "ignoreConfig": true,
@@ -1749,6 +1761,12 @@
         "ignoreImports": true,
         "noMounts": true,
         "path": "github.com/M1cR0xf7/kaslaanka"
+      },
+      {
+        "ignoreConfig": true,
+        "ignoreImports": true,
+        "noMounts": true,
+        "path": "github.com/m03315/nomad-tech"
       },
       {
         "ignoreConfig": true,
@@ -2391,12 +2409,6 @@
         "ignoreImports": true,
         "noMounts": true,
         "path": "github.com/rijoth/rsimple"
-      },
-      {
-        "ignoreConfig": true,
-        "ignoreImports": true,
-        "noMounts": true,
-        "path": "github.com/rmsubekti/the-roots-home"
       },
       {
         "ignoreConfig": true,
@@ -3117,6 +3129,12 @@
         "ignoreImports": true,
         "noMounts": true,
         "path": "github.com/yue1124/hero"
+      },
+      {
+        "ignoreConfig": true,
+        "ignoreImports": true,
+        "noMounts": true,
+        "path": "github.com/yuis-ice/hugo-kawaii"
       },
       {
         "ignoreConfig": true,
