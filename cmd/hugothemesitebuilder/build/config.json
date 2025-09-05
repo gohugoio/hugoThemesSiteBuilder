@@ -704,6 +704,12 @@
         "ignoreConfig": true,
         "ignoreImports": true,
         "noMounts": true,
+        "path": "github.com/Dim0000/simple-frame"
+      },
+      {
+        "ignoreConfig": true,
+        "ignoreImports": true,
+        "noMounts": true,
         "path": "github.com/dipeshsingh253/saral"
       },
       {
@@ -1755,6 +1761,12 @@
         "ignoreImports": true,
         "noMounts": true,
         "path": "github.com/M1cR0xf7/kaslaanka"
+      },
+      {
+        "ignoreConfig": true,
+        "ignoreImports": true,
+        "noMounts": true,
+        "path": "github.com/m03315/nomad-tech"
       },
       {
         "ignoreConfig": true,
@@ -3117,6 +3129,12 @@
         "ignoreImports": true,
         "noMounts": true,
         "path": "github.com/yue1124/hero"
+      },
+      {
+        "ignoreConfig": true,
+        "ignoreImports": true,
+        "noMounts": true,
+        "path": "github.com/yuis-ice/hugo-kawaii"
       },
       {
         "ignoreConfig": true,
