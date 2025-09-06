@@ -110,6 +110,12 @@
         "ignoreConfig": true,
         "ignoreImports": true,
         "noMounts": true,
+        "path": "github.com/akopdev/hugo-theme-chicago7"
+      },
+      {
+        "ignoreConfig": true,
+        "ignoreImports": true,
+        "noMounts": true,
         "path": "github.com/alanorth/hugo-theme-bootstrap4-blog"
       },
       {
