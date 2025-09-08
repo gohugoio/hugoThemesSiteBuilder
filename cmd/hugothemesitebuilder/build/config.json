@@ -110,6 +110,12 @@
         "ignoreConfig": true,
         "ignoreImports": true,
         "noMounts": true,
+        "path": "github.com/akopdev/hugo-theme-chicago7"
+      },
+      {
+        "ignoreConfig": true,
+        "ignoreImports": true,
+        "noMounts": true,
         "path": "github.com/alanorth/hugo-theme-bootstrap4-blog"
       },
       {
@@ -704,6 +710,12 @@
         "ignoreConfig": true,
         "ignoreImports": true,
         "noMounts": true,
+        "path": "github.com/Dim0000/simple-frame"
+      },
+      {
+        "ignoreConfig": true,
+        "ignoreImports": true,
+        "noMounts": true,
         "path": "github.com/dipeshsingh253/saral"
       },
       {
@@ -1197,6 +1209,12 @@
         "ignoreImports": true,
         "noMounts": true,
         "path": "github.com/HugoBlox/hugo-blox-builder/modules/blox-tailwind"
+      },
+      {
+        "ignoreConfig": true,
+        "ignoreImports": true,
+        "noMounts": true,
+        "path": "github.com/HugoBlox/theme-documentation"
       },
       {
         "ignoreConfig": true,
@@ -1749,6 +1767,12 @@
         "ignoreImports": true,
         "noMounts": true,
         "path": "github.com/M1cR0xf7/kaslaanka"
+      },
+      {
+        "ignoreConfig": true,
+        "ignoreImports": true,
+        "noMounts": true,
+        "path": "github.com/m03315/nomad-tech"
       },
       {
         "ignoreConfig": true,
@@ -2391,12 +2415,6 @@
         "ignoreImports": true,
         "noMounts": true,
         "path": "github.com/rijoth/rsimple"
-      },
-      {
-        "ignoreConfig": true,
-        "ignoreImports": true,
-        "noMounts": true,
-        "path": "github.com/rmsubekti/the-roots-home"
       },
       {
         "ignoreConfig": true,
@@ -3117,6 +3135,12 @@
         "ignoreImports": true,
         "noMounts": true,
         "path": "github.com/yue1124/hero"
+      },
+      {
+        "ignoreConfig": true,
+        "ignoreImports": true,
+        "noMounts": true,
+        "path": "github.com/yuis-ice/hugo-kawaii"
       },
       {
         "ignoreConfig": true,

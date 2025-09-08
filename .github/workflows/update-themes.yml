@@ -38,5 +38,5 @@ jobs:
           git config --global user.email "bep@users.noreply.github.com"
           git config --global user.name "bep"
           git add .
-          git commit -am "[Bot] Update themes"
+          git diff-index --quiet HEAD || git commit -am "[Bot] Update themes"
           git push --force-with-lease
