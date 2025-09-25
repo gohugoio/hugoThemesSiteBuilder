@@ -146,11 +146,11 @@
   "github.com/CaiJimmy/hugo-theme-stack/v3": {
     "id": 289457038,
     "created_at": "2020-08-22T09:16:55Z",
-    "updated_at": "2025-09-25T05:42:51Z",
+    "updated_at": "2025-09-25T16:23:19Z",
     "name": "hugo-theme-stack",
     "description": "Card-style Hugo theme designed for bloggers",
     "html_url": "https://github.com/CaiJimmy/hugo-theme-stack",
-    "stargazers_count": 5948
+    "stargazers_count": 5949
   },
   "github.com/CyrusYip/hugo-theme-yue": {
     "id": 780420640,
@@ -425,11 +425,11 @@
   "github.com/McShelby/hugo-theme-relearn": {
     "id": 295128524,
     "created_at": "2020-09-13T10:34:08Z",
-    "updated_at": "2025-09-25T11:22:06Z",
+    "updated_at": "2025-09-25T14:50:07Z",
     "name": "hugo-theme-relearn",
     "description": "A theme for Hugo designed for documentation",
     "html_url": "https://github.com/McShelby/hugo-theme-relearn",
-    "stargazers_count": 548
+    "stargazers_count": 549
   },
   "github.com/MeiK2333/github-style": {
     "id": 216473473,
@@ -704,11 +704,11 @@
   "github.com/adityatelange/hugo-PaperMod": {
     "id": 281297416,
     "created_at": "2020-07-21T04:45:10Z",
-    "updated_at": "2025-09-25T14:22:12Z",
+    "updated_at": "2025-09-25T16:23:45Z",
     "name": "hugo-PaperMod",
     "description": " A fast, clean, responsive Hugo theme.",
     "html_url": "https://github.com/adityatelange/hugo-PaperMod",
-    "stargazers_count": 12330
+    "stargazers_count": 12333
   },
   "github.com/adityatelange/hugo-index": {
     "id": 625463549,
@@ -794,7 +794,7 @@
   "github.com/alex-shpak/hugo-book": {
     "id": 147530276,
     "created_at": "2018-09-05T14:21:31Z",
-    "updated_at": "2025-09-25T08:12:09Z",
+    "updated_at": "2025-09-25T15:08:27Z",
     "name": "hugo-book",
     "description": "Hugo documentation theme as simple as plain book",
     "html_url": "https://github.com/alex-shpak/hugo-book",
@@ -1879,6 +1879,15 @@
     "description": "a single-page speed-dial theme for Hugo",
     "html_url": "https://github.com/gesquive/slate",
     "stargazers_count": 150
+  },
+  "github.com/gethinode/hinode": {
+    "id": 447086741,
+    "created_at": "2022-01-12T05:20:40Z",
+    "updated_at": "2025-09-25T17:13:06Z",
+    "name": "hinode",
+    "description": "A clean documentation and blog theme for your Hugo site based on Bootstrap 5",
+    "html_url": "https://github.com/gethinode/hinode",
+    "stargazers_count": 183
   },
   "github.com/gethyas/doks": {
     "id": 255927625,
@@ -3377,11 +3386,11 @@
   "github.com/nunocoracao/blowfish/v2": {
     "id": 534798642,
     "created_at": "2022-09-09T20:38:52Z",
-    "updated_at": "2025-09-25T10:25:23Z",
+    "updated_at": "2025-09-25T16:26:07Z",
     "name": "blowfish",
     "description": "Personal Website \u0026 Blog Theme for Hugo",
     "html_url": "https://github.com/nunocoracao/blowfish",
-    "stargazers_count": 2307
+    "stargazers_count": 2308
   },
   "github.com/nurlansu/hugo-sustain": {
     "id": 71623522,
@@ -3449,11 +3458,11 @@
   "github.com/onweru/newsroom": {
     "id": 202606752,
     "created_at": "2019-08-15T20:25:37Z",
-    "updated_at": "2025-09-25T06:13:21Z",
+    "updated_at": "2025-09-25T15:04:44Z",
     "name": "newsroom",
     "description": "A simple, minimalistic Hugo theme. View Demo here",
     "html_url": "https://github.com/onweru/newsroom",
-    "stargazers_count": 315
+    "stargazers_count": 316
   },
   "github.com/opera7133/Blonde": {
     "id": 287219987,
@@ -3512,11 +3521,11 @@
   "github.com/panr/hugo-theme-terminal/v4": {
     "id": 167872853,
     "created_at": "2019-01-27T23:58:03Z",
-    "updated_at": "2025-09-25T08:50:16Z",
+    "updated_at": "2025-09-25T17:11:46Z",
     "name": "hugo-theme-terminal",
     "description": "A simple, retro theme for Hugo",
     "html_url": "https://github.com/panr/hugo-theme-terminal",
-    "stargazers_count": 2470
+    "stargazers_count": 2471
   },
   "github.com/paposeco/quietfoodie": {
     "id": 461899204,
@@ -3818,7 +3827,7 @@
   "github.com/rullmann/hugo-theme-terminal-cookbook": {
     "id": 477294858,
     "created_at": "2022-04-03T09:33:04Z",
-    "updated_at": "2023-08-02T07:24:02Z",
+    "updated_at": "2025-09-25T16:02:53Z",
     "name": "hugo-theme-terminal-cookbook",
     "description": "",
     "html_url": "https://github.com/stillbeben/hugo-theme-terminal-cookbook",
@@ -3926,7 +3935,7 @@
   "github.com/schnerring/hugo-theme-gruvbox": {
     "id": 375866848,
     "created_at": "2021-06-11T00:56:19Z",
-    "updated_at": "2025-09-24T13:55:51Z",
+    "updated_at": "2025-09-25T15:43:01Z",
     "name": "hugo-theme-gruvbox",
     "description": "A retro-looking Hugo theme inspired by gruvbox. The pastel colors are high contrast, easily distinguishable, pleasing to the eye, and feature light and dark color palettes.",
     "html_url": "https://github.com/schnerring/hugo-theme-gruvbox",
