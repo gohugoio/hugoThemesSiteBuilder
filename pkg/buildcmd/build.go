@@ -482,7 +482,7 @@ func (t *theme) checkLastMod() (warn warning, found bool) {
 	if !lastMod.IsZero() {
 		age := time.Since(lastMod)
 		ageYears := age.Hours() / 24 / 365
-		if ageYears > 3 {
+		if ageYears > 1 {
 			warn = themeWarningOld
 			found = true
 		}
@@ -510,7 +510,7 @@ var (
 	// Not updated for the last 2 years.
 	themeWarningOld = warning{
 		level:   errorLevelWarn,
-		message: "This theme has not been updated for more than 2 years.",
+		message: "This theme hasn't been updated in over a year.",
 	}
 
 	themeWarningBadURL = warning{
