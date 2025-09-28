@@ -182,7 +182,7 @@ The Netlify deploy preview can fail for a variety of reasons. The following step
 
 # Outdated themes
 
-According to our current policy, themes that have not been updated within the last 3 years are deemed outdated and are removed. Even if your theme is fully functional, it is recommended that you periodically check and confirm its compatibility with the latest version of Hugo.
+Themes are removed if they haven't been updated in the last 18 months. Even if your theme works now, we strongly recommend you periodically check its compatibility with the latest version of Hugo.
 
 # FAQ
 
@@ -193,5 +193,3 @@ According to our current policy, themes that have not been updated within the la
 **Question:** Can I submit a theme with a repository hosted on git.sr.ht (or any other platform for that matter), given that themes.txt contains links to github.com and gitlab.com?
 
 **Answer:** Yes, it would be accepted if the repository hosted on git.sr.ht (or any other platform) is supported by Go Modules. To confirm the same, you can create a pull request and check if the build process succeeds.
-
-
