@@ -1970,12 +1970,6 @@
         "ignoreConfig": true,
         "ignoreImports": true,
         "noMounts": true,
-        "path": "github.com/mmrath/hugo-bootstrap"
-      },
-      {
-        "ignoreConfig": true,
-        "ignoreImports": true,
-        "noMounts": true,
         "path": "github.com/mnjm/kayal"
       },
       {
@@ -2870,12 +2864,6 @@
         "ignoreConfig": true,
         "ignoreImports": true,
         "noMounts": true,
-        "path": "github.com/tylerjlawson/simple-snipcart-shop"
-      },
-      {
-        "ignoreConfig": true,
-        "ignoreImports": true,
-        "noMounts": true,
         "path": "github.com/uicardiodev/hugo-lime"
       },
       {
@@ -2913,12 +2901,6 @@
         "ignoreImports": true,
         "noMounts": true,
         "path": "github.com/vaga/hugo-theme-m10c"
-      },
-      {
-        "ignoreConfig": true,
-        "ignoreImports": true,
-        "noMounts": true,
-        "path": "github.com/vantagedesign/ace-documentation"
       },
       {
         "ignoreConfig": true,

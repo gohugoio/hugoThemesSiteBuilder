@@ -62,6 +62,37 @@ func New(rootConfig *rootcmd.Config) *ffcli.Command {
 	}
 }
 
+var repositoryDeletedErrorStrings = []string{
+	"Repository not found",
+	"Confirm the import path was entered correctly",
+}
+
+type moduleErrType int
+
+const (
+	moduleErrTypeUnknown moduleErrType = iota
+	moduleErrTypeWrongVersion
+	moduleErrTypeWrongPath
+	moduleErrTypeDeleted
+)
+
+func (c *Config) extractModuleNameFromError(s string) (string, moduleErrType) {
+	wasReuiredAs := regexp.MustCompile(`but was required as: (.*)`)
+	if matches := wasReuiredAs.FindStringSubmatch(s); len(matches) == 2 {
+		return matches[1], moduleErrTypeWrongPath
+	}
+	var typ moduleErrType = moduleErrTypeWrongVersion
+	if stringsContains(repositoryDeletedErrorStrings, s) {
+		typ = moduleErrTypeDeleted
+	}
+	failedModuleRe := regexp.MustCompile(`module (.*?):`)
+	matches := failedModuleRe.FindStringSubmatch(s)
+	if len(matches) == 2 {
+		return matches[1], typ
+	}
+	return "", moduleErrTypeUnknown
+}
+
 // Exec function for this command.
 func (c *Config) Exec(ctx context.Context, args []string) error {
 	const configAll = "config.json"
@@ -92,23 +123,43 @@ func (c *Config) Exec(ctx context.Context, args []string) error {
 	var err error
 	bc.mmap, err = bc.GetHugoModulesMap(configAll)
 	if err != nil {
-		if strings.Contains(err.Error(), "Repository not found") {
-			// Someone deleted a theme repo?
-			// TODO(bep) there are other similar errors, but let's get this one working first.
-			c.rootConfig.Client.Logf("A theme repository is deleted, remove the go.* files and start over.")
-			bc.RemoveGoModAndGoSum()
-			if err := bc.InitModule(); err != nil {
-				return fmt.Errorf("failed to init module: %w", err)
+
+		failedModulePath, errTyp := c.extractModuleNameFromError(err.Error())
+		if errTyp == moduleErrTypeUnknown {
+			return err
+		}
+
+		switch errTyp {
+		case moduleErrTypeWrongVersion:
+			c.rootConfig.Client.Logf("The theme %q seem to have a version problem, now removing go.mod, go.sum and start over...", failedModulePath)
+		case moduleErrTypeWrongPath:
+			c.rootConfig.Client.Logf("The theme %q seem to have a path problem, now removing go.mod, go.sum and the theme from themes.txt and start over", failedModulePath)
+		case moduleErrTypeDeleted:
+			c.rootConfig.Client.Logf("The theme %q seem to have been deleted or, now removing go.mod, go.sum and the theme from themes.txt and start over...", failedModulePath)
+		}
+
+		if err := bc.RemoveGoModAndGoSum(); err != nil {
+			return fmt.Errorf("failed to remove go.mod and go.sum: %w", err)
+		}
+
+		if err := bc.InitModule(); err != nil {
+			return fmt.Errorf("failed to init module: %w", err)
+		}
+
+		switch errTyp {
+		case moduleErrTypeWrongPath, moduleErrTypeDeleted:
+			if err := bc.RemoveModulePathFromThemesTxt(failedModulePath); err != nil {
+				return fmt.Errorf("failed to remove module %q from themes.txt: %w", failedModulePath, err)
 			}
-			bc.mmap, err = bc.GetHugoModulesMap(configAll)
-			if err != nil {
+			if err := bc.CreateThemesConfig(); err != nil {
 				return err
 			}
 		}
 
-		if strings.Contains(err.Error(), "no matching versions for query") {
-			// TODO(bep) automate this if this becomes common.
-			return fmt.Errorf("probably a go.mod path vs semver mismatch; may have to delete the theme from themes.txt and try again: %w", err)
+		// Try again
+		bc.mmap, err = bc.GetHugoModulesMap(configAll)
+		if err != nil {
+			return err
 		}
 
 		return err
@@ -130,6 +181,15 @@ func (c *Config) Exec(ctx context.Context, args []string) error {
 	}
 
 	return nil
+}
+
+func stringsContains(ss []string, s string) bool {
+	for _, v := range ss {
+		if strings.Contains(s, v) {
+			return true
+		}
+	}
+	return false
 }
 
 type buildClient struct {
