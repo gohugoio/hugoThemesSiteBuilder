@@ -112,6 +112,7 @@ require (
 	github.com/barklan/hugo-dead-simple v1.76.5 // indirect
 	github.com/bep/docuapi/v2 v2.4.2 // indirect
 	github.com/bep/galleriesdeluxe v0.4.1 // indirect
+	github.com/bep/gallerydeluxe v0.12.1 // indirect
 	github.com/bin16/hugo-theme-island v0.6.0 // indirect
 	github.com/binokochumolvarghese/lightbi-hugo v0.0.0-20251005092605-fcf846634f3a // indirect
 	github.com/bjacquemet/personal-web v0.0.0-20230606080827-69cf270ceddf // indirect
