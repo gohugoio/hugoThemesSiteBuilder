@@ -92,6 +92,25 @@ func (c *Config) Exec(ctx context.Context, args []string) error {
 	var err error
 	bc.mmap, err = bc.GetHugoModulesMap(configAll)
 	if err != nil {
+		if strings.Contains(err.Error(), "Repository not found") {
+			// Someone deleted a theme repo?
+			// TODO(bep) there are other similar errors, but let's get this one working first.
+			c.rootConfig.Client.Logf("A theme repository is deleted, remove the go.* files and start over.")
+			bc.RemoveGoModAndGoSum()
+			if err := bc.InitModule(); err != nil {
+				return fmt.Errorf("failed to init module: %w", err)
+			}
+			bc.mmap, err = bc.GetHugoModulesMap(configAll)
+			if err != nil {
+				return err
+			}
+		}
+
+		if strings.Contains(err.Error(), "no matching versions for query") {
+			// TODO(bep) automate this if this becomes common.
+			return fmt.Errorf("probably a go.mod path vs semver mismatch; may have to delete the theme from themes.txt and try again: %w", err)
+		}
+
 		return err
 	}
 

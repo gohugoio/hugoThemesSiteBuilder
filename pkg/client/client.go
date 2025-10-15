@@ -137,6 +137,13 @@ func (c *Client) OutFileExists(name string) bool {
 	return err == nil
 }
 
+func (c *Client) RemoveGoModAndGoSum() {
+	goModFilename := filepath.Join(c.outDir, "go.mod")
+	goSumFilename := filepath.Join(c.outDir, "go.sum")
+	os.Remove(goModFilename)
+	os.Remove(goSumFilename)
+}
+
 func (c *Client) RunHugo(arg ...string) error {
 	return c.runHugo(nil, arg...)
 }
@@ -295,13 +302,19 @@ func (c *Client) runHugo(w io.Writer, arg ...string) error {
 		w = os.Stdout
 	}
 
+	var errBuf bytes.Buffer
+	stderr := io.MultiWriter(os.Stderr, &errBuf)
+
 	cmd := exec.Command("hugo", arg...)
 	cmd.Dir = c.outDir
 	cmd.Env = env
 	cmd.Stdout = w
-	cmd.Stderr = os.Stderr
+	cmd.Stderr = stderr
 	err := cmd.Run()
-	return err
+	if err != nil {
+		return fmt.Errorf("hugo command failed: %s\n%s", err, errBuf.String())
+	}
+	return nil
 }
 
 type GitHubRepo struct {
