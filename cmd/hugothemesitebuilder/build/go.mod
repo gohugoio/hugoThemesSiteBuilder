@@ -379,7 +379,7 @@ require (
 	github.com/ntk148v/shibui v0.1.0 // indirect
 	github.com/nunocoracao/blowfish/v2 v2.91.0 // indirect
 	github.com/nurlansu/hugo-sustain v0.0.0-20230524192148-21d9f8f53692 // indirect
-	github.com/nusserstudios/tailbliss v0.0.0-20251007175355-6d4ea176f69d // indirect
+	github.com/nusserstudios/tailbliss v0.0.0-20251015210329-bf6da4d68c0b // indirect
 	github.com/okkur/syna v0.17.4 // indirect
 	github.com/olOwOlo/hugo-theme-even v4.1.0+incompatible // indirect
 	github.com/ololiuhqui/magnolia-free-hugo-theme v2.1.0+incompatible // indirect
@@ -435,7 +435,7 @@ require (
 	github.com/salatine/neopost v0.0.0-20250712000609-9b819d3ef600 // indirect
 	github.com/salcan/BeyondNothing v0.0.0-20190908210852-2931c2abf096 // indirect
 	github.com/salsysd/hugo-assembly v0.0.0-20181002012130-b536220bd067 // indirect
-	github.com/samrobbins85/hugo-developer-portfolio v0.0.0-20230421080835-4d3db20b1574 // indirect
+	github.com/samrobbins85/hugo-developer-portfolio v0.0.0-20251015203219-9feb68b7b326 // indirect
 	github.com/sbruder/spectral v0.0.0-20231021125325-0d4b111afae1 // indirect
 	github.com/schmanat/hugo-highlights-theme v0.0.0-20200409134000-79eb66a32c74 // indirect
 	github.com/schnerring/hugo-theme-gruvbox v0.0.0-20251001122453-81058f53a809 // indirect
