@@ -94,6 +94,7 @@ require (
 	github.com/akatiggerx04/graysx-hugo v0.0.0-20230120090901-fe35dd8b38c7 // indirect
 	github.com/akopdev/hugo-theme-chicago7 v1.0.0 // indirect
 	github.com/alanorth/hugo-theme-bootstrap4-blog v1.6.0 // indirect
+	github.com/alex-shpak/hugo-book v0.0.0-20251019220708-2687e34ac095 // indirect
 	github.com/alexandrevicenzi/soho v1.1.1 // indirect
 	github.com/allnightgrocery/hugo-theme-blueberry-detox v0.0.0-20170129010546-afb1e630023b // indirect
 	github.com/alloydwhitlock/huey v0.0.0-20241130051012-8cf65929b4f7 // indirect
@@ -112,7 +113,7 @@ require (
 	github.com/azmelanar/hugo-theme-pixyll v0.0.0-20240430145741-84b471227eba // indirect
 	github.com/bake/solar-theme-hugo v0.0.0-20210403202535-97632b71c241 // indirect
 	github.com/balaramadurai/hugo-travelify-theme v0.0.0-20250602053820-8e0f9a5fa1b3 // indirect
-	github.com/barklan/hugo-dead-simple v1.76.5 // indirect
+	github.com/barklan/hugo-dead-simple v1.76.6 // indirect
 	github.com/bep/docuapi/v2 v2.4.2 // indirect
 	github.com/bep/galleriesdeluxe v0.4.1 // indirect
 	github.com/bep/gallerydeluxe v0.12.1 // indirect
@@ -304,7 +305,7 @@ require (
 	github.com/kdevo/osprey-delight/v5 v5.0.8 // indirect
 	github.com/keichi/vienna v0.0.0-20200402035656-7205780bbffc // indirect
 	github.com/khitezza/vortisil v0.0.0-20250627122612-ff033770f428 // indirect
-	github.com/khusika/FeelIt v1.0.2 // indirect
+	github.com/khusika/FeelIt v1.0.3 // indirect
 	github.com/kidlat2024/kidlat v0.0.0-20240309221549-050705be7e10 // indirect
 	github.com/kimcc/hugo-theme-noteworthy v0.0.0-20210708200524-5dcc67d31bf1 // indirect
 	github.com/kishaningithub/hugo-creative-portfolio-theme v0.0.0-20221025130505-fc17ec99839b // indirect
