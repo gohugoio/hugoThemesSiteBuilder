@@ -24,7 +24,7 @@ require (
 	github.com/Blackstareye/stargazer-layout v1.1.2 // indirect
 	github.com/CaiJimmy/hugo-theme-stack/v3 v3.31.0 // indirect
 	github.com/CyrusYip/hugo-theme-yue v0.0.0-20250513132439-93a438fbca0f // indirect
-	github.com/D-Sketon/hugo-theme-reimu v0.13.2 // indirect
+	github.com/D-Sketon/hugo-theme-reimu v0.13.3 // indirect
 	github.com/Daucloud/hugo-theme-void v0.0.0-20250625072717-391731556bb9 // indirect
 	github.com/Dim0000/simple-frame v1.0.2 // indirect
 	github.com/EmielH/hallo-hugo v2.7.0+incompatible // indirect
@@ -84,7 +84,7 @@ require (
 	github.com/Yukuro/hugo-theme-shell v0.1.5 // indirect
 	github.com/aanupam23/hugo-sugoi v0.6.0 // indirect
 	github.com/achary/engimo v2.10.1+incompatible // indirect
-	github.com/adityatelange/hugo-PaperMod v0.0.0-20251009122518-c98a924842fc // indirect
+	github.com/adityatelange/hugo-PaperMod v0.0.0-20251026154251-1cf53273c3ba // indirect
 	github.com/adityatelange/hugo-index v0.0.0-20230607165812-4234dddf8c52 // indirect
 	github.com/aerohub/hugo-faq-theme v0.0.0-20161016225807-e6ed082c15bc // indirect
 	github.com/aerohub/hugo-identity-theme v0.0.0-20171209130528-ca4e10de2297 // indirect
@@ -296,7 +296,7 @@ require (
 	github.com/jsnjack/kraiklyn v0.0.0-20250630155419-ad4287fe27b8 // indirect
 	github.com/jweslley/hugo-conference v0.0.0-20190116105037-737593308e69 // indirect
 	github.com/jyygithub/hugo-theme-onelou v1.0.1 // indirect
-	github.com/kaiiiz/hugo-theme-monochrome v5.1.0+incompatible // indirect
+	github.com/kaiiiz/hugo-theme-monochrome v5.2.3+incompatible // indirect
 	github.com/kakawait/hugo-tranquilpeak-theme v0.0.0-20220821070134-3b5676afca7e // indirect
 	github.com/kaushalmodi/hugo-bare-min-theme v0.6.0 // indirect
 	github.com/kaushikgopal/henry-hugo v0.0.0-20251020174938-382fbd491dbe // indirect
