@@ -387,7 +387,7 @@ require (
 	github.com/okkur/syna v0.17.4 // indirect
 	github.com/olOwOlo/hugo-theme-even v4.1.0+incompatible // indirect
 	github.com/ololiuhqui/magnolia-free-hugo-theme v2.1.0+incompatible // indirect
-	github.com/onweru/compose v0.0.0-20251029170554-5c3ee289b116 // indirect
+	github.com/onweru/compose v0.0.0-20251031163416-58b2d2b2cb07 // indirect
 	github.com/onweru/hugo-swift-theme v2.0.0+incompatible // indirect
 	github.com/onweru/newsroom v0.0.0-20250714145805-d25c5fe8a418 // indirect
 	github.com/opera7133/Blonde v0.0.0-20251023110424-84b4507fb77a // indirect
