@@ -11,7 +11,7 @@ You can use the command <code>hugo new theme <em>THEME_NAME</em></code> to creat
 
 Then, from the root of your theme's repository, you need to perform the following steps:
 
-* Create a `config.toml` file that specifies the Hugo version(s) supported by your theme. Also, add a `theme.toml` file and include some relevant metadata about the theme ([see below](#theme-configuration)).
+* Create a `hugo.toml` file that specifies the Hugo version(s) supported by your theme. Also, add a `theme.toml` file and include some relevant metadata about the theme ([see below](#theme-configuration)).
 * Add a descriptive `README.md` ([see below](#readmemd)).
 * Include a screenshot image in `/images/screenshot.{png,jpg}` and a thumbnail image in `/images/tn.{png,jpg}` ([see below](#media)).
 * Push the changes.
@@ -61,7 +61,7 @@ authors = [
     repo = "Link to source code of original theme"
 ```
 
-Your theme should also have a configuration file (such as `config.toml`) that specifies the [Hugo versions](https://gohugo.io/hugo-modules/configuration/#module-config-hugoversion) supported by the theme.
+Your theme should also have a configuration file (such as `hugo.toml`) that specifies the [Hugo versions](https://gohugo.io/hugo-modules/configuration/#module-config-hugoversion) supported by the theme.
 
 ```toml
 [module]

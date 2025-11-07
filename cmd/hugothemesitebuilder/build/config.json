@@ -32,6 +32,18 @@
         "ignoreConfig": true,
         "ignoreImports": true,
         "noMounts": true,
+        "path": "github.com/22decembre/Berenice"
+      },
+      {
+        "ignoreConfig": true,
+        "ignoreImports": true,
+        "noMounts": true,
+        "path": "github.com/22decembre/random3"
+      },
+      {
+        "ignoreConfig": true,
+        "ignoreImports": true,
+        "noMounts": true,
         "path": "github.com/526avijitgupta/gokarna"
       },
       {
@@ -117,6 +129,12 @@
         "ignoreImports": true,
         "noMounts": true,
         "path": "github.com/alanorth/hugo-theme-bootstrap4-blog"
+      },
+      {
+        "ignoreConfig": true,
+        "ignoreImports": true,
+        "noMounts": true,
+        "path": "github.com/alex-shpak/hugo-book"
       },
       {
         "ignoreConfig": true,
@@ -632,6 +650,12 @@
         "ignoreConfig": true,
         "ignoreImports": true,
         "noMounts": true,
+        "path": "github.com/darshanbaral/khata"
+      },
+      {
+        "ignoreConfig": true,
+        "ignoreImports": true,
+        "noMounts": true,
         "path": "github.com/darshanbaral/kitab"
       },
       {
@@ -639,12 +663,6 @@
         "ignoreImports": true,
         "noMounts": true,
         "path": "github.com/darshanbaral/sada"
-      },
-      {
-        "ignoreConfig": true,
-        "ignoreImports": true,
-        "noMounts": true,
-        "path": "github.com/dataCobra/hugo-vitae"
       },
       {
         "ignoreConfig": true,
@@ -825,6 +843,12 @@
         "ignoreImports": true,
         "noMounts": true,
         "path": "github.com/ExchangeRate-API/strange-case"
+      },
+      {
+        "ignoreConfig": true,
+        "ignoreImports": true,
+        "noMounts": true,
+        "path": "codeberg.org/farooqkz/hugo-vitae"
       },
       {
         "ignoreConfig": true,
@@ -3093,6 +3117,12 @@
         "ignoreImports": true,
         "noMounts": true,
         "path": "github.com/yihui/hugo-xmin"
+      },
+      {
+        "ignoreConfig": true,
+        "ignoreImports": true,
+        "noMounts": true,
+        "path": "github.com/yiming-m/scholar-lite"
       },
       {
         "ignoreConfig": true,
