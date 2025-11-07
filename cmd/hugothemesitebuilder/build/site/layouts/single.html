@@ -168,8 +168,8 @@ dark:hover:text-blue-200 dark:text-blue-200">
     class="hidden lg:block print:hidden bg-black transition transition-all transition-discrete"
     x-data="{{ $data }}"
     x-show="$store.nav.scroll.atTop"
-    @keydown.left.window="if(!($event.altKey || $event.ctrlKey || $event.metaKey || $event.shiftKey) && prev) { document.location.href = prev; }"
-    @keydown.right.window="if(!($event.altKey || $event.ctrlKey || $event.metaKey || $event.shiftKey) && next) { document.location.href = next; }">
+    @keydown.left.window="if(prev) { document.location.href = prev; }"
+    @keydown.right.window="if(next) { document.location.href = next; }">
     {{ $classes := "ml-6 fixed mb-6 flex items-center justify-center rounded-md bg-white/80 dark:bg-dark px-3.5 py-2.5 text-sm font-semibold text-black dark:text-white outline-solid outline-gray-300 dark:outline-gray-800 shadow-xs hover:bg-gray-50 dark:hover:bg-gray-800 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-gray-400" }}
     {{ with $prev }}
       <a href="{{ . }}" class="bottom-0 {{ $classes }}">
