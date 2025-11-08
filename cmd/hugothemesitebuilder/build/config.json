@@ -188,6 +188,12 @@
         "ignoreConfig": true,
         "ignoreImports": true,
         "noMounts": true,
+        "path": "github.com/anantshri/hugo-techie-personal"
+      },
+      {
+        "ignoreConfig": true,
+        "ignoreImports": true,
+        "noMounts": true,
         "path": "github.com/AngeloStavrow/indigo"
       },
       {
@@ -278,6 +284,12 @@
         "ignoreConfig": true,
         "ignoreImports": true,
         "noMounts": true,
+        "path": "github.com/babeneso/hugo-neso"
+      },
+      {
+        "ignoreConfig": true,
+        "ignoreImports": true,
+        "noMounts": true,
         "path": "github.com/bake/solar-theme-hugo"
       },
       {
@@ -321,6 +333,12 @@
         "ignoreImports": true,
         "noMounts": true,
         "path": "github.com/Binary-Eater/hugo-theme-ghci"
+      },
+      {
+        "ignoreConfig": true,
+        "ignoreImports": true,
+        "noMounts": true,
+        "path": "github.com/binbinsh/hugo-trainsh"
       },
       {
         "ignoreConfig": true,
@@ -626,6 +644,12 @@
         "ignoreConfig": true,
         "ignoreImports": true,
         "noMounts": true,
+        "path": "github.com/danapixels/digio-theme"
+      },
+      {
+        "ignoreConfig": true,
+        "ignoreImports": true,
+        "noMounts": true,
         "path": "github.com/danielkvist/hugo-piercer-theme"
       },
       {
@@ -753,6 +777,12 @@
         "ignoreImports": true,
         "noMounts": true,
         "path": "github.com/dldx/hpstr-hugo-theme"
+      },
+      {
+        "ignoreConfig": true,
+        "ignoreImports": true,
+        "noMounts": true,
+        "path": "github.com/Dobefu/hugo-theme-plume"
       },
       {
         "ignoreConfig": true,
@@ -1856,6 +1886,12 @@
         "ignoreConfig": true,
         "ignoreImports": true,
         "noMounts": true,
+        "path": "github.com/yogirk/explore"
+      },
+      {
+        "ignoreConfig": true,
+        "ignoreImports": true,
+        "noMounts": true,
         "path": "github.com/matsuyoshi30/harbor"
       },
       {
@@ -2156,6 +2192,12 @@
         "ignoreConfig": true,
         "ignoreImports": true,
         "noMounts": true,
+        "path": "github.com/nux-li/hugo-foto-theme"
+      },
+      {
+        "ignoreConfig": true,
+        "ignoreImports": true,
+        "noMounts": true,
         "path": "github.com/okkur/syna"
       },
       {
@@ -2265,6 +2307,12 @@
         "ignoreImports": true,
         "noMounts": true,
         "path": "github.com/peaceiris/hugo-theme-iris"
+      },
+      {
+        "ignoreConfig": true,
+        "ignoreImports": true,
+        "noMounts": true,
+        "path": "github.com/penyt/morandyt"
       },
       {
         "ignoreConfig": true,
@@ -3237,6 +3285,12 @@
         "ignoreImports": true,
         "noMounts": true,
         "path": "github.com/zzzmisa/hugo-theme-doors"
+      },
+      {
+        "ignoreConfig": true,
+        "ignoreImports": true,
+        "noMounts": true,
+        "path": "gitlab.com/andy.sb/nojs"
       },
       {
         "ignoreConfig": true,
