@@ -25,7 +25,7 @@ require (
 	github.com/CaiJimmy/hugo-theme-stack/v3 v3.32.0 // indirect
 	github.com/CyrusYip/hugo-theme-yue v0.0.0-20250513132439-93a438fbca0f // indirect
 	github.com/D-Sketon/hugo-theme-reimu v0.13.4 // indirect
-	github.com/Daucloud/hugo-theme-void v0.0.0-20251103113610-6d2612bbb716 // indirect
+	github.com/Daucloud/hugo-theme-void v0.0.0-20251109182650-23ac1be4d25f // indirect
 	github.com/Dim0000/simple-frame v1.0.2 // indirect
 	github.com/Dobefu/hugo-theme-plume v0.0.0-20251026124529-a7f50fd29fb2 // indirect
 	github.com/EmielH/hallo-hugo v2.7.0+incompatible // indirect
@@ -54,7 +54,7 @@ require (
 	github.com/M1cR0xf7/kaslaanka v0.0.0-20250503125522-a7973bac2c30 // indirect
 	github.com/MarcusVirg/forty v0.0.0-20190430033326-dccea57bd2ed // indirect
 	github.com/Masellum/hugo-theme-nostyleplease v0.0.0-20250120053207-cfbfe4e8ed13 // indirect
-	github.com/McShelby/hugo-theme-relearn v0.0.0-20251107214341-9a28ebcf0d60 // indirect
+	github.com/McShelby/hugo-theme-relearn v0.0.0-20251109140514-d7116611e21c // indirect
 	github.com/MeiK2333/github-style v0.0.0-20250103014044-9cb8c4c882d9 // indirect
 	github.com/MichaelSchaecher/simple-dark v0.0.0-20250103115132-46361b0e75d6 // indirect
 	github.com/MunifTanjim/minimo v2.10.1+incompatible // indirect
@@ -396,9 +396,9 @@ require (
 	github.com/onweru/compose v0.0.0-20251104170628-fa0747377973 // indirect
 	github.com/onweru/hugo-swift-theme v2.0.0+incompatible // indirect
 	github.com/onweru/newsroom v0.0.0-20251104164459-9c9eaf21c26a // indirect
-	github.com/opera7133/Blonde v0.0.0-20251023110424-84b4507fb77a // indirect
-	github.com/opera7133/tella v0.0.0-20250623003503-c47234965d35 // indirect
-	github.com/opera7133/vnovel v0.0.0-20250130111156-cc82cbc9dab5 // indirect
+	github.com/opera7133/Blonde v0.0.0-20251109091751-525194079d08 // indirect
+	github.com/opera7133/tella v0.0.0-20251109091920-2195d5d51154 // indirect
+	github.com/opera7133/vnovel v0.0.0-20251109091957-fe46a0b97ac4 // indirect
 	github.com/orf/bare-hugo-theme v0.0.0-20230401233253-f285059e1e56 // indirect
 	github.com/oxypteros/alpha v1.1.1 // indirect
 	github.com/pacollins/calligraphy v0.0.0-20240926020640-ae396029849e // indirect

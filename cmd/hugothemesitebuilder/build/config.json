@@ -8,6 +8,12 @@
         "ignoreConfig": true,
         "ignoreImports": true,
         "noMounts": true,
+        "path": "codeberg.org/farooqkz/hugo-vitae"
+      },
+      {
+        "ignoreConfig": true,
+        "ignoreImports": true,
+        "noMounts": true,
         "path": "codeberg.org/gbilder/eurozephyr"
       },
       {
@@ -873,12 +879,6 @@
         "ignoreImports": true,
         "noMounts": true,
         "path": "github.com/ExchangeRate-API/strange-case"
-      },
-      {
-        "ignoreConfig": true,
-        "ignoreImports": true,
-        "noMounts": true,
-        "path": "codeberg.org/farooqkz/hugo-vitae"
       },
       {
         "ignoreConfig": true,
@@ -1881,12 +1881,6 @@
         "ignoreImports": true,
         "noMounts": true,
         "path": "github.com/math-queiroz/rusty-typewriter"
-      },
-      {
-        "ignoreConfig": true,
-        "ignoreImports": true,
-        "noMounts": true,
-        "path": "github.com/yogirk/explore"
       },
       {
         "ignoreConfig": true,
@@ -3171,6 +3165,12 @@
         "ignoreImports": true,
         "noMounts": true,
         "path": "github.com/yiming-m/scholar-lite"
+      },
+      {
+        "ignoreConfig": true,
+        "ignoreImports": true,
+        "noMounts": true,
+        "path": "github.com/yogirk/explore"
       },
       {
         "ignoreConfig": true,
