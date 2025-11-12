@@ -20,6 +20,12 @@
         "ignoreConfig": true,
         "ignoreImports": true,
         "noMounts": true,
+        "path": "codeberg.org/VaDeCodiNet/hugo-landing-sections"
+      },
+      {
+        "ignoreConfig": true,
+        "ignoreImports": true,
+        "noMounts": true,
         "path": "github.com/10mohi6/hugo-theme-simple-blog"
       },
       {
@@ -2714,7 +2720,7 @@
         "ignoreConfig": true,
         "ignoreImports": true,
         "noMounts": true,
-        "path": "github.com/Sped0n/bridget"
+        "path": "github.com/Sped0n/bridget/v2"
       },
       {
         "ignoreConfig": true,
@@ -3207,6 +3213,12 @@
         "ignoreImports": true,
         "noMounts": true,
         "path": "github.com/yursan9/manis-hugo-theme"
+      },
+      {
+        "ignoreConfig": true,
+        "ignoreImports": true,
+        "noMounts": true,
+        "path": "github.com/zenpe/zen"
       },
       {
         "ignoreConfig": true,
