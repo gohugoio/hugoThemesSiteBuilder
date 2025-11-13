@@ -68,7 +68,7 @@ require (
 	github.com/SAGGameDeveloper/hugo-minimalist-spa v0.0.0-20190214084547-2637ff850398 // indirect
 	github.com/Sathishbs/tailroad v0.0.0-20250601215149-917f407c40ae // indirect
 	github.com/Somrat37/somrat v2.0.0+incompatible // indirect
-	github.com/Sped0n/bridget/v2 v2.1.0 // indirect
+	github.com/Sped0n/bridget/v2 v2.1.1 // indirect
 	github.com/StaticMania/portio-hugo v1.0.0 // indirect
 	github.com/StaticMania/roxo-hugo v0.0.0-20230912110241-eac3f49bc573 // indirect
 	github.com/StefMa/hugo-fresh v1.2.0 // indirect
@@ -257,8 +257,8 @@ require (
 	github.com/hugo-next/hugo-theme-next v0.0.0-20250608071811-c9624feed286 // indirect
 	github.com/hugo-porto/theme v0.2.0 // indirect
 	github.com/hugo-sid/hugo-blog-awesome v1.21.0 // indirect
-	github.com/hugo-toha/toha/v4 v4.11.0 // indirect
-	github.com/hugolify/hugolify-theme v1.26.15 // indirect
+	github.com/hugo-toha/toha/v4 v4.12.0 // indirect
+	github.com/hugolify/hugolify-theme v1.26.19 // indirect
 	github.com/humrochagf/colordrop v1.13.0 // indirect
 	github.com/huyb1991/hugo-lamp v1.2.1 // indirect
 	github.com/iCyris/hugo-theme-yuki v1.1.0 // indirect
