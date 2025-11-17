@@ -29,7 +29,7 @@ require (
 	github.com/D-Sketon/hugo-theme-reimu v0.13.4 // indirect
 	github.com/Daucloud/hugo-theme-void v0.0.0-20251109182650-23ac1be4d25f // indirect
 	github.com/Dim0000/simple-frame v1.0.2 // indirect
-	github.com/Dobefu/hugo-theme-plume v0.0.0-20251026124529-a7f50fd29fb2 // indirect
+	github.com/Dobefu/hugo-theme-plume v0.0.0-20251116183002-ec7e73429342 // indirect
 	github.com/EmielH/hallo-hugo v2.7.0+incompatible // indirect
 	github.com/EmielH/stip-hugo v1.0.0 // indirect
 	github.com/EmielH/tale-hugo v2.2.0+incompatible // indirect
@@ -306,7 +306,7 @@ require (
 	github.com/kaiiiz/hugo-theme-monochrome v5.2.3+incompatible // indirect
 	github.com/kakawait/hugo-tranquilpeak-theme v0.0.0-20220821070134-3b5676afca7e // indirect
 	github.com/kaushalmodi/hugo-bare-min-theme v0.6.0 // indirect
-	github.com/kaushikgopal/henry-hugo v0.0.0-20251114223059-d4f398dd61a6 // indirect
+	github.com/kaushikgopal/henry-hugo v0.0.0-20251116191219-51f8a1b32d62 // indirect
 	github.com/kc0bfv/autophugo v0.0.0-20250302235832-9267211a842a // indirect
 	github.com/kc0bfv/ticky_tacky_dark v0.0.0-20221111221805-f626fbd274d1 // indirect
 	github.com/kdevo/osprey-delight/v5 v5.0.8 // indirect
@@ -493,10 +493,10 @@ require (
 	github.com/thingsym/hugo-theme-techdoc v1.0.2 // indirect
 	github.com/tnwhitwell/hugo-startpage-theme v0.0.0-20180704204829-76b1a1f5808e // indirect
 	github.com/tohn/linkshrubbery v0.0.0-20230623094327-4b529ca6cb8b // indirect
-	github.com/tom2almighty/hugo-narrow v1.1.5 // indirect
+	github.com/tom2almighty/hugo-narrow v1.1.6 // indirect
 	github.com/tomfran/typo v1.16.0 // indirect
 	github.com/tomowang/hugo-theme-tailwind v0.0.0-20250922155408-121f95a2509e // indirect
-	github.com/tosi29/inkblotty v0.0.0-20250815092838-7f54a6777a70 // indirect
+	github.com/tosi29/inkblotty v0.0.0-20251116054545-671e92ea28f2 // indirect
 	github.com/tummychow/lanyon-hugo v0.0.0-20210123043723-cd7b91420a90 // indirect
 	github.com/tylerjlawson/port-hugo v0.0.0-20251114043446-f3134a926730 // indirect
 	github.com/tylerjlawson/simple-resume v0.0.0-20250122060721-fcd947c6e06c // indirect
