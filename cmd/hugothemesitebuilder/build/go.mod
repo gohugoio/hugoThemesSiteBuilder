@@ -279,7 +279,7 @@ require (
 	github.com/jaden/twentyfourteen v0.0.0-20191130221218-9380d3fa1855 // indirect
 	github.com/jakewies/hugo-theme-codex v1.6.0 // indirect
 	github.com/janraasch/hugo-bearblog v0.0.0-20251117081840-58b9e33e24db // indirect
-	github.com/janraasch/hugo-product-launch v0.0.0-20251106170156-eed31baa1d0f // indirect
+	github.com/janraasch/hugo-product-launch v0.0.0-20251120173942-e6c75e66ce54 // indirect
 	github.com/jbub/ghostwriter v0.7.0 // indirect
 	github.com/jeblister/bulma v0.0.0-20220331084658-8d25840df6ac // indirect
 	github.com/jeremybise/twentynineteen-hugo v0.0.0-20191008161335-7c0a63e24114 // indirect
