@@ -103,7 +103,7 @@ require (
 	github.com/alloydwhitlock/huey v0.0.0-20241130051012-8cf65929b4f7 // indirect
 	github.com/ameio/hugo-arogya-theme v0.0.0-20221008060409-3475116c557e // indirect
 	github.com/ananthb/jughead v1.11.16 // indirect
-	github.com/anantshri/hugo-techie-personal v0.0.0-20251118110442-2b3c2829f8d8 // indirect
+	github.com/anantshri/hugo-techie-personal v0.1.3 // indirect
 	github.com/antedoro/arberia v1.2.1 // indirect
 	github.com/antonpolishko/hugo-stellar-theme v0.0.0-20220822025042-69d72b3d010b // indirect
 	github.com/appernetic/hugo-nederburg-theme v0.0.0-20190712152204-d99760bac630 // indirect
@@ -181,7 +181,7 @@ require (
 	github.com/davidhampgonsalves/hugo-black-and-light-theme v0.0.0-20250710135838-e6935f955c4f // indirect
 	github.com/dchucks/agnes-hugo-theme v0.0.0-20240621082436-696a93321a2a // indirect
 	github.com/ddritzenhoff/ritzy v0.0.0-20250620113223-7c9f8d272823 // indirect
-	github.com/demius782/demius v0.0.0-20251119092949-9ae895188eed // indirect
+	github.com/demius782/demius v2.8.9-0.20251122181233-8e95c8822ff9+incompatible // indirect
 	github.com/derme302/triple-hyde v2025.1.30+incompatible // indirect
 	github.com/desmondlzy/bloggraph v0.0.0-20241219164158-91a09d322183 // indirect
 	github.com/devcows/hugo-universal-theme v0.0.0-20250707204329-2e695e87e5d1 // indirect
