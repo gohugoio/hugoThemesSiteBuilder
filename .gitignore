@@ -18,3 +18,4 @@ cmd/hugothemesitebuilder/build/site/content/themes
 cmd/hugothemesitebuilder/build/site/public
 cmd/hugothemesitebuilder/build/.vscode/settings.json
 .hugo_build.lock
+.DS_Store
