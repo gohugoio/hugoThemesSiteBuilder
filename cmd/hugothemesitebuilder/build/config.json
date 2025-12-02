@@ -2378,6 +2378,12 @@
         "ignoreConfig": true,
         "ignoreImports": true,
         "noMounts": true,
+        "path": "github.com/psugam/sans"
+      },
+      {
+        "ignoreConfig": true,
+        "ignoreImports": true,
+        "noMounts": true,
         "path": "github.com/puresyntax71/hugo-theme-chunky-poster"
       },
       {
@@ -3164,6 +3170,12 @@
         "ignoreConfig": true,
         "ignoreImports": true,
         "noMounts": true,
+        "path": "github.com/yassi/hugo-theme-yassi"
+      },
+      {
+        "ignoreConfig": true,
+        "ignoreImports": true,
+        "noMounts": true,
         "path": "github.com/yihui/hugo-xmag"
       },
       {
@@ -3219,6 +3231,12 @@
         "ignoreImports": true,
         "noMounts": true,
         "path": "github.com/yursan9/manis-hugo-theme"
+      },
+      {
+        "ignoreConfig": true,
+        "ignoreImports": true,
+        "noMounts": true,
+        "path": "github.com/yezihack/kong-htop"
       },
       {
         "ignoreConfig": true,
