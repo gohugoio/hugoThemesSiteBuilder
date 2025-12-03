@@ -29,7 +29,7 @@ require (
 	github.com/D-Sketon/hugo-theme-reimu v0.14.1 // indirect
 	github.com/Daucloud/hugo-theme-void v0.0.0-20251109182650-23ac1be4d25f // indirect
 	github.com/Dim0000/simple-frame v1.0.2 // indirect
-	github.com/Dobefu/hugo-theme-plume v0.0.0-20251118181051-df69dfbb9fd3 // indirect
+	github.com/Dobefu/hugo-theme-plume v0.0.0-20251202181059-1bb13a01ae9a // indirect
 	github.com/EmielH/hallo-hugo v2.7.0+incompatible // indirect
 	github.com/EmielH/stip-hugo v1.0.0 // indirect
 	github.com/EmielH/tale-hugo v2.2.0+incompatible // indirect
@@ -195,7 +195,7 @@ require (
 	github.com/docura/docura v0.0.0-20250517070912-398ed48950f6 // indirect
 	github.com/dplesca/purehugo v0.0.0-20190924072610-5b577adff2e1 // indirect
 	github.com/dsrkafuu/hugo-theme-fuji v2.8.2+incompatible // indirect
-	github.com/dumindu/E25DX v0.0.0-20251202114004-858945585236 // indirect
+	github.com/dumindu/E25DX v0.0.0-20251202131126-93b238a3d908 // indirect
 	github.com/edavidaja/docter v0.2.0 // indirect
 	github.com/eddiewebb/hugo-resume v0.0.0-20251003202804-8d455bee3a5e // indirect
 	github.com/elecbrandy/freshpink v0.0.0-20251111053649-61fded1bc012 // indirect
@@ -522,7 +522,7 @@ require (
 	github.com/wileybaba/hugo-theme-robotico v0.0.0-20190128025338-a1e633362eee // indirect
 	github.com/willfaught/paige v0.113.1 // indirect
 	github.com/wlh320/hugo-theme-hulga v1.1.0 // indirect
-	github.com/wonyoung-jang/hugo-PolyRhythmic v0.0.0-20251128220851-f1e1a48aaf5a // indirect
+	github.com/wonyoung-jang/hugo-PolyRhythmic v0.0.0-20251202234245-835f073da924 // indirect
 	github.com/writeonlycode/hugo-agency-web v0.0.0-20250709134630-9b263db5d8f2 // indirect
 	github.com/writeonlycode/hugo-up-business v0.0.0-20250709124836-33d421f28c8c // indirect
 	github.com/xaprb/story v0.0.0-20220322144912-046bf4f12e69 // indirect
