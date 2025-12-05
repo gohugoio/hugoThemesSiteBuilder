@@ -260,7 +260,7 @@ require (
 	github.com/hugo-porto/theme v0.2.0 // indirect
 	github.com/hugo-sid/hugo-blog-awesome v1.21.0 // indirect
 	github.com/hugo-toha/toha/v4 v4.12.0 // indirect
-	github.com/hugolify/hugolify-theme v1.26.21 // indirect
+	github.com/hugolify/hugolify-theme v1.26.22 // indirect
 	github.com/humrochagf/colordrop v1.13.0 // indirect
 	github.com/huyb1991/hugo-lamp v1.2.1 // indirect
 	github.com/iCyris/hugo-theme-yuki v1.1.0 // indirect
@@ -403,7 +403,7 @@ require (
 	github.com/opera7133/tella v0.0.0-20251109091920-2195d5d51154 // indirect
 	github.com/opera7133/vnovel v0.0.0-20251109091957-fe46a0b97ac4 // indirect
 	github.com/orf/bare-hugo-theme v0.0.0-20230401233253-f285059e1e56 // indirect
-	github.com/oxypteros/alpha v1.1.1 // indirect
+	github.com/oxypteros/alpha v1.1.2 // indirect
 	github.com/pacollins/calligraphy v0.0.0-20240926020640-ae396029849e // indirect
 	github.com/panr/hugo-theme-terminal/v4 v4.2.3 // indirect
 	github.com/paposeco/quietfoodie v0.0.0-20240522105017-ca30389fab2d // indirect
