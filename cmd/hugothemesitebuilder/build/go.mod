@@ -14,7 +14,7 @@ require (
 	github.com/22decembre/random3 v0.0.0-20250909150517-c7b255694cab // indirect
 	github.com/526avijitgupta/gokarna v0.0.0-20251108094623-5e633d6775f0 // indirect
 	github.com/64bitpandas/amethyst v1.0.0 // indirect
-	github.com/7ma7X/HugoTeX v0.0.0-20241022001613-675ea61fb18e // indirect
+	github.com/7ma7X/HugoTeX v0.0.0-20251206133019-18b089d287e0 // indirect
 	github.com/ANSSI-FR/hackropole-hugo v0.0.0-20250223124201-cfccbf3243bc // indirect
 	github.com/AlexFinn/simple-a v0.0.0-20191202062540-bb2f8c9172a0 // indirect
 	github.com/AmazingRise/hugo-theme-diary v0.0.0-20241212042734-c547cf956448 // indirect
@@ -56,7 +56,7 @@ require (
 	github.com/M1cR0xf7/kaslaanka v0.0.0-20250503125522-a7973bac2c30 // indirect
 	github.com/MarcusVirg/forty v0.0.0-20190430033326-dccea57bd2ed // indirect
 	github.com/Masellum/hugo-theme-nostyleplease v0.0.0-20250120053207-cfbfe4e8ed13 // indirect
-	github.com/McShelby/hugo-theme-relearn v0.0.0-20251206000232-f5431df92c4d // indirect
+	github.com/McShelby/hugo-theme-relearn v0.0.0-20251206114750-55f82a77002b // indirect
 	github.com/MeiK2333/github-style v0.0.0-20250103014044-9cb8c4c882d9 // indirect
 	github.com/MichaelSchaecher/simple-dark v0.0.0-20250103115132-46361b0e75d6 // indirect
 	github.com/MunifTanjim/minimo v2.10.1+incompatible // indirect
@@ -180,6 +180,7 @@ require (
 	github.com/darshanbaral/sada v0.0.0-20250629212823-72e793476fd9 // indirect
 	github.com/davidhampgonsalves/hugo-black-and-light-theme v0.0.0-20250710135838-e6935f955c4f // indirect
 	github.com/dchucks/agnes-hugo-theme v0.0.0-20251203070330-9b9138921a7e // indirect
+	github.com/dchucks/book-landing-hugo-theme v0.0.0-20251206110912-4e234b0e2941 // indirect
 	github.com/ddritzenhoff/ritzy v0.0.0-20250620113223-7c9f8d272823 // indirect
 	github.com/demius782/demius v2.8.9-0.20251125122015-1e5d7682c902+incompatible // indirect
 	github.com/derme302/triple-hyde v2025.1.30+incompatible // indirect
@@ -195,7 +196,7 @@ require (
 	github.com/docura/docura v0.0.0-20250517070912-398ed48950f6 // indirect
 	github.com/dplesca/purehugo v0.0.0-20190924072610-5b577adff2e1 // indirect
 	github.com/dsrkafuu/hugo-theme-fuji v2.8.2+incompatible // indirect
-	github.com/dumindu/E25DX v0.0.0-20251202131126-93b238a3d908 // indirect
+	github.com/dumindu/E25DX v0.0.0-20251206161012-73553799114e // indirect
 	github.com/edavidaja/docter v0.2.0 // indirect
 	github.com/eddiewebb/hugo-resume v0.0.0-20251003202804-8d455bee3a5e // indirect
 	github.com/elecbrandy/freshpink v0.0.0-20251111053649-61fded1bc012 // indirect
