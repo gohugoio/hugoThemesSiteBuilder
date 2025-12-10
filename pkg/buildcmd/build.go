@@ -77,6 +77,9 @@ const (
 )
 
 func (c *Config) extractModuleNameFromError(s string) (string, moduleErrType) {
+	if strings.Contains(s, "unknown revision") {
+		return "", moduleErrTypeWrongVersion
+	}
 	wasReuiredAs := regexp.MustCompile(`but was required as: (.*)`)
 	if matches := wasReuiredAs.FindStringSubmatch(s); len(matches) == 2 {
 		return matches[1], moduleErrTypeWrongPath
@@ -123,7 +126,6 @@ func (c *Config) Exec(ctx context.Context, args []string) error {
 	var err error
 	bc.mmap, err = bc.GetHugoModulesMap(configAll)
 	if err != nil {
-
 		failedModulePath, errTyp := c.extractModuleNameFromError(err.Error())
 		if errTyp == moduleErrTypeUnknown {
 			return err
