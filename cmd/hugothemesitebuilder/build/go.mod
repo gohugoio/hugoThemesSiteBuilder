@@ -3,6 +3,7 @@ module github.com/gohugoio/hugoThemesSiteBuilder/cmd/hugothemesitebuilder/build
 go 1.25.5
 
 require (
+	codeberg.org/VaDeCodiNet/hugo-landing-accordion v0.0.0-20251219105304-a047bbfad989 // indirect
 	codeberg.org/VaDeCodiNet/hugo-landing-sections v0.0.0-20251110223139-680534c61e2a // indirect
 	codeberg.org/VaDeCodiNet/hugo-simple-sections v0.0.0-20251209133628-85865438cda5 // indirect
 	codeberg.org/farooqkz/hugo-vitae v0.0.0-20251007101027-08900fedb1a1 // indirect
@@ -180,7 +181,7 @@ require (
 	github.com/darshanbaral/sada v0.0.0-20250629212823-72e793476fd9 // indirect
 	github.com/davidhampgonsalves/hugo-black-and-light-theme v0.0.0-20250710135838-e6935f955c4f // indirect
 	github.com/dchucks/agnes-hugo-theme v0.0.0-20251203070330-9b9138921a7e // indirect
-	github.com/dchucks/book-landing-hugo-theme v0.0.0-20251217111023-1e212c9e190c // indirect
+	github.com/dchucks/book-landing-hugo-theme v0.0.0-20251219081545-2d153841c5ad // indirect
 	github.com/ddritzenhoff/ritzy v0.0.0-20250620113223-7c9f8d272823 // indirect
 	github.com/demius782/demius v2.8.9-0.20251125122015-1e5d7682c902+incompatible // indirect
 	github.com/derme302/triple-hyde v2025.1.30+incompatible // indirect
@@ -261,7 +262,7 @@ require (
 	github.com/hugo-porto/theme v0.2.0 // indirect
 	github.com/hugo-sid/hugo-blog-awesome v1.21.0 // indirect
 	github.com/hugo-toha/toha/v4 v4.12.0 // indirect
-	github.com/hugolify/hugolify-theme v1.26.24 // indirect
+	github.com/hugolify/hugolify-theme v1.26.25 // indirect
 	github.com/humrochagf/colordrop v1.13.0 // indirect
 	github.com/huyb1991/hugo-lamp v1.2.1 // indirect
 	github.com/iCyris/hugo-theme-yuki v1.1.0 // indirect

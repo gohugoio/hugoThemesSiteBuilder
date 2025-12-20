@@ -20,6 +20,12 @@
         "ignoreConfig": true,
         "ignoreImports": true,
         "noMounts": true,
+        "path": "codeberg.org/VaDeCodiNet/hugo-landing-accordion"
+      },
+      {
+        "ignoreConfig": true,
+        "ignoreImports": true,
+        "noMounts": true,
         "path": "codeberg.org/VaDeCodiNet/hugo-landing-sections"
       },
       {
