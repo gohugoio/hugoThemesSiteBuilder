@@ -3368,6 +3368,12 @@
         "ignoreConfig": true,
         "ignoreImports": true,
         "noMounts": true,
+        "path": "gitlab.com/jimchr12/hugo-minimal-black"
+      },
+      {
+        "ignoreConfig": true,
+        "ignoreImports": true,
+        "noMounts": true,
         "path": "gitlab.com/jmfergeau/hugo.386"
       },
       {
