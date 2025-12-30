@@ -4,4 +4,4 @@ go 1.23
 
 toolchain go1.24.2
 
-require github.com/gohugoio/hugoDocs v0.148.1-0.20251105095854-4dfbd647fad7 // indirect
+require github.com/gohugoio/hugoDocs v0.148.1-0.20251230185047-71ea41250322 // indirect
