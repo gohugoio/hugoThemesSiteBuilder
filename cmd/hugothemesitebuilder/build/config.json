@@ -1082,6 +1082,12 @@
         "ignoreConfig": true,
         "ignoreImports": true,
         "noMounts": true,
+        "path": "github.com/goofansu/hugo-modus"
+      },
+      {
+        "ignoreConfig": true,
+        "ignoreImports": true,
+        "noMounts": true,
         "path": "github.com/google/docsy"
       },
       {
@@ -2925,12 +2931,6 @@
         "ignoreImports": true,
         "noMounts": true,
         "path": "github.com/tom2almighty/hugo-narrow"
-      },
-      {
-        "ignoreConfig": true,
-        "ignoreImports": true,
-        "noMounts": true,
-        "path": "github.com/tomfran/typo"
       },
       {
         "ignoreConfig": true,
