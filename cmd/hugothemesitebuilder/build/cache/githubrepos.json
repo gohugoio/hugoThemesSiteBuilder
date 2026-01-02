@@ -110,11 +110,11 @@
   "github.com/7ma7X/HugoTeX": {
     "id": 268434902,
     "created_at": "2020-06-01T05:41:04Z",
-    "updated_at": "2025-12-29T14:28:11Z",
+    "updated_at": "2026-01-01T21:08:13Z",
     "name": "HugoTeX",
     "description": "LaTeX style hugo theme",
     "html_url": "https://github.com/kaisugi/HugoTeX",
-    "stargazers_count": 125
+    "stargazers_count": 126
   },
   "github.com/ANSSI-FR/hackropole-hugo": {
     "id": 799834131,
@@ -218,11 +218,11 @@
   "github.com/D-Sketon/hugo-theme-reimu": {
     "id": 880291840,
     "created_at": "2024-10-29T13:17:44Z",
-    "updated_at": "2025-12-31T14:27:30Z",
+    "updated_at": "2026-01-01T14:49:32Z",
     "name": "hugo-theme-reimu",
     "description": "一款博丽灵梦风格的Hugo主题 | A Hakurei Reimu style Hugo theme. 💘Touhou💘",
     "html_url": "https://github.com/D-Sketon/hugo-theme-reimu",
-    "stargazers_count": 216
+    "stargazers_count": 217
   },
   "github.com/Daucloud/hugo-theme-void": {
     "id": 952920076,
@@ -326,29 +326,29 @@
   "github.com/HEIGE-PCloud/DoIt": {
     "id": 358233149,
     "created_at": "2021-04-15T11:24:30Z",
-    "updated_at": "2025-12-26T17:41:06Z",
+    "updated_at": "2026-01-01T11:00:14Z",
     "name": "DoIt",
     "description": "A clean, elegant and advanced blog theme for Hugo.",
     "html_url": "https://github.com/HEIGE-PCloud/DoIt",
-    "stargazers_count": 916
+    "stargazers_count": 917
   },
   "github.com/HugoBlox/hugo-blox-builder/modules/blox-tailwind": {
     "id": 57165232,
     "created_at": "2016-04-26T22:09:15Z",
-    "updated_at": "2025-12-31T15:22:55Z",
+    "updated_at": "2026-01-01T20:42:41Z",
     "name": "hugo-blox-builder",
     "description": "⚡ HugoBlox: Markdown sites in minutes. Academic/resume/lab/portfolio for AI researchers \u0026 startups. Premium templates. Deploy to GitHub Pages now in 1-click 👇",
     "html_url": "https://github.com/HugoBlox/hugo-blox-builder",
-    "stargazers_count": 9277
+    "stargazers_count": 9280
   },
   "github.com/HugoBlox/theme-documentation": {
     "id": 285673003,
     "created_at": "2020-08-06T21:16:17Z",
-    "updated_at": "2025-12-31T01:22:39Z",
+    "updated_at": "2026-01-01T14:00:45Z",
     "name": "theme-documentation",
     "description": "📖 Highly customizable Project Docs / Wiki / Knowledge Base / Notes template for Hugo Website Builder. 创建项目文档",
     "html_url": "https://github.com/HugoBlox/theme-documentation",
-    "stargazers_count": 186
+    "stargazers_count": 187
   },
   "github.com/Ice-Hazymoon/hugo-theme-luna": {
     "id": 486781027,
@@ -434,11 +434,11 @@
   "github.com/Livour/hugo-mana-theme": {
     "id": 1117501775,
     "created_at": "2025-12-16T12:00:55Z",
-    "updated_at": "2025-12-31T10:55:52Z",
+    "updated_at": "2026-01-01T12:16:27Z",
     "name": "hugo-mana-theme",
     "description": "",
     "html_url": "https://github.com/Livour/hugo-mana-theme",
-    "stargazers_count": 1
+    "stargazers_count": 2
   },
   "github.com/LucasVadilho/heyo-hugo-theme": {
     "id": 676115194,
@@ -488,7 +488,7 @@
   "github.com/Masellum/hugo-theme-nostyleplease": {
     "id": 529136909,
     "created_at": "2022-08-26T06:09:41Z",
-    "updated_at": "2025-12-28T06:07:44Z",
+    "updated_at": "2026-01-01T22:29:25Z",
     "name": "hugo-theme-nostyleplease",
     "description": "a (nearly) no-CSS, fast, minimalist Hugo theme ported from riggraz/no-style-please.",
     "html_url": "https://github.com/hanwenguo/hugo-theme-nostyleplease",
@@ -497,7 +497,7 @@
   "github.com/McShelby/hugo-theme-relearn": {
     "id": 295128524,
     "created_at": "2020-09-13T10:34:08Z",
-    "updated_at": "2026-01-01T00:29:58Z",
+    "updated_at": "2026-01-01T12:52:17Z",
     "name": "hugo-theme-relearn",
     "description": "A theme for Hugo designed for documentation",
     "html_url": "https://github.com/McShelby/hugo-theme-relearn",
@@ -641,11 +641,11 @@
   "github.com/StefMa/hugo-fresh": {
     "id": 128991512,
     "created_at": "2018-04-10T20:32:30Z",
-    "updated_at": "2025-12-31T14:09:31Z",
+    "updated_at": "2026-01-01T09:35:23Z",
     "name": "hugo-fresh",
     "description": "Hugo Fresh Theme",
     "html_url": "https://github.com/StefMa/hugo-fresh",
-    "stargazers_count": 682
+    "stargazers_count": 681
   },
   "github.com/SteveLane/hugo-icon": {
     "id": 104065827,
@@ -704,11 +704,11 @@
   "github.com/Vimux/mainroad": {
     "id": 76561407,
     "created_at": "2016-12-15T13:21:09Z",
-    "updated_at": "2025-12-30T17:40:18Z",
+    "updated_at": "2026-01-01T18:24:28Z",
     "name": "Mainroad",
     "description": "Responsive, simple, clean and content-focused Hugo theme based on the MH Magazine lite WordPress theme",
     "html_url": "https://github.com/Vimux/Mainroad",
-    "stargazers_count": 1037
+    "stargazers_count": 1038
   },
   "github.com/WingLim/hugo-tania": {
     "id": 316264307,
@@ -776,11 +776,11 @@
   "github.com/adityatelange/hugo-PaperMod": {
     "id": 281297416,
     "created_at": "2020-07-21T04:45:10Z",
-    "updated_at": "2026-01-01T00:20:17Z",
+    "updated_at": "2026-01-01T23:38:20Z",
     "name": "hugo-PaperMod",
     "description": " A fast, clean, responsive Hugo theme.",
     "html_url": "https://github.com/adityatelange/hugo-PaperMod",
-    "stargazers_count": 12893
+    "stargazers_count": 12895
   },
   "github.com/adityatelange/hugo-index": {
     "id": 625463549,
@@ -1163,11 +1163,11 @@
   "github.com/bul-ikana/hugo-cards": {
     "id": 150910183,
     "created_at": "2018-09-29T23:11:06Z",
-    "updated_at": "2025-12-23T17:02:24Z",
+    "updated_at": "2026-01-01T08:27:31Z",
     "name": "hugo-cards",
     "description": "A bootstrap based minimal hugo theme based on webjeda-cards",
     "html_url": "https://github.com/bul-ikana/hugo-cards",
-    "stargazers_count": 87
+    "stargazers_count": 88
   },
   "github.com/calintat/minimal": {
     "id": 96643512,
@@ -1307,7 +1307,7 @@
   "github.com/chrede88/L1nkr": {
     "id": 703246563,
     "created_at": "2023-10-10T22:04:04Z",
-    "updated_at": "2025-12-29T11:13:16Z",
+    "updated_at": "2026-01-01T16:44:15Z",
     "name": "L1nkr",
     "description": "L1nkr - Simple LinkTree Hugo Theme",
     "html_url": "https://github.com/chrede88/L1nkr",
@@ -1316,7 +1316,7 @@
   "github.com/chrede88/qubt": {
     "id": 722222006,
     "created_at": "2023-11-22T17:40:10Z",
-    "updated_at": "2025-12-31T11:32:11Z",
+    "updated_at": "2026-01-01T16:44:47Z",
     "name": "qubt",
     "description": "Qubt - Personal blog theme for Hugo",
     "html_url": "https://github.com/chrede88/qubt",
@@ -1622,11 +1622,11 @@
   "github.com/ddritzenhoff/ritzy": {
     "id": 1005446181,
     "created_at": "2025-06-20T08:39:35Z",
-    "updated_at": "2025-12-25T08:21:43Z",
+    "updated_at": "2026-01-01T19:38:28Z",
     "name": "ritzy",
     "description": "A bare-bones blogging theme for Hugo :p",
     "html_url": "https://github.com/ddritzenhoff/ritzy",
-    "stargazers_count": 9
+    "stargazers_count": 10
   },
   "github.com/demius782/demius": {
     "id": 1099060419,
@@ -1658,11 +1658,11 @@
   "github.com/devcows/hugo-universal-theme": {
     "id": 61122259,
     "created_at": "2016-06-14T12:47:40Z",
-    "updated_at": "2025-12-31T05:12:46Z",
+    "updated_at": "2026-01-01T15:08:56Z",
     "name": "hugo-universal-theme",
     "description": "Universal theme for Hugo, it stands out with its clean design and elegant typography.",
     "html_url": "https://github.com/devcows/hugo-universal-theme",
-    "stargazers_count": 898
+    "stargazers_count": 899
   },
   "github.com/dewittn/hugo-html5up-alpha": {
     "id": 262763794,
@@ -1676,11 +1676,11 @@
   "github.com/dillonzq/LoveIt": {
     "id": 200158234,
     "created_at": "2019-08-02T03:27:11Z",
-    "updated_at": "2025-12-30T17:08:40Z",
+    "updated_at": "2026-01-01T07:47:53Z",
     "name": "LoveIt",
     "description": "❤️A clean, elegant but advanced blog theme for Hugo 一个简洁、优雅且高效的 Hugo 主题",
     "html_url": "https://github.com/dillonzq/LoveIt",
-    "stargazers_count": 3779
+    "stargazers_count": 3780
   },
   "github.com/dipeshsingh253/saral": {
     "id": 700282289,
@@ -1757,7 +1757,7 @@
   "github.com/dumindu/E25DX": {
     "id": 737774609,
     "created_at": "2024-01-01T13:01:57Z",
-    "updated_at": "2025-12-28T07:54:56Z",
+    "updated_at": "2026-01-01T10:58:09Z",
     "name": "E25DX",
     "description": "🧑‍💻 Your next documentation theme...",
     "html_url": "https://github.com/dumindu/E25DX",
@@ -1847,11 +1847,11 @@
   "github.com/felipecordero/careercanvas": {
     "id": 981615533,
     "created_at": "2025-05-11T14:10:18Z",
-    "updated_at": "2025-12-30T05:34:22Z",
+    "updated_at": "2026-01-01T22:57:56Z",
     "name": "careercanvas",
     "description": "",
     "html_url": "https://github.com/felipecordero/careercanvas",
-    "stargazers_count": 40
+    "stargazers_count": 39
   },
   "github.com/fiatjaf/classless-hugo": {
     "id": 128872437,
@@ -1946,11 +1946,11 @@
   "github.com/funkydan2/hugo-kiera": {
     "id": 130204294,
     "created_at": "2018-04-19T11:16:18Z",
-    "updated_at": "2025-12-29T12:18:26Z",
+    "updated_at": "2026-01-01T20:45:31Z",
     "name": "hugo-kiera",
     "description": "Kiera - A Hugo Theme for writing",
     "html_url": "https://github.com/funkydan2/hugo-kiera",
-    "stargazers_count": 78
+    "stargazers_count": 77
   },
   "github.com/g1eny0ung/hugo-theme-dream": {
     "id": 105977401,
@@ -2009,7 +2009,7 @@
   "github.com/gethinode/hinode": {
     "id": 447086741,
     "created_at": "2022-01-12T05:20:40Z",
-    "updated_at": "2025-12-25T11:07:30Z",
+    "updated_at": "2026-01-01T13:15:27Z",
     "name": "hinode",
     "description": "A clean documentation and blog theme for your Hugo site based on Bootstrap 5",
     "html_url": "https://github.com/gethinode/hinode",
@@ -2018,11 +2018,11 @@
   "github.com/gethyas/doks": {
     "id": 255927625,
     "created_at": "2020-04-15T13:37:31Z",
-    "updated_at": "2025-12-27T20:56:12Z",
+    "updated_at": "2026-01-02T00:00:23Z",
     "name": "doks",
     "description": "Everything you need to build a stellar documentation website. Fast, accessible, and easy to use.",
     "html_url": "https://github.com/thuliteio/doks",
-    "stargazers_count": 2319
+    "stargazers_count": 2321
   },
   "github.com/gevhaz/hugo-theme-notrack": {
     "id": 264459867,
@@ -2108,11 +2108,11 @@
   "github.com/gurusabarish/hugo-profile": {
     "id": 287894238,
     "created_at": "2020-08-16T07:19:04Z",
-    "updated_at": "2025-12-31T19:29:40Z",
+    "updated_at": "2026-01-01T15:19:00Z",
     "name": "hugo-profile",
     "description": "A highly customizable and mobile first Hugo template for personal portfolio and blog.",
     "html_url": "https://github.com/gurusabarish/hugo-profile",
-    "stargazers_count": 1014
+    "stargazers_count": 1015
   },
   "github.com/gyorb/hugo-dusk": {
     "id": 89065581,
@@ -2306,11 +2306,11 @@
   "github.com/hugo-fixit/FixIt": {
     "id": 438849461,
     "created_at": "2021-12-16T03:35:27Z",
-    "updated_at": "2025-12-31T08:45:58Z",
+    "updated_at": "2026-01-01T14:50:26Z",
     "name": "FixIt",
     "description": "🔧 A clean, elegant but advanced blog theme for Hugo 一个简洁、优雅且高效的 Hugo 主题",
     "html_url": "https://github.com/hugo-fixit/FixIt",
-    "stargazers_count": 1068
+    "stargazers_count": 1067
   },
   "github.com/hugo-next/hugo-theme-next": {
     "id": 488167192,
@@ -2324,11 +2324,11 @@
   "github.com/hugo-porto/theme": {
     "id": 786853215,
     "created_at": "2024-04-15T12:33:49Z",
-    "updated_at": "2025-12-09T19:57:07Z",
+    "updated_at": "2026-01-01T15:09:09Z",
     "name": "theme",
     "description": "The hugo-porto is a personal portfolio theme for Hugo",
     "html_url": "https://github.com/hugo-porto/theme",
-    "stargazers_count": 30
+    "stargazers_count": 31
   },
   "github.com/hugo-sid/hugo-blog-awesome": {
     "id": 601457559,
@@ -2405,11 +2405,11 @@
   "github.com/imfing/hextra": {
     "id": 668453226,
     "created_at": "2023-07-19T21:03:57Z",
-    "updated_at": "2025-12-31T09:21:03Z",
+    "updated_at": "2026-01-01T13:34:15Z",
     "name": "hextra",
     "description": "🔯 Modern, batteries-included Hugo theme for creating beautiful doc, blog and static websites",
     "html_url": "https://github.com/imfing/hextra",
-    "stargazers_count": 1836
+    "stargazers_count": 1838
   },
   "github.com/imgios/not-much": {
     "id": 773790108,
@@ -2657,7 +2657,7 @@
   "github.com/joshed-io/reveal-hugo": {
     "id": 131216648,
     "created_at": "2018-04-26T22:21:56Z",
-    "updated_at": "2025-12-10T11:13:07Z",
+    "updated_at": "2026-01-01T20:45:41Z",
     "name": "reveal-hugo",
     "description": "📽️ Create rich HTML-based presentations with Hugo and Reveal.js",
     "html_url": "https://github.com/joshed-io/reveal-hugo",
@@ -2675,20 +2675,20 @@
   "github.com/joway/hugo-theme-yinyang": {
     "id": 156729664,
     "created_at": "2018-11-08T15:41:32Z",
-    "updated_at": "2025-12-31T16:08:16Z",
+    "updated_at": "2026-01-01T13:26:58Z",
     "name": "hugo-theme-yinyang",
     "description": "A black-white theme for Hugo.",
     "html_url": "https://github.com/joway/hugo-theme-yinyang",
-    "stargazers_count": 550
+    "stargazers_count": 551
   },
   "github.com/jpanther/congo/v2": {
     "id": 394873267,
     "created_at": "2021-08-11T05:29:45Z",
-    "updated_at": "2025-12-31T15:03:46Z",
+    "updated_at": "2026-01-01T08:58:13Z",
     "name": "congo",
     "description": "A powerful, lightweight theme for Hugo built with Tailwind CSS.",
     "html_url": "https://github.com/jpanther/congo",
-    "stargazers_count": 1567
+    "stargazers_count": 1568
   },
   "github.com/jpanther/lynx": {
     "id": 423043182,
@@ -3080,11 +3080,11 @@
   "github.com/manid2/hugo-xterm": {
     "id": 666105876,
     "created_at": "2023-07-13T18:15:30Z",
-    "updated_at": "2025-10-13T15:19:44Z",
+    "updated_at": "2026-01-01T21:41:11Z",
     "name": "hugo-xterm",
     "description": "Hugo theme designed for reading and printing text with dark and light modes.",
     "html_url": "https://github.com/manid2/hugo-xterm",
-    "stargazers_count": 54
+    "stargazers_count": 53
   },
   "github.com/mansoorbarri/coming-soon": {
     "id": 686674596,
@@ -3143,11 +3143,11 @@
   "github.com/math-queiroz/rusty-typewriter": {
     "id": 933271677,
     "created_at": "2025-02-15T15:08:19Z",
-    "updated_at": "2025-12-31T13:15:48Z",
+    "updated_at": "2026-01-01T17:13:54Z",
     "name": "rusty-typewriter",
     "description": "A hugo theme intended for blogs ✍️",
     "html_url": "https://github.com/math-queiroz/rusty-typewriter",
-    "stargazers_count": 48
+    "stargazers_count": 49
   },
   "github.com/matsuyoshi30/harbor": {
     "id": 240560413,
@@ -3359,11 +3359,11 @@
   "github.com/monkeyWzr/hugo-theme-cactus": {
     "id": 278695182,
     "created_at": "2020-07-10T17:32:58Z",
-    "updated_at": "2025-12-31T15:03:44Z",
+    "updated_at": "2026-01-01T15:34:30Z",
     "name": "hugo-theme-cactus",
     "description": "Cactus theme for hugo",
     "html_url": "https://github.com/monkeyWzr/hugo-theme-cactus",
-    "stargazers_count": 569
+    "stargazers_count": 570
   },
   "github.com/mozanunal/hugo-classless": {
     "id": 1006246247,
@@ -3377,11 +3377,11 @@
   "github.com/mrhelloboy/seven": {
     "id": 653916538,
     "created_at": "2023-06-15T02:48:32Z",
-    "updated_at": "2025-12-18T16:21:05Z",
+    "updated_at": "2026-01-01T20:45:33Z",
     "name": "seven",
     "description": "A clean and beautiful Hugo theme, which built using Tailwind CSS.",
     "html_url": "https://github.com/mrhelloboy/seven",
-    "stargazers_count": 66
+    "stargazers_count": 65
   },
   "github.com/mrmierzejewski/hugo-theme-console": {
     "id": 259664401,
@@ -3512,20 +3512,20 @@
   "github.com/ntk148v/shibui": {
     "id": 1001310004,
     "created_at": "2025-06-13T07:00:06Z",
-    "updated_at": "2025-12-31T06:49:49Z",
+    "updated_at": "2026-01-01T12:44:09Z",
     "name": "shibui",
     "description": "Shibui (渋い) is a yet another minimalistic Hugo theme",
     "html_url": "https://github.com/ntk148v/shibui",
-    "stargazers_count": 54
+    "stargazers_count": 56
   },
   "github.com/nunocoracao/blowfish/v2": {
     "id": 534798642,
     "created_at": "2022-09-09T20:38:52Z",
-    "updated_at": "2025-12-31T22:35:32Z",
+    "updated_at": "2026-01-01T23:58:39Z",
     "name": "blowfish",
     "description": "Personal Website \u0026 Blog Theme for Hugo",
     "html_url": "https://github.com/nunocoracao/blowfish",
-    "stargazers_count": 2498
+    "stargazers_count": 2501
   },
   "github.com/nurlansu/hugo-sustain": {
     "id": 71623522,
@@ -3665,11 +3665,11 @@
   "github.com/panr/hugo-theme-terminal/v4": {
     "id": 167872853,
     "created_at": "2019-01-27T23:58:03Z",
-    "updated_at": "2025-12-31T11:33:35Z",
+    "updated_at": "2026-01-01T10:42:47Z",
     "name": "hugo-theme-terminal",
     "description": "A simple, retro theme for Hugo",
     "html_url": "https://github.com/panr/hugo-theme-terminal",
-    "stargazers_count": 2617
+    "stargazers_count": 2616
   },
   "github.com/paposeco/quietfoodie": {
     "id": 461899204,
@@ -3692,11 +3692,11 @@
   "github.com/paulmartins/hugo-digital-garden-theme": {
     "id": 397395153,
     "created_at": "2021-08-17T21:26:04Z",
-    "updated_at": "2025-10-03T06:39:04Z",
+    "updated_at": "2026-01-01T20:45:39Z",
     "name": "hugo-digital-garden-theme",
     "description": "Hugo Theme for digital gardening projects.",
     "html_url": "https://github.com/paulmartins/hugo-digital-garden-theme",
-    "stargazers_count": 97
+    "stargazers_count": 96
   },
   "github.com/pdevty/material-design": {
     "id": 35676282,
@@ -3800,16 +3800,16 @@
   "github.com/prxshetty/hugo-noir": {
     "id": 947618248,
     "created_at": "2025-03-13T01:19:31Z",
-    "updated_at": "2025-12-27T06:12:15Z",
+    "updated_at": "2026-01-01T23:23:50Z",
     "name": "hugo-noir",
     "description": "Hugo Noir is a clean, minimalistic theme for Hugo with a focus on readability and simplicity.",
     "html_url": "https://github.com/prxshetty/hugo-noir",
-    "stargazers_count": 78
+    "stargazers_count": 79
   },
   "github.com/psugam/sans": {
     "id": 1108293053,
     "created_at": "2025-12-02T09:23:50Z",
-    "updated_at": "2025-12-08T12:35:55Z",
+    "updated_at": "2026-01-01T15:19:48Z",
     "name": "sans",
     "description": "",
     "html_url": "https://github.com/psugam/sans",
@@ -3890,11 +3890,11 @@
   "github.com/raisingpixels/vintage-web-hugo-theme": {
     "id": 1009808954,
     "created_at": "2025-06-27T18:45:06Z",
-    "updated_at": "2025-10-31T19:32:46Z",
+    "updated_at": "2026-01-01T12:41:28Z",
     "name": "vintage-web-hugo-theme",
     "description": "Hugo theme for 1999.",
     "html_url": "https://github.com/raisingpixels/vintage-web-hugo-theme",
-    "stargazers_count": 16
+    "stargazers_count": 17
   },
   "github.com/razonyang/hugo-theme-bootstrap": {
     "id": 304332853,
@@ -4043,11 +4043,11 @@
   "github.com/salatine/neopost": {
     "id": 923911849,
     "created_at": "2025-01-29T03:49:57Z",
-    "updated_at": "2025-12-22T03:46:22Z",
+    "updated_at": "2026-01-01T23:00:20Z",
     "name": "neopost",
     "description": "a hugo theme/template to easily create your neocities personal blog!",
     "html_url": "https://github.com/salatine/neopost",
-    "stargazers_count": 50
+    "stargazers_count": 52
   },
   "github.com/salcan/BeyondNothing": {
     "id": 135865634,
@@ -4475,11 +4475,11 @@
   "github.com/tom2almighty/hugo-narrow": {
     "id": 995995503,
     "created_at": "2025-06-04T09:57:16Z",
-    "updated_at": "2025-12-31T22:13:50Z",
+    "updated_at": "2026-01-01T21:59:11Z",
     "name": "hugo-narrow",
     "description": "A Modern Hugo Theme with Multiple Color Schemes - Built on TailwindCSS 4.",
     "html_url": "https://github.com/tom2almighty/hugo-narrow",
-    "stargazers_count": 151
+    "stargazers_count": 152
   },
   "github.com/tomowang/hugo-theme-tailwind": {
     "id": 708135196,
@@ -4583,11 +4583,11 @@
   "github.com/vaga/hugo-theme-m10c": {
     "id": 166530704,
     "created_at": "2019-01-19T09:43:35Z",
-    "updated_at": "2025-12-27T00:26:58Z",
+    "updated_at": "2026-01-01T15:36:59Z",
     "name": "hugo-theme-m10c",
     "description": "A minimalistic (m10c) blog theme for Hugo",
     "html_url": "https://github.com/vaga/hugo-theme-m10c",
-    "stargazers_count": 520
+    "stargazers_count": 521
   },
   "github.com/victoriadrake/hugo-theme-introduction": {
     "id": 84793453,
@@ -4601,11 +4601,11 @@
   "github.com/victoriadrake/hugo-theme-quint": {
     "id": 795168559,
     "created_at": "2024-05-02T18:02:17Z",
-    "updated_at": "2025-12-08T00:26:21Z",
+    "updated_at": "2026-01-01T05:04:25Z",
     "name": "hugo-theme-quint",
     "description": "Quint: Essence of Minimalism. A theme for Hugo static site generator.",
     "html_url": "https://github.com/victoriadrake/hugo-theme-quint",
-    "stargazers_count": 55
+    "stargazers_count": 56
   },
   "github.com/victoriadrake/neofeed-theme/v2": {
     "id": 327305114,
@@ -4826,11 +4826,11 @@
   "github.com/yihui/hugo-xmin": {
     "id": 94504324,
     "created_at": "2017-06-16T04:13:22Z",
-    "updated_at": "2025-12-29T00:37:16Z",
+    "updated_at": "2026-01-01T11:49:27Z",
     "name": "hugo-xmin",
     "description": "eXtremely Minimal Hugo theme: about 140 lines of code in total, including HTML and CSS (with no dependencies)",
     "html_url": "https://github.com/yihui/hugo-xmin",
-    "stargazers_count": 909
+    "stargazers_count": 910
   },
   "github.com/yiming-m/scholar-lite": {
     "id": 1041597011,
@@ -4916,20 +4916,20 @@
   "github.com/zeon-studio/hugoplate": {
     "id": 645295049,
     "created_at": "2023-05-25T10:41:33Z",
-    "updated_at": "2025-12-31T15:59:03Z",
+    "updated_at": "2026-01-01T20:37:00Z",
     "name": "hugoplate",
     "description": "Hugoplate is a free starter template built with Hugo and Tailwind CSS v4.0 that will save you hours of work.",
     "html_url": "https://github.com/zeon-studio/hugoplate",
-    "stargazers_count": 1464
+    "stargazers_count": 1466
   },
   "github.com/zerostaticthemes/hugo-hero-theme": {
     "id": 160591048,
     "created_at": "2018-12-05T23:22:47Z",
-    "updated_at": "2025-12-30T17:04:37Z",
+    "updated_at": "2026-01-01T18:50:11Z",
     "name": "hugo-hero-theme",
     "description": "A multi-page Hugo theme with fullscreen hero images and fullwidth sections.",
     "html_url": "https://github.com/zerostaticthemes/hugo-hero-theme",
-    "stargazers_count": 392
+    "stargazers_count": 393
   },
   "github.com/zerostaticthemes/hugo-serif-theme": {
     "id": 159459907,
@@ -4961,7 +4961,7 @@
   "github.com/zetxek/adritian-free-hugo-theme": {
     "id": 261477216,
     "created_at": "2020-05-05T13:25:13Z",
-    "updated_at": "2025-12-31T12:33:23Z",
+    "updated_at": "2026-01-01T20:54:15Z",
     "name": "adritian-free-hugo-theme",
     "description": "Adritian - High performance Hugo Theme for Personal Websites. With job experience, portfolio, dark/light theme, blog, multi-language and best frontend practices out of the box.",
     "html_url": "https://github.com/zetxek/adritian-free-hugo-theme",
@@ -4970,11 +4970,11 @@
   "github.com/zhaohuabing/hugo-theme-cleanwhite": {
     "id": 137584400,
     "created_at": "2018-06-16T13:57:14Z",
-    "updated_at": "2025-12-31T17:39:48Z",
+    "updated_at": "2026-01-01T20:45:29Z",
     "name": "hugo-theme-cleanwhite",
     "description": "A clean, elegant blog theme for hugo",
     "html_url": "https://github.com/zhaohuabing/hugo-theme-cleanwhite",
-    "stargazers_count": 803
+    "stargazers_count": 802
   },
   "github.com/zhe/hugo-theme-slim": {
     "id": 34523524,
