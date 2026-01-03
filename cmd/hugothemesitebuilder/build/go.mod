@@ -41,7 +41,7 @@ require (
 	github.com/GrantBirki/dario v0.0.0-20250730050139-49abb66ae1fe // indirect
 	github.com/HEIGE-PCloud/DoIt v0.4.2 // indirect
 	github.com/HugoBlox/hugo-blox-builder/modules/blox-tailwind v0.10.0 // indirect
-	github.com/HugoBlox/theme-documentation v0.0.0-20251231012234-ef02524a9b32 // indirect
+	github.com/HugoBlox/theme-documentation v0.0.0-20260102212017-134caee7b55e // indirect
 	github.com/Ice-Hazymoon/hugo-theme-luna v0.7.1 // indirect
 	github.com/IvanChou/hugo-theme-vec v0.0.0-20190110125257-deb6897f1d8e // indirect
 	github.com/J-Siu/hugo-theme-sk1 v0.0.0-20250809232123-59dc9e6d57ae // indirect
@@ -253,7 +253,7 @@ require (
 	github.com/homecat805/hugo-theme-walden v0.0.0-20251226020040-0208abb3bebd // indirect
 	github.com/hongtaoh/hugo-ht v0.0.0-20251023011132-f40aafc43627 // indirect
 	github.com/hootan09/simple-cv v0.0.0-20220526085510-32a2ca6f372b // indirect
-	github.com/hotjuicew/hugo-JuiceBar v0.0.0-20241228034402-28a7e298c61f // indirect
+	github.com/hotjuicew/hugo-JuiceBar v0.0.0-20260102062949-b5179d9b84a0 // indirect
 	github.com/htnabe/HikaeMe v1.0.0 // indirect
 	github.com/httpsecure/hugo-cat v0.0.0-20230415145520-d962cdf4faa5 // indirect
 	github.com/httpsecure/hugo-theme-red-rose v0.0.0-20230414195647-18de6143a070 // indirect
@@ -394,7 +394,7 @@ require (
 	github.com/ntk148v/hugo-cuisine-book v0.0.0-20241224032151-5b10ab3d60fd // indirect
 	github.com/ntk148v/hugo-toigian v0.1.0 // indirect
 	github.com/ntk148v/shibui v0.1.0 // indirect
-	github.com/nunocoracao/blowfish/v2 v2.95.0 // indirect
+	github.com/nunocoracao/blowfish/v2 v2.96.0 // indirect
 	github.com/nurlansu/hugo-sustain v0.0.0-20230524192148-21d9f8f53692 // indirect
 	github.com/nusserstudios/tailbliss v0.0.0-20251231135621-270cedb51aee // indirect
 	github.com/nux-li/hugo-foto-theme v1.0.1 // indirect
