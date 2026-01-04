@@ -15,7 +15,7 @@ require (
 	github.com/22decembre/random3 v0.0.0-20250909150517-c7b255694cab // indirect
 	github.com/526avijitgupta/gokarna v0.0.0-20251108094623-5e633d6775f0 // indirect
 	github.com/64bitpandas/amethyst v1.0.0 // indirect
-	github.com/7ma7X/HugoTeX v0.0.0-20251229142806-f11035bdca00 // indirect
+	github.com/7ma7X/HugoTeX v0.0.0-20260103153345-4c27722acd8e // indirect
 	github.com/ANSSI-FR/hackropole-hugo v0.0.0-20250223124201-cfccbf3243bc // indirect
 	github.com/AlexFinn/simple-a v0.0.0-20191202062540-bb2f8c9172a0 // indirect
 	github.com/AmazingRise/hugo-theme-diary v0.0.0-20241212042734-c547cf956448 // indirect
@@ -102,7 +102,7 @@ require (
 	github.com/alex-shpak/hugo-book v0.0.0-20251118074854-b7f9c8cb0f51 // indirect
 	github.com/alexandrevicenzi/soho v1.1.1 // indirect
 	github.com/allnightgrocery/hugo-theme-blueberry-detox v0.0.0-20170129010546-afb1e630023b // indirect
-	github.com/alloydwhitlock/huey v0.0.0-20241130051012-8cf65929b4f7 // indirect
+	github.com/alloydwhitlock/huey v0.0.0-20260103175402-991583e3a336 // indirect
 	github.com/ameio/hugo-arogya-theme v0.0.0-20221008060409-3475116c557e // indirect
 	github.com/ananthb/jughead v1.11.16 // indirect
 	github.com/anantshri/hugo-techie-personal v0.1.4 // indirect
@@ -476,9 +476,9 @@ require (
 	github.com/softwareyoga/ronu-hugo-theme v0.0.0-20220517180936-9b2aeaa4d0d3 // indirect
 	github.com/spaghettiwews/hugonews v0.0.0-20200229171635-342b6a47f09e // indirect
 	github.com/spech66/bootstrap-bp-hugo-startpage v0.0.0-20241204092756-3e6de277f620 // indirect
-	github.com/spech66/bootstrap-bp-hugo-theme v5.3.5+incompatible // indirect
-	github.com/spech66/flex-bp-hugo-cv v0.0.0-20250407094238-ed2323273f34 // indirect
-	github.com/spech66/materialize-bp-hugo-theme v0.0.0-20250407094230-24e8495c3a38 // indirect
+	github.com/spech66/bootstrap-bp-hugo-theme v5.3.8+incompatible // indirect
+	github.com/spech66/flex-bp-hugo-cv v0.0.0-20260103174740-4b1b38133dd2 // indirect
+	github.com/spech66/materialize-bp-hugo-theme v0.0.0-20260103174750-e2abac588de6 // indirect
 	github.com/spf13/hyde v1.4.1 // indirect
 	github.com/splch/hugo-simplecss v0.0.0-20220426050908-aa5090af89a9 // indirect
 	github.com/spookey/slick v0.5.0 // indirect
