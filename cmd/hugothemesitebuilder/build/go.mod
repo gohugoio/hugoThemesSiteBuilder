@@ -41,7 +41,7 @@ require (
 	github.com/GrantBirki/dario v0.0.0-20250730050139-49abb66ae1fe // indirect
 	github.com/HEIGE-PCloud/DoIt v0.4.2 // indirect
 	github.com/HugoBlox/hugo-blox-builder/modules/blox-tailwind v0.10.0 // indirect
-	github.com/HugoBlox/theme-documentation v0.0.0-20260106204651-780f366280b8 // indirect
+	github.com/HugoBlox/theme-documentation v0.0.0-20260107185537-a1ef07e61092 // indirect
 	github.com/Ice-Hazymoon/hugo-theme-luna v0.7.1 // indirect
 	github.com/IvanChou/hugo-theme-vec v0.0.0-20190110125257-deb6897f1d8e // indirect
 	github.com/J-Siu/hugo-theme-sk1 v0.0.0-20250809232123-59dc9e6d57ae // indirect
@@ -59,7 +59,7 @@ require (
 	github.com/MarcusVirg/forty v0.0.0-20190430033326-dccea57bd2ed // indirect
 	github.com/Masellum/hugo-theme-nostyleplease v0.0.0-20250120053207-cfbfe4e8ed13 // indirect
 	github.com/McShelby/hugo-theme-relearn v0.0.0-20260104150403-c62ccb797199 // indirect
-	github.com/MeiK2333/github-style v0.0.0-20250103014044-9cb8c4c882d9 // indirect
+	github.com/MeiK2333/github-style v0.0.0-20260107061944-52911b5ce04d // indirect
 	github.com/MichaelSchaecher/simple-dark v0.0.0-20250103115132-46361b0e75d6 // indirect
 	github.com/MunifTanjim/minimo v2.10.1+incompatible // indirect
 	github.com/Nigh/tinyworks v0.0.0-20211102143612-3e258cc49e22 // indirect
@@ -201,7 +201,7 @@ require (
 	github.com/dumindu/E25DX v0.0.0-20260101105757-a66c0f5921df // indirect
 	github.com/edavidaja/docter v0.2.0 // indirect
 	github.com/eddiewebb/hugo-resume v0.0.0-20251003202804-8d455bee3a5e // indirect
-	github.com/elecbrandy/freshpink v0.0.0-20251111053649-61fded1bc012 // indirect
+	github.com/elecbrandy/freshpink v0.0.0-20260107072227-00b7e9f30cc1 // indirect
 	github.com/eliasson/liquorice v0.0.0-20200622115411-8eac8aa98593 // indirect
 	github.com/ertuil/erblog v1.1.0 // indirect
 	github.com/escalate/hugo-split-theme v1.9.0 // indirect
@@ -375,12 +375,12 @@ require (
 	github.com/mivinci/hugo-theme-minima v1.1.0 // indirect
 	github.com/mnjm/kayal v0.3.10 // indirect
 	github.com/mnordhaus/pico-base v0.0.0-20250315194958-573aca9b49a9 // indirect
-	github.com/mohamedelhefni/zahi v0.0.0-20240428061523-2f25953e86ba // indirect
+	github.com/mohamedelhefni/zahi v0.0.0-20260107232226-af33e41d12d2 // indirect
 	github.com/monkeyWzr/hugo-theme-cactus v0.0.0-20240312084910-a5df1d6bed25 // indirect
 	github.com/mozanunal/hugo-classless v0.1.0 // indirect
 	github.com/mrhelloboy/seven v1.7.6 // indirect
 	github.com/mrmierzejewski/hugo-theme-console v0.0.0-20251111144840-d2766495595c // indirect
-	github.com/nanxiaobei/hugo-paper v0.0.0-20250419060945-8c75cdd9ce53 // indirect
+	github.com/nanxiaobei/hugo-paper v0.0.0-20260107185820-3727232b51e1 // indirect
 	github.com/nanxstats/hugo-tanka v0.0.0-20210707221939-9bec4eba33e5 // indirect
 	github.com/naro143/hugo-coder-portfolio v0.0.0-20200903083500-255d92337c07 // indirect
 	github.com/natarajmb/charaka-hugo-theme v0.0.0-20250520130513-694a1a421fa8 // indirect
@@ -408,7 +408,7 @@ require (
 	github.com/opera7133/tella v0.0.0-20251109091920-2195d5d51154 // indirect
 	github.com/opera7133/vnovel v0.0.0-20251109091957-fe46a0b97ac4 // indirect
 	github.com/orf/bare-hugo-theme v0.0.0-20230401233253-f285059e1e56 // indirect
-	github.com/oxypteros/alpha v1.1.2 // indirect
+	github.com/oxypteros/alpha v1.2.0 // indirect
 	github.com/pacollins/calligraphy v0.0.0-20240926020640-ae396029849e // indirect
 	github.com/panr/hugo-theme-terminal/v4 v4.2.3 // indirect
 	github.com/paposeco/quietfoodie v0.0.0-20240522105017-ca30389fab2d // indirect
@@ -536,7 +536,7 @@ require (
 	github.com/xioyito/NewBee v1.2.3 // indirect
 	github.com/xslingcn/vno-hugo v1.1.3 // indirect
 	github.com/yanlinlin82/simple-style v0.0.0-20240320081416-2b198a8c5f17 // indirect
-	github.com/yassi/hugo-theme-yassi v0.0.0-20251127050236-666e8c38bb4e // indirect
+	github.com/yassi/hugo-theme-yassi v0.0.0-20260107162946-f526595da51a // indirect
 	github.com/yezihack/kong-htop v1.0.0 // indirect
 	github.com/yihui/hugo-xmag v0.0.0-20251216181234-2a0010def0e6 // indirect
 	github.com/yihui/hugo-xmin v0.0.0-20250821032850-c871e5665f5e // indirect
