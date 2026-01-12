@@ -114,7 +114,7 @@ require (
 	github.com/apvarun/showcase-hugo-theme v1.3.0 // indirect
 	github.com/apvarun/showfolio-hugo-theme v1.0.0 // indirect
 	github.com/asurbernardo/amperage v0.0.0-20201210113041-18bba9e6f415 // indirect
-	github.com/athul/archie v0.0.0-20260105120806-c1291f30087c // indirect
+	github.com/athul/archie v0.0.0-20260111170427-962c30a8474f // indirect
 	github.com/austingebauer/devise v0.1.0 // indirect
 	github.com/azmelanar/hugo-theme-pixyll v0.0.0-20240430145741-84b471227eba // indirect
 	github.com/babeneso/hugo-neso v0.1.3 // indirect
@@ -241,7 +241,7 @@ require (
 	github.com/gyorb/hugo-dusk v1.4.0 // indirect
 	github.com/hadisinaee/avicenna v0.0.0-20210802003840-1412ad1b941f // indirect
 	github.com/half-duplex/hugo-arcana v0.0.0-20251017002235-20ee7d0ada2c // indirect
-	github.com/halogenica/beautifulhugo v0.0.0-20251212183709-c3c3bbb7370d // indirect
+	github.com/halogenica/beautifulhugo v0.0.0-20260111013255-a0da0de74a04 // indirect
 	github.com/hauke96/hugo-theme-hamburg v0.8.3 // indirect
 	github.com/hbstack/theme v0.4.0 // indirect
 	github.com/hbstack/theme-search v0.1.2 // indirect
