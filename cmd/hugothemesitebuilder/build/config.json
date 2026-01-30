@@ -1898,6 +1898,12 @@
         "ignoreConfig": true,
         "ignoreImports": true,
         "noMounts": true,
+        "path": "github.com/marcelorodrigo/hugo-fortyten"
+      },
+      {
+        "ignoreConfig": true,
+        "ignoreImports": true,
+        "noMounts": true,
         "path": "github.com/MarcusVirg/forty"
       },
       {
@@ -1995,6 +2001,12 @@
         "ignoreImports": true,
         "noMounts": true,
         "path": "github.com/MeiK2333/github-style"
+      },
+      {
+        "ignoreConfig": true,
+        "ignoreImports": true,
+        "noMounts": true,
+        "path": "github.com/mertbakir/resume-a4"
       },
       {
         "ignoreConfig": true,
@@ -2834,18 +2846,6 @@
         "ignoreConfig": true,
         "ignoreImports": true,
         "noMounts": true,
-        "path": "github.com/syui/hugo-theme-air"
-      },
-      {
-        "ignoreConfig": true,
-        "ignoreImports": true,
-        "noMounts": true,
-        "path": "github.com/syui/hugo-theme-wave"
-      },
-      {
-        "ignoreConfig": true,
-        "ignoreImports": true,
-        "noMounts": true,
         "path": "github.com/taikii/whiteplain"
       },
       {
@@ -3405,12 +3405,6 @@
         "ignoreImports": true,
         "noMounts": true,
         "path": "gitlab.com/m-e-leypold/brutalist-minimalist-gohugo-theme"
-      },
-      {
-        "ignoreConfig": true,
-        "ignoreImports": true,
-        "noMounts": true,
-        "path": "gitlab.com/mertbakir/resume-a4"
       },
       {
         "ignoreConfig": true,
