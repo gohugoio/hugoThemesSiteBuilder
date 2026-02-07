@@ -201,7 +201,7 @@ require (
 	github.com/dumindu/E25DX v0.0.0-20260205070333-e8b06480768a // indirect
 	github.com/edavidaja/docter v0.2.0 // indirect
 	github.com/eddiewebb/hugo-resume v0.0.0-20251003202804-8d455bee3a5e // indirect
-	github.com/elecbrandy/freshpink v0.0.0-20260125123153-07eee3e5161f // indirect
+	github.com/elecbrandy/freshpink v0.0.0-20260206022413-d7159cc23c93 // indirect
 	github.com/eliasson/liquorice v0.0.0-20200622115411-8eac8aa98593 // indirect
 	github.com/ertuil/erblog v1.1.0 // indirect
 	github.com/escalate/hugo-split-theme v1.9.0 // indirect
@@ -215,7 +215,7 @@ require (
 	github.com/fncnt/vncnt-hugo v0.0.0-20240422191321-fad7815bc6eb // indirect
 	github.com/forestryio/hugo-theme-novela v0.0.0-20210222084032-5d015eef4c56 // indirect
 	github.com/fourtyone11/origin-hugo-theme v0.0.0-20200611125917-021c45772a9a // indirect
-	github.com/foxihd/hugo-brewm v2.7.0+incompatible // indirect
+	github.com/foxihd/hugo-brewm v2.8.0+incompatible // indirect
 	github.com/francoiducat/hugo-air v0.0.20 // indirect
 	github.com/frjo/hugo-theme-zen/v5 v5.8.0 // indirect
 	github.com/funkydan2/alpha-church v0.0.0-20250715231706-e6879887afa8 // indirect
@@ -352,7 +352,7 @@ require (
 	github.com/mansoorbarri/roadster v0.0.0-20260127154408-dd0397aace25 // indirect
 	github.com/maolonglong/hugo-simple v0.0.0-20260125161937-6c6084903ae1 // indirect
 	github.com/marcanuy/simpleit-hugo-theme v0.0.0-20231012140445-3d40feab8da2 // indirect
-	github.com/marcelorodrigo/hugo-fortyten v0.0.0-20260119172743-dfa14df891d9 // indirect
+	github.com/marcelorodrigo/hugo-fortyten v2.0.0+incompatible // indirect
 	github.com/marketempower/axiom v0.9.0 // indirect
 	github.com/math-queiroz/rusty-typewriter v0.0.0-20260113132318-55e3f297f176 // indirect
 	github.com/matsuyoshi30/harbor v1.0.0 // indirect
