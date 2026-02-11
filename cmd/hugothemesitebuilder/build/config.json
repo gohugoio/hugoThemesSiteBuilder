@@ -2006,6 +2006,18 @@
         "ignoreConfig": true,
         "ignoreImports": true,
         "noMounts": true,
+        "path": "github.com/meimakes/loficode-hugo-theme"
+      },
+      {
+        "ignoreConfig": true,
+        "ignoreImports": true,
+        "noMounts": true,
+        "path": "github.com/meimakes/vintage-web-hugo-theme"
+      },
+      {
+        "ignoreConfig": true,
+        "ignoreImports": true,
+        "noMounts": true,
         "path": "github.com/MeiK2333/github-style"
       },
       {
@@ -2469,18 +2481,6 @@
         "ignoreImports": true,
         "noMounts": true,
         "path": "github.com/rafed/ramium"
-      },
-      {
-        "ignoreConfig": true,
-        "ignoreImports": true,
-        "noMounts": true,
-        "path": "github.com/raisingpixels/loficode-hugo-theme"
-      },
-      {
-        "ignoreConfig": true,
-        "ignoreImports": true,
-        "noMounts": true,
-        "path": "github.com/raisingpixels/vintage-web-hugo-theme"
       },
       {
         "ignoreConfig": true,

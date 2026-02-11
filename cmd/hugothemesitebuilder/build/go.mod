@@ -233,7 +233,7 @@ require (
 	github.com/gonnux/hugo-apps-theme v2.0.0+incompatible // indirect
 	github.com/goodroot/hugo-classic v0.0.0-20250206231743-18a7c62ecc52 // indirect
 	github.com/goofansu/hugo-modus v1.0.1 // indirect
-	github.com/google/docsy v0.13.0 // indirect
+	github.com/google/docsy v0.14.0 // indirect
 	github.com/guangmean/Niello v5.0.0+incompatible // indirect
 	github.com/guangzhengli/hugo-theme-ladder v1.2.0 // indirect
 	github.com/gundamew/hugo-bingo v1.8.2 // indirect
@@ -366,6 +366,8 @@ require (
 	github.com/mdfriday/theme-long-teng v0.0.0-20241127060205-1fabfc515857 // indirect
 	github.com/medialesson/hugo-theme-event v0.0.0-20250428110155-9a4e04a7e943 // indirect
 	github.com/meibenny/elephants v0.1.4 // indirect
+	github.com/meimakes/loficode-hugo-theme v0.0.0-20260210161822-fc0612fcd92f // indirect
+	github.com/meimakes/vintage-web-hugo-theme v0.0.0-20260210153732-2ed6de89448d // indirect
 	github.com/mertbakir/resume-a4 v1.1.0 // indirect
 	github.com/michaelneuper/hugo-texify3 v0.0.0-20250107191459-cf5cc1a3a88d // indirect
 	github.com/michenriksen/hugo-theme-til v0.6.0 // indirect
@@ -409,8 +411,8 @@ require (
 	github.com/onweru/hugo-swift-theme v2.0.0+incompatible // indirect
 	github.com/onweru/newsroom v0.0.0-20251104164459-9c9eaf21c26a // indirect
 	github.com/opera7133/Blonde v0.0.0-20251109091751-525194079d08 // indirect
-	github.com/opera7133/tella v0.0.0-20251109091920-2195d5d51154 // indirect
-	github.com/opera7133/vnovel v0.0.0-20251109091957-fe46a0b97ac4 // indirect
+	github.com/opera7133/tella v0.0.0-20260210150830-88264a061d2a // indirect
+	github.com/opera7133/vnovel v0.0.0-20260210155822-f6e45330c48e // indirect
 	github.com/orf/bare-hugo-theme v0.0.0-20230401233253-f285059e1e56 // indirect
 	github.com/oxypteros/alpha v1.2.0 // indirect
 	github.com/pacollins/calligraphy v0.0.0-20240926020640-ae396029849e // indirect
@@ -438,8 +440,6 @@ require (
 	github.com/radity/raditian-free-hugo-theme v0.0.0-20200716150603-a25af74cbf97 // indirect
 	github.com/rafed/BlogRa v0.0.0-20241012000206-36c76575a31f // indirect
 	github.com/rafed/ramium v0.0.0-20230721113732-a51bb919d150 // indirect
-	github.com/raisingpixels/loficode-hugo-theme v0.0.0-20250704022653-dc4117fdcf84 // indirect
-	github.com/raisingpixels/vintage-web-hugo-theme v0.0.0-20250704021432-4b8335467c8e // indirect
 	github.com/razonyang/hugo-theme-bootstrap v1.13.3 // indirect
 	github.com/realyezhihao/hugo-SakuraChiyo v0.0.0-20250407121225-d78b4495548b // indirect
 	github.com/reuixiy/hugo-theme-meme v5.0.0+incompatible // indirect
