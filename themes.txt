@@ -210,6 +210,7 @@ github.com/hugo-fixit/FixIt
 github.com/hugo-next/hugo-theme-next
 github.com/hugo-porto/theme
 github.com/hugo-sid/hugo-blog-awesome
+github.com/hugo-theme-anubis2/hugo-theme-anubis2
 github.com/hugo-toha/toha/v4
 github.com/HugoBlox/hugo-blox-builder/modules/blox-tailwind
 github.com/HugoBlox/theme-documentation
@@ -294,6 +295,7 @@ github.com/leonstafford/accessible-minimalism-hugo-theme
 github.com/letItCurl/minimal_marketing
 github.com/lingxz/er
 github.com/liuzc/LeaveIt
+github.com/Livour/hugo-mana-theme
 github.com/lordmathis/hugo-theme-nightfall
 github.com/lordmathis/hugo-theme-nix
 github.com/loveminimal/hugo-theme-virgo
@@ -312,6 +314,7 @@ github.com/mansoorbarri/glim-midnight
 github.com/mansoorbarri/roadster
 github.com/maolonglong/hugo-simple
 github.com/marcanuy/simpleit-hugo-theme
+github.com/marcelorodrigo/hugo-fortyten
 github.com/MarcusVirg/forty
 github.com/marketempower/axiom
 github.com/Masellum/hugo-theme-nostyleplease
@@ -328,7 +331,10 @@ github.com/mdashx/basicwebtheme
 github.com/mdfriday/theme-long-teng
 github.com/medialesson/hugo-theme-event
 github.com/meibenny/elephants
+github.com/meimakes/loficode-hugo-theme
+github.com/meimakes/vintage-web-hugo-theme
 github.com/MeiK2333/github-style
+github.com/mertbakir/resume-a4
 github.com/michaelneuper/hugo-texify3
 github.com/MichaelSchaecher/simple-dark
 github.com/michenriksen/hugo-theme-til
@@ -360,6 +366,7 @@ github.com/nirocfz/arabica
 github.com/nixentric/Lowkey-Hugo-Theme
 github.com/nodejh/hugo-theme-cactus-plus
 github.com/NormandErwan/Blogpaper
+github.com/nthnbch/hugo-fraktur-theme
 github.com/ntk148v/hugo-cuisine-book
 github.com/ntk148v/hugo-toigian
 github.com/ntk148v/shibui
@@ -404,8 +411,6 @@ github.com/queensferryme/hugo-theme-texify
 github.com/radity/raditian-free-hugo-theme
 github.com/rafed/BlogRa
 github.com/rafed/ramium
-github.com/raisingpixels/loficode-hugo-theme
-github.com/raisingpixels/vintage-web-hugo-theme
 github.com/razonyang/hugo-theme-bootstrap
 github.com/RCJacH/hugo-webslides
 github.com/RealOrangeOne/hugo-theme-revealjs
@@ -468,8 +473,6 @@ github.com/SteveLane/hugo-icon
 github.com/sudorook/capsule
 github.com/SunkenPotato/black
 github.com/surajmandalcell/potato-dark
-github.com/syui/hugo-theme-air
-github.com/syui/hugo-theme-wave
 github.com/taikii/whiteplain
 github.com/tastaturtier/someparts-hugo
 github.com/tatsatb/TatBanTheme2.0
@@ -564,7 +567,6 @@ gitlab.com/Kaligule/classless-blog
 gitlab.com/kskarthik/monopriv
 gitlab.com/kskarthik/resto-hugo
 gitlab.com/m-e-leypold/brutalist-minimalist-gohugo-theme
-gitlab.com/mertbakir/resume-a4
 gitlab.com/mrubli/hugo-theme-comic
 gitlab.com/rmaguiar/hugo-theme-color-your-world
 gitlab.com/tmuguet/hugo-split-gallery
@@ -574,3 +576,4 @@ gitlab.com/writeonlyhugo/writeonlyhugo-theme
 wangchucheng.com/hugo-eureka
 github.com/demius782/demius
 github.com/zhenqicai/hugo-theme-kiwi
+go.ngs.io/hugo-primer-blog
