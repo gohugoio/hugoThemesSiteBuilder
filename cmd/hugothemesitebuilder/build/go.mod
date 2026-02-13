@@ -233,7 +233,7 @@ require (
 	github.com/gonnux/hugo-apps-theme v2.0.0+incompatible // indirect
 	github.com/goodroot/hugo-classic v0.0.0-20250206231743-18a7c62ecc52 // indirect
 	github.com/goofansu/hugo-modus v1.0.1 // indirect
-	github.com/google/docsy v0.14.1 // indirect
+	github.com/google/docsy v0.14.2 // indirect
 	github.com/guangmean/Niello v5.0.0+incompatible // indirect
 	github.com/guangzhengli/hugo-theme-ladder v1.2.0 // indirect
 	github.com/gundamew/hugo-bingo v1.8.2 // indirect
@@ -331,7 +331,7 @@ require (
 	github.com/kritoke/darksimplicity v0.3.3 // indirect
 	github.com/lasseborly/anybodyhome v0.0.0-20180409213336-13667609bc57 // indirect
 	github.com/ldeso/hugo-flex v1.6.0 // indirect
-	github.com/leafee98/hugo-theme-flat v0.0.0-20260208151235-b75751afcad5 // indirect
+	github.com/leafee98/hugo-theme-flat v0.0.0-20260212183913-8d0cde8fac74 // indirect
 	github.com/leonardofaria/bento v1.0.0 // indirect
 	github.com/leonhe/hugo_eiio v0.0.0-20220625022627-bbcd7a744107 // indirect
 	github.com/leonstafford/accessible-minimalism-hugo-theme v0.0.0-20211112232051-057bd3b35c97 // indirect
@@ -351,7 +351,7 @@ require (
 	github.com/mansoorbarri/glim-midnight v0.0.0-20250614213629-efd74b72c425 // indirect
 	github.com/mansoorbarri/roadster v0.0.0-20260127154408-dd0397aace25 // indirect
 	github.com/maolonglong/hugo-simple v0.0.0-20260125161937-6c6084903ae1 // indirect
-	github.com/marcanuy/simpleit-hugo-theme v0.0.0-20260211193259-109c2264d290 // indirect
+	github.com/marcanuy/simpleit-hugo-theme v0.0.0-20260212212648-108138d713d5 // indirect
 	github.com/marcelorodrigo/hugo-fortyten v2.0.0+incompatible // indirect
 	github.com/marketempower/axiom v0.9.0 // indirect
 	github.com/math-queiroz/rusty-typewriter v0.0.0-20260113132318-55e3f297f176 // indirect
