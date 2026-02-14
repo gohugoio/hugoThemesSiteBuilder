@@ -232,7 +232,7 @@ require (
 	github.com/gizak/nofancy v0.0.0-20180325214227-ae4670287c71 // indirect
 	github.com/gonnux/hugo-apps-theme v2.0.0+incompatible // indirect
 	github.com/goodroot/hugo-classic v0.0.0-20250206231743-18a7c62ecc52 // indirect
-	github.com/goofansu/hugo-modus v1.0.1 // indirect
+	github.com/goofansu/hugo-modus v1.0.2 // indirect
 	github.com/google/docsy v0.14.2 // indirect
 	github.com/guangmean/Niello v5.0.0+incompatible // indirect
 	github.com/guangzhengli/hugo-theme-ladder v1.2.0 // indirect
@@ -412,7 +412,7 @@ require (
 	github.com/onweru/newsroom v0.0.0-20251104164459-9c9eaf21c26a // indirect
 	github.com/opera7133/Blonde v0.0.0-20251109091751-525194079d08 // indirect
 	github.com/opera7133/tella v0.0.0-20260210150830-88264a061d2a // indirect
-	github.com/opera7133/vnovel v0.0.0-20260211153749-d5cf1e9801ca // indirect
+	github.com/opera7133/vnovel v0.0.0-20260213124306-88f223e8096f // indirect
 	github.com/orf/bare-hugo-theme v0.0.0-20230401233253-f285059e1e56 // indirect
 	github.com/oxypteros/alpha v1.2.0 // indirect
 	github.com/pacollins/calligraphy v0.0.0-20240926020640-ae396029849e // indirect
