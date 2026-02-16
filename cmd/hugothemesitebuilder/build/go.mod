@@ -528,7 +528,7 @@ require (
 	github.com/wileybaba/hugo-theme-robotico v0.0.0-20190128025338-a1e633362eee // indirect
 	github.com/willfaught/paige v0.114.0 // indirect
 	github.com/wlh320/hugo-theme-hulga v1.1.0 // indirect
-	github.com/wonyoung-jang/hugo-PolyRhythmic v0.0.0-20251202234245-835f073da924 // indirect
+	github.com/wonyoung-jang/hugo-PolyRhythmic v0.0.0-20260215173819-234688e1e71e // indirect
 	github.com/writeonlycode/hugo-agency-web v0.0.0-20250709134630-9b263db5d8f2 // indirect
 	github.com/writeonlycode/hugo-up-business v0.0.0-20250709124836-33d421f28c8c // indirect
 	github.com/xaprb/story v0.0.0-20220322144912-046bf4f12e69 // indirect
@@ -556,7 +556,7 @@ require (
 	github.com/zerostaticthemes/hugo-serif-theme v1.1.1 // indirect
 	github.com/zerostaticthemes/hugo-whisper-theme v0.0.0-20231126060839-511dcd7dca62 // indirect
 	github.com/zerostaticthemes/hugo-winston-theme v1.4.0 // indirect
-	github.com/zetxek/adritian-free-hugo-theme v1.9.2 // indirect
+	github.com/zetxek/adritian-free-hugo-theme v1.9.3 // indirect
 	github.com/zhaohuabing/hugo-theme-cleanwhite v0.0.0-20260125115512-d481b8471dfd // indirect
 	github.com/zhe/hugo-theme-slim v0.0.0-20190920014445-f666effe196a // indirect
 	github.com/zjedi/hugo-scroll v0.0.0-20250604223730-54f7b8543f18 // indirect
