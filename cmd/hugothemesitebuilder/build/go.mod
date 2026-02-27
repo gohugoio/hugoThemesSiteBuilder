@@ -158,7 +158,7 @@ require (
 	github.com/coderzh/hugo-pacman-theme v0.0.0-20211218130934-daba606c4f13 // indirect
 	github.com/colinwilson/lotusdocs v0.2.0 // indirect
 	github.com/colorchestra/smol v0.0.0-20231124233107-9c5b894c0950 // indirect
-	github.com/coolapso/hugo-theme-hello-4s3ti v2.4.0+incompatible // indirect
+	github.com/coolapso/hugo-theme-hello-4s3ti v2.4.1+incompatible // indirect
 	github.com/coolapso/hugo-theme-terminalcv v3.6.0+incompatible // indirect
 	github.com/cowboysmall-tools/hugo-business-frontpage-theme v0.0.0-20200113082043-c5212be68d07 // indirect
 	github.com/cowboysmall-tools/hugo-devresume-theme v0.0.0-20200901132045-ccd34cdca3b8 // indirect
