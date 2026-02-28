@@ -51,7 +51,7 @@ require (
 	github.com/JingWangTW/dark-theme-editor v3.3.1+incompatible // indirect
 	github.com/KatamariJr/split-landing v1.0.1 // indirect
 	github.com/Lednerb/bilberry-hugo-theme/v4 v4.14.0 // indirect
-	github.com/Livour/hugo-mana-theme v2.0.0+incompatible // indirect
+	github.com/Livour/hugo-mana-theme v2.0.1+incompatible // indirect
 	github.com/LucasVadilho/heyo-hugo-theme v0.0.0-20250731233325-020b8995f5d4 // indirect
 	github.com/LuisSousaRego/Ardeidae v0.0.0-20240326170118-2b03aa6f994f // indirect
 	github.com/LukasJoswiak/etch v0.0.0-20221013042144-3286754ceb4e // indirect
@@ -345,7 +345,7 @@ require (
 	github.com/luizdepra/hugo-coder v0.0.0-20260223225257-b476d77738fd // indirect
 	github.com/lukeorth/poison v0.0.0-20240905132908-07485e85f024 // indirect
 	github.com/lxndrblz/anatole v1.18.0 // indirect
-	github.com/m03315/nomad-tech v0.0.0-20260113205932-74bb89f31f0c // indirect
+	github.com/m03315/nomad-tech v0.0.0-20260227204641-d130ea248aca // indirect
 	github.com/manid2/hugo-xterm v1.8.0 // indirect
 	github.com/mansoorbarri/coming-soon v0.0.0-20250614214524-a7f0a30d1349 // indirect
 	github.com/mansoorbarri/glim-midnight v0.0.0-20250614213629-efd74b72c425 // indirect
@@ -556,13 +556,13 @@ require (
 	github.com/zerostaticthemes/hugo-serif-theme v1.1.1 // indirect
 	github.com/zerostaticthemes/hugo-whisper-theme v0.0.0-20231126060839-511dcd7dca62 // indirect
 	github.com/zerostaticthemes/hugo-winston-theme v1.4.0 // indirect
-	github.com/zetxek/adritian-free-hugo-theme v1.9.3 // indirect
+	github.com/zetxek/adritian-free-hugo-theme v1.9.4 // indirect
 	github.com/zhaohuabing/hugo-theme-cleanwhite v0.0.0-20260219130302-f1266b575eb8 // indirect
 	github.com/zhe/hugo-theme-slim v0.0.0-20190920014445-f666effe196a // indirect
 	github.com/zjedi/hugo-scroll v0.0.0-20250604223730-54f7b8543f18 // indirect
 	github.com/zzossig/hugo-theme-zdoc v0.0.0-20201105143606-574f6c3d26d5 // indirect
 	github.com/zzossig/hugo-theme-zzo v0.0.0-20210523142617-01f9e43e59b0 // indirect
-	github.com/zzzmisa/hugo-theme-doors v0.0.0-20231124013016-44ae7c3ba68e // indirect
+	github.com/zzzmisa/hugo-theme-doors v0.0.0-20260227154711-13bcf4552b1f // indirect
 	gitlab.com/Kaligule/classless-blog v0.0.0-20241010152133-0f709529acb1 // indirect
 	gitlab.com/VincentTam/huginn v0.0.0-20190817135446-c6cfb0ab831c // indirect
 	gitlab.com/andy.sb/nojs v0.0.0-20250929152347-d4e6c94105e2 // indirect
