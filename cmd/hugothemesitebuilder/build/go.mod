@@ -121,11 +121,11 @@ require (
 	github.com/bake/solar-theme-hugo v0.0.0-20210403202535-97632b71c241 // indirect
 	github.com/balaramadurai/hugo-travelify-theme v0.0.0-20250602053820-8e0f9a5fa1b3 // indirect
 	github.com/barklan/hugo-dead-simple v1.76.6 // indirect
-	github.com/bep/docuapi/v2 v2.4.2 // indirect
-	github.com/bep/galleriesdeluxe v0.4.1 // indirect
-	github.com/bep/gallerydeluxe v0.12.1 // indirect
+	github.com/bep/docuapi/v2 v2.5.0 // indirect
+	github.com/bep/galleriesdeluxe v0.5.0 // indirect
+	github.com/bep/gallerydeluxe v0.13.0 // indirect
 	github.com/bin16/hugo-theme-island v0.6.0 // indirect
-	github.com/binbinsh/hugo-trainsh v0.0.0-20260225165726-316838888d9a // indirect
+	github.com/binbinsh/hugo-trainsh v0.0.0-20260301210031-9e501ba2b9cc // indirect
 	github.com/binokochumolvarghese/lightbi-hugo v0.0.0-20251005092605-fcf846634f3a // indirect
 	github.com/bjacquemet/personal-web v0.0.0-20230606080827-69cf270ceddf // indirect
 	github.com/blankoworld/hugo_theme_adam_eve v0.0.0-20250128142558-4870fa1cab3b // indirect
@@ -198,7 +198,7 @@ require (
 	github.com/docura/docura v0.0.0-20250517070912-398ed48950f6 // indirect
 	github.com/dplesca/purehugo v0.0.0-20190924072610-5b577adff2e1 // indirect
 	github.com/dsrkafuu/hugo-theme-fuji v2.8.2+incompatible // indirect
-	github.com/dumindu/E25DX v0.0.0-20260205070333-e8b06480768a // indirect
+	github.com/dumindu/E25DX v0.0.0-20260301103005-ca8dac4ad697 // indirect
 	github.com/edavidaja/docter v0.2.0 // indirect
 	github.com/eddiewebb/hugo-resume v0.0.0-20260219174333-40757d34666d // indirect
 	github.com/elecbrandy/freshpink v0.0.0-20260206022413-d7159cc23c93 // indirect
@@ -314,7 +314,7 @@ require (
 	github.com/kakawait/hugo-tranquilpeak-theme v0.0.0-20220821070134-3b5676afca7e // indirect
 	github.com/kaushalmodi/hugo-bare-min-theme v0.6.0 // indirect
 	github.com/kaushikgopal/henry-hugo v0.0.0-20260217033310-1b991695f1fa // indirect
-	github.com/kc0bfv/autophugo v0.0.0-20250302235832-9267211a842a // indirect
+	github.com/kc0bfv/autophugo v0.0.0-20260301222901-2cd02948f424 // indirect
 	github.com/kc0bfv/ticky_tacky_dark v0.0.0-20221111221805-f626fbd274d1 // indirect
 	github.com/kdevo/osprey-delight/v5 v5.0.8 // indirect
 	github.com/keichi/vienna v0.0.0-20200402035656-7205780bbffc // indirect
