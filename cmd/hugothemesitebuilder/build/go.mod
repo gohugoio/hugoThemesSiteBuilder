@@ -259,7 +259,7 @@ require (
 	github.com/httpsecure/hugo-theme-red-rose v0.0.0-20230414195647-18de6143a070 // indirect
 	github.com/httpsecure/kembang v0.0.0-20230414195452-e525d79067da // indirect
 	github.com/hugcis/hugo-astatine-theme v1.1.1 // indirect
-	github.com/hugo-fixit/FixIt v0.4.2 // indirect
+	github.com/hugo-fixit/FixIt v0.4.3 // indirect
 	github.com/hugo-next/hugo-theme-next v0.0.0-20251225155322-2c5a754f1ca8 // indirect
 	github.com/hugo-porto/theme v0.3.3 // indirect
 	github.com/hugo-sid/hugo-blog-awesome v1.21.0 // indirect
@@ -385,7 +385,7 @@ require (
 	github.com/mozanunal/hugo-classless v0.2.0 // indirect
 	github.com/mrhelloboy/seven v1.7.6 // indirect
 	github.com/mrmierzejewski/hugo-theme-console v0.0.0-20251111144840-d2766495595c // indirect
-	github.com/nanxiaobei/hugo-paper v0.0.0-20260125132454-ea99e0f67ff6 // indirect
+	github.com/nanxiaobei/hugo-paper v0.0.0-20260303100317-7c6a6c573220 // indirect
 	github.com/nanxstats/hugo-tanka v0.0.0-20210707221939-9bec4eba33e5 // indirect
 	github.com/naro143/hugo-coder-portfolio v0.0.0-20200903083500-255d92337c07 // indirect
 	github.com/natarajmb/charaka-hugo-theme v0.0.0-20250520130513-694a1a421fa8 // indirect
