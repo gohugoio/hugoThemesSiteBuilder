@@ -167,7 +167,7 @@ func (c *Config) Exec(ctx context.Context, args []string) error {
 		return err
 	}
 
-	bc.initGhRepos(c.cleanCache)
+	bc.initRepos(c.cleanCache)
 
 	if c.skipSiteBuild {
 		return nil
@@ -207,9 +207,9 @@ type buildClient struct {
 	contentDir string
 	staticDir  string
 
-	// Loaded from GitHub
-	ghReposInit sync.Once
-	ghRepos     map[string]client.GitHubRepo
+	// Loaded from git provider
+	reposInit sync.Once
+	repos     map[string]client.Repo
 	maxStars    int
 }
 
@@ -227,24 +227,24 @@ func (c *buildClient) err(err error) {
 	c.buildErrs = append(c.buildErrs, err)
 }
 
-func (c *buildClient) initGhRepos(cleanCache bool) {
-	c.ghReposInit.Do(func() {
-		ghRepos, err := c.GetGitHubRepos(c.mmap, cleanCache)
+func (c *buildClient) initRepos(cleanCache bool) {
+	c.reposInit.Do(func() {
+		repos, err := c.GetRepos(c.mmap, cleanCache)
 		client.CheckErr(err)
 		maxStars := 0
-		for _, ghRepo := range ghRepos {
-			if ghRepo.Stars > maxStars {
-				maxStars = ghRepo.Stars
+		for _, repo := range repos {
+			if repo.Stars > maxStars {
+				maxStars = repo.Stars
 			}
 		}
 		c.maxStars = maxStars
-		c.ghRepos = ghRepos
+		c.repos = repos
 	})
 }
 
-func (c *buildClient) getGitHubRepo(path string) client.GitHubRepo {
-	c.initGhRepos(false)
-	return c.ghRepos[path]
+func (c *buildClient) getRepo(path string) client.Repo {
+	c.initRepos(false)
+	return c.repos[path]
 }
 
 func (c *buildClient) writeThemesContent() error {
@@ -362,7 +362,7 @@ func (c *buildClient) writeThemeContent(k string, m client.Module) error {
 		m:             m,
 		name:          themeName,
 		readMeContent: getReadMeContent(),
-		ghRepo:        c.getGitHubRepo(m.Path),
+		repo:        c.getRepo(m.Path),
 	}
 
 	thm.calculateWeight(c.maxStars)
@@ -431,8 +431,8 @@ type theme struct {
 	m    client.Module
 	name string
 
-	// Set when hosted on GitHub.
-	ghRepo client.GitHubRepo
+	// Set when hosted on a git provider.
+	repo client.Repo
 
 	readMeContent string
 
@@ -463,7 +463,7 @@ var (
 func (t *theme) calculateWeight(maxStars int) {
 	const maxMaxStars = 3000
 	t.weight = min(maxStars, maxMaxStars) + 500
-	t.weight -= min(t.ghRepo.Stars, maxMaxStars)
+	t.weight -= min(t.repo.Stars, maxMaxStars)
 
 	boostRecent := func(age, threshold time.Duration, boost int) {
 		if age < threshold {
@@ -477,14 +477,14 @@ func (t *theme) calculateWeight(maxStars int) {
 		boostRecent(time.Since(t.m.Time), (1 * d30), 40)
 	}
 
-	if !t.ghRepo.IsZero() {
+	if !t.repo.IsZero() {
 		// Boost themes created recently.
-		boostRecent(time.Since(t.ghRepo.CreatedAt), (1 * d30), 100)
-		boostRecent(time.Since(t.ghRepo.CreatedAt), (1 * d1y), 50)
+		boostRecent(time.Since(t.repo.CreatedAt), (1 * d30), 100)
+		boostRecent(time.Since(t.repo.CreatedAt), (1 * d1y), 50)
 		// Pull themes created within the last week the top.
 		// Note that we currently only have that information for themes
 		// hosted on GitHub.
-		boostRecent(time.Since(t.ghRepo.CreatedAt), (1 * d7), 50000)
+		boostRecent(time.Since(t.repo.CreatedAt), (1 * d7), 50000)
 	}
 
 	// Boost themes with a Hugo version indicator set that covers.
@@ -516,9 +516,9 @@ func (t *theme) toFrontMatter() map[string]interface{} {
 
 	var htmlURL string
 	var starCount int
-	if !t.ghRepo.IsZero() {
-		htmlURL = t.ghRepo.HTMLURL
-		starCount = t.ghRepo.Stars
+	if !t.repo.IsZero() {
+		htmlURL = t.repo.HTMLURL
+		starCount = t.repo.Stars
 	} else {
 		// Gitlab etc., assume the path is the base of the URL.
 		htmlURL = fmt.Sprintf("https://%s", t.m.PathRepo())
@@ -552,7 +552,7 @@ func (t *theme) toFrontMatter() map[string]interface{} {
 		"modulePath":    t.m.Path,
 		"htmlURL":       htmlURL,
 		"meta":          t.m.Meta,
-		"githubInfo":    t.ghRepo,
+		"repoInfo":    t.repo,
 		"themeWarnings": t.themeWarnings,
 		"tags":          tags,
 	}

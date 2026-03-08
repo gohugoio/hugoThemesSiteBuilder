@@ -255,9 +255,9 @@ const gitHubReposCacheFilename = "githubrepos.json"
 // it in the cache.
 //
 // If you start with an empty cache, you will need to set a GITHUB_TOKEN environment variable.
-func (c *Client) GetGitHubRepos(mods ModulesMap, cleanCache bool) (map[string]GitHubRepo, error) {
-	c.Logf("Get GitHub repos")
-	defer c.TimeTrack(time.Now(), "Got GitHub repos")
+func (c *Client) GetRepos(mods ModulesMap, cleanCache bool) (map[string]Repo, error) {
+	c.Logf("Get repos")
+	defer c.TimeTrack(time.Now(), "Got repos")
 	cacheFilename := filepath.Join(c.outDir, cacheDir, gitHubReposCacheFilename)
 	if cleanCache {
 		os.Remove(cacheFilename)
@@ -268,8 +268,8 @@ func (c *Client) GetGitHubRepos(mods ModulesMap, cleanCache bool) (map[string]Gi
 			return nil, err
 		}
 
-		// Fetch the github repos and store in cache.
-		m, err := c.fetchGitHubRepos(mods)
+		// Fetch the git repos and store in cache.
+		m, err := c.fetchRepos(mods)
 		if err != nil {
 			return nil, err
 		}
@@ -286,7 +286,7 @@ func (c *Client) GetGitHubRepos(mods ModulesMap, cleanCache bool) (map[string]Gi
 		return m, nil
 	}
 
-	m := make(map[string]GitHubRepo)
+	m := make(map[string]Repo)
 
 	if err = json.Unmarshal(b, &m); err != nil {
 		return nil, err
@@ -295,34 +295,96 @@ func (c *Client) GetGitHubRepos(mods ModulesMap, cleanCache bool) (map[string]Gi
 	return m, nil
 }
 
-func (c *Client) fetchGitHubRepo(m Module) (GitHubRepo, error) {
-	var repo GitHubRepo
+func (c *Client) fetchRepo(m Module) (Repo, error) {
+	var repo Repo
 
-	const githubdotcom = "github.com"
+	const (
+		githubdotcom   = "github.com"
+		gitlabdotcom   = "gitlab.com"
+		codebergdotorg = "codeberg.org"
+	)
 
-	if !strings.HasPrefix(m.Path, githubdotcom) {
-		return repo, nil
+	repo.Provider = "other"
+
+	if strings.HasPrefix(m.Path, githubdotcom) {
+		repo.Provider = "github"
+		repoPath := strings.TrimPrefix(m.PathRepo(), githubdotcom)
+		apiURL := "https://api.github.com/repos" + repoPath
+
+		req, err := http.NewRequest("GET", apiURL, nil)
+		if err != nil {
+			return repo, err
+		}
+
+		var ghRepo GitHubRepo
+		err = doGitHubRequest(req, &ghRepo)
+		if err != nil {
+			return repo, fmt.Errorf("failed to get GitHub repo for %q: %s. Set GITHUB_TOKEN if you get rate limiting errors.", apiURL, err)
+		}
+		repo.Stars = ghRepo.Stars
+		repo.Description = ghRepo.Description
+		repo.HTMLURL = ghRepo.HTMLURL
+		repo.Name = ghRepo.Name
+		repo.UpdatedAt = ghRepo.UpdatedAt
+		repo.CreatedAt = ghRepo.CreatedAt
+		repo.ID = ghRepo.ID
+
+	} else if strings.HasPrefix(m.Path, gitlabdotcom) {
+		repo.Provider = "gitlab"
+		repoPath := url.PathEscape(strings.TrimPrefix(m.PathRepo(), gitlabdotcom))
+		apiURL := "https://gitlab.com/api/v4/projects/" + repoPath
+
+		req, err := http.NewRequest("GET", apiURL, nil)
+		if err != nil {
+			return repo, err
+		}
+
+		var glRepo GitLabRepo
+		err = doGitLabRequest(req, &glRepo)
+		if err != nil {
+			return repo, fmt.Errorf("failed to get GitLab repo for %q: %s", apiURL, err)
+		}
+
+		repo.Stars = glRepo.Stars
+		repo.Description = glRepo.Description
+		repo.HTMLURL = glRepo.HTMLURL
+		repo.Name = glRepo.Name
+		repo.UpdatedAt = glRepo.UpdatedAt
+		repo.CreatedAt = glRepo.CreatedAt
+		repo.ID = glRepo.ID
+	} else if strings.HasPrefix(m.Path, codebergdotorg) {
+		repo.Provider = "codeberg"
+		repoPath := strings.TrimPrefix(m.PathRepo(), codebergdotorg)
+		apiURL := "https://codeberg.org/api/v1/repos" + repoPath
+
+		req, err := http.NewRequest("GET", apiURL, nil)
+		if err != nil {
+			return repo, err
+		}
+
+		var cbRepo CodebergRepo
+		err = doCodebergRequest(req, &cbRepo)
+		if err != nil {
+			return repo, fmt.Errorf("failed to get Codeberg repo for %q: %s", apiURL, err)
+		}
+
+		repo.Stars = cbRepo.Stars
+		repo.Description = cbRepo.Description
+		repo.HTMLURL = cbRepo.HTMLURL
+		repo.Name = cbRepo.Name
+		repo.UpdatedAt = cbRepo.UpdatedAt
+		repo.CreatedAt = cbRepo.CreatedAt
+		repo.ID = cbRepo.ID
 	}
-	repoPath := strings.TrimPrefix(m.PathRepo(), githubdotcom)
-	apiURL := "https://api.github.com/repos" + repoPath
 
-	req, err := http.NewRequest("GET", apiURL, nil)
-	if err != nil {
-		return repo, err
-	}
-
-	err = doGitHubRequest(req, &repo)
-	if err != nil {
-		return repo, fmt.Errorf("failed to get GitHub repo for %q: %s. Set GITHUB_TOKEN if you get rate limiting errors.", apiURL, err)
-	}
 	return repo, nil
 }
 
-func (c *Client) fetchGitHubRepos(mods ModulesMap) (map[string]GitHubRepo, error) {
-	repos := make(map[string]GitHubRepo)
+func (c *Client) fetchRepos(mods ModulesMap) (map[string]Repo, error) {
+	repos := make(map[string]Repo)
 	errCount := 0
 	for _, m := range mods {
-		repo, err := c.fetchGitHubRepo(m)
+		repo, err := c.fetchRepo(m)
 		if err != nil {
 			if errCount > 5 {
 				return repos, err
@@ -361,6 +423,17 @@ func (c *Client) runHugo(w io.Writer, arg ...string) error {
 	return nil
 }
 
+type Repo struct {
+	ID          int       `json:"id"`
+	CreatedAt   time.Time `json:"created_at"`
+	UpdatedAt   time.Time `json:"updated_at"`
+	Name        string    `json:"name"`
+	Description string    `json:"description"`
+	HTMLURL     string    `json:"html_url"`
+	Stars       int       `json:"stargazers_count"`
+	Provider    string    `json:"provider"`
+}
+
 type GitHubRepo struct {
 	ID          int       `json:"id"`
 	CreatedAt   time.Time `json:"created_at"`
@@ -371,7 +444,27 @@ type GitHubRepo struct {
 	Stars       int       `json:"stargazers_count"`
 }
 
-func (g GitHubRepo) IsZero() bool {
+type GitLabRepo struct {
+	ID          int       `json:"id"`
+	CreatedAt   time.Time `json:"created_at"`
+	UpdatedAt   time.Time `json:"last_activity_at"`
+	Name        string    `json:"name"`
+	Description string    `json:"description"`
+	HTMLURL     string    `json:"web_url"`
+	Stars       int       `json:"star_count"`
+}
+
+type CodebergRepo struct {
+	ID          int       `json:"id"`
+	CreatedAt   time.Time `json:"created_at"`
+	UpdatedAt   time.Time `json:"updated_at"`
+	Name        string    `json:"name"`
+	Description string    `json:"description"`
+	HTMLURL     string    `json:"html_url"`
+	Stars       int       `json:"stars_count"`
+}
+
+func (g Repo) IsZero() bool {
 	return g.HTMLURL == ""
 }
 
@@ -391,8 +484,13 @@ func (m Module) PathWithoutVersion() string {
 
 // PathRepo returns the root path to the repository.
 func (m Module) PathRepo() string {
-	slashCount := 0
 	p := m.PathWithoutVersion()
+
+	if strings.HasPrefix(p, "gitlab.com") {
+		return p
+	}
+
+	slashCount := 0
 	idx := strings.IndexFunc(p, func(r rune) bool {
 		if r == '/' {
 			slashCount++
@@ -468,6 +566,36 @@ func doGitHubRequest(req *http.Request, v interface{}) error {
 	if isError(resp) {
 		b, _ := ioutil.ReadAll(resp.Body)
 		return fmt.Errorf("GitHub lookup failed: %s", string(b))
+	}
+
+	return json.NewDecoder(resp.Body).Decode(v)
+}
+
+func doGitLabRequest(req *http.Request, v interface{}) error {
+	resp, err := http.DefaultClient.Do(req)
+	if err != nil {
+		return err
+	}
+	defer resp.Body.Close()
+
+	if isError(resp) {
+		b, _ := ioutil.ReadAll(resp.Body)
+		return fmt.Errorf("GitLab lookup failed: %s", string(b))
+	}
+
+	return json.NewDecoder(resp.Body).Decode(v)
+}
+
+func doCodebergRequest(req *http.Request, v interface{}) error {
+	resp, err := http.DefaultClient.Do(req)
+	if err != nil {
+		return err
+	}
+	defer resp.Body.Close()
+
+	if isError(resp) {
+		b, _ := ioutil.ReadAll(resp.Body)
+		return fmt.Errorf("Codeberg lookup failed: %s", string(b))
 	}
 
 	return json.NewDecoder(resp.Body).Decode(v)
