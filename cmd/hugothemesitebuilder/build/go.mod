@@ -26,7 +26,7 @@ require (
 	github.com/Binary-Eater/hugo-theme-ghci v0.0.0-20220130042807-df347b1d8a3e // indirect
 	github.com/Blackstareye/stargazer-layout v1.1.2 // indirect
 	github.com/CaiJimmy/hugo-theme-stack/v3 v3.34.2 // indirect
-	github.com/CyrusYip/hugo-theme-yue v0.0.0-20250513132439-93a438fbca0f // indirect
+	github.com/CyrusYip/hugo-theme-yue v0.0.0-20260309004255-f36ed9e12273 // indirect
 	github.com/D-Sketon/hugo-theme-reimu v0.15.2 // indirect
 	github.com/Daucloud/hugo-theme-void v0.0.0-20260113110209-fdc53f1edb39 // indirect
 	github.com/Dim0000/simple-frame v1.0.2 // indirect
@@ -89,7 +89,7 @@ require (
 	github.com/Yukuro/hugo-theme-shell v0.1.5 // indirect
 	github.com/aanupam23/hugo-sugoi v0.6.0 // indirect
 	github.com/achary/engimo v2.10.1+incompatible // indirect
-	github.com/adityatelange/hugo-PaperMod v0.0.0-20260125152547-3bb0ca281fd1 // indirect
+	github.com/adityatelange/hugo-PaperMod v0.0.0-20260308172054-10d3dcc0e05c // indirect
 	github.com/adityatelange/hugo-index v0.0.0-20230607165812-4234dddf8c52 // indirect
 	github.com/aerohub/hugo-faq-theme v0.0.0-20161016225807-e6ed082c15bc // indirect
 	github.com/aerohub/hugo-identity-theme v0.0.0-20171209130528-ca4e10de2297 // indirect
@@ -265,7 +265,7 @@ require (
 	github.com/hugo-sid/hugo-blog-awesome v1.21.0 // indirect
 	github.com/hugo-theme-anubis2/hugo-theme-anubis2 v1.5.0 // indirect
 	github.com/hugo-toha/toha/v4 v4.13.0 // indirect
-	github.com/hugolify/hugolify-theme v1.27.6 // indirect
+	github.com/hugolify/hugolify-theme v1.27.7 // indirect
 	github.com/humrochagf/colordrop v1.13.0 // indirect
 	github.com/huyb1991/hugo-lamp v1.2.1 // indirect
 	github.com/iCyris/hugo-theme-yuki v1.1.0 // indirect
