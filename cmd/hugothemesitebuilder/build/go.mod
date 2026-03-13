@@ -301,7 +301,7 @@ require (
 	github.com/josephhutch/aether v0.0.0-20230106155952-cfba21de2f57 // indirect
 	github.com/joshed-io/reveal-hugo v0.0.0-20241030080325-e191f51d09be // indirect
 	github.com/jota-ele-ene/just-me v0.0.0-20221125102733-2ce1d38b8ea3 // indirect
-	github.com/joway/hugo-theme-yinyang v0.0.0-20260305053105-54e281d42275 // indirect
+	github.com/joway/hugo-theme-yinyang v0.0.0-20260312072213-a55648a9cddc // indirect
 	github.com/jpanther/congo/v2 v2.13.0 // indirect
 	github.com/jpanther/lynx v1.4.0 // indirect
 	github.com/jpescador/hugo-future-imperfect v0.0.0-20180227143914-020882f6ec36 // indirect
@@ -407,10 +407,10 @@ require (
 	github.com/okkur/syna v0.17.4 // indirect
 	github.com/olOwOlo/hugo-theme-even v4.1.0+incompatible // indirect
 	github.com/ololiuhqui/magnolia-free-hugo-theme v2.1.0+incompatible // indirect
-	github.com/onweru/compose v0.0.0-20260311151138-f33916a04765 // indirect
+	github.com/onweru/compose v0.0.0-20260312173109-66c6a4fede91 // indirect
 	github.com/onweru/hugo-swift-theme v2.0.0+incompatible // indirect
-	github.com/onweru/newsroom v0.0.0-20251104164459-9c9eaf21c26a // indirect
-	github.com/opera7133/Blonde v0.0.0-20251109091751-525194079d08 // indirect
+	github.com/onweru/newsroom v0.0.0-20260312180854-22bccb8c2b75 // indirect
+	github.com/opera7133/Blonde v0.0.0-20260312144915-c519aeb2f395 // indirect
 	github.com/opera7133/tella v0.0.0-20260210150830-88264a061d2a // indirect
 	github.com/opera7133/vnovel v0.0.0-20260219064747-5c26af554a67 // indirect
 	github.com/orf/bare-hugo-theme v0.0.0-20230401233253-f285059e1e56 // indirect
@@ -499,7 +499,7 @@ require (
 	github.com/theNewDynamic/gohugo-theme-ananke/v2 v2.12.1 // indirect
 	github.com/thegeeklab/hugo-geekblog v3.1.0+incompatible // indirect
 	github.com/thegeeklab/hugo-geekdoc v2.0.0+incompatible // indirect
-	github.com/thingsym/hugo-theme-techdoc v1.0.2 // indirect
+	github.com/thingsym/hugo-theme-techdoc v1.1.0 // indirect
 	github.com/tnwhitwell/hugo-startpage-theme v0.0.0-20180704204829-76b1a1f5808e // indirect
 	github.com/tohn/linkshrubbery v0.0.0-20230623094327-4b529ca6cb8b // indirect
 	github.com/tom2almighty/hugo-narrow v1.3.4 // indirect
