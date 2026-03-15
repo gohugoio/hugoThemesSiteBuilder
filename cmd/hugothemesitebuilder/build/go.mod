@@ -216,7 +216,7 @@ require (
 	github.com/forestryio/hugo-theme-novela v0.0.0-20210222084032-5d015eef4c56 // indirect
 	github.com/fourtyone11/origin-hugo-theme v0.0.0-20200611125917-021c45772a9a // indirect
 	github.com/foxihd/hugo-brewm v2.9.0+incompatible // indirect
-	github.com/francoiducat/hugo-air v0.0.20 // indirect
+	github.com/francoiducat/hugo-air v0.0.22 // indirect
 	github.com/frjo/hugo-theme-zen/v5 v5.9.0 // indirect
 	github.com/funkydan2/alpha-church v0.0.0-20250715231706-e6879887afa8 // indirect
 	github.com/funkydan2/hugo-kiera v1.1.3 // indirect
@@ -543,7 +543,7 @@ require (
 	github.com/yihui/hugo-xmag v0.0.0-20251216181234-2a0010def0e6 // indirect
 	github.com/yihui/hugo-xmin v0.0.0-20250821032850-c871e5665f5e // indirect
 	github.com/yiming-m/scholar-lite v0.0.0-20250821231454-74520b6a4725 // indirect
-	github.com/yogirk/explore v0.0.0-20260203070611-985153c1b861 // indirect
+	github.com/yogirk/explore v0.0.0-20260314184747-fba29e1b9bc6 // indirect
 	github.com/yoshiharuyamashita/blackburn v0.0.0-20220530060627-99cf136a06f3 // indirect
 	github.com/your-identity/hugo-theme-dimension v0.0.0-20210521214308-2474081b7846 // indirect
 	github.com/yue1124/hero v0.0.0-20211205133758-af2b1f878227 // indirect
