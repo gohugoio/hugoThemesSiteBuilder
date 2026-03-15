@@ -16,6 +16,8 @@ func TestModule(t *testing.T) {
 		c.Assert(Module{Path: "github.com/a"}.PathRepo(), qt.Equals, "github.com/a")
 		c.Assert(Module{Path: "github.com"}.PathRepo(), qt.Equals, "github.com")
 		c.Assert(Module{Path: "github.com/a/v2"}.PathRepo(), qt.Equals, "github.com/a")
+		c.Assert(Module{Path: "gitlab.com/a/b/c/d/e"}.PathRepo(), qt.Equals, "gitlab.com/a/b/c/d/e")
+		c.Assert(Module{Path: "codeberg.org/a/b/c"}.PathRepo(), qt.Equals, "codeberg.org/a/b")
 	})
 }
 
