@@ -125,7 +125,7 @@ require (
 	github.com/bep/galleriesdeluxe v0.5.0 // indirect
 	github.com/bep/gallerydeluxe v0.13.0 // indirect
 	github.com/bin16/hugo-theme-island v0.6.0 // indirect
-	github.com/binbinsh/hugo-trainsh v0.0.0-20260315023924-67b5faa2ce33 // indirect
+	github.com/binbinsh/hugo-trainsh v0.0.0-20260317004524-c5cd778dd0ba // indirect
 	github.com/binokochumolvarghese/lightbi-hugo v0.0.0-20260306131552-018494037494 // indirect
 	github.com/bjacquemet/personal-web v0.0.0-20230606080827-69cf270ceddf // indirect
 	github.com/blankoworld/hugo_theme_adam_eve v0.0.0-20250128142558-4870fa1cab3b // indirect
@@ -264,7 +264,7 @@ require (
 	github.com/hugo-porto/theme v0.3.3 // indirect
 	github.com/hugo-sid/hugo-blog-awesome v1.21.0 // indirect
 	github.com/hugo-theme-anubis2/hugo-theme-anubis2 v1.5.0 // indirect
-	github.com/hugo-toha/toha/v4 v4.13.0 // indirect
+	github.com/hugo-toha/toha/v4 v4.14.0 // indirect
 	github.com/hugolify/hugolify-theme v1.27.9 // indirect
 	github.com/humrochagf/colordrop v1.13.0 // indirect
 	github.com/huyb1991/hugo-lamp v1.2.1 // indirect
@@ -349,7 +349,7 @@ require (
 	github.com/manid2/hugo-xterm v1.8.0 // indirect
 	github.com/mansoorbarri/coming-soon v0.0.0-20250614214524-a7f0a30d1349 // indirect
 	github.com/mansoorbarri/glim-midnight v0.0.0-20250614213629-efd74b72c425 // indirect
-	github.com/mansoorbarri/roadster v0.0.0-20260222224158-cf4c7a709d5a // indirect
+	github.com/mansoorbarri/roadster v0.0.0-20260317205514-970dec8aa788 // indirect
 	github.com/maolonglong/hugo-simple v0.0.0-20260306042555-91c8359be87e // indirect
 	github.com/marcanuy/simpleit-hugo-theme v0.0.0-20260212212648-108138d713d5 // indirect
 	github.com/marcelorodrigo/hugo-fortyten v2.0.0+incompatible // indirect
@@ -364,7 +364,7 @@ require (
 	github.com/mcrwfrd/hugo-frances-theme v0.0.0-20190917015302-bed6647b837f // indirect
 	github.com/mdashx/basicwebtheme v0.3.0 // indirect
 	github.com/mdfriday/theme-long-teng v0.0.0-20241127060205-1fabfc515857 // indirect
-	github.com/medialesson/hugo-theme-event v0.0.0-20260223112120-b87e9dd93730 // indirect
+	github.com/medialesson/hugo-theme-event v0.0.0-20260317140634-43f2b7461e1f // indirect
 	github.com/meibenny/elephants v0.1.4 // indirect
 	github.com/meimakes/loficode-hugo-theme v0.0.0-20260221163443-f5900470c91c // indirect
 	github.com/meimakes/vintage-web-hugo-theme v0.0.0-20260221163444-9f10cd0cdae2 // indirect
