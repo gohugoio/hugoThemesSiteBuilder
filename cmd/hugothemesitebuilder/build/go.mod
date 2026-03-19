@@ -1,6 +1,6 @@
 module github.com/gohugoio/hugoThemesSiteBuilder/cmd/hugothemesitebuilder/build
 
-go 1.26
+go 1.25.8
 
 require (
 	codeberg.org/VaDeCodiNet/hugo-landing-accordion v0.0.0-20260121164338-f5f694dc844a // indirect
@@ -224,6 +224,7 @@ require (
 	github.com/garvincasimir/hugo-h5bp-simple v0.0.0-20190817231606-e834d00b96bb // indirect
 	github.com/gcaracuel/hugo-theme-gutenberg v0.0.0-20210225105328-abd624652c48 // indirect
 	github.com/gentleadam/hugo-menu v0.0.0-20250110132225-bba55df574d5 // indirect
+	github.com/geschke/hugo-felmdrav v0.0.0-20260120191919-8b450610c0e1 // indirect
 	github.com/geschke/hugo-tikva v0.4.0 // indirect
 	github.com/gesquive/slate v1.1.1 // indirect
 	github.com/gethinode/hinode v1.23.7 // indirect
@@ -259,13 +260,13 @@ require (
 	github.com/httpsecure/hugo-theme-red-rose v0.0.0-20230414195647-18de6143a070 // indirect
 	github.com/httpsecure/kembang v0.0.0-20230414195452-e525d79067da // indirect
 	github.com/hugcis/hugo-astatine-theme v1.1.1 // indirect
-	github.com/hugo-fixit/FixIt v0.4.3 // indirect
+	github.com/hugo-fixit/FixIt v0.4.4 // indirect
 	github.com/hugo-next/hugo-theme-next v0.0.0-20251225155322-2c5a754f1ca8 // indirect
 	github.com/hugo-porto/theme v0.3.3 // indirect
 	github.com/hugo-sid/hugo-blog-awesome v1.21.0 // indirect
 	github.com/hugo-theme-anubis2/hugo-theme-anubis2 v1.5.0 // indirect
 	github.com/hugo-toha/toha/v4 v4.14.0 // indirect
-	github.com/hugolify/hugolify-theme v1.27.9 // indirect
+	github.com/hugolify/hugolify-theme v1.27.13 // indirect
 	github.com/humrochagf/colordrop v1.13.0 // indirect
 	github.com/huyb1991/hugo-lamp v1.2.1 // indirect
 	github.com/iCyris/hugo-theme-yuki v1.1.0 // indirect
@@ -284,7 +285,7 @@ require (
 	github.com/jaden/twentyfourteen v0.0.0-20191130221218-9380d3fa1855 // indirect
 	github.com/jakewies/hugo-theme-codex v1.6.0 // indirect
 	github.com/janraasch/hugo-bearblog v0.0.0-20251218125707-d44ea2fd106f // indirect
-	github.com/janraasch/hugo-product-launch v0.0.0-20260304171235-e73e3f43285e // indirect
+	github.com/janraasch/hugo-product-launch v0.0.0-20260318171304-7f74333ba9ff // indirect
 	github.com/jbub/ghostwriter v0.7.0 // indirect
 	github.com/jeblister/bulma v0.0.0-20220331084658-8d25840df6ac // indirect
 	github.com/jeremybise/twentynineteen-hugo v0.0.0-20191008161335-7c0a63e24114 // indirect
@@ -294,7 +295,6 @@ require (
 	github.com/jingplay/build-your-website v0.0.0-20241031094007-97f08d7e3aa3 // indirect
 	github.com/jkkNl/somestyleplease v0.0.0-20251207092419-5e64df0d5843 // indirect
 	github.com/jmablog/hugo-clinic-notes v0.0.0-20210111134623-7f5a64696c35 // indirect
-	github.com/jmau111/hugo-theme-ava v0.0.0-20230116180948-0b624aa47065 // indirect
 	github.com/jnjosh/internet-weblog v0.0.0-20241108191658-558b8b4ae01f // indirect
 	github.com/joeroe/risotto v0.5.0 // indirect
 	github.com/jonathanjanssens/hugo-casper3 v1.0.1 // indirect
@@ -313,7 +313,7 @@ require (
 	github.com/kaiiiz/hugo-theme-monochrome v5.2.3+incompatible // indirect
 	github.com/kakawait/hugo-tranquilpeak-theme v0.0.0-20220821070134-3b5676afca7e // indirect
 	github.com/kaushalmodi/hugo-bare-min-theme v0.6.0 // indirect
-	github.com/kaushikgopal/henry-hugo v0.0.0-20260310065841-007fd12d1ddf // indirect
+	github.com/kaushikgopal/henry-hugo v0.0.0-20260319002852-5192ca400758 // indirect
 	github.com/kc0bfv/autophugo v0.0.0-20260301222901-2cd02948f424 // indirect
 	github.com/kc0bfv/ticky_tacky_dark v0.0.0-20221111221805-f626fbd274d1 // indirect
 	github.com/kdevo/osprey-delight/v5 v5.0.8 // indirect
@@ -502,7 +502,7 @@ require (
 	github.com/thingsym/hugo-theme-techdoc v1.1.0 // indirect
 	github.com/tnwhitwell/hugo-startpage-theme v0.0.0-20180704204829-76b1a1f5808e // indirect
 	github.com/tohn/linkshrubbery v0.0.0-20230623094327-4b529ca6cb8b // indirect
-	github.com/tom2almighty/hugo-narrow v1.3.4 // indirect
+	github.com/tom2almighty/hugo-narrow v1.3.5 // indirect
 	github.com/tomowang/hugo-theme-tailwind v0.0.0-20250922155408-121f95a2509e // indirect
 	github.com/tosi29/inkblotty v0.0.0-20251116054545-671e92ea28f2 // indirect
 	github.com/tummychow/lanyon-hugo v0.0.0-20210123043723-cd7b91420a90 // indirect
