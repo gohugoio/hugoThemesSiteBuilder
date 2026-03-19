@@ -1034,6 +1034,12 @@
         "ignoreConfig": true,
         "ignoreImports": true,
         "noMounts": true,
+        "path": "github.com/geschke/hugo-felmdrav"
+      },
+      {
+        "ignoreConfig": true,
+        "ignoreImports": true,
+        "noMounts": true,
         "path": "github.com/geschke/hugo-tikva"
       },
       {
@@ -1509,12 +1515,6 @@
         "ignoreImports": true,
         "noMounts": true,
         "path": "github.com/jmablog/hugo-clinic-notes"
-      },
-      {
-        "ignoreConfig": true,
-        "ignoreImports": true,
-        "noMounts": true,
-        "path": "github.com/jmau111/hugo-theme-ava"
       },
       {
         "ignoreConfig": true,
