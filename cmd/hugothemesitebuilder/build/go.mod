@@ -276,6 +276,7 @@ require (
 	github.com/imgios/not-much v0.0.0-20250923215532-1f196890d526 // indirect
 	github.com/ineesalmeida/almeida-cv v0.0.0-20260223164056-7bf822813146 // indirect
 	github.com/invinciblycool/lekh v0.0.0-20230506043404-4e65dc197414 // indirect
+	github.com/iron6909/clarity v0.0.0-20260219112744-305d139ef77f // indirect
 	github.com/isaksolheim/cyberscape v0.0.0-20231215205550-7bb6eda37240 // indirect
 	github.com/ismd/hugo-theme-vng-blue v0.0.0-20260311174847-1d4c81b96b6d // indirect
 	github.com/it-gro/hugo-theme-w3css-basic v0.0.0-20241005152123-36cef9545dbf // indirect
@@ -301,7 +302,7 @@ require (
 	github.com/josephhutch/aether v0.0.0-20230106155952-cfba21de2f57 // indirect
 	github.com/joshed-io/reveal-hugo v0.0.0-20241030080325-e191f51d09be // indirect
 	github.com/jota-ele-ene/just-me v0.0.0-20221125102733-2ce1d38b8ea3 // indirect
-	github.com/joway/hugo-theme-yinyang v0.0.0-20260312072213-a55648a9cddc // indirect
+	github.com/joway/hugo-theme-yinyang v0.0.0-20260320000150-cdb05052faf9 // indirect
 	github.com/jpanther/congo/v2 v2.13.0 // indirect
 	github.com/jpanther/lynx v1.4.0 // indirect
 	github.com/jpescador/hugo-future-imperfect v0.0.0-20180227143914-020882f6ec36 // indirect
