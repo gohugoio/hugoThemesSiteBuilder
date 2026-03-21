@@ -1034,6 +1034,12 @@
         "ignoreConfig": true,
         "ignoreImports": true,
         "noMounts": true,
+        "path": "github.com/geschke/hugo-felmdrav"
+      },
+      {
+        "ignoreConfig": true,
+        "ignoreImports": true,
+        "noMounts": true,
         "path": "github.com/geschke/hugo-tikva"
       },
       {
@@ -1370,6 +1376,12 @@
         "ignoreConfig": true,
         "ignoreImports": true,
         "noMounts": true,
+        "path": "github.com/iron6909/clarity"
+      },
+      {
+        "ignoreConfig": true,
+        "ignoreImports": true,
+        "noMounts": true,
         "path": "github.com/isaksolheim/cyberscape"
       },
       {
@@ -1509,12 +1521,6 @@
         "ignoreImports": true,
         "noMounts": true,
         "path": "github.com/jmablog/hugo-clinic-notes"
-      },
-      {
-        "ignoreConfig": true,
-        "ignoreImports": true,
-        "noMounts": true,
-        "path": "github.com/jmau111/hugo-theme-ava"
       },
       {
         "ignoreConfig": true,
