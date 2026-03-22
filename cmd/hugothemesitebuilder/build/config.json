@@ -980,6 +980,12 @@
         "ignoreConfig": true,
         "ignoreImports": true,
         "noMounts": true,
+        "path": "github.com/foxihd/hugo-foxx"
+      },
+      {
+        "ignoreConfig": true,
+        "ignoreImports": true,
+        "noMounts": true,
         "path": "github.com/francoiducat/hugo-air"
       },
       {
@@ -3201,6 +3207,12 @@
         "ignoreImports": true,
         "noMounts": true,
         "path": "github.com/Xzya/hugo-material-blog"
+      },
+      {
+        "ignoreConfig": true,
+        "ignoreImports": true,
+        "noMounts": true,
+        "path": "github.com/Yajie-Xu/hugo-celadon"
       },
       {
         "ignoreConfig": true,
