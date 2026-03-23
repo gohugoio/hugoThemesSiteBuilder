@@ -3489,6 +3489,12 @@
         "ignoreImports": true,
         "noMounts": true,
         "path": "go.ngs.io/hugo-primer-blog"
+      },
+      {
+        "ignoreConfig": true,
+        "ignoreImports": true,
+        "noMounts": true,
+        "path": "github.com/Blunix-GmbH/hugo-theme-blunix"
       }
     ]
   }

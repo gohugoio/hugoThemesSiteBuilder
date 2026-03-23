@@ -25,6 +25,7 @@ require (
 	github.com/Axorax/axile-hugo v0.0.0-20230604174516-d0bf9248bcbd // indirect
 	github.com/Binary-Eater/hugo-theme-ghci v0.0.0-20220130042807-df347b1d8a3e // indirect
 	github.com/Blackstareye/stargazer-layout v1.1.2 // indirect
+	github.com/Blunix-GmbH/hugo-theme-blunix v1.0.0 // indirect
 	github.com/CaiJimmy/hugo-theme-stack/v3 v3.34.2 // indirect
 	github.com/CyrusYip/hugo-theme-yue v0.0.0-20260313084252-fbaf2e9e6d93 // indirect
 	github.com/D-Sketon/hugo-theme-reimu v0.15.2 // indirect
@@ -71,7 +72,7 @@ require (
 	github.com/SAGGameDeveloper/hugo-minimalist-spa v0.0.0-20190214084547-2637ff850398 // indirect
 	github.com/Sathishbs/tailroad v0.0.0-20250601215149-917f407c40ae // indirect
 	github.com/Somrat37/somrat v2.0.0+incompatible // indirect
-	github.com/Sped0n/bridget/v2 v2.1.5 // indirect
+	github.com/Sped0n/bridget/v2 v2.1.6 // indirect
 	github.com/StaticMania/portio-hugo v1.0.0 // indirect
 	github.com/StaticMania/roxo-hugo v0.0.0-20230912110241-eac3f49bc573 // indirect
 	github.com/StefMa/hugo-fresh v1.2.0 // indirect
