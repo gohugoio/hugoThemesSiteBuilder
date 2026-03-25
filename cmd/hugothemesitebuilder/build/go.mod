@@ -501,8 +501,8 @@ require (
 	github.com/techbarrack/terminal-hugo-theme v0.0.0-20240611081157-ecce8013f3b7 // indirect
 	github.com/the2ne/hugo-frais v0.0.0-20200104180115-f6f23a885a7a // indirect
 	github.com/theNewDynamic/gohugo-theme-ananke/v2 v2.12.1 // indirect
-	github.com/thegeeklab/hugo-geekblog v3.1.0+incompatible // indirect
-	github.com/thegeeklab/hugo-geekdoc v2.0.0+incompatible // indirect
+	github.com/thegeeklab/hugo-geekblog v3.2.0+incompatible // indirect
+	github.com/thegeeklab/hugo-geekdoc v2.0.1+incompatible // indirect
 	github.com/thingsym/hugo-theme-techdoc v1.1.0 // indirect
 	github.com/tnwhitwell/hugo-startpage-theme v0.0.0-20180704204829-76b1a1f5808e // indirect
 	github.com/tohn/linkshrubbery v0.0.0-20230623094327-4b529ca6cb8b // indirect
