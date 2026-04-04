@@ -91,9 +91,7 @@
         {{ with .Params.meta.license }}
           {{ template "descriptionlist-item" (dict "label" "License" "value" . ) }}
         {{ end }}
-        {{ with .Params.githubInfo }}
-          {{ template "descriptionlist-item" (dict "label" "GitHub Stars" "value" .Stars ) }}
-        {{ end }}
+        {{ template "theme-details-repo" . }}
         {{ with .Params.hugoVersion.min }}
           {{ template "descriptionlist-item" (dict "label" "Minimum Hugo Version" "value" . ) }}
         {{ end }}
@@ -143,6 +141,23 @@
       {{ .value }}
     </dd>
   </div>
+{{ end }}
+
+{{ define "theme-details-repo" }}
+  {{ with .Params.repoInfo }}
+    {{ $provider := .provider }}
+    {{ $label := "" }}
+    {{ if eq $provider "github" }}
+      {{ $label = "GitHub Stars" }}
+    {{ else if eq $provider "gitlab" }}
+      {{ $label = "GitLab Stars" }}
+    {{ else if eq $provider "codeberg" }}
+      {{ $label = "Codeberg Stars" }}
+    {{ end }}
+    {{ if $label }}
+      {{ template "descriptionlist-item" (dict "label" $label "value" .Stars ) }}
+    {{ end }}
+  {{ end }}
 {{ end }}
 
 {{ define "prevnext-button" }}
