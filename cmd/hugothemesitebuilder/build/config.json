@@ -296,12 +296,6 @@
         "ignoreConfig": true,
         "ignoreImports": true,
         "noMounts": true,
-        "path": "github.com/Axorax/axile-hugo"
-      },
-      {
-        "ignoreConfig": true,
-        "ignoreImports": true,
-        "noMounts": true,
         "path": "github.com/azmelanar/hugo-theme-pixyll"
       },
       {
@@ -879,6 +873,12 @@
         "ignoreImports": true,
         "noMounts": true,
         "path": "github.com/EmielH/tale-hugo"
+      },
+      {
+        "ignoreConfig": true,
+        "ignoreImports": true,
+        "noMounts": true,
+        "path": "github.com/Enerhim/enervoid-theme"
       },
       {
         "ignoreConfig": true,
@@ -3069,6 +3069,12 @@
         "ignoreImports": true,
         "noMounts": true,
         "path": "github.com/Vimux/mainroad"
+      },
+      {
+        "ignoreConfig": true,
+        "ignoreImports": true,
+        "noMounts": true,
+        "path": "github.com/vinooganesh/hugo-ink"
       },
       {
         "ignoreConfig": true,
