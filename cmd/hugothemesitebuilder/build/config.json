@@ -326,6 +326,12 @@
         "ignoreConfig": true,
         "ignoreImports": true,
         "noMounts": true,
+        "path": "github.com/bect/kopi"
+      },
+      {
+        "ignoreConfig": true,
+        "ignoreImports": true,
+        "noMounts": true,
         "path": "github.com/bep/docuapi/v2"
       },
       {
@@ -441,6 +447,12 @@
         "ignoreImports": true,
         "noMounts": true,
         "path": "github.com/caressofsteel/hugo-story"
+      },
+      {
+        "ignoreConfig": true,
+        "ignoreImports": true,
+        "noMounts": true,
+        "path": "github.com/carlosplanchon/hugo-theme-swiss-operator"
       },
       {
         "ignoreConfig": true,
@@ -2456,6 +2468,12 @@
         "ignoreConfig": true,
         "ignoreImports": true,
         "noMounts": true,
+        "path": "github.com/psugam/sugo"
+      },
+      {
+        "ignoreConfig": true,
+        "ignoreImports": true,
+        "noMounts": true,
         "path": "github.com/puresyntax71/hugo-theme-chunky-poster"
       },
       {
@@ -3399,6 +3417,12 @@
         "ignoreImports": true,
         "noMounts": true,
         "path": "gitlab.com/gabmus/hugo-ficurinia"
+      },
+      {
+        "ignoreConfig": true,
+        "ignoreImports": true,
+        "noMounts": true,
+        "path": "gitlab.com/Goldmaster/goldmaster"
       },
       {
         "ignoreConfig": true,
