@@ -218,7 +218,7 @@ func (c *Client) CreateThemesConfig() error {
 				"noMounts":      true,
 			})
 		}
-		}
+	}
 	if err := scanner.Err(); err != nil {
 		return err
 	}
