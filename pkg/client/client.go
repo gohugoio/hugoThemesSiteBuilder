@@ -488,14 +488,30 @@ func (c *Client) GetRepos(mods ModulesMap, cleanCache bool) (map[string]RepoInfo
 	defer c.TimeTrack(time.Now(), "Got repos")
 
 	repos := make(map[string]RepoInfo)
+
+	// First, load cached GitHub info where available.
+	ghMap, err := c.GetGitHubRepos(mods, cleanCache)
+	if err != nil {
+		c.Logf("warning: failed to load GitHub cache: %s", err)
+	}
+
 	for _, m := range mods {
-		// try GitHub
+		// GitHub: prefer cached value from ghMap. Try both exact path and path without version (/vN).
 		if strings.HasPrefix(m.Path, "github.com") {
+			if gh, ok := ghMap[m.Path]; ok {
+				repos[m.Path] = RepoInfo{Host: "github", HTMLURL: gh.HTMLURL, Stars: gh.Stars, CreatedAt: gh.CreatedAt}
+				continue
+			}
+			if gh, ok := ghMap[m.PathWithoutVersion()]; ok {
+				repos[m.Path] = RepoInfo{Host: "github", HTMLURL: gh.HTMLURL, Stars: gh.Stars, CreatedAt: gh.CreatedAt}
+				continue
+			}
+
+			// Fallback to live fetch
 			gr, err := c.fetchGitHubRepo(m)
 			if err != nil {
 				c.Logf("warning: failed GitHub lookup for %s: %s", m.Path, err)
-				// continue, but put zero RepoInfo
-				repos[m.Path] = RepoInfo{Host: "github"}
+				repos[m.Path] = RepoInfo{Host: "github", HTMLURL: fmt.Sprintf("https://%s", m.PathRepo())}
 				continue
 			}
 			repos[m.Path] = RepoInfo{Host: "github", HTMLURL: gr.HTMLURL, Stars: gr.Stars, CreatedAt: gr.CreatedAt}
