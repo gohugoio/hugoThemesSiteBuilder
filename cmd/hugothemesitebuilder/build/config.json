@@ -2954,7 +2954,7 @@
         "ignoreConfig": true,
         "ignoreImports": true,
         "noMounts": true,
-        "path": "github.com/theNewDynamic/gohugo-theme-ananke/v2"
+        "path": "github.com/gohugo-ananke/theme/v2"
       },
       {
         "ignoreConfig": true,
