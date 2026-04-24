@@ -503,7 +503,7 @@ require (
 	github.com/tcgriffith/hugo-owaraiclub v0.0.0-20191105071036-a25aabbb1d0f // indirect
 	github.com/techbarrack/terminal-hugo-theme v0.0.0-20240611081157-ecce8013f3b7 // indirect
 	github.com/the2ne/hugo-frais v0.0.0-20200104180115-f6f23a885a7a // indirect
-	github.com/gohugo-ananke/theme/v2 v2.12.1 // indirect
+	github.com/gohugo-ananke/ananke/v2 v2.12.1 // indirect
 	github.com/thegeeklab/hugo-geekblog v4.0.0+incompatible // indirect
 	github.com/thegeeklab/hugo-geekdoc v3.0.0+incompatible // indirect
 	github.com/thingsym/hugo-theme-techdoc v1.1.0 // indirect
