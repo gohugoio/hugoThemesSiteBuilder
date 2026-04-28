@@ -379,7 +379,6 @@ require (
 	github.com/michimani/simplog v0.0.0-20251013045232-805ae368eb3b // indirect
 	github.com/miguelsimoni/hugo-initio v0.0.0-20230619214421-1f75a080452e // indirect
 	github.com/mikeblum/hugo-now v0.3.0 // indirect
-	github.com/mirmousaviii/mostafa-hugo-theme v1.5.1 // indirect
 	github.com/mirus-ua/hugo-theme-re-terminal/v2 v2.4.3 // indirect
 	github.com/mismith0227/hugo_theme_pickles v0.0.0-20241107230221-7836542c6094 // indirect
 	github.com/mivinci/hugo-theme-minima v1.1.0 // indirect
