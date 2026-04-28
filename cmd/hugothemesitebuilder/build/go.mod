@@ -70,7 +70,6 @@ require (
 	github.com/RealOrangeOne/hugo-theme-revealjs v0.0.0-20180107112825-3edd529faa71 // indirect
 	github.com/RononDex/interstellar-hugo v1.0.0 // indirect
 	github.com/SAGGameDeveloper/hugo-minimalist-spa v0.0.0-20190214084547-2637ff850398 // indirect
-	github.com/Sathishbs/tailroad v0.0.0-20250601215149-917f407c40ae // indirect
 	github.com/Somrat37/somrat v2.0.0+incompatible // indirect
 	github.com/Sped0n/bridget/v2 v2.1.6 // indirect
 	github.com/StaticMania/portio-hugo v1.0.0 // indirect
@@ -380,7 +379,6 @@ require (
 	github.com/michimani/simplog v0.0.0-20251013045232-805ae368eb3b // indirect
 	github.com/miguelsimoni/hugo-initio v0.0.0-20230619214421-1f75a080452e // indirect
 	github.com/mikeblum/hugo-now v0.3.0 // indirect
-	github.com/mirmousaviii/mostafa-hugo-theme v1.5.1 // indirect
 	github.com/mirus-ua/hugo-theme-re-terminal/v2 v2.4.3 // indirect
 	github.com/mismith0227/hugo_theme_pickles v0.0.0-20241107230221-7836542c6094 // indirect
 	github.com/mivinci/hugo-theme-minima v1.1.0 // indirect
