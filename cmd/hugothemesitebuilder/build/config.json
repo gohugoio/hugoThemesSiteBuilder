@@ -2090,12 +2090,6 @@
         "ignoreConfig": true,
         "ignoreImports": true,
         "noMounts": true,
-        "path": "github.com/mirmousaviii/mostafa-hugo-theme"
-      },
-      {
-        "ignoreConfig": true,
-        "ignoreImports": true,
-        "noMounts": true,
         "path": "github.com/mirus-ua/hugo-theme-re-terminal/v2"
       },
       {
@@ -2660,12 +2654,6 @@
         "ignoreConfig": true,
         "ignoreImports": true,
         "noMounts": true,
-        "path": "github.com/Sathishbs/tailroad"
-      },
-      {
-        "ignoreConfig": true,
-        "ignoreImports": true,
-        "noMounts": true,
         "path": "github.com/sbruder/spectral"
       },
       {
@@ -2954,7 +2942,7 @@
         "ignoreConfig": true,
         "ignoreImports": true,
         "noMounts": true,
-        "path": "github.com/theNewDynamic/gohugo-theme-ananke/v2"
+        "path": "github.com/gohugo-ananke/ananke/v2"
       },
       {
         "ignoreConfig": true,
