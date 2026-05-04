@@ -27,7 +27,7 @@ require (
 	github.com/Blunix-GmbH/hugo-theme-blunix v1.0.0 // indirect
 	github.com/CaiJimmy/hugo-theme-stack/v3 v3.34.2 // indirect
 	github.com/CyrusYip/hugo-theme-yue v0.0.0-20260328162815-7f9c30460966 // indirect
-	github.com/D-Sketon/hugo-theme-reimu v0.15.4 // indirect
+	github.com/D-Sketon/hugo-theme-reimu v0.15.5 // indirect
 	github.com/Daucloud/hugo-theme-void v0.0.0-20260408025617-b3034b55d7c9 // indirect
 	github.com/Dim0000/simple-frame v1.0.2 // indirect
 	github.com/Dobefu/hugo-theme-plume v0.0.0-20251202181059-1bb13a01ae9a // indirect
@@ -73,7 +73,7 @@ require (
 	github.com/Somrat37/somrat v2.0.0+incompatible // indirect
 	github.com/Sped0n/bridget/v2 v2.1.6 // indirect
 	github.com/StaticMania/portio-hugo v1.0.0 // indirect
-	github.com/StaticMania/roxo-hugo v0.0.0-20260415104559-0f0f4f7796f2 // indirect
+	github.com/StaticMania/roxo-hugo v0.0.0-20260503092041-2a9d447dda5f // indirect
 	github.com/StefMa/hugo-fresh v1.2.0 // indirect
 	github.com/SteveLane/hugo-icon v0.0.0-20190305212339-0e6206738afc // indirect
 	github.com/SunkenPotato/black v0.0.0-20240627121704-7280a958cafb // indirect
@@ -90,7 +90,7 @@ require (
 	github.com/Yukuro/hugo-theme-shell v0.1.5 // indirect
 	github.com/aanupam23/hugo-sugoi v0.6.0 // indirect
 	github.com/achary/engimo v2.10.1+incompatible // indirect
-	github.com/adityatelange/hugo-PaperMod v0.0.0-20260502155530-87de3fb02411 // indirect
+	github.com/adityatelange/hugo-PaperMod v0.0.0-20260503144622-c4ca7ca486ec // indirect
 	github.com/adityatelange/hugo-index v0.0.0-20230607165812-4234dddf8c52 // indirect
 	github.com/aerohub/hugo-faq-theme v0.0.0-20161016225807-e6ed082c15bc // indirect
 	github.com/aerohub/hugo-identity-theme v0.0.0-20171209130528-ca4e10de2297 // indirect
@@ -222,7 +222,7 @@ require (
 	github.com/foxihd/hugo-foxx v0.0.0-20260501080852-dd738decb28f // indirect
 	github.com/francoiducat/hugo-air v0.1.2 // indirect
 	github.com/frjo/hugo-theme-zen/v5 v5.9.0 // indirect
-	github.com/funkydan2/alpha-church v0.0.0-20260416061323-3df519588411 // indirect
+	github.com/funkydan2/alpha-church v0.0.0-20260503055125-a90488b5c84c // indirect
 	github.com/funkydan2/hugo-kiera v1.1.3 // indirect
 	github.com/g1eny0ung/hugo-theme-dream v3.15.0+incompatible // indirect
 	github.com/garvincasimir/hugo-h5bp-simple v0.0.0-20190817231606-e834d00b96bb // indirect
