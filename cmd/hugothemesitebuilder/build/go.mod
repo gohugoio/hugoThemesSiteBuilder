@@ -247,7 +247,7 @@ require (
 	github.com/gyorb/hugo-dusk v1.4.0 // indirect
 	github.com/hadisinaee/avicenna v0.0.0-20210802003840-1412ad1b941f // indirect
 	github.com/half-duplex/hugo-arcana v0.0.0-20251017002235-20ee7d0ada2c // indirect
-	github.com/halogenica/beautifulhugo v0.0.0-20260506183940-20a5ea1ed859 // indirect
+	github.com/halogenica/beautifulhugo v0.0.0-20260508003418-11cb3eae60dd // indirect
 	github.com/hauke96/hugo-theme-hamburg v0.8.3 // indirect
 	github.com/hbstack/theme v0.4.0 // indirect
 	github.com/hbstack/theme-search v0.1.2 // indirect
@@ -544,7 +544,7 @@ require (
 	github.com/xioyito/NewBee v1.2.3 // indirect
 	github.com/xslingcn/vno-hugo v1.1.3 // indirect
 	github.com/yanlinlin82/simple-style v0.0.0-20240320081416-2b198a8c5f17 // indirect
-	github.com/yassi/hugo-theme-yassi v0.0.0-20260504015804-72b6a9126b9d // indirect
+	github.com/yassi/hugo-theme-yassi v0.0.0-20260507130729-ad7e6f630b65 // indirect
 	github.com/yezihack/kong-htop v1.0.0 // indirect
 	github.com/yihui/hugo-xmag v0.0.0-20260506001750-303bf6a2fc24 // indirect
 	github.com/yihui/hugo-xmin v0.0.0-20260506001910-d23f6d95b84c // indirect
