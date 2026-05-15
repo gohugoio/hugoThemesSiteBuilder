@@ -16,7 +16,7 @@ require (
 	github.com/526avijitgupta/gokarna v0.0.0-20260310123804-83060421c747 // indirect
 	github.com/64bitpandas/amethyst v1.0.0 // indirect
 	github.com/7ma7X/HugoTeX v0.0.0-20260513235111-c48ac9c1b861 // indirect
-	github.com/ANSSI-FR/hackropole-hugo v0.0.0-20260512051642-b1e4eeb45095 // indirect
+	github.com/ANSSI-FR/hackropole-hugo v0.0.0-20260514164631-988fa6c1a58b // indirect
 	github.com/AlexFinn/simple-a v0.0.0-20191202062540-bb2f8c9172a0 // indirect
 	github.com/AmazingRise/hugo-theme-diary v0.0.0-20260130171721-0d8afbaf3d6b // indirect
 	github.com/AminZibayi/Corporio v0.0.0-20251212130216-df84329ead4c // indirect
@@ -100,7 +100,7 @@ require (
 	github.com/akatiggerx04/graysx-hugo v0.0.0-20230120090901-fe35dd8b38c7 // indirect
 	github.com/akopdev/hugo-theme-chicago7 v1.2.0 // indirect
 	github.com/alanorth/hugo-theme-bootstrap4-blog v1.6.0 // indirect
-	github.com/alex-shpak/hugo-book v0.0.0-20260510213357-4018d4b51d10 // indirect
+	github.com/alex-shpak/hugo-book v0.0.0-20260514220532-bcce6e25c3ea // indirect
 	github.com/alexandrevicenzi/soho v1.1.1 // indirect
 	github.com/allnightgrocery/hugo-theme-blueberry-detox v0.0.0-20170129010546-afb1e630023b // indirect
 	github.com/alloydwhitlock/huey v0.0.0-20260325205737-89858a4526a9 // indirect
@@ -247,7 +247,7 @@ require (
 	github.com/gyorb/hugo-dusk v1.4.0 // indirect
 	github.com/hadisinaee/avicenna v0.0.0-20210802003840-1412ad1b941f // indirect
 	github.com/half-duplex/hugo-arcana v0.0.0-20251017002235-20ee7d0ada2c // indirect
-	github.com/halogenica/beautifulhugo v0.0.0-20260513175531-3a3378c54f93 // indirect
+	github.com/halogenica/beautifulhugo v0.0.0-20260514192154-cbee6f34d9ec // indirect
 	github.com/hauke96/hugo-theme-hamburg v0.8.3 // indirect
 	github.com/hbstack/theme v0.4.0 // indirect
 	github.com/hbstack/theme-search v0.1.2 // indirect
@@ -544,7 +544,7 @@ require (
 	github.com/xioyito/NewBee v1.2.3 // indirect
 	github.com/xslingcn/vno-hugo v1.1.3 // indirect
 	github.com/yanlinlin82/simple-style v0.0.0-20240320081416-2b198a8c5f17 // indirect
-	github.com/yassi/hugo-theme-yassi v0.0.0-20260507130729-ad7e6f630b65 // indirect
+	github.com/yassi/hugo-theme-yassi v0.0.0-20260514033300-5d2453158c16 // indirect
 	github.com/yezihack/kong-htop v1.0.0 // indirect
 	github.com/yihui/hugo-xmag v0.0.0-20260506001750-303bf6a2fc24 // indirect
 	github.com/yihui/hugo-xmin v0.0.0-20260506001910-d23f6d95b84c // indirect
