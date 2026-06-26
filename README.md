@@ -11,7 +11,7 @@ You can use the command <code>hugo new theme <em>THEME_NAME</em></code> to creat
 
 Then, from the root of your theme's repository, you need to perform the following steps:
 
-* Create a `config.toml` file that specifies the Hugo version(s) supported by your theme. Also, add a `theme.toml` file and include some relevant metadata about the theme ([see below](#theme-configuration)).
+* Create a `hugo.toml` file that specifies the Hugo version(s) supported by your theme. Also, add a `theme.toml` file and include some relevant metadata about the theme ([see below](#theme-configuration)).
 * Add a descriptive `README.md` ([see below](#readmemd)).
 * Include a screenshot image in `/images/screenshot.{png,jpg}` and a thumbnail image in `/images/tn.{png,jpg}` ([see below](#media)).
 * Push the changes.
@@ -61,7 +61,7 @@ authors = [
     repo = "Link to source code of original theme"
 ```
 
-Your theme should also have a configuration file (such as `config.toml`) that specifies the [Hugo versions](https://gohugo.io/hugo-modules/configuration/#module-config-hugoversion) supported by the theme.
+Your theme should also have a configuration file (such as `hugo.toml`) that specifies the [Hugo versions](https://gohugo.io/hugo-modules/configuration/#module-config-hugoversion) supported by the theme.
 
 ```toml
 [module]
@@ -182,7 +182,7 @@ The Netlify deploy preview can fail for a variety of reasons. The following step
 
 # Outdated themes
 
-According to our current policy, themes that have not been updated within the last 3 years are deemed outdated and are removed. Even if your theme is fully functional, it is recommended that you periodically check and confirm its compatibility with the latest version of Hugo.
+Themes are removed if they haven't been updated in the last 18 months. Even if your theme works now, we strongly recommend you periodically check its compatibility with the latest version of Hugo.
 
 # FAQ
 
@@ -193,5 +193,3 @@ According to our current policy, themes that have not been updated within the la
 **Question:** Can I submit a theme with a repository hosted on git.sr.ht (or any other platform for that matter), given that themes.txt contains links to github.com and gitlab.com?
 
 **Answer:** Yes, it would be accepted if the repository hosted on git.sr.ht (or any other platform) is supported by Go Modules. To confirm the same, you can create a pull request and check if the build process succeeds.
-
-

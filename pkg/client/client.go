@@ -137,8 +137,59 @@ func (c *Client) OutFileExists(name string) bool {
 	return err == nil
 }
 
+func (c *Client) RemoveGoModAndGoSum() error {
+	goModFilename := filepath.Join(c.outDir, "go.mod")
+	goSumFilename := filepath.Join(c.outDir, "go.sum")
+	if err := os.Remove(goModFilename); err != nil && !os.IsNotExist(err) {
+		return err
+	}
+	if err := os.Remove(goSumFilename); err != nil && !os.IsNotExist(err) {
+		return err
+	}
+	return nil
+}
+
 func (c *Client) RunHugo(arg ...string) error {
 	return c.runHugo(nil, arg...)
+}
+
+func (c *Client) themesTxtFilename() string {
+	return filepath.Join(c.outDir, "../../..", "themes.txt")
+}
+
+func (c *Client) RemoveModulePathFromThemesTxt(module string) error {
+	f, err := os.Open(c.themesTxtFilename())
+	if err != nil {
+		c.Logf("failed to open themes.txt: %s", err)
+		return err
+	}
+	defer f.Close()
+
+	var lines []string
+
+	scanner := bufio.NewScanner(f)
+	for scanner.Scan() {
+		line := strings.TrimSpace(scanner.Text())
+		if line == "" || strings.HasPrefix(line, "#") {
+			lines = append(lines, line)
+			continue
+		}
+		if line == module {
+			c.Logf("Removing %q from themes.txt", module)
+			continue
+		}
+		lines = append(lines, line)
+	}
+
+	if err := scanner.Err(); err != nil {
+		return err
+	}
+
+	err = os.WriteFile(c.themesTxtFilename(), []byte(strings.Join(lines, "\n")+"\n"), 0o666)
+	if err != nil {
+		return err
+	}
+	return nil
 }
 
 // CreateThemesConfig reads themes.txt and creates a config.json
@@ -147,7 +198,7 @@ func (c *Client) RunHugo(arg ...string) error {
 func (c *Client) CreateThemesConfig() error {
 	// This looks a little funky, but we want the themes.txt to be
 	// easily visible for users to add to in the root of the project.
-	f, err := os.Open(filepath.Join(c.outDir, "../../..", "themes.txt"))
+	f, err := os.Open(c.themesTxtFilename())
 	if err != nil {
 		return err
 	}
@@ -295,13 +346,19 @@ func (c *Client) runHugo(w io.Writer, arg ...string) error {
 		w = os.Stdout
 	}
 
+	var errBuf bytes.Buffer
+	stderr := io.MultiWriter(os.Stderr, &errBuf)
+
 	cmd := exec.Command("hugo", arg...)
 	cmd.Dir = c.outDir
 	cmd.Env = env
 	cmd.Stdout = w
-	cmd.Stderr = os.Stderr
+	cmd.Stderr = stderr
 	err := cmd.Run()
-	return err
+	if err != nil {
+		return fmt.Errorf("hugo command failed: %s\n%s", err, errBuf.String())
+	}
+	return nil
 }
 
 type GitHubRepo struct {

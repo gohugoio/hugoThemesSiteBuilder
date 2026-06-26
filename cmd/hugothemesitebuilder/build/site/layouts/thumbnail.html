@@ -1,0 +1,16 @@
+{{ $img := (.Resources.ByType "image").GetMatch "*tn*" }}
+{{ with $img }}
+  {{ $big := .Fill "768x512 top" }}
+  {{ $small := .Fill "384x256 top" }}
+  <a href="{{ $.Permalink }}" class="link db shadow-hover gray mb4 w-100 w-30-ns">
+    <img class="lazyload fit db ba b--moon-gray" alt="{{ $.Description }}" src="data:image/svg+xml;charset=utf8,%3Csvg%20width='1800'%20height='1200'%20viewBox='0%200%201800%201200'%20xmlns='http://www.w3.org/2000/svg'%3E%3Ctitle%3EThumbnail%3C/title%3E%3Cg%20fill='none'%20fill-rule='evenodd'%3E%3Cpath%20fill='%23FFF'%20d='M0%200h1800v1200H0z'/%3E%3Ctext%20opacity='0.5'%20font-family='Muli,%20avenir,helvetica%20neue,helvetica,ubuntu,roboto,noto,segoe%20ui,arial,sans-serif'%20font-size='288'%20fill='#0594CB'%3E%3Ctspan%20x='468'%20y='674'%3EHUGO%3C/tspan%3E%3C/text%3E%3C/g%3E%3C/svg%3E" 
+    data-sizes="auto"
+    data-srcset="{{ $small.RelPermalink }} 1x, {{ $big.RelPermalink }} 2x" data-bg="{{ $small.RelPermalink }}"  />
+    <noscript>
+      <img class="fit db ba b--moon-gray" alt="{{ $.Description }}" srcset="{{ $small.RelPermalink }} 1x, { $big.RelPermalink }} 2x" />
+    </noscript>
+    <span class="f6 dark-gray w-100 db">
+      {{ $.Title }}
+    </span>
+  </a>
+{{ end }}
