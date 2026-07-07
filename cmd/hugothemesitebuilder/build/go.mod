@@ -587,5 +587,4 @@ require (
 	gitlab.com/toryanderson/hugo-icarus v0.0.0-20200701121335-f3e99478c35b // indirect
 	gitlab.com/writeonlyhugo/writeonlyhugo-theme v0.0.0-20240502104725-cc4014d1c855 // indirect
 	go.ngs.io/hugo-primer-blog v1.0.8 // indirect
-	wangchucheng.com/hugo-eureka v0.9.3 // indirect
 )
