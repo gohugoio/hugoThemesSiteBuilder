@@ -1,0 +1,42 @@
+name: Update themes
+on:
+  schedule:
+    - cron: "0 0 * * *"
+  workflow_dispatch:
+env:
+  HUGO_VERSION: "v0.146.1"
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    # Use bash shell for all steps in the workflow
+    defaults:
+      run:
+        shell: bash
+    env:
+      HUGO_CACHEDIR: /tmp/hugo_cache
+      GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+    steps:
+      - uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd # v6.0.2
+      - uses: actions/setup-go@4a3601121dd01d1626a1e23e37211e3254c1c06c # v6.4.0
+        with:
+          go-version: "^1.25.0"
+      - name: Update submodules
+        working-directory: ./cmd/hugothemesitebuilder
+        run: |
+          go install github.com/gohugoio/hugo@${{ env.HUGO_VERSION }}
+          go run main.go build -skipSiteBuild -cleanCache
+          cd build
+          hugo mod get
+          hugo mod tidy
+      - name: Commit & push changes
+        # Check the github.ref context to determine the current branch name. if it is 'refs/heads/main', then commit and push the changes.
+        # This allows experimenting/debugging GitHub actions without concerns about committing changes.
+        # For example, changes can be made to this workflow in a separate branch and a workflow run can be triggered manually (workflow_dispatch).
+        # For more information, see https://docs.github.com/en/actions/learn-github-actions/contexts
+        if: ${{ github.ref == 'refs/heads/main' }}
+        run: |
+          git config --global user.email "bep@users.noreply.github.com"
+          git config --global user.name "bep"
+          git add .
+          git diff-index --quiet HEAD || git commit -am "[Bot] Update themes"
+          git push --force-with-lease

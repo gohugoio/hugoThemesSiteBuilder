@@ -1,0 +1,29 @@
+# Currently not in use.
+project = "hugoThemesSiteBuilder"
+
+[release_settings]
+  name             = "${HUGORELEASER_TAG}"
+  type             = "github"
+  repository       = "hugoThemesSiteBuilder"
+  repository_owner = "gohugoio"
+
+  draft      = true
+  prerelease = false
+
+  [release_settings.release_notes_settings]
+    generate         = true
+    generate_on_host = false
+    short_threshold  = 10
+    short_title      = "What's Changed"
+
+    groups = [
+      { title = "Added", regexp = "add", ordinal = 20 },
+      { title = "Updated", regexp = "update", ordinal = 30 },
+      { title = "Other", regexp = ".*", ordinal = 10 },
+    ]
+
+[[releases]]
+  paths = ["archives/**"]
+  # In this file we have only one release, but path can be used to partition the release step, e.g.:
+  #    hugoreleaser release -paths "releases/myrelease"
+  path = "myrelease"
