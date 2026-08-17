@@ -998,7 +998,7 @@
         "ignoreConfig": true,
         "ignoreImports": true,
         "noMounts": true,
-        "path": "github.com/francoiducat/hugo-air"
+        "path": "github.com/fducat18/hugo-air"
       },
       {
         "ignoreConfig": true,
@@ -1215,12 +1215,6 @@
         "ignoreImports": true,
         "noMounts": true,
         "path": "github.com/heyeshuang/hugo-theme-tokiwa"
-      },
-      {
-        "ignoreConfig": true,
-        "ignoreImports": true,
-        "noMounts": true,
-        "path": "github.com/hivickylai/hugo-theme-sam"
       },
       {
         "ignoreConfig": true,
@@ -1539,6 +1533,12 @@
         "ignoreImports": true,
         "noMounts": true,
         "path": "github.com/jmablog/hugo-clinic-notes"
+      },
+      {
+        "ignoreConfig": true,
+        "ignoreImports": true,
+        "noMounts": true,
+        "path": "github.com/jmfergeau/hugo.386"
       },
       {
         "ignoreConfig": true,
@@ -3056,6 +3056,12 @@
         "ignoreConfig": true,
         "ignoreImports": true,
         "noMounts": true,
+        "path": "github.com/victoriadrake/hugo-theme-sam"
+      },
+      {
+        "ignoreConfig": true,
+        "ignoreImports": true,
+        "noMounts": true,
         "path": "github.com/victoriadrake/neofeed-theme/v2"
       },
       {
@@ -3428,12 +3434,6 @@
         "ignoreConfig": true,
         "ignoreImports": true,
         "noMounts": true,
-        "path": "gitlab.com/jmfergeau/hugo.386"
-      },
-      {
-        "ignoreConfig": true,
-        "ignoreImports": true,
-        "noMounts": true,
         "path": "gitlab.com/Kaligule/classless-blog"
       },
       {
@@ -3489,12 +3489,6 @@
         "ignoreImports": true,
         "noMounts": true,
         "path": "gitlab.com/writeonlyhugo/writeonlyhugo-theme"
-      },
-      {
-        "ignoreConfig": true,
-        "ignoreImports": true,
-        "noMounts": true,
-        "path": "wangchucheng.com/hugo-eureka"
       },
       {
         "ignoreConfig": true,
