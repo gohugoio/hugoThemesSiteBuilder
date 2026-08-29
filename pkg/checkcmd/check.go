@@ -10,6 +10,7 @@ import (
 	"os"
 	"path/filepath"
 
+	"github.com/bep/workers"
 	"github.com/peterbourgon/ff/v3/ffcli"
 
 	"github.com/gohugoio/hugoThemesSiteBuilder/pkg/client"
@@ -24,6 +25,16 @@ type Config struct {
 	// Keep the temporary work dirs (for debugging).
 	keep bool
 
+	// Check all themes in themes.txt and themes.bitrot.txt and propose
+	// moves between them.
+	bitrot bool
+
+	// Apply the moves proposed by bitrot.
+	write bool
+
+	// Number of themes to check in parallel.
+	parallel int
+
 	rootConfig *rootcmd.Config
 }
 
@@ -36,6 +47,9 @@ func New(rootConfig *rootcmd.Config) *ffcli.Command {
 	fs := flag.NewFlagSet(rootcmd.CommandName+" check", flag.ExitOnError)
 	fs.BoolVar(&cfg.jsonOutput, "json", false, "print the report as JSON")
 	fs.BoolVar(&cfg.keep, "keep", false, "keep the temporary work dirs (for debugging)")
+	fs.BoolVar(&cfg.bitrot, "bitrot", false, "check all themes in themes.txt and themes.bitrot.txt and propose moves between them")
+	fs.BoolVar(&cfg.write, "write", false, "apply the moves proposed by -bitrot")
+	fs.IntVar(&cfg.parallel, "parallel", 4, "number of themes to check in parallel")
 	rootConfig.RegisterFlags(fs)
 
 	return &ffcli.Command{
@@ -60,14 +74,15 @@ severity error.`,
 
 // Exec function for this command.
 func (c *Config) Exec(ctx context.Context, args []string) error {
+	if c.bitrot {
+		return c.execBitrot(ctx)
+	}
+
 	if len(args) == 0 {
 		return errors.New("check: at least one theme module path is required, e.g. github.com/user/my-theme")
 	}
 
-	var reports []*Report
-	for _, modulePath := range args {
-		reports = append(reports, c.checkTheme(ctx, modulePath))
-	}
+	reports := c.checkThemes(ctx, args)
 
 	if c.jsonOutput {
 		enc := json.NewEncoder(os.Stdout)
@@ -91,6 +106,23 @@ func (c *Config) Exec(ctx context.Context, args []string) error {
 		return fmt.Errorf("%d of %d theme(s) failed the basic checks", failed, len(reports))
 	}
 	return nil
+}
+
+// checkThemes checks the given themes, c.parallel at a time.
+func (c *Config) checkThemes(ctx context.Context, modulePaths []string) []*Report {
+	parallel := max(c.parallel, 1)
+	reports := make([]*Report, len(modulePaths))
+	w := workers.New(parallel)
+	r, _ := w.Start(ctx)
+	for i, modulePath := range modulePaths {
+		i, modulePath := i, modulePath
+		r.Run(func() error {
+			reports[i] = c.checkTheme(ctx, modulePath)
+			return nil
+		})
+	}
+	client.CheckErr(r.Wait())
+	return reports
 }
 
 func (c *Config) checkTheme(ctx context.Context, modulePath string) *Report {
