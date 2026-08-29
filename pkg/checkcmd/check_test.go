@@ -1,6 +1,8 @@
 package checkcmd
 
 import (
+	"os"
+	"path/filepath"
 	"testing"
 
 	qt "github.com/frankban/quicktest"
@@ -63,6 +65,44 @@ WARN  found no layout file for "html" for kind "home": Duplicate.
 `
 	c.Assert(missingLayoutKinds(out), qt.DeepEquals, []string{"home", "page"})
 	c.Assert(missingLayoutKinds("all good"), qt.IsNil)
+}
+
+func TestCollectNpmDependencies(t *testing.T) {
+	c := qt.New(t)
+
+	dir := t.TempDir()
+	write := func(name, content string) {
+		filename := filepath.Join(dir, filepath.FromSlash(name))
+		c.Assert(os.MkdirAll(filepath.Dir(filename), 0o777), qt.IsNil)
+		c.Assert(os.WriteFile(filename, []byte(content), 0o666), qt.IsNil)
+	}
+
+	packages, err := collectNpmDependencies(dir)
+	c.Assert(err, qt.IsNil)
+	c.Assert(packages, qt.IsNil)
+
+	write("package.json", `{
+		"dependencies": {"tailwindcss": "^4.0.0"},
+		"workspaces": ["packages/hugoautogen"]
+	}`)
+	write("packages/hugoautogen/package.json", `{
+		"devDependencies": {"postcss": "^8.0.0", "autoprefixer": "^10.0.0", "tailwindcss": "^4.0.0"}
+	}`)
+
+	packages, err = collectNpmDependencies(dir)
+	c.Assert(err, qt.IsNil)
+	c.Assert(packages, qt.DeepEquals, []string{"autoprefixer", "postcss", "tailwindcss"})
+
+	write("package.json", `not json`)
+	_, err = collectNpmDependencies(dir)
+	c.Assert(err, qt.IsNotNil)
+}
+
+func TestDisallowedNpmPackages(t *testing.T) {
+	c := qt.New(t)
+
+	c.Assert(disallowedNpmPackages([]string{"postcss", "tailwindcss"}), qt.IsNil)
+	c.Assert(disallowedNpmPackages([]string{"left-pad", "postcss", "some-exotic-package"}), qt.DeepEquals, []string{"left-pad", "some-exotic-package"})
 }
 
 func TestTailLines(t *testing.T) {
