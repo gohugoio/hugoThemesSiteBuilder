@@ -10,6 +10,8 @@ import (
 	"os/exec"
 	"path/filepath"
 	"regexp"
+	"slices"
+	"sort"
 	"strconv"
 	"strings"
 	"time"
@@ -65,6 +67,8 @@ func (c *Config) buildDemoSite(ctx context.Context, r *Report, workDir, modulePa
 		return
 	}
 
+	c.checkNpmPackages(ctx, r, siteDir)
+
 	out, err := runHugoCapture(ctx, siteDir)
 	if err != nil {
 		r.add(check, SeverityError, "demo site build failed:\n%s", strings.Join(tailLines(out, 15), "\n"))
@@ -75,8 +79,12 @@ func (c *Config) buildDemoSite(ctx context.Context, r *Report, workDir, modulePa
 	if pages := parsePagesCount(out); pages > 0 {
 		message += " (" + strconv.Itoa(pages) + " pages)"
 	}
-	if missing := missingLayoutKinds(out); len(missing) > 0 {
-		r.add(check, SeverityError, "%s, but the theme has no layout for kind(s): %s", message, strings.Join(missing, ", "))
+	// A theme that cannot render the home page is not functional. Other
+	// missing layouts (e.g. taxonomy.html) are fine; many special purpose
+	// themes ship a limited set of layouts, and they still surface below
+	// as warnings.
+	if slices.Contains(missingLayoutKinds(out), "home") {
+		r.add(check, SeverityError, "%s, but the theme has no layout for the home page", message)
 		return
 	}
 	if warnings := linesWithPrefix(out, "WARN"); len(warnings) > 0 {
@@ -88,6 +96,141 @@ func (c *Config) buildDemoSite(ctx context.Context, r *Report, workDir, modulePa
 		return
 	}
 	r.add(check, SeverityOK, "%s, no warnings", message)
+}
+
+// allowedNpmPackages is the allowlist of npm packages a theme may depend
+// on. One of Hugo's selling points is that it can mostly be run without
+// npm, so anything beyond the common CSS tooling is a red flag (and a
+// potential supply-chain attack vector).
+var allowedNpmPackages = map[string]bool{
+	"@tailwindcss/aspect-ratio": true,
+	"@tailwindcss/cli":          true,
+	"@tailwindcss/forms":        true,
+	"@tailwindcss/typography":   true,
+	"autoprefixer":              true,
+	"cssnano":                   true,
+	"postcss":                   true,
+	"postcss-cli":               true,
+	"postcss-import":            true,
+	"postcss-nesting":           true,
+	"rtlcss":                    true,
+	"tailwindcss":               true,
+}
+
+// checkNpmPackages runs `hugo mod npm pack` to collect any npm
+// dependencies declared by the theme (package.hugo.json), verifies them
+// against allowedNpmPackages and, if all are allowed, installs them so the
+// demo site build can use them. Lifecycle scripts are never run.
+func (c *Config) checkNpmPackages(ctx context.Context, r *Report, siteDir string) {
+	const check = "npm"
+
+	if out, err := runHugoCapture(ctx, siteDir, "mod", "npm", "pack"); err != nil {
+		r.add(check, SeverityWarning, "hugo mod npm pack failed:\n%s", strings.Join(tailLines(out, 5), "\n"))
+		return
+	}
+
+	packages, err := collectNpmDependencies(siteDir)
+	if err != nil {
+		r.add(check, SeverityWarning, "failed to parse package.json: %s", err)
+		return
+	}
+	if len(packages) == 0 {
+		r.add(check, SeverityOK, "no npm dependencies")
+		return
+	}
+
+	if disallowed := disallowedNpmPackages(packages); len(disallowed) > 0 {
+		r.add(check, SeverityError, "npm package(s) not on the allowlist: %s", strings.Join(disallowed, ", "))
+		return
+	}
+
+	if _, err := exec.LookPath("npm"); err != nil {
+		r.add(check, SeverityWarning, "npm not found in PATH; skipping install of: %s", strings.Join(packages, ", "))
+		return
+	}
+
+	// Never run lifecycle scripts from untrusted packages.
+	if err := os.WriteFile(filepath.Join(siteDir, ".npmrc"), []byte("ignore-scripts=true\n"), 0o666); err != nil {
+		r.add(check, SeverityError, "failed to write .npmrc: %s", err)
+		return
+	}
+	out, err := runNpmInstall(ctx, siteDir)
+	if err != nil {
+		r.add(check, SeverityError, "npm install failed:\n%s", strings.Join(tailLines(out, 10), "\n"))
+		return
+	}
+	r.add(check, SeverityOK, "installed: %s", strings.Join(packages, ", "))
+}
+
+type npmPackageJSON struct {
+	Dependencies    map[string]string `json:"dependencies"`
+	DevDependencies map[string]string `json:"devDependencies"`
+	Workspaces      []string          `json:"workspaces"`
+}
+
+// collectNpmDependencies returns the names of the packages in dependencies
+// and devDependencies of the site's package.json and any workspaces in it
+// (hugo mod npm pack puts the merged module dependencies in the
+// packages/hugoautogen workspace), sorted.
+func collectNpmDependencies(siteDir string) ([]string, error) {
+	b, err := os.ReadFile(filepath.Join(siteDir, "package.json"))
+	if err != nil {
+		// No npm dependencies.
+		return nil, nil
+	}
+	var root npmPackageJSON
+	if err := json.Unmarshal(b, &root); err != nil {
+		return nil, err
+	}
+	pkgs := []npmPackageJSON{root}
+	for _, ws := range root.Workspaces {
+		b, err := os.ReadFile(filepath.Join(siteDir, filepath.FromSlash(ws), "package.json"))
+		if err != nil {
+			continue
+		}
+		var pkg npmPackageJSON
+		if err := json.Unmarshal(b, &pkg); err != nil {
+			return nil, err
+		}
+		pkgs = append(pkgs, pkg)
+	}
+
+	seen := make(map[string]bool)
+	var packages []string
+	for _, pkg := range pkgs {
+		for _, m := range []map[string]string{pkg.Dependencies, pkg.DevDependencies} {
+			for name := range m {
+				if !seen[name] {
+					seen[name] = true
+					packages = append(packages, name)
+				}
+			}
+		}
+	}
+	sort.Strings(packages)
+	return packages, nil
+}
+
+func disallowedNpmPackages(packages []string) []string {
+	var disallowed []string
+	for _, name := range packages {
+		if !allowedNpmPackages[name] {
+			disallowed = append(disallowed, name)
+		}
+	}
+	return disallowed
+}
+
+func runNpmInstall(ctx context.Context, dir string) (string, error) {
+	ctx, cancel := context.WithTimeout(ctx, 3*time.Minute)
+	defer cancel()
+	cmd := exec.CommandContext(ctx, "npm", "install", "--no-audit", "--no-fund")
+	cmd.Dir = dir
+	var buf bytes.Buffer
+	cmd.Stdout = &buf
+	cmd.Stderr = &buf
+	err := cmd.Run()
+	return buf.String(), err
 }
 
 func runHugoCapture(ctx context.Context, dir string, args ...string) (string, error) {
