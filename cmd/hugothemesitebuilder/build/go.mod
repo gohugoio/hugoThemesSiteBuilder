@@ -148,7 +148,7 @@ require (
 	github.com/chaitanya4vedi/navada v0.0.0-20211223142020-aa7018bddcfc // indirect
 	github.com/chaoming/hugo-saasify-theme v1.0.2 // indirect
 	github.com/chipsenkbeil/grid-side v0.0.0-20170626191754-f5251bfd15a7 // indirect
-	github.com/chipzoller/hugo-clarity v0.0.0-20260824185034-496d0b30a9cf // indirect
+	github.com/chipzoller/hugo-clarity v0.0.0-20260831215919-a66c419015c9 // indirect
 	github.com/chollinger93/ink-free v1.4.5 // indirect
 	github.com/chrede88/L1nkr v1.10.0 // indirect
 	github.com/chrede88/qubt v1.6.0 // indirect
@@ -276,7 +276,7 @@ require (
 	github.com/ianrodrigues/hugo-tailwind-journal v0.0.0-20191119231934-32cd3a6e65e1 // indirect
 	github.com/ijsucceed/onepress v0.0.0-20190207144746-ce9dcea408ed // indirect
 	github.com/imfing/hextra v0.12.3 // indirect
-	github.com/imgios/not-much v0.0.0-20260717173052-b251d1a86f5c // indirect
+	github.com/imgios/not-much v0.0.0-20260831095241-5ad49ff65139 // indirect
 	github.com/ineesalmeida/almeida-cv v0.0.0-20260223164056-7bf822813146 // indirect
 	github.com/invinciblycool/lekh v0.0.0-20230506043404-4e65dc197414 // indirect
 	github.com/iron6909/clarity v0.0.0-20260219112744-305d139ef77f // indirect
@@ -376,7 +376,7 @@ require (
 	github.com/mertbakir/resume-a4 v1.1.0 // indirect
 	github.com/michaelneuper/hugo-texify3 v0.0.0-20260516135108-939a8f965b44 // indirect
 	github.com/michenriksen/hugo-theme-til v0.6.0 // indirect
-	github.com/michimani/simplog v1.1.3 // indirect
+	github.com/michimani/simplog v1.1.4 // indirect
 	github.com/miguelsimoni/hugo-initio v0.0.0-20230619214421-1f75a080452e // indirect
 	github.com/mikeblum/hugo-now v0.3.0 // indirect
 	github.com/mirus-ua/hugo-theme-re-terminal/v2 v2.4.4 // indirect
@@ -406,12 +406,12 @@ require (
 	github.com/ntk148v/shibui v0.1.0 // indirect
 	github.com/nunocoracao/blowfish/v2 v2.106.0 // indirect
 	github.com/nurlansu/hugo-sustain v0.0.0-20230524192148-21d9f8f53692 // indirect
-	github.com/nusserstudios/tailbliss v0.0.0-20260829050134-de27b3856901 // indirect
+	github.com/nusserstudios/tailbliss v0.0.0-20260831210108-e815362ac67e // indirect
 	github.com/nux-li/hugo-foto-theme v1.0.1 // indirect
 	github.com/okkur/syna v0.17.4 // indirect
 	github.com/olOwOlo/hugo-theme-even v4.1.0+incompatible // indirect
 	github.com/ololiuhqui/magnolia-free-hugo-theme v2.1.0+incompatible // indirect
-	github.com/onweru/compose v0.0.0-20260725164453-73580d9b0dfe // indirect
+	github.com/onweru/compose v0.0.0-20260831163655-ba4a245b7f7c // indirect
 	github.com/onweru/hugo-swift-theme v2.0.0+incompatible // indirect
 	github.com/onweru/newsroom v0.0.0-20260312180854-22bccb8c2b75 // indirect
 	github.com/opera7133/Blonde v0.0.0-20260830030319-785c1ddb0b96 // indirect
