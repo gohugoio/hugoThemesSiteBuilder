@@ -39,7 +39,7 @@ require (
 	github.com/FarseaSH/hugo-theme-moments v0.0.0-20260726124550-40862b5c9a00 // indirect
 	github.com/Fastbyte01/KeepIt v0.0.0-20250627215237-472472446066 // indirect
 	github.com/GDGToulouse/devfest-theme-hugo v0.0.0-20240603135139-fa7219ae75d6 // indirect
-	github.com/GrantBirki/dario v0.0.0-20260723180007-463137a1048f // indirect
+	github.com/GrantBirki/dario v0.0.0-20260901150847-dbf4ce96e713 // indirect
 	github.com/HEIGE-PCloud/DoIt v1.0.2 // indirect
 	github.com/HugoBlox/hugo-blox-builder/modules/blox-tailwind v0.10.0 // indirect
 	github.com/HugoBlox/theme-documentation v0.0.0-20260527025439-54b904740784 // indirect
@@ -276,7 +276,7 @@ require (
 	github.com/ianrodrigues/hugo-tailwind-journal v0.0.0-20191119231934-32cd3a6e65e1 // indirect
 	github.com/ijsucceed/onepress v0.0.0-20190207144746-ce9dcea408ed // indirect
 	github.com/imfing/hextra v0.12.3 // indirect
-	github.com/imgios/not-much v0.0.0-20260831095241-5ad49ff65139 // indirect
+	github.com/imgios/not-much v0.0.0-20260901084551-b0f7ddf9a40a // indirect
 	github.com/ineesalmeida/almeida-cv v0.0.0-20260223164056-7bf822813146 // indirect
 	github.com/invinciblycool/lekh v0.0.0-20230506043404-4e65dc197414 // indirect
 	github.com/iron6909/clarity v0.0.0-20260219112744-305d139ef77f // indirect
@@ -507,7 +507,7 @@ require (
 	github.com/thingsym/hugo-theme-techdoc v1.1.0 // indirect
 	github.com/tnwhitwell/hugo-startpage-theme v0.0.0-20180704204829-76b1a1f5808e // indirect
 	github.com/tohn/linkshrubbery v0.0.0-20260518061337-a2070400963f // indirect
-	github.com/tom2almighty/hugo-narrow v1.3.15 // indirect
+	github.com/tom2almighty/hugo-narrow v1.3.16 // indirect
 	github.com/tomowang/hugo-theme-tailwind v0.0.0-20260729141126-d6841f6c9d53 // indirect
 	github.com/tosi29/inkblotty v0.0.0-20260505112138-8fe84c32763b // indirect
 	github.com/tummychow/lanyon-hugo v0.0.0-20210123043723-cd7b91420a90 // indirect
