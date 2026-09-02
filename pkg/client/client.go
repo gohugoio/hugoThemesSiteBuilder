@@ -424,6 +424,16 @@ func (c *Client) fetchGitHubRepos(mods ModulesMap) (map[string]GitHubRepo, error
 	return repos, nil
 }
 
+// HugoBinary returns the name of the Hugo binary to run, which can be
+// overridden with the HUGOTHEMES_HUGO_LATEST environment variable (see
+// firstup.env).
+func HugoBinary() string {
+	if s := os.Getenv("HUGOTHEMES_HUGO_LATEST"); s != "" {
+		return s
+	}
+	return "hugo"
+}
+
 func (c *Client) runHugo(w io.Writer, arg ...string) error {
 	env := os.Environ()
 
@@ -436,7 +446,7 @@ func (c *Client) runHugo(w io.Writer, arg ...string) error {
 	var errBuf bytes.Buffer
 	stderr := io.MultiWriter(os.Stderr, &errBuf)
 
-	cmd := exec.Command("hugo", arg...)
+	cmd := exec.Command(HugoBinary(), arg...)
 	cmd.Dir = c.outDir
 	cmd.Env = env
 	cmd.Stdout = w
