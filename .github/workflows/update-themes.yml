@@ -4,7 +4,7 @@ on:
     - cron: "0 0 * * *"
   workflow_dispatch:
 env:
-  HUGO_VERSION: "v0.146.1"
+  HUGO_VERSION: "v0.165.0"
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -19,7 +19,10 @@ jobs:
       - uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd # v6.0.2
       - uses: actions/setup-go@4a3601121dd01d1626a1e23e37211e3254c1c06c # v6.4.0
         with:
-          go-version: "^1.25.0"
+          go-version: "^1.27.0"
+        # Bug in Git 2.54.0 leading to "fatal: shallow file has changed since we read it" errors.
+      - name: Disable Git Auto-Maintenance
+        run: git config --global maintenance.auto false
       - name: Update submodules
         working-directory: ./cmd/hugothemesitebuilder
         run: |
