@@ -7,6 +7,8 @@ import (
 	"testing"
 
 	qt "github.com/frankban/quicktest"
+
+	"github.com/gohugoio/hugoThemesSiteBuilder/pkg/client"
 )
 
 func TestAspectRatioOK(t *testing.T) {
@@ -120,4 +122,21 @@ func TestHugoConfigDecode(t *testing.T) {
 	c.Assert(json.Unmarshal([]byte(`{"module": {"hugoversion": {"min": "0.146.0", "max": "0.999.0"}}}`), &cfg), qt.IsNil)
 	c.Assert(cfg.Module.HugoVersion.Min, qt.Equals, "0.146.0")
 	c.Assert(cfg.Module.HugoVersion.Max, qt.Equals, "0.999.0")
+}
+
+func TestSourceURL(t *testing.T) {
+	c := qt.New(t)
+
+	u := func(path, version string) string {
+		return sourceURL(&client.Module{Path: path, Version: version})
+	}
+
+	c.Assert(u("github.com/bep/docuapi/v2", "v2.5.1"), qt.Equals, "https://github.com/bep/docuapi/tree/v2.5.1")
+	c.Assert(u("github.com/user/theme", "v0.0.0-20230101120000-abcdef123456"), qt.Equals, "https://github.com/user/theme/tree/abcdef123456")
+	c.Assert(u("github.com/user/theme", "v2.0.1+incompatible"), qt.Equals, "https://github.com/user/theme/tree/v2.0.1")
+	c.Assert(u("gitlab.com/user/theme", "v1.0.0"), qt.Equals, "https://gitlab.com/user/theme/-/tree/v1.0.0")
+	c.Assert(u("codeberg.org/user/theme", "v1.0.0"), qt.Equals, "https://codeberg.org/user/theme/src/tag/v1.0.0")
+	c.Assert(u("codeberg.org/user/theme", "v0.0.0-20230101120000-abcdef123456"), qt.Equals, "https://codeberg.org/user/theme/src/commit/abcdef123456")
+	c.Assert(u("go.ngs.io/hugo-primer-blog", "v1.0.0"), qt.Equals, "https://go.ngs.io/hugo-primer-blog")
+	c.Assert(u("github.com/user/theme", ""), qt.Equals, "https://github.com/user/theme")
 }
