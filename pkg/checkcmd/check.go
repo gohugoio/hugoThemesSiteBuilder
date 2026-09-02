@@ -9,6 +9,8 @@ import (
 	"io"
 	"os"
 	"path/filepath"
+	"regexp"
+	"strings"
 
 	"github.com/bep/workers"
 	"github.com/peterbourgon/ff/v3/ffcli"
@@ -238,11 +240,45 @@ func (c *Config) resolveModule(r *Report, workDir, modulePath string) *client.Mo
 			message += " from " + m.Time.Format("2006-01-02")
 		}
 		r.add(check, SeverityOK, message)
+		r.add("source", SeverityOK, sourceURL(&m))
 		return &m
 	}
 
 	r.add(check, SeverityError, "module not found in the module graph")
 	return nil
+}
+
+// pseudoVersionRe matches the timestamp-hash suffix of a Go pseudo-version,
+// e.g. v0.0.0-20230101120000-abcdef123456.
+var pseudoVersionRe = regexp.MustCompile(`-\d{14}-([0-9a-f]{12})$`)
+
+// sourceURL returns a URL to browse the module source at the resolved
+// version, falling back to the repository root for unknown hosts.
+func sourceURL(m *client.Module) string {
+	repo := m.PathRepo() // e.g. github.com/user/repo
+
+	ref := strings.TrimSuffix(m.Version, "+incompatible")
+	isCommit := false
+	if match := pseudoVersionRe.FindStringSubmatch(ref); match != nil {
+		ref = match[1]
+		isCommit = true
+	}
+
+	switch {
+	case ref == "":
+		return "https://" + repo
+	case strings.HasPrefix(repo, "github.com/"):
+		return "https://" + repo + "/tree/" + ref
+	case strings.HasPrefix(repo, "gitlab.com/"):
+		return "https://" + repo + "/-/tree/" + ref
+	case strings.HasPrefix(repo, "codeberg.org/"):
+		if isCommit {
+			return "https://" + repo + "/src/commit/" + ref
+		}
+		return "https://" + repo + "/src/tag/" + ref
+	default:
+		return "https://" + repo
+	}
 }
 
 func (c *Config) logWriter() io.Writer {
