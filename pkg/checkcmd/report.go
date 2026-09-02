@@ -90,6 +90,12 @@ func (r *Report) render(w io.Writer) {
 		fmt.Fprintf(w, "\n<details>\n<summary>%s %s</summary>\n\n```\n%s\n```\n\n</details>\n",
 			d.icon, d.check, strings.TrimSpace(d.body))
 	}
+	for _, res := range r.Results {
+		if res.Check == "build" && res.Severity != SeverityOK {
+			fmt.Fprintf(w, "\nTo get some help fixing Hugo deprecation warnings or errors, see [myhugofixer](https://github.com/bep/myhugofixer).\n")
+			break
+		}
+	}
 }
 
 // markdownCell makes s safe for use in a Markdown table cell.

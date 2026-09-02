@@ -1,3 +1,3 @@
 #!/usr/bin/env bash
 
-go run main.go check $1
+go run main.go check "$@"
