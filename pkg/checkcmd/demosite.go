@@ -69,7 +69,22 @@ func (c *Config) buildDemoSite(ctx context.Context, r *Report, workDir, modulePa
 		return
 	}
 
-	c.checkNpmPackages(ctx, r, siteDir)
+	disallowed := c.checkNpmPackages(ctx, r, siteDir)
+
+	// If the theme declares npm packages not on the allowlist, the install
+	// was skipped. Many themes use package.json for developer tooling only
+	// (tests, linting), so this is an error only if the site then fails to
+	// build without them.
+	addNpmRow := func(buildOK bool) {
+		if len(disallowed) == 0 {
+			return
+		}
+		if buildOK {
+			r.add("npm", SeverityOK, "skipped install of package(s) not on the allowlist, but the site builds without them: %s", strings.Join(disallowed, ", "))
+		} else {
+			r.add("npm", SeverityError, "npm package(s) not on the allowlist: %s", strings.Join(disallowed, ", "))
+		}
+	}
 
 	latest := client.HugoBinary()
 	out, err := runHugoCapture(ctx, latest, siteDir)
@@ -81,6 +96,7 @@ func (c *Config) buildDemoSite(ctx context.Context, r *Report, workDir, modulePa
 		if baseline := hugoBaselineBinary(); baseline != "" {
 			bout, berr := runHugoCapture(ctx, baseline, siteDir)
 			if berr == nil {
+				addNpmRow(true)
 				message := "demo site built with baseline " + hugoVersion(ctx, baseline)
 				if pages := parsePagesCount(bout); pages > 0 {
 					message += " (" + strconv.Itoa(pages) + " pages)"
@@ -89,9 +105,12 @@ func (c *Config) buildDemoSite(ctx context.Context, r *Report, workDir, modulePa
 				return
 			}
 		}
+		addNpmRow(false)
 		r.add(check, SeverityError, "demo site build failed with %s:\n%s", hugoVersion(ctx, latest), failure)
 		return
 	}
+
+	addNpmRow(true)
 
 	message := "demo site built"
 	if pages := parsePagesCount(out); pages > 0 {
@@ -166,45 +185,49 @@ var allowedNpmPackages = map[string]bool{
 // dependencies declared by the theme (package.hugo.json), verifies them
 // against allowedNpmPackages and, if all are allowed, installs them so the
 // demo site build can use them. Lifecycle scripts are never run.
-func (c *Config) checkNpmPackages(ctx context.Context, r *Report, siteDir string) {
+//
+// If any packages are not on the allowlist, the install is skipped and they
+// are returned; the caller decides the verdict based on whether the site
+// builds without them.
+func (c *Config) checkNpmPackages(ctx context.Context, r *Report, siteDir string) []string {
 	const check = "npm"
 
 	if out, err := runHugoCapture(ctx, client.HugoBinary(), siteDir, "mod", "npm", "pack"); err != nil {
 		r.add(check, SeverityWarning, "hugo mod npm pack failed:\n%s", strings.Join(tailLines(out, 5), "\n"))
-		return
+		return nil
 	}
 
 	packages, err := collectNpmDependencies(siteDir)
 	if err != nil {
 		r.add(check, SeverityWarning, "failed to parse package.json: %s", err)
-		return
+		return nil
 	}
 	if len(packages) == 0 {
 		r.add(check, SeverityOK, "no npm dependencies")
-		return
+		return nil
 	}
 
 	if disallowed := disallowedNpmPackages(packages); len(disallowed) > 0 {
-		r.add(check, SeverityError, "npm package(s) not on the allowlist: %s", strings.Join(disallowed, ", "))
-		return
+		return disallowed
 	}
 
 	if _, err := exec.LookPath("npm"); err != nil {
 		r.add(check, SeverityWarning, "npm not found in PATH; skipping install of: %s", strings.Join(packages, ", "))
-		return
+		return nil
 	}
 
 	// Never run lifecycle scripts from untrusted packages.
 	if err := os.WriteFile(filepath.Join(siteDir, ".npmrc"), []byte("ignore-scripts=true\n"), 0o666); err != nil {
 		r.add(check, SeverityError, "failed to write .npmrc: %s", err)
-		return
+		return nil
 	}
 	out, err := runNpmInstall(ctx, siteDir)
 	if err != nil {
 		r.add(check, SeverityError, "npm install failed:\n%s", strings.Join(tailLines(out, 10), "\n"))
-		return
+		return nil
 	}
 	r.add(check, SeverityOK, "installed: %s", strings.Join(packages, ", "))
+	return nil
 }
 
 type npmPackageJSON struct {
