@@ -155,7 +155,7 @@ func (c *Config) checkTheme(ctx context.Context, modulePath string) *Report {
 	c.checkLicense(r, m.Dir)
 	c.checkImages(r, m.Dir)
 	c.checkReadme(r, m.Dir)
-	c.checkHugoConfig(r, m)
+	c.checkHugoConfig(ctx, r, m, filepath.Join(workDir, "mod"))
 	c.checkMetaURLs(r, m)
 	c.buildDemoSite(ctx, r, workDir, modulePath)
 
@@ -174,13 +174,15 @@ func (c *Config) resolveModule(r *Report, workDir, modulePath string) *client.Mo
 		return nil
 	}
 
+	// Deep-merge the theme's config into this site config so that e.g.
+	// module.hugoVersion is visible to "hugo config".
 	config := map[string]interface{}{
+		"_merge": "deep",
 		"module": map[string]interface{}{
 			"imports": []map[string]interface{}{
 				{
 					"path":          modulePath,
 					"ignoreImports": true,
-					"ignoreConfig":  true,
 					"noMounts":      true,
 				},
 			},
