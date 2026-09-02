@@ -1,15 +1,21 @@
 package checkcmd
 
 import (
+	"bytes"
+	"context"
+	"encoding/json"
+	"fmt"
 	"image"
 	_ "image/jpeg"
 	_ "image/png"
 	"math"
 	"os"
+	"os/exec"
 	"path"
 	"path/filepath"
 	"regexp"
 	"strings"
+	"time"
 
 	toml "github.com/pelletier/go-toml/v2"
 
@@ -161,12 +167,14 @@ func (c *Config) checkReadme(r *Report, dir string) {
 	if len(strings.TrimSpace(content)) < 300 {
 		r.add(check, SeverityWarning, "README.md is very short; add installation and configuration instructions")
 	}
-	if refs := findRelativeImageRefs(content); len(refs) > 0 {
+
+	/* We currently do not render README content, it seems to be impossible to control the content of 500 themes. */
+	/*if refs := findRelativeImageRefs(content); len(refs) > 0 {
 		if len(refs) > 3 {
 			refs = refs[:3]
 		}
 		r.add(check, SeverityWarning, "README.md uses relative image path(s) (%s); use absolute URLs so images render on themes.gohugo.io", strings.Join(refs, ", "))
-	}
+	}*/
 	if len(r.Results) == numResults {
 		r.add(check, SeverityOK, "found")
 	}
@@ -203,7 +211,7 @@ func findRelativeImageRefs(md string) []string {
 	return refs
 }
 
-func (c *Config) checkHugoConfig(r *Report, m *client.Module) {
+func (c *Config) checkHugoConfig(ctx context.Context, r *Report, m *client.Module, siteDir string) {
 	const check = "config"
 	exists := func(names ...string) string {
 		for _, name := range names {
@@ -225,15 +233,48 @@ func (c *Config) checkHugoConfig(r *Report, m *client.Module) {
 		r.add(check, SeverityWarning, "no Hugo config file found in the theme root")
 	}
 
-	if m.HugoVersion.Min == "" {
+	hv, err := themeHugoVersion(ctx, siteDir)
+	if err != nil {
+		r.add("hugoVersion", SeverityWarning, "failed to read the merged site config: %s", err)
+		return
+	}
+	if hv.Min == "" {
 		r.add("hugoVersion", SeverityWarning, "no module.hugoVersion.min set in the theme config")
 	} else {
-		msg := "min " + m.HugoVersion.Min
-		if m.HugoVersion.Max != "" {
-			msg += ", max " + m.HugoVersion.Max
+		msg := "min " + hv.Min
+		if hv.Max != "" {
+			msg += ", max " + hv.Max
 		}
 		r.add("hugoVersion", SeverityOK, msg)
 	}
+}
+
+// hugoConfig holds the fields we need from "hugo config --format json".
+type hugoConfig struct {
+	Module struct {
+		HugoVersion client.HugoVersion `json:"hugoversion"`
+	} `json:"module"`
+}
+
+// themeHugoVersion returns module.hugoVersion from the merged config of
+// the site in siteDir, which imports the theme and deep-merges its config
+// ("hugo config mounts" does not report it).
+func themeHugoVersion(ctx context.Context, siteDir string) (client.HugoVersion, error) {
+	ctx, cancel := context.WithTimeout(ctx, time.Minute)
+	defer cancel()
+	cmd := exec.CommandContext(ctx, client.HugoBinary(), "--config", "config.json", "config", "--format", "json")
+	cmd.Dir = siteDir
+	var stdout, stderr bytes.Buffer
+	cmd.Stdout = &stdout
+	cmd.Stderr = &stderr
+	if err := cmd.Run(); err != nil {
+		return client.HugoVersion{}, fmt.Errorf("hugo config failed: %s\n%s", err, strings.Join(tailLines(stderr.String(), 5), "\n"))
+	}
+	var cfg hugoConfig
+	if err := json.Unmarshal(stdout.Bytes(), &cfg); err != nil {
+		return client.HugoVersion{}, fmt.Errorf("failed to decode hugo config output: %s", err)
+	}
+	return cfg.Module.HugoVersion, nil
 }
 
 func (c *Config) checkMetaURLs(r *Report, m *client.Module) {

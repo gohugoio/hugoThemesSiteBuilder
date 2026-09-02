@@ -1,6 +1,7 @@
 package checkcmd
 
 import (
+	"encoding/json"
 	"os"
 	"path/filepath"
 	"testing"
@@ -110,4 +111,13 @@ func TestTailLines(t *testing.T) {
 
 	c.Assert(tailLines("a\nb\nc\n", 2), qt.DeepEquals, []string{"b", "c"})
 	c.Assert(tailLines("a\nb", 5), qt.DeepEquals, []string{"a", "b"})
+}
+
+func TestHugoConfigDecode(t *testing.T) {
+	c := qt.New(t)
+
+	var cfg hugoConfig
+	c.Assert(json.Unmarshal([]byte(`{"module": {"hugoversion": {"min": "0.146.0", "max": "0.999.0"}}}`), &cfg), qt.IsNil)
+	c.Assert(cfg.Module.HugoVersion.Min, qt.Equals, "0.146.0")
+	c.Assert(cfg.Module.HugoVersion.Max, qt.Equals, "0.999.0")
 }

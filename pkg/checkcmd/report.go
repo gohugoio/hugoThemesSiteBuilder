@@ -54,36 +54,45 @@ func (r *Report) finalize() {
 	r.Pass = errors == 0
 }
 
+// render writes the report as Markdown, suitable for pasting into e.g. a
+// GitHub PR comment. Multi-line messages show their first line in the table
+// and the rest in a <details> block below it.
 func (r *Report) render(w io.Writer) {
-	fmt.Fprintf(w, "\n%s\n%s\n", r.Module, strings.Repeat("-", len(r.Module)))
+	fmt.Fprintf(w, "\n### %s\n\n", r.Module)
+	fmt.Fprintln(w, "|    | Check | Comment |")
+	fmt.Fprintln(w, "|----|-------|---------|")
+	type detail struct {
+		icon, check, body string
+	}
+	var details []detail
 	for _, res := range r.Results {
-		label := "ok"
+		icon := "🟢"
 		switch res.Severity {
 		case SeverityWarning:
-			label = "WARN"
+			icon = "🟡"
 		case SeverityError:
-			label = "ERROR"
+			icon = "🔴"
 		}
 		message := res.Message
-		if strings.Contains(message, "\n") {
-			message = "\n" + indent(message, "        ")
+		if first, rest, found := strings.Cut(message, "\n"); found {
+			message = strings.TrimSuffix(strings.TrimSpace(first), ":")
+			details = append(details, detail{icon, res.Check, rest})
 		}
-		fmt.Fprintf(w, "  %-6s %-18s %s\n", label, res.Check, message)
+		fmt.Fprintf(w, "| %s | %s | %s |\n", icon, res.Check, markdownCell(message))
 	}
 	errors, warnings := r.counts()
-	status := "PASS"
+	status := "✅ **PASS**"
 	if errors > 0 {
-		status = "FAIL"
+		status = "❌ **FAIL**"
 	}
-	fmt.Fprintf(w, "  RESULT %s (%d error(s), %d warning(s))\n", status, errors, warnings)
+	fmt.Fprintf(w, "\n%s (%d error(s), %d warning(s))\n", status, errors, warnings)
+	for _, d := range details {
+		fmt.Fprintf(w, "\n<details>\n<summary>%s %s</summary>\n\n```\n%s\n```\n\n</details>\n",
+			d.icon, d.check, strings.TrimSpace(d.body))
+	}
 }
 
-func indent(s, prefix string) string {
-	lines := strings.Split(s, "\n")
-	for i, line := range lines {
-		if line != "" {
-			lines[i] = prefix + line
-		}
-	}
-	return strings.Join(lines, "\n")
+// markdownCell makes s safe for use in a Markdown table cell.
+func markdownCell(s string) string {
+	return strings.ReplaceAll(s, "|", "\\|")
 }
