@@ -1,0 +1,19 @@
+{
+  "sum": "d56224079db6458e",
+  "dependencySources": {
+    "dependencies": {
+      "@alpinejs/focus": "github.com/gohugoio/hugoDocs",
+      "@alpinejs/persist": "github.com/gohugoio/hugoDocs",
+      "@hotwired/turbo": "github.com/gohugoio/hugoDocs",
+      "alpinejs": "github.com/gohugoio/hugoDocs"
+    },
+    "devDependencies": {
+      "@awmottaz/prettier-plugin-void-html": "github.com/gohugoio/hugoDocs",
+      "@tailwindcss/cli": "github.com/gohugoio/hugoDocs",
+      "@tailwindcss/typography": "github.com/gohugoio/hugoDocs",
+      "prettier": "github.com/gohugoio/hugoDocs",
+      "prettier-plugin-go-template": "github.com/gohugoio/hugoDocs",
+      "tailwindcss": "github.com/gohugoio/hugoDocs"
+    }
+  }
+}
