@@ -40,8 +40,9 @@ func (c *Config) buildDemoSite(ctx context.Context, r *Report, workDir, modulePa
 	}
 
 	config := map[string]interface{}{
-		"baseURL": "https://example.org/",
-		"title":   "Hugo Theme Check Demo",
+		"baseURL":  "https://example.org/",
+		"title":    "Hugo Theme Check Demo",
+		"security": defaultSecurityConfig,
 		"module": map[string]interface{}{
 			"imports": []map[string]interface{}{
 				{"path": modulePath},
@@ -113,6 +114,33 @@ func (c *Config) buildDemoSite(ctx context.Context, r *Report, workDir, modulePa
 		return
 	}
 	r.add(check, SeverityOK, "%s, no warnings", message)
+}
+
+// defaultSecurityConfig is Hugo's default security config (as of Hugo
+// v0.165.0). It is set explicitly in the site configs so that an imported
+// theme's config cannot override it.
+var defaultSecurityConfig = map[string]interface{}{
+	"enableInlineShortcodes": false,
+	"exec": map[string]interface{}{
+		"allow": []string{"^(dart-)?sass$", "^go$", "^git$", "^node$", "^postcss$"},
+		"osEnv": []string{`(?i)^((HTTPS?|NO)_PROXY|PATH(EXT)?|APPDATA|TE?MP|TERM|GO\w+|(XDG_CONFIG_)?HOME|USERPROFILE|SSH_AUTH_SOCK|DISPLAY|LANG|SYSTEMDRIVE|PROGRAMDATA)$`},
+	},
+	"funcs": map[string]interface{}{
+		"getenv": []string{"^HUGO_", "^CI$"},
+	},
+	"http": map[string]interface{}{
+		"methods": []string{"(?i)GET|POST"},
+		"urls":    []string{"(?i)^https?://[a-z0-9]", `! ^https?://\d+\.`, "! (?i)localhost", `! (?i)^https?://[^/?#]*@`},
+	},
+	"allowContent": []string{"! ^text/html$"},
+	"node": map[string]interface{}{
+		"permissions": map[string]interface{}{
+			"allowAddons":       []string{"tailwindcss"},
+			"allowChildProcess": []string{"tailwindcss"},
+			"allowRead":         []string{"."},
+			"allowWorker":       []string{"tailwindcss"},
+		},
+	},
 }
 
 // allowedNpmPackages is the allowlist of npm packages a theme may depend
