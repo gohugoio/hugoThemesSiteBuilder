@@ -65,6 +65,12 @@ It resolves each theme with Hugo Modules, verifies the required files
 (theme.toml, LICENSE, README.md, thumbnail and screenshot images), and
 builds a small demo site with the theme to count errors and warnings.
 
+The Hugo binary used can be overridden with the HUGOTHEMES_HUGO_LATEST
+environment variable. If HUGOTHEMES_HUGO_BASELINE is also set (see
+firstup.env), a demo site that fails to build is retried with that older
+baseline version; the theme then passes the build check with a warning if
+the baseline build succeeds, and fails it only if both versions fail.
+
 The command exits with a non-zero status if any theme fails a check with
 severity error.`,
 		FlagSet: fs,

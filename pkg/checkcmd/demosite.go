@@ -14,6 +14,7 @@ import (
 	"sort"
 	"strconv"
 	"strings"
+	"sync"
 	"time"
 
 	"github.com/gohugoio/hugoThemesSiteBuilder/pkg/client"
@@ -69,9 +70,25 @@ func (c *Config) buildDemoSite(ctx context.Context, r *Report, workDir, modulePa
 
 	c.checkNpmPackages(ctx, r, siteDir)
 
-	out, err := runHugoCapture(ctx, siteDir)
+	latest := client.HugoBinary()
+	out, err := runHugoCapture(ctx, latest, siteDir)
 	if err != nil {
-		r.add(check, SeverityError, "demo site build failed:\n%s", strings.Join(tailLines(out, 15), "\n"))
+		failure := strings.Join(tailLines(out, 15), "\n")
+		// A theme gets a pass (with a warning) if it still builds with the
+		// baseline Hugo version; only themes that fail with both versions
+		// fail the build check (and become bitrot candidates).
+		if baseline := hugoBaselineBinary(); baseline != "" {
+			bout, berr := runHugoCapture(ctx, baseline, siteDir)
+			if berr == nil {
+				message := "demo site built with baseline " + hugoVersion(ctx, baseline)
+				if pages := parsePagesCount(bout); pages > 0 {
+					message += " (" + strconv.Itoa(pages) + " pages)"
+				}
+				r.add(check, SeverityWarning, "%s, but the build failed with %s:\n%s", message, hugoVersion(ctx, latest), failure)
+				return
+			}
+		}
+		r.add(check, SeverityError, "demo site build failed with %s:\n%s", hugoVersion(ctx, latest), failure)
 		return
 	}
 
@@ -124,7 +141,7 @@ var allowedNpmPackages = map[string]bool{
 func (c *Config) checkNpmPackages(ctx context.Context, r *Report, siteDir string) {
 	const check = "npm"
 
-	if out, err := runHugoCapture(ctx, siteDir, "mod", "npm", "pack"); err != nil {
+	if out, err := runHugoCapture(ctx, client.HugoBinary(), siteDir, "mod", "npm", "pack"); err != nil {
 		r.add(check, SeverityWarning, "hugo mod npm pack failed:\n%s", strings.Join(tailLines(out, 5), "\n"))
 		return
 	}
@@ -233,10 +250,37 @@ func runNpmInstall(ctx context.Context, dir string) (string, error) {
 	return buf.String(), err
 }
 
-func runHugoCapture(ctx context.Context, dir string, args ...string) (string, error) {
+// hugoBaselineBinary returns the (older) baseline Hugo binary set with the
+// HUGOTHEMES_HUGO_BASELINE environment variable (see firstup.env), or the
+// empty string if not set.
+func hugoBaselineBinary() string {
+	return os.Getenv("HUGOTHEMES_HUGO_BASELINE")
+}
+
+var hugoVersions sync.Map
+
+// hugoVersion returns the version (e.g. "v0.165.0") reported by the given
+// Hugo binary, falling back to the binary name itself.
+func hugoVersion(ctx context.Context, bin string) string {
+	if v, ok := hugoVersions.Load(bin); ok {
+		return v.(string)
+	}
+	v := bin
+	if out, err := runHugoCapture(ctx, bin, "", "version"); err == nil {
+		if m := hugoVersionRe.FindString(out); m != "" {
+			v = m
+		}
+	}
+	hugoVersions.Store(bin, v)
+	return v
+}
+
+var hugoVersionRe = regexp.MustCompile(`v\d+\.\d+\.\d+`)
+
+func runHugoCapture(ctx context.Context, bin, dir string, args ...string) (string, error) {
 	ctx, cancel := context.WithTimeout(ctx, 3*time.Minute)
 	defer cancel()
-	cmd := exec.CommandContext(ctx, "hugo", args...)
+	cmd := exec.CommandContext(ctx, bin, args...)
 	cmd.Dir = dir
 	var buf bytes.Buffer
 	cmd.Stdout = &buf
