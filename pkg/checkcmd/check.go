@@ -54,12 +54,18 @@ func New(rootConfig *rootcmd.Config) *ffcli.Command {
 
 	return &ffcli.Command{
 		Name:       "check",
-		ShortUsage: rootcmd.CommandName + " check [flags] <module-path>...",
+		ShortUsage: rootcmd.CommandName + " check [flags] <module-path>|<PR-number>...",
 		ShortHelp:  "Check runs the basic theme submission checks for the given theme module(s).",
 		LongHelp: `Check runs the basic (deterministic) theme submission checks for the given
 theme module(s), e.g.:
 
    hugothemesitebuilder check github.com/user/my-theme
+
+An all-digits argument is treated as a pull request number in this
+repository, and is replaced with the theme(s) that pull request adds to
+themes.txt:
+
+   hugothemesitebuilder check 812
 
 It resolves each theme with Hugo Modules, verifies the required files
 (theme.toml, LICENSE, README.md, thumbnail and screenshot images), and
@@ -85,7 +91,12 @@ func (c *Config) Exec(ctx context.Context, args []string) error {
 	}
 
 	if len(args) == 0 {
-		return errors.New("check: at least one theme module path is required, e.g. github.com/user/my-theme")
+		return errors.New("check: at least one theme module path or PR number is required, e.g. github.com/user/my-theme")
+	}
+
+	args, err := expandPRArgs(args)
+	if err != nil {
+		return err
 	}
 
 	reports := c.checkThemes(ctx, args)
@@ -175,9 +186,11 @@ func (c *Config) resolveModule(r *Report, workDir, modulePath string) *client.Mo
 	}
 
 	// Deep-merge the theme's config into this site config so that e.g.
-	// module.hugoVersion is visible to "hugo config".
+	// module.hugoVersion is visible to "hugo config". The security config
+	// is set explicitly so the theme cannot override it.
 	config := map[string]interface{}{
-		"_merge": "deep",
+		"_merge":   "deep",
+		"security": defaultSecurityConfig,
 		"module": map[string]interface{}{
 			"imports": []map[string]interface{}{
 				{

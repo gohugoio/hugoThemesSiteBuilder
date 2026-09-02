@@ -405,6 +405,28 @@ func (c *Client) fetchGitHubRepo(m Module) (GitHubRepo, error) {
 	return repo, nil
 }
 
+// PullRequestFile is a file changed in a GitHub pull request.
+type PullRequestFile struct {
+	Filename string `json:"filename"`
+	Status   string `json:"status"`
+	Patch    string `json:"patch"`
+}
+
+// GetPullRequestFiles returns the files changed in the given pull request
+// in the gohugoio/hugoThemesSiteBuilder repository.
+func GetPullRequestFiles(pr int) ([]PullRequestFile, error) {
+	apiURL := fmt.Sprintf("https://api.github.com/repos/gohugoio/hugoThemesSiteBuilder/pulls/%d/files?per_page=100", pr)
+	req, err := http.NewRequest("GET", apiURL, nil)
+	if err != nil {
+		return nil, err
+	}
+	var files []PullRequestFile
+	if err := doGitHubRequest(req, &files); err != nil {
+		return nil, err
+	}
+	return files, nil
+}
+
 func (c *Client) fetchGitHubRepos(mods ModulesMap) (map[string]GitHubRepo, error) {
 	repos := make(map[string]GitHubRepo)
 	errCount := 0
