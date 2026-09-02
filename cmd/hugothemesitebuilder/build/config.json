@@ -998,7 +998,7 @@
         "ignoreConfig": true,
         "ignoreImports": true,
         "noMounts": true,
-        "path": "github.com/francoiducat/hugo-air"
+        "path": "github.com/fducat18/hugo-air"
       },
       {
         "ignoreConfig": true,
@@ -1215,12 +1215,6 @@
         "ignoreImports": true,
         "noMounts": true,
         "path": "github.com/heyeshuang/hugo-theme-tokiwa"
-      },
-      {
-        "ignoreConfig": true,
-        "ignoreImports": true,
-        "noMounts": true,
-        "path": "github.com/hivickylai/hugo-theme-sam"
       },
       {
         "ignoreConfig": true,
@@ -1539,6 +1533,12 @@
         "ignoreImports": true,
         "noMounts": true,
         "path": "github.com/jmablog/hugo-clinic-notes"
+      },
+      {
+        "ignoreConfig": true,
+        "ignoreImports": true,
+        "noMounts": true,
+        "path": "github.com/jmfergeau/hugo.386"
       },
       {
         "ignoreConfig": true,
@@ -2750,6 +2750,12 @@
         "ignoreConfig": true,
         "ignoreImports": true,
         "noMounts": true,
+        "path": "github.com/sitepins/roxo-hugo"
+      },
+      {
+        "ignoreConfig": true,
+        "ignoreImports": true,
+        "noMounts": true,
         "path": "github.com/slashformotion/hugo-tufte"
       },
       {
@@ -2835,12 +2841,6 @@
         "ignoreImports": true,
         "noMounts": true,
         "path": "github.com/StaticMania/portio-hugo"
-      },
-      {
-        "ignoreConfig": true,
-        "ignoreImports": true,
-        "noMounts": true,
-        "path": "github.com/StaticMania/roxo-hugo"
       },
       {
         "ignoreConfig": true,
@@ -3051,6 +3051,12 @@
         "ignoreImports": true,
         "noMounts": true,
         "path": "github.com/victoriadrake/hugo-theme-quint"
+      },
+      {
+        "ignoreConfig": true,
+        "ignoreImports": true,
+        "noMounts": true,
+        "path": "github.com/victoriadrake/hugo-theme-sam"
       },
       {
         "ignoreConfig": true,
@@ -3423,12 +3429,6 @@
         "ignoreImports": true,
         "noMounts": true,
         "path": "gitlab.com/jimchr12/hugo-minimal-black"
-      },
-      {
-        "ignoreConfig": true,
-        "ignoreImports": true,
-        "noMounts": true,
-        "path": "gitlab.com/jmfergeau/hugo.386"
       },
       {
         "ignoreConfig": true,
