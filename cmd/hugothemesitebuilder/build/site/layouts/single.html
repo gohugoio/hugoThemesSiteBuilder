@@ -48,7 +48,7 @@
         </div>
       </div>
       <div
-        class="mx-auto pt-16 lg:pt-24  flex max-w-2xl  lg:mt-0 lg:mr-0 lg:ml-18 lg:max-w-none lg:flex-none">
+        class="mx-auto pt-16 lg:pt-24  flex max-w-2xl  lg:mt-0 lg:mr-0 lg:ml-18 md:max-w-none lg:flex-none">
         {{ $img := (.Resources.ByType "image").GetMatch "*screen*" }}
         {{ if $img }}
           {{ partial "helpers/picture.html" (dict
