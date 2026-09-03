@@ -169,7 +169,7 @@ func (c *Config) checkTheme(ctx context.Context, modulePath string) *Report {
 	c.checkImages(r, m.Dir)
 	c.checkReadme(r, m.Dir)
 	c.checkHugoConfig(ctx, r, m, filepath.Join(workDir, "mod"))
-	c.checkMetaURLs(r, m)
+	c.checkMetaURLs(ctx, r, m)
 	c.buildDemoSite(ctx, r, workDir, modulePath)
 
 	return r
@@ -187,30 +187,50 @@ func (c *Config) resolveModule(r *Report, workDir, modulePath string) *client.Mo
 		return nil
 	}
 
-	// Deep-merge the theme's config into this site config so that e.g.
-	// module.hugoVersion is visible to "hugo config". The security config
-	// is set explicitly so the theme cannot override it.
+	// The resolution config ignores the theme's own config and imports so
+	// that resolving the module is as robust as possible; how the theme
+	// config behaves is judged separately.
 	config := map[string]interface{}{
-		"_merge":   "deep",
-		"security": defaultSecurityConfig,
 		"module": map[string]interface{}{
 			"imports": []map[string]interface{}{
 				{
 					"path":          modulePath,
 					"ignoreImports": true,
+					"ignoreConfig":  true,
 					"noMounts":      true,
 				},
 			},
 		},
 	}
-	b, err := json.MarshalIndent(config, "", "  ")
-	if err != nil {
-		r.add(check, SeverityError, "failed to marshal config: %s", err)
-		return nil
+	// The merged config deep-merges the theme's config (and resolves its
+	// imports) so that e.g. module.hugoVersion is visible to "hugo config";
+	// see themeHugoVersion. The security config is set explicitly so the
+	// theme cannot override it.
+	configMerged := map[string]interface{}{
+		"_merge":   "deep",
+		"security": defaultSecurityConfig,
+		"module": map[string]interface{}{
+			"imports": []map[string]interface{}{
+				{
+					"path":     modulePath,
+					"noMounts": true,
+				},
+			},
+		},
 	}
-	if err := os.WriteFile(filepath.Join(modDir, "config.json"), b, 0o666); err != nil {
-		r.add(check, SeverityError, "failed to write config: %s", err)
-		return nil
+	for filename, v := range map[string]interface{}{
+		"config.json":        config,
+		mergedConfigFilename: configMerged,
+	} {
+		b, err := json.MarshalIndent(v, "", "  ")
+		if err != nil {
+			r.add(check, SeverityError, "failed to marshal config: %s", err)
+			return nil
+		}
+		if err := os.WriteFile(filepath.Join(modDir, filename), b, 0o666); err != nil {
+			r.add(check, SeverityError, "failed to write config: %s", err)
+			return nil
+		}
 	}
 
 	cl, err := client.New(c.logWriter(), modDir)
