@@ -9,6 +9,7 @@ import (
 	_ "image/jpeg"
 	_ "image/png"
 	"math"
+	"net/http"
 	"os"
 	"os/exec"
 	"path"
@@ -256,13 +257,17 @@ type hugoConfig struct {
 	} `json:"module"`
 }
 
+// mergedConfigFilename is the site config that deep-merges the theme's own
+// config; see resolveModule.
+const mergedConfigFilename = "config-merged.json"
+
 // themeHugoVersion returns module.hugoVersion from the merged config of
 // the site in siteDir, which imports the theme and deep-merges its config
 // ("hugo config mounts" does not report it).
 func themeHugoVersion(ctx context.Context, siteDir string) (client.HugoVersion, error) {
 	ctx, cancel := context.WithTimeout(ctx, time.Minute)
 	defer cancel()
-	cmd := exec.CommandContext(ctx, client.HugoBinary(), "--config", "config.json", "config", "--format", "json")
+	cmd := exec.CommandContext(ctx, client.HugoBinary(), "--config", mergedConfigFilename, "config", "--format", "json")
 	cmd.Dir = siteDir
 	var stdout, stderr bytes.Buffer
 	cmd.Stdout = &stdout
@@ -277,7 +282,7 @@ func themeHugoVersion(ctx context.Context, siteDir string) (client.HugoVersion, 
 	return cfg.Module.HugoVersion, nil
 }
 
-func (c *Config) checkMetaURLs(r *Report, m *client.Module) {
+func (c *Config) checkMetaURLs(ctx context.Context, r *Report, m *client.Module) {
 	cl := c.rootConfig.Client
 	if cl == nil || !cl.OutFileExists("badhosts.txt") {
 		return
@@ -293,8 +298,40 @@ func (c *Config) checkMetaURLs(r *Report, m *client.Module) {
 		}
 		if cl.IsBadURL(s) {
 			r.add(key, SeverityError, "%s points to a blocked or non-existing host", s)
+			continue
+		}
+		if status, err := checkURLExists(ctx, s); err != nil {
+			r.add(key, SeverityWarning, "%s is not reachable: %s", s, err)
+		} else if status >= 400 {
+			r.add(key, SeverityWarning, "%s returned HTTP status %d", s, status)
 		} else {
 			r.add(key, SeverityOK, s)
 		}
 	}
+}
+
+// checkURLExists issues a HEAD request for the given URL, falling back to
+// GET (which some servers require), and returns the HTTP status code.
+func checkURLExists(ctx context.Context, url string) (int, error) {
+	ctx, cancel := context.WithTimeout(ctx, 15*time.Second)
+	defer cancel()
+	status, err := doURLRequest(ctx, http.MethodHead, url)
+	if err == nil && status < 400 {
+		return status, nil
+	}
+	return doURLRequest(ctx, http.MethodGet, url)
+}
+
+func doURLRequest(ctx context.Context, method, url string) (int, error) {
+	req, err := http.NewRequestWithContext(ctx, method, url, nil)
+	if err != nil {
+		return 0, err
+	}
+	req.Header.Set("User-Agent", "hugothemesitebuilder/check (+https://themes.gohugo.io/)")
+	resp, err := http.DefaultClient.Do(req)
+	if err != nil {
+		return 0, err
+	}
+	resp.Body.Close()
+	return resp.StatusCode, nil
 }
