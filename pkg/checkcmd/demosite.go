@@ -43,6 +43,13 @@ func (c *Config) buildDemoSite(ctx context.Context, r *Report, workDir, modulePa
 		"baseURL":  "https://example.org/",
 		"title":    "Hugo Theme Check Demo",
 		"security": defaultSecurityConfig,
+		// TailwindCSS needs Node permissions beyond what we allow for
+		// untrusted themes; with this set (Hugo >= v0.166.0) a blocked
+		// TailwindCSS run degrades to a warning instead of failing the
+		// build, so the rest of the site still gets validated.
+		"internalExternal": map[string]interface{}{
+			"ignoreTailwindCSSSecurityError": true,
+		},
 		"module": map[string]interface{}{
 			"imports": []map[string]interface{}{
 				{"path": modulePath},
@@ -171,6 +178,7 @@ var allowedNpmPackages = map[string]bool{
 	"@tailwindcss/cli":          true,
 	"@tailwindcss/forms":        true,
 	"@tailwindcss/typography":   true,
+	"@tailwindcss/postcss":      true,
 	"autoprefixer":              true,
 	"cssnano":                   true,
 	"postcss":                   true,
