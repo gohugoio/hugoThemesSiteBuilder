@@ -1,5 +1,6 @@
 codeberg.org/farooqkz/hugo-vitae
 codeberg.org/gbilder/eurozephyr
+codeberg.org/head1328/hugo-liftoff
 codeberg.org/VaDeCodiNet/hugo-landing-accordion
 codeberg.org/VaDeCodiNet/hugo-landing-sections
 codeberg.org/VaDeCodiNet/hugo-simple-sections
@@ -12,6 +13,7 @@ github.com/526avijitgupta/gokarna
 github.com/64bitpandas/amethyst
 github.com/7ma7X/HugoTeX
 github.com/aanupam23/hugo-sugoi
+github.com/abhyuday-fr/hugo-macchiato
 github.com/achary/engimo
 github.com/adityatelange/hugo-index
 github.com/adityatelange/hugo-PaperMod
@@ -43,6 +45,7 @@ github.com/apvarun/digital-garden-hugo-theme
 github.com/apvarun/showcase-hugo-theme
 github.com/apvarun/showfolio-hugo-theme
 github.com/ArkhamCookie/moonwalk-hugo
+github.com/ArthurHeymans/hugo-emacs-theme
 github.com/asurbernardo/amperage
 github.com/athul/archie
 github.com/austingebauer/devise
@@ -79,6 +82,7 @@ github.com/carsonip/hugo-theme-minos
 github.com/cathelijne/hugo-theme-huguette
 github.com/cboettig/hugo-now-ui
 github.com/cdeck3r/OneDly-Theme
+github.com/cebor/vellum
 github.com/cfrome77/hugo-theme-sky
 github.com/chaitanya4vedi/navada
 github.com/chaoming/hugo-saasify-theme
@@ -94,6 +98,7 @@ github.com/cloudwithchris/hugo-creator
 github.com/cncf/dot-org-hugo-theme
 github.com/cntrump/hugo-notepadium
 github.com/coderzh/hugo-pacman-theme
+github.com/codesign2020/blank-magazine
 github.com/colinwilson/lotusdocs
 github.com/colorchestra/smol
 github.com/coolapso/hugo-theme-hello-4s3ti
@@ -140,6 +145,7 @@ github.com/Dobefu/hugo-theme-plume
 github.com/docura/docura
 github.com/dplesca/purehugo
 github.com/dsrkafuu/hugo-theme-fuji
+github.com/dukebarman/dragon-lab
 github.com/dumindu/E25DX
 github.com/edavidaja/docter
 github.com/eddiewebb/hugo-resume
@@ -152,6 +158,7 @@ github.com/Enerhim/enervoid-theme
 github.com/ertuil/erblog
 github.com/escalate/hugo-split-theme
 github.com/eshlox/simplicity
+github.com/everfu/hugo-solitude
 github.com/ExchangeRate-API/strange-case
 github.com/FarseaSH/hugo-theme-moments
 github.com/Fastbyte01/KeepIt
@@ -218,12 +225,14 @@ github.com/hugo-next/hugo-theme-next
 github.com/hugo-porto/theme
 github.com/hugo-sid/hugo-blog-awesome
 github.com/hugo-theme-anubis2/hugo-theme-anubis2
+github.com/hugo-themes/nerdy
 github.com/hugo-toha/toha/v4
 github.com/HugoBlox/hugo-blox-builder/modules/blox-tailwind
 github.com/HugoBlox/theme-documentation
 github.com/hugolify/hugolify-theme
 github.com/humrochagf/colordrop
 github.com/huyb1991/hugo-lamp
+github.com/iahsanujunda/hugo-theme-cactus
 github.com/ianrodrigues/hugo-tailwind-journal
 github.com/Ice-Hazymoon/hugo-theme-luna
 github.com/iCyris/hugo-theme-yuki
@@ -236,6 +245,7 @@ github.com/iron6909/clarity
 github.com/isaksolheim/cyberscape
 github.com/ismd/hugo-theme-vng-blue
 github.com/it-gro/hugo-theme-w3css-basic
+github.com/its-ammu/hugo-notebook
 github.com/IvanChou/hugo-theme-vec
 github.com/J-Siu/hugo-theme-sk1
 github.com/J-Siu/hugo-theme-sk2
@@ -263,6 +273,7 @@ github.com/joeroe/risotto
 github.com/JoeYang1412/hugo-theme-spectra
 github.com/jonathanjanssens/hugo-casper3
 github.com/josephhutch/aether
+github.com/josephhutch/noesis
 github.com/joshed-io/reveal-hugo
 github.com/jota-ele-ene/just-me
 github.com/joway/hugo-theme-yinyang
@@ -295,6 +306,7 @@ github.com/knadh/hugo-ink
 github.com/knokmki612/hugo-fill-and-stroke
 github.com/koirand/pulp
 github.com/kritoke/darksimplicity
+github.com/Kyure-A/hugo-twitter-style
 github.com/lasseborly/anybodyhome
 github.com/ldeso/hugo-flex
 github.com/leafee98/hugo-theme-flat
@@ -318,6 +330,8 @@ github.com/lukeorth/poison
 github.com/lxndrblz/anatole
 github.com/m03315/nomad-tech
 github.com/M1cR0xf7/kaslaanka
+github.com/m1rm/techly
+github.com/mackt/hugo-theme-kami
 github.com/maciejkosiarski/localcraft
 github.com/manid2/hugo-xterm
 github.com/mansoorbarri/coming-soon
@@ -327,8 +341,10 @@ github.com/maolonglong/hugo-simple
 github.com/marcanuy/simpleit-hugo-theme
 github.com/marcelorodrigo/hugo-fortyten
 github.com/MarcusVirg/forty
+github.com/Mariatta/hugo-theme-popular
 github.com/marketempower/axiom
 github.com/Masellum/hugo-theme-nostyleplease
+github.com/mathscantor/hugo-theme-kiyomi-portfolio
 github.com/math-queiroz/rusty-typewriter
 github.com/matsuyoshi30/harbor
 github.com/mattbutton/silhouette-hugo
@@ -364,11 +380,13 @@ github.com/mozanunal/hugo-classless
 github.com/mrhelloboy/seven
 github.com/mrmierzejewski/hugo-theme-console
 github.com/MunifTanjim/minimo
+github.com/myimilo/hugo-theme-stacknote
 github.com/nanxiaobei/hugo-paper
 github.com/nanxstats/hugo-tanka
 github.com/naro143/hugo-coder-portfolio
 github.com/natarajmb/charaka-hugo-theme
 github.com/nathancday/min_night
+github.com/noneback/hugo-theme-spoon
 github.com/ncrnkr/hugo-mikosch
 github.com/nicokaiser/hugo-theme-gallery/v4
 github.com/Nigh/tinyworks
@@ -388,6 +406,7 @@ github.com/nurlansu/hugo-sustain
 github.com/nusserstudios/tailbliss
 github.com/nux-li/hugo-foto-theme
 github.com/okkur/syna
+github.com/OliverObst/no-fate
 github.com/ololiuhqui/magnolia-free-hugo-theme
 github.com/olOwOlo/hugo-theme-even
 github.com/onweru/compose
@@ -408,6 +427,7 @@ github.com/pdevty/polymer
 github.com/peaceiris/hugo-theme-iris
 github.com/penyt/morandyt
 github.com/pfadfinder-konstanz/hugo-dpsg
+github.com/pgsty/oink
 github.com/ph-ph/chalk
 github.com/PippoRJ/hugo-refresh
 github.com/pjbakker/flexible-seo-hugo
@@ -429,10 +449,12 @@ github.com/razonyang/hugo-theme-bootstrap
 github.com/RCJacH/hugo-webslides
 github.com/RealOrangeOne/hugo-theme-revealjs
 github.com/realyezhihao/hugo-SakuraChiyo
+github.com/rehan-hk/hugo-tokyo-night-terminal-theme
 github.com/reuixiy/hugo-theme-meme
 github.com/rhazdon/hugo-theme-hello-friend-ng
 github.com/rhnvrm/bodhi
 github.com/ribice/kiss
+github.com/riglegit/rewired
 github.com/rijoth/rsimple
 github.com/rokcso/hugo-bearneo
 github.com/romka/fruhling
@@ -560,6 +582,7 @@ github.com/yuis-ice/hugo-kawaii
 github.com/Yukuro/hugo-theme-shell
 github.com/yursan9/manis-hugo-theme
 github.com/yezihack/kong-htop
+github.com/zenpe/hugo-theme-linen
 github.com/zavarovkv/hugo-mini/v3
 github.com/zenpe/zen
 github.com/zeon-studio/hugoplate
@@ -572,6 +595,7 @@ github.com/zetxek/adritian-free-hugo-theme
 github.com/zhaohuabing/hugo-theme-cleanwhite
 github.com/zhe/hugo-theme-slim
 github.com/zjedi/hugo-scroll
+github.com/zkreations/hudocs
 github.com/zzossig/hugo-theme-zdoc
 github.com/zzossig/hugo-theme-zzo
 github.com/zzzmisa/hugo-theme-doors
@@ -595,3 +619,6 @@ github.com/demius782/demius
 go.ngs.io/hugo-primer-blog
 github.com/Blunix-GmbH/hugo-theme-blunix
 github.com/wehrend/hugo-cards
+github.com/anastasiiaxfr/cryptoflow
+github.com/anastasiiaxfr/financemastery
+github.com/anastasiiaxfr/soft-serve-fe-2
