@@ -20,6 +20,7 @@ popd() {
 }
 
 pushd "../.."
+git config --global maintenance.auto false
 try go run main.go build
 popd
 if [ -z  ${NETLIFY} ] || [ "$CONTEXT" == "production" ]
