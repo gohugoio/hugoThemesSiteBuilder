@@ -43,6 +43,7 @@ func (c *Config) buildDemoSite(ctx context.Context, r *Report, workDir, modulePa
 		"baseURL":  "https://example.org/",
 		"title":    "Hugo Theme Check Demo",
 		"security": defaultSecurityConfig,
+		"params":   siteParams,
 		// TailwindCSS needs Node permissions beyond what we allow for
 		// untrusted themes; with this set (Hugo >= v0.166.0) a blocked
 		// TailwindCSS run degrades to a warning instead of failing the
@@ -169,6 +170,9 @@ var defaultSecurityConfig = map[string]interface{}{
 	},
 }
 
+// Some site params needed to build the demo sites.
+var siteParams = map[string]interface{}{}
+
 // allowedNpmPackages is the allowlist of npm packages a theme may depend
 // on. One of Hugo's selling points is that it can mostly be run without
 // npm, so anything beyond the common CSS tooling is a red flag (and a
@@ -187,6 +191,7 @@ var allowedNpmPackages = map[string]bool{
 	"postcss-nesting":           true,
 	"rtlcss":                    true,
 	"tailwindcss":               true,
+	"alpinejs":                  true,
 }
 
 // checkNpmPackages runs `hugo mod npm pack` to collect any npm
