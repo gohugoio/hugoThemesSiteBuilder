@@ -219,7 +219,6 @@ func (c *Client) CreateThemesConfig() error {
 			})
 		}
 	}
-
 	if err := scanner.Err(); err != nil {
 		return err
 	}
@@ -471,4 +470,191 @@ func doGitHubRequest(req *http.Request, v interface{}) error {
 	}
 
 	return json.NewDecoder(resp.Body).Decode(v)
+}
+
+// RepoInfo is a generic representation of a repository on a host
+// used for front matter and display purposes.
+type RepoInfo struct {
+	Host      string    `json:"host"`
+	HTMLURL   string    `json:"html_url"`
+	Stars     int       `json:"stars"`
+	CreatedAt time.Time `json:"created_at"`
+}
+
+// GetRepos will fetch repository information for known hosts (GitHub, GitLab, Codeberg)
+// and return a map keyed by module path.
+func (c *Client) GetRepos(mods ModulesMap, cleanCache bool) (map[string]RepoInfo, error) {
+	c.Logf("Get repos (GitHub/GitLab/Codeberg)")
+	defer c.TimeTrack(time.Now(), "Got repos")
+
+	repos := make(map[string]RepoInfo)
+
+	// First, load cached GitHub info where available.
+	ghMap, err := c.GetGitHubRepos(mods, cleanCache)
+	if err != nil {
+		c.Logf("warning: failed to load GitHub cache: %s", err)
+	}
+
+	for _, m := range mods {
+		// GitHub: prefer cached value from ghMap. Try both exact path and path without version (/vN).
+		if strings.HasPrefix(m.Path, "github.com") {
+			if gh, ok := ghMap[m.Path]; ok {
+				repos[m.Path] = RepoInfo{Host: "github", HTMLURL: gh.HTMLURL, Stars: gh.Stars, CreatedAt: gh.CreatedAt}
+				continue
+			}
+			if gh, ok := ghMap[m.PathWithoutVersion()]; ok {
+				repos[m.Path] = RepoInfo{Host: "github", HTMLURL: gh.HTMLURL, Stars: gh.Stars, CreatedAt: gh.CreatedAt}
+				continue
+			}
+
+			// Fallback to live fetch
+			gr, err := c.fetchGitHubRepo(m)
+			if err != nil {
+				c.Logf("warning: failed GitHub lookup for %s: %s", m.Path, err)
+				repos[m.Path] = RepoInfo{Host: "github", HTMLURL: fmt.Sprintf("https://%s", m.PathRepo())}
+				continue
+			}
+			repos[m.Path] = RepoInfo{Host: "github", HTMLURL: gr.HTMLURL, Stars: gr.Stars, CreatedAt: gr.CreatedAt}
+			continue
+		}
+
+		// GitLab
+		if strings.HasPrefix(m.Path, "gitlab.com") {
+			rif, err := c.fetchGitLabRepo(m)
+			if err != nil {
+				c.Logf("warning: failed GitLab lookup for %s: %s", m.Path, err)
+				repos[m.Path] = RepoInfo{Host: "gitlab", HTMLURL: fmt.Sprintf("https://%s", m.PathRepo())}
+				continue
+			}
+			repos[m.Path] = rif
+			continue
+		}
+
+		// Codeberg
+		if strings.HasPrefix(m.Path, "codeberg.org") {
+			rif, err := c.fetchCodebergRepo(m)
+			if err != nil {
+				c.Logf("warning: failed Codeberg lookup for %s: %s", m.Path, err)
+				repos[m.Path] = RepoInfo{Host: "codeberg", HTMLURL: fmt.Sprintf("https://%s", m.PathRepo())}
+				continue
+			}
+			repos[m.Path] = rif
+			continue
+		}
+
+		// default: unknown host, provide basic URL
+		repos[m.Path] = RepoInfo{Host: "unknown", HTMLURL: fmt.Sprintf("https://%s", m.PathRepo())}
+	}
+
+	return repos, nil
+}
+
+func (c *Client) fetchGitLabRepo(m Module) (RepoInfo, error) {
+	var ri RepoInfo
+	const gitlabdotcom = "gitlab.com"
+
+	if !strings.HasPrefix(m.Path, gitlabdotcom) {
+		return ri, nil
+	}
+
+	// GitLab API: projects/:id where id is URL-encoded path (owner%2Frepo)
+	repoPath := strings.TrimPrefix(m.PathRepo(), gitlabdotcom+"/")
+	apiURL := "https://gitlab.com/api/v4/projects/" + url.PathEscape(repoPath)
+
+	req, err := http.NewRequest("GET", apiURL, nil)
+	if err != nil {
+		return ri, err
+	}
+
+	resp, err := http.DefaultClient.Do(req)
+	if err != nil {
+		return ri, err
+	}
+	defer resp.Body.Close()
+
+	if isError(resp) {
+		b, _ := ioutil.ReadAll(resp.Body)
+		return ri, fmt.Errorf("GitLab lookup failed: %s", string(b))
+	}
+
+	var payload struct {
+		Stars     int    `json:"star_count"`
+		WebURL    string `json:"web_url"`
+		CreatedAt string `json:"created_at"`
+	}
+	if err := json.NewDecoder(resp.Body).Decode(&payload); err != nil {
+		return ri, err
+	}
+
+	var created time.Time
+	if payload.CreatedAt != "" {
+		if t, err := time.Parse(time.RFC3339, payload.CreatedAt); err == nil {
+			created = t
+		}
+	}
+
+	ri = RepoInfo{Host: "gitlab", HTMLURL: payload.WebURL, Stars: payload.Stars, CreatedAt: created}
+	return ri, nil
+}
+
+func (c *Client) fetchCodebergRepo(m Module) (RepoInfo, error) {
+	var ri RepoInfo
+	const codeberg = "codeberg.org"
+
+	if !strings.HasPrefix(m.Path, codeberg) {
+		return ri, nil
+	}
+
+	// Codeberg (Gitea) API: /api/v1/repos/{owner}/{repo}
+	repoPath := strings.TrimPrefix(m.PathRepo(), codeberg+"/")
+	apiURL := "https://codeberg.org/api/v1/repos/" + repoPath
+
+	req, err := http.NewRequest("GET", apiURL, nil)
+	if err != nil {
+		return ri, err
+	}
+
+	resp, err := http.DefaultClient.Do(req)
+	if err != nil {
+		return ri, err
+	}
+	defer resp.Body.Close()
+
+	if isError(resp) {
+		b, _ := ioutil.ReadAll(resp.Body)
+		return ri, fmt.Errorf("Codeberg lookup failed: %s", string(b))
+	}
+
+	var payload map[string]interface{}
+	if err := json.NewDecoder(resp.Body).Decode(&payload); err != nil {
+		return ri, err
+	}
+
+	// Try common fields
+	stars := 0
+	if v, ok := payload["stargazers_count"]; ok {
+		if f, ok := v.(float64); ok {
+			stars = int(f)
+		}
+	}
+	if stars == 0 {
+		if v, ok := payload["watchers_count"]; ok {
+			if f, ok := v.(float64); ok {
+				stars = int(f)
+			}
+		}
+	}
+
+	html := "https://" + m.PathRepo()
+	created := time.Time{}
+	if v, ok := payload["created_at"]; ok {
+		if s, ok := v.(string); ok && s != "" {
+			if t, err := time.Parse(time.RFC3339, s); err == nil {
+				created = t
+			}
+		}
+	}
+
+	ri = RepoInfo{Host: "codeberg", HTMLURL: html, Stars: stars, CreatedAt: created}
+	return ri, nil
 }

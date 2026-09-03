@@ -93,8 +93,17 @@
         {{ with .Params.meta.license }}
           {{ template "descriptionlist-item" (dict "label" "License" "value" . ) }}
         {{ end }}
-        {{ with .Params.githubInfo }}
-          {{ template "descriptionlist-item" (dict "label" "GitHub Stars" "value" .Stars ) }}
+        {{ with .Params.repoInfo }}
+          {{ $host := .host }}
+          {{ if eq $host "github" }}
+            {{ template "descriptionlist-item" (dict "label" "GitHub Stars" "value" .stars ) }}
+          {{ else if eq $host "gitlab" }}
+            {{ template "descriptionlist-item" (dict "label" "GitLab Stars" "value" .stars ) }}
+          {{ else if eq $host "codeberg" }}
+            {{ template "descriptionlist-item" (dict "label" "Codeberg Stars" "value" .stars ) }}
+          {{ else }}
+            {{ template "descriptionlist-item" (dict "label" "Repository Stars" "value" .stars ) }}
+          {{ end }}
         {{ end }}
         {{ with .Params.hugoVersion.min }}
           {{ template "descriptionlist-item" (dict "label" "Minimum Hugo Version" "value" . ) }}
