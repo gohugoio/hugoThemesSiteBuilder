@@ -2474,6 +2474,12 @@
         "ignoreConfig": true,
         "ignoreImports": true,
         "noMounts": true,
+        "path": "github.com/omegion/hugo-omegion"
+      },
+      {
+        "ignoreConfig": true,
+        "ignoreImports": true,
+        "noMounts": true,
         "path": "github.com/onweru/compose"
       },
       {
@@ -3381,6 +3387,12 @@
         "ignoreImports": true,
         "noMounts": true,
         "path": "github.com/writeonlycode/hugo-up-business"
+      },
+      {
+        "ignoreConfig": true,
+        "ignoreImports": true,
+        "noMounts": true,
+        "path": "github.com/wthouse/scanlines"
       },
       {
         "ignoreConfig": true,
