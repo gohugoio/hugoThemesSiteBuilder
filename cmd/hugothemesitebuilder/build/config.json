@@ -3740,6 +3740,12 @@
         "ignoreConfig": true,
         "ignoreImports": true,
         "noMounts": true,
+        "path": "github.com/k-s-pavan-kumar/hugo-nimbus"
+      },
+      {
+        "ignoreConfig": true,
+        "ignoreImports": true,
+        "noMounts": true,
         "path": "github.com/anastasiiaxfr/cryptoflow"
       },
       {
