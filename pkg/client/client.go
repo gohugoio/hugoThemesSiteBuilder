@@ -153,8 +153,95 @@ func (c *Client) RunHugo(arg ...string) error {
 	return c.runHugo(nil, arg...)
 }
 
+const (
+	// ThemesTxt holds the published themes.
+	ThemesTxt = "themes.txt"
+	// ThemesBitrotTxt holds themes temporarily unpublished because they
+	// no longer build with a recent Hugo version.
+	ThemesBitrotTxt = "themes.bitrot.txt"
+)
+
 func (c *Client) themesTxtFilename() string {
-	return filepath.Join(c.outDir, "../../..", "themes.txt")
+	return c.themesFilename(ThemesTxt)
+}
+
+func (c *Client) themesFilename(base string) string {
+	return filepath.Join(c.outDir, "../../..", base)
+}
+
+// ReadThemesFile reads the given themes list file (e.g. themes.txt) from
+// the repository root and returns the module paths in it. A missing file
+// returns an empty list.
+func (c *Client) ReadThemesFile(base string) ([]string, error) {
+	f, err := os.Open(c.themesFilename(base))
+	if err != nil {
+		if os.IsNotExist(err) {
+			return nil, nil
+		}
+		return nil, err
+	}
+	defer f.Close()
+	var paths []string
+	scanner := bufio.NewScanner(f)
+	for scanner.Scan() {
+		line := strings.TrimSpace(scanner.Text())
+		if line == "" || strings.HasPrefix(line, "#") {
+			continue
+		}
+		paths = append(paths, line)
+	}
+	return paths, scanner.Err()
+}
+
+// UpdateThemesFile removes and then adds the given module paths to the
+// given themes list file in the repository root. Existing lines (including
+// comments) keep their order; additions are inserted in lexicographical
+// (case-insensitive) position. If the file does not exist it is created
+// with the given header comment.
+func (c *Client) UpdateThemesFile(base, header string, remove, add []string) error {
+	filename := c.themesFilename(base)
+
+	var lines []string
+	b, err := os.ReadFile(filename)
+	if err != nil {
+		if !os.IsNotExist(err) {
+			return err
+		}
+		if header != "" {
+			for _, line := range strings.Split(strings.TrimSpace(header), "\n") {
+				lines = append(lines, "# "+line)
+			}
+		}
+	} else {
+		removeSet := make(map[string]bool)
+		for _, p := range remove {
+			removeSet[p] = true
+		}
+		for _, line := range strings.Split(strings.TrimRight(string(b), "\n"), "\n") {
+			if removeSet[strings.TrimSpace(line)] {
+				continue
+			}
+			lines = append(lines, line)
+		}
+	}
+
+	isTheme := func(line string) bool {
+		line = strings.TrimSpace(line)
+		return line != "" && !strings.HasPrefix(line, "#")
+	}
+
+	for _, p := range add {
+		idx := len(lines)
+		for i, line := range lines {
+			if isTheme(line) && strings.ToLower(strings.TrimSpace(line)) > strings.ToLower(p) {
+				idx = i
+				break
+			}
+		}
+		lines = append(lines[:idx], append([]string{p}, lines[idx:]...)...)
+	}
+
+	return os.WriteFile(filename, []byte(strings.Join(lines, "\n")+"\n"), 0o666)
 }
 
 func (c *Client) RemoveModulePathFromThemesTxt(module string) error {
@@ -318,6 +405,28 @@ func (c *Client) fetchGitHubRepo(m Module) (GitHubRepo, error) {
 	return repo, nil
 }
 
+// PullRequestFile is a file changed in a GitHub pull request.
+type PullRequestFile struct {
+	Filename string `json:"filename"`
+	Status   string `json:"status"`
+	Patch    string `json:"patch"`
+}
+
+// GetPullRequestFiles returns the files changed in the given pull request
+// in the gohugoio/hugoThemesSiteBuilder repository.
+func GetPullRequestFiles(pr int) ([]PullRequestFile, error) {
+	apiURL := fmt.Sprintf("https://api.github.com/repos/gohugoio/hugoThemesSiteBuilder/pulls/%d/files?per_page=100", pr)
+	req, err := http.NewRequest("GET", apiURL, nil)
+	if err != nil {
+		return nil, err
+	}
+	var files []PullRequestFile
+	if err := doGitHubRequest(req, &files); err != nil {
+		return nil, err
+	}
+	return files, nil
+}
+
 func (c *Client) fetchGitHubRepos(mods ModulesMap) (map[string]GitHubRepo, error) {
 	repos := make(map[string]GitHubRepo)
 	errCount := 0
@@ -337,6 +446,16 @@ func (c *Client) fetchGitHubRepos(mods ModulesMap) (map[string]GitHubRepo, error
 	return repos, nil
 }
 
+// HugoBinary returns the name of the Hugo binary to run, which can be
+// overridden with the HUGOTHEMES_HUGO_LATEST environment variable (see
+// firstup.env).
+func HugoBinary() string {
+	if s := os.Getenv("HUGOTHEMES_HUGO_LATEST"); s != "" {
+		return s
+	}
+	return "hugo"
+}
+
 func (c *Client) runHugo(w io.Writer, arg ...string) error {
 	env := os.Environ()
 
@@ -349,7 +468,7 @@ func (c *Client) runHugo(w io.Writer, arg ...string) error {
 	var errBuf bytes.Buffer
 	stderr := io.MultiWriter(os.Stderr, &errBuf)
 
-	cmd := exec.Command("hugo", arg...)
+	cmd := exec.Command(HugoBinary(), arg...)
 	cmd.Dir = c.outDir
 	cmd.Env = env
 	cmd.Stdout = w
