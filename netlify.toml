@@ -14,4 +14,4 @@
     GO_VERSION   = "1.26.0"
     # Uncomment to leave the themes of one or more unstable Git hosts out
     # of the build (they will be missing from the site until removed again).
-    HUGO_THEMES_SKIP_HOSTS = "codeberg.org"
+    #HUGO_THEMES_SKIP_HOSTS = "codeberg.org"
