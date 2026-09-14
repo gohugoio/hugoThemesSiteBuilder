@@ -65,7 +65,7 @@ require (
 	github.com/MarcusVirg/forty v0.0.0-20190430033326-dccea57bd2ed // indirect
 	github.com/Mariatta/hugo-theme-popular v0.12.0 // indirect
 	github.com/Masellum/hugo-theme-nostyleplease v0.0.0-20250120053207-cfbfe4e8ed13 // indirect
-	github.com/McShelby/hugo-theme-relearn v0.0.0-20260912231415-19324355dde6 // indirect
+	github.com/McShelby/hugo-theme-relearn v0.0.0-20260913145329-4d96fe77a427 // indirect
 	github.com/MeiK2333/github-style v0.0.0-20260328081007-33ee598378fa // indirect
 	github.com/MichaelSchaecher/simple-dark v0.0.0-20250103115132-46361b0e75d6 // indirect
 	github.com/MunifTanjim/minimo v2.10.1+incompatible // indirect
@@ -217,7 +217,7 @@ require (
 	github.com/dplesca/purehugo v0.0.0-20190924072610-5b577adff2e1 // indirect
 	github.com/dsrkafuu/hugo-theme-fuji v2.8.2+incompatible // indirect
 	github.com/dukebarman/dragon-lab v0.0.0-20260719195959-856533c61c73 // indirect
-	github.com/dumindu/E25DX v0.0.0-20260912172424-e44a412b1506 // indirect
+	github.com/dumindu/E25DX v0.0.0-20260913094813-600f3a2e9c15 // indirect
 	github.com/edavidaja/docter v0.2.0 // indirect
 	github.com/eddiewebb/hugo-resume v0.0.0-20260903171754-c05485ec4c10 // indirect
 	github.com/elecbrandy/freshpink v0.0.0-20260206022413-d7159cc23c93 // indirect
@@ -385,7 +385,7 @@ require (
 	github.com/mansoorbarri/roadster v0.0.0-20260330013217-cf57f17ee5a5 // indirect
 	github.com/maolonglong/hugo-simple v0.0.0-20260904134657-a87a19a758fc // indirect
 	github.com/marcanuy/simpleit-hugo-theme v0.0.0-20260212212648-108138d713d5 // indirect
-	github.com/marcelorodrigo/hugo-fortyten v3.0.1+incompatible // indirect
+	github.com/marcelorodrigo/hugo-fortyten v3.1.0+incompatible // indirect
 	github.com/marketempower/axiom v0.9.0 // indirect
 	github.com/math-queiroz/rusty-typewriter v0.0.0-20260723233002-5a3c01325702 // indirect
 	github.com/mathscantor/hugo-theme-kiyomi-portfolio v0.0.0-20260531045846-e2d03b524c4a // indirect
