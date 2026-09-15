@@ -398,7 +398,7 @@ require (
 	github.com/mcrwfrd/hugo-frances-theme v0.0.0-20190917015302-bed6647b837f // indirect
 	github.com/mdashx/basicwebtheme v0.3.0 // indirect
 	github.com/mdfriday/theme-long-teng v0.0.0-20241127060205-1fabfc515857 // indirect
-	github.com/medialesson/hugo-theme-event v0.0.0-20260624203506-d2c3ee21bc9f // indirect
+	github.com/medialesson/hugo-theme-event v0.0.0-20260914092321-c339e6c5f6d8 // indirect
 	github.com/meibenny/elephants v0.1.4 // indirect
 	github.com/meimakes/loficode-hugo-theme v0.0.0-20260625142301-4604b96f7c01 // indirect
 	github.com/meimakes/vintage-web-hugo-theme v0.0.0-20260625142301-8570b3c4a7bd // indirect
@@ -440,7 +440,7 @@ require (
 	github.com/ntk148v/shibui v0.1.0 // indirect
 	github.com/nunocoracao/blowfish/v2 v2.106.0 // indirect
 	github.com/nurlansu/hugo-sustain v0.0.0-20230524192148-21d9f8f53692 // indirect
-	github.com/nusserstudios/tailbliss v0.0.0-20260907210102-2084fb0ebfb7 // indirect
+	github.com/nusserstudios/tailbliss v0.0.0-20260914210117-fe8da027abfc // indirect
 	github.com/nux-li/hugo-foto-theme v1.0.1 // indirect
 	github.com/okkur/syna v0.17.4 // indirect
 	github.com/olOwOlo/hugo-theme-even v4.1.0+incompatible // indirect
