@@ -149,7 +149,7 @@ require (
 	github.com/bul-ikana/hugo-cards v0.0.0-20240920190353-7f961b20dfb0 // indirect
 	github.com/calintat/minimal v0.0.0-20210103220336-987f270dfee3 // indirect
 	github.com/canhtran/maverick v0.0.0-20251208193819-2ea4b5c76753 // indirect
-	github.com/canstand/compost v0.8.0 // indirect
+	github.com/canstand/compost v0.9.1 // indirect
 	github.com/capnfabs/paperesque v0.0.0-20260906160416-52293406db9c // indirect
 	github.com/caressofsteel/hugo-story v0.0.0-20251101165130-868e8c14c328 // indirect
 	github.com/carlosplanchon/hugo-theme-swiss-operator v0.0.0-20260618023225-6f38069c817e // indirect
@@ -158,7 +158,7 @@ require (
 	github.com/cathelijne/hugo-theme-huguette v0.0.0-20230926192551-370d1cd06943 // indirect
 	github.com/cboettig/hugo-now-ui v0.0.0-20200928163052-0978c64772bf // indirect
 	github.com/cdeck3r/OneDly-Theme v1.0.7 // indirect
-	github.com/cebor/vellum v0.3.1 // indirect
+	github.com/cebor/vellum v0.3.2 // indirect
 	github.com/cfrome77/hugo-theme-sky v0.0.0-20220117033109-ff94be67da92 // indirect
 	github.com/chaitanya4vedi/navada v0.0.0-20211223142020-aa7018bddcfc // indirect
 	github.com/chaoming/hugo-saasify-theme v1.0.2 // indirect
