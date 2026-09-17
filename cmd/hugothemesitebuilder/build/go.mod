@@ -133,7 +133,7 @@ require (
 	github.com/bake/solar-theme-hugo v0.0.0-20210403202535-97632b71c241 // indirect
 	github.com/balaramadurai/hugo-travelify-theme v0.0.0-20250602053820-8e0f9a5fa1b3 // indirect
 	github.com/barklan/hugo-dead-simple v1.76.6 // indirect
-	github.com/bect/kopi v0.0.0-20260709145259-d535b39ebac5 // indirect
+	github.com/bect/kopi v0.0.0-20260916155722-519b9009cd7d // indirect
 	github.com/bep/docuapi/v2 v2.5.1 // indirect
 	github.com/bep/galleriesdeluxe v0.8.0 // indirect
 	github.com/bep/gallerydeluxe v0.15.0 // indirect
