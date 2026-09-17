@@ -71,6 +71,10 @@ func (c *Client) IsBadURL(s string) bool {
 
 		}
 
+		if err := scanner.Err(); err != nil {
+			c.Logf("error: Failed to scan bad hosts: %s", err)
+		}
+
 		c.Logf("Loaded %d bad hosts", counter)
 	})
 
