@@ -413,6 +413,7 @@ require (
 	github.com/mivinci/hugo-theme-minima v1.1.0 // indirect
 	github.com/mnjm/kayal v0.4.0 // indirect
 	github.com/mnordhaus/pico-base v0.0.0-20250315194958-573aca9b49a9 // indirect
+	github.com/mobiusone-org/hugo-contour v0.0.0-20260901144557-2ae5317a506c // indirect
 	github.com/mohamedelhefni/vitis v0.0.0-20260315160722-760d3ad4be09 // indirect
 	github.com/mohamedelhefni/zahi v0.0.0-20260107232226-af33e41d12d2 // indirect
 	github.com/monkeyWzr/hugo-theme-cactus v0.0.0-20240312084910-a5df1d6bed25 // indirect
