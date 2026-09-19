@@ -378,7 +378,7 @@ require (
 	github.com/m03315/nomad-tech v0.0.0-20260702092121-a72d2f55ef8d // indirect
 	github.com/m1rm/techly v1.0.0 // indirect
 	github.com/maciejkosiarski/localcraft v1.9.0 // indirect
-	github.com/mackt/hugo-theme-kami v0.1.0 // indirect
+	github.com/mackt/hugo-theme-kami v0.2.0 // indirect
 	github.com/manid2/hugo-xterm v1.8.0 // indirect
 	github.com/mansoorbarri/coming-soon v0.0.0-20250614214524-a7f0a30d1349 // indirect
 	github.com/mansoorbarri/glim-midnight v0.0.0-20250614213629-efd74b72c425 // indirect
