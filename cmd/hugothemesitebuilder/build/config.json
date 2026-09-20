@@ -710,6 +710,12 @@
         "ignoreConfig": true,
         "ignoreImports": true,
         "noMounts": true,
+        "path": "github.com/dadoonet/hugo-theme-devrel"
+      },
+      {
+        "ignoreConfig": true,
+        "ignoreImports": true,
+        "noMounts": true,
         "path": "github.com/damiencaselli/hugo-journal"
       },
       {
@@ -2612,6 +2618,12 @@
         "ignoreConfig": true,
         "ignoreImports": true,
         "noMounts": true,
+        "path": "github.com/PhantomPixelDev/hugo-theme-pico-corp"
+      },
+      {
+        "ignoreConfig": true,
+        "ignoreImports": true,
+        "noMounts": true,
         "path": "github.com/PhantomPixelDev/hugo-theme-retrocss"
       },
       {
@@ -3140,6 +3152,12 @@
         "ignoreConfig": true,
         "ignoreImports": true,
         "noMounts": true,
+        "path": "github.com/that-daniel/nuno"
+      },
+      {
+        "ignoreConfig": true,
+        "ignoreImports": true,
+        "noMounts": true,
         "path": "github.com/the2ne/hugo-frais"
       },
       {
@@ -3195,6 +3213,12 @@
         "ignoreImports": true,
         "noMounts": true,
         "path": "github.com/tomowang/hugo-theme-tailwind"
+      },
+      {
+        "ignoreConfig": true,
+        "ignoreImports": true,
+        "noMounts": true,
+        "path": "github.com/tomwrw/austere-theme-hugo"
       },
       {
         "ignoreConfig": true,
