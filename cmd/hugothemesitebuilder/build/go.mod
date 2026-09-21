@@ -149,7 +149,7 @@ require (
 	github.com/brycematheson/allegiant v0.0.0-20161024030126-4db3e8fe3a01 // indirect
 	github.com/bul-ikana/hugo-cards v0.0.0-20240920190353-7f961b20dfb0 // indirect
 	github.com/calintat/minimal v0.0.0-20210103220336-987f270dfee3 // indirect
-	github.com/canhtran/maverick v0.0.0-20251208193819-2ea4b5c76753 // indirect
+	github.com/canhtran/maverick v0.0.0-20260920035740-1e8c3f3a983e // indirect
 	github.com/canstand/compost v0.9.1 // indirect
 	github.com/capnfabs/paperesque v0.0.0-20260906160416-52293406db9c // indirect
 	github.com/caressofsteel/hugo-story v0.0.0-20251101165130-868e8c14c328 // indirect
@@ -468,7 +468,7 @@ require (
 	github.com/peaceiris/hugo-theme-iris v0.47.1 // indirect
 	github.com/penyt/morandyt v0.0.0-20260224010529-a6ee98200924 // indirect
 	github.com/pfadfinder-konstanz/hugo-dpsg v0.0.0-20241230153742-cfa903e0f4ac // indirect
-	github.com/pgsty/oink v1.0.0 // indirect
+	github.com/pgsty/oink v1.1.0 // indirect
 	github.com/ph-ph/chalk v0.0.0-20220515225815-7fa5c9bfc682 // indirect
 	github.com/pjbakker/flexible-seo-hugo v0.0.0-20210413080041-d65d15e84bd4 // indirect
 	github.com/plopcas/papaya v0.0.0-20200127235252-eaa132580761 // indirect
