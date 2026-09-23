@@ -6,7 +6,7 @@ require (
 	codeberg.org/VaDeCodiNet/hugo-landing-accordion v0.0.0-20260321101414-d37fb5f2a994 // indirect
 	codeberg.org/VaDeCodiNet/hugo-landing-sections v0.0.0-20251110223139-680534c61e2a // indirect
 	codeberg.org/VaDeCodiNet/hugo-simple-sections v0.0.0-20251209133628-85865438cda5 // indirect
-	codeberg.org/farooqkz/hugo-vitae v0.0.0-20260921072121-08eb9c2314ec // indirect
+	codeberg.org/farooqkz/hugo-vitae v0.0.0-20260922124319-867b8415e050 // indirect
 	codeberg.org/gbilder/eurozephyr v0.0.0-20260211065626-05264caa9aaf // indirect
 	codeberg.org/head1328/hugo-liftoff v0.1.2 // indirect
 	github.com/10mohi6/hugo-theme-simple-blog v0.0.0-20200616052212-86b4f6f6d734 // indirect
@@ -544,10 +544,10 @@ require (
 	github.com/tblyler/light-hugo v0.0.0-20201014192444-65d2bef4320a // indirect
 	github.com/tcgriffith/hugo-owaraiclub v0.0.0-20191105071036-a25aabbb1d0f // indirect
 	github.com/techbarrack/terminal-hugo-theme v0.0.0-20240611081157-ecce8013f3b7 // indirect
-	github.com/that-daniel/nuno v0.2.2 // indirect
+	github.com/that-daniel/nuno v0.3.0 // indirect
 	github.com/the2ne/hugo-frais v0.0.0-20200104180115-f6f23a885a7a // indirect
-	github.com/thegeeklab/hugo-geekblog v5.0.2+incompatible // indirect
-	github.com/thegeeklab/hugo-geekdoc v4.1.2+incompatible // indirect
+	github.com/thegeeklab/hugo-geekblog v5.0.3+incompatible // indirect
+	github.com/thegeeklab/hugo-geekdoc v4.1.3+incompatible // indirect
 	github.com/thingsym/hugo-theme-techdoc v1.1.0 // indirect
 	github.com/tnwhitwell/hugo-startpage-theme v0.0.0-20180704204829-76b1a1f5808e // indirect
 	github.com/tohn/linkshrubbery v0.0.0-20260518061337-a2070400963f // indirect
