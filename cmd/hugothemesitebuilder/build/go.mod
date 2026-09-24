@@ -65,7 +65,7 @@ require (
 	github.com/MarcusVirg/forty v0.0.0-20190430033326-dccea57bd2ed // indirect
 	github.com/Mariatta/hugo-theme-popular v0.12.0 // indirect
 	github.com/Masellum/hugo-theme-nostyleplease v0.0.0-20250120053207-cfbfe4e8ed13 // indirect
-	github.com/McShelby/hugo-theme-relearn v0.0.0-20260913145329-4d96fe77a427 // indirect
+	github.com/McShelby/hugo-theme-relearn v0.0.0-20260923211427-1b69d4dc4177 // indirect
 	github.com/MeiK2333/github-style v0.0.0-20260328081007-33ee598378fa // indirect
 	github.com/MichaelSchaecher/simple-dark v0.0.0-20250103115132-46361b0e75d6 // indirect
 	github.com/MunifTanjim/minimo v2.10.1+incompatible // indirect
@@ -407,7 +407,7 @@ require (
 	github.com/mertbakir/resume-a4 v1.1.0 // indirect
 	github.com/michaelneuper/hugo-texify3 v0.0.0-20260516135108-939a8f965b44 // indirect
 	github.com/michenriksen/hugo-theme-til v0.6.0 // indirect
-	github.com/michimani/simplog v1.1.4 // indirect
+	github.com/michimani/simplog v1.2.0 // indirect
 	github.com/miguelsimoni/hugo-initio v0.0.0-20230619214421-1f75a080452e // indirect
 	github.com/mikeblum/hugo-now v0.3.0 // indirect
 	github.com/mirus-ua/hugo-theme-re-terminal/v2 v2.4.4 // indirect
