@@ -304,7 +304,7 @@ require (
 	github.com/invinciblycool/lekh v0.0.0-20230506043404-4e65dc197414 // indirect
 	github.com/iron6909/clarity v0.0.0-20260219112744-305d139ef77f // indirect
 	github.com/isaksolheim/cyberscape v0.0.0-20231215205550-7bb6eda37240 // indirect
-	github.com/ismd/hugo-theme-vng-blue v0.0.0-20260626181049-517948bfe604 // indirect
+	github.com/ismd/hugo-theme-vng-blue v0.0.0-20260925120503-8e549069c9b7 // indirect
 	github.com/it-gro/hugo-theme-w3css-basic v0.0.0-20241005152123-36cef9545dbf // indirect
 	github.com/its-ammu/hugo-notebook v1.0.3 // indirect
 	github.com/jacksalici/salinger-theme/v2 v2.1.1 // indirect
@@ -600,7 +600,7 @@ require (
 	github.com/yoshiharuyamashita/blackburn v0.0.0-20220530060627-99cf136a06f3 // indirect
 	github.com/your-identity/hugo-theme-dimension v0.0.0-20210521214308-2474081b7846 // indirect
 	github.com/yue1124/hero v0.0.0-20211205133758-af2b1f878227 // indirect
-	github.com/yuis-ice/hugo-kawaii v0.0.0-20260827124401-3892b318fb1e // indirect
+	github.com/yuis-ice/hugo-kawaii v0.0.0-20260925183437-0195b1da732c // indirect
 	github.com/yursan9/manis-hugo-theme v0.0.0-20230228032349-9e8e09ebfc78 // indirect
 	github.com/zEttOn86/hugo_theme_windy v0.0.0-20240928062706-67ab0c273a76 // indirect
 	github.com/zavarovkv/hugo-mini/v3 v3.0.2 // indirect
