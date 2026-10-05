@@ -10,7 +10,7 @@
   #   unless the same property key is present in a more specific context.
 
   [build.environment]
-    HUGO_VERSION = "0.167.0"
+    HUGO_VERSION = "0.166.0"
     GO_VERSION   = "1.26.0"
     # Uncomment to leave the themes of one or more unstable Git hosts out
     # of the build (they will be missing from the site until removed again).
