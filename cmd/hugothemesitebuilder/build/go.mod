@@ -65,7 +65,7 @@ require (
 	github.com/MarcusVirg/forty v0.0.0-20190430033326-dccea57bd2ed // indirect
 	github.com/Mariatta/hugo-theme-popular v0.12.0 // indirect
 	github.com/Masellum/hugo-theme-nostyleplease v0.0.0-20250120053207-cfbfe4e8ed13 // indirect
-	github.com/McShelby/hugo-theme-relearn v0.0.0-20261004231814-7ad9b9fc5333 // indirect
+	github.com/McShelby/hugo-theme-relearn v0.0.0-20261005224555-301ca241e0f9 // indirect
 	github.com/MeiK2333/github-style v0.0.0-20260328081007-33ee598378fa // indirect
 	github.com/MichaelSchaecher/simple-dark v0.0.0-20250103115132-46361b0e75d6 // indirect
 	github.com/MunifTanjim/minimo v2.10.1+incompatible // indirect
@@ -472,7 +472,7 @@ require (
 	github.com/ph-ph/chalk v0.0.0-20220515225815-7fa5c9bfc682 // indirect
 	github.com/pjbakker/flexible-seo-hugo v0.0.0-20210413080041-d65d15e84bd4 // indirect
 	github.com/plopcas/papaya v0.0.0-20200127235252-eaa132580761 // indirect
-	github.com/pravin/hugo-theme-prav v0.0.0-20250227102256-0eef5bc38cea // indirect
+	github.com/pravin/hugo-theme-prav v0.0.0-20261005224608-648391236745 // indirect
 	github.com/professionalaf/hugo-news v0.0.0-20260201202034-31a438fdae4d // indirect
 	github.com/progrhyme/hugo-theme-bootie-docs v1.5.1 // indirect
 	github.com/prxshetty/hugo-noir v2.1.0+incompatible // indirect
@@ -528,8 +528,8 @@ require (
 	github.com/softwareyoga/ronu-hugo-theme v0.0.0-20220517180936-9b2aeaa4d0d3 // indirect
 	github.com/spaghettiwews/hugonews v0.0.0-20200229171635-342b6a47f09e // indirect
 	github.com/spech66/bootstrap-bp-hugo-startpage v0.0.0-20261004094131-a83530352777 // indirect
-	github.com/spech66/bootstrap-bp-hugo-theme v5.3.817+incompatible // indirect
-	github.com/spech66/flex-bp-hugo-cv v0.0.0-20261004094129-5a9361343c94 // indirect
+	github.com/spech66/bootstrap-bp-hugo-theme v5.3.818+incompatible // indirect
+	github.com/spech66/flex-bp-hugo-cv v0.0.0-20261005144246-564955fd2493 // indirect
 	github.com/spech66/materialize-bp-hugo-theme v0.0.0-20261004092903-33d8e54610dc // indirect
 	github.com/spf13/hyde v1.4.1 // indirect
 	github.com/splch/hugo-simplecss v0.0.0-20220426050908-aa5090af89a9 // indirect
@@ -546,8 +546,8 @@ require (
 	github.com/techbarrack/terminal-hugo-theme v0.0.0-20240611081157-ecce8013f3b7 // indirect
 	github.com/that-daniel/nuno v0.3.0 // indirect
 	github.com/the2ne/hugo-frais v0.0.0-20200104180115-f6f23a885a7a // indirect
-	github.com/thegeeklab/hugo-geekblog v5.0.3+incompatible // indirect
-	github.com/thegeeklab/hugo-geekdoc v4.1.3+incompatible // indirect
+	github.com/thegeeklab/hugo-geekblog v5.1.0+incompatible // indirect
+	github.com/thegeeklab/hugo-geekdoc v4.1.4+incompatible // indirect
 	github.com/thingsym/hugo-theme-techdoc v1.1.0 // indirect
 	github.com/tnwhitwell/hugo-startpage-theme v0.0.0-20180704204829-76b1a1f5808e // indirect
 	github.com/tohn/linkshrubbery v0.0.0-20260518061337-a2070400963f // indirect
