@@ -65,7 +65,7 @@ require (
 	github.com/MarcusVirg/forty v0.0.0-20190430033326-dccea57bd2ed // indirect
 	github.com/Mariatta/hugo-theme-popular v0.13.0 // indirect
 	github.com/Masellum/hugo-theme-nostyleplease v0.0.0-20250120053207-cfbfe4e8ed13 // indirect
-	github.com/McShelby/hugo-theme-relearn v0.0.0-20261007232329-673ca11132f3 // indirect
+	github.com/McShelby/hugo-theme-relearn v0.0.0-20261008204434-7fb6ece24e30 // indirect
 	github.com/MeiK2333/github-style v0.0.0-20260328081007-33ee598378fa // indirect
 	github.com/MichaelSchaecher/simple-dark v0.0.0-20250103115132-46361b0e75d6 // indirect
 	github.com/MunifTanjim/minimo v2.10.1+incompatible // indirect
@@ -219,7 +219,7 @@ require (
 	github.com/dplesca/purehugo v0.0.0-20190924072610-5b577adff2e1 // indirect
 	github.com/dsrkafuu/hugo-theme-fuji v2.8.2+incompatible // indirect
 	github.com/dukebarman/dragon-lab v0.0.0-20260719195959-856533c61c73 // indirect
-	github.com/dumindu/E25DX v0.0.0-20261001052621-566edabbf258 // indirect
+	github.com/dumindu/E25DX v0.0.0-20260912172424-e44a412b1506 // indirect
 	github.com/edavidaja/docter v0.2.0 // indirect
 	github.com/eddiewebb/hugo-resume v0.0.0-20260903171754-c05485ec4c10 // indirect
 	github.com/elecbrandy/freshpink v0.0.0-20260206022413-d7159cc23c93 // indirect
@@ -258,7 +258,7 @@ require (
 	github.com/gonnux/hugo-apps-theme v2.0.0+incompatible // indirect
 	github.com/goodroot/hugo-classic v0.0.0-20250206231743-18a7c62ecc52 // indirect
 	github.com/goofansu/hugo-modus v1.0.2 // indirect
-	github.com/google/docsy v0.17.0 // indirect
+	github.com/google/docsy v0.18.0 // indirect
 	github.com/guangmean/Niello v5.0.0+incompatible // indirect
 	github.com/guangzhengli/hugo-theme-ladder v1.2.0 // indirect
 	github.com/gundamew/hugo-bingo v1.8.2 // indirect
@@ -578,7 +578,7 @@ require (
 	github.com/wd/hugo-fabric v0.0.0-20191202002427-c416adb14920 // indirect
 	github.com/weastur/hugo-texify2 v0.2.0 // indirect
 	github.com/wileybaba/hugo-theme-robotico v0.0.0-20190128025338-a1e633362eee // indirect
-	github.com/willfaught/paige v0.118.0 // indirect
+	github.com/willfaught/paige v0.119.0 // indirect
 	github.com/wlh320/hugo-theme-hulga v1.1.0 // indirect
 	github.com/wonyoung-jang/hugo-PolyRhythmic v0.0.0-20260221144855-8626c997dc74 // indirect
 	github.com/writeonlycode/hugo-agency-web v0.0.0-20250709134630-9b263db5d8f2 // indirect
