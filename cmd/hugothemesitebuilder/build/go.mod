@@ -321,7 +321,7 @@ require (
 	github.com/jgazeau/shadocs v0.0.0-20260930084539-a6f7aa05c7ed // indirect
 	github.com/jimfrenette/hugo-starter v0.0.0-20241219151336-d876912bf596 // indirect
 	github.com/jingplay/build-your-website v0.0.0-20241031094007-97f08d7e3aa3 // indirect
-	github.com/jkkNl/somestyleplease v0.0.0-20260719100317-513a05023606 // indirect
+	github.com/jkkNl/somestyleplease v0.0.0-20261009163929-a4d4bd0447da // indirect
 	github.com/jmablog/hugo-clinic-notes v0.0.0-20210111134623-7f5a64696c35 // indirect
 	github.com/jmfergeau/hugo.386 v0.0.0-20260817143806-2137e7e88e51 // indirect
 	github.com/jnjosh/internet-weblog v0.0.0-20241108191658-558b8b4ae01f // indirect
@@ -400,7 +400,7 @@ require (
 	github.com/mcrwfrd/hugo-frances-theme v0.0.0-20190917015302-bed6647b837f // indirect
 	github.com/mdashx/basicwebtheme v0.3.0 // indirect
 	github.com/mdfriday/theme-long-teng v0.0.0-20241127060205-1fabfc515857 // indirect
-	github.com/medialesson/hugo-theme-event v0.0.0-20260929132106-aeb3145fb489 // indirect
+	github.com/medialesson/hugo-theme-event v0.0.0-20261009125108-ef3b02a4d244 // indirect
 	github.com/meibenny/elephants v0.1.4 // indirect
 	github.com/meimakes/loficode-hugo-theme v0.0.0-20260625142301-4604b96f7c01 // indirect
 	github.com/meimakes/vintage-web-hugo-theme v0.0.0-20260625142301-8570b3c4a7bd // indirect
