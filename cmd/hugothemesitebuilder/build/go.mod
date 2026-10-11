@@ -65,7 +65,7 @@ require (
 	github.com/MarcusVirg/forty v0.0.0-20190430033326-dccea57bd2ed // indirect
 	github.com/Mariatta/hugo-theme-popular v0.13.0 // indirect
 	github.com/Masellum/hugo-theme-nostyleplease v0.0.0-20250120053207-cfbfe4e8ed13 // indirect
-	github.com/McShelby/hugo-theme-relearn v0.0.0-20261008204434-7fb6ece24e30 // indirect
+	github.com/McShelby/hugo-theme-relearn v0.0.0-20261010143210-a0dd4eb18e52 // indirect
 	github.com/MeiK2333/github-style v0.0.0-20260328081007-33ee598378fa // indirect
 	github.com/MichaelSchaecher/simple-dark v0.0.0-20250103115132-46361b0e75d6 // indirect
 	github.com/MunifTanjim/minimo v2.10.1+incompatible // indirect
@@ -385,7 +385,7 @@ require (
 	github.com/mansoorbarri/coming-soon v0.0.0-20250614214524-a7f0a30d1349 // indirect
 	github.com/mansoorbarri/glim-midnight v0.0.0-20250614213629-efd74b72c425 // indirect
 	github.com/mansoorbarri/roadster v0.0.0-20260330013217-cf57f17ee5a5 // indirect
-	github.com/maolonglong/hugo-simple v0.0.0-20261002144959-6682f5110896 // indirect
+	github.com/maolonglong/hugo-simple v0.0.0-20261010155314-302b03654db0 // indirect
 	github.com/marcanuy/simpleit-hugo-theme v0.0.0-20260212212648-108138d713d5 // indirect
 	github.com/marcelorodrigo/hugo-fortyten v3.1.0+incompatible // indirect
 	github.com/marketempower/axiom v0.9.0 // indirect
@@ -400,7 +400,7 @@ require (
 	github.com/mcrwfrd/hugo-frances-theme v0.0.0-20190917015302-bed6647b837f // indirect
 	github.com/mdashx/basicwebtheme v0.3.0 // indirect
 	github.com/mdfriday/theme-long-teng v0.0.0-20241127060205-1fabfc515857 // indirect
-	github.com/medialesson/hugo-theme-event v0.0.0-20261009125108-ef3b02a4d244 // indirect
+	github.com/medialesson/hugo-theme-event v0.0.0-20261010123520-e2981496a5aa // indirect
 	github.com/meibenny/elephants v0.1.4 // indirect
 	github.com/meimakes/loficode-hugo-theme v0.0.0-20260625142301-4604b96f7c01 // indirect
 	github.com/meimakes/vintage-web-hugo-theme v0.0.0-20260625142301-8570b3c4a7bd // indirect
@@ -578,7 +578,7 @@ require (
 	github.com/wd/hugo-fabric v0.0.0-20191202002427-c416adb14920 // indirect
 	github.com/weastur/hugo-texify2 v0.2.0 // indirect
 	github.com/wileybaba/hugo-theme-robotico v0.0.0-20190128025338-a1e633362eee // indirect
-	github.com/willfaught/paige v0.119.0 // indirect
+	github.com/willfaught/paige v0.119.1 // indirect
 	github.com/wlh320/hugo-theme-hulga v1.1.0 // indirect
 	github.com/wonyoung-jang/hugo-PolyRhythmic v0.0.0-20260221144855-8626c997dc74 // indirect
 	github.com/writeonlycode/hugo-agency-web v0.0.0-20250709134630-9b263db5d8f2 // indirect
