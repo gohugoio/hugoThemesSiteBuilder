@@ -710,6 +710,12 @@
         "ignoreConfig": true,
         "ignoreImports": true,
         "noMounts": true,
+        "path": "github.com/dadoonet/hugo-theme-devrel"
+      },
+      {
+        "ignoreConfig": true,
+        "ignoreImports": true,
+        "noMounts": true,
         "path": "github.com/damiencaselli/hugo-journal"
       },
       {
@@ -1226,7 +1232,7 @@
         "ignoreConfig": true,
         "ignoreImports": true,
         "noMounts": true,
-        "path": "github.com/halogenica/beautifulhugo"
+        "path": "github.com/halogenica/beautifulhugo/v5"
       },
       {
         "ignoreConfig": true,
@@ -2258,6 +2264,12 @@
         "ignoreConfig": true,
         "ignoreImports": true,
         "noMounts": true,
+        "path": "github.com/mobiusone-org/hugo-contour"
+      },
+      {
+        "ignoreConfig": true,
+        "ignoreImports": true,
+        "noMounts": true,
         "path": "github.com/mohamedelhefni/vitis"
       },
       {
@@ -2522,6 +2534,12 @@
         "ignoreConfig": true,
         "ignoreImports": true,
         "noMounts": true,
+        "path": "github.com/ouatis/hugo-theme-sigil"
+      },
+      {
+        "ignoreConfig": true,
+        "ignoreImports": true,
+        "noMounts": true,
         "path": "github.com/oxypteros/alpha"
       },
       {
@@ -2595,6 +2613,18 @@
         "ignoreImports": true,
         "noMounts": true,
         "path": "github.com/ph-ph/chalk"
+      },
+      {
+        "ignoreConfig": true,
+        "ignoreImports": true,
+        "noMounts": true,
+        "path": "github.com/PhantomPixelDev/hugo-theme-pico-corp"
+      },
+      {
+        "ignoreConfig": true,
+        "ignoreImports": true,
+        "noMounts": true,
+        "path": "github.com/PhantomPixelDev/hugo-theme-retrocss"
       },
       {
         "ignoreConfig": true,
@@ -3122,6 +3152,12 @@
         "ignoreConfig": true,
         "ignoreImports": true,
         "noMounts": true,
+        "path": "github.com/that-daniel/nuno"
+      },
+      {
+        "ignoreConfig": true,
+        "ignoreImports": true,
+        "noMounts": true,
         "path": "github.com/the2ne/hugo-frais"
       },
       {
@@ -3177,6 +3213,12 @@
         "ignoreImports": true,
         "noMounts": true,
         "path": "github.com/tomowang/hugo-theme-tailwind"
+      },
+      {
+        "ignoreConfig": true,
+        "ignoreImports": true,
+        "noMounts": true,
+        "path": "github.com/tomwrw/austere-theme-hugo"
       },
       {
         "ignoreConfig": true,

@@ -29,3 +29,12 @@ block content
 
 	c.Assert(fixReadmeContent(s), qt.Equals, "\n{{%/* details \"summary title\" */%}}\n\nblock content\n\n{{%/* /details */%}}\n")
 }
+
+func TestSplitHosts(t *testing.T) {
+	c := qt.New(t)
+
+	c.Assert(splitHosts(""), qt.IsNil)
+	c.Assert(splitHosts(" , "), qt.IsNil)
+	c.Assert(splitHosts("codeberg.org"), qt.DeepEquals, []string{"codeberg.org"})
+	c.Assert(splitHosts(" codeberg.org, gitlab.com ,"), qt.DeepEquals, []string{"codeberg.org", "gitlab.com"})
+}
