@@ -710,6 +710,12 @@
         "ignoreConfig": true,
         "ignoreImports": true,
         "noMounts": true,
+        "path": "github.com/dadoonet/hugo-theme-devrel"
+      },
+      {
+        "ignoreConfig": true,
+        "ignoreImports": true,
+        "noMounts": true,
         "path": "github.com/damiencaselli/hugo-journal"
       },
       {
@@ -1226,7 +1232,7 @@
         "ignoreConfig": true,
         "ignoreImports": true,
         "noMounts": true,
-        "path": "github.com/halogenica/beautifulhugo"
+        "path": "github.com/halogenica/beautifulhugo/v5"
       },
       {
         "ignoreConfig": true,
@@ -2258,6 +2264,12 @@
         "ignoreConfig": true,
         "ignoreImports": true,
         "noMounts": true,
+        "path": "github.com/mobiusone-org/hugo-contour"
+      },
+      {
+        "ignoreConfig": true,
+        "ignoreImports": true,
+        "noMounts": true,
         "path": "github.com/mohamedelhefni/vitis"
       },
       {
@@ -2474,6 +2486,12 @@
         "ignoreConfig": true,
         "ignoreImports": true,
         "noMounts": true,
+        "path": "github.com/omegion/hugo-omegion"
+      },
+      {
+        "ignoreConfig": true,
+        "ignoreImports": true,
+        "noMounts": true,
         "path": "github.com/onweru/compose"
       },
       {
@@ -2511,6 +2529,12 @@
         "ignoreImports": true,
         "noMounts": true,
         "path": "github.com/orf/bare-hugo-theme"
+      },
+      {
+        "ignoreConfig": true,
+        "ignoreImports": true,
+        "noMounts": true,
+        "path": "github.com/ouatis/hugo-theme-sigil"
       },
       {
         "ignoreConfig": true,
@@ -2589,6 +2613,18 @@
         "ignoreImports": true,
         "noMounts": true,
         "path": "github.com/ph-ph/chalk"
+      },
+      {
+        "ignoreConfig": true,
+        "ignoreImports": true,
+        "noMounts": true,
+        "path": "github.com/PhantomPixelDev/hugo-theme-pico-corp"
+      },
+      {
+        "ignoreConfig": true,
+        "ignoreImports": true,
+        "noMounts": true,
+        "path": "github.com/PhantomPixelDev/hugo-theme-retrocss"
       },
       {
         "ignoreConfig": true,
@@ -3116,6 +3152,12 @@
         "ignoreConfig": true,
         "ignoreImports": true,
         "noMounts": true,
+        "path": "github.com/that-daniel/nuno"
+      },
+      {
+        "ignoreConfig": true,
+        "ignoreImports": true,
+        "noMounts": true,
         "path": "github.com/the2ne/hugo-frais"
       },
       {
@@ -3171,6 +3213,12 @@
         "ignoreImports": true,
         "noMounts": true,
         "path": "github.com/tomowang/hugo-theme-tailwind"
+      },
+      {
+        "ignoreConfig": true,
+        "ignoreImports": true,
+        "noMounts": true,
+        "path": "github.com/tomwrw/austere-theme-hugo"
       },
       {
         "ignoreConfig": true,
@@ -3381,6 +3429,12 @@
         "ignoreImports": true,
         "noMounts": true,
         "path": "github.com/writeonlycode/hugo-up-business"
+      },
+      {
+        "ignoreConfig": true,
+        "ignoreImports": true,
+        "noMounts": true,
+        "path": "github.com/wthouse/scanlines"
       },
       {
         "ignoreConfig": true,
@@ -3723,6 +3777,12 @@
         "ignoreImports": true,
         "noMounts": true,
         "path": "github.com/Blunix-GmbH/hugo-theme-blunix"
+      },
+      {
+        "ignoreConfig": true,
+        "ignoreImports": true,
+        "noMounts": true,
+        "path": "github.com/k-s-pavan-kumar/hugo-nimbus"
       },
       {
         "ignoreConfig": true,

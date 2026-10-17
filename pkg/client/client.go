@@ -71,6 +71,10 @@ func (c *Client) IsBadURL(s string) bool {
 
 		}
 
+		if err := scanner.Err(); err != nil {
+			c.Logf("error: Failed to scan bad hosts: %s", err)
+		}
+
 		c.Logf("Loaded %d bad hosts", counter)
 	})
 
@@ -195,7 +199,9 @@ func (c *Client) RemoveModulePathFromThemesTxt(module string) error {
 // CreateThemesConfig reads themes.txt and creates a config.json
 // suitable for Hugo. Note that we're only using that config to
 // get the full module listing.
-func (c *Client) CreateThemesConfig() error {
+//
+// Themes hosted on any of skipHosts (e.g. "codeberg.org") are left out.
+func (c *Client) CreateThemesConfig(skipHosts []string) error {
 	// This looks a little funky, but we want the themes.txt to be
 	// easily visible for users to add to in the root of the project.
 	f, err := os.Open(c.themesTxtFilename())
@@ -207,21 +213,31 @@ func (c *Client) CreateThemesConfig() error {
 	config := make(map[string]interface{})
 	var imports []map[string]interface{}
 
+	skipped := 0
 	scanner := bufio.NewScanner(f)
 	for scanner.Scan() {
 		line := strings.TrimSpace(scanner.Text())
-		if !strings.HasPrefix(line, "#") {
-			imports = append(imports, map[string]interface{}{
-				"path":          line,
-				"ignoreImports": true,
-				"ignoreConfig":  true,
-				"noMounts":      true,
-			})
+		if line == "" || strings.HasPrefix(line, "#") {
+			continue
 		}
+		if hostMatches(line, skipHosts) {
+			skipped++
+			continue
+		}
+		imports = append(imports, map[string]interface{}{
+			"path":          line,
+			"ignoreImports": true,
+			"ignoreConfig":  true,
+			"noMounts":      true,
+		})
 	}
 
 	if err := scanner.Err(); err != nil {
 		return err
+	}
+
+	if skipped > 0 {
+		c.Logf("Skipping %d themes hosted on %s", skipped, strings.Join(skipHosts, ", "))
 	}
 
 	config["module"] = map[string]interface{}{
@@ -237,6 +253,82 @@ func (c *Client) CreateThemesConfig() error {
 	}
 
 	return os.WriteFile(filepath.Join(c.outDir, "config.json"), b, 0o666)
+}
+
+// RemoveHostsFromGoMod drops the require directives for modules hosted on
+// any of skipHosts from go.mod. This is needed in addition to leaving them
+// out of the imports: Hugo runs "go mod download" for every module in go.mod,
+// not only for the ones imported, so a host that is down would still fail
+// the build.
+//
+// Note that this modifies go.mod in place, so only use it in throwaway
+// builds (e.g. Netlify), never in the workflow that commits go.mod.
+func (c *Client) RemoveHostsFromGoMod(skipHosts []string) error {
+	if len(skipHosts) == 0 {
+		return nil
+	}
+
+	filename := filepath.Join(c.outDir, "go.mod")
+	b, err := os.ReadFile(filename)
+	if err != nil {
+		if os.IsNotExist(err) {
+			return nil
+		}
+		return err
+	}
+
+	var (
+		lines     []string
+		removed   int
+		inRequire bool
+	)
+
+	for _, line := range strings.Split(string(b), "\n") {
+		trimmed := strings.TrimSpace(line)
+		var modulePath string
+
+		switch {
+		case trimmed == "require (":
+			inRequire = true
+		case inRequire && trimmed == ")":
+			inRequire = false
+		case inRequire:
+			if fields := strings.Fields(trimmed); len(fields) > 0 && !strings.HasPrefix(fields[0], "//") {
+				modulePath = fields[0]
+			}
+		case strings.HasPrefix(trimmed, "require "):
+			if fields := strings.Fields(trimmed); len(fields) > 1 {
+				modulePath = fields[1]
+			}
+		}
+
+		if modulePath != "" && hostMatches(modulePath, skipHosts) {
+			removed++
+			continue
+		}
+
+		lines = append(lines, line)
+	}
+
+	if removed == 0 {
+		return nil
+	}
+
+	c.Logf("Removing %d modules hosted on %s from go.mod", removed, strings.Join(skipHosts, ", "))
+
+	return os.WriteFile(filename, []byte(strings.Join(lines, "\n")), 0o666)
+}
+
+// hostMatches reports whether the host part of modulePath (e.g. "codeberg.org"
+// in "codeberg.org/user/theme") is one of hosts.
+func hostMatches(modulePath string, hosts []string) bool {
+	host, _, _ := strings.Cut(modulePath, "/")
+	for _, h := range hosts {
+		if strings.EqualFold(host, h) {
+			return true
+		}
+	}
+	return false
 }
 
 func (c *Client) JoinOutPath(elem ...string) string {
