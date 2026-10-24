@@ -350,7 +350,7 @@
         "ignoreConfig": true,
         "ignoreImports": true,
         "noMounts": true,
-        "path": "github.com/bep/docuapi/v2"
+        "path": "github.com/bep/docuapi/v3"
       },
       {
         "ignoreConfig": true,
@@ -1850,6 +1850,12 @@
         "ignoreConfig": true,
         "ignoreImports": true,
         "noMounts": true,
+        "path": "github.com/koenemans/lambda"
+      },
+      {
+        "ignoreConfig": true,
+        "ignoreImports": true,
+        "noMounts": true,
         "path": "github.com/koirand/pulp"
       },
       {
@@ -2006,7 +2012,7 @@
         "ignoreConfig": true,
         "ignoreImports": true,
         "noMounts": true,
-        "path": "github.com/m1rm/techly"
+        "path": "github.com/m1rm/techly/v2"
       },
       {
         "ignoreConfig": true,
@@ -2823,6 +2829,12 @@
         "ignoreImports": true,
         "noMounts": true,
         "path": "github.com/runningstream/hugograyscale"
+      },
+      {
+        "ignoreConfig": true,
+        "ignoreImports": true,
+        "noMounts": true,
+        "path": "github.com/RustyDaemon/rusty-poison"
       },
       {
         "ignoreConfig": true,
