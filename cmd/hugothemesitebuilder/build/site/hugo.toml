@@ -8,6 +8,15 @@ _merge = "deep"
 [taxonomies]
   tag = "tags"
 
+# The shared Hugo Docs layouts run the stylesheet through css.TailwindCSS, and
+# Hugo's default security policy does not allow that binary to be executed --
+# note that the default node permissions below it already whitelist tailwindcss,
+# so only the exec list is out of step. Without this the site build fails with
+# `TAILWINDCSS: failed to transform "/css/styles.css" ... access denied`.
+[security]
+  [security.exec]
+    allow = ['^(dart-)?sass$', '^go$', '^git$', '^node$', '^postcss$', '^tailwindcss$']
+
 [module]
   [module.hugoVersion]
     min = "0.145.0"

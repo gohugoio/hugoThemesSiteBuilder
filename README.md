@@ -180,6 +180,12 @@ The Netlify deploy preview can fail for a variety of reasons. The following step
    
    </details>
 
+# Maintainer notes
+
+## Git host outages
+
+Themes are fetched directly from their Git hosts (no Go module proxy), so an unstable host can fail the build. If a host is unstable for a longer period, its themes can be left out of the build by setting the `HUGO_THEMES_SKIP_HOSTS` environment variable (or the `-skipHosts` flag) to a comma separated list of hosts, e.g. `codeberg.org`. This is meant for the Netlify build (see `netlify.toml`); the themes will be missing from the site until the variable is removed again. Do not set it in the scheduled GitHub workflow, as that would remove the themes from the committed `go.mod`.
+
 # Outdated themes
 
 Themes are removed if they haven't been updated in the last 18 months. Even if your theme works now, we strongly recommend you periodically check its compatibility with the latest version of Hugo.

@@ -38,7 +38,29 @@ type Config struct {
 	// Set to true to remove the GitHub cache before building.
 	cleanCache bool
 
+	// Comma separated list of Git hosts (e.g. "codeberg.org") to leave out
+	// of this build. Useful when a host is unstable.
+	skipHosts string
+
 	rootConfig *rootcmd.Config
+}
+
+// skipHostsEnv is the environment variable that provides the default for
+// the -skipHosts flag, so it can be set in e.g. the Netlify build settings.
+const skipHostsEnv = "HUGO_THEMES_SKIP_HOSTS"
+
+func (c *Config) skipHostsList() []string {
+	return splitHosts(c.skipHosts)
+}
+
+func splitHosts(s string) []string {
+	var hosts []string
+	for _, h := range strings.Split(s, ",") {
+		if h = strings.TrimSpace(h); h != "" {
+			hosts = append(hosts, h)
+		}
+	}
+	return hosts
 }
 
 // New returns a usable ffcli.Command for the get subcommand.
@@ -51,6 +73,7 @@ func New(rootConfig *rootcmd.Config) *ffcli.Command {
 	fs.BoolVar(&cfg.noClean, "noClean", false, "do not clean out /content before building")
 	fs.BoolVar(&cfg.skipSiteBuild, "skipSiteBuild", false, "skip the final site build")
 	fs.BoolVar(&cfg.cleanCache, "cleanCache", false, "clean the GitHub cache before building")
+	fs.StringVar(&cfg.skipHosts, "skipHosts", os.Getenv(skipHostsEnv), "comma separated list of Git hosts (e.g. codeberg.org) to skip in this build (default from "+skipHostsEnv+")")
 	rootConfig.RegisterFlags(fs)
 
 	return &ffcli.Command{
@@ -119,8 +142,14 @@ func (c *Config) Exec(ctx context.Context, args []string) error {
 		}
 	}
 
-	if err := bc.CreateThemesConfig(); err != nil {
+	skipHosts := c.skipHostsList()
+
+	if err := bc.CreateThemesConfig(skipHosts); err != nil {
 		return err
+	}
+
+	if err := bc.RemoveHostsFromGoMod(skipHosts); err != nil {
+		return fmt.Errorf("failed to remove skipped hosts from go.mod: %w", err)
 	}
 
 	var err error
@@ -153,7 +182,7 @@ func (c *Config) Exec(ctx context.Context, args []string) error {
 			if err := bc.RemoveModulePathFromThemesTxt(failedModulePath); err != nil {
 				return fmt.Errorf("failed to remove module %q from themes.txt: %w", failedModulePath, err)
 			}
-			if err := bc.CreateThemesConfig(); err != nil {
+			if err := bc.CreateThemesConfig(skipHosts); err != nil {
 				return err
 			}
 		}
