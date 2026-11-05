@@ -347,7 +347,7 @@ require (
 	github.com/kaiiiz/hugo-theme-monochrome v6.0.0+incompatible // indirect
 	github.com/kakawait/hugo-tranquilpeak-theme v0.0.0-20220821070134-3b5676afca7e // indirect
 	github.com/kaushalmodi/hugo-bare-min-theme v0.6.0 // indirect
-	github.com/kaushikgopal/henry-hugo v0.0.0-20260906045301-56638182daa9 // indirect
+	github.com/kaushikgopal/henry-hugo v0.0.0-20261104225831-1d064d89e1e6 // indirect
 	github.com/kc0bfv/autophugo v0.0.0-20260906232304-080cc98cdf3b // indirect
 	github.com/kc0bfv/ticky_tacky_dark v0.0.0-20221111221805-f626fbd274d1 // indirect
 	github.com/kdevo/osprey-delight/v5 v5.0.8 // indirect
@@ -461,7 +461,7 @@ require (
 	github.com/opera7133/tella v0.0.0-20260513062636-8b178b3dbcb2 // indirect
 	github.com/opera7133/vnovel v0.0.0-20260219064747-5c26af554a67 // indirect
 	github.com/orf/bare-hugo-theme v0.0.0-20230401233253-f285059e1e56 // indirect
-	github.com/ouatis/hugo-theme-sigil v0.12.0 // indirect
+	github.com/ouatis/hugo-theme-sigil v0.13.0 // indirect
 	github.com/oxypteros/alpha v1.3.0 // indirect
 	github.com/pacollins/calligraphy v0.0.0-20240926020640-ae396029849e // indirect
 	github.com/panr/hugo-theme-terminal/v4 v4.2.6 // indirect
@@ -473,7 +473,7 @@ require (
 	github.com/peaceiris/hugo-theme-iris v0.47.1 // indirect
 	github.com/penyt/morandyt v0.0.0-20260224010529-a6ee98200924 // indirect
 	github.com/pfadfinder-konstanz/hugo-dpsg v0.0.0-20241230153742-cfa903e0f4ac // indirect
-	github.com/pgsty/oink v1.4.0 // indirect
+	github.com/pgsty/oink v1.5.0 // indirect
 	github.com/ph-ph/chalk v0.0.0-20220515225815-7fa5c9bfc682 // indirect
 	github.com/pjbakker/flexible-seo-hugo v0.0.0-20210413080041-d65d15e84bd4 // indirect
 	github.com/plopcas/papaya v0.0.0-20200127235252-eaa132580761 // indirect
@@ -543,7 +543,7 @@ require (
 	github.com/stultus/kavu v1.1.2 // indirect
 	github.com/sudorook/capsule v0.9.0 // indirect
 	github.com/surajmandalcell/potato-dark v0.0.0-20230514060246-fb0ef4c222e7 // indirect
-	github.com/taikii/whiteplain v0.0.0-20240831225529-e80918a53acd // indirect
+	github.com/taikii/whiteplain v0.0.0-20261104042932-a5e277e723b6 // indirect
 	github.com/tastaturtier/someparts-hugo v1.0.2 // indirect
 	github.com/tatsatb/TatBanTheme2.0 v0.0.0-20250307072824-0eb91d4adef7 // indirect
 	github.com/tblyler/light-hugo v0.0.0-20201014192444-65d2bef4320a // indirect
