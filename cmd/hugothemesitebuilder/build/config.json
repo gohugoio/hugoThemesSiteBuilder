@@ -338,6 +338,12 @@
         "ignoreConfig": true,
         "ignoreImports": true,
         "noMounts": true,
+        "path": "github.com/baozongwi/flavor"
+      },
+      {
+        "ignoreConfig": true,
+        "ignoreImports": true,
+        "noMounts": true,
         "path": "github.com/barklan/hugo-dead-simple"
       },
       {
@@ -350,7 +356,7 @@
         "ignoreConfig": true,
         "ignoreImports": true,
         "noMounts": true,
-        "path": "github.com/bep/docuapi/v2"
+        "path": "github.com/bep/docuapi/v3"
       },
       {
         "ignoreConfig": true,
@@ -1232,7 +1238,7 @@
         "ignoreConfig": true,
         "ignoreImports": true,
         "noMounts": true,
-        "path": "github.com/halogenica/beautifulhugo"
+        "path": "github.com/halogenica/beautifulhugo/v5"
       },
       {
         "ignoreConfig": true,
@@ -1850,6 +1856,12 @@
         "ignoreConfig": true,
         "ignoreImports": true,
         "noMounts": true,
+        "path": "github.com/koenemans/lambda"
+      },
+      {
+        "ignoreConfig": true,
+        "ignoreImports": true,
+        "noMounts": true,
         "path": "github.com/koirand/pulp"
       },
       {
@@ -2006,7 +2018,7 @@
         "ignoreConfig": true,
         "ignoreImports": true,
         "noMounts": true,
-        "path": "github.com/m1rm/techly"
+        "path": "github.com/m1rm/techly/v2"
       },
       {
         "ignoreConfig": true,
@@ -2126,6 +2138,12 @@
         "ignoreConfig": true,
         "ignoreImports": true,
         "noMounts": true,
+        "path": "github.com/maxfettinger/fieldnotes"
+      },
+      {
+        "ignoreConfig": true,
+        "ignoreImports": true,
+        "noMounts": true,
         "path": "github.com/mazgi/hugo-theme-techlog-simple"
       },
       {
@@ -2229,6 +2247,12 @@
         "ignoreImports": true,
         "noMounts": true,
         "path": "github.com/mikeblum/hugo-now"
+      },
+      {
+        "ignoreConfig": true,
+        "ignoreImports": true,
+        "noMounts": true,
+        "path": "github.com/minyeamer/hugo-seotax"
       },
       {
         "ignoreConfig": true,
@@ -2823,6 +2847,12 @@
         "ignoreImports": true,
         "noMounts": true,
         "path": "github.com/runningstream/hugograyscale"
+      },
+      {
+        "ignoreConfig": true,
+        "ignoreImports": true,
+        "noMounts": true,
+        "path": "github.com/RustyDaemon/rusty-poison"
       },
       {
         "ignoreConfig": true,
