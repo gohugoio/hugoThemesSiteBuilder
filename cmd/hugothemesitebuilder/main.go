@@ -9,6 +9,7 @@ import (
 	"time"
 
 	"github.com/gohugoio/hugoThemesSiteBuilder/pkg/buildcmd"
+	"github.com/gohugoio/hugoThemesSiteBuilder/pkg/checkcmd"
 	"github.com/gohugoio/hugoThemesSiteBuilder/pkg/client"
 	"github.com/gohugoio/hugoThemesSiteBuilder/pkg/rootcmd"
 	"github.com/peterbourgon/ff/v3"
@@ -21,6 +22,7 @@ func main() {
 	var (
 		rootCommand, rootConfig = rootcmd.New()
 		buildCommand            = buildcmd.New(rootConfig)
+		checkCommand            = checkcmd.New(rootConfig)
 
 		versionCommand = &ffcli.Command{
 			Name:       "version",
@@ -35,6 +37,7 @@ func main() {
 
 	rootCommand.Subcommands = []*ffcli.Command{
 		buildCommand,
+		checkCommand,
 		versionCommand,
 	}
 
