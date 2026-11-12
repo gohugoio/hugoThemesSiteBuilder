@@ -29,7 +29,7 @@ require (
 	github.com/Blackstareye/stargazer-layout v1.1.2 // indirect
 	github.com/Blunix-GmbH/hugo-theme-blunix v1.0.0 // indirect
 	github.com/CaiJimmy/hugo-theme-stack/v3 v3.34.2 // indirect
-	github.com/ChrisWiegman/kana-hugo-theme v0.0.0-20261108182924-055f5df3c453 // indirect
+	github.com/ChrisWiegman/kana-hugo-theme v0.0.0-20261112003218-ad0d259a98eb // indirect
 	github.com/CyrusYip/hugo-theme-yue v0.0.0-20261028141713-93b92460f144 // indirect
 	github.com/D-Sketon/hugo-theme-reimu v0.16.1 // indirect
 	github.com/Daucloud/hugo-theme-void v0.0.0-20260908062151-3db9a58723f3 // indirect
@@ -223,7 +223,7 @@ require (
 	github.com/dplesca/purehugo v0.0.0-20190924072610-5b577adff2e1 // indirect
 	github.com/dsrkafuu/hugo-theme-fuji v2.8.2+incompatible // indirect
 	github.com/dukebarman/dragon-lab v0.0.0-20260719195959-856533c61c73 // indirect
-	github.com/dumindu/E25DX v0.0.0-20261101063414-84e260f5dc20 // indirect
+	github.com/dumindu/E25DX v0.0.0-20261111131825-dfb492812bf0 // indirect
 	github.com/edavidaja/docter v0.2.0 // indirect
 	github.com/eddiewebb/hugo-resume v0.0.0-20260903171754-c05485ec4c10 // indirect
 	github.com/elecbrandy/freshpink v0.0.0-20260206022413-d7159cc23c93 // indirect
@@ -248,7 +248,7 @@ require (
 	github.com/frjo/hugo-theme-zen/v5 v5.9.0 // indirect
 	github.com/funkydan2/alpha-church v0.0.0-20261031092236-a700100ce695 // indirect
 	github.com/funkydan2/hugo-kiera v1.1.3 // indirect
-	github.com/g1eny0ung/hugo-theme-dream v3.17.1-0.20261006114338-1bf86a1b1f7a+incompatible // indirect
+	github.com/g1eny0ung/hugo-theme-dream v3.18.0+incompatible // indirect
 	github.com/garvincasimir/hugo-h5bp-simple v0.0.0-20190817231606-e834d00b96bb // indirect
 	github.com/gcaracuel/hugo-theme-gutenberg v0.0.0-20210225105328-abd624652c48 // indirect
 	github.com/gentleadam/hugo-menu v0.0.0-20250110132225-bba55df574d5 // indirect
