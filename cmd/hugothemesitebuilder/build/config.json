@@ -92,6 +92,12 @@
         "ignoreConfig": true,
         "ignoreImports": true,
         "noMounts": true,
+        "path": "github.com/9zxu/evershibui"
+      },
+      {
+        "ignoreConfig": true,
+        "ignoreImports": true,
+        "noMounts": true,
         "path": "github.com/aanupam23/hugo-sugoi"
       },
       {
@@ -207,6 +213,12 @@
         "ignoreImports": true,
         "noMounts": true,
         "path": "github.com/ameio/hugo-arogya-theme"
+      },
+      {
+        "ignoreConfig": true,
+        "ignoreImports": true,
+        "noMounts": true,
+        "path": "github.com/amigoer/almanac"
       },
       {
         "ignoreConfig": true,
@@ -812,6 +824,12 @@
         "ignoreConfig": true,
         "ignoreImports": true,
         "noMounts": true,
+        "path": "github.com/delphij/chaos-theme"
+      },
+      {
+        "ignoreConfig": true,
+        "ignoreImports": true,
+        "noMounts": true,
         "path": "github.com/derme302/triple-hyde"
       },
       {
@@ -1071,6 +1089,12 @@
         "ignoreImports": true,
         "noMounts": true,
         "path": "github.com/fducat18/hugo-air"
+      },
+      {
+        "ignoreConfig": true,
+        "ignoreImports": true,
+        "noMounts": true,
+        "path": "github.com/freaktopus/hugo-theme-freaky"
       },
       {
         "ignoreConfig": true,
@@ -3651,6 +3675,12 @@
         "ignoreImports": true,
         "noMounts": true,
         "path": "github.com/zetxek/adritian-free-hugo-theme"
+      },
+      {
+        "ignoreConfig": true,
+        "ignoreImports": true,
+        "noMounts": true,
+        "path": "github.com/zetxek/systemone"
       },
       {
         "ignoreConfig": true,
