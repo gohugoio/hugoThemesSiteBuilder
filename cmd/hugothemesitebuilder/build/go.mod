@@ -8,7 +8,7 @@ require (
 	codeberg.org/VaDeCodiNet/hugo-simple-sections v0.0.0-20251209133628-85865438cda5 // indirect
 	codeberg.org/farooqkz/hugo-vitae v0.0.0-20261112190445-5b14091a0bc7 // indirect
 	codeberg.org/gbilder/eurozephyr v0.0.0-20260211065626-05264caa9aaf // indirect
-	codeberg.org/head1328/hugo-liftoff v0.2.1 // indirect
+	codeberg.org/head1328/hugo-liftoff v0.3.0 // indirect
 	github.com/10mohi6/hugo-theme-simple-blog v0.0.0-20200616052212-86b4f6f6d734 // indirect
 	github.com/1bl4z3r/hermit-V2 v1.1.37 // indirect
 	github.com/2-REC/hugo-myportfolio-theme v0.0.0-20250611065333-8d40cb6ce963 // indirect
@@ -66,7 +66,7 @@ require (
 	github.com/MarcusVirg/forty v0.0.0-20190430033326-dccea57bd2ed // indirect
 	github.com/Mariatta/hugo-theme-popular v0.14.3 // indirect
 	github.com/Masellum/hugo-theme-nostyleplease v0.0.0-20250120053207-cfbfe4e8ed13 // indirect
-	github.com/McShelby/hugo-theme-relearn v0.0.0-20261113115926-289a03821aae // indirect
+	github.com/McShelby/hugo-theme-relearn v0.0.0-20261114023337-17007df970da // indirect
 	github.com/MeiK2333/github-style v0.0.0-20260328081007-33ee598378fa // indirect
 	github.com/MichaelSchaecher/simple-dark v0.0.0-20250103115132-46361b0e75d6 // indirect
 	github.com/MunifTanjim/minimo v2.10.1+incompatible // indirect
@@ -234,7 +234,7 @@ require (
 	github.com/eshlox/simplicity v2.1.0+incompatible // indirect
 	github.com/everfu/hugo-solitude v1.0.0 // indirect
 	github.com/fauzanmy/pehtheme-hugo v0.0.0-20250628024136-28d138580ffc // indirect
-	github.com/fducat18/hugo-air v0.6.0 // indirect
+	github.com/fducat18/hugo-air v0.7.4 // indirect
 	github.com/felicianotech/hugo-theme-lean-launch-page v0.3.0 // indirect
 	github.com/felipecordero/careercanvas v0.0.0-20261027224322-9049c7977967 // indirect
 	github.com/fiatjaf/classless-hugo v0.0.0-20190708182146-0b99da439e48 // indirect
