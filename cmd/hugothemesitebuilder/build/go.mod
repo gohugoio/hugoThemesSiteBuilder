@@ -214,7 +214,7 @@ require (
 	github.com/desmondlzy/bloggraph v0.0.0-20251203233345-c18aca2c9fb9 // indirect
 	github.com/devcows/hugo-universal-theme v0.0.0-20260316155541-d3000904ec2d // indirect
 	github.com/dewittn/hugo-html5up-alpha v0.0.0-20200529171052-b921f3bccb74 // indirect
-	github.com/dillonzq/LoveIt v0.3.1 // indirect
+	github.com/dillonzq/LoveIt v0.4.0 // indirect
 	github.com/dipeshsingh253/saral v0.0.0-20240617064024-edfa5cdb2aa5 // indirect
 	github.com/discaptive/hugo-discaptive v0.0.0-20250315104223-79bc61d63c00 // indirect
 	github.com/diwao/hestia-pure v0.0.0-20260517132503-87413b1adf84 // indirect
@@ -238,13 +238,13 @@ require (
 	github.com/felicianotech/hugo-theme-lean-launch-page v0.3.0 // indirect
 	github.com/felipecordero/careercanvas v0.0.0-20261027224322-9049c7977967 // indirect
 	github.com/fiatjaf/classless-hugo v0.0.0-20190708182146-0b99da439e48 // indirect
-	github.com/filipecarneiro/hugo-bootstrap-theme v2.2.14+incompatible // indirect
+	github.com/filipecarneiro/hugo-bootstrap-theme v2.2.16+incompatible // indirect
 	github.com/floyd-li/hugo-theme-itheme v0.0.0-20240108015539-c22b5df3f2d7 // indirect
 	github.com/fncnt/vncnt-hugo v0.0.0-20240422191321-fad7815bc6eb // indirect
 	github.com/forestryio/hugo-theme-novela v0.0.0-20210222084032-5d015eef4c56 // indirect
 	github.com/fourtyone11/origin-hugo-theme v0.0.0-20200611125917-021c45772a9a // indirect
 	github.com/foxihd/hugo-brewm v2.11.2+incompatible // indirect
-	github.com/foxihd/hugo-foxx v0.0.0-20261113153053-dc7f1d834dcf // indirect
+	github.com/foxihd/hugo-foxx v0.0.0-20261116071221-b16333732a01 // indirect
 	github.com/freaktopus/hugo-theme-freaky v0.1.0 // indirect
 	github.com/frjo/hugo-theme-zen/v5 v5.9.0 // indirect
 	github.com/funkydan2/alpha-church v0.0.0-20261031092236-a700100ce695 // indirect
@@ -620,7 +620,7 @@ require (
 	github.com/zerostaticthemes/hugo-serif-theme v1.1.1 // indirect
 	github.com/zerostaticthemes/hugo-whisper-theme v0.0.0-20231126060839-511dcd7dca62 // indirect
 	github.com/zerostaticthemes/hugo-winston-theme v1.4.0 // indirect
-	github.com/zetxek/adritian-free-hugo-theme v1.13.0 // indirect
+	github.com/zetxek/adritian-free-hugo-theme v1.14.0 // indirect
 	github.com/zetxek/systemone v0.1.1 // indirect
 	github.com/zhaohuabing/hugo-theme-cleanwhite v0.0.0-20260219130302-f1266b575eb8 // indirect
 	github.com/zhe/hugo-theme-slim v0.0.0-20190920014445-f666effe196a // indirect
