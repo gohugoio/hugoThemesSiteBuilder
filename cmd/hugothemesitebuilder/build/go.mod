@@ -260,7 +260,7 @@ require (
 	github.com/gethyas/doks v2.0.2+incompatible // indirect
 	github.com/gevhaz/hugo-theme-notrack v1.4.0 // indirect
 	github.com/gizak/nofancy v0.0.0-20180325214227-ae4670287c71 // indirect
-	github.com/gohugo-ananke/ananke/v2 v2.19.1 // indirect
+	github.com/gohugo-ananke/ananke/v2 v2.20.0 // indirect
 	github.com/gonnux/hugo-apps-theme v2.0.0+incompatible // indirect
 	github.com/goodroot/hugo-classic v0.0.0-20250206231743-18a7c62ecc52 // indirect
 	github.com/goofansu/hugo-modus v1.0.2 // indirect
@@ -351,7 +351,7 @@ require (
 	github.com/kaiiiz/hugo-theme-monochrome v6.0.0+incompatible // indirect
 	github.com/kakawait/hugo-tranquilpeak-theme v0.0.0-20220821070134-3b5676afca7e // indirect
 	github.com/kaushalmodi/hugo-bare-min-theme v0.6.0 // indirect
-	github.com/kaushikgopal/henry-hugo v0.0.0-20261112025526-3b81915d7ca3 // indirect
+	github.com/kaushikgopal/henry-hugo v0.0.0-20261118224956-f6782a4fccd4 // indirect
 	github.com/kc0bfv/autophugo v0.0.0-20260906232304-080cc98cdf3b // indirect
 	github.com/kc0bfv/ticky_tacky_dark v0.0.0-20221111221805-f626fbd274d1 // indirect
 	github.com/kdevo/osprey-delight/v5 v5.0.8 // indirect
@@ -612,7 +612,7 @@ require (
 	github.com/yuis-ice/hugo-kawaii v0.0.0-20260925183437-0195b1da732c // indirect
 	github.com/yursan9/manis-hugo-theme v0.0.0-20230228032349-9e8e09ebfc78 // indirect
 	github.com/zEttOn86/hugo_theme_windy v0.0.0-20240928062706-67ab0c273a76 // indirect
-	github.com/zavarovkv/hugo-mini/v3 v3.5.0 // indirect
+	github.com/zavarovkv/hugo-mini/v4 v4.0.0 // indirect
 	github.com/zenpe/hugo-theme-linen v0.0.0-20260623072403-74128da035a2 // indirect
 	github.com/zenpe/zen v0.0.1 // indirect
 	github.com/zeon-studio/hugoplate v0.0.0-20261103103238-c7606775b18e // indirect
