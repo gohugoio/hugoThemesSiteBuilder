@@ -558,7 +558,6 @@ require (
 	github.com/thegeeklab/hugo-geekblog v6.0.0+incompatible // indirect
 	github.com/thegeeklab/hugo-geekdoc v5.0.0+incompatible // indirect
 	github.com/thingsym/hugo-theme-techdoc v1.1.0 // indirect
-	github.com/tnwhitwell/hugo-startpage-theme v0.0.0-20180704204829-76b1a1f5808e // indirect
 	github.com/tohn/linkshrubbery v0.0.0-20260518061337-a2070400963f // indirect
 	github.com/tom2almighty/hugo-narrow v1.4.1 // indirect
 	github.com/tomowang/hugo-theme-tailwind v0.0.0-20261021124013-a3028f21d20e // indirect
